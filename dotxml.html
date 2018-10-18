@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  
+  <style>
+  
+  strong{color:red; }
+  
+  label{padding:0.5em; border-radius:0.2em; background-color: rgba(255,255,255,0.4); }
+  
+  .pole{width:50%;}
+  
+  #zadani{width:50%; height:30%; position: absolute; left:25%; top:0; border-radius: 0 0 2em 2em; background-color: rgb(0,203,136); padding:2em;
+  text-align:center;}
+  
+  iframe{width:50%; height:50%; border-width:0.2em; border-color:black;}
+  .popis{width:45%; height:3%; border-width:0em; background-color: rgba(255,255,255,0.7); font-weight:bold; padding:0.5%; }
+  
+  #dotaz1{position:absolute; left:0; top:0}
+  #dotaz2{position:absolute; left:50%; top:0}
+  #dotaz3{position:absolute; left:0; top:50%}
+  #dotaz4{position:absolute; left:50%; top:50%}
+  
+  #popis1{position:absolute; left:0; top:0}
+  #popis2{position:absolute; left:50%; top:0}
+  #popis3{position:absolute; left:0; top:50%}
+  #popis4{position:absolute; left:50%; top:50%}
+  
+  .tlacitko{padding:0.5em; border-radius:0.2em; font-weight:bold;}
+  
+  </style>
+  
+  <script src="js/jquery.js"></script>
+  <script>
+  
+  
+  function hledej()
+  {
+  
+  var cql1 = document.all.dcql1.value;
+  var cql2 = document.all.dcql2.value;
+    
+   
+    
+ var q1 = 'https://kontext.korpus.cz/run.cgi/savefreq?saveformat=xml&from_line=1&to_line=&q=aword%2C' + escape(cql1) + 'within+%3Cdoc+a_gender%3D%22FEMALE%22+%2F%3E&amp;q=f;corpname=pceec&amp;refs=%3Did.code;fcrit=doc.b+0&amp;fcrit=doc.q_collection+0&amp;fcrit=doc.q_authentic+0&amp;fcrit=doc.q_rectype+0&amp;fcrit=doc.l_period+0&amp;fcrit=doc.a_gender+0&amp;fcrit=doc.a_rel+0&amp;fcrit=doc.r_gender+0&amp;fcrit=doc.r_rel+0;ml=0&amp;flimit=0&amp;freq_sort=&amp;fpage=1&amp;ftt_include_empty=';
+ 
+
+ 
+ var q2='https://kontext.korpus.cz/run.cgi/savefreq?saveformat=xml&from_line=1&to_line=&q=aword%2C' + escape(cql1) + 'within+%3Cdoc+a_gender%3D%22MALE%22+%2F%3E&amp;q=f;corpname=pceec&amp;refs=%3Did.code;fcrit=doc.b+0&amp;fcrit=doc.q_collection+0&amp;fcrit=doc.q_authentic+0&amp;fcrit=doc.q_rectype+0&amp;fcrit=doc.l_period+0&amp;fcrit=doc.a_gender+0&amp;fcrit=doc.a_rel+0&amp;fcrit=doc.r_gender+0&amp;fcrit=doc.r_rel+0;ml=0&amp;flimit=0&amp;freq_sort=&amp;fpage=1&amp;ftt_include_empty=';
+ 
+  var q3 =  'https://kontext.korpus.cz/run.cgi/savefreq?saveformat=xml&from_line=1&to_line=&q=aword%2C' + escape(cql2) + 'within+%3Cdoc+a_gender%3D%22FEMALE%22+%2F%3E&amp;q=f;corpname=pceec&amp;refs=%3Did.code;fcrit=doc.b+0&amp;fcrit=doc.q_collection+0&amp;fcrit=doc.q_authentic+0&amp;fcrit=doc.q_rectype+0&amp;fcrit=doc.l_period+0&amp;fcrit=doc.a_gender+0&amp;fcrit=doc.a_rel+0&amp;fcrit=doc.r_gender+0&amp;fcrit=doc.r_rel+0;ml=0&amp;flimit=0&amp;freq_sort=&amp;fpage=1&amp;ftt_include_empty=';
+ 
+ var q4='https://kontext.korpus.cz/run.cgi/savefreq?saveformat=xml&from_line=1&to_line=&q=aword%2C' + escape(cql2) + 'within+%3Cdoc+a_gender%3D%22MALE%22+%2F%3E&amp;q=f;corpname=pceec&amp;refs=%3Did.code;fcrit=doc.b+0&amp;fcrit=doc.q_collection+0&amp;fcrit=doc.q_authentic+0&amp;fcrit=doc.q_rectype+0&amp;fcrit=doc.l_period+0&amp;fcrit=doc.a_gender+0&amp;fcrit=doc.a_rel+0&amp;fcrit=doc.r_gender+0&amp;fcrit=doc.r_rel+0;ml=0&amp;flimit=0&amp;freq_sort=&amp;fpage=1&amp;ftt_include_empty=';
+  
+  $("#dotaz1").attr("src", q1);
+  $("#dotaz2").attr("src", q2);
+  $("#dotaz3").attr("src", q3);
+  $("#dotaz4").attr("src", q4);
+  
+  $("#zadani").css("display","none");
+     
+  $("#popis1").html("<strong>SUBKORPUS:</strong> female <strong>DOTAZ: </strong>"+cql1);
+   $("#popis2").html("<strong>SUBKORPUS:</strong> male <strong>DOTAZ: </strong>"+cql1);
+    $("#popis3").html("<strong>SUBKORPUS:</strong> female <strong>DOTAZ: </strong>"+cql2);
+     $("#popis4").html("<strong>SUBKORPUS:</strong> male <strong>DOTAZ: </strong>"+cql2);
+  }
+  
+
+  </script>
+  
+  </head>
+  <body>
+  
+  
+  
+  <iframe id="dotaz1"></iframe>
+  <iframe id="dotaz2"></iframe>
+  <iframe id="dotaz3"></iframe>
+  <iframe id="dotaz4"></iframe>
+  
+  <div class="popis" id="popis1"></div>
+  <div class="popis" id="popis2"></div>
+  <div class="popis" id="popis3"></div>
+  <div class="popis" id="popis4"></div>
+
+<div id="zadani">
+
+
+
+<label>První dotaz (CQL): <input type="text" name="dcql1" id="dcql1" class="pole"></label><br><br><br>
+<label>Druhý dotaz (CQL): <input type="text" name="dcql2" id="dcql2" class="pole"></label><br><br><br>
+
+<input type="button" value="Provést" class="tlacitko" onClick="hledej();">
+
+
+</div>
+
+  </body>
+</html>

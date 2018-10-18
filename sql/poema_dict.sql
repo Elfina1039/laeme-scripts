@@ -1,0 +1,1 @@
+﻿SELECT lexel, grammel, array_agg(form), count(*) FROM new_laeme WHERE text in (4,5,6,7,8,9,10) GROUP BY lexel, grammel ORDER BY count DESC, lexel

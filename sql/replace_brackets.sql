@@ -1,0 +1,1 @@
+UPDATE palatalisation SET grammel=regexp_replace(grammel, '&gt;', '>')  WHERE grammel SIMILAR TO '%&%'

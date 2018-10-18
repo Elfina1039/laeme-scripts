@@ -1,0 +1,139 @@
+# 183
+$/P11N_*ICH
+$believe/vps11_GE+LEUE $ge-/xp-vps11_GE+
+$in{b}/pr_ON
+$/T<pr_yANE
+$father/n<pr_FADER
+$alwealdende/aj<pr_AL+wELD+ENDE $wealdende/aj<pr-k_+wELD+ENDE $/vpsp-aj<pr_+ENDE
+{.}
+$scyppend/n<pr_SCEPP+INDE $-end/xs-n<pr_+INDE
+$of/pr_OF
+$heaven/n<pr_HEUENE
+$&/cj_&
+$of/pr_OF
+$earth/n<pr_EORyE
+{.}
+$&/cj_&
+$of/pr_OF
+$all/ajpl<pr_EALL+E $/plaj<pr_+E
+$sceaft/npl<pr_GE+SCHEFT+EN $ge-/xp-n_GE+ $/pln<pr_+EN
+{.}
+$&/cj_&
+$in{b}/pr_ON
+$hae:lend/n<pr_HAL+ENDE $-end/xs-n<pr_+ENDE
+$christ/n<pr-t_CRIST
+$/P13GM_HIS
+$only/aj<pr_AN+LICHE $-ly/xs-aj<pr_+LICHE
+$son/n<pr_SUNE
+$/P21G_URE
+$lord/n<pr_LHAFERD
+{.}
+$/P13NM_HE
+$be/vpt13_wAS
+$acennan{b}/vpp_A+KENN+ED $a-/xp-v_A+ $/vpp[N]_+ED
+$through/pr_yURH
+$/T<pr_yE
+$might/n<pr_MIHTE
+$of/pr_OF
+$/T<pr_yAN
+$holy/aj<pr_HAL+GE $-ig/xs-aj<pr_+GE
+$ghost/n<pr_GAST
+{.}
+$born/vSpp_*GE+BOR+EN $ge-/xp-vpp_*GE+ $/vSpp[R]_+EN
+$of/pr_OF
+$/T<pr_yA
+$maiden/n<pr_MAD+EN $-en{d}/xs-n<pr_+EN
+'_*MARIE
+{.}
+$pi:nian/vppK2_*GE+PIN+ED $ge-/xp-vpp_*GE+ $/vpp[N]K2_+ED
+$under/pr_UNDER
+$/T<pr_yANE
+'_PONTISCHE
+'_PILATE
+{.}
+$on{p}/pr_*ON
+$rood/n<pr_RODE
+$Yro:wian/vpt13K2_GE+yROw+ED $ge-/xp-vpt13_GE+ $/vpt13[W]K2_+ED
+{.}
+$death/nOd_*DEAy
+$Yolian/vpt13K2_GE+yOL+EDE $ge-/xp-vpt13_GE+ $/vpt13[L]K2_+EDE
+{.}
+$in{p}/pr_*ON
+$earth/n<pr_EORyE
+$bury/vpp_GE+BER+ED $ge-/xp-vpp_GE+ $/vpp[R]_+ED
+{.}
+$light{d}/vpt13_*LICHTE
+$to/pr+H_TO
+$hell/n<pr_HELLE
+{.}
+$on{t}/pr_*ON
+$/T<pr_yANE
+$3/qoaj<pr_yRIDDE
+$day/n<pr_DAI
+$arise/vSpt13_A+ROxAS $a-/xp-v_A+
+$from/pr_FRAM
+$death/n<pr_DEAyE
+$to/pr_TO
+$life/n<pr_LIVE
+{.]
+$asti:gan/vSpt13_*A+STEH $a-/xp-v_*A+
+$to/pr+H_TO
+$heaven/n<pr_HEOVENE
+{.}
+$sit/vps13-ct_*SIT
+$on{p}/pr_ON
+$/P13GM_HIS
+$father/nG_FADER $/Gn_0
+$right/aj<pr_RIHT
+$half/n<pr_HALF
+{.}
+$almighty/ajG_ALMIHT+IG+ES $-ig/xs-ajG_+IG+ES $/Gaj_+ES
+$god/nG_GOD+ES $/Gn_+ES
+{.}
+$thence/av_yANEN
+$/P13NM_HE
+$be/vps13_IS
+$to/im+C_TO
+$come/vi-m_CUM+EN $/vi-m_+EN
+$forto/im+C_FOR-TO $to/im+C-k_-TO
+$deem/vi-m_DEM+en $/vi-m_+en
+$/TplOd_yA
+$quick/ajnplOd_QUIK+E $/plajnOd_+E
+$&/cj_&
+$/TplOd_yA
+$dead/ajnplOd_DEAD+E $/plajnOd_+E
+{.}
+$/P11N_*ICH
+$believe/vps11_GE+LEUE $ge-/xp-vps11_GE+
+$in{b}/pr_ON
+$/T<pr_yANE
+$holy/aj<pr_HAL+EGE $-ig/xs-aj<pr_+EGE
+$ghost/n<pr_GAST
+$that/cj_yAT
+$gemae:nness/n_I+MAN+NESSE $ge-/xp-n_I+ $-ness/xs-n_+NESSE
+$be/vps13_IS
+$of/pr_OF
+$holy/aj<pr_HAL+I+ $-ig/xs-aj<pr_+I+
+$church/n<pr_+CHIRECHE
+{.}
+$samness/n<pr_SAm+NESSE $-ness/xs-n<pr_+NESSE
+$of/pr_OF
+$ha:lga/npl<pr_HALEG+EN $/pln<pr_+EN
+{.}
+$forgiveness/n<pr_FOR+GEUE+NESSE $for-/xp-n_FOR+ $-ness/xs-n<pr_+NESSE
+$of/pr_OF
+$sin/npl<pr_SENN+EN $/pln<pr_+EN
+{.}
+$flesh/nG_FLASCH+ES $/Gn_+ES
+$ae:rist/n<pr_ARISyE
+{.}
+$&/cj_&
+$/T<pr_yAT
+$e:ce/aj<pr_ECHE+
+$life/n<pr_+LIF
+{.}
+{(AMEN .(}
+{=According to Napier the Creed is followed by "a short Latin prayer in}
+{which mention is made of 'beate uirginis tuae aetheldrithe'". There}
+{follow the Rules of St Benedict and of St Augustine=}
+|

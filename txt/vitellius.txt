@@ -1,0 +1,950 @@
+# 184
+$king/n-t_KING
+$greet/vps13-ct_GRET
+´_*STIGAnD
+{\}
+$archbishop/nOd-t_ARCHE+BISSUPE $arch-/xp-n_ARCHE+
+$&/cj_AND
+´_*HAROLD
+{\}
+$earl/nOd-t_*EORL
+$&/cj_AND
+$/P11GOdpl+C_MINE
+$sheriff/nplOd_*SIRREF+EN $/plnOd_+EN
+$&/cj_&
+$all/ajplOd_ALL+E $/plajOd_+E
+{\}
+$/P11GOdpl+C_MINE
+$thane/nplOd_yEIN+ES $/plnOd_+ES
+$friendly/av_FREOND+LICHE $-ly/xs-av_+LICHE
+$&/cj_AND
+$/P11N_ICH
+{\}
+$cy:Yan/vps11_CUyE
+$/P22Oi_gU
+$that/cj_yAT
+$/P11N+H_ICH
+$have/vps11_HABBE
+$unnan/vSpp_gE+UNN+E $ge-/xp-vpp_gE+ $/vSpp_+E
+{\}
+$christ/nOi_CRIST
+$&/cj_AND
+$saint/nOi-t_SEINTE
+´_*PETRE
+$into/pr_IN-TO $to/pr-k_-TO
+;_*CHER\TESEYE
+$&/cj_AND
+$/TOi_yAN
+$abbot/nOi-t_*ABBEDE
+´_*WLUUOLDE
+{\}
+$/TOd_yET
+$hundred/nOd_*HUNDRED
+$of/pr_OF
+;_*GODDELIE
+$as/av_SUO
+$free/av_FREO
+{\}
+$&/cj_AND
+$as/av-=_SUO
+$forth/av_FORD
+$as/cj-=_SUO
+$any/pn_EN+I $-ig/xs-pn_+I
+$be/vps13_IS
+$free/aj-sup_FREO+ST $-est/xs-sup-aj_+ST
+$/RTI_y~
+{\}
+$be/vps13_BEOD
+$in{p}/pr_ON
+$/P11G-pr+V_MINE
+$anwald/n-pr_ON+wEALDE $an-/xp-n_ON+
+$mid{w}/pr_MID
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+{\}
+$thing/npl-pr_yING+E $/pln-pr_+E
+$/RTIpl_yE
+$to/pr_TO
+$/P11-pr_ME
+$belimpan/vps23_BEO+LEMP+ED $be-/xp-v_BEO+ $/vps23_+ED
+{.}
+$in{m}/pr_ON
+$wood/n-pr_wUDE
+{.}
+{\}
+$in{m}/pr_ON
+$field/n-pr_FELDE
+{.}
+$&/cj_AND
+$/P11N_ICH
+$will{mv}/vps11_UULLE
+$that/cj_y~
+$/TN_SE
+$abbot/n_*ABBOD
+{\}
+$be/vsjps13_BEO
+$/P13GM_HIS
+$sacu/nG_SAC+A $/Gn_+A
+$worth/aj_wURyE
+$&/cj_&
+$/P13GM_HIS
+$so:cn/nG_SOC+A $/Gn_+A
+{.}
+$&/cj_&
+{[have]}
+$toll/nOd_TOL
+{.}
+$&/cj_&
+$te:am/nOd_TEAM
+{.}
+$&/cj_&
+$infangenethief/nOd_IN+FANGENE+TEOF $in-/xp-n_IN+ $thief/nOd-k_+TEOF
+{.}
+$&/cj_AND
+$griYbryce/nOd_*GRIT\+BRUCHE $bryce/nOd-k_+BRUCHE
+{.}
+$&/cj_&
+$foresteall/nOd_FOR+STEL $fore-/xp-n_FOR+
+{.}
+$&/cj_&
+$ha:mso:cn/nOd_HOM+SOKNE $so:cn/nOd-k_+SOKNE
+{.}
+$&/cj_&
+$fly:menafyrmY/nOd_FLEm\N+ES+FREOM+THE $/Gn-k_+ES+ $fyrmY/nOd-k_+FREOM+THE $-th/xs-nOd_+THE
+{.}
+$binnan/pr_BINNE
+$port/n-pr-_wORTE
+{=sic - with wynn written in error for P=}
+$&/cj_&
+$bu:tan{os}/pr-_BUTE
+{\}
+$by{re}/pr_BEO
+$land/n-pr_LONDE
+$&/cj_&
+$by{re}/pr_BEO
+$strand/n-pr_STRONDE
+{.}
+$over/pr_OFE*R
+{=letter erased after OFE*R=}
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+$/P13GMpl_HI^S
+{\}
+$man/npl-pr_MANN+EN $/pln-pr_+EN
+$&/cj_AND
+$over/pr_OFER
+$/P13GMpl_HIS
+$land/npl-pr_LOND+E $/pln-pr_+E
+{\\}
+{~f50rb~}
+{=Sawyer 1094=}
+{(´[]ARTA EIUSDEM *REGIS DE [] \ []´(}
+{=Heading of the charter is three lines of Latin in different coloured}
+{ink. The second two lines are rubbed and largely illegible from film=}
+{=Space left for two line initial capital, not carried out=}
+´_[]DUUARD
+$king/n_KING
+$over/pr_OFE*R
+$english/nplG_ENGL+E $/plnG_+E
+{\}
+$Ye:od/n-pr_yEODE
+$greet/vps13-ct_GRET
+´_*STIGAND
+$archbishop/nOd-t_ARCHE\+BISSOP $arch-/xp-n_*ARCHE\+
+$&/cj_AND
+´_*HAROLD
+$earl/nOd-t_*EORL
+$&/cj_AND
+$/P11GOdpl+C_MINE
+{\}
+$sheriff/nplOd_*SYRREF+EN $/plnOd_+EN
+$&/cj_AND
+$all/ajplOd_ALL+E $/plajOd_+E
+$/P11GOdpl+C_MINE
+$thane/nplOd_yEIN+ES $/plnOd_+ES
+{\}
+$in{p}/pr_ON
+;_*SUDyEREIE
+$friendly/av_FREOND+LICHE $-ly/xs-av_+LICHE
+{-}
+$&/cj_&
+{-}
+$/P11N_*ICH
+$cy:Yan/vps11_KU\yE
+$/P22Oi_EOw
+$that/cj_yAT
+$/P11N+H_ICH
+$have/vps11_HABBE
+$unnan/vSpp_gE-UNN+E $ge-/xp-vpp_gE- $/vSpp_+E
+$christ/nOi_Cr^ISTE
+{\}
+$&/cj_&
+$saint/nOi-t_SEINTE
+´_*PETRE
+$into/pr_IN-TO $to/pr-k_-TO
+;_*CHERTESEYE
+$/TOd_yENE
+{\}
+$self/ajOd_SELUE
+$town/nOd_TUN
+{.}
+$&/cj_AND
+;_*EGEHAM
+{.}
+$&/cj_AND
+;_*TORPE
+{\}
+$&/cj_AND
+;_*CHABBEHAM
+{.}
+$mid{w}/pr_MID
+$/T-pr_yANE
+$hundred/n-pr_*HUN\DREDE
+$of/pr_OF
+;_*GODDELIE
+{.}
+$free/av_FREO
+$with{f}/pr_wId
+$all/aj-pr_ALLE
+$scot{p}/n-pr_gE\+SCOT $ge-/xp-n_gE\+
+{.}
+$&/cj_AND
+$work/n-pr_wEORKE
+{.}
+$&/cj_AND
+$ware/n-pr_WARE
+$&/cj_AND
+{\}
+$so:cn/n-pr_*SOCA
+{.}
+$&/cj_AND
+$sacu/n-pr_SACA
+{.}
+$&/cj_AND
+$toll/n-pr_*TOL
+{.}
+$&/cj_AND
+$te:am/n-pr_*T\EM
+{.}
+$&/cj_AND
+{=MS ANDD with second D erased but still partially visible=}
+$infangenethief/n-pr_*IN+FONGENE+yEOF $in-/xp-n_*IN+ $thief/n-pr-k_+yEOF
+{.}
+$&/cj_AND
+$griYbryce/n-pr_*GRID\+BRUCHE $bryce/n-pr-k_+BRUCHE
+{.}
+$&/cj_AND
+$foresteall/n-pr_FORE+STEL $fore-/xp-n_FORE+
+{.}
+$&/cj_AND
+$ha:mso:cn/n-pr_*HAM+SOCNE $so:cn/n-pr-k_+SOCNE
+{\}
+$&/cj_AND
+$fly:menafyrmY/n-pr_FLEMN+ES+FREOM+THE $/plnG-k_+ES+ $fyrmY/n-pr-k_+FREOM+THE $-th/xs-n-pr_+THE
+{.}
+$&/cj_AND
+$morYsleht/n-pr_*MORT\+SLEHTTE $sleht/n-pr-k_+SLEHTTE
+{.}
+$in{t}/pr_INNE
+$fre:ols/n-pr_FREOLS
+{.}
+$&/cj_AND
+$outof/pr_UT-OF $of{f}/pr-k_-OF
+$fre:ols/n-pr_FRE\OLS
+{.}
+$&/cj_AND
+$with{w}/pr_wId
+$all/ajpl-pr_EALL+E $/plaj-pr_+E
+$/Tpl-pr_yE
+$thing/npl-pr_yING+E $/pln-pr_+E
+$/RTIpl_yE
+$to/pr_TO
+{\}
+{~f50va~}
+$/P11-pr_ME
+$belimpan/vps23_BI+LIMP+Ey $be-/xp-v_BI+ $/vps23_+Ey
+$in{m}/pr_AN
+$wood/n-pr_UUODE
+{.}
+$&/cj_AND
+$in{m}/pr_ON
+$field/n-pr_FEL\DE
+{.}
+$&/cj_AND
+$/P11N_ICH
+$willnot/vps11_N+ELLE $n-/xp-neg_N+
+$Yafian/viK2_gE-yAU+IEN $ge-/xp-vi_gE- $/viK2_+IEN
+$that/cj_y~
+$any/aj_AN+IgE $-ig/xs-aj_+IgE
+{\}
+$sheriff/n_*SIRREUEN
+$/P13OiXM_HIM
+$to/pr+H_TO
+$hand/n-pr_HONDE
+$te:on/vsjps13_TEO
+$of/pr_OF
+$any/pn-pr_AN+I $-ig/xs-pn-pr_+I
+{\}
+$/TplG_yARE
+$thing/nplG_yING $/plnG_0
+$/RTIpl_yE
+$belimpan/vps23_BE+LIMP+Ed $be-/xp-v_BE+ $/vps23_+Ed
+$in{p}/pr_INNE
+$/T-pr_yAN
+{\}
+$hundred/n-pr_*HUNDREDE
+$of/pr_OF
+;_*GODDELIE
+$without{e}/pr_wId-yUTEN $out/pr-k_-yUTEN
+{\}
+$/T-pr_yAN
+$abbot/n-pr_*ABBODE
+{.}
+$&/cj_AND
+$by/pr_BEO
+$god/nG_*GOD+ES+ $/Gn_+ES+
+$bletsian/vn-prK2_+BLETS+UnGE $/vn-prK2_+UnGE
+{\}
+$/DispnOd_yIS
+$noman/n_NAn+MAN $man/n-k_+MAN
+$/neg-v(-nN)_NE
+$awendan/vsjps13_A+wENDE $a-/xp-v_A+
+$forthat/cj_FORT+yAN-yE $Yan/cj-k_+yAN- $Ye/cj-k_-yE
+{\}
+$/P11N+H_ICH
+$/P13OdI_HIT
+$by/pr_BEO
+$/P11GGpl+C_MINRE+
+$wita/nplG_+wIT+ENE $/plnG_+ENE
+$rae:d/n-pr_RADE
+$for/pr_FOR
+{\}
+$much/aj-pr_MIKELERE
+$need/n-pr_NEODE
+$god/nOi_*GODE
+$unnan/vpt11_gE-UyE $ge-/xp-vpt11_gE-
+$/P11GOd+C_MINE
+$soul/nOd_*SAULE
+$to/im+H_TO
+$help/vi-m_HELP+ENE $/vi-m_+ENE
+{.}
+{\\}
+{=Sawyer 1093=}
+{(´[]ARTA DE EIUSDEM *REGIS DE Qu^ATUOR \ []´(}
+{=Heading of the charter is in Latin in different coloured ink. The last}
+{one or two words have been taken to the end of the line of English above}
+{and are too faint to make out on film=}
+{=Space left for two-line capital not carried out=}
+´_[]DUUARD
+$king/n-t_KING
+$greet/vps13-ct_GRET
+´_*STIGAnD
+{\}
+$archbishop/nOd-t_ARCHE+B~ $arch-/xp-n_*ARCHE+
+$&/cj_AND
+´_*HAROLD
+$earl/nOd-t_*EORL
+{\}
+$&/cj_AND
+$all/ajplOd_ALL+E $/plajOd_+E
+$/P11GOdpl+C_MINE
+$thane/nplOd_yEgEN+AS $/plnOd_+AS
+$in{p}/pr_ON
+;_*SUy\yEREIE
+$friendly/av_FROND+LICHE $-ly/xs-av_+LICHE
+{.}
+$&/cj_AND
+$/P11N_ICH
+$cy:Yan/vps11_KUyE
+{\}
+$/P22Oi_gEU
+$that/cj_yAT
+$/P11N+H_ICH
+$have/vps11_HABBE
+$unnan/vSpp_gE+UNN+EN $ge-/xp-vpp_gE+ $/vSpp_+EN
+$christ/nOi_Cr^ISTE
+{\}
+$&/cj_AND
+$saint/nOi-t_SEINTE
+´_*PETRE
+$into/pr_IN-TO $to/pr-k_-TO
+;_*CHERTESE\YE
+$/TOd_yANE
+$self/ajOd_SELUE
+$town/nOd_TUN
+{.}
+$&/cj_AND
+;_*EGEHAm
+{.}
+{\}
+$&/cj_AND
+;_yORPE
+{.}
+$&/cj_AND
+;_*CHABBEHAM
+$free/av_FREO
+{\}
+$with{f}/pr_wId
+$each/aj-pr_ECHE
+$scot{p}/n-pr_gE-SCOT $ge-/xp-n_gE-
+{.}
+$&/cj_AND
+$work/n-pr_wERC
+$&/cj_AND
+{\}
+{~f50vb~}
+$ware/n-pr_wARE
+{.}
+$&/cj_AND
+$sacu/n-pr_SACA
+{.}
+$&/cj_AND
+$so:cn/n-pr_SOCHA
+{.}
+$&/cj_AND
+{\}
+$toll/n-pr_TOL
+{.}
+$&/cj_AND
+$te:am/n-pr_TAEM
+{.}
+$&/cj_AND
+$infangenethief/n-pr_IN+FANGENE+yEF $in-/xp-n_IN+ $thief/n-pr-k_+yEF
+{.}
+{\}
+$&/cj_AND
+$griYbryce/n-pr_GRIT+BRUCHE $bryce/n-pr-k_+BRUCHE
+{.}
+$&/cj_AND
+$foresteall/n-pr_FORE+STEL $fore-/xp-n_FORE+
+{.}
+$ha:mso:cn/n-pr_HOM\+SOCNE $so:cn/n-pr-k_+SOCNE
+{.}
+$&/cj_AND
+$fly:menafyrmY/n-pr_FLEMN+ES+FREM+THE $/plnG-k_+ES+ $fyrmY/n-pr-k_+FREM+THE $-th/xs-n-pr_+THE
+{.}
+$&/cj_AND
+{\}
+$morYsleht/n-pr_*MORTH+SLECHTE $sleht/n-pr-k_+SLECHTE
+{.}
+$in{t}/pr_INNE
+$fre:ols/n-pr_FREOLS
+{.}
+$&/cj_AND
+$outof/pr_UT-OF $of{f}/pr-k_-OF
+$fre:ols/n-pr_FREOLS
+{.}
+$&/cj_AND
+$with{w}/pr_wIy
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+$/Tpl-pr_yE
+$thing/npl-pr_yIN\G+E $/pln-pr_+E
+$to/pr_TO
+$/P11-pr_ME
+$belimpan/vps23_BEO+LIMP+Ey $be-/xp-v_BEO+ $/vps23_+Ey
+{.}
+$&/cj_AND
+$by/pr_BE
+$god/nG_GOD+ES $/Gn_+ES
+{\}
+$bletsian/vn-prK2_BLETS+UNGE $/vn-prK2_+UNGE
+$/DispnOd_yIS
+$noman/n_NAn+MAN $man/n-k_+MAN
+$/neg-v(-nN)_NE
+$awendan/vsjps13_A+wENDE $a-/xp-v_A+
+{\}
+$forthat/cj_FOR-yAN-yE $Yan/cj-k_-yAN- $Ye/cj-k_-yE
+$/P11N+H_ICH
+$/P13OdI_HIT
+$by/pr_BEO
+$/P11GGpl+C_MINRE
+$wita/nplG_wIT+E\NE $/plnG_+E\NE
+$rae:d/n-pr_RADE
+$for/pr_FOR
+$much/aj-pr_MUCHELERE
+$need/n-pr_NEODE
+$god/nOi_GODE
+$unnan/vpt11_gE-UyE $ge-/xp-vpt11_gE-
+$/P11GOd+C_MINE
+$soul/nOd_SAULE
+$to/im+H_TO
+$help/vi-m_HELP+ENE $/vi-m_+ENE
+{.}
+{\\}
+{=Sawyer 1096=}
+{(´[]ARTA EIUSDEM *REGIS DE SOCA LON\DONIE´(}
+{=Latin heading in a different coloured ink. DONIE has been taken to the}
+{end of the previous line of English=}
+{=Space left for two-line capital not carried out=}
+´_[]DUUARD
+$king/n-t_KYNG
+$greet/vps13-ct_GRET
+´_*WILLEME
+{\}
+$bishop/nOd-t_*BISSOPE
+$&/cj_AND
+´_*SUETMAN
+$/P11GOd+C_MINE
+{\}
+$portreeve/nOd_*PORTE+REFE $reeve/nOd-k_+REFE
+$&/cj_AND
+$all/ajplOd_ALL+E $/plajOd_+E
+$/TplOd_yE
+$burhwaru/nplOd_*BURH+wAR+E $waru/nplOd-k_+wAR+E $/plnOd_+E
+{\}
+$in{p}/pr_ON
+;_*LONDONE
+$friendly/av_FREOND+LICHE $-ly/xs-av_+LICHE
+{.}
+$/P11N_*IICH
+$cy:Yan/vps11_KUyE
+{\}
+$/P22Oi_gOU
+$that/cj_yAT
+$/P11N_ICH
+$will{mv}/vps11_wILLE
+$that/cj_yAT
+´_*WULFUUOLD
+{\}
+$abbot/n_*ABBOD
+$at/pr_AT
+;_*CHERTESEYE
+{.}
+$be/vsjps13_BEO
+$/P13GM_HIS
+$sacu/nG_SAC+A $/Gn_+A
+{\}
+$worth/aj_WRyE
+{.}
+$&/cj_AND
+$/P13GM_HIS
+$so:cn/nG_SOCN+A $/Gn_+A
+{.}
+$over/pr_OFER
+$/P13GMpl_HIS
+{\}
+$own/ajpl-pr_HAGAN $/plaj-pr_0
+$land/npl-pr_LAND $/pln-pr_0
+$herebinnan/av-k_HER-BINNE $binnan/pr-k_-BINNE
+{.}
+$&/cj_AND
+{\}
+{~f51ra~}
+$over/pr_OUER
+$/P13GMpl_HIS
+$own/ajpl-pr_AgEN+E $/plaj-pr_+E
+$man/npl-pr_MAN $/pln-pr_0
+{.}
+$as/av_*SUA
+$full/av_FUL
+$&/cj_AND
+{\}
+$as/av-=_SUA
+$forth/av_FORd
+$as/cj-=_SUA
+$/P13OdI_HIT
+$any/pn_AN+IgE $-ig/xs-pn_+IgE
+$/P13GMpl_HIS
+$forthgenge/nplG_FORy\+GENG+AN $forth-/xp-n_FORy\+ $/plnG_+AN
+$before{t}/pr_TO-FOREN $to-/xp-pr_TO-
+$/P13-prM_HIM
+$1/qoav_FORM+EST $-est/xs-sup-av_+EST
+$have/vpt13_HA\U+EDE $/vpt13_+EDE
+$into/pr_IN-TO $to/pr-k_-TO
+$/T-pr_yAN
+$holy/aj-pr_HAL+gAN $-ig/xs-aj-pr_+gAN
+$minster/n-pr_MUNSTRE
+{.}
+{\}
+$in{m}/pr_ON
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+$thing/npl-pr_yING+EN $/pln-pr_+EN
+{.}
+$&/cj_AND
+$/P11N_ICH
+$willnot/vps11_N+ELLE $n-/xp-neg_N+
+$Yafian/viK2_gE\-yAU+IEN $ge-/xp-vi_gE\- $/viK2_+IEN
+$that/cj_yAT
+$/P13OiM_HIM
+$anyman/n_EN+I-MAN $-ig/xs-aj-k_+I- $man/n-k_-MAN
+$from/pr+H_FRAM
+{\}
+$hand/n-pr_HONDE
+$te:on/vsjps13_TEO
+$any/pnOd_AN+Ig $-ig/xs-pnOd_+Ig
+$/TplG_yARE
+$right/nplG_gE+RIHT+E $ge-/xp-n_gE+ $/plnG_+E
+$/DatpnGRTIOd_yES\-yE
+$/P13NM_HE
+$mid{w}/pr_MID
+$right/n-pr_RIHTE
+$to/im+H_TO
+$have/vi-m_HABB+E $/vi-m_+E
+$a:gan/vps13_AH+
+$&/cj_+END
+{\}
+$/P11N+H_HIC
+$/P13OiM_HIM
+$unnan/vSpp_gE-UNN+EN $ge-/xp-vpp_gE- $/vSpp_+EN
+$have/vps11_HABBE
+{.}
+{\\}
+{=Sawyer 1477=}
+{(´[]ARTA EIUSDEM *REGIS DE WAL\THAM´(}
+{=Latin heading in a different coloured ink. THAM has been taken to the}
+{end of the following line of English=}
+{=Space left for two-line capital, not carried out=}
+$in{inv}/pr_[]N
+$/T-pr_yANE
+$holy/aj-pr_HAL+gENE $-ig/xs-aj-pr_+gENE
+{\}
+$name/n-pr_NAMEN
+$/P21G_URES
+$hae:lend/nG_HEL+END+ES $-end/xs-nG_+END+ES $/Gn_+ES
+{\}
+$christ/nG_CRIST+ES $/Gn_+ES
+$/P11N+V_ICH
+´_*EDUUARD
+$king/n-t_KING
+$over/pr_OFER
+{\}
+$english/nplG_ENGL+E $/plnG_+E
+$Ye:od/n-pr_yEODE
+$cy:Yan/vps11_*CUyE
+´_*STIGAND
+$archbishop/nOi-t_*AR\CHE+BISSOP $arch-/xp-n_*AR\CHE+
+$&/cj_AND
+´_*HAROLD
+$earl/nOi-t_*EORL
+$&/cj_AND
+{\}
+$all/ajplOi_ALL+E $/plajOi_+E
+$/P11GOipl+C_MINE
+$thane/nplOi_yEIN+ES $/plnOi_+ES
+$that/cj_yAT
+$/P11N_ICH
+$mid{w}/pr_MID
+{\}
+$/Dis-pr_yUSEN
+$writ/n-pr_wRITE
+$gieldan/vps11_gELDE
+$&/cj_AND
+$give/vps11_gEUE
+$christ/nOi_Cr^ISTE
+{\}
+$&/cj_AND
+$saint/nOi-t_*SEINTE
+´_*PETRE
+$&/cj_AND
+´_*WLUUOLD
+{\}
+$abbot/nOi-t_*ABBODE
+$&/cj_AND
+$/TplOi_yEN
+$brother/nplOi_BROyR+EN $/plnOi_+EN
+$in{p}/pr_ON
+;_CHER\TESEYE
+$/TplOd_yO
+!_.X.
+$hide/nplOd_*HYD+EN $/plnOd_+EN
+$land/nG_LOND $/Gn_0
+$in{p}/pr_ON
+{\}
+{~f51rb~}
+;_*WALTHAM
+{.}
+$&/cj_AND
+$/TOd_yE
+$church/nOd_*CHERCHE
+$of/pr_OF
+$/T-pr_yAN
+{\}
+$self/aj-pr_SELUEN
+$town/n-pr_TUNE
+{.}
+$&/cj_AND
+$/TOd_yANE
+$wood/nOd_WODE
+$of/pr_OF
+{\}
+;_*HALEWIK
+{.}
+$&/cj_AND
+$/DatpnOd_yANE
+$of/pr_OF
+;_*LIDLEgE\wIK
+{.}
+$mid{w}/pr_MID
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+$other/ajpl-pr_OyER+E $/plaj-pr_+E
+$thing/npl-pr_yING+E $/pln-pr_+E
+$/RTIpl_yE
+$thereto/av-k_yARE\-TO $to/pr-k_-TO
+$belimpan/vps23_BE+LEMP+Ey $be-/xp-v_BE+ $/vps23_+Ey
+{.}
+$&/cj_AND
+!_.XX
+$acre/nplOd_*aeCER+ES $/plnOd_+ES
+$of/pr_OF
+$/T-pr_yARE
+{\}
+$mead/n-pr_MADE
+$at/pr_AT
+;_*COCHAM
+$into/pr_IN-TO $to/pr-k_-TO
+;_*WELTHAM
+{.}
+{\}
+$&/cj_AND
+$/DispnOd_yIS
+$/P11N+H_ICH
+$/P23Oi_HEM
+$have/vps11_HABBE
+$unnan/vSpp_gE+UNN+E $ge-/xp-vpp_gE+ $/vSpp_+E
+{\}
+$forthat/cj_FOR-yAN $Yan/cj-k_-yAN
+$/P13NI_HIT
+$ere/av_HAR
+$into/pr_IN-TO $to/pr-k_-TO
+$/T-pr_yAN
+$minster/n-pr_*MUNSTRE
+{\}
+$licgan/vSpt13_LAIg
+$so/av_SUA
+$/P11N+H_ICH
+$/P13OdI_HIT
+$have/vps11_HABBE
+$mid{w}/pr_MID
+{=space of one letter´s width after MID=}
+$/P11G-prpl+C_MI\NE
+$thane/npl-pr_yEIN+ES $/pln-pr_+ES
+$soothsaw/nOd_SOD+SAgE $saw/nOd-k_+SAgE
+$onlearn/vppK2_ON+LIERN+ED $on-/xp-v_ON+ $/vpp[N]K2_+ED
+$of/pr_OF
+{\}
+$/T-pr_yARE
+$shire/n-pr_*SYRREN
+$&/cj_AND
+$therefore/av-k_yARE-FORE $for/pr-k_-FORE
+$/P11N_ICH
+{\}
+$will{mv}/vps11_wILLE
+$that/cj_yAT
+$/P23N_HIE
+$have/vsjps23_HABBEN
+$&/cj_AND
+$hold/vsjps23_HELDEN
+{\}
+$as/av_AL-SUA
+$/P23G_HIERE
+$right/nOd_RIgTE
+$/TOd_yANE
+$town/nOd_TUN
+$mid{w}/pr_MID
+{\}
+$as/av-=_ALSUA
+$much/aj-pr_MUCHELE
+$mund/n-pr_MUNDE
+$as/cj-=_ALSUA
+$in{p}/pr_ON
+$/P11-prX_ME-SELUEN $-self/xs--pr_-SELUEN
+$stand/vps13-ct_STANT
+$in{m}/pr_ON
+$all/ajpl-pr_ALL+E $/plaj-pr_+E
+$thing/npl-pr_yING+E $/pln-pr_+E
+{\}
+$in{m}/pr_IN
+$wood/n-pr_WODE
+$&/cj_AND
+$in{m}/pr_IN
+$field/n-pr_FELDE
+{.}
+$/TN_*SE
+$man/n_MAN
+$/RTA_yE
+{\}
+$/P11GOd+C_MINE
+$gift/nOd_gEUE
+$here/av_HER
+$ly:tlian/vps13K2_gE-LITL+AD $ge-/xp-vps13_gE- $/vps13[L]K2_+AD
+$or/cj_OyE*R
+$in{m}/pr_ON
+{\}
+$other/ajpl-pr_OyER+E $/plaj-pr_+E
+$wi:se/npl-pr_wIS+EN $/pln-pr_+EN
+$to/im+V_TO
+$awendan/vi-m_A+UUEND+EN $a-/xp-v_A+ $/vi-m_+EN
+$than/cj_yENE
+{\}
+$/P13NI_HIT
+$herebefore{t}/av-k_HER-BE+FOREN $before{t}/pr-k_-BE+FOREN $be-/xp-pr_-BE+
+$awrite/vSpp_A+wRIT+EN $a-/xp-v_A+ $/vSpp_+EN
+$be/vps13_IS
+$be/vsjps23_BEN
+{\}
+$/P13GM_HIS
+$life/n_LIF
+$here/av_HER
+$ly:tlian/vppK2_I+LITL+AD $ge-/xp-vpp_I+ $/vpp[L]K2_+AD
+$&/cj_AND
+$/P13GM_HIS
+$wunian/vnK2_WO\N+IENGE $/vnK2_+IENGE
+{~f51va~}
+$in{p}/pr_IN
+$hell/nG_HELL+E $/Gn_+E
+$ground/n-pr_GRUNDE
+$bu:tan/cj_BUTEN
+$/P13NM_HE
+$/P13OdI_HIT
+{\}
+$here/av_HER
+$/D-cpv_yE
+$sti:Yli:ce/av-cpv_STIy+LIC+OR $-ly/xs-av-cpv_+LIC+OR $-er/xs-cpv-av_+OR
+$be:tan/vsjps13_gE+BETE $ge-/xp-vsjps13_gE+
+{.}
+{\\}
+{=Latin from here to f53rb=}}
+{\}
+{~f53va~}
+{=Pelteret 7=}
+{(´[]ARTA WILLIam *REGIS [] \ []´(}
+{=Heading is two lines of Latin in a different coloured ink - the second}
+{part is rubbed and illegible from film=}
+{=Space left for two-line capital, not carried out=}
+´_[]ILLEM
+$king/n-t_KING
+$greet/vps13-ct_GRET
+$/P11GOdpl+C_MINE
+$bishop/nplOd_BIS\SUP+ES $/plnOd_+ES
+$&/cj_AND
+$/P11GOdpl+V_MINE
+$earl/nplOd_*EORL+ES $/plnOd_+ES
+$&/cj_AnD
+$/P11GOdpl+C_MINE
+$sheriff/nplOd_*SIRREU+EN $/plnOd_+EN
+$&/cj_AND
+$all/ajplOd_ALL+E $/plajOd_+E
+$/P11GOdpl+C_MINE
+{\}
+$thane/nplOd_yEIN+ES $/plnOd_+ES
+$in{p}/pr_IN
+$/T-pr_yERE
+$shire/n-pr_*SYRREN
+$there{w}/RTI-pr_yE*RE
+´_*WL\UUOLD
+$abbot/n-t_*ABBOD
+$have/vps13_HAU+ET $/vps13_+ET
+$land/nOd_LAND
+$in{p}/pr-_INNE
+$&/cj_&
+$man/nplOd_*MEN
+$friendly/av_FREOND+LICHE $-ly/xs-av_+LICHE
+{.}
+$/P11N_*ICH
+$cy:Yan/vps11_KUyE
+$/P22Oi_gEO
+$that/cj_y~
+$/P11N_IC
+{\}
+$will{mv}/vps11_wILLE
+$that/cj_yAT
+$/P13NM_HE
+$be/vsjps13_BEO
+$/P13GM_HIS
+$land/nG_LAND+ $/Gn_0
+$worth/aj_+UURyE
+{\}
+$as/av_SUA
+$full/av_FUL
+$&/cj_AND
+$as/av-=_SUA
+$forth/av_FORy
+$as/cj-=_SUA
+$/P13NM_HE
+$in{t}/pr_ON
+{\}
+´_*EADUUARDES
+$day/n-pr_DAgHE
+$king/nG-t_KING+ES $/Gn-t_+ES
+$1/qoav_FORM+EST $-est/xs-sup-av_+EST
+{\}
+$have/vpt13_HAE+DDE $/vpt13[V]_+DDE
+{.}
+$&/cj_AND
+$all/ajplG_EAL+RE $/plajG_+RE
+$/DospnGRTIplOd_yARE-yE
+$/P11N_ICH
+{\}
+$since/av_SUyENE
+$unnan/vSpp_gE+UNN+EN $ge-/xp-vpp_gE+ $/vSpp_+EN
+$have/vps11_HABBE
+{.}
+$&/cj_AND
+$/P13GM_HIS
+{\}
+$sacu/nG_SAC+A $/Gn_+A
+{.}
+$&/cj_AND
+$/P13GM_HIS
+$so:cn/nG_SOCN+E $/Gn_+E
+{.}
+$toll/nG_*TOLL+ES $/Gn_+ES
+$&/cj_AND
+{\}
+$te:am/nG_TAEM+ES $/Gn_+ES
+{.}
+$&/cj_AND
+$infangenethief/nG_IN+FANGENE+yEF $in-/xp-n_IN+ $thief/nG-k_+yEF $/Gn_0
+{.}
+$over/pr_OFE*R
+{\}
+$/P13GMpl_HIS
+$land/npl-pr_LAND $/pln-pr_0
+$&/cj_AND
+$over/pr_OFER
+$/P13GMpl_HIS
+$man/npl-pr_MAN $/pln-pr_0
+$binnan/pr_BIN\NE
+$burh/n-pr-_BURgE
+$&/cj_AND
+$bu:tan{os}/pr-_BUTEN
+{.}
+$by{re}/pr_BE
+$land/n-pr_LONDEN
+{\}
+$&/cj_AND
+$by{re}/pr_BE
+$strand/n-pr_STRONDEN
+$as/av_SUA
+$/P13NM_HE
+$ere/cj_AER
+$best/av_BEST
+{\}
+$have/vpt13_HAU+ED $/vpt13_+ED
+$in{m}/pr_ON
+$all/ajpl-pr_ALL+EN $/plaj-pr_+EN
+$thing/npl-pr_yING+EN $/pln-pr_+EN
+{.}
+$&/cj_AND
+$/P11N_ICH
+{\}
+$willnot/vps11_N+ELLE $n-/xp-neg_N+
+$Yafian/viK2_gE-yAU+IEN $ge-/xp-vi_gE- $/viK2_+IEN
+$that/cj_yAT
+$anyman/n_EN+Ig-MAN $-ig/xs-aj-k_+Ig- $man/n-k_-MAN
+$/P13OiM_HIm
+{\}
+{~f53vb~}
+$from/pr+H_FRAM
+$hand/n-pr_HONDE
+$draw/vsjps13_DRAgE
+$any/pnOd_aeN+I $-ig/xs-pnOd_+I
+$/TplG_yARE
+$thing/nplG_yIN\G+E $/plnG_+E
+$/DatpnGRTIOd_yESyE
+$/P11N+H_ICH
+$/P13OiM_HIM
+$unnan/vSpp_gE-UNN+EN $ge-/xp-vpp_gE- $/vSpp_+EN
+$have/vps11_HABBE
+{.}
+{\\}
+{=The rest of the manuscript contains charters in Latin=}
+|

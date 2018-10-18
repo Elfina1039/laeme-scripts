@@ -1,0 +1,116 @@
+>> GET ALL POSITIONS :
+---
+SELECT p.strid,lexel,grammel, pos FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+GROUP BY p.strid, lexel, grammel, pos ORDER BY lexel, grammel
+
+---------------------------------------------------------------
+
+>> get all CHARS at a given POS in ALL texts
+---
+SELECT char, text FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE lexel='world' AND grammel='npl' AND pos=1
+
+-------------------------------------------------------------
+
+>> get all POSs for a given LITTERA in a given TEXT
+---
+SELECT lexel,grammel, pos FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE text=4 AND char='a'
+GROUP BY lexel, grammel, pos ORDER BY lexel, grammel
+
+------------------------------------------------------------
+
+>> get ALTERNATIVE LITTERAE for a set of POSs WHERE a given LITTERA appears
+---
+SELECT text, char, pos, lexel, grammel, count(*) FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE lexel||grammel||pos IN
+ (SELECT lexel||grammel||pos FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE text IN (4) AND char='u'
+GROUP BY lexel||grammel||pos
+)
+AND text IN (5,6,7,8,9,10) AND char!='u'
+
+GROUP BY char, pos, lexel, grammel,text
+ORDER BY lexel, grammel, pos
+
+------------------------------------------------------------------------
+>> SUMMARY OF AMBIGUOUS REPRESENTATIONS/SLOT
+------------------------------------------------------------------
+SELECT c.text, p.strid, p.pos, array_agg(DISTINCT char) AS lits, count(DISTINCT char) FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+GROUP BY c.text, p.strid, p.pos HAVING count(DISTINCT char) >1
+ORDER BY text, lits
+
+
+-------------------------------------------------
+>> OVERVIEW OF AMBG. REPRES.
+-------------------------------------------------
+SELECT sq.text, sq.lits FROM (SELECT c.text, p.strid, p.pos, array_agg(DISTINCT char) AS lits, count(DISTINCT char) FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+GROUP BY c.text, p.strid, p.pos HAVING count(DISTINCT char) >1
+ORDER BY text, lits) AS sq
+WHERE sq.text=10
+GROUP BY sq.text, sq.lits 
+
+--------------------------------------------------
+>> -,,- INC. COUNTS
+----------------------------------------------
+
+SELECT sq.text, sq.pos, sq.strid, regexp_replace(CAST (array_agg((sq.char, sq.cnt)) AS text) ,'[{}"]','','g') FROM
+(SELECT c.text, p.pos, p.strid, p.char, count(*) AS cnt FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+GROUP BY c.text,p.pos, p.strid, p.char
+ORDER BY  c.text,p.strid, p.pos, p.char) AS sq
+GROUP BY sq.text, sq.pos, sq.strid
+
+----with quot. marks - 
+
+CREATE TABLE slots AS
+(SELECT sq.text, sq.pos, sq.strid, 
+regexp_replace(
+	regexp_replace(
+	CAST (array_agg(('$'||sq.char||'$', sq.cnt)) AS text) ,'[{}"]','','g'
+			),'\$','"','g') AS lst
+
+	 FROM
+(SELECT c.text, p.pos, p.strid, p.char, count(*) AS cnt FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+GROUP BY c.text,p.pos, p.strid, p.char
+ORDER BY  c.text,p.strid, p.pos, p.char) AS sq
+GROUP BY sq.text, sq.pos, sq.strid)
+
+
+------------------------------------------
+>> -> use MULTIDIMENSIONAL ARRAY
+---------------------------------------
+SELECT  text, pos, strid, 
+'[' || regexp_replace(regexp_replace(slots, '[\(]','[','g'),'\)',']','g') || ']' as slots
+FROM slots
+
+
+
+
+SELECT * FROM
+(
+(SELECT char, count(char) AS cnt FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE text=8
+GROUP BY char ) AS toks
+INNER JOIN
+(SELECT  char,count(*) AS tps FROM positions p
+INNER JOIN pm_corpus c ON p.tag=c.oid
+WHERE text=8 
+GROUP BY char,p.pos,p.strid ) AS tps
+ON toks.char=tps.char
+)
+
+ORDER BY toks.char
+
+
+
+

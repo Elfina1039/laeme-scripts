@@ -1,0 +1,1 @@
+UPDATE palatalisation SET cat='P' WHERE strid IN (684,1206,220,235,370,1446,1431)

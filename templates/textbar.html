@@ -1,0 +1,29 @@
+
+
+<div class=text ng-repeat="t in texts" >
+
+<h2 class=theader onClick="$(this).next('div').toggle()">{{t.tid}}</h2>
+
+<div class="ttable">
+<table class=ttable>
+
+    
+<tr><th>Littera<td>Occurrences<td>Slots
+
+<tr ng-repeat="lt in t.lits | orderBy:total"><th>{{lt.lit}}
+<td>{{lt.total}}
+<td>{{lt.poss}}
+
+<td><button ng-click="compare(lt,t,texts)">Compare</button>
+
+</table>
+
+</div>
+
+</div>
+
+
+<div style="height:3em;">
+<input type=number ng-model="gt"><button ng-click="getText()">load text</button>
+</div>
+

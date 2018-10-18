@@ -1,0 +1,29 @@
+ body{background-color:rgb(80,96,255); padding:5px;}
+ 
+ #leva{width:350px; padding:5px;}
+ iframe{position:absolute; top:0; right:0; width:900px; height:900px; border-style:solid;
+  border-width:2px; border-radius:10px;  background-color:rgb(176,176,255)}
+ 
+ div{border-color:white; border-style:solid; border-width:2px; border-radius:10px;
+     background-color:rgb(176,176,255); margin:5px;}
+     
+  
+  li {color:white}
+ 
+
+a{
+	color:yellow; text-decoration:none;
+}  
+  
+ th{background-color:rgb(80,96,255); color:white; border-radius:2px; margin:1px; border-style:none}
+ td{background-color:white; color:black; border-radius:2px; margin:1px; border-style:none}
+ 
+ label{padding:5px}
+ 
+ h1{color:white}
+  h4{color:black; text-align:center; font-size:24px}
+
+form{display:flex; flex-flow:column nowrap; 
+justify-content:flex-start}
+
+label {display:flex; flex-flow:row nowrap;}

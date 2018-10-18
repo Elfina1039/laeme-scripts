@@ -1,0 +1,1 @@
+﻿SELECT count(*) FROM pm_corpus WHERE analysis IS NULL

@@ -1,0 +1,145 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+*{box-sizing:border-box}
+body,html{
+	display:flex; flex-flow:row wrap; height:100%;width:100%;
+}
+
+
+#miniform{position:fixed; bottom:0; left:0; background:orange; border-top:3px solid black; width:100%}
+
+#mainsave{position:fixed; bottom:0; right:0; background:rgba(0,255,0,0.5); border:3px solid green; padding:0.5em; margin:0.2em}
+
+
+
+.forma{background:rgba(255,255,255,0.5); margin:1px; padding:2px}
+
+table{
+	border:2px solid black; border-collapse:collapse
+	
+}
+
+td, th{
+	padding:0.3em;
+	border:1px solid black;
+}
+
+tr.blue:nth-of-type(odd){
+	background:rgba(0,0,255,0.3);
+}
+
+tr.red:nth-of-type(odd){
+	background:rgba(255,0,0,0.3);
+}
+div.manuscript{font-size:12pt; }
+
+
+.zelena{background-color:green; color:white}
+.modra{background-color:blue; color:white}
+.cervena{background-color:red;color:white}
+.zluta{background-color:yellow; color:black;}
+
+.lc{
+	margin-left:0.5em; margin-right:0.5em; color:yellow;
+}
+
+#navrhy{
+	 background:rgba(255,0,0,0.3);padding:1em;font-size:15pt; width:20%; height:10%;
+	 position:fixed; right:0; top:10%;
+}
+
+div.pergamen{width:25%;padding:1em; background:rgba(0,0,255,0.3); color:black;  border:2px solid blue;
+ height:100%; overflow:scroll}
+
+.cr{
+	color:blue; font-weight:bold; display:inline;
+} 
+p.radek{
+	font-size:15pt;border-radius:1em;margin:0;
+}  
+
+div.cpick{
+	width:15px; height:15px; display:inline;
+}
+
+.st0{background:orange}
+.st1{background:white}
+.st2{background:green}
+.st{background:silver}
+
+</style>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.min.js"></script>
+   <script>
+  angular.module("spellingy",['angular.filter']);
+  </script>
+  
+  <script src="js/jquery.js"></script>
+ 
+    <script src="js/spellingy.js" charset="utf-8"></script>
+	<script src="js/splControllers.js" charset="utf-8"></script>
+	<script src="js/analyserFct.js" charset="utf-8"></script>
+	<script src="js/laemeFct.js" charset="utf-8"></script>
+	<script src="js/localFct.js" charset="utf-8"></script>
+	<script src="splDirectives.js" charset="utf-8"></script>
+
+
+  
+  
+</head>
+<body ng-app="spellingy" ng-controller="methinker">
+
+<div id=analyser ng-controller="analyser">
+
+<label>
+Offset:<input type=number ng-model="q.offs"></input><br>
+Limit:<input type=number ng-model="q.lmt"></input><br>
+<button ng-click="getDict()">Load Dict</button>
+
+<button ng-click="analyseAll(dict)">Analyse All</button>
+
+</label>
+
+<table>
+<tr ng-repeat="d in dict" ng-class="d.suggs.status">
+ 
+	<th>{{d.l}}
+	<td>{{d.w}}
+	<td>{{d.s}}<button ng-click="fixStr(d)">Fix</button>
+	<td><button ng-click="analyse(d)">Analyse</button>
+	<th><span ng-repeat="s in d.suggs.ok"><input type=text ng-model=s></input></span><button ng-click="d.suggs.ok.push('')">+</button>
+	<th><span ng-repeat="s in d.suggs.notok" class=forma>{{s}}</span>
+	
+</table><hr>
+
+<div ng-controller="positioner">
+<button ng-click="getPoss()">Load Poss</button>
+<button ng-click="procPoss(dict)">Process All</button>
+
+<table>
+<tr ng-repeat="d in dict">
+	<th>{{d.id}}
+	<td>{{d.strid}}
+	<td>{{d.poss}}
+	
+</table><hr>
+
+</div>
+
+<div id=miniform mini-form></div>
+
+<button ng-click="saveAnalysis(dict)" id=mainsave>Save</button>
+
+
+ <script>
+ 
+ 
+</script>
+
+</body>
+</html>

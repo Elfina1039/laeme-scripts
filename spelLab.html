@@ -1,0 +1,181 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+
+*{box-sizing:border-box}
+body,html{
+	display:flex; flex-flow:row wrap; height:100%;width:100%;
+	background-color:silver;
+}
+
+button{padding:0.3em; border-radius:5px; border:2px solid white; color:white;
+background-color:rgb(50,100,255) }
+    
+    button:hover{box-shadow:0 0 2px navy}
+    button:active{background-color:white;
+color:rgb(50,100,255)}
+
+#textbar{width:100%;   display:flex; flex-flow:row nowrap; background:transparent;z-index:20}
+
+#results{width:100%; height:90%; display:flex; flex-flow:column wrap; overflow:scroll }
+#helper{z-index:200;position:fixed; bottom:0.5em; left:0.5em; background:orange; padding:0.1em}
+
+#displayDiv{width:4000px; height:4000px; background:rgba(0,0,0,0.1); }
+#displayDiv button{position:absolute; bottom:0; left:0}
+
+.text{background:rgb(50,100,255);
+	
+	display:flex; flex-flow: column nowrap;
+padding:0.5em; margin:1px; border-radius:1em; text-align:center;
+box-shadow:2px 2px 2px grey}
+div.ttable{overflow-y:scroll; display:none; height:50em; width:20em;  z-index:150}
+table.ttable{ background:white;}
+.theader{width:10em}
+
+#miniform{position:fixed; bottom:0; left:0; background:orange; border-top:3px solid black; width:100%}
+
+#mainsave{position:fixed; bottom:0; right:0; background:rgba(0,255,0,0.5); border:3px solid green; padding:0.5em; margin:0.2em}
+
+
+
+.forma{background:rgba(255,255,255,0.5); margin:1px; padding:2px}
+
+table{
+	border:2px inset white; 
+	background-color:transparent;
+	margin:0.5em;
+	border-radius:4px;
+}
+
+td, th{
+	padding:0.3em;
+	border: 1px solid grey;
+	border-radius:4px;
+	background-color:white
+}
+
+th {background-color:white}
+
+tr.blue:nth-of-type(odd){
+	background:rgba(0,0,255,0.3);
+}
+
+tr.red:nth-of-type(odd){
+	background:rgba(255,0,0,0.3);
+}
+div.manuscript{font-size:12pt; }
+
+
+.zelena{background-color:green; color:white}
+.modra{background-color:blue; color:white}
+.cervena{background-color:red;color:white}
+.zluta{background-color:yellow; color:black;}
+
+.lc{
+	margin-left:0.5em; margin-right:0.5em; color:yellow;
+}
+
+#navrhy{
+	 background:rgba(255,0,0,0.3);padding:1em;font-size:15pt; width:20%; height:10%;
+	 position:fixed; right:0; top:10%;
+}
+
+div.pergamen{width:25%;padding:1em; background:rgba(0,0,255,0.3); color:black;  border:2px solid blue;
+ height:100%; overflow:scroll}
+
+.cr{
+	color:blue; font-weight:bold; display:inline;
+} 
+p.radek{
+	font-size:15pt;border-radius:1em;margin:0;
+}  
+
+div.cpick{
+	width:15px; height:15px; display:inline;
+}
+
+.st0{background:orange}
+.st1{background:rgba(0,255,0,0.5)}
+.st2{background:yellow}
+.st{background:silver}
+
+
+
+
+</style>
+
+  <script src="http://localhost/libraries/angular.min.js"></script>
+  <script src="http://localhost/libraries/angular-filter.min.js"></script>
+   <script>
+  angular.module("spellingy",['angular.filter']);
+  </script>
+  
+  <script src="js/jquery.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.min.js"></script> 
+  
+ 
+ <script src="js/txtSlots.js" charset="utf-8"></script>
+    <script src="js/spellingy_data.js" charset="utf-8"></script>
+	 <script src="js/labControllers.js" charset="utf-8"></script>
+	   <script src="js/laemeFct.js" charset="utf-8"></script>
+	   <script src="js/localFct.js" charset="utf-8"></script>
+	   <script src="labDirectives.js" charset="utf-8"></script>
+	    <script src="js/network.js" charset="utf-8"></script>
+
+
+  
+  
+</head>
+<body ng-app="spellingy" ng-controller="methinker">
+
+
+
+<div id=textbar text-bar></div>
+
+<div id=results>
+
+<!--   <button ng-click="compareSlots()">Slots</button><br> -->
+    
+    
+<h1>Results</h1>
+<table class=ttable>
+    <tr><td colspan=9><input type=text ng-model="cFilter">
+<tr><th>Cat<th>Strid<th>pos<th>Lexel<th>Grammel<th ng-repeat="td in tids" ng-class="alts.st">{{td.tid}} <!--<button ng-click="drawSlots(td.tid)">Draw</button>--> <br>
+
+<tr ng-repeat="st in rsl  | clusterFilter:cFilter | orderBy:'cat' track by $index  " >
+<td>{{st.cat}}
+    <td>{{st.strid}}
+    <td>{{st.pos}}
+    <td>{{st.l}}
+<td>{{st.g}}
+<td ng-repeat="alts in st.rps" ng-class="alts.st" ng-click="getForms([alts.tid,st.strid])">{{alts.alts}}
+
+
+</table>
+</div>
+
+
+<div id="displayDiv">
+
+
+
+
+
+</div>
+
+
+<div id="helper" lab-helper>
+
+</div>
+
+ <script>
+ 
+ 
+</script>
+
+</body>
+</html>

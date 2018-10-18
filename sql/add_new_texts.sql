@@ -1,0 +1,2 @@
+INSERT INTO pm_corpus (olid,lexel,grammel,form,text) SELECT id, lexel, grammel, form, text FROM
+new_laeme  WHERE lexel||grammel IN (SELECT lexel||grammel FROM pm_vocab) AND text IN (291,142,1200,64,65)

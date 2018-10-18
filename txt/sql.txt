@@ -1,0 +1,13 @@
+SELECT * FROM
+(SELECT lexel,form FROM new_laeme WHERE text=10 AND lexel!='' AND form SIMILAR TO '%O%' AND form NOT SIMILAR TO '%U%' AND lexel NOT IN (SELECT lexel from zaznamy_m WHERE pattern='OvU') GROUP BY lexel,form) AS m
+INNER JOIN
+(SELECT lexel,form FROM poema WHERE form SIMILAR TO '%U%' AND form NOT SIMILAR TO '%O%' GROUP BY lexel,form) AS c
+ON m.lexel=c.lexel
+INNER JOIN lexcounts l 
+ON m.lexel=l.lexel ORDER BY count DESC
+
+SELECT c.text, count(c.text) FROM
+(SELECT lexel,form FROM zaznamy_m WHERE pattern='EvA' AND version='E') AS z
+INNER JOIN
+(SELECT text,lexel,form FROM new_laeme) AS c
+ON c.lexel SIMILAR TO z.lexel AND c.form SIMILAR TO z.form GROUP BY c.text
