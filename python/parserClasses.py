@@ -11,7 +11,7 @@ class Analysis:
         print("Analysis object initialized")
         
     def getLitterae(self):
-        inp=[{"lit":"v", "cat":"A", "ln":1},{"lit":"e","cat":"V","ln":1},{"lit":"r","cat":"C","ln":1},{"lit":"f","cat":"C","ln":1}, {"lit":"y","cat":"A","ln":1},{"lit":"u","cat":"A","ln":1},{"lit":"rr","cat":"C","ln":2},{"lit":"ee","cat":"V","ln":2},{"lit":"ch","cat":"C","ln":2},{"lit":"c","cat":"C","ln":1}, {"lit":"l","cat":"C","ln":1}, {"lit":"a","cat":"V","ln":1}]
+        inp=[{"lit":"v", "cat":"A", "ln":1},{"lit":"e","cat":"V","ln":1},{"lit":"r","cat":"C","ln":1},{"lit":"f","cat":"C","ln":1}, {"lit":"y","cat":"A","ln":1},{"lit":"u","cat":"A","ln":1},{"lit":"rr","cat":"C","ln":2},{"lit":"ee","cat":"V","ln":2},{"lit":"ch","cat":"C","ln":2},{"lit":"c","cat":"C","ln":1}, {"lit":"l","cat":"C","ln":1}, {"lit":"a","cat":"V","ln":1},{"lit":"-","cat":"A","ln":1}]
         rsl=[]
         for i in inp:
             rsl.append(Littera(i["lit"],i["cat"],i["ln"]))
@@ -19,7 +19,7 @@ class Analysis:
         return rsl
     
     def getSubstSets(self):
-        inp=[set(["v","u","f"]),set(["u","e","i","ee","y"]),set(["r","rr"]),set(["c","ch","h"]),set(["l","-"]),set(["e","a","i","-"])]
+        inp=[set(["v","u","f"]),set(["u","e","i","y"]),set(["r","rr"]),set(["c","ch","h"]),set(["l","-"]),set(["e","a","i","-"])]
         rsl=[]
         for i in inp:
             rsl.append(SubstSet(list(i)))
@@ -36,6 +36,12 @@ class Analysis:
         self.lexel.calcPattScore()
         self.topScore=self.lexel.scores.getBest()
         print(self.topScore)
+    
+    def testPatterns(self,patterns):
+        self.makeSelections(patterns)
+        for s in self.selections:
+            self.versions.append(Version(s))
+        self.countValid()
         
     def makeSelection(self,pattern):
         self.selections.append(Selection(pattern,self.lexel.options))
@@ -43,6 +49,15 @@ class Analysis:
     def makeSelections(self, patterns):
         for patt in patterns:
             a.makeSelection(patt)
+    
+    def countValid(self):
+        valid=list(filter(lambda x: x.isValid, self.versions))
+        print("FOUND __ " + str(len(valid)) + " __ VALID VERSION(S)")
+        if(len(valid)==0):
+            self.versions=[]
+            self.selections=[]
+           # self.testPatterns(self.lexel.patterns)
+            
 
 
    
@@ -53,10 +68,11 @@ class Lexel:
         self.forms=self.getForms(lexel)
         self.options={}
         self.patterns=[]
+        self.addedPatterns=[]
         print("Lexel initialized")
     
     def getForms(self,lexel):
-        return ["elch","eche","elche","ech","alche","ache"]
+        return ["elch","eche","ech","ache","ece"]
     
     def getOptions(self):
         self.patterns=list(self.patterns)
@@ -88,13 +104,13 @@ class Lexel:
             else:
                 nSplit.append(form[i:i+1])
                 i+=1
-        nOption=Option(nSplit);
+        nOption=Option(nSplit, None);
 
         if(nOption.pattern.find("A")!=-1):
-            options=options+vcVariants(nOption)
+            options=options+nOption.vcVariants()
         else:
             options.append(nOption)
-        self.options[form]=OptionSet(options)
+        self.options[form]=OptionSet(form,options, False, [], [])
         self.patterns=self.patterns+list(map(lambda x: x.pattern,options))
         
     def calcPattScore(self):
@@ -107,6 +123,9 @@ class Lexel:
                     self.options[o].patterns[p]+=1
                     rsl[p]+=1
         self.scores=Scores(rsl)
+        
+    def proposePattern(self, optSet, pattern, index):
+        print("Adding pattern based on " + pattern)
 
 class Littera:
     # constant data - litterae with classes and lengths
@@ -117,9 +136,13 @@ class Littera:
 
 class Option:
     # basic object holding a splitting option and pattern
-    def __init__(self,split):
+    def __init__(self,split,pattern):
         self.split=split
-        self.pattern=self.makeSlots()
+        if(pattern):
+            self.pattern=pattern
+        else:
+            self.pattern=self.makeSlots()
+            
         
     def makeSlots(self):
         rsl=[]
@@ -138,22 +161,28 @@ class Option:
         return rsl
 
 class OptionSet:
-    def __init__(self,lst):
+    def __init__(self, form,lst, original, split, versions):
+        self.form=form
         self.list=lst
         self.patterns=dict.fromkeys(map(lambda x: x.pattern,lst),0)
+        self.original=original
+        self.split=split
+        self.versions=versions
 
     def evaluate(self,pattern):
         found=False
         for v in self.list:
             if(v.pattern==pattern):
-                self.original=True
-                self.split=v.split
-                self.versions=[]
+                found=True
+                original=True
+                split=v.split
+                versions=[]
         if(found==False):
-            self.original=False
-            self.split=[]
-            self.versions=self.list
-        return self
+            original=False
+            split=[]
+            versions=self.list
+        rsl=OptionSet(self.form,self.list, original, split, versions)
+        return rsl
     
     def resolvePos(self,index,sset):
         # filling up positions in splits which do not fit the pattern being processed
@@ -168,6 +197,7 @@ class OptionSet:
 class Selection:
     # filtered options based on a selected pattern
     def __init__(self,pattern,options):
+        print("Making the selection for pattern: "+pattern)
         self.pattern=pattern
         self.selected=[]
         for o in options:
@@ -180,21 +210,38 @@ class Selection:
 class Version:
     # result of analysis for a specific Selection based on certain parametres
     def __init__(self, selection):
+        print("Making a version for pattern: "+selection.pattern)
         self.pattern=selection.pattern
         self.alignments=[]
+        self.invalidSets=[]
         for i in range(0, len(selection.pattern)):
             self.alignments.append(Alignment(selection, i))
-        self.validate()
+        self.splits=list(map(lambda x: x.split, selection.selected))
+        self.isValid=True
+        self.validate(selection)
             
    
-    def validate(self):
+    def validate(self,selection):
+        for s in selection.selected:
+            if("".join(s.split).replace("-","").strip()!=str(s.form).strip()):
+                print("".join(s.split).replace("-","").strip() + " ! " +str(s.form).strip())
+                self.isValid=False
+        
         for al in self.alignments:
             if(al.set.isValid(a.substSets)==False):
                 self.isValid=False
-                print("version for pattern " + self.pattern + " is INVALID")
-                break
-        self.isValid=True
-        print("version for pattern " + self.pattern + " is VALID")
+                self.invalidSets.append(al.set)
+        if(self.isValid==True):
+            print("version for pattern " + self.pattern + " is VALID")
+        else:
+            print("version for pattern " + self.pattern + " is INVALID")
+            print(list(map(lambda x: x.members, self.invalidSets)))
+        self.display()
+    
+    def display(self):
+        for s in self.splits:
+            print(" | ".join(s))
+        
 
 
 class Alignment:
@@ -212,8 +259,11 @@ class Alignment:
                 self.set.addMembers([graph])
                 s.split.append(graph)
                 if(graph=="-"):
+                    a.lexel.proposePattern(s, selection.pattern,index)
+                    alternatives=[]
                     for vr in s.versions:
-                        vr.split=vr.split[0:index]+["-"]+vr.split[index:]
+                        alternatives.append(Option(vr.split[0:index]+["-"]+vr.split[index:],None))
+                    s.versions=s.versions+alternatives
 
 
 class SubstSet:
@@ -252,11 +302,8 @@ class Scores:
 # RUNNIG METHODS    
 a=Analysis("each")
 a.initialize()
+a.testPatterns(a.lexel.patterns)
 
-a.makeSelections(a.topScore)
-
-for s in a.selections:
-    Version(s)
     
 
 
