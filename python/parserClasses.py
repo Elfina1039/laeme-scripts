@@ -39,6 +39,11 @@ class Analysis:
         
     def makeSelection(self,pattern):
         self.selections.append(Selection(pattern,self.lexel.options))
+        
+    def makeSelections(self, patterns):
+        for patt in patterns:
+            a.makeSelection(patt)
+
 
    
 class Lexel:
@@ -150,6 +155,16 @@ class OptionSet:
             self.versions=self.list
         return self
     
+    def resolvePos(self,index,sset):
+        # filling up positions in splits which do not fit the pattern being processed
+        rsl="-"
+        for v in self.versions:
+            if(v.split[index:index+1]):
+                sSet=sset.projectSet([v.split[index]])
+                if(sSet.isValid(a.substSets)):
+                    rsl=v.split[index]
+        return rsl
+    
 class Selection:
     # filtered options based on a selected pattern
     def __init__(self,pattern,options):
@@ -160,50 +175,40 @@ class Selection:
             self.selected = sorted(self.selected, key=lambda k: -k.original)
         print("Selection for pattern: " + pattern + " completed")
       
-
-class Guess:
-    # obe object in a selection prepared for processing
-    def __init__(self,split,versions):
-        self.split=split
-        self.versions=versions
         
-        
-    def resolvePos(self,index,sset):
-        # filling up positions in splits which do not fit the pattern being processed
-        rsl="-"
-        for v in self.versions:
-            if(v.split[index:index+1]):
-                sSet=sset.projectSet([v.split[index]])
-                if(sSet.isValid()):
-                    rsl=v.split[index]
-        return rsl
 
 class Version:
     # result of analysis for a specific Selection based on certain parametres
-    def __init__(self):
-        pass
+    def __init__(self, selection):
+        self.pattern=selection.pattern
+        self.alignments=[]
+        for i in range(0, len(selection.pattern)):
+            self.alignments.append(Alignment(selection, i))
+        self.validate()
+            
    
     def validate(self):
-        for a in version.alignments:
-            if(a.set.isValid()==False):
-                return False
-        return True
+        for al in self.alignments:
+            if(al.set.isValid(a.substSets)==False):
+                self.isValid=False
+                print("version for pattern " + self.pattern + " is INVALID")
+                break
+        self.isValid=True
+        print("version for pattern " + self.pattern + " is VALID")
 
 
 class Alignment:
     # member object of Version, set of litterae found at a specific position
-    def __init__(self, guesses,pattern, index):
+    def __init__(self, selection, index):
         self.index=index
-        self.type=pattern[index]
+        self.type=selection.pattern[index]
         self.set=SubstSet([])
-        for g in guesses:
-            if(g.original==True):
-                self.set.addMembers([g.split[index]])
+        for s in selection.selected:
+            if(s.original==True):
+                self.set.addMembers([s.split[index]])
             else:
-                print("resolving pos")
-                print(g)
                 inserted=[]
-                graph=g.resolvePos(index,pos["set"])
+                graph=s.resolvePos(index,self.set)
                 self.set.addMembers([graph])
                 s.split.append(graph)
                 if(graph=="-"):
@@ -219,7 +224,7 @@ class SubstSet:
     def isValid(self, ssets):
         # comparing the set with existing sets
         for s in ssets:
-            if(self.members<=s):
+            if(self.members<=s.members):
                 return True
         return False
     
@@ -248,6 +253,12 @@ class Scores:
 a=Analysis("each")
 a.initialize()
 
-for patt in a.topScore["patterns"]:
-    a.makeSelection(patt)
+a.makeSelections(a.topScore)
 
+for s in a.selections:
+    Version(s)
+    
+
+
+
+    
