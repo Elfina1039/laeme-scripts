@@ -26,26 +26,6 @@ def comparePatterns(a,b):
         i+=1
     return True;
 
-def calcPattScore(options,patterns):
-    rsl={}
-    for p in patterns:
-        rsl[p]=0
-        for o in options:
-            if(p in options[o]["patterns"].keys()):
-               # print(p)
-                options[o]["patterns"][p]+=1
-                rsl[p]+=1
-    print(rsl)
-    return rsl
-
-def pickOption(o,p):
-    rsl={}
-    for v in o["list"]:
-        if(v["pattern"]==p):
-            rsl={"original":True, "split":v["split"] ,"versions":[]}
-    if(rsl=={}):
-        rsl=rsl={"original":False, "split":[],"versions":o["list"]}
-    return rsl
 
 
 

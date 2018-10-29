@@ -1,9 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import psycopg2 as p
 import psycopg2.extras as e
 conn=p.connect("dbname='postgres' user='postgres' host='localhost' password='postgrass'")
 c=conn.cursor(cursor_factory=e.DictCursor)
 
 q=input("query: ")
+#q="SELECT DISTINCT sset FROM (SELECT array_agg(DISTINCT char) AS sset FROM positions GROUP BY strid, pos) AS sub"
 
 c.execute(q)
 
