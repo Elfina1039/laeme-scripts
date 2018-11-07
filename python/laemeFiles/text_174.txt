@@ -1,0 +1,442 @@
+# 134\n
+{London, PRO E 164/28, fol. 229v: Register of Ramsey Abbey, hand B}\n
+C14a\n
+529 285 N\n
+{=Ramsey, Hunts=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f229v~}\n
+{(\'*PRIMA DIUISIO *MARISCU DE KINGISDELFe\'(}\n
+{=Title in larger script and centred above the document. The first and\n
+last third of the page is in Latin in the same hand=}\n
+$/DesN_yEISE\n
+$man/npl_MEN\n
+$be/vpt23_WAREN\n
+$there/av_yER\n
+\'_*ALWINE\n
+$abbot/n-t_*ABBOT\n
+$betell/vpt13_BE+TOL+DE $be-/xp-v_BE+ $/vpt13[L]_+DE\n
+$/TplOd_yE\n
+$mearc{b}/nplOd_MARK+E $/plnOd_+E\n
+{>}\n
+{=ins, interlined above=}\n
+$&/cj_AND\n
+{>}\n
+$/TplOd_yE\n
+$gemae:re/nplOd_*MER+E $/plnOd_+E\n
+$after/pr_AFTER\n
+;_KINGESDELFe\n
+$between/pr_BY-TUEN $be-/xp-pr_BY-\n
+;_*RA\\MESe\n
+$&/cj_&\n
+;_yORNEIE\n
+{.}\n
+$with{a}/pr_WIT\n
+;_LEFRICHE\n
+$abbot/n<pr_*ABBOT\n
+$of/pr_OF\n
+;_*BOURCH\n
+$for/cj_FOR\n
+$/P13NM_HE\n
+$have/vpt13_HA+DDE $/vpt13[V]_+DDE\n
+$then/av_yANNE\n
+;_yORNEIE\n
+$to/im+C_TO\n
+$ge:man/vi-m_GEM+EN $/vi-m_+EN\n
+{=Looks like GEUIEN with a stroke on the third minim=}\n
+$&/cj_&\n
+{\\}\n
+\'_*SYWARD\n
+$provost/n_*ProUOST\n
+$of/pr_OF\n
+;_yORNEIE\n
+$mid{w}/pr_MID\n
+$/P13<prM_HIM\n
+$/RTA_yAT\n
+$be/vpt13_WAS\n
+$since/av_SIyEN\n
+$abbot/n_*ABBOT\n
+$therein{p}/av-k_yer+INNE $in{p}/pr-k_+INNE\n
+{,}\n
+\'_*ALWINE\n
+$abbot/n-t_*ABBOT\n
+{.}\n
+{<}\n
+{=del, crossed through in error. Not dittography, the first being the\n
+title and the second the description=}\n
+$abbot/n_ABBOT\n
+{<}\n
+{\\}\n
+$of/pr_OF\n
+;_*RAMESEYE\n
+$/P13OdI_HIT\n
+$betell/vpt13_BI-TOL+DE $be-/xp-v_BI- $/vpt13[L]_+DE\n
+{.\'}\n
+$&/cj_&\n
+$/P13GMpl_HISE\n
+$monk/npl_*MUNEK+ES $/pln_+ES\n
+$mid{w}/pr_MID\n
+$/P13<prM_HIM\n
+{.}\n
+\'_*ALFWOLD\n
+$&/cj_&\n
+\'_*EyELWOLD\n
+$&/cj_&\n
+$/P13GMpl_HISE\n
+$knight/npl_CNITT+ES $/pln_+ES\n
+\'_TOKY\n
+{\\}\n
+$of/pr_OF\n
+;_*SCITLINGEDON\n
+\'_*LEOWINE-CLOCHE\n
+{.}\n
+\'_*BRITHMAN-BALEHORN\n
+{.}\n
+\'_*OSBERN\n
+{.}\n
+\'_WLWINE\n
+{=MS WALWINE with A expuncted=}\n
+\'_*LEIyULFe\n
+$in{m}/pr_*ON\n
+\'_LEFSI\\NES\n
+$abbot/nG-t_*ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_.*I.+WITT+NESSE $ge-/xp-n_.*I.+ $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+;_HELY\n
+{.}\n
+\'_*SYRIKES\n
+$provost/nG-t_*ProUOST+ES $/Gn-t_+ES\n
+$/P13GMpl_HIS\n
+$monk/nplG_*MONEK+ES $/plnG_+ES\n
+$&/cj_&\n
+\'_WLFGETES\n
+$abbot/nG_*ABBOT+es $/Gn_+es\n
+$of/pr_OF\n
+;_*CRU\\LANDE\n
+{.}\n
+$&/cj_&\n
+\'_*BRIXTANES\n
+$/P13GMpl_HISE\n
+$monk/nplG_*MONEK+ES $/plnG_+ES\n
+$&/cj_&\n
+\'_*ALSIGES\n
+$monk/nG_*MONOK+ES $/Gn_+ES\n
+{.}\n
+$&/cj_&\n
+\'_*LEOFWINES\n
+$monk/nG_*MONEK+ES $/Gn_+ES\n
+$/TG_yE\n
+$long/ajG_LONG+E $/Gaj_+E\n
+$of/pr_OF\n
+{\\}\n
+;_*BOURCH\n
+$&/cj_&\n
+\'_*ALFWOLDES\n
+$of/pr_OF\n
+;_yORNEIE\n
+$&/cj_&\n
+\'_*SYWARDES\n
+$provost/nG-t_*PROUOST+ES $/Gn-t_+ES\n
+$/RTA_yAT\n
+$since/av_SIyIN\n
+$be/vpt13_WAS\n
+$abbot/n_*ABBOT\n
+$therein{p}/av-k_yer+INNE $in{p}/pr-k_+INNE\n
+$&/cj_&\n
+$/DesN_yESE\n
+{\\}\n
+$lewd/ajpl_*LEWED+E+ $/plaj_+E+\n
+$man/npl_+MEN\n
+$/P13OdI_HIT\n
+$swear/vSpt23_SWOR+EN $/vSpt23[R]_+EN\n
+$afterthat/av>=_AFTer-yANNE $Yan/av-k_-yANNE\n
+{.\'}\n
+$that/cj<=_yAT\n
+$/P13NI_IT\n
+$be/vpt13_WAS\n
+$betell/vpp_BI-TOL+D $be-/xp-v_BI- $/vpp[L]_+D\n
+{.\'}\n
+$/TplOd_yE\n
+$2/qcOd_TWO\n
+$deal/nplOd_DEL $/plnOd_0\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+$saint/n<pr-t_SanCtE\n
+\'_*BENEDICTE\n
+{\\}\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEIE\n
+{.}\n
+$&/cj_&\n
+$/TOd_yE\n
+$3/qoajOd_yRIDDEN+\n
+$deal/nOd_+DEL\n
+{.}\n
+$saint/n<pr-t_SanCtE\n
+\'_BOTULFE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_yORNEIE\n
+{.}\n
+$all/nOd_AL\n
+{.}\n
+$by/pr_BE\n
+$/T<pr_yE\n
+;_GANGESTEDE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RA\\MESEYE\n
+{.}\n
+$by/pr_BE\n
+$easthalf/n<pr_*EST+HALF $half/n<pr-k_+HALF\n
+$/T<pr_yE\n
+$delf/n<pr_DELF\n
+{.}\n
+$&/cj_&\n
+$by/pr_BE\n
+$westhalf/n<pr_WEST+HALF $half/n<pr-k_+HALF\n
+$by/pr_BE\n
+;_*HUNDELAKE\n
+{.}\n
+$so/av_SWO\n
+$on/av_ON\n
+$to/pr_TO\n
+{.}\n
+;_WENLES-*MERE\n
+$&/cj_&\n
+$half/nOd_HALF\n
+{\\}\n
+;_*RAWERE-HOLT\n
+{.}\n
+\'_yURULF\n
+$/TN_yE\n
+$fisher/n_*FISS+ERe $-er/xs-agt-n_+ERe\n
+$of/pr_OF\n
+;_FARSHEUEDE\n
+$&/cj_&\n
+\'_LEFSTAN-.*HERLEPIC\n
+$of/pr_OF\n
+;_WITLESEYE\n
+{.}\n
+$/P23N_HEO\n
+$swear/vSpt23_SWR+EN $/vSpt23[R]_+EN\n
+{\\}\n
+$/TOd_yE\n
+$3/qoajOd_yRIDDEN+\n
+$deal/nOd_+DEL\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_yORNEIE\n
+$&/cj_&\n
+\'_LEFSI-CREULETA\n
+{.}\n
+$&/cj_&\n
+\'_AILMERHOGGe\n
+$of/pr_OF\n
+;_WELLEN\n
+$&/cj_&\n
+\'_WULGEIT\n
+$/TN_yE\n
+$fisher/n_*FISS+ERE $-er/xs-agt-n_+ERE\n
+{\\}\n
+$of/pr_OF\n
+;_*HEYTUMDEGRAUE\n
+$/P23N_HE\n
+$swear/vSpt23_SWOR+EN $/vSpt23[R]_+EN\n
+$all/av_AL\n
+{=Corrected from ALLE by erasure=}\n
+$2/qcOd_TO\n
+$deal/nplOd_DEL $/plnOd_0\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEYE\n
+$by/pr_BI\n
+$/DesG_yISSE\n
+$man/nplG_*MANN+ES $/plnG_+ES\n
+$witness/n<pr_WITT+NESSE $-ness/xs-n<pr_+NESSE\n
+$&/cj_&\n
+{\\}\n
+$many/ajpl<pr_MAN+I $-ig/xs-ajpl<pr_+I $/plaj<pr_0\n
+$other/pnpl<pr_OyER+E $/plajpn<pr_+E\n
+{.}\n
+{(*HIIS TESTIBus & MULTis ALIIS(}\n
+{\\\\}\n
+|\n
+\n
+\n'
+b'
+\n
+# 174\n
+{London, Westminster Abbey Library MS 34/3, fol. 36v: verse on impossibilities}\n
+C13b2-C14a1(ca1300)\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The verse is on the bottom half of the folio which is much spotted and\n
+in places faded and hard to read=}\n
+{~f36va~}\n
+$/P11N_*I^C\n
+$see/vSpt11_SEI\n
+$/AOd_A\n
+$sight/nOd_SIC+TE $-th/xs-nOd_+TE\n
+$/RTI_y^T\n
+$be/vpt13_WAS\n
+$unsee/vSpp_VN-SEIy+E $un-/xp-v_VN- $/vSpp[V]{rh}_+E\n
+{\\}\n
+$/AOd_*A\n
+$fyndels/nOd_FIND+ELS $-els/xs-nOd_+ELS\n
+{"finding, discovery"}\n
+$/RTI_y^T\n
+$be/vpt13_WAS\n
+$unfind/vSpp{rh}_VN-FUND+E $un-/xp-v_VN- $/vSpp{rh}_+E\n
+{.}\n
+{\\}\n
+$/AOd_*A\n
+$wise/ajOd_WIS\n
+$woman/nOd_WOMAn\n
+$of/pr_OF\n
+$wit/n<pr_WIT\n
+$unsleigh/ajOd{rh}_VN-SLEI $un-/xp-aj_VN-\n
+{\\}\n
+$/AOd_*A\n
+$loose/ajOd_LOS\n
+$man/nOd_MAn\n
+$fast/av_FASTE\n
+$bind/vSpp{rh}_BUND+E $/vSpp{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$partridge/n_PerTRICH\n
+$draw/vSpt13_DROWEn\n
+{=sic=}\n
+$/AOd_A\n
+$wain/nOd_WEYN\n
+{\\}\n
+$/TN_yE\n
+$forthmost/ajn_FORyE+MEST $-most/xs-ajn_+MEST\n
+$be/vpt13_WAS\n
+$behind/av{rh}_BI-HYNDE $be-/xp-av_BI-\n
+{\\}\n
+$/AN_*A\n
+$dead/aj_DED\n
+$man/n_MAn\n
+$on{p}/pr_ON\n
+$/P13GM_IS\n
+$byrgels/n<pr_BURI+ELES $-els/xs-n<pr_+ELES\n
+$stand/vSpt13_STOD\n
+{\\}\n
+$/P13GMpl_*IS\n
+$hand/nplOd_HOND+EN $/plnOd_+EN\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$wring/vi-m{rh}_WRYNG+E $/vi-m{rh}_+E\n
+{\\}\n
+$well{v}/av_WEL\n
+$high/av_HEyE\n
+$on{p}/pr_ON\n
+$/A<pr+H_AN\n
+$hill/n<pr_HUL\n
+{\\}\n
+$/TN_yE\n
+$congre/n_CUnGER\n
+{"conger eel"}\n
+$tread/vSpt13_TRED\n
+$/TOd_yE\n
+$crow/nOd{rh}_CROUWE\n
+{\\}\n
+$/TN_yE\n
+$raven/n_RAFOUn\n
+$wendan/vpt13_WENDE\n
+$to/pr_TO\n
+$king/nG_KYNG+ES $/Gn_+ES\n
+$court/n<pr_COURT\n
+{\\}\n
+$/TOd_yE\n
+$mastin/nOd_MAISTOUn\n
+{="mastiff". See OED s.v. mastin, n. This seems the most likely reading\n
+in the context of \'impossible\' pairings: a raven wrestling with and throwing\n
+a large hunting dog. The form would require to come directly from OF\n
+mastin rather than from the blend of mastin and mestif that gives the\n
+more usual ME forms: mastif, maistif, masti. The OUn ending seems\n
+unproblematic given RAFOUn for "raven"=}   \n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$throw/vi-m{rh}_yROW+E $/vi-m{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$owl/n_HOWELE\n
+$be/vpt13_WAS\n
+$in{p}/pr_IN\n
+$chamber?/n<pr_CAMBRe\n
+$feed/vpp_FED\n
+{\\}\n
+$&/cj_&\n
+$be/vpt13_WAS\n
+$/TOi_yE\n
+$queen/nOi_QUEn\n
+$ma:ge/n{rh}_MOWE\n
+{\\}\n
+$/TN_yE\n
+$goose/n_GOS\n
+$draw/vSpt13_DROW\n
+$/TOd_yE\n
+$fox/nOd_FOX\n
+$to/pr+H_TO\n
+$hole/n<pr_HOLE\n
+{\\}\n
+$in{m}/pr_*IN\n
+$well{v}/av_WEL\n
+$great/aj<pr_Gr^ET\n
+$swou/n<pr{rh}_SUOWE\n
+{\\}\n
+$/TN_yE\n
+$hare/n_HARe\n
+$in{p}/pr_ON\n
+$/T<pr_yE\n
+$market/n<pr_MARKET\n
+$sit/vSpt13_SET\n
+{\\}\n
+$scarlet/nOd_*SKARLET\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$sell/vi-m{rh}_SULL+E $/vi-m{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$greyhound/n_[G]RIHUND\n
+$before{p}/pr_BI-FORE $be-/xp-pr_BI-\n
+$/P13<prM_HIm\n
+$stand/vSpt13_STOD\n
+{\\}\n
+$/TOd_yE\n
+{=Word illegible=}\n
+{[money[}\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$tell/vi-m{rh}_TELL+E $/vi-m{rh}_+E\n
+{.}\n
+{\\}\n
+{~f36vb~}\n
+$/TN_yE\n
+$mouse/n_MOUS\n
+$weep/vSpt13_WEP\n
+$for/pr_Fur\n
+$/TG_yE\n
+$cat/nG_KATT+ES $/Gn_+ES\n
+$death/n<pr_DEy\n
+{\\}\n
+$that/cj_y^T\n
+$manyman/n_MAN+I-MAn $-ig/xs-aj-k_+I- $man/n-k_-MAn\n
+$may/vps13_MAI\n
+$rue/vi{rh}_REW+E $/vi{rh}_+E\n
+{\\}\n
+$leman/n-voc_*LEmMAn\n
+$when/cj_WHAn\n
+$/TN_yE\n
+$song/n_SONG\n
+$be/vps13_IS\n
+$sooth/aj_SOy\n
+{\\}\n
+$of/pr_*OF\n
+$love/n<pr_LOUE\n
+$/P12N_y^U\n
+$shall/vps12_SSALT\n
+$be/vi_BE $/vi[V]_0\n
+$true/aj{rh}_TREWE\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

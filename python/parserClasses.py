@@ -260,6 +260,7 @@ class OptionSet:
     def resolvePos(self,index,sset):
         # filling up positions in splits which do not fit the pattern being processed
         rsl="_"
+        blockedSets=[]
         for v in self.versions:
             if(v.split[index:index+1]):
                 sSet=sset.projectSet([v.split[index]])
@@ -267,7 +268,9 @@ class OptionSet:
                 if(sSet.isValid(a.substSets)):
                     rsl=v.split[index]
                     #print(self.form+" : "+rsl)
-        return rsl
+                else:
+                    blockedSets.append(sSet)
+        return {"rsl":rsl, "blockedSets":blockedSets}
     
 class Selection:
     # filtered options based on a selected pattern
@@ -336,6 +339,7 @@ class Alignment:
         self.index=index
         self.type=selection.pattern[index]
         self.set=SubstSet([])
+        self.blockedSets=[]
         for s in selection.selected:
             #print("ANALYSING: "+s.form)
             if(s.original==True):
@@ -343,11 +347,13 @@ class Alignment:
             else:
                 inserted=[]
                 #print("resolving")
-                graph=s.resolvePos(index,self.set)
+                resolved=s.resolvePos(index,self.set)
+                graph=resolved["rsl"]
                 self.set.addMembers([graph])
                 s.split.append(graph)
                 if(graph=="_"):
                     a.lexel.proposePattern(s, selection.pattern,self.set,index)
+                    self.blockedSets.append(resolved["blockedSets"])
                     alternatives=[]
                     for vr in s.versions:
                         alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
