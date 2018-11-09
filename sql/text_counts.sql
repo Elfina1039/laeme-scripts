@@ -1,0 +1,1 @@
+SELECT text, count(text) FROM laeme.tags GROUP BY text ORDER BY text

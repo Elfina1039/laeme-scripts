@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*-coding:utf-8 -*-
+
 rawLits=[{"lit":"#", "cat":"A", "ln":1},
 {"lit":"hu", "cat":"C", "ln":2},
 {"lit":"cs", "cat":"C", "ln":2},

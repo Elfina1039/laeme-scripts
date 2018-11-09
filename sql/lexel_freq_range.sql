@@ -1,0 +1,1 @@
+SELECT lexel, type, count(DISTINCT FORM) FROM laeme.morphemes GROUP BY lexel, type HAVING count(DISTINCT FORM)>10 AND count(DISTINCT FORM)<20 ORDER BY count

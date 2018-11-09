@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*-coding:utf-8 -*-
+
 import rawSets
 import rawLits
 
@@ -51,8 +54,9 @@ def replaceChars(form):
 
 class Analysis:
     #main object holding most of the data
-    def __init__(self,lexel):
-        self.lexel=Lexel(lexel)
+    def __init__(self,params):
+        
+        self.lexel=Lexel(params)
         self.litterae=self.getLitterae()
         self.litDict=self.makeDict(self.litterae)
         self.substSets=self.getSubstSets()
@@ -119,9 +123,12 @@ class Analysis:
    
 class Lexel:
     # input data - lexel, forms and  analysis options
-    def __init__(self, lexel):
-        self.lexel=lexel
-        self.forms=self.getForms(lexel)
+    def __init__(self, params):
+        self.lexel=params[0]
+        self.grammel=params[1]
+        self.morpheme=params[2]
+        
+        self.forms=self.getForms()
         self.options={}
         self.patterns=[]
         self.addedPatterns=[]
@@ -129,9 +136,10 @@ class Lexel:
         
         print("Lexel initialized")
     
-    def getForms(self,lexel):
-        q="SELECT DISTINCT regexp_replace(form,'[\+-]','','g') AS form FROM laeme.morphemes WHERE lexel='"+lexel+"' AND type='"+morpheme+"' AND form NOT SIMILAR TO '%&%'"
-        c.execute(q)
+    def getForms(self):
+        #q="SELECT DISTINCT regexp_replace(form,'[\+-]','','g') AS form FROM laeme.morphemes WHERE lexel='"+lexel+"' AND type='"+morpheme+"' AND form NOT SIMILAR TO '%&%'"
+       # c.execute(q)
+        c.callproc("getformset",(self.lexel, self.grammel, self.morpheme))
         rows=c.fetchall()
         rsl=[]
         for r in rows:
@@ -144,24 +152,38 @@ class Lexel:
     def getOptions(self):
         def isPattValid(patt):
             if(len(re.findall("((C{4,})|(V{3,}))",patt))>0 or len(patt)<self.minLength):
-                print("Pattern " + patt + " is invalid")
+                print("Pattern " + patt + " is invalid", file=log)
                 return False
-            print("Pattern " + patt + " is valid")
+            print("Pattern " + patt + " is valid", file=log)
             return True
     
         self.patterns=list(self.patterns)
         for f in self.forms:
             self.getOption(f)
         self.patterns=set(self.patterns)
-        self.minLength=max(list(map(lambda x : len(x),self.forms)))
-        print("MIN pattern length=" + str(self.minLength))
+        self.getMinLength()
+        print("MIN pattern length=" + str(self.minLength),file=log)
         self.patterns=list(filter(isPattValid, self.patterns))
+    
+    def getMinLength(self):
+        rsl=1
+        longest=max(list(map(lambda x : len(x),self.forms)))
+        for o in self.options:
+            if(len(o)==longest):
+                shortestSplit=min(list(map(lambda x : len(x.pattern),self.options[o].list)))
+                if(shortestSplit>rsl):
+                    rsl=shortestSplit
+        self.minLength=rsl
+                    
         
     
     def getOption(self,form):
     #filter function selecting digraphs present in the form
         def getDigraphs(x):
             if(x.ln>1 and form.find(x.lit)!=-1):
+                if(form=="chirechen"):
+                    print("PICKING: " + x.lit, file=log)
+                    print({"lit":x.lit, "ln":x.ln, "index":form.find(x.lit)},file=log)
                 return {"lit":x.lit, "ln":x.ln, "index":form.find(x.lit)}
             else:
                 return {}
@@ -177,20 +199,30 @@ class Lexel:
                 else:
                     nSplit.append(form[i:i+1])
                     i+=1
+            if(form=="chirechen"):
+                print("best model: "+"/".join(nSplit),file=log)
             return nSplit
         
         # list for all possible split options
         options=[]
         splits=[list(form)]
        # options.append({"split":basicSplit, "pattern":makeSlots(basicSplit)})
+       # digraphs=list(filter(None,map(getDigraphs,a.litterae)))
         digraphs=list(filter(None,map(getDigraphs,a.litterae)))
         combos=[]
+        
+        if(form=="chirechen"):
+            print("best model digraphs: "+"/",file=log)
+            print(digraphs)
         
         if(len(digraphs)>0):
             for n in range(1,len(digraphs)+1):
                 nComb=list(itr.combinations(digraphs,n))
                 for nc in nComb:
                     combos.append(list(nc))
+            if(form=="chirechen"):
+                print("best model digraphs: ",file=log)
+                print(combos, file=log)
         #print(combos)
       
         # while loop generationg splits with digraphs - to be turned in to a function and called for every combination of digraphs
@@ -310,7 +342,8 @@ class OptionSet:
                 if(sSet.isValid(a.substSets) and (sSet.type==sType or sSet.type=="A")):
                     rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
-                else:
+                elif(sSet.type==sType or sSet.type=="A"):
+                    print("adding blocked set: "+sType+" = "+sSet.type+" >> "+ ", ".join(sSet.members), file=log)
                     blockedSets.append(sSet)
             if(len(set(rsl))>1):
                 print(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)), file=log)
@@ -424,6 +457,10 @@ class Version:
             print(f["actual"] + " <-! " + f["original"], file=out)
         for s in self.splits:
             print(" | ".join(s), file=out)
+        print("> BLOCKED SETS:",file=out)
+        for a in filter(lambda x: len(x.blockedSets)>0,self.alignments):
+            #print(a.blockedSets)
+            print(str(a.index)+" : "+",".join(list(map(lambda x: str(x.members), set(a.blockedSets)))),file=out)
     
         
 
@@ -457,7 +494,7 @@ class Alignment:
                 print("RESULT:  "+str(graph), file=log)
                 if(str(graph[0])=="_"):
                     a.lexel.proposePattern(s, selection.pattern,self.set,index)
-                    self.blockedSets.append(resolved["blockedSets"])
+                    self.blockedSets=self.blockedSets+resolved["blockedSets"]
                     alternatives=[]
                     for vr in s.versions:
                         print("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),file=log)
@@ -523,19 +560,19 @@ class Scores:
         return rsl
 
 
-log=open("log.txt","w")
+log=open("log.txt","w", encoding="utf-8")
 
 # RUNNIG METHODS 
 
-lexel=input("LEXEL: ")
-morpheme=input("MORPHEME: ")
-a=Analysis(lexel)
+lexelData=input("LEXEL/GRAMMEL/TYPE: ")
+params=lexelData.split("/")
+a=Analysis(params)
 
 
 
 
 a.initialize()
-a.testPatterns(["VCV","CVCV","VCVC","CVC","CVCVC"])
+a.testPatterns(a.lexel.patterns)
 print(set(a.lexel.addedPatterns),file=log)
 
 log.close()
