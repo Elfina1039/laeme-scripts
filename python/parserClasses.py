@@ -84,12 +84,15 @@ class Analysis:
         self.lexel.getOptions()
         self.lexel.calcPattScore()
         self.topScore=self.lexel.scores.getBest()
-        print(self.topScore)
+        print(self.topScore, file=log)
     
     def testPatterns(self,patterns):
-        self.makeSelections(patterns)
-        for s in self.selections:
-            self.versions.append(Version(s))
+        #self.makeSelections(patterns)
+        for patt in patterns:
+            self.lexel.getOptions()
+            selection=Selection(patt,self.lexel.options)
+            version=Version(selection)
+            self.versions.append(version)
         self.countValid()
         self.getBest()
         
@@ -110,7 +113,7 @@ class Analysis:
     
     def getBest(self):
         self.versions = sorted(self.versions, key=lambda k: len(k.faultySplits))
-        self.versions[0].display()
+        self.versions[0].display(None)
 
 
    
@@ -133,14 +136,27 @@ class Lexel:
         rsl=[]
         for r in rows:
             rsl.append(replaceChars(r[0]))
-        print(rsl)
+        print(rsl,file=log)
         return rsl
     
+    
+    
     def getOptions(self):
+        def isPattValid(patt):
+            if(len(re.findall("((C{4,})|(V{3,}))",patt))>0 or len(patt)<self.minLength):
+                print("Pattern " + patt + " is invalid")
+                return False
+            print("Pattern " + patt + " is valid")
+            return True
+    
         self.patterns=list(self.patterns)
         for f in self.forms:
             self.getOption(f)
         self.patterns=set(self.patterns)
+        self.minLength=max(list(map(lambda x : len(x),self.forms)))
+        print("MIN pattern length=" + str(self.minLength))
+        self.patterns=list(filter(isPattValid, self.patterns))
+        
     
     def getOption(self,form):
     #filter function selecting digraphs present in the form
@@ -224,16 +240,16 @@ class Littera:
 class Option:
     # basic object holding a splitting option and pattern
     def __init__(self,split,pattern):
+        self.valid=True
         self.split=split
         if(pattern):
             self.pattern=pattern
         else:
             self.pattern=self.makeSlots()
-        self.isPattValid()
+        
     
     def __del__(self):
         a.lexel.delCount+=1
-        
         
     def makeSlots(self):
         rsl=[]
@@ -250,11 +266,6 @@ class Option:
         vow=self.pattern.replace("A","V")
         rsl.append(Option(self.split, vow))
         return rsl
-    
-    def isPattValid(self):
-        if(len(re.findall("((C{4,})|(V{3,}))",self.pattern))>0):
-            print(self.pattern + " is INVALID")
-            self.__del__()
 
 class OptionSet:
     def __init__(self, form,lst, original, split, versions):
@@ -264,6 +275,12 @@ class OptionSet:
         self.original=original
         self.split=split
         self.versions=versions
+        
+    def displayVersions(self):
+        rsl=[]
+        for v in self.versions:
+            rsl.append("/".join(v.split) + "("+v.pattern+")")
+        return "\n".join(rsl)
 
     def evaluate(self,pattern):
         found=False
@@ -282,10 +299,12 @@ class OptionSet:
     
     def resolvePos(self,index,sset,sType):
         # filling up positions in splits which do not fit the pattern being processed
-        rsl=["_"]
+        rsl=[]
         blockedSets=[]
         for v in self.versions:
-            if(v.split[index:index+1]):
+            print("> version: " + "/".join(v.split), file=log)
+            if(v.split[index:index+1] and str(v.split[index:index+1]).strip()!="_"):
+                print("TRYING: " +v.split[index], file=log)
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
                 if(sSet.isValid(a.substSets) and (sSet.type==sType or sSet.type=="A")):
@@ -293,17 +312,37 @@ class OptionSet:
                     #print(self.form+" : "+rsl)
                 else:
                     blockedSets.append(sSet)
-            if(len(set(rsl))>2):
-                print(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)))
-        return {"rsl":rsl, "blockedSets":blockedSets}
+            if(len(set(rsl))>1):
+                print(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)), file=log)
+        if(rsl==[]):
+            rsl.append("_")
+                
+        return {"rsl":list(set(rsl)), "blockedSets":blockedSets}
     
-    def removeIrrelevant(self):
-        span=len(self.split)
+    def removeIrrelevant(self,span):
+        #print("--- >> removing irrelevant:  " + str(len(self.versions)))
         for v in self.versions:
-            if(str(self.split)!=str(v.split[0:span])):
-                #print("_____REMOVING________"+str(v.split))
-                v.__del__()
+            print("version split: " + str(v.split), file=log)
+            args=self.makeResolveRgx(span,v.split[0:span])
+            print(args, file=log)
+            if(re.search(args["rgx"],args["string"])==None):
+                
+                print("_____REMOVING________"+str(v.split), file=log)
+                v.valid=False
+                #print(type(v))
+                #v.__del__()
+            self.versions=list(filter(lambda x: x.valid==True,self.versions))
+        
     
+    def makeResolveRgx(self, span, version):
+        def posRgx(inp):
+            if(type(inp)=="string"):
+                return inp
+            else:
+                return "("+"|".join(list(map(lambda x: "("+x+")", inp)))+")"
+        versionStr="/".join(version)
+        splitRgx="/".join(list(map(posRgx,self.split)))+"$"
+        return {"string":versionStr, "rgx":splitRgx}
     
     
 class Selection:
@@ -323,19 +362,28 @@ class Version:
     # result of analysis for a specific Selection based on certain parametres
     def __init__(self, selection):
         print("Making a version for pattern: "+selection.pattern)
+        print("---->> Making a version for pattern: "+selection.pattern, file=log)
         self.pattern=selection.pattern
         self.alignments=[]
         self.invalidSets=[]
         self.faultySplits=[]
         for i in range(0, len(selection.pattern)):
             self.alignments.append(Alignment(selection, i))
+            
+        self.resolveSplits(selection)
         self.splits=list(map(lambda x: x.split, selection.selected))
         self.isValid=True
         self.validate(selection)
+        self.display(log)
             
    
     def validate(self,selection):
         for s in selection.selected:
+            print("SPLIT: "+ str(s.split), file=log)
+            for v in s.versions:
+                print(v.split, file=log)
+            #print(type(s.split))
+            #print(s.split)
             actual="".join(s.split).replace("_","").strip()
             original=str(s.form).strip()
             if(actual!=original):
@@ -355,14 +403,27 @@ class Version:
             print(len(self.faultySplits))
         #self.display()
     
-    def display(self):
-        print("OVERVIEW: version for pattern " + self.pattern)
-        print(list(map(lambda x: x.members, self.invalidSets)))
-        print("faulty splits: "+str(len(self.faultySplits)))
+    def resolveSplits(self,selection):
+        for s in selection.selected:
+            print("_______________________________________", file=log)
+            remaining=set(list(map(lambda x: "/".join(x.split),s.versions)))
+            if(s.original==False and len(remaining)==1):
+                s.split=s.versions[0].split
+                print("only one version left: " + str(s.split), file=log)
+            else:
+                s.split=list(map(lambda x: str(x) ,s.split))
+                vs=list(map(lambda x : "/".join(x.split),s.versions))
+                print("FAIL: " + ", ".join(vs), file=log)
+                
+    
+    def display(self, out):
+        print("OVERVIEW: version for pattern " + self.pattern,file=out)
+        print(list(map(lambda x: x.members, self.invalidSets)),file=out)
+        print("faulty splits: "+str(len(self.faultySplits)),file=out)
         for f in self.faultySplits:
-            print(f["actual"] + " <-! " + f["original"])
+            print(f["actual"] + " <-! " + f["original"], file=out)
         for s in self.splits:
-            print(" | ".join(s))
+            print(" | ".join(s), file=out)
     
         
 
@@ -370,35 +431,44 @@ class Version:
 class Alignment:
     # member object of Version, set of litterae found at a specific position
     def __init__(self, selection, index):
+        print("___"+selection.pattern+" : "+str(index)+"___",file=log)
         self.index=index
         self.type=selection.pattern[index]
         self.set=SubstSet([])
         self.blockedSets=[]
         for s in selection.selected:
-            #print("ANALYSING: "+s.form)
+            print("ANALYSING: "+s.form, file=log)
             if(s.original==True):
                 self.set.addMembers([s.split[index]])
+                print("adding littera based on matching pattern",file=log)
             else:
                 inserted=[]
-                #print("resolving")
+                print("resolving ("+str(len(s.versions))+")", file=log)
                 resolved=s.resolvePos(index,self.set, self.type)
                 
                 # SOLVE MULTIPLE RESOLVE OPTIONS PROBLEM
-                if(len(set(resolved["rsl"]))>2):
+                if(len(set(resolved["rsl"]))>1):
                     for g in resolved["rsl"]:
                         pass
-                
-                graph=str(resolved["rsl"][-1])
-                self.set.addMembers([graph])
+                # !! adding working options to result set
+                graph=resolved["rsl"]
+                self.set.addMembers(graph)
                 s.split.append(graph)
-                if(graph=="_"):
+                print("RESULT:  "+str(graph), file=log)
+                if(str(graph[0])=="_"):
                     a.lexel.proposePattern(s, selection.pattern,self.set,index)
                     self.blockedSets.append(resolved["blockedSets"])
                     alternatives=[]
                     for vr in s.versions:
+                        print("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),file=log)
                         alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
                     s.versions=s.versions+alternatives
-                    s.removeIrrelevant()
+                    print(s.displayVersions(),file=log)
+                if((len(selection.pattern)-1)==index):
+                    span=index+2
+                else:
+                    span=index+1
+                s.removeIrrelevant(span)
 
 
 class SubstSet:
@@ -453,7 +523,7 @@ class Scores:
         return rsl
 
 
-
+log=open("log.txt","w")
 
 # RUNNIG METHODS 
 
@@ -465,10 +535,10 @@ a=Analysis(lexel)
 
 
 a.initialize()
-a.testPatterns(a.lexel.patterns)
-print(set(a.lexel.addedPatterns))
+a.testPatterns(["VCV","CVCV","VCVC","CVC","CVCVC"])
+print(set(a.lexel.addedPatterns),file=log)
 
-
+log.close()
 
 
     
