@@ -12,6 +12,7 @@ class MyHTMLParser(HTMLParser):
 
     def handle_data(self, data):
         if(parser.currentPos=="span"):
+            #print("D::"+data.split("\\")[0])
             parser.result.append(data)
 
 parser = MyHTMLParser()
@@ -36,6 +37,10 @@ for f in files:
     txt=resp.read()
     parser.feed(str(txt))
 
-    with open("laemeFiles/text_"+str(f["id"])+".txt","a") as txt:
+    with open("laemeFiles/text_"+str(f["id"])+".txt","w") as txt:
         for l in parser.result:
-            txt.write(l+"\n")
+            #print(l.rstrip())
+            print(l.rstrip(), file=txt)
+    parser.currentPos=""
+    parser.result=[]
+    parser.reset()

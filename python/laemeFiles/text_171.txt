@@ -1,0 +1,302 @@
+# 171\n
+{Oxford, Bodleian Library, Junius 121, fol. vi: Nicene Creed}\n
+C13a\n
+384 254 E\n
+{=Worcester, Worcs=}\n
+{=Sample consists of this text only, in the same hand (the Worcester\n
+Tremulous Hand), as his version of Aelfric\'s Grammar and Glossary (see\n
+text no. 172 worcthgrglt.tag) and the Worcester fragments (text no. 173\n
+worcthfragst.tag) which have been tagged separately because the language\n
+is slightly different, that of the Grammar and Glossary being influenced\n
+by being copied from an Old English original=}\n
+{=Script - Textura semiquadrata. The hand has a characteristic leftward\n
+slant, is variable in size, regularity and in degree of tremor=}\n
+{=Status - complex commentary, adding of Latin text for context and\n
+punctuation complete=}\n
+{~fvi~}\n
+{=One line of faint Latin not in the Tremulous Scribe\'s hand followed by\n
+a line of present tense verbs written in the Tremulous Hand=}\n
+{(TOLLIT . ALIT . REMOUIT . GERIT . EGERIT . ACCIPIT . AU? &C.(}\n
+{=Twelve lines of Latin in a different hand again, then the Creed in\n
+the Tremulous Hand=}\n
+$/P11N+V_*IC\n
+$believe/vps11_I+LEUE $ge-/xp-vps11_I+\n
+$in{b}/pr_ON\n
+$1/qc<pr_ENNE\n
+$god/n<pr_GOD\n
+$father/n<pr_FaeDER\n
+$almighty/aj<pr_AL+MIHT+I $mighty/aj<pr-k_+MIHT+I $-ig/xs-aj<pr_+I\n
+{.}\n
+$wyrcend/n<pr_wURCH+END $-end/xs-n<pr_+END\n
+$heaven/nG_HEO\\UEN+E $/Gn_+E\n
+$&/cj_&\n
+$earth/nG_EORy+E $/Gn_+E\n
+{.}\n
+$&/cj_&\n
+$all/ajplG_ALL+E $/plajG_+E\n
+$seenli:c/ajplG_I+SEIEN+LICH+E $ge-/xp-aj_I+ $-ly/xs-ajplG_+LICH+E $/plajG_+E\n
+$thing/nplG_yING $/plnG_0\n
+{.}\n
+$&/cj_&\n
+$unseenli:c/ajplG_VN+I+SEIEN+LICH+E $un-/xp-aj_VN+ $ge-/xp-aj_+I+ $-ly/xs-ajplG_+LICH+E $/plajOd_+E\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$in{b}/pr_ON\n
+$1/qc<pr_ENNE\n
+$christ/n<pr_CRIST\n
+{.}\n
+$hae:lend/n<pr_HEL+END $-end/xs-n_+END\n
+$dryhten/n<pr_DRIHT+EN $-in/xs-n<pr_+EN\n
+{.}\n
+$/T<pr_yENE\n
+$a:ncenned{b}/vpp-aj<pr_AN+CENN+EDEN $cennan{b}/vpp-aj<pr-k_+CENN+EDEN $/vpp[N]-aj<pr_+EDEN\n
+{\\}\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$son/n<pr_SUNU\n
+{.}\n
+$of/pr_OF\n
+$/T<pr_yAN\n
+$father/n<pr_FaeDER\n
+$acennan{b}/vpp_A+KENN+ED $a-/xp-v_A+ $/vpp[N]_+ED\n
+$ere/av_aeR\n
+$all/ajplG_AL+RE $/plajG_+RE\n
+$world/nplG_wORLD+E $/plnG_+E\n
+{.}\n
+{\\}\n
+$god/nOd_GOD\n
+$of/pr_OF\n
+$god/n<pr_GODE\n
+{.}\n
+$light/nOd_LIHT\n
+$of/pr_OF\n
+$light/n<pr_LIHTE\n
+{.}\n
+$sooth/ajOd_SOy\n
+$god/nOd_GOD\n
+$of/pr_OF\n
+$sooth/aj<pr_SOdE\n
+$god/n<pr_GODE\n
+{.}\n
+{\\}\n
+$acennan{b}/vpp_A+KENN+ED $a-/xp-v_A+ $/vpp[N]_+ED\n
+$not/av_NOUT\n
+$work/vpp_I+wROUH+T $ge-/xp-vpp_I+ $/vpp[H]_+T\n
+{.}\n
+$evenedwistli:c/ajOd_EFEN+ED+wIST+LIC+NE $/vpp-aj-k_+ED+ $wistli:c/ajOd-k_+wIST+LIC+NE $-ly/xs-ajOd_+LIC+NE $/Odaj_+NE\n
+$/TOi_yAN\n
+$father/nOi_FaeDER\n
+{.}\n
+{=The scribe\'s tremor becomes increasingly pronounced especially at the\n
+end of each line of text as if he rests before beginning each line and\n
+starts to get tired towards the end of it. The word FaeDER is\n
+particularly shaky. After this line the tremor, though variable, has\n
+improved as if the scribe had taken a longer break at this point and\n
+resumed in a steadier state=}\n
+{\\}\n
+$through/pr_yurh\n
+{=This is y with a line through the descender, cf. the 2 hands of Nero A\n
+xiv, the 3 hands of Royal 17.A.xxvii and language 2 of Caligula A.ix=}\n
+$/RTA<pr_yENE\n
+$be/vps23_BEOy\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$thing/npl_yING $/pln_0\n
+$work/vpp-pl_I+wROUH+T $ge-/xp-vpp_I+ $/vpp[H]-pl_+T\n
+{.}\n
+$/RTA_yE\n
+$for/pr_FOR\n
+$/P21<pr_US\n
+$man/npl<pr_MONN+EN $/pln<pr_+EN\n
+{\\}\n
+$&/cj_AND\n
+$for/pr_FOR\n
+$/P21G_URE\n
+$hae:lu/n<pr_HaeLE\n
+$nether/av_NIyER\n
+$asti:gan/vSpt13_A+STaeIH $a-/xp-v_A+\n
+$of{f}/pr_OF\n
+$heaven/n<pr_HEOUENE\n
+{.}\n
+$&/cj_AND\n
+{\\}\n
+$weorYan/vSpt13_wEARy\n
+$fleshhama/vpp_I+FLaeSC+HOM+OD $ge-/xp-vpp_I+ $hama/vpp-k_+HOM+OD $/vpp[N]_+OD\n
+$of/pr_OF\n
+$/T<pr_yEN\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$ghost/n<pr_GOSTE\n
+{.}\n
+$&/cj_AND\n
+$of/pr_OF\n
+\'_MA\\RIAm\n
+$/T<pr_yEN\n
+$maiden/n<pr_MaeID+ENE $-en{d}/xs-n<pr_+ENE\n
+{.}\n
+$&/cj_&\n
+$weorYan/vSpt13_wEARd\n
+$man/n_MON\n
+$weorYan/vSpp_I+wURy+EN $ge-/xp-vpp_I+ $/vSpp_+EN\n
+{.}\n
+$/P13NM_HE\n
+$Yro:wian/vpt13K2_yROw+EDE $/vpt13[W]K2_+EDE\n
+{\\}\n
+$eke/av_EaeC\n
+$such/pnplOd_SwULC+E $/plajpnOd_+E\n
+$on{p}/pr_ON\n
+$rood/n<pr_RODE\n
+$ahang/vSpp_A+HONG+EN $a-/xp-v_A+ $/vSpp_+EN\n
+$for/pr_FOR\n
+$/P21<pr_US\n
+{.}\n
+$&/cj_&\n
+$/P13NM_HE\n
+$be/vpt13_wAS\n
+$bury/vpp_I+BURI+ED $ge-/xp-vpp_I+ $/vpp[V]_+ED\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$/P13NM_HE\n
+$arise/vSpt13_A+RAS $a-/xp-v_A+\n
+$on{t}/pr_ON+\n
+$/T<pr_+yAN\n
+$3/qoaj<pr_yRIDDE\n
+$day/n<pr_DaeIE\n
+{.}\n
+$as/RT_SO-SO\n
+$writ/npl_I+wRIT+E $ge-/xp-n_I+ $/pln_+E\n
+$say/vps23_SIGG+Ed $/vps23_+Ed\n
+{.}\n
+$&/cj_&\n
+{\\}\n
+$/P13NM_HE\n
+$asti:gan/vSpt13_A+STEIH $a-/xp-v_A+\n
+$to/pr+H_TO\n
+$heaven/n<pr_HEOUENE\n
+{.}\n
+$&/cj_&\n
+$/P13NM_HE\n
+$sit/vps13-ct_SIT\n
+$on{p}/pr_ae\n
+{=sic -error for aeT? or influenced by Latin ad?=}\n
+$righthand/n<pr_RIHT+HOND $hand/n<pr-k_+HOND\n
+$/P13GM_HIS\n
+$father/nG_FaeDER $/Gn_0\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$/P13NM_HE\n
+$eft/av_EFTd\n
+$come/vps13_CUM+Ed $/vps13[N]_+Ed\n
+$mid{w}/pr_MID\n
+$wuldor/n<pr_wULDRE\n
+$to/im+C_TO\n
+$deem/vi-m_DEM+INDE $/vi-m_+INDE\n
+$/TplOd_yEN\n
+$quick/ajnplOd_CwI\\K+E $/plajnOd_+E\n
+$&/cj_AND\n
+$/TplOd_yAn\n
+$dead/ajnplOd_DEAD+EN $/plajnOd_+EN\n
+{.}\n
+$&/cj_AND\n
+$/P13GM_HIS\n
+$rich{k}/nG_RICH+E $/Gn_+E\n
+$/neg-v(>ajN)_NE\n
+$be/v-fut13_BId\n
+$no/aj+V_NON\n
+$end/n_ENDE\n
+{.}\n
+$&/cj_AND\n
+{\\}\n
+$/P11N+V_IC\n
+$believe/vps11_I+LEUE $ge-/xp-vps11_I+\n
+$in{b}/pr_ON\n
+$/T<pr_yENE\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$ghost/n<pr_GOST\n
+$/T<pr_yENE\n
+$lifefast/aj<pr_LIF+FESTAN $-fast/xs-aj<pr_+FESTAN\n
+$god/n<pr_GOD\n
+{.}\n
+$/RTA_yE\n
+$go/vps13_GE+d $/vps13[V]_+d\n
+{\\}\n
+$of{f}/pr_OF\n
+$/T<pr_yEN\n
+$father/n<pr_FaeDER\n
+$&/cj_AND\n
+$of{f}/pr_OF\n
+$/T<pr_yEN\n
+$son/n<pr_SUNU\n
+{.}\n
+$&/cj_AND\n
+$/P13NM_HE\n
+$be/vps13_IS\n
+$mid{w}/pr_MID\n
+$/T<pr_yAN\n
+$father/n<pr_FaeDER\n
+{\\}\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$/T<pr_yAN\n
+$son/n<pr_SUNU\n
+$biddan/vSpp_I+BED+EN $ge-/xp-vpp_I+ $/vSpp_+EN\n
+{.\'}\n
+$&/cj_&\n
+$wuldrian/vppK2_I+wULDR+ED $ge-/xp-vpp_I+ $/vpp[R]K2_+ED\n
+{.}\n
+$&/cj_&\n
+$/P13NM_HE\n
+$speak/vSpt13_SPaeC\n
+$through/pr_yurh\n
+$witega/npl<pr_wITEg+EN $/pln<pr_+EN\n
+{.}\n
+{\\}\n
+$/P11N+V_IC\n
+$ondettan/vps11_AN+DETTE $an-/xp-v_AN+\n
+$/TOd_yA\n
+$1/qcOd_ONAN\n
+$holy/ajOd_HAL+wEN $-ig/xs-ajOd_+wEN\n
+$&/cj_AND\n
+$/TOd_yA\n
+$beliefful/ajOd_I+LEAF+FULLE $ge-/xp-aj_I+ $-ful/xs-ajOd_+FULLE\n
+$&/cj_AND\n
+$/TOd_yA\n
+{\\}\n
+$apostolic/ajOd_APOSTOLICAN\n
+$laYian/vnOdK2_I+LAy+UNGE $ge-/xp-vn_I+ $/vnOdK2_+UNGE\n
+{.}\n
+$&/cj_&\n
+$1/qcOd_ON\n
+$fulluht/nOd_FULLUHT\n
+$in{m}/pr_ON\n
+$forgiveness/n<pr_FOR+gIUE+NESSE $for-/xp-n_FOR+ $-ness/xs-n<pr_+NESSE\n
+{\\}\n
+$sin/nplG_SUNN+A $/plnG_+A\n
+{.}\n
+$&/cj_&\n
+$/P11N+V_IC\n
+$abide/vps11_A+BIDE $a-/xp-v_A+\n
+$ae:rist/nG_ARIST+E $/Gn_+E\n
+$dead/ajplG_DEAD+RE $/plajG_+RE\n
+$man/nplG_MONN+E $/plnG_+E\n
+{.}\n
+$&/cj_&\n
+$/TG_yES\n
+$e:ce/ajG_ECH+E $/Gaj_+E\n
+{\\}\n
+$life/nG_LIU+ES $/Gn_+ES\n
+{.}\n
+$/TG_yaeRE\n
+$toward/ajG_TOU+wARD+E $-ward/xs-ajG_+wARD+E $/Gaj_+E\n
+$world/nG_wORLD+E $/Gn_+E\n
+{.}\n
+$be/vsjps13_BEO\n
+$/P13NI_HIT\n
+$so/av_SO\n
+{(AmeN:(}\n
+{=MS AN with an upward-curving macron like a breve over the N and a\n
+colon immediately next to it=}\n
+{\\\\}\n
+|\n
+\n
+\n'

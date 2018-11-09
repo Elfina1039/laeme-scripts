@@ -1,0 +1,65 @@
+# 299\n
+{Oxford, Bodleian Library, G 22, fol. 1v: [M]irie it is}\n
+C13a2\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - proto-Gothic formata book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The flyleaf contains parts of two songs in French, followed by seven\n
+lines of a lyric in English written as underlay to the accompanying music=}\n
+{~f1vb~}\n
+$merry/aj_[]*IRIE\n
+{=Space left for large initial capital not supplied=}\n
+$/P13NI_IT\n
+$be/vps13_IS\n
+$while/cj_WHILE\n
+{=Note W not wynn=}\n
+$summer/n_SUMER\n
+{\\}\n
+$last/vps13-ct{rh}_I+LAST $ge-/xp-vps13_I+\n
+$with{w}/pr_wID\n
+$fowl/nG_FUGHEL+ES $/Gn_+ES\n
+$song/n<pr{rh}_SONG\n
+{.}\n
+{\\}\n
+$ac/cj_OC\n
+$now/av_NU\n
+$nigh/vps13K2_NECH+Ed $/vps13K2_+Ed\n
+$wind/nG_wIND+ES $/Gn_+ES\n
+$blast/n{rh}_BLAST\n
+{\\}\n
+$&/cj_AND\n
+$weather/n_w[E]DER\n
+$strong/aj{rh}_STROnG\n
+{.}\n
+$ei/int_*EJ\n
+$ei/int_EJ\n
+{\\}\n
+$what{e}/av_wHAT\n
+{=Emphatic "to what an extent"=}\n
+$/DisN_yIS\n
+{=Word partially obscured by a blot but still legible=}\n
+$night/n_NICHT\n
+{[is[}\n
+{=Word totally obscured by blot=}\n
+$long/aj{rh}_LONG\n
+{.}\n
+$&/cj_AND\n
+{\\}\n
+$/P11N_ICH\n
+$with{w}/pr_wId\n
+$well{v}/av_wEL\n
+$much/aj<pr_MICHEL\n
+$wrong/n<pr{rh}_WRONG\n
+{.}\n
+$sorrow/vps11K2_SOREGH $/vps11K2_0\n
+$&/cj_AND\n
+$mourn/vps11_MURNE\n
+$&/cj_AND\n
+{\\}\n
+{[fast[}\n
+{=Lower part of leaf cut away - word supplied by Brown (CB13)=}\n
+|\n
+\n
+\n'

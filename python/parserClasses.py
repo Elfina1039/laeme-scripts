@@ -1,11 +1,23 @@
 import rawSets
 import rawLits
+
+import re
 import itertools as itr
 import psycopg2 as p
 import psycopg2.extras as e
 
 conn=p.connect("dbname='postgres' user='postgres' host='localhost' password='postgrass'")
 c=conn.cursor(cursor_factory=e.DictCursor)
+
+
+
+def makeDict(lits):
+        rsl={}
+        for l in lits:
+            rsl[l["lit"]]=l
+        return rsl
+
+litDict=makeDict(rawLits.rawLits)
 
 
 def replaceChars(form):
@@ -56,17 +68,17 @@ class Analysis:
         
         return rsl
     
-    def getSubstSets(self):
-        rsl=[]
-        for i in rawSets.rawSets:
-            rsl.append(SubstSet(i))
-        return rsl
-    
     def makeDict(self,lits):
         rsl={}
         for l in lits:
             rsl[l.lit]=l
         return rsl
+    
+    def getSubstSets(self):
+        rsl=[]
+        for i in rawSets.rawSets:
+            rsl.append(SubstSet(i))
+        return rsl        
     
     def initialize(self):
         self.lexel.getOptions()
@@ -110,10 +122,12 @@ class Lexel:
         self.options={}
         self.patterns=[]
         self.addedPatterns=[]
+        self.delCount=0
+        
         print("Lexel initialized")
     
     def getForms(self,lexel):
-        q="SELECT DISTINCT form FROM new_laeme WHERE lexel='"+lexel+"' AND form NOT SIMILAR TO '%&%'"
+        q="SELECT DISTINCT regexp_replace(form,'[\+-]','','g') AS form FROM laeme.morphemes WHERE lexel='"+lexel+"' AND type='"+morpheme+"' AND form NOT SIMILAR TO '%&%'"
         c.execute(q)
         rows=c.fetchall()
         rsl=[]
@@ -215,7 +229,11 @@ class Option:
             self.pattern=pattern
         else:
             self.pattern=self.makeSlots()
-            
+        self.isPattValid()
+    
+    def __del__(self):
+        a.lexel.delCount+=1
+        
         
     def makeSlots(self):
         rsl=[]
@@ -232,6 +250,11 @@ class Option:
         vow=self.pattern.replace("A","V")
         rsl.append(Option(self.split, vow))
         return rsl
+    
+    def isPattValid(self):
+        if(len(re.findall("((C{4,})|(V{3,}))",self.pattern))>0):
+            print(self.pattern + " is INVALID")
+            self.__del__()
 
 class OptionSet:
     def __init__(self, form,lst, original, split, versions):
@@ -257,20 +280,31 @@ class OptionSet:
         rsl=OptionSet(self.form,self.list, original, split, versions)
         return rsl
     
-    def resolvePos(self,index,sset):
+    def resolvePos(self,index,sset,sType):
         # filling up positions in splits which do not fit the pattern being processed
-        rsl="_"
+        rsl=["_"]
         blockedSets=[]
         for v in self.versions:
             if(v.split[index:index+1]):
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
-                if(sSet.isValid(a.substSets)):
-                    rsl=v.split[index]
+                if(sSet.isValid(a.substSets) and (sSet.type==sType or sSet.type=="A")):
+                    rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
                 else:
                     blockedSets.append(sSet)
+            if(len(set(rsl))>2):
+                print(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)))
         return {"rsl":rsl, "blockedSets":blockedSets}
+    
+    def removeIrrelevant(self):
+        span=len(self.split)
+        for v in self.versions:
+            if(str(self.split)!=str(v.split[0:span])):
+                #print("_____REMOVING________"+str(v.split))
+                v.__del__()
+    
+    
     
 class Selection:
     # filtered options based on a selected pattern
@@ -322,7 +356,7 @@ class Version:
         #self.display()
     
     def display(self):
-        print("OVERVIEW: version for pattern" + self.pattern)
+        print("OVERVIEW: version for pattern " + self.pattern)
         print(list(map(lambda x: x.members, self.invalidSets)))
         print("faulty splits: "+str(len(self.faultySplits)))
         for f in self.faultySplits:
@@ -347,8 +381,14 @@ class Alignment:
             else:
                 inserted=[]
                 #print("resolving")
-                resolved=s.resolvePos(index,self.set)
-                graph=resolved["rsl"]
+                resolved=s.resolvePos(index,self.set, self.type)
+                
+                # SOLVE MULTIPLE RESOLVE OPTIONS PROBLEM
+                if(len(set(resolved["rsl"]))>2):
+                    for g in resolved["rsl"]:
+                        pass
+                
+                graph=str(resolved["rsl"][-1])
                 self.set.addMembers([graph])
                 s.split.append(graph)
                 if(graph=="_"):
@@ -358,18 +398,20 @@ class Alignment:
                     for vr in s.versions:
                         alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
                     s.versions=s.versions+alternatives
+                    s.removeIrrelevant()
 
 
 class SubstSet:
     # set of corresponding litterae at a specific position
     def __init__(self,members):
         self.members=set(members)
+        self.type=self.getType()
         
     def isValid(self, ssets):
         # comparing the set with existing sets
         for s in ssets:
             project=s.projectSet(["_"])
-            if(self.members<=project.members):
+            if(self.members<=project.members and project.type!="I"):
                 return True
         return False
     
@@ -378,6 +420,25 @@ class SubstSet:
 
     def projectSet(self,nMembers):
         return SubstSet(list(self.members)+nMembers)
+    
+    def getType(self):
+        cv={"C":True, "V":True}
+        for m in self.members:
+            if(litDict[m]["cat"]=="C"):
+                cv["V"]=False
+            if(litDict[m]["cat"]=="V"):
+                cv["C"]=False
+        if(cv["C"]==False and cv["V"]==False):
+            #print("invalid set")
+            #print(self.members)
+            return "I"
+        elif(cv["C"]==True and cv["V"]==True):
+            return "A"
+        elif(cv["C"]==True and cv["V"]==False):
+            return "C"
+        elif(cv["C"]==False and cv["V"]==True):
+            return "V"
+            
 
 class Scores:
     def __init__(self, scores):
@@ -397,7 +458,12 @@ class Scores:
 # RUNNIG METHODS 
 
 lexel=input("LEXEL: ")
+morpheme=input("MORPHEME: ")
 a=Analysis(lexel)
+
+
+
+
 a.initialize()
 a.testPatterns(a.lexel.patterns)
 print(set(a.lexel.addedPatterns))
