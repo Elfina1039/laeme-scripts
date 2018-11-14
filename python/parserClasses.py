@@ -55,15 +55,15 @@ def replaceChars(form):
 class Analysis:
     #main object holding most of the data
     def __init__(self,params):
-        
-        self.lexel=Lexel(params)
         self.litterae=self.getLitterae()
         self.litDict=self.makeDict(self.litterae)
         self.substSets=self.getSubstSets()
+        self.formFreqLimit=0
         self.selections=[]
         self.versions=[]
+        self.level=0
         
-        print("Analysis object initialized")
+        self.log("Analysis object initialized",True)
         
     def getLitterae(self):
         rsl=[]
@@ -85,13 +85,15 @@ class Analysis:
         return rsl        
     
     def initialize(self):
+        self.lexel=Lexel(params)
         self.lexel.getOptions()
         self.lexel.calcPattScore()
         self.topScore=self.lexel.scores.getBest()
-        print(self.topScore, file=log)
+        self.log(self.topScore, False)
     
     def testPatterns(self,patterns):
         #self.makeSelections(patterns)
+        self.level=self.level+1
         for patt in patterns:
             self.lexel.getOptions()
             selection=Selection(patt,self.lexel.options)
@@ -109,7 +111,7 @@ class Analysis:
     
     def countValid(self):
         valid=list(filter(lambda x: x.isValid, self.versions))
-        print("FOUND __ " + str(len(valid)) + " __ VALID VERSION(S)")
+        a.log("FOUND __ " + str(len(valid)) + " __ VALID VERSION(S)",True)
         #if(len(valid)==0):
            # self.versions=[]
            # self.selections=[]
@@ -117,8 +119,15 @@ class Analysis:
     
     def getBest(self):
         self.versions = sorted(self.versions, key=lambda k: len(k.faultySplits))
-        self.versions[0].display(None)
-
+        self.log(self.versions[0].display(),True)
+        
+    def log(self, string, screen):
+        for x in range(0,self.level):
+            string="\t"+str(string)
+        print(str(string), file=logFile)
+        if(screen==True):
+            print(str(string))
+        
 
    
 class Lexel:
@@ -127,34 +136,42 @@ class Lexel:
         self.lexel=params[0]
         self.grammel=params[1]
         self.morpheme=params[2]
-        
+        self.formDict={}
         self.forms=self.getForms()
+        self.filterForms(params[3])
         self.options={}
         self.patterns=[]
         self.addedPatterns=[]
         self.delCount=0
         
-        print("Lexel initialized")
+        a.log("Lexel initialized",True)
     
     def getForms(self):
         #q="SELECT DISTINCT regexp_replace(form,'[\+-]','','g') AS form FROM laeme.morphemes WHERE lexel='"+lexel+"' AND type='"+morpheme+"' AND form NOT SIMILAR TO '%&%'"
        # c.execute(q)
-        c.callproc("getformset",(self.lexel, self.grammel, self.morpheme))
+        c.callproc("getfreqset",(self.lexel, self.grammel, self.morpheme))
         rows=c.fetchall()
         rsl=[]
         for r in rows:
-            rsl.append(replaceChars(r[0]))
-        print(rsl,file=log)
+            f=replaceChars(r[0])
+            self.formDict[f]=r[1]
+        a.log(self.formDict,True)
         return rsl
     
-    
+    def filterForms(self, limit):
+        rsl=[]
+        for f in self.formDict:
+            if(self.formDict[f]>int(limit)):
+                rsl.append(f)
+        self.forms=rsl
+                
     
     def getOptions(self):
         def isPattValid(patt):
             if(len(re.findall("((C{4,})|(V{3,}))",patt))>0 or len(patt)<self.minLength):
-                print("Pattern " + patt + " is invalid", file=log)
+                a.log("Pattern " + patt + " is invalid", False)
                 return False
-            print("Pattern " + patt + " is valid", file=log)
+            a.log("Pattern " + patt + " is valid", False)
             return True
     
         self.patterns=list(self.patterns)
@@ -162,16 +179,16 @@ class Lexel:
             self.getOption(f)
         self.patterns=set(self.patterns)
         self.getMinLength()
-        print("MIN pattern length=" + str(self.minLength),file=log)
+        a.log("MIN pattern length=" + str(self.minLength),False)
         self.patterns=list(filter(isPattValid, self.patterns))
     
     def getMinLength(self):
-        rsl=1
+        rsl=20
         longest=max(list(map(lambda x : len(x),self.forms)))
         for o in self.options:
             if(len(o)==longest):
                 shortestSplit=min(list(map(lambda x : len(x.pattern),self.options[o].list)))
-                if(shortestSplit>rsl):
+                if(shortestSplit<rsl):
                     rsl=shortestSplit
         self.minLength=rsl
                     
@@ -181,9 +198,6 @@ class Lexel:
     #filter function selecting digraphs present in the form
         def getDigraphs(x):
             if(x.ln>1 and form.find(x.lit)!=-1):
-                if(form=="chirechen"):
-                    print("PICKING: " + x.lit, file=log)
-                    print({"lit":x.lit, "ln":x.ln, "index":form.find(x.lit)},file=log)
                 return {"lit":x.lit, "ln":x.ln, "index":form.find(x.lit)}
             else:
                 return {}
@@ -199,30 +213,22 @@ class Lexel:
                 else:
                     nSplit.append(form[i:i+1])
                     i+=1
-            if(form=="chirechen"):
-                print("best model: "+"/".join(nSplit),file=log)
             return nSplit
         
         # list for all possible split options
         options=[]
         splits=[list(form)]
        # options.append({"split":basicSplit, "pattern":makeSlots(basicSplit)})
-       # digraphs=list(filter(None,map(getDigraphs,a.litterae)))
         digraphs=list(filter(None,map(getDigraphs,a.litterae)))
         combos=[]
-        
-        if(form=="chirechen"):
-            print("best model digraphs: "+"/",file=log)
-            print(digraphs)
+            #a.log(digraphs,False)
         
         if(len(digraphs)>0):
             for n in range(1,len(digraphs)+1):
                 nComb=list(itr.combinations(digraphs,n))
                 for nc in nComb:
                     combos.append(list(nc))
-            if(form=="chirechen"):
-                print("best model digraphs: ",file=log)
-                print(combos, file=log)
+                a.log(combos, False)
         #print(combos)
       
         # while loop generationg splits with digraphs - to be turned in to a function and called for every combination of digraphs
@@ -230,6 +236,8 @@ class Lexel:
         
         for cmb in combos:
             splits.append(getDigrSplits(form,cmb))
+            
+    
             
         for nSplit in splits:
             nOption=Option(nSplit, None);
@@ -334,19 +342,19 @@ class OptionSet:
         rsl=[]
         blockedSets=[]
         for v in self.versions:
-            print("> version: " + "/".join(v.split), file=log)
+            a.log("> version: " + "/".join(v.split), False)
             if(v.split[index:index+1] and str(v.split[index:index+1]).strip()!="_"):
-                print("TRYING: " +v.split[index], file=log)
+                a.log("TRYING: " +v.split[index], False)
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
                 if(sSet.isValid(a.substSets) and (sSet.type==sType or sSet.type=="A")):
                     rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
                 elif(sSet.type==sType or sSet.type=="A"):
-                    print("adding blocked set: "+sType+" = "+sSet.type+" >> "+ ", ".join(sSet.members), file=log)
+                    a.log("adding blocked set: "+sType+" = "+sSet.type+" >> "+ ", ".join(sSet.members), False)
                     blockedSets.append(sSet)
             if(len(set(rsl))>1):
-                print(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)), file=log)
+                a.log(">>> MULTIPLE RESOLVE OPTIONS: "+str(set(rsl)),False)
         if(rsl==[]):
             rsl.append("_")
                 
@@ -355,12 +363,12 @@ class OptionSet:
     def removeIrrelevant(self,span):
         #print("--- >> removing irrelevant:  " + str(len(self.versions)))
         for v in self.versions:
-            print("version split: " + str(v.split), file=log)
+            a.log("version split: " + str(v.split), False)
             args=self.makeResolveRgx(span,v.split[0:span])
-            print(args, file=log)
+            a.log(args, False)
             if(re.search(args["rgx"],args["string"])==None):
                 
-                print("_____REMOVING________"+str(v.split), file=log)
+                a.log("_____REMOVING________"+str(v.split), False)
                 v.valid=False
                 #print(type(v))
                 #v.__del__()
@@ -381,40 +389,43 @@ class OptionSet:
 class Selection:
     # filtered options based on a selected pattern
     def __init__(self,pattern,options):
-        print("Making the selection for pattern: "+pattern)
+        a.log("Making the selection for pattern: "+pattern,True)
         self.pattern=pattern
         self.selected=[]
         for o in options:
             self.selected.append(options[o].evaluate(self.pattern))
             self.selected = sorted(self.selected, key=lambda k: -k.original)
-        print("Selection for pattern: " + pattern + " completed")
+        a.log("Selection for pattern: " + pattern + " completed",True)
       
         
 
 class Version:
     # result of analysis for a specific Selection based on certain parametres
     def __init__(self, selection):
-        print("Making a version for pattern: "+selection.pattern)
-        print("---->> Making a version for pattern: "+selection.pattern, file=log)
+        a.log("Making a version for pattern: "+selection.pattern,True)
+        a.level=a.level+1
         self.pattern=selection.pattern
         self.alignments=[]
         self.invalidSets=[]
         self.faultySplits=[]
+        a.level=a.level+1
         for i in range(0, len(selection.pattern)):
             self.alignments.append(Alignment(selection, i))
+        a.level=a.level-1
             
         self.resolveSplits(selection)
         self.splits=list(map(lambda x: x.split, selection.selected))
         self.isValid=True
         self.validate(selection)
-        self.display(log)
+        a.log(self.display(),False)
+        a.level=a.level-1
             
    
     def validate(self,selection):
         for s in selection.selected:
-            print("SPLIT: "+ str(s.split), file=log)
+            a.log("SPLIT: "+ str(s.split), False)
             for v in s.versions:
-                print(v.split, file=log)
+                a.log(v.split, False)
             #print(type(s.split))
             #print(s.split)
             actual="".join(s.split).replace("_","").strip()
@@ -431,58 +442,59 @@ class Version:
         if(self.isValid==True):
             print("version for pattern " + self.pattern + " is VALID")
         else:
-            print("version for pattern " + self.pattern + " is INVALID")
-            print(list(map(lambda x: x.members, self.invalidSets)))
-            print(len(self.faultySplits))
+            a.log("version for pattern " + self.pattern + " is INVALID",True)
+            a.log(list(map(lambda x: x.members, self.invalidSets)),True)
+            a.log(len(self.faultySplits),True)
         #self.display()
     
     def resolveSplits(self,selection):
         for s in selection.selected:
-            print("_______________________________________", file=log)
             remaining=set(list(map(lambda x: "/".join(x.split),s.versions)))
             if(s.original==False and len(remaining)==1):
                 s.split=s.versions[0].split
-                print("only one version left: " + str(s.split), file=log)
+                a.log("only one version left: " + str(s.split), False)
             else:
                 s.split=list(map(lambda x: str(x) ,s.split))
                 vs=list(map(lambda x : "/".join(x.split),s.versions))
-                print("FAIL: " + ", ".join(vs), file=log)
+                a.log("FAIL: " + ", ".join(vs), False)
                 
     
-    def display(self, out):
-        print("OVERVIEW: version for pattern " + self.pattern,file=out)
-        print(list(map(lambda x: x.members, self.invalidSets)),file=out)
-        print("faulty splits: "+str(len(self.faultySplits)),file=out)
+    def display(self):
+        rsl=[]
+        rsl.append("OVERVIEW: version for pattern " + self.pattern)
+        rsl.append(", ".join(list(map(lambda x: str(x.members), self.invalidSets))))
+        rsl.append("faulty splits: "+str(len(self.faultySplits)))
         for f in self.faultySplits:
-            print(f["actual"] + " <-! " + f["original"], file=out)
+            rsl.append(f["actual"] + " <-! " + f["original"])
         for s in self.splits:
-            print(" | ".join(s), file=out)
-        print("> BLOCKED SETS:",file=out)
+            rsl.append(" | ".join(s))
+        print("> BLOCKED SETS:")
         for a in filter(lambda x: len(x.blockedSets)>0,self.alignments):
             #print(a.blockedSets)
-            print(str(a.index)+" : "+",".join(list(map(lambda x: str(x.members), set(a.blockedSets)))),file=out)
-    
+            rsl.append(str(a.index)+" : "+",".join(set(map(lambda x: str(x.members), set(a.blockedSets)))))
+        return "\n".join(rsl)
         
 
 
 class Alignment:
     # member object of Version, set of litterae found at a specific position
     def __init__(self, selection, index):
-        print("___"+selection.pattern+" : "+str(index)+"___",file=log)
+        a.log("___"+selection.pattern+" : "+str(index)+"___",False)
         self.index=index
         self.type=selection.pattern[index]
         self.set=SubstSet([])
         self.blockedSets=[]
+        a.level=a.level+1
         for s in selection.selected:
-            print("ANALYSING: "+s.form, file=log)
+            a.log("ANALYSING: "+s.form, False)
             if(s.original==True):
                 self.set.addMembers([s.split[index]])
-                print("adding littera based on matching pattern",file=log)
+                a.log("adding littera based on matching pattern",False)
             else:
                 inserted=[]
-                print("resolving ("+str(len(s.versions))+")", file=log)
+                a.level=a.level+1
+                a.log("resolving ("+str(len(s.versions))+")", False)
                 resolved=s.resolvePos(index,self.set, self.type)
-                
                 # SOLVE MULTIPLE RESOLVE OPTIONS PROBLEM
                 if(len(set(resolved["rsl"]))>1):
                     for g in resolved["rsl"]:
@@ -491,21 +503,23 @@ class Alignment:
                 graph=resolved["rsl"]
                 self.set.addMembers(graph)
                 s.split.append(graph)
-                print("RESULT:  "+str(graph), file=log)
+                a.log("RESULT:  "+str(graph), False)
+                a.level=a.level-1
                 if(str(graph[0])=="_"):
                     a.lexel.proposePattern(s, selection.pattern,self.set,index)
                     self.blockedSets=self.blockedSets+resolved["blockedSets"]
                     alternatives=[]
                     for vr in s.versions:
-                        print("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),file=log)
+                        a.log("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),False)
                         alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
                     s.versions=s.versions+alternatives
-                    print(s.displayVersions(),file=log)
+                    a.log(s.displayVersions(),False)
                 if((len(selection.pattern)-1)==index):
                     span=index+2
                 else:
                     span=index+1
                 s.removeIrrelevant(span)
+        a.level=a.level-1
 
 
 class SubstSet:
@@ -559,23 +573,23 @@ class Scores:
                 rsl["patterns"].append(s)
         return rsl
 
+lexelData=input("LEXEL/GRAMMEL/TYPE: ")
+params=lexelData.split("/")
 
-log=open("log.txt","w", encoding="utf-8")
+logFile=open("logs/log_"+params[0]+".txt","w", encoding="utf-8")
 
 # RUNNIG METHODS 
 
-lexelData=input("LEXEL/GRAMMEL/TYPE: ")
-params=lexelData.split("/")
+
+
 a=Analysis(params)
-
-
 
 
 a.initialize()
 a.testPatterns(a.lexel.patterns)
-print(set(a.lexel.addedPatterns),file=log)
+a.log(set(a.lexel.addedPatterns),False)
 
-log.close()
+logFile.close()
 
 
     
