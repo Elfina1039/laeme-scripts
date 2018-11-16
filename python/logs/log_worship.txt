@@ -1,0 +1,1319 @@
+Analysis object initialized
+{'w': 1, 'wir': 2, 'wor': 38, 'worð': 2, 'worðe': 1, 'worþ': 11, 'wr': 6, 'wrð': 3, 'wrh': 1, 'ƿrþ': 1, 'wrþ': 2, 'ƿur': 17, 'ƿurð': 32, 'ƿurd': 4, 'wurð': 3, 'ƿurðh': 1, 'wurh': 3, 'ƿurrþ': 2, 'ƿurt': 4, 'ƿurþ': 1}
+Lexel initialized
+[[{'lit': 'rr', 'ln': 2, 'index': 2}]]
+MIN pattern length=4
+Pattern CC is invalid
+Pattern CCC is invalid
+Pattern CVC is invalid
+Pattern CCCCC is invalid
+Pattern CVCCC is valid
+Pattern CCCC is invalid
+Pattern CVCC is valid
+{'value': 8, 'patterns': ['CVCC']}
+	[[{'lit': 'rr', 'ln': 2, 'index': 2}]]
+	MIN pattern length=4
+	Pattern CC is invalid
+	Pattern CCC is invalid
+	Pattern CVC is invalid
+	Pattern CCCCC is invalid
+	Pattern CVCCC is valid
+	Pattern CCCC is invalid
+	Pattern CVCC is valid
+	Making the selection for pattern: CVCCC
+	Selection for pattern: CVCCC completed
+	Making a version for pattern: CVCCC
+			___CVCCC : 0___
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: w
+					> version: w/i/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'i', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'o', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: worð
+					resolving (1)
+					> version: w/o/r/ð
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'o', 'r', 'ð']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: worþ
+					resolving (1)
+					> version: w/o/r/þ
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'o', 'r', 'þ']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/r/ð
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r', 'ð']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/r/þ
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r', 'þ']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: ƿ
+					> version: ƿ/u/r
+					TRYING: ƿ
+					RESULT:  ['ƿ']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				ANALYSING: ƿurð
+					resolving (2)
+					> version: ƿ/u/r/ð
+					TRYING: ƿ
+					> version: ƿ/u/r/ð
+					TRYING: ƿ
+					RESULT:  ['ƿ']
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				ANALYSING: ƿurd
+					resolving (2)
+					> version: ƿ/u/r/d
+					TRYING: ƿ
+					> version: ƿ/u/r/d
+					TRYING: ƿ
+					RESULT:  ['ƿ']
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				ANALYSING: wurð
+					resolving (2)
+					> version: w/u/r/ð
+					TRYING: w
+					> version: w/u/r/ð
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w', 'rgx': '((w))$'}
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wurh
+					resolving (2)
+					> version: w/u/r/h
+					TRYING: w
+					> version: w/u/r/h
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w', 'rgx': '((w))$'}
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: ƿurt
+					resolving (2)
+					> version: ƿ/u/r/t
+					TRYING: ƿ
+					> version: ƿ/u/r/t
+					TRYING: ƿ
+					RESULT:  ['ƿ']
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+			___CVCCC : 1___
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: i
+					> version: w/i/r
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i', 'rgx': '((w))/((i))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i', 'rgx': '((w))/((i))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o', 'rgx': '((w))/((o))$'}
+				ANALYSING: worð
+					resolving (1)
+					> version: w/o/r/ð
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['w', 'o', 'r', 'ð']
+				{'string': 'w/o', 'rgx': '((w))/((o))$'}
+				ANALYSING: worþ
+					resolving (1)
+					> version: w/o/r/þ
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['w', 'o', 'r', 'þ']
+				{'string': 'w/o', 'rgx': '((w))/((o))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/r
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r']
+				w/r(CC)
+w/_/r(CAC)
+				version split: ['w', 'r']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r']
+				version split: ['w', '_', 'r']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/r/ð
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', 'ð']
+				w/r/ð(CCC)
+w/_/r/ð(CACC)
+				version split: ['w', 'r', 'ð']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r', 'ð']
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/r/þ
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', 'þ']
+				w/r/þ(CCC)
+w/_/r/þ(CACC)
+				version split: ['w', 'r', 'þ']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r', 'þ']
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: u
+					> version: ƿ/u/r
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				ANALYSING: ƿurð
+					resolving (2)
+					> version: ƿ/u/r/ð
+					TRYING: u
+					> version: ƿ/u/r/ð
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				ANALYSING: ƿurd
+					resolving (2)
+					> version: ƿ/u/r/d
+					TRYING: u
+					> version: ƿ/u/r/d
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				ANALYSING: wurð
+					resolving (2)
+					> version: w/u/r/ð
+					TRYING: u
+					> version: w/u/r/ð
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u', 'rgx': '((w))/((u))$'}
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u', 'rgx': '((w))/((u))$'}
+				ANALYSING: wurh
+					resolving (2)
+					> version: w/u/r/h
+					TRYING: u
+					> version: w/u/r/h
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u', 'rgx': '((w))/((u))$'}
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u', 'rgx': '((w))/((u))$'}
+				ANALYSING: ƿurt
+					resolving (2)
+					> version: ƿ/u/r/t
+					TRYING: u
+					> version: ƿ/u/r/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+			___CVCCC : 2___
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: r
+					> version: w/i/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))$'}
+				ANALYSING: worð
+					resolving (1)
+					> version: w/o/r/ð
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'o', 'r', 'ð']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))$'}
+				ANALYSING: worþ
+					resolving (1)
+					> version: w/o/r/þ
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'o', 'r', 'þ']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/_/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/_/r/ð
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/_/r/þ
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: r
+					> version: ƿ/u/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				ANALYSING: ƿurð
+					resolving (2)
+					> version: ƿ/u/r/ð
+					TRYING: r
+					> version: ƿ/u/r/ð
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				ANALYSING: ƿurd
+					resolving (2)
+					> version: ƿ/u/r/d
+					TRYING: r
+					> version: ƿ/u/r/d
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				ANALYSING: wurð
+					resolving (2)
+					> version: w/u/r/ð
+					TRYING: r
+					> version: w/u/r/ð
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u/r', 'rgx': '((w))/((u))/((r))$'}
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u/r', 'rgx': '((w))/((u))/((r))$'}
+				ANALYSING: wurh
+					resolving (2)
+					> version: w/u/r/h
+					TRYING: r
+					> version: w/u/r/h
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u/r', 'rgx': '((w))/((u))/((r))$'}
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u/r', 'rgx': '((w))/((u))/((r))$'}
+				ANALYSING: ƿurt
+					resolving (2)
+					> version: ƿ/u/r/t
+					TRYING: r
+					> version: ƿ/u/r/t
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+			___CVCCC : 3___
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					> version: w/i/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'i', 'r', '_']
+				adding dashed alternative: ['w', 'i', 'r', '_']
+				w/i/r(CCC)
+w/i/r(CVC)
+w/i/r/_(CACA)
+w/i/r/_(CACA)
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))/((_))$'}
+				_____REMOVING________['w', 'i', 'r']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))/((_))$'}
+				_____REMOVING________['w', 'i', 'r']
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))$'}
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'o', 'r', '_']
+				w/o/r(CVC)
+w/o/r/_(CVCA)
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))/((_))$'}
+				_____REMOVING________['w', 'o', 'r']
+				version split: ['w', 'o', 'r', '_']
+				{'string': 'w/o/r/_', 'rgx': '((w))/((o))/((r))/((_))$'}
+				ANALYSING: worð
+					resolving (1)
+					> version: w/o/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'o', 'r', '_', 'ð']
+				w/o/r/ð(CVCC)
+w/o/r/_/ð(CVCAC)
+				version split: ['w', 'o', 'r', 'ð']
+				{'string': 'w/o/r/ð', 'rgx': '((w))/((o))/((r))/((_))$'}
+				_____REMOVING________['w', 'o', 'r', 'ð']
+				version split: ['w', 'o', 'r', '_', 'ð']
+				{'string': 'w/o/r/_', 'rgx': '((w))/((o))/((r))/((_))$'}
+				ANALYSING: worþ
+					resolving (1)
+					> version: w/o/r/þ
+					TRYING: þ
+					adding blocked set: C = C >> þ, r, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'o', 'r', '_', 'þ']
+				w/o/r/þ(CVCC)
+w/o/r/_/þ(CVCAC)
+				version split: ['w', 'o', 'r', 'þ']
+				{'string': 'w/o/r/þ', 'rgx': '((w))/((o))/((r))/((_))$'}
+				_____REMOVING________['w', 'o', 'r', 'þ']
+				version split: ['w', 'o', 'r', '_', 'þ']
+				{'string': 'w/o/r/_', 'rgx': '((w))/((o))/((r))/((_))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/_/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_']
+				w/_/r(CAC)
+w/_/r/_(CACA)
+				version split: ['w', '_', 'r']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r']
+				version split: ['w', '_', 'r', '_']
+				{'string': 'w/_/r/_', 'rgx': '((w))/((_))/((r))/((_))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/_/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_', 'ð']
+				w/_/r/ð(CACC)
+w/_/r/_/ð(CACAC)
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_/r/ð', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', 'ð']
+				version split: ['w', '_', 'r', '_', 'ð']
+				{'string': 'w/_/r/_', 'rgx': '((w))/((_))/((r))/((_))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/_/r/þ
+					TRYING: þ
+					adding blocked set: C = C >> þ, r, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_', 'þ']
+				w/_/r/þ(CACC)
+w/_/r/_/þ(CACAC)
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_/r/þ', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', 'þ']
+				version split: ['w', '_', 'r', '_', 'þ']
+				{'string': 'w/_/r/_', 'rgx': '((w))/((_))/((r))/((_))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					> version: ƿ/u/r
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_']
+				ƿ/u/r(CCC)
+ƿ/u/r(CVC)
+ƿ/u/r/_(CACA)
+ƿ/u/r/_(CACA)
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r']
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				ANALYSING: ƿurð
+					resolving (2)
+					> version: ƿ/u/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					> version: ƿ/u/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 'ð']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 'ð']
+				ƿ/u/r/ð(CCCC)
+ƿ/u/r/ð(CVCC)
+ƿ/u/r/_/ð(CACAC)
+ƿ/u/r/_/ð(CACAC)
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u/r/ð', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 'ð']
+				version split: ['ƿ', 'u', 'r', 'ð']
+				{'string': 'ƿ/u/r/ð', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 'ð']
+				version split: ['ƿ', 'u', 'r', '_', 'ð']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_', 'ð']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				ANALYSING: ƿurd
+					resolving (2)
+					> version: ƿ/u/r/d
+					TRYING: d
+					adding blocked set: C = C >> d, r, _
+					> version: ƿ/u/r/d
+					TRYING: d
+					adding blocked set: C = C >> d, r, _
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 'd']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 'd']
+				ƿ/u/r/d(CCCC)
+ƿ/u/r/d(CVCC)
+ƿ/u/r/_/d(CACAC)
+ƿ/u/r/_/d(CACAC)
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u/r/d', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 'd']
+				version split: ['ƿ', 'u', 'r', 'd']
+				{'string': 'ƿ/u/r/d', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 'd']
+				version split: ['ƿ', 'u', 'r', '_', 'd']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_', 'd']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				ANALYSING: wurð
+					resolving (2)
+					> version: w/u/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					> version: w/u/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> r, ð, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'u', 'r', '_', 'ð']
+				adding dashed alternative: ['w', 'u', 'r', '_', 'ð']
+				w/u/r/ð(CCCC)
+w/u/r/ð(CVCC)
+w/u/r/_/ð(CACAC)
+w/u/r/_/ð(CACAC)
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u/r/ð', 'rgx': '((w))/((u))/((r))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', 'ð']
+				version split: ['w', 'u', 'r', 'ð']
+				{'string': 'w/u/r/ð', 'rgx': '((w))/((u))/((r))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', 'ð']
+				version split: ['w', 'u', 'r', '_', 'ð']
+				{'string': 'w/u/r/_', 'rgx': '((w))/((u))/((r))/((_))$'}
+				version split: ['w', 'u', 'r', '_', 'ð']
+				{'string': 'w/u/r/_', 'rgx': '((w))/((u))/((r))/((_))$'}
+				ANALYSING: wurh
+					resolving (2)
+					> version: w/u/r/h
+					TRYING: h
+					adding blocked set: C = C >> r, h, _
+					> version: w/u/r/h
+					TRYING: h
+					adding blocked set: C = C >> r, h, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'u', 'r', '_', 'h']
+				adding dashed alternative: ['w', 'u', 'r', '_', 'h']
+				w/u/r/h(CCCC)
+w/u/r/h(CVCC)
+w/u/r/_/h(CACAC)
+w/u/r/_/h(CACAC)
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u/r/h', 'rgx': '((w))/((u))/((r))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', 'h']
+				version split: ['w', 'u', 'r', 'h']
+				{'string': 'w/u/r/h', 'rgx': '((w))/((u))/((r))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', 'h']
+				version split: ['w', 'u', 'r', '_', 'h']
+				{'string': 'w/u/r/_', 'rgx': '((w))/((u))/((r))/((_))$'}
+				version split: ['w', 'u', 'r', '_', 'h']
+				{'string': 'w/u/r/_', 'rgx': '((w))/((u))/((r))/((_))$'}
+				ANALYSING: ƿurt
+					resolving (2)
+					> version: ƿ/u/r/t
+					TRYING: t
+					adding blocked set: C = C >> t, r, _
+					> version: ƿ/u/r/t
+					TRYING: t
+					adding blocked set: C = C >> t, r, _
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 't']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', 't']
+				ƿ/u/r/t(CCCC)
+ƿ/u/r/t(CVCC)
+ƿ/u/r/_/t(CACAC)
+ƿ/u/r/_/t(CACAC)
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u/r/t', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 't']
+				version split: ['ƿ', 'u', 'r', 't']
+				{'string': 'ƿ/u/r/t', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', 't']
+				version split: ['ƿ', 'u', 'r', '_', 't']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_', 't']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+			___CVCCC : 4___
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r/_
+					> version: w/i/r/_
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'i', 'r', '_', '_']
+				adding dashed alternative: ['w', 'i', 'r', '_', '_']
+				w/i/r/_(CACA)
+w/i/r/_(CACA)
+w/i/r/_/_(CACAA)
+w/i/r/_/_(CACAA)
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'i', 'r', '_']
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'i', 'r', '_']
+				version split: ['w', 'i', 'r', '_', '_']
+				{'string': 'w/i/r/_/_', 'rgx': '((w))/((i))/((r))/((_))/((_))$'}
+				version split: ['w', 'i', 'r', '_', '_']
+				{'string': 'w/i/r/_/_', 'rgx': '((w))/((i))/((r))/((_))/((_))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r/_
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'o', 'r', '_', '_']
+				w/o/r/_(CVCA)
+w/o/r/_/_(CVCAA)
+				version split: ['w', 'o', 'r', '_']
+				{'string': 'w/o/r/_', 'rgx': '((w))/((o))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'o', 'r', '_']
+				version split: ['w', 'o', 'r', '_', '_']
+				{'string': 'w/o/r/_/_', 'rgx': '((w))/((o))/((r))/((_))/((_))$'}
+				ANALYSING: worð
+					resolving (1)
+					> version: w/o/r/_/ð
+					TRYING: ð
+					RESULT:  ['ð']
+				version split: ['w', 'o', 'r', '_', 'ð']
+				{'string': 'w/o/r/_/ð', 'rgx': '((w))/((o))/((r))/((_))/((ð))$'}
+				ANALYSING: worþ
+					resolving (1)
+					> version: w/o/r/_/þ
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['w', 'o', 'r', '_', 'þ']
+				{'string': 'w/o/r/_/þ', 'rgx': '((w))/((o))/((r))/((_))/((þ))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/_/r/_
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_', '_']
+				w/_/r/_(CACA)
+w/_/r/_/_(CACAA)
+				version split: ['w', '_', 'r', '_']
+				{'string': 'w/_/r/_', 'rgx': '((w))/((_))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', '_', 'r', '_']
+				version split: ['w', '_', 'r', '_', '_']
+				{'string': 'w/_/r/_/_', 'rgx': '((w))/((_))/((r))/((_))/((_))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/_/r/_/ð
+					TRYING: ð
+					RESULT:  ['ð']
+				version split: ['w', '_', 'r', '_', 'ð']
+				{'string': 'w/_/r/_/ð', 'rgx': '((w))/((_))/((r))/((_))/((ð))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/_/r/_/þ
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['w', '_', 'r', '_', 'þ']
+				{'string': 'w/_/r/_/þ', 'rgx': '((w))/((_))/((r))/((_))/((þ))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r/_
+					> version: ƿ/u/r/_
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', '_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_', '_']
+				ƿ/u/r/_(CACA)
+ƿ/u/r/_(CACA)
+ƿ/u/r/_/_(CACAA)
+ƿ/u/r/_/_(CACAA)
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', '_']
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r', '_']
+				version split: ['ƿ', 'u', 'r', '_', '_']
+				{'string': 'ƿ/u/r/_/_', 'rgx': '((ƿ))/((u))/((r))/((_))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_', '_']
+				{'string': 'ƿ/u/r/_/_', 'rgx': '((ƿ))/((u))/((r))/((_))/((_))$'}
+				ANALYSING: ƿurð
+					resolving (2)
+					> version: ƿ/u/r/_/ð
+					TRYING: ð
+					> version: ƿ/u/r/_/ð
+					TRYING: ð
+					RESULT:  ['ð']
+				version split: ['ƿ', 'u', 'r', '_', 'ð']
+				{'string': 'ƿ/u/r/_/ð', 'rgx': '((ƿ))/((u))/((r))/((_))/((ð))$'}
+				version split: ['ƿ', 'u', 'r', '_', 'ð']
+				{'string': 'ƿ/u/r/_/ð', 'rgx': '((ƿ))/((u))/((r))/((_))/((ð))$'}
+				ANALYSING: ƿurd
+					resolving (2)
+					> version: ƿ/u/r/_/d
+					TRYING: d
+					> version: ƿ/u/r/_/d
+					TRYING: d
+					RESULT:  ['d']
+				version split: ['ƿ', 'u', 'r', '_', 'd']
+				{'string': 'ƿ/u/r/_/d', 'rgx': '((ƿ))/((u))/((r))/((_))/((d))$'}
+				version split: ['ƿ', 'u', 'r', '_', 'd']
+				{'string': 'ƿ/u/r/_/d', 'rgx': '((ƿ))/((u))/((r))/((_))/((d))$'}
+				ANALYSING: wurð
+					resolving (2)
+					> version: w/u/r/_/ð
+					TRYING: ð
+					> version: w/u/r/_/ð
+					TRYING: ð
+					RESULT:  ['ð']
+				version split: ['w', 'u', 'r', '_', 'ð']
+				{'string': 'w/u/r/_/ð', 'rgx': '((w))/((u))/((r))/((_))/((ð))$'}
+				version split: ['w', 'u', 'r', '_', 'ð']
+				{'string': 'w/u/r/_/ð', 'rgx': '((w))/((u))/((r))/((_))/((ð))$'}
+				ANALYSING: wurh
+					resolving (2)
+					> version: w/u/r/_/h
+					TRYING: h
+					adding blocked set: C = C >> ð, þ, d, h, _
+					> version: w/u/r/_/h
+					TRYING: h
+					adding blocked set: C = C >> ð, þ, d, h, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'u', 'r', '_', '_', 'h']
+				adding dashed alternative: ['w', 'u', 'r', '_', '_', 'h']
+				w/u/r/_/h(CACAC)
+w/u/r/_/h(CACAC)
+w/u/r/_/_/h(CACAAC)
+w/u/r/_/_/h(CACAAC)
+				version split: ['w', 'u', 'r', '_', 'h']
+				{'string': 'w/u/r/_/h', 'rgx': '((w))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', '_', 'h']
+				version split: ['w', 'u', 'r', '_', 'h']
+				{'string': 'w/u/r/_/h', 'rgx': '((w))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', '_', 'h']
+				version split: ['w', 'u', 'r', '_', '_', 'h']
+				{'string': 'w/u/r/_/_/h', 'rgx': '((w))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', '_', '_', 'h']
+				version split: ['w', 'u', 'r', '_', '_', 'h']
+				{'string': 'w/u/r/_/_/h', 'rgx': '((w))/((u))/((r))/((_))/((_))$'}
+				_____REMOVING________['w', 'u', 'r', '_', '_', 'h']
+				ANALYSING: ƿurt
+					resolving (2)
+					> version: ƿ/u/r/_/t
+					TRYING: t
+					> version: ƿ/u/r/_/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['ƿ', 'u', 'r', '_', 't']
+				{'string': 'ƿ/u/r/_/t', 'rgx': '((ƿ))/((u))/((r))/((_))/((t))$'}
+				version split: ['ƿ', 'u', 'r', '_', 't']
+				{'string': 'ƿ/u/r/_/t', 'rgx': '((ƿ))/((u))/((r))/((_))/((t))$'}
+		FAIL: 
+		only one version left: ['w', 'i', 'r', '_', '_']
+		only one version left: ['w', 'o', 'r', '_', '_']
+		only one version left: ['w', 'o', 'r', '_', 'ð']
+		only one version left: ['w', 'o', 'r', '_', 'þ']
+		only one version left: ['w', '_', 'r', '_', '_']
+		only one version left: ['w', '_', 'r', '_', 'ð']
+		only one version left: ['w', '_', 'r', '_', 'þ']
+		only one version left: ['ƿ', 'u', 'r', '_', '_']
+		only one version left: ['ƿ', 'u', 'r', '_', 'ð']
+		only one version left: ['ƿ', 'u', 'r', '_', 'd']
+		only one version left: ['w', 'u', 'r', '_', 'ð']
+		FAIL: 
+		only one version left: ['ƿ', 'u', 'r', '_', 't']
+		SPLIT: ['ƿ', 'u', 'r', 'r', 'þ']
+		SPLIT: ['w', 'i', 'r', '_', '_']
+		['w', 'i', 'r', '_', '_']
+		['w', 'i', 'r', '_', '_']
+		SPLIT: ['w', 'o', 'r', '_', '_']
+		['w', 'o', 'r', '_', '_']
+		SPLIT: ['w', 'o', 'r', '_', 'ð']
+		['w', 'o', 'r', '_', 'ð']
+		SPLIT: ['w', 'o', 'r', '_', 'þ']
+		['w', 'o', 'r', '_', 'þ']
+		SPLIT: ['w', '_', 'r', '_', '_']
+		['w', '_', 'r', '_', '_']
+		SPLIT: ['w', '_', 'r', '_', 'ð']
+		['w', '_', 'r', '_', 'ð']
+		SPLIT: ['w', '_', 'r', '_', 'þ']
+		['w', '_', 'r', '_', 'þ']
+		SPLIT: ['ƿ', 'u', 'r', '_', '_']
+		['ƿ', 'u', 'r', '_', '_']
+		['ƿ', 'u', 'r', '_', '_']
+		SPLIT: ['ƿ', 'u', 'r', '_', 'ð']
+		['ƿ', 'u', 'r', '_', 'ð']
+		['ƿ', 'u', 'r', '_', 'ð']
+		SPLIT: ['ƿ', 'u', 'r', '_', 'd']
+		['ƿ', 'u', 'r', '_', 'd']
+		['ƿ', 'u', 'r', '_', 'd']
+		SPLIT: ['w', 'u', 'r', '_', 'ð']
+		['w', 'u', 'r', '_', 'ð']
+		['w', 'u', 'r', '_', 'ð']
+		SPLIT: ["['w']", "['u']", "['r']", "['_']", "['_']"]
+		SPLIT: ['ƿ', 'u', 'r', '_', 't']
+		['ƿ', 'u', 'r', '_', 't']
+		['ƿ', 'u', 'r', '_', 't']
+		version for pattern CVCCC is INVALID
+		[]
+		1
+		OVERVIEW: version for pattern CVCCC
+
+faulty splits: 1
+['w']['u']['r'][''][''] <-! wurh
+ƿ | u | r | r | þ
+w | i | r | _ | _
+w | o | r | _ | _
+w | o | r | _ | ð
+w | o | r | _ | þ
+w | _ | r | _ | _
+w | _ | r | _ | ð
+w | _ | r | _ | þ
+ƿ | u | r | _ | _
+ƿ | u | r | _ | ð
+ƿ | u | r | _ | d
+w | u | r | _ | ð
+['w'] | ['u'] | ['r'] | ['_'] | ['_']
+ƿ | u | r | _ | t
+3 : {'d', 'r', '_'},{'r', 'h', '_'},{'þ', 'r', '_'},{'r', 'ð', '_'},{'t', 'r', '_'}
+4 : {'ð', 'þ', 'd', 'h', '_'}
+	[[{'lit': 'rr', 'ln': 2, 'index': 2}]]
+	MIN pattern length=4
+	Pattern CC is invalid
+	Pattern CCC is invalid
+	Pattern CVC is invalid
+	Pattern CCCCC is invalid
+	Pattern CVCCC is valid
+	Pattern CCCC is invalid
+	Pattern CVCC is valid
+	Making the selection for pattern: CVCC
+	Selection for pattern: CVCC completed
+	Making a version for pattern: CVCC
+			___CVCC : 0___
+				ANALYSING: worð
+				adding littera based on matching pattern
+				ANALYSING: worþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurð
+				adding littera based on matching pattern
+				ANALYSING: ƿurd
+				adding littera based on matching pattern
+				ANALYSING: wurð
+				adding littera based on matching pattern
+				ANALYSING: wurh
+				adding littera based on matching pattern
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurt
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: w
+					> version: w/i/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'i', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'o', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/r
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/r/ð
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r', 'ð']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/r/þ
+					TRYING: w
+					RESULT:  ['w']
+				version split: ['w', 'r', 'þ']
+				{'string': 'w', 'rgx': '((w))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: ƿ
+					> version: ƿ/u/r
+					TRYING: ƿ
+					RESULT:  ['ƿ']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ', 'rgx': '((ƿ))$'}
+			___CVCC : 1___
+				ANALYSING: worð
+				adding littera based on matching pattern
+				ANALYSING: worþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurð
+				adding littera based on matching pattern
+				ANALYSING: ƿurd
+				adding littera based on matching pattern
+				ANALYSING: wurð
+				adding littera based on matching pattern
+				ANALYSING: wurh
+				adding littera based on matching pattern
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurt
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: i
+					> version: w/i/r
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i', 'rgx': '((w))/((i))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i', 'rgx': '((w))/((i))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o', 'rgx': '((w))/((o))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/r
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r']
+				w/r(CC)
+w/_/r(CAC)
+				version split: ['w', 'r']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r']
+				version split: ['w', '_', 'r']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/r/ð
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', 'ð']
+				w/r/ð(CCC)
+w/_/r/ð(CACC)
+				version split: ['w', 'r', 'ð']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r', 'ð']
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/r/þ
+					TRYING: r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', 'þ']
+				w/r/þ(CCC)
+w/_/r/þ(CACC)
+				version split: ['w', 'r', 'þ']
+				{'string': 'w/r', 'rgx': '((w))/((_))$'}
+				_____REMOVING________['w', 'r', 'þ']
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_', 'rgx': '((w))/((_))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: u
+					> version: ƿ/u/r
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u', 'rgx': '((ƿ))/((u))$'}
+			___CVCC : 2___
+				ANALYSING: worð
+				adding littera based on matching pattern
+				ANALYSING: worþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurð
+				adding littera based on matching pattern
+				ANALYSING: ƿurd
+				adding littera based on matching pattern
+				ANALYSING: wurð
+				adding littera based on matching pattern
+				ANALYSING: wurh
+				adding littera based on matching pattern
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurt
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					TRYING: r
+					> version: w/i/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))$'}
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/_/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/_/r/ð
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/_/r/þ
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))$'}
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					TRYING: r
+					> version: ƿ/u/r
+					TRYING: r
+					RESULT:  ['r']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))$'}
+			___CVCC : 3___
+				ANALYSING: worð
+				adding littera based on matching pattern
+				ANALYSING: worþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurð
+				adding littera based on matching pattern
+				ANALYSING: ƿurd
+				adding littera based on matching pattern
+				ANALYSING: wurð
+				adding littera based on matching pattern
+				ANALYSING: wurh
+				adding littera based on matching pattern
+				ANALYSING: ƿurrþ
+				adding littera based on matching pattern
+				ANALYSING: ƿurt
+				adding littera based on matching pattern
+				ANALYSING: wir
+					resolving (2)
+					> version: w/i/r
+					> version: w/i/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'i', 'r', '_']
+				adding dashed alternative: ['w', 'i', 'r', '_']
+				w/i/r(CCC)
+w/i/r(CVC)
+w/i/r/_(CACA)
+w/i/r/_(CACA)
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))/((_))$'}
+				_____REMOVING________['w', 'i', 'r']
+				version split: ['w', 'i', 'r']
+				{'string': 'w/i/r', 'rgx': '((w))/((i))/((r))/((_))$'}
+				_____REMOVING________['w', 'i', 'r']
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))$'}
+				version split: ['w', 'i', 'r', '_']
+				{'string': 'w/i/r/_', 'rgx': '((w))/((i))/((r))/((_))$'}
+				ANALYSING: wor
+					resolving (1)
+					> version: w/o/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', 'o', 'r', '_']
+				w/o/r(CVC)
+w/o/r/_(CVCA)
+				version split: ['w', 'o', 'r']
+				{'string': 'w/o/r', 'rgx': '((w))/((o))/((r))/((_))$'}
+				_____REMOVING________['w', 'o', 'r']
+				version split: ['w', 'o', 'r', '_']
+				{'string': 'w/o/r/_', 'rgx': '((w))/((o))/((r))/((_))$'}
+				ANALYSING: wr
+					resolving (1)
+					> version: w/_/r
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_']
+				w/_/r(CAC)
+w/_/r/_(CACA)
+				version split: ['w', '_', 'r']
+				{'string': 'w/_/r', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r']
+				version split: ['w', '_', 'r', '_']
+				{'string': 'w/_/r/_', 'rgx': '((w))/((_))/((r))/((_))$'}
+				ANALYSING: wrð
+					resolving (1)
+					> version: w/_/r/ð
+					TRYING: ð
+					adding blocked set: C = C >> ð, t, þ, d, h, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_', 'ð']
+				w/_/r/ð(CACC)
+w/_/r/_/ð(CACAC)
+				version split: ['w', '_', 'r', 'ð']
+				{'string': 'w/_/r/ð', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', 'ð']
+				version split: ['w', '_', 'r', '_', 'ð']
+				{'string': 'w/_/r/_/ð', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', '_', 'ð']
+				ANALYSING: wrþ
+					resolving (1)
+					> version: w/_/r/þ
+					TRYING: þ
+					adding blocked set: C = C >> ð, t, þ, d, h, _
+					RESULT:  ['_']
+				adding dashed alternative: ['w', '_', 'r', '_', 'þ']
+				w/_/r/þ(CACC)
+w/_/r/_/þ(CACAC)
+				version split: ['w', '_', 'r', 'þ']
+				{'string': 'w/_/r/þ', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', 'þ']
+				version split: ['w', '_', 'r', '_', 'þ']
+				{'string': 'w/_/r/_/þ', 'rgx': '((w))/((_))/((r))/((_))$'}
+				_____REMOVING________['w', '_', 'r', '_', 'þ']
+				ANALYSING: ƿur
+					resolving (2)
+					> version: ƿ/u/r
+					> version: ƿ/u/r
+					RESULT:  ['_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_']
+				adding dashed alternative: ['ƿ', 'u', 'r', '_']
+				ƿ/u/r(CCC)
+ƿ/u/r(CVC)
+ƿ/u/r/_(CACA)
+ƿ/u/r/_(CACA)
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r']
+				version split: ['ƿ', 'u', 'r']
+				{'string': 'ƿ/u/r', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				_____REMOVING________['ƿ', 'u', 'r']
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+				version split: ['ƿ', 'u', 'r', '_']
+				{'string': 'ƿ/u/r/_', 'rgx': '((ƿ))/((u))/((r))/((_))$'}
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['w', 'i', 'r', '_']
+		only one version left: ['w', 'o', 'r', '_']
+		only one version left: ['w', '_', 'r', '_']
+		FAIL: 
+		FAIL: 
+		only one version left: ['ƿ', 'u', 'r', '_']
+		SPLIT: ['w', 'o', 'r', 'ð']
+		SPLIT: ['w', 'o', 'r', 'þ']
+		SPLIT: ['ƿ', 'u', 'r', 'ð']
+		SPLIT: ['ƿ', 'u', 'r', 'd']
+		SPLIT: ['w', 'u', 'r', 'ð']
+		SPLIT: ['w', 'u', 'r', 'h']
+		SPLIT: ['ƿ', 'u', 'rr', 'þ']
+		SPLIT: ['ƿ', 'u', 'r', 't']
+		SPLIT: ['w', 'i', 'r', '_']
+		['w', 'i', 'r', '_']
+		['w', 'i', 'r', '_']
+		SPLIT: ['w', 'o', 'r', '_']
+		['w', 'o', 'r', '_']
+		SPLIT: ['w', '_', 'r', '_']
+		['w', '_', 'r', '_']
+		SPLIT: ["['w']", "['_']", "['r']", "['_']"]
+		SPLIT: ["['w']", "['_']", "['r']", "['_']"]
+		SPLIT: ['ƿ', 'u', 'r', '_']
+		['ƿ', 'u', 'r', '_']
+		['ƿ', 'u', 'r', '_']
+		version for pattern CVCC is INVALID
+		[{'ð', 't', 'þ', 'd', 'h', '_'}]
+		2
+		OVERVIEW: version for pattern CVCC
+{'ð', 't', 'þ', 'd', 'h', '_'}
+faulty splits: 2
+['w']['']['r'][''] <-! wrð
+['w']['']['r'][''] <-! wrþ
+w | o | r | ð
+w | o | r | þ
+ƿ | u | r | ð
+ƿ | u | r | d
+w | u | r | ð
+w | u | r | h
+ƿ | u | rr | þ
+ƿ | u | r | t
+w | i | r | _
+w | o | r | _
+w | _ | r | _
+['w'] | ['_'] | ['r'] | ['_']
+['w'] | ['_'] | ['r'] | ['_']
+ƿ | u | r | _
+3 : {'ð', 't', 'þ', 'd', 'h', '_'}
+	FOUND __ 0 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CVCCC
+
+faulty splits: 1
+['w']['u']['r'][''][''] <-! wurh
+ƿ | u | r | r | þ
+w | i | r | _ | _
+w | o | r | _ | _
+w | o | r | _ | ð
+w | o | r | _ | þ
+w | _ | r | _ | _
+w | _ | r | _ | ð
+w | _ | r | _ | þ
+ƿ | u | r | _ | _
+ƿ | u | r | _ | ð
+ƿ | u | r | _ | d
+w | u | r | _ | ð
+['w'] | ['u'] | ['r'] | ['_'] | ['_']
+ƿ | u | r | _ | t
+3 : {'d', 'r', '_'},{'r', 'h', '_'},{'þ', 'r', '_'},{'r', 'ð', '_'},{'t', 'r', '_'}
+4 : {'ð', 'þ', 'd', 'h', '_'}
+	set()

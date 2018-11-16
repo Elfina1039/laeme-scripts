@@ -1,0 +1,4387 @@
+Analysis object initialized
+{'co': 2, 'com': 213, 'come': 7, 'comm': 2, 'coum': 1, 'cu': 13, 'cum': 314, 'cume': 17, 'cumm': 2, 'ki': 1, 'kim': 43, 'ku': 1, 'kum': 15, 'kume': 2, 's': 1, 'um': 1}
+Lexel initialized
+[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+MIN pattern length=2
+Pattern CCV is valid
+Pattern CV is valid
+Pattern CVCC is valid
+Pattern CCCV is valid
+Pattern CC is valid
+Pattern CVCV is valid
+Pattern C is invalid
+Pattern CCC is valid
+Pattern CVC is valid
+Pattern CCCC is invalid
+{'value': 6, 'patterns': ['CVC']}
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CCV
+	Selection for pattern: CCV completed
+	Making a version for pattern: CCV
+			___CCV : 0___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o']
+				c/o(CV)
+_/c/o(ACV)
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['_', 'c', 'o']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm']
+				c/o/m(CVC)
+_/c/o/m(ACVC)
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'e']
+				c/o/m/e(CVCV)
+_/c/o/m/e(ACVCV)
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', 'c', 'o', 'mm']
+				c/o/m/m(CVCC)
+c/o/mm(CVC)
+_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> _, cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u']
+				adding dashed alternative: ['_', 'c', 'u']
+				adding dashed alternative: ['_', 'cu']
+				c/u(CC)
+c/u(CV)
+cu(C)
+_/c/u(ACA)
+_/c/u(ACA)
+_/cu(AC)
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu']
+				version split: ['_', 'c', 'u']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cum
+					resolving (3)
+					> version: c/u/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: cu/m
+					TRYING: cu
+					adding blocked set: C = C >> _, cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', 'cu', 'm']
+				c/u/m(CCC)
+c/u/m(CVC)
+cu/m(CC)
+_/c/u/m(ACAC)
+_/c/u/m(ACAC)
+_/cu/m(ACC)
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['cu', 'm']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu', 'm']
+				version split: ['_', 'c', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cumm
+					resolving (6)
+					> version: c/u/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u/mm
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u/mm
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: cu/m/m
+					TRYING: cu
+					adding blocked set: C = C >> _, cu
+					> version: cu/mm
+					TRYING: cu
+					adding blocked set: C = C >> _, cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', 'cu', 'm', 'm']
+				adding dashed alternative: ['_', 'cu', 'mm']
+				c/u/m/m(CCCC)
+c/u/m/m(CVCC)
+c/u/mm(CCC)
+c/u/mm(CVC)
+cu/m/m(CCC)
+cu/mm(CC)
+_/c/u/m/m(ACACC)
+_/c/u/m/m(ACACC)
+_/c/u/mm(ACAC)
+_/c/u/mm(ACAC)
+_/cu/m/m(ACCC)
+_/cu/mm(ACC)
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['cu', 'm', 'm']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu', 'm', 'm']
+				version split: ['cu', 'mm']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu', 'mm']
+				version split: ['_', 'c', 'u', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					> version: k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'i', 'm']
+				adding dashed alternative: ['_', 'k', 'i', 'm']
+				k/i/m(CCC)
+k/i/m(CVC)
+_/k/i/m(ACAC)
+_/k/i/m(ACAC)
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					> version: k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'u', 'm']
+				adding dashed alternative: ['_', 'k', 'u', 'm']
+				k/u/m(CCC)
+k/u/m(CVC)
+_/k/u/m(ACAC)
+_/k/u/m(ACAC)
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				k/u/m/e(CCCV)
+k/u/m/e(CVCV)
+_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+			___CCV : 1___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: _/c/o
+					TRYING: c
+					adding blocked set: C = C >> c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o']
+				_/c/o(ACV)
+_/_/c/o(AACV)
+				version split: ['_', 'c', 'o']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o']
+				version split: ['_', '_', 'c', 'o']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: _/c/o/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm']
+				_/c/o/m(ACVC)
+_/_/c/o/m(AACVC)
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm']
+				version split: ['_', '_', 'c', 'o', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: _/c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'e']
+				_/c/o/m/e(ACVCV)
+_/_/c/o/m/e(AACVCV)
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'e']
+				version split: ['_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: _/c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'mm']
+				_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+_/_/c/o/m/m(AACVCC)
+_/_/c/o/mm(AACVC)
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'm']
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'mm']
+				version split: ['_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'o', 'mm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: _/c/u
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/u
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/cu
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', 'cu']
+				_/c/u(ACA)
+_/c/u(ACA)
+_/cu(AC)
+_/_/c/u(AACA)
+_/_/c/u(AACA)
+_/_/cu(AAC)
+				version split: ['_', 'c', 'u']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u']
+				version split: ['_', 'c', 'u']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u']
+				version split: ['_', 'cu']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu']
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: cum
+					resolving (3)
+					> version: _/c/u/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/u/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/cu/m
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', '_', 'cu', 'm']
+				_/c/u/m(ACAC)
+_/c/u/m(ACAC)
+_/cu/m(ACC)
+_/_/c/u/m(AACAC)
+_/_/c/u/m(AACAC)
+_/_/cu/m(AACC)
+				version split: ['_', 'c', 'u', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm']
+				version split: ['_', 'c', 'u', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm']
+				version split: ['_', 'cu', 'm']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu', 'm']
+				version split: ['_', '_', 'c', 'u', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: cumm
+					resolving (6)
+					> version: _/c/u/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/u/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/u/mm
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/c/u/mm
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/cu/m/m
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					> version: _/cu/mm
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', '_', 'cu', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'cu', 'mm']
+				_/c/u/m/m(ACACC)
+_/c/u/m/m(ACACC)
+_/c/u/mm(ACAC)
+_/c/u/mm(ACAC)
+_/cu/m/m(ACCC)
+_/cu/mm(ACC)
+_/_/c/u/m/m(AACACC)
+_/_/c/u/m/m(AACACC)
+_/_/c/u/mm(AACAC)
+_/_/c/u/mm(AACAC)
+_/_/cu/m/m(AACCC)
+_/_/cu/mm(AACC)
+				version split: ['_', 'c', 'u', 'm', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'm']
+				version split: ['_', 'c', 'u', 'm', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'm']
+				version split: ['_', 'c', 'u', 'mm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'mm']
+				version split: ['_', 'c', 'u', 'mm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'mm']
+				version split: ['_', 'cu', 'm', 'm']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu', 'm', 'm']
+				version split: ['_', 'cu', 'mm']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu', 'mm']
+				version split: ['_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u', 'mm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u', 'mm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu', 'm', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu', 'mm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: _/k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					> version: _/k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'i', 'm']
+				adding dashed alternative: ['_', '_', 'k', 'i', 'm']
+				_/k/i/m(ACAC)
+_/k/i/m(ACAC)
+_/_/k/i/m(AACAC)
+_/_/k/i/m(AACAC)
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'i', 'm']
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'i', 'm']
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: _/k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					> version: _/k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm']
+				_/k/u/m(ACAC)
+_/k/u/m(ACAC)
+_/_/k/u/m(AACAC)
+_/_/k/u/m(AACAC)
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm']
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm']
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+_/_/k/u/m/e(AACACV)
+_/_/k/u/m/e(AACACV)
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+			___CCV : 2___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: _/_/c/o
+					TRYING: c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o']
+				_/_/c/o(AACV)
+_/_/_/c/o(AAACV)
+				version split: ['_', '_', 'c', 'o']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o']
+				version split: ['_', '_', '_', 'c', 'o']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o']
+				ANALYSING: com
+					resolving (1)
+					> version: _/_/c/o/m
+					TRYING: c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm']
+				_/_/c/o/m(AACVC)
+_/_/_/c/o/m(AAACVC)
+				version split: ['_', '_', 'c', 'o', 'm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm']
+				version split: ['_', '_', '_', 'c', 'o', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm']
+				ANALYSING: come
+					resolving (1)
+					> version: _/_/c/o/m/e
+					TRYING: c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm', 'e']
+				_/_/c/o/m/e(AACVCV)
+_/_/_/c/o/m/e(AAACVCV)
+				version split: ['_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'e']
+				version split: ['_', '_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm', 'e']
+				ANALYSING: comm
+					resolving (2)
+					> version: _/_/c/o/m/m
+					TRYING: c
+					> version: _/_/c/o/mm
+					TRYING: c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'mm']
+				_/_/c/o/m/m(AACVCC)
+_/_/c/o/mm(AACVC)
+_/_/_/c/o/m/m(AAACVCC)
+_/_/_/c/o/mm(AAACVC)
+				version split: ['_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'm']
+				version split: ['_', '_', 'c', 'o', 'mm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'mm']
+				version split: ['_', '_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm', 'm']
+				version split: ['_', '_', '_', 'c', 'o', 'mm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'mm']
+				ANALYSING: cu
+					resolving (3)
+					> version: _/_/c/u
+					TRYING: c
+					> version: _/_/c/u
+					TRYING: c
+					> version: _/_/cu
+					TRYING: cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', '_', 'cu']
+				_/_/c/u(AACA)
+_/_/c/u(AACA)
+_/_/cu(AAC)
+_/_/_/c/u(AAACA)
+_/_/_/c/u(AAACA)
+_/_/_/cu(AAAC)
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u']
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u']
+				version split: ['_', '_', 'cu']
+				{'string': '_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu']
+				version split: ['_', '_', '_', 'c', 'u']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u']
+				version split: ['_', '_', '_', 'c', 'u']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u']
+				version split: ['_', '_', '_', 'cu']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu']
+				ANALYSING: cum
+					resolving (3)
+					> version: _/_/c/u/m
+					TRYING: c
+					> version: _/_/c/u/m
+					TRYING: c
+					> version: _/_/cu/m
+					TRYING: cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm']
+				adding dashed alternative: ['_', '_', '_', 'cu', 'm']
+				_/_/c/u/m(AACAC)
+_/_/c/u/m(AACAC)
+_/_/cu/m(AACC)
+_/_/_/c/u/m(AAACAC)
+_/_/_/c/u/m(AAACAC)
+_/_/_/cu/m(AAACC)
+				version split: ['_', '_', 'c', 'u', 'm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm']
+				version split: ['_', '_', 'c', 'u', 'm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm']
+				version split: ['_', '_', 'cu', 'm']
+				{'string': '_/_/cu/m', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu', 'm']
+				version split: ['_', '_', '_', 'c', 'u', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm']
+				version split: ['_', '_', '_', 'c', 'u', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm']
+				version split: ['_', '_', '_', 'cu', 'm']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu', 'm']
+				ANALYSING: cumm
+					resolving (6)
+					> version: _/_/c/u/m/m
+					TRYING: c
+					> version: _/_/c/u/m/m
+					TRYING: c
+					> version: _/_/c/u/mm
+					TRYING: c
+					> version: _/_/c/u/mm
+					TRYING: c
+					> version: _/_/cu/m/m
+					TRYING: cu
+					> version: _/_/cu/mm
+					TRYING: cu
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm', 'm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'mm']
+				adding dashed alternative: ['_', '_', '_', 'cu', 'm', 'm']
+				adding dashed alternative: ['_', '_', '_', 'cu', 'mm']
+				_/_/c/u/m/m(AACACC)
+_/_/c/u/m/m(AACACC)
+_/_/c/u/mm(AACAC)
+_/_/c/u/mm(AACAC)
+_/_/cu/m/m(AACCC)
+_/_/cu/mm(AACC)
+_/_/_/c/u/m/m(AAACACC)
+_/_/_/c/u/m/m(AAACACC)
+_/_/_/c/u/mm(AAACAC)
+_/_/_/c/u/mm(AAACAC)
+_/_/_/cu/m/m(AAACCC)
+_/_/_/cu/mm(AAACC)
+				version split: ['_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'm']
+				version split: ['_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'm']
+				version split: ['_', '_', 'c', 'u', 'mm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'mm']
+				version split: ['_', '_', 'c', 'u', 'mm']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'mm']
+				version split: ['_', '_', 'cu', 'm', 'm']
+				{'string': '_/_/cu/m', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu', 'm', 'm']
+				version split: ['_', '_', 'cu', 'mm']
+				{'string': '_/_/cu/mm', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu', 'mm']
+				version split: ['_', '_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm', 'm']
+				version split: ['_', '_', '_', 'c', 'u', 'm', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm', 'm']
+				version split: ['_', '_', '_', 'c', 'u', 'mm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'mm']
+				version split: ['_', '_', '_', 'c', 'u', 'mm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'mm']
+				version split: ['_', '_', '_', 'cu', 'm', 'm']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu', 'm', 'm']
+				version split: ['_', '_', '_', 'cu', 'mm']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu', 'mm']
+				ANALYSING: kim
+					resolving (2)
+					> version: _/_/k/i/m
+					TRYING: k
+					> version: _/_/k/i/m
+					TRYING: k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'k', 'i', 'm']
+				adding dashed alternative: ['_', '_', '_', 'k', 'i', 'm']
+				_/_/k/i/m(AACAC)
+_/_/k/i/m(AACAC)
+_/_/_/k/i/m(AAACAC)
+_/_/_/k/i/m(AAACAC)
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_/k/i', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'i', 'm']
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_/k/i', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'i', 'm']
+				version split: ['_', '_', '_', 'k', 'i', 'm']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'i', 'm']
+				version split: ['_', '_', '_', 'k', 'i', 'm']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'i', 'm']
+				ANALYSING: kum
+					resolving (2)
+					> version: _/_/k/u/m
+					TRYING: k
+					> version: _/_/k/u/m
+					TRYING: k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm']
+				_/_/k/u/m(AACAC)
+_/_/k/u/m(AACAC)
+_/_/_/k/u/m(AAACAC)
+_/_/_/k/u/m(AAACAC)
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm']
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm']
+				version split: ['_', '_', '_', 'k', 'u', 'm']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm']
+				version split: ['_', '_', '_', 'k', 'u', 'm']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm']
+				ANALYSING: kume
+					resolving (2)
+					> version: _/_/k/u/m/e
+					TRYING: k
+					> version: _/_/k/u/m/e
+					TRYING: k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				_/_/k/u/m/e(AACACV)
+_/_/k/u/m/e(AACACV)
+_/_/_/k/u/m/e(AAACACV)
+_/_/_/k/u/m/e(AAACACV)
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm', 'e']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['cu', 'm', 'e']
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		version for pattern CCV is INVALID
+		[{'_', 'cu'}]
+		10
+		OVERVIEW: version for pattern CCV
+{'_', 'cu'}
+faulty splits: 10
+[''][''][''] <-! co
+[''][''][''] <-! com
+[''][''][''] <-! come
+[''][''][''] <-! comm
+[''][''][''] <-! cu
+[''][''][''] <-! cum
+[''][''][''] <-! cumm
+[''][''][''] <-! kim
+[''][''][''] <-! kum
+[''][''][''] <-! kume
+cu | m | e
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+0 : {'_', 'cu'},{'cu', 'c'},{'_', 'cu', 'k'},{'_', 'cu', 'c'}
+1 : {'_', 'cu', 'm'},{'_', 'k', 'm'},{'c', 'm'},{'_', 'c', 'm'}
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CV
+	Selection for pattern: CV completed
+	Making a version for pattern: CV
+			___CV : 0___
+				ANALYSING: co
+				adding littera based on matching pattern
+				ANALYSING: cu
+				adding littera based on matching pattern
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					> version: c/o/mm
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: cum
+					resolving (3)
+					> version: c/u/m
+					TRYING: c
+					> version: c/u/m
+					TRYING: c
+					> version: cu/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm']
+				ANALYSING: cume
+					resolving (3)
+					> version: c/u/m/e
+					TRYING: c
+					> version: c/u/m/e
+					TRYING: c
+					> version: cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'e']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'e']
+				ANALYSING: cumm
+					resolving (6)
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: cu/m/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					> version: cu/mm
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'm']
+				version split: ['cu', 'mm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'mm']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					> version: k/i/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					> version: k/u/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					> version: k/u/m/e
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+			___CV : 1___
+				ANALYSING: co
+				adding littera based on matching pattern
+				ANALYSING: cu
+				adding littera based on matching pattern
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))$'}
+				_____REMOVING________['c', 'o', 'm']
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: o
+					> version: c/o/mm
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c/o/mm', 'rgx': '((c))/((o))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: u
+					> version: c/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm']
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: u
+					> version: c/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: i
+					> version: k/i/m
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))$'}
+				_____REMOVING________['k', 'i', 'm']
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: u
+					> version: k/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))$'}
+				_____REMOVING________['k', 'u', 'm']
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: u
+					> version: k/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['c', 'o']
+		SPLIT: ['c', 'u']
+		SPLIT: ["['c']", "['o']"]
+		SPLIT: ["['c']", "['o']"]
+		SPLIT: ["['c']", "['o']"]
+		SPLIT: ["['c']", "['u']"]
+		SPLIT: ["['c']", "['u']"]
+		SPLIT: ["['c']", "['u']"]
+		SPLIT: ["['k']", "['i']"]
+		SPLIT: ["['k']", "['u']"]
+		SPLIT: ["['k']", "['u']"]
+		version for pattern CV is INVALID
+		[]
+		9
+		OVERVIEW: version for pattern CV
+
+faulty splits: 9
+['c']['o'] <-! com
+['c']['o'] <-! come
+['c']['o'] <-! comm
+['c']['u'] <-! cum
+['c']['u'] <-! cume
+['c']['u'] <-! cumm
+['k']['i'] <-! kim
+['k']['u'] <-! kum
+['k']['u'] <-! kume
+c | o
+c | u
+['c'] | ['o']
+['c'] | ['o']
+['c'] | ['o']
+['c'] | ['u']
+['c'] | ['u']
+['c'] | ['u']
+['k'] | ['i']
+['k'] | ['u']
+['k'] | ['u']
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CVCC
+	Selection for pattern: CVCC completed
+	Making a version for pattern: CVCC
+			___CVCC : 0___
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					> version: c/u
+					TRYING: c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu']
+				ANALYSING: cum
+					resolving (3)
+					> version: c/u/m
+					TRYING: c
+					> version: c/u/m
+					TRYING: c
+					> version: cu/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm']
+				ANALYSING: cume
+					resolving (3)
+					> version: c/u/m/e
+					TRYING: c
+					> version: c/u/m/e
+					TRYING: c
+					> version: cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'e']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'e']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					> version: k/i/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					> version: k/u/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					> version: k/u/m/e
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+			___CVCC : 1___
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					TRYING: u
+					> version: c/u
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: u
+					> version: c/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: u
+					> version: c/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: i
+					> version: k/i/m
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: u
+					> version: k/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: u
+					> version: k/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+			___CVCC : 2___
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', '_']
+				c/o(CV)
+c/o/_(CVA)
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))/((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['c', 'o', '_']
+				{'string': 'c/o/_', 'rgx': '((c))/((o))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((m))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((m))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					> version: c/u
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_']
+				adding dashed alternative: ['c', 'u', '_']
+				c/u(CC)
+c/u(CV)
+c/u/_(CAA)
+c/u/_(CAA)
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: m
+					> version: c/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: m
+					> version: c/u/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: m
+					> version: k/i/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: m
+					> version: k/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: m
+					> version: k/u/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+			___CVCC : 3___
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', '_', '_']
+				c/o/_(CVA)
+c/o/_/_(CVAA)
+				version split: ['c', 'o', '_']
+				{'string': 'c/o/_', 'rgx': '((c))/((o))/((_))/((_))$'}
+				_____REMOVING________['c', 'o', '_']
+				version split: ['c', 'o', '_', '_']
+				{'string': 'c/o/_/_', 'rgx': '((c))/((o))/((_))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', 'm', '_']
+				c/o/m(CVC)
+c/o/m/_(CVCA)
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['c', 'o', 'm', '_']
+				{'string': 'c/o/m/_', 'rgx': '((c))/((o))/((m))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', 'm', '_', 'e']
+				c/o/m/e(CVCV)
+c/o/m/_/e(CVCAV)
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o/m/e', 'rgx': '((c))/((o))/((m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				version split: ['c', 'o', 'm', '_', 'e']
+				{'string': 'c/o/m/_/e', 'rgx': '((c))/((o))/((m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', '_', 'e']
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u/_
+					> version: c/u/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				c/u/_(CAA)
+c/u/_(CAA)
+c/u/_/_(CAAA)
+c/u/_/_(CAAA)
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					> version: c/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				c/u/m(CCC)
+c/u/m(CVC)
+c/u/m/_(CACA)
+c/u/m/_(CACA)
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: e
+					> version: c/u/m/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'e']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'e']
+				c/u/m/e(CCCV)
+c/u/m/e(CVCV)
+c/u/m/_/e(CACAV)
+c/u/m/_/e(CACAV)
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m/e', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m/e', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', '_', 'e']
+				{'string': 'c/u/m/_/e', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'e']
+				version split: ['c', 'u', 'm', '_', 'e']
+				{'string': 'c/u/m/_/e', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'e']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					> version: k/i/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				k/i/m(CCC)
+k/i/m(CVC)
+k/i/m/_(CACA)
+k/i/m/_(CACA)
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					> version: k/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				k/u/m(CCC)
+k/u/m(CVC)
+k/u/m/_(CACA)
+k/u/m/_(CACA)
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: e
+					> version: k/u/m/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'u', 'm', '_', 'e']
+				adding dashed alternative: ['k', 'u', 'm', '_', 'e']
+				k/u/m/e(CCCV)
+k/u/m/e(CVCV)
+k/u/m/_/e(CACAV)
+k/u/m/_/e(CACAV)
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m/e', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m/e', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', '_', 'e']
+				{'string': 'k/u/m/_/e', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm', '_', 'e']
+				version split: ['k', 'u', 'm', '_', 'e']
+				{'string': 'k/u/m/_/e', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm', '_', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['c', 'o', '_', '_']
+		only one version left: ['c', 'o', 'm', '_']
+		FAIL: 
+		only one version left: ['c', 'u', '_', '_']
+		only one version left: ['c', 'u', 'm', '_']
+		FAIL: 
+		only one version left: ['k', 'i', 'm', '_']
+		only one version left: ['k', 'u', 'm', '_']
+		FAIL: 
+		SPLIT: ['c', 'o', 'm', 'm']
+		SPLIT: ['c', 'u', 'm', 'm']
+		SPLIT: ['c', 'o', '_', '_']
+		['c', 'o', '_', '_']
+		SPLIT: ['c', 'o', 'm', '_']
+		['c', 'o', 'm', '_']
+		SPLIT: ["['c']", "['o']", "['m']", "['_']"]
+		SPLIT: ['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		SPLIT: ['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		SPLIT: ["['c']", "['u']", "['m']", "['_']"]
+		SPLIT: ['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		SPLIT: ['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		SPLIT: ["['k']", "['u']", "['m']", "['_']"]
+		version for pattern CVCC is INVALID
+		[]
+		3
+		OVERVIEW: version for pattern CVCC
+
+faulty splits: 3
+['c']['o']['m'][''] <-! come
+['c']['u']['m'][''] <-! cume
+['k']['u']['m'][''] <-! kume
+c | o | m | m
+c | u | m | m
+c | o | _ | _
+c | o | m | _
+['c'] | ['o'] | ['m'] | ['_']
+c | u | _ | _
+c | u | m | _
+['c'] | ['u'] | ['m'] | ['_']
+k | i | m | _
+k | u | m | _
+['k'] | ['u'] | ['m'] | ['_']
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CCCV
+	Selection for pattern: CCCV completed
+	Making a version for pattern: CCCV
+			___CCCV : 0___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					> version: c/o/mm
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					> version: c/u
+					TRYING: c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu']
+				ANALYSING: cum
+					resolving (3)
+					> version: c/u/m
+					TRYING: c
+					> version: c/u/m
+					TRYING: c
+					> version: cu/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm']
+				ANALYSING: cumm
+					resolving (6)
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: cu/m/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					> version: cu/mm
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'm']
+				version split: ['cu', 'mm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'mm']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					> version: k/i/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					> version: k/u/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+			___CCCV : 1___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', 'o']
+				c/o(CV)
+c/_/o(CAV)
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['c', '_', 'o']
+				{'string': 'c/_', 'rgx': '((c))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', 'o', 'm']
+				c/o/m(CVC)
+c/_/o/m(CAVC)
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o', 'rgx': '((c))/((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['c', '_', 'o', 'm']
+				{'string': 'c/_', 'rgx': '((c))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', 'o', 'm', 'e']
+				c/o/m/e(CVCV)
+c/_/o/m/e(CAVCV)
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o', 'rgx': '((c))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				version split: ['c', '_', 'o', 'm', 'e']
+				{'string': 'c/_', 'rgx': '((c))/((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: o
+					> version: c/o/mm
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', 'o', 'm', 'm']
+				adding dashed alternative: ['c', '_', 'o', 'mm']
+				c/o/m/m(CVCC)
+c/o/mm(CVC)
+c/_/o/m/m(CAVCC)
+c/_/o/mm(CAVC)
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c/o', 'rgx': '((c))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c/o', 'rgx': '((c))/((_))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				version split: ['c', '_', 'o', 'm', 'm']
+				{'string': 'c/_', 'rgx': '((c))/((_))$'}
+				version split: ['c', '_', 'o', 'mm']
+				{'string': 'c/_', 'rgx': '((c))/((_))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					TRYING: u
+					> version: c/u
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: u
+					> version: c/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: i
+					> version: k/i/m
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: u
+					> version: k/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+			___CCCV : 2___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/_/o
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', '_', 'o']
+				c/_/o(CAV)
+c/_/_/o(CAAV)
+				version split: ['c', '_', 'o']
+				{'string': 'c/_/o', 'rgx': '((c))/((_))/((_))$'}
+				_____REMOVING________['c', '_', 'o']
+				version split: ['c', '_', '_', 'o']
+				{'string': 'c/_/_', 'rgx': '((c))/((_))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/_/o/m
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', '_', 'o', 'm']
+				c/_/o/m(CAVC)
+c/_/_/o/m(CAAVC)
+				version split: ['c', '_', 'o', 'm']
+				{'string': 'c/_/o', 'rgx': '((c))/((_))/((_))$'}
+				_____REMOVING________['c', '_', 'o', 'm']
+				version split: ['c', '_', '_', 'o', 'm']
+				{'string': 'c/_/_', 'rgx': '((c))/((_))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/_/o/m/e
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', '_', 'o', 'm', 'e']
+				c/_/o/m/e(CAVCV)
+c/_/_/o/m/e(CAAVCV)
+				version split: ['c', '_', 'o', 'm', 'e']
+				{'string': 'c/_/o', 'rgx': '((c))/((_))/((_))$'}
+				_____REMOVING________['c', '_', 'o', 'm', 'e']
+				version split: ['c', '_', '_', 'o', 'm', 'e']
+				{'string': 'c/_/_', 'rgx': '((c))/((_))/((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/_/o/m/m
+					TRYING: o
+					> version: c/_/o/mm
+					TRYING: o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', '_', '_', 'o', 'm', 'm']
+				adding dashed alternative: ['c', '_', '_', 'o', 'mm']
+				c/_/o/m/m(CAVCC)
+c/_/o/mm(CAVC)
+c/_/_/o/m/m(CAAVCC)
+c/_/_/o/mm(CAAVC)
+				version split: ['c', '_', 'o', 'm', 'm']
+				{'string': 'c/_/o', 'rgx': '((c))/((_))/((_))$'}
+				_____REMOVING________['c', '_', 'o', 'm', 'm']
+				version split: ['c', '_', 'o', 'mm']
+				{'string': 'c/_/o', 'rgx': '((c))/((_))/((_))$'}
+				_____REMOVING________['c', '_', 'o', 'mm']
+				version split: ['c', '_', '_', 'o', 'm', 'm']
+				{'string': 'c/_/_', 'rgx': '((c))/((_))/((_))$'}
+				version split: ['c', '_', '_', 'o', 'mm']
+				{'string': 'c/_/_', 'rgx': '((c))/((_))/((_))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					> version: c/u
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_']
+				adding dashed alternative: ['c', 'u', '_']
+				c/u(CC)
+c/u(CV)
+c/u/_(CAA)
+c/u/_(CAA)
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: m
+					> version: c/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/mm
+					TRYING: mm
+					>>> MULTIPLE RESOLVE OPTIONS: {'mm', 'm'}
+					> version: c/u/mm
+					TRYING: mm
+					>>> MULTIPLE RESOLVE OPTIONS: {'mm', 'm'}
+					RESULT:  ['mm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: m
+					> version: k/i/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: m
+					> version: k/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+			___CCCV : 3___
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/_/_/o
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', '_', '_', 'o']
+				{'string': 'c/_/_/o', 'rgx': '((c))/((_))/((_))/((o))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/_/_/o/m
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', '_', '_', 'o', 'm']
+				{'string': 'c/_/_/o/m', 'rgx': '((c))/((_))/((_))/((o))$'}
+				_____REMOVING________['c', '_', '_', 'o', 'm']
+				ANALYSING: come
+					resolving (1)
+					> version: c/_/_/o/m/e
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', '_', '_', 'o', 'm', 'e']
+				{'string': 'c/_/_/o/m', 'rgx': '((c))/((_))/((_))/((o))$'}
+				_____REMOVING________['c', '_', '_', 'o', 'm', 'e']
+				ANALYSING: comm
+					resolving (2)
+					> version: c/_/_/o/m/m
+					TRYING: o
+					> version: c/_/_/o/mm
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', '_', '_', 'o', 'm', 'm']
+				{'string': 'c/_/_/o/m', 'rgx': '((c))/((_))/((_))/((o))$'}
+				_____REMOVING________['c', '_', '_', 'o', 'm', 'm']
+				version split: ['c', '_', '_', 'o', 'mm']
+				{'string': 'c/_/_/o/mm', 'rgx': '((c))/((_))/((_))/((o))$'}
+				_____REMOVING________['c', '_', '_', 'o', 'mm']
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u/_
+					> version: c/u/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				c/u/_(CAA)
+c/u/_(CAA)
+c/u/_/_(CAAA)
+c/u/_/_(CAAA)
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					> version: c/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				c/u/m(CCC)
+c/u/m(CVC)
+c/u/m/_(CACA)
+c/u/m/_(CACA)
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/mm
+					> version: c/u/mm
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'm']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'm']
+				adding dashed alternative: ['c', 'u', 'mm', '_']
+				adding dashed alternative: ['c', 'u', 'mm', '_']
+				c/u/m/m(CCCC)
+c/u/m/m(CVCC)
+c/u/mm(CCC)
+c/u/mm(CVC)
+c/u/m/_/m(CACAC)
+c/u/m/_/m(CACAC)
+c/u/mm/_(CACA)
+c/u/mm/_(CACA)
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'm', '_', 'm']
+				{'string': 'c/u/m/_/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'm']
+				version split: ['c', 'u', 'm', '_', 'm']
+				{'string': 'c/u/m/_/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'm']
+				version split: ['c', 'u', 'mm', '_']
+				{'string': 'c/u/mm/_', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				version split: ['c', 'u', 'mm', '_']
+				{'string': 'c/u/mm/_', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					> version: k/i/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				k/i/m(CCC)
+k/i/m(CVC)
+k/i/m/_(CACA)
+k/i/m/_(CACA)
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					> version: k/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				k/u/m(CCC)
+k/u/m(CVC)
+k/u/m/_(CACA)
+k/u/m/_(CACA)
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+		FAIL: 
+		FAIL: 
+		only one version left: ['c', '_', '_', 'o']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['c', 'u', '_', '_']
+		only one version left: ['c', 'u', 'm', '_']
+		only one version left: ['c', 'u', 'mm', '_']
+		only one version left: ['k', 'i', 'm', '_']
+		only one version left: ['k', 'u', 'm', '_']
+		SPLIT: ['c', 'u', 'm', 'e']
+		SPLIT: ['k', 'u', 'm', 'e']
+		SPLIT: ['c', '_', '_', 'o']
+		['c', '_', '_', 'o']
+		SPLIT: ["['c']", "['_']", "['_']", "['o']"]
+		SPLIT: ["['c']", "['_']", "['_']", "['o']"]
+		SPLIT: ["['c']", "['_']", "['_']", "['o']"]
+		SPLIT: ['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		SPLIT: ['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		SPLIT: ['c', 'u', 'mm', '_']
+		['c', 'u', 'mm', '_']
+		['c', 'u', 'mm', '_']
+		SPLIT: ['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		SPLIT: ['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		version for pattern CCCV is INVALID
+		[]
+		3
+		OVERVIEW: version for pattern CCCV
+
+faulty splits: 3
+['c']['']['']['o'] <-! com
+['c']['']['']['o'] <-! come
+['c']['']['']['o'] <-! comm
+c | u | m | e
+k | u | m | e
+c | _ | _ | o
+['c'] | ['_'] | ['_'] | ['o']
+['c'] | ['_'] | ['_'] | ['o']
+['c'] | ['_'] | ['_'] | ['o']
+c | u | _ | _
+c | u | m | _
+c | u | mm | _
+k | i | m | _
+k | u | m | _
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CC
+	Selection for pattern: CC completed
+	Making a version for pattern: CC
+			___CC : 0___
+				ANALYSING: cu
+				adding littera based on matching pattern
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					adding blocked set: C = C >> cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o']
+				c/o(CV)
+_/c/o(ACV)
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['_', 'c', 'o']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm']
+				c/o/m(CVC)
+_/c/o/m(ACVC)
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'e']
+				c/o/m/e(CVCV)
+_/c/o/m/e(ACVCV)
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', 'c', 'o', 'mm']
+				c/o/m/m(CVCC)
+c/o/mm(CVC)
+_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cume
+					resolving (3)
+					> version: c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, c
+					> version: cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'cu', 'm', 'e']
+				c/u/m/e(CCCV)
+c/u/m/e(CVCV)
+cu/m/e(CCV)
+_/c/u/m/e(ACACV)
+_/c/u/m/e(ACACV)
+_/cu/m/e(ACCV)
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['cu', 'm', 'e']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu', 'm', 'e']
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					> version: k/i/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'i', 'm']
+				adding dashed alternative: ['_', 'k', 'i', 'm']
+				k/i/m(CCC)
+k/i/m(CVC)
+_/k/i/m(ACAC)
+_/k/i/m(ACAC)
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					> version: k/u/m
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'u', 'm']
+				adding dashed alternative: ['_', 'k', 'u', 'm']
+				k/u/m(CCC)
+k/u/m(CVC)
+_/k/u/m(ACAC)
+_/k/u/m(ACAC)
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				k/u/m/e(CCCV)
+k/u/m/e(CVCV)
+_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+			___CC : 1___
+				ANALYSING: cu
+				adding littera based on matching pattern
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: _/c/o
+					TRYING: c
+					adding blocked set: C = C >> u, mm, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o']
+				_/c/o(ACV)
+_/_/c/o(AACV)
+				version split: ['_', 'c', 'o']
+				{'string': '_/c/o', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o']
+				version split: ['_', '_', 'c', 'o']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o']
+				ANALYSING: com
+					resolving (1)
+					> version: _/c/o/m
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm']
+				_/c/o/m(ACVC)
+_/_/c/o/m(AACVC)
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_/c/o', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm']
+				version split: ['_', '_', 'c', 'o', 'm']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm']
+				ANALYSING: come
+					resolving (1)
+					> version: _/c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'e']
+				_/c/o/m/e(ACVCV)
+_/_/c/o/m/e(AACVCV)
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_/c/o', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'e']
+				version split: ['_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'e']
+				ANALYSING: comm
+					resolving (2)
+					> version: _/c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					> version: _/c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'mm']
+				_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+_/_/c/o/m/m(AACVCC)
+_/_/c/o/mm(AACVC)
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_/c/o', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'm']
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_/c/o', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'mm']
+				version split: ['_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'm']
+				version split: ['_', '_', 'c', 'o', 'mm']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'mm']
+				ANALYSING: cume
+					resolving (3)
+					> version: _/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					> version: _/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, _, mm, m, c
+					> version: _/cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> u, _, cu, mm, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'cu', 'm', 'e']
+				_/c/u/m/e(ACACV)
+_/c/u/m/e(ACACV)
+_/cu/m/e(ACCV)
+_/_/c/u/m/e(AACACV)
+_/_/c/u/m/e(AACACV)
+_/_/cu/m/e(AACCV)
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_/c/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'e']
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_/c/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'e']
+				version split: ['_', 'cu', 'm', 'e']
+				{'string': '_/cu/m', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu', 'm', 'e']
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', 'cu', 'm', 'e']
+				{'string': '_/_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu', 'm', 'e']
+				ANALYSING: kim
+					resolving (2)
+					> version: _/k/i/m
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					> version: _/k/i/m
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'i', 'm']
+				adding dashed alternative: ['_', '_', 'k', 'i', 'm']
+				_/k/i/m(ACAC)
+_/k/i/m(ACAC)
+_/_/k/i/m(AACAC)
+_/_/k/i/m(AACAC)
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_/k/i', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'i', 'm']
+				version split: ['_', 'k', 'i', 'm']
+				{'string': '_/k/i', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'i', 'm']
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'i', 'm']
+				version split: ['_', '_', 'k', 'i', 'm']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'i', 'm']
+				ANALYSING: kum
+					resolving (2)
+					> version: _/k/u/m
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					> version: _/k/u/m
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm']
+				_/k/u/m(ACAC)
+_/k/u/m(ACAC)
+_/_/k/u/m(AACAC)
+_/_/k/u/m(AACAC)
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_/k/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm']
+				version split: ['_', 'k', 'u', 'm']
+				{'string': '_/k/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm']
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm']
+				version split: ['_', '_', 'k', 'u', 'm']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm']
+				ANALYSING: kume
+					resolving (2)
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> u, _, mm, m, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+_/_/k/u/m/e(AACACV)
+_/_/k/u/m/e(AACACV)
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k/u', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['c', 'u']
+		SPLIT: ['cu', 'm']
+		SPLIT: ['cu', 'mm']
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		SPLIT: ["['_']", "['_']"]
+		version for pattern CC is INVALID
+		[{'_', 'cu', 'c'}, {'u', 'mm', '_', 'm'}]
+		8
+		OVERVIEW: version for pattern CC
+{'_', 'cu', 'c'}, {'u', 'mm', '_', 'm'}
+faulty splits: 8
+[''][''] <-! co
+[''][''] <-! com
+[''][''] <-! come
+[''][''] <-! comm
+[''][''] <-! cume
+[''][''] <-! kim
+[''][''] <-! kum
+[''][''] <-! kume
+c | u
+cu | m
+cu | mm
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+['_'] | ['_']
+0 : {'_', 'cu', 'k', 'c'},{'cu', 'c'},{'_', 'cu', 'c'}
+1 : {'u', '_', 'mm', 'm', 'k'},{'u', '_', 'mm', 'm', 'c'},{'u', '_', 'cu', 'mm', 'm'},{'u', 'mm', 'c', 'm'}
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CVCV
+	Selection for pattern: CVCV completed
+	Making a version for pattern: CVCV
+			___CVCV : 0___
+				ANALYSING: come
+				adding littera based on matching pattern
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					> version: c/o/mm
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					> version: c/u
+					TRYING: c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu']
+				ANALYSING: cum
+					resolving (3)
+					> version: c/u/m
+					TRYING: c
+					> version: c/u/m
+					TRYING: c
+					> version: cu/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm']
+				ANALYSING: cumm
+					resolving (6)
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/m/m
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: c/u/mm
+					TRYING: c
+					> version: cu/m/m
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					> version: cu/mm
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'm']
+				version split: ['cu', 'mm']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'mm']
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: k
+					> version: k/i/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: k
+					> version: k/u/m
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k', 'rgx': '((k))$'}
+			___CVCV : 1___
+				ANALYSING: come
+				adding littera based on matching pattern
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: o
+					> version: c/o/mm
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				version split: ['c', 'o', 'mm']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					TRYING: u
+					> version: c/u
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: u
+					> version: c/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/m/m
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					> version: c/u/mm
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: i
+					> version: k/i/m
+					TRYING: i
+					RESULT:  ['i']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i', 'rgx': '((k))/((i))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: u
+					> version: k/u/m
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+			___CVCV : 2___
+				ANALYSING: come
+				adding littera based on matching pattern
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', '_']
+				c/o(CV)
+c/o/_(CVA)
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))/((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['c', 'o', '_']
+				{'string': 'c/o/_', 'rgx': '((c))/((o))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((m))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: m
+					> version: c/o/mm
+					TRYING: mm
+					>>> MULTIPLE RESOLVE OPTIONS: {'mm', 'm'}
+					RESULT:  ['mm', 'm']
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((mm)|(m))$'}
+				version split: ['c', 'o', 'mm']
+				{'string': 'c/o/mm', 'rgx': '((c))/((o))/((mm)|(m))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					> version: c/u
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_']
+				adding dashed alternative: ['c', 'u', '_']
+				c/u(CC)
+c/u(CV)
+c/u/_(CAA)
+c/u/_(CAA)
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					TRYING: m
+					> version: c/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/mm
+					TRYING: mm
+					>>> MULTIPLE RESOLVE OPTIONS: {'mm', 'm'}
+					> version: c/u/mm
+					TRYING: mm
+					>>> MULTIPLE RESOLVE OPTIONS: {'mm', 'm'}
+					RESULT:  ['mm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					TRYING: m
+					> version: k/i/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					TRYING: m
+					> version: k/u/m
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))$'}
+			___CVCV : 3___
+				ANALYSING: come
+				adding littera based on matching pattern
+				ANALYSING: cume
+				adding littera based on matching pattern
+				ANALYSING: kume
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', '_', '_']
+				c/o/_(CVA)
+c/o/_/_(CVAA)
+				version split: ['c', 'o', '_']
+				{'string': 'c/o/_', 'rgx': '((c))/((o))/((_))/((_))$'}
+				_____REMOVING________['c', 'o', '_']
+				version split: ['c', 'o', '_', '_']
+				{'string': 'c/o/_/_', 'rgx': '((c))/((o))/((_))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', 'm', '_']
+				c/o/m(CVC)
+c/o/m/_(CVCA)
+				version split: ['c', 'o', 'm']
+				{'string': 'c/o/m', 'rgx': '((c))/((o))/((m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['c', 'o', 'm', '_']
+				{'string': 'c/o/m/_', 'rgx': '((c))/((o))/((m))/((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: m
+					> version: c/o/mm
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', 'm', '_', 'm']
+				adding dashed alternative: ['c', 'o', 'mm', '_']
+				c/o/m/m(CVCC)
+c/o/mm(CVC)
+c/o/m/_/m(CVCAC)
+c/o/mm/_(CVCA)
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c/o/m/m', 'rgx': '((c))/((o))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c/o/mm', 'rgx': '((c))/((o))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				version split: ['c', 'o', 'm', '_', 'm']
+				{'string': 'c/o/m/_/m', 'rgx': '((c))/((o))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'o', 'm', '_', 'm']
+				version split: ['c', 'o', 'mm', '_']
+				{'string': 'c/o/mm/_', 'rgx': '((c))/((o))/((mm)|(m))/((_))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u/_
+					> version: c/u/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				adding dashed alternative: ['c', 'u', '_', '_']
+				c/u/_(CAA)
+c/u/_(CAA)
+c/u/_/_(CAAA)
+c/u/_/_(CAAA)
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				_____REMOVING________['c', 'u', '_']
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				version split: ['c', 'u', '_', '_']
+				{'string': 'c/u/_/_', 'rgx': '((c))/((u))/((_))/((_))$'}
+				ANALYSING: cum
+					resolving (2)
+					> version: c/u/m
+					> version: c/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				adding dashed alternative: ['c', 'u', 'm', '_']
+				c/u/m(CCC)
+c/u/m(CVC)
+c/u/m/_(CACA)
+c/u/m/_(CACA)
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm']
+				{'string': 'c/u/m', 'rgx': '((c))/((u))/((m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm']
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				version split: ['c', 'u', 'm', '_']
+				{'string': 'c/u/m/_', 'rgx': '((c))/((u))/((m))/((_))$'}
+				ANALYSING: cumm
+					resolving (4)
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/m/m
+					TRYING: m
+					> version: c/u/mm
+					> version: c/u/mm
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'm']
+				adding dashed alternative: ['c', 'u', 'm', '_', 'm']
+				adding dashed alternative: ['c', 'u', 'mm', '_']
+				adding dashed alternative: ['c', 'u', 'mm', '_']
+				c/u/m/m(CCCC)
+c/u/m/m(CVCC)
+c/u/mm(CCC)
+c/u/mm(CVC)
+c/u/m/_/m(CACAC)
+c/u/m/_/m(CACAC)
+c/u/mm/_(CACA)
+c/u/mm/_(CACA)
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'm', 'm']
+				{'string': 'c/u/m/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'mm']
+				{'string': 'c/u/mm', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'mm']
+				version split: ['c', 'u', 'm', '_', 'm']
+				{'string': 'c/u/m/_/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'm']
+				version split: ['c', 'u', 'm', '_', 'm']
+				{'string': 'c/u/m/_/m', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				_____REMOVING________['c', 'u', 'm', '_', 'm']
+				version split: ['c', 'u', 'mm', '_']
+				{'string': 'c/u/mm/_', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				version split: ['c', 'u', 'mm', '_']
+				{'string': 'c/u/mm/_', 'rgx': '((c))/((u))/((mm)|(m))/((_))$'}
+				ANALYSING: kim
+					resolving (2)
+					> version: k/i/m
+					> version: k/i/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				adding dashed alternative: ['k', 'i', 'm', '_']
+				k/i/m(CCC)
+k/i/m(CVC)
+k/i/m/_(CACA)
+k/i/m/_(CACA)
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm']
+				{'string': 'k/i/m', 'rgx': '((k))/((i))/((m))/((_))$'}
+				_____REMOVING________['k', 'i', 'm']
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				version split: ['k', 'i', 'm', '_']
+				{'string': 'k/i/m/_', 'rgx': '((k))/((i))/((m))/((_))$'}
+				ANALYSING: kum
+					resolving (2)
+					> version: k/u/m
+					> version: k/u/m
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				adding dashed alternative: ['k', 'u', 'm', '_']
+				k/u/m(CCC)
+k/u/m(CVC)
+k/u/m/_(CACA)
+k/u/m/_(CACA)
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm']
+				{'string': 'k/u/m', 'rgx': '((k))/((u))/((m))/((_))$'}
+				_____REMOVING________['k', 'u', 'm']
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+				version split: ['k', 'u', 'm', '_']
+				{'string': 'k/u/m/_', 'rgx': '((k))/((u))/((m))/((_))$'}
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['c', 'o', '_', '_']
+		only one version left: ['c', 'o', 'm', '_']
+		only one version left: ['c', 'o', 'mm', '_']
+		only one version left: ['c', 'u', '_', '_']
+		only one version left: ['c', 'u', 'm', '_']
+		only one version left: ['c', 'u', 'mm', '_']
+		only one version left: ['k', 'i', 'm', '_']
+		only one version left: ['k', 'u', 'm', '_']
+		SPLIT: ['c', 'o', 'm', 'e']
+		SPLIT: ['c', 'u', 'm', 'e']
+		SPLIT: ['k', 'u', 'm', 'e']
+		SPLIT: ['c', 'o', '_', '_']
+		['c', 'o', '_', '_']
+		SPLIT: ['c', 'o', 'm', '_']
+		['c', 'o', 'm', '_']
+		SPLIT: ['c', 'o', 'mm', '_']
+		['c', 'o', 'mm', '_']
+		SPLIT: ['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		['c', 'u', '_', '_']
+		SPLIT: ['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		['c', 'u', 'm', '_']
+		SPLIT: ['c', 'u', 'mm', '_']
+		['c', 'u', 'mm', '_']
+		['c', 'u', 'mm', '_']
+		SPLIT: ['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		['k', 'i', 'm', '_']
+		SPLIT: ['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		['k', 'u', 'm', '_']
+		OVERVIEW: version for pattern CVCV
+
+faulty splits: 0
+c | o | m | e
+c | u | m | e
+k | u | m | e
+c | o | _ | _
+c | o | m | _
+c | o | mm | _
+c | u | _ | _
+c | u | m | _
+c | u | mm | _
+k | i | m | _
+k | u | m | _
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CCC
+	Selection for pattern: CCC completed
+	Making a version for pattern: CCC
+			___CCC : 0___
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o']
+				c/o(CV)
+_/c/o(ACV)
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['_', 'c', 'o']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: c/o/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm']
+				c/o/m(CVC)
+_/c/o/m(ACVC)
+				version split: ['c', 'o', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm']
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'e']
+				c/o/m/e(CVCV)
+_/c/o/m/e(ACVCV)
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					> version: c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', 'c', 'o', 'mm']
+				c/o/m/m(CVCC)
+c/o/mm(CVC)
+_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+				version split: ['c', 'o', 'm', 'm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'm', 'm']
+				version split: ['c', 'o', 'mm']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'o', 'mm']
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					> version: c/u
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u']
+				adding dashed alternative: ['_', 'c', 'u']
+				adding dashed alternative: ['_', 'cu']
+				c/u(CC)
+c/u(CV)
+cu(C)
+_/c/u(ACA)
+_/c/u(ACA)
+_/cu(AC)
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu']
+				version split: ['_', 'c', 'u']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: cume
+					resolving (3)
+					> version: c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					> version: c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, cu, k, c
+					> version: cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'cu', 'm', 'e']
+				c/u/m/e(CCCV)
+c/u/m/e(CVCV)
+cu/m/e(CCV)
+_/c/u/m/e(ACACV)
+_/c/u/m/e(ACACV)
+_/cu/m/e(ACCV)
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((_))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['cu', 'm', 'e']
+				{'string': 'cu', 'rgx': '((_))$'}
+				_____REMOVING________['cu', 'm', 'e']
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'cu', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					> version: k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, cu, k, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', 'k', 'u', 'm', 'e']
+				k/u/m/e(CCCV)
+k/u/m/e(CVCV)
+_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((_))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_', 'rgx': '((_))$'}
+			___CCC : 1___
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: _/c/o
+					TRYING: c
+					adding blocked set: C = C >> u, i, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o']
+				_/c/o(ACV)
+_/_/c/o(AACV)
+				version split: ['_', 'c', 'o']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o']
+				version split: ['_', '_', 'c', 'o']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: com
+					resolving (1)
+					> version: _/c/o/m
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm']
+				_/c/o/m(ACVC)
+_/_/c/o/m(AACVC)
+				version split: ['_', 'c', 'o', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm']
+				version split: ['_', '_', 'c', 'o', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: _/c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'e']
+				_/c/o/m/e(ACVCV)
+_/_/c/o/m/e(AACVCV)
+				version split: ['_', 'c', 'o', 'm', 'e']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'e']
+				version split: ['_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: comm
+					resolving (2)
+					> version: _/c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					> version: _/c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', '_', 'c', 'o', 'mm']
+				_/c/o/m/m(ACVCC)
+_/c/o/mm(ACVC)
+_/_/c/o/m/m(AACVCC)
+_/_/c/o/mm(AACVC)
+				version split: ['_', 'c', 'o', 'm', 'm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'm', 'm']
+				version split: ['_', 'c', 'o', 'mm']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'o', 'mm']
+				version split: ['_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'o', 'mm']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: _/c/u
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					> version: _/c/u
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					> version: _/cu
+					TRYING: cu
+					adding blocked set: C = C >> u, i, _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', 'cu']
+				_/c/u(ACA)
+_/c/u(ACA)
+_/cu(AC)
+_/_/c/u(AACA)
+_/_/c/u(AACA)
+_/_/cu(AAC)
+				version split: ['_', 'c', 'u']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u']
+				version split: ['_', 'c', 'u']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u']
+				version split: ['_', 'cu']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu']
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: cume
+					resolving (3)
+					> version: _/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					> version: _/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> u, i, _, m, c
+					> version: _/cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> u, i, _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'cu', 'm', 'e']
+				_/c/u/m/e(ACACV)
+_/c/u/m/e(ACACV)
+_/cu/m/e(ACCV)
+_/_/c/u/m/e(AACACV)
+_/_/c/u/m/e(AACACV)
+_/_/cu/m/e(AACCV)
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'e']
+				version split: ['_', 'c', 'u', 'm', 'e']
+				{'string': '_/c', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'c', 'u', 'm', 'e']
+				version split: ['_', 'cu', 'm', 'e']
+				{'string': '_/cu', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'cu', 'm', 'e']
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'cu', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> u, i, _, m, k
+					> version: _/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> u, i, _, m, k
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', 'k', 'u', 'm', 'e']
+				_/k/u/m/e(ACACV)
+_/k/u/m/e(ACACV)
+_/_/k/u/m/e(AACACV)
+_/_/k/u/m/e(AACACV)
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', 'k', 'u', 'm', 'e']
+				{'string': '_/k', 'rgx': '((_))/((_))$'}
+				_____REMOVING________['_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_', 'rgx': '((_))/((_))$'}
+			___CCC : 2___
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: _/_/c/o
+					TRYING: c
+					adding blocked set: C = C >> c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o']
+				_/_/c/o(AACV)
+_/_/_/c/o(AAACV)
+				version split: ['_', '_', 'c', 'o']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o']
+				version split: ['_', '_', '_', 'c', 'o']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o']
+				ANALYSING: com
+					resolving (1)
+					> version: _/_/c/o/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm']
+				_/_/c/o/m(AACVC)
+_/_/_/c/o/m(AAACVC)
+				version split: ['_', '_', 'c', 'o', 'm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm']
+				version split: ['_', '_', '_', 'c', 'o', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm']
+				ANALYSING: come
+					resolving (1)
+					> version: _/_/c/o/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm', 'e']
+				_/_/c/o/m/e(AACVCV)
+_/_/_/c/o/m/e(AAACVCV)
+				version split: ['_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'e']
+				version split: ['_', '_', '_', 'c', 'o', 'm', 'e']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm', 'e']
+				ANALYSING: comm
+					resolving (2)
+					> version: _/_/c/o/m/m
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/_/c/o/mm
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'm', 'm']
+				adding dashed alternative: ['_', '_', '_', 'c', 'o', 'mm']
+				_/_/c/o/m/m(AACVCC)
+_/_/c/o/mm(AACVC)
+_/_/_/c/o/m/m(AAACVCC)
+_/_/_/c/o/mm(AAACVC)
+				version split: ['_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'm', 'm']
+				version split: ['_', '_', 'c', 'o', 'mm']
+				{'string': '_/_/c/o', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'o', 'mm']
+				version split: ['_', '_', '_', 'c', 'o', 'm', 'm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'm', 'm']
+				version split: ['_', '_', '_', 'c', 'o', 'mm']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'o', 'mm']
+				ANALYSING: cu
+					resolving (3)
+					> version: _/_/c/u
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/_/c/u
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/_/cu
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u']
+				adding dashed alternative: ['_', '_', '_', 'cu']
+				_/_/c/u(AACA)
+_/_/c/u(AACA)
+_/_/cu(AAC)
+_/_/_/c/u(AAACA)
+_/_/_/c/u(AAACA)
+_/_/_/cu(AAAC)
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u']
+				version split: ['_', '_', 'c', 'u']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u']
+				version split: ['_', '_', 'cu']
+				{'string': '_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu']
+				version split: ['_', '_', '_', 'c', 'u']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u']
+				version split: ['_', '_', '_', 'c', 'u']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u']
+				version split: ['_', '_', '_', 'cu']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu']
+				ANALYSING: cume
+					resolving (3)
+					> version: _/_/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/_/c/u/m/e
+					TRYING: c
+					adding blocked set: C = C >> _, c, m
+					> version: _/_/cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> _, cu, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', '_', 'c', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', '_', 'cu', 'm', 'e']
+				_/_/c/u/m/e(AACACV)
+_/_/c/u/m/e(AACACV)
+_/_/cu/m/e(AACCV)
+_/_/_/c/u/m/e(AAACACV)
+_/_/_/c/u/m/e(AAACACV)
+_/_/_/cu/m/e(AAACCV)
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/c/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', 'cu', 'm', 'e']
+				{'string': '_/_/cu/m', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'cu', 'm', 'e']
+				version split: ['_', '_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'c', 'u', 'm', 'e']
+				{'string': '_/_/_/c', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'c', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'cu', 'm', 'e']
+				{'string': '_/_/_/cu', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'cu', 'm', 'e']
+				ANALYSING: kume
+					resolving (2)
+					> version: _/_/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					> version: _/_/k/u/m/e
+					TRYING: k
+					adding blocked set: C = C >> _, k, m
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				adding dashed alternative: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				_/_/k/u/m/e(AACACV)
+_/_/k/u/m/e(AACACV)
+_/_/_/k/u/m/e(AAACACV)
+_/_/_/k/u/m/e(AAACACV)
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/k/u', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm', 'e']
+				version split: ['_', '_', '_', 'k', 'u', 'm', 'e']
+				{'string': '_/_/_/k', 'rgx': '((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', 'k', 'u', 'm', 'e']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['c', 'u', 'm']
+		SPLIT: ['cu', 'm', 'm']
+		SPLIT: ['k', 'i', 'm']
+		SPLIT: ['k', 'u', 'm']
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		SPLIT: ["['_']", "['_']", "['_']"]
+		version for pattern CCC is INVALID
+		[{'_', 'cu', 'k', 'c'}, {'u', 'i', '_', 'm'}]
+		7
+		OVERVIEW: version for pattern CCC
+{'_', 'cu', 'k', 'c'}, {'u', 'i', '_', 'm'}
+faulty splits: 7
+[''][''][''] <-! co
+[''][''][''] <-! com
+[''][''][''] <-! come
+[''][''][''] <-! comm
+[''][''][''] <-! cu
+[''][''][''] <-! cume
+[''][''][''] <-! kume
+c | u | m
+cu | m | m
+k | i | m
+k | u | m
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+['_'] | ['_'] | ['_']
+0 : {'_', 'cu', 'k', 'c'},{'cu', 'k', 'c'}
+1 : {'u', 'i', '_', 'm', 'k'},{'u', 'i', '_', 'm', 'c'},{'u', 'i', 'c', 'm'},{'u', 'i', '_', 'cu', 'm'}
+2 : {'_', 'cu', 'm'},{'_', 'k', 'm'},{'c', 'm'},{'_', 'c', 'm'}
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}]]
+	[[{'lit': 'mm', 'ln': 2, 'index': 2}], [{'lit': 'cu', 'ln': 2, 'index': 0}], [{'lit': 'mm', 'ln': 2, 'index': 2}, {'lit': 'cu', 'ln': 2, 'index': 0}]]
+	MIN pattern length=2
+	Pattern CCV is valid
+	Pattern CV is valid
+	Pattern CVCC is valid
+	Pattern CCCV is valid
+	Pattern CC is valid
+	Pattern CVCV is valid
+	Pattern CCC is valid
+	Pattern C is invalid
+	Pattern CVC is valid
+	Pattern CCCC is invalid
+	Making the selection for pattern: CVC
+	Selection for pattern: CVC completed
+	Making a version for pattern: CVC
+			___CVC : 0___
+				ANALYSING: com
+				adding littera based on matching pattern
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: c
+					RESULT:  ['c']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				ANALYSING: cu
+					resolving (3)
+					> version: c/u
+					TRYING: c
+					> version: c/u
+					TRYING: c
+					> version: cu
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu']
+				ANALYSING: cume
+					resolving (3)
+					> version: c/u/m/e
+					TRYING: c
+					> version: c/u/m/e
+					TRYING: c
+					> version: cu/m/e
+					TRYING: cu
+					adding blocked set: C = C >> cu, k, c
+					RESULT:  ['c']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c', 'rgx': '((c))$'}
+				version split: ['cu', 'm', 'e']
+				{'string': 'cu', 'rgx': '((c))$'}
+				_____REMOVING________['cu', 'm', 'e']
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: k
+					> version: k/u/m/e
+					TRYING: k
+					RESULT:  ['k']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k', 'rgx': '((k))$'}
+			___CVC : 1___
+				ANALYSING: com
+				adding littera based on matching pattern
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: o
+					RESULT:  ['o']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o', 'rgx': '((c))/((o))$'}
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					TRYING: u
+					> version: c/u
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: u
+					> version: c/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u', 'rgx': '((c))/((u))$'}
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: u
+					> version: k/u/m/e
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u', 'rgx': '((k))/((u))$'}
+			___CVC : 2___
+				ANALYSING: com
+				adding littera based on matching pattern
+				ANALYSING: comm
+				adding littera based on matching pattern
+				ANALYSING: cum
+				adding littera based on matching pattern
+				ANALYSING: cumm
+				adding littera based on matching pattern
+				ANALYSING: kim
+				adding littera based on matching pattern
+				ANALYSING: kum
+				adding littera based on matching pattern
+				ANALYSING: co
+					resolving (1)
+					> version: c/o
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'o', '_']
+				c/o(CV)
+c/o/_(CVA)
+				version split: ['c', 'o']
+				{'string': 'c/o', 'rgx': '((c))/((o))/((_))$'}
+				_____REMOVING________['c', 'o']
+				version split: ['c', 'o', '_']
+				{'string': 'c/o/_', 'rgx': '((c))/((o))/((_))$'}
+				ANALYSING: come
+					resolving (1)
+					> version: c/o/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'o', 'm', 'e']
+				{'string': 'c/o/m/e', 'rgx': '((c))/((o))/((m))$'}
+				_____REMOVING________['c', 'o', 'm', 'e']
+				ANALYSING: cu
+					resolving (2)
+					> version: c/u
+					> version: c/u
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'u', '_']
+				adding dashed alternative: ['c', 'u', '_']
+				c/u(CC)
+c/u(CV)
+c/u/_(CAA)
+c/u/_(CAA)
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u']
+				{'string': 'c/u', 'rgx': '((c))/((u))/((_))$'}
+				_____REMOVING________['c', 'u']
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				version split: ['c', 'u', '_']
+				{'string': 'c/u/_', 'rgx': '((c))/((u))/((_))$'}
+				ANALYSING: cume
+					resolving (2)
+					> version: c/u/m/e
+					TRYING: m
+					> version: c/u/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m/e', 'rgx': '((c))/((u))/((m))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				version split: ['c', 'u', 'm', 'e']
+				{'string': 'c/u/m/e', 'rgx': '((c))/((u))/((m))$'}
+				_____REMOVING________['c', 'u', 'm', 'e']
+				ANALYSING: kume
+					resolving (2)
+					> version: k/u/m/e
+					TRYING: m
+					> version: k/u/m/e
+					TRYING: m
+					RESULT:  ['m']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m/e', 'rgx': '((k))/((u))/((m))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+				version split: ['k', 'u', 'm', 'e']
+				{'string': 'k/u/m/e', 'rgx': '((k))/((u))/((m))$'}
+				_____REMOVING________['k', 'u', 'm', 'e']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['c', 'o', '_']
+		FAIL: 
+		only one version left: ['c', 'u', '_']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['c', 'o', 'm']
+		SPLIT: ['c', 'o', 'mm']
+		SPLIT: ['c', 'u', 'm']
+		SPLIT: ['c', 'u', 'mm']
+		SPLIT: ['k', 'i', 'm']
+		SPLIT: ['k', 'u', 'm']
+		SPLIT: ['c', 'o', '_']
+		['c', 'o', '_']
+		SPLIT: ["['c']", "['o']", "['m']"]
+		SPLIT: ['c', 'u', '_']
+		['c', 'u', '_']
+		['c', 'u', '_']
+		SPLIT: ["['c']", "['u']", "['m']"]
+		SPLIT: ["['k']", "['u']", "['m']"]
+		version for pattern CVC is INVALID
+		[]
+		3
+		OVERVIEW: version for pattern CVC
+
+faulty splits: 3
+['c']['o']['m'] <-! come
+['c']['u']['m'] <-! cume
+['k']['u']['m'] <-! kume
+c | o | m
+c | o | mm
+c | u | m
+c | u | mm
+k | i | m
+k | u | m
+c | o | _
+['c'] | ['o'] | ['m']
+c | u | _
+['c'] | ['u'] | ['m']
+['k'] | ['u'] | ['m']
+	FOUND __ 1 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CVCV
+
+faulty splits: 0
+c | o | m | e
+c | u | m | e
+k | u | m | e
+c | o | _ | _
+c | o | m | _
+c | o | mm | _
+c | u | _ | _
+c | u | m | _
+c | u | mm | _
+k | i | m | _
+k | u | m | _
+	{'CCCV', 'CCCC', 'CCCCV', 'CCVC'}

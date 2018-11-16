@@ -1,0 +1,989 @@
+Analysis object initialized
+{'hun': 1, 'hundred': 1, 'thousand': 1, 'thousend': 2, 'thusand': 1, 'thusend': 1, 'þousent': 1, 'þusend': 1, 'þusent': 2}
+Lexel initialized
+[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+MIN pattern length=6
+Pattern CCVCCVCC is valid
+Pattern CCVCVCC is valid
+Pattern CCCVCC is valid
+Pattern CVCCVCC is valid
+Pattern CVCVCC is valid
+Pattern CVVCVCC is valid
+Pattern CCVVCVCC is valid
+{'value': 2, 'patterns': ['CVCVCC']}
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CCVCCVCC
+	Selection for pattern: CCVCCVCC completed
+	Making a version for pattern: CCVCCVCC
+			___CCVCCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+			___CCVCCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+			___CCVCCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				þ/u/s/e/n/t(CCCVCC)
+þ/u/s/e/n/t(CVCVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+			___CCVCCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					adding blocked set: C = C >> u, s
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					adding blocked set: C = C >> u, s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/_/s/e/n/t(CAAACVCC)
+þ/u/_/_/s/e/n/t(CAAACVCC)
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				_____REMOVING________['þ', 'u', '_', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				_____REMOVING________['þ', 'u', '_', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_', 'rgx': '((þ))/((u))/((_))/((_))$'}
+			___CCVCCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s', 'rgx': '((þ))/((u))/((_))/((_))/((s))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s', 'rgx': '((þ))/((u))/((_))/((_))/((s))$'}
+			___CCVCCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: e
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))$'}
+			___CCVCCVCC : 6___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: n
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: n
+					RESULT:  ['n']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))$'}
+			___CCVCCVCC : 7___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: t
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))/((t))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))/((t))$'}
+		FAIL: 
+		only one version left: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		SPLIT: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CCVCCVCC
+
+faulty splits: 0
+t | h | o | u | s | e | n | d
+þ | u | _ | _ | s | e | n | t
+3 : {'u', 's'}
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CCVCVCC
+	Selection for pattern: CCVCVCC completed
+	Making a version for pattern: CCVCVCC
+			___CCVCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+			___CCVCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+			___CCVCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				þ/u/s/e/n/t(CCCVCC)
+þ/u/s/e/n/t(CVCVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+			___CCVCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+			___CCVCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+			___CCVCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					RESULT:  ['n']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+			___CCVCVCC : 6___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+		FAIL: 
+		only one version left: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		SPLIT: ['t', 'h', 'ou', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CCVCVCC
+
+faulty splits: 0
+t | h | ou | s | e | n | d
+þ | u | _ | s | e | n | t
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CCCVCC
+	Selection for pattern: CCCVCC completed
+	Making a version for pattern: CCCVCC
+			___CCCVCC : 0___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (6)
+					> version: t/h/o/u/s/e/n/d
+					TRYING: t
+					> version: t/h/o/u/s/e/n/d
+					TRYING: t
+					> version: th/o/u/s/e/n/d
+					TRYING: th
+					>>> MULTIPLE RESOLVE OPTIONS: {'th', 't'}
+					> version: th/o/u/s/e/n/d
+					TRYING: th
+					>>> MULTIPLE RESOLVE OPTIONS: {'th', 't'}
+					> version: t/h/ou/s/e/n/d
+					TRYING: t
+					>>> MULTIPLE RESOLVE OPTIONS: {'th', 't'}
+					> version: th/ou/s/e/n/d
+					TRYING: th
+					>>> MULTIPLE RESOLVE OPTIONS: {'th', 't'}
+					RESULT:  ['th', 't']
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't', 'rgx': '((th)|(t))$'}
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't', 'rgx': '((th)|(t))$'}
+				version split: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 'th', 'rgx': '((th)|(t))$'}
+				version split: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 'th', 'rgx': '((th)|(t))$'}
+				version split: ['t', 'h', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't', 'rgx': '((th)|(t))$'}
+				version split: ['th', 'ou', 's', 'e', 'n', 'd']
+				{'string': 'th', 'rgx': '((th)|(t))$'}
+			___CCCVCC : 1___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (6)
+					> version: t/h/o/u/s/e/n/d
+					TRYING: h
+					> version: t/h/o/u/s/e/n/d
+					TRYING: h
+					> version: th/o/u/s/e/n/d
+					TRYING: o
+					> version: th/o/u/s/e/n/d
+					TRYING: o
+					> version: t/h/ou/s/e/n/d
+					TRYING: h
+					> version: th/ou/s/e/n/d
+					TRYING: ou
+					RESULT:  ['h']
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h', 'rgx': '((th)|(t))/((h))$'}
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h', 'rgx': '((th)|(t))/((h))$'}
+				version split: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 'th/o', 'rgx': '((th)|(t))/((h))$'}
+				_____REMOVING________['th', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 'th/o', 'rgx': '((th)|(t))/((h))$'}
+				_____REMOVING________['th', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h', 'rgx': '((th)|(t))/((h))$'}
+				version split: ['th', 'ou', 's', 'e', 'n', 'd']
+				{'string': 'th/ou', 'rgx': '((th)|(t))/((h))$'}
+				_____REMOVING________['th', 'ou', 's', 'e', 'n', 'd']
+			___CCCVCC : 2___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (3)
+					> version: t/h/o/u/s/e/n/d
+					TRYING: o
+					> version: t/h/o/u/s/e/n/d
+					TRYING: o
+					> version: t/h/ou/s/e/n/d
+					TRYING: ou
+					RESULT:  ['_']
+				adding dashed alternative: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				adding dashed alternative: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				adding dashed alternative: ['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				t/h/o/u/s/e/n/d(CCVCCVCC)
+t/h/o/u/s/e/n/d(CCVVCVCC)
+t/h/ou/s/e/n/d(CCVCVCC)
+t/h/_/o/u/s/e/n/d(CCAVACVCC)
+t/h/_/o/u/s/e/n/d(CCAVACVCC)
+t/h/_/ou/s/e/n/d(CCAVCVCC)
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/o', 'rgx': '((th)|(t))/((h))/((_))$'}
+				_____REMOVING________['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/o', 'rgx': '((th)|(t))/((h))/((_))$'}
+				_____REMOVING________['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h/ou', 'rgx': '((th)|(t))/((h))/((_))$'}
+				_____REMOVING________['t', 'h', 'ou', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_', 'rgx': '((th)|(t))/((h))/((_))$'}
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_', 'rgx': '((th)|(t))/((h))/((_))$'}
+				version split: ['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h/_', 'rgx': '((th)|(t))/((h))/((_))$'}
+			___CCCVCC : 3___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (3)
+					> version: t/h/_/o/u/s/e/n/d
+					TRYING: o
+					> version: t/h/_/o/u/s/e/n/d
+					TRYING: o
+					> version: t/h/_/ou/s/e/n/d
+					TRYING: ou
+					>>> MULTIPLE RESOLVE OPTIONS: {'o', 'ou'}
+					RESULT:  ['o', 'ou']
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/o', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))$'}
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/o', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))$'}
+				version split: ['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/ou', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))$'}
+			___CCCVCC : 4___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (3)
+					> version: t/h/_/o/u/s/e/n/d
+					TRYING: u
+					adding blocked set: C = C >> n, u
+					> version: t/h/_/o/u/s/e/n/d
+					TRYING: u
+					adding blocked set: C = C >> n, u
+					> version: t/h/_/ou/s/e/n/d
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/o/u', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))/((s))$'}
+				_____REMOVING________['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/o/u', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))/((s))$'}
+				_____REMOVING________['t', 'h', '_', 'o', 'u', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/ou/s', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))/((s))$'}
+			___CCCVCC : 5___
+				ANALYSING: þusent
+				adding littera based on matching pattern
+				ANALYSING: thousend
+					resolving (1)
+					> version: t/h/_/ou/s/e/n/d
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['t', 'h', '_', 'ou', 's', '_', 'e', 'n', 'd']
+				t/h/_/ou/s/e/n/d(CCAVCVCC)
+t/h/_/ou/s/_/e/n/d(CCAVCAVCC)
+				version split: ['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				{'string': 't/h/_/ou/s/e/n', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))/((s))/((_))$'}
+				_____REMOVING________['t', 'h', '_', 'ou', 's', 'e', 'n', 'd']
+				version split: ['t', 'h', '_', 'ou', 's', '_', 'e', 'n', 'd']
+				{'string': 't/h/_/ou/s/_/e', 'rgx': '((th)|(t))/((h))/((_))/((o)|(ou))/((s))/((_))$'}
+				_____REMOVING________['t', 'h', '_', 'ou', 's', '_', 'e', 'n', 'd']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['þ', 'u', 's', 'e', 'n', 't']
+		SPLIT: ["['th', 't']", "['h']", "['_']", "['o', 'ou']", "['s']", "['_']"]
+		version for pattern CCCVCC is INVALID
+		[]
+		1
+		OVERVIEW: version for pattern CCCVCC
+
+faulty splits: 1
+['th', 't']['h']['']['o', 'ou']['s'][''] <-! thousend
+þ | u | s | e | n | t
+['th', 't'] | ['h'] | ['_'] | ['o', 'ou'] | ['s'] | ['_']
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CVCCVCC
+	Selection for pattern: CVCCVCC completed
+	Making a version for pattern: CVCCVCC
+			___CVCCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+			___CVCCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+			___CVCCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					adding blocked set: C = C >> u, s
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					adding blocked set: C = C >> u, s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				þ/u/s/e/n/t(CCCVCC)
+þ/u/s/e/n/t(CVCVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+			___CVCCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+			___CVCCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+			___CVCCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					RESULT:  ['n']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+			___CVCCVCC : 6___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+		FAIL: 
+		only one version left: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		SPLIT: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CVCCVCC
+
+faulty splits: 0
+th | o | u | s | e | n | d
+þ | u | _ | s | e | n | t
+2 : {'u', 's'}
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CVCVCC
+	Selection for pattern: CVCVCC completed
+	Making a version for pattern: CVCVCC
+			___CVCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+			___CVCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+			___CVCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+			___CVCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+			___CVCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+			___CVCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+				adding littera based on matching pattern
+		FAIL: 
+		FAIL: 
+		SPLIT: ['th', 'ou', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CVCVCC
+
+faulty splits: 0
+th | ou | s | e | n | d
+þ | u | s | e | n | t
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CVVCVCC
+	Selection for pattern: CVVCVCC completed
+	Making a version for pattern: CVVCVCC
+			___CVVCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+			___CVVCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+			___CVVCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				þ/u/s/e/n/t(CCCVCC)
+þ/u/s/e/n/t(CVCVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+			___CVVCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((s))$'}
+			___CVVCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					> version: þ/u/_/s/e/n/t
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e', 'rgx': '((þ))/((u))/((_))/((s))/((e))$'}
+			___CVVCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					> version: þ/u/_/s/e/n/t
+					TRYING: n
+					RESULT:  ['n']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))$'}
+			___CVVCVCC : 6___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					> version: þ/u/_/s/e/n/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((s))/((e))/((n))/((t))$'}
+		FAIL: 
+		only one version left: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		SPLIT: ['th', 'o', 'u', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CVVCVCC
+
+faulty splits: 0
+th | o | u | s | e | n | d
+þ | u | _ | s | e | n | t
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'th', 'ln': 2, 'index': 0}], [{'lit': 'ou', 'ln': 2, 'index': 2}], [{'lit': 'th', 'ln': 2, 'index': 0}, {'lit': 'ou', 'ln': 2, 'index': 2}]]
+	MIN pattern length=6
+	Pattern CCVCCVCC is valid
+	Pattern CCVCVCC is valid
+	Pattern CCCVCC is valid
+	Pattern CVCCVCC is valid
+	Pattern CVCVCC is valid
+	Pattern CVVCVCC is valid
+	Pattern CCVVCVCC is valid
+	Making the selection for pattern: CCVVCVCC
+	Selection for pattern: CCVVCVCC completed
+	Making a version for pattern: CCVVCVCC
+			___CCVVCVCC : 0___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					> version: þ/u/s/e/n/t
+					TRYING: þ
+					RESULT:  ['þ']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ', 'rgx': '((þ))$'}
+			___CCVVCVCC : 1___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					> version: þ/u/s/e/n/t
+					TRYING: u
+					RESULT:  ['u']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u', 'rgx': '((þ))/((u))$'}
+			___CCVVCVCC : 2___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					> version: þ/u/s/e/n/t
+					TRYING: s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				þ/u/s/e/n/t(CCCVCC)
+þ/u/s/e/n/t(CVCVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', 's', 'e', 'n', 't']
+				{'string': 'þ/u/s', 'rgx': '((þ))/((u))/((_))$'}
+				_____REMOVING________['þ', 'u', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_', 'rgx': '((þ))/((u))/((_))$'}
+			___CCVVCVCC : 3___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['_']
+				adding dashed alternative: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				adding dashed alternative: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/s/e/n/t(CAACVCC)
+þ/u/_/_/s/e/n/t(CAAACVCC)
+þ/u/_/_/s/e/n/t(CAAACVCC)
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				_____REMOVING________['þ', 'u', '_', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/s', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				_____REMOVING________['þ', 'u', '_', 's', 'e', 'n', 't']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_', 'rgx': '((þ))/((u))/((_))/((_))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_', 'rgx': '((þ))/((u))/((_))/((_))$'}
+			___CCVVCVCC : 4___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: s
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: s
+					RESULT:  ['s']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s', 'rgx': '((þ))/((u))/((_))/((_))/((s))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s', 'rgx': '((þ))/((u))/((_))/((_))/((s))$'}
+			___CCVVCVCC : 5___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: e
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))$'}
+			___CCVVCVCC : 6___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: n
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: n
+					RESULT:  ['n']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))$'}
+			___CCVVCVCC : 7___
+				ANALYSING: thousend
+				adding littera based on matching pattern
+				ANALYSING: þusent
+					resolving (2)
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: t
+					> version: þ/u/_/_/s/e/n/t
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))/((t))$'}
+				version split: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+				{'string': 'þ/u/_/_/s/e/n/t', 'rgx': '((þ))/((u))/((_))/((_))/((s))/((e))/((n))/((t))$'}
+		FAIL: 
+		only one version left: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		SPLIT: ['t', 'h', 'o', 'u', 's', 'e', 'n', 'd']
+		SPLIT: ['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		['þ', 'u', '_', '_', 's', 'e', 'n', 't']
+		OVERVIEW: version for pattern CCVVCVCC
+
+faulty splits: 0
+t | h | o | u | s | e | n | d
+þ | u | _ | _ | s | e | n | t
+	FOUND __ 6 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CCVCCVCC
+
+faulty splits: 0
+t | h | o | u | s | e | n | d
+þ | u | _ | _ | s | e | n | t
+3 : {'u', 's'}
+	{'CCVCCCVCC', 'CVVCCVCC', 'CCVCVCVCC', 'CCVCCVCC', 'CVCCCVCC', 'CCVVCCVCC', 'CCCCVCC'}

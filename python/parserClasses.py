@@ -3,6 +3,7 @@
 
 import rawSets
 import rawLits
+import rawPhons
 
 import re
 import itertools as itr
@@ -58,7 +59,7 @@ class Analysis:
         self.litterae=self.getLitterae()
         self.litDict=self.makeDict(self.litterae)
         self.substSets=self.getSubstSets()
-        self.formFreqLimit=0
+        self.formFreqLimit=params[3]
         self.selections=[]
         self.versions=[]
         self.level=0
@@ -86,6 +87,7 @@ class Analysis:
     
     def initialize(self):
         self.lexel=Lexel(params)
+        self.formCount=len(self.lexel.forms)
         self.lexel.getOptions()
         self.lexel.calcPattScore()
         self.topScore=self.lexel.scores.getBest()
@@ -111,7 +113,8 @@ class Analysis:
     
     def countValid(self):
         valid=list(filter(lambda x: x.isValid, self.versions))
-        a.log("FOUND __ " + str(len(valid)) + " __ VALID VERSION(S)",True)
+        self.validCount=len(valid) 
+        a.log("FOUND __ " + str(self.validCount) + " __ VALID VERSION(S)",True)
         #if(len(valid)==0):
            # self.versions=[]
            # self.selections=[]
@@ -119,7 +122,12 @@ class Analysis:
     
     def getBest(self):
         self.versions = sorted(self.versions, key=lambda k: len(k.faultySplits))
+        self.minErrors=len(self.versions[0].faultySplits)
         self.log(self.versions[0].display(),True)
+        
+    def getSuccessRate(self):
+        rsl=(self.formCount-self.minErrors)/(self.formCount/100)
+        return rsl
         
     def log(self, string, screen):
         for x in range(0,self.level):
@@ -127,7 +135,10 @@ class Analysis:
         print(str(string), file=logFile)
         if(screen==True):
             print(str(string))
-        
+    
+    def insertRecord(self):
+        records=open("logs/tested.txt","a")
+        records.write(self.lexel.record() + "/ "+self.formFreqLimit+" ("+self.versions[0].pattern+") : " +str(self.validCount)+ " : "+str(self.minErrors) + " / " + str(self.formCount) +" = " + str(self.getSuccessRate()) + " % \n")
 
    
 class Lexel:
@@ -145,6 +156,10 @@ class Lexel:
         self.delCount=0
         
         a.log("Lexel initialized",True)
+    
+    def record(self):
+        rsl=self.lexel + "/" + self.grammel + "/" + self.morpheme
+        return rsl
     
     def getForms(self):
         #q="SELECT DISTINCT regexp_replace(form,'[\+-]','','g') AS form FROM laeme.morphemes WHERE lexel='"+lexel+"' AND type='"+morpheme+"' AND form NOT SIMILAR TO '%&%'"
@@ -168,7 +183,7 @@ class Lexel:
     
     def getOptions(self):
         def isPattValid(patt):
-            if(len(re.findall("((C{4,})|(V{3,}))",patt))>0 or len(patt)<self.minLength):
+            if(len(re.findall("((C{4,})|(V{2,}))",patt))>0 or len(patt)<self.minLength):
                 a.log("Pattern " + patt + " is invalid", False)
                 return False
             a.log("Pattern " + patt + " is valid", False)
@@ -347,7 +362,7 @@ class OptionSet:
                 a.log("TRYING: " +v.split[index], False)
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
-                if(sSet.isValid(a.substSets) and (sSet.type==sType or sSet.type=="A")):
+                if(sSet.isValid(a.substSets) or (sSet.type==sType or sSet.type=="A")):
                     rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
                 elif(sSet.type==sType or sSet.type=="A"):
@@ -454,7 +469,7 @@ class Version:
                 s.split=s.versions[0].split
                 a.log("only one version left: " + str(s.split), False)
             else:
-                s.split=list(map(lambda x: str(x) ,s.split))
+                s.split=list(map(lambda x: ".".join(x) ,s.split))+["----!" ]
                 vs=list(map(lambda x : "/".join(x.split),s.versions))
                 a.log("FAIL: " + ", ".join(vs), False)
                 
@@ -516,9 +531,10 @@ class Alignment:
                     a.log(s.displayVersions(),False)
                 if((len(selection.pattern)-1)==index):
                     span=index+2
+                    s.removeIrrelevant(span)
                 else:
                     span=index+1
-                s.removeIrrelevant(span)
+                
         a.level=a.level-1
 
 
@@ -574,22 +590,24 @@ class Scores:
         return rsl
 
 lexelData=input("LEXEL/GRAMMEL/TYPE: ")
-params=lexelData.split("/")
-
-logFile=open("logs/log_"+params[0]+".txt","w", encoding="utf-8")
-
-# RUNNIG METHODS 
+testQueue=lexelData.split(",")
 
 
+for ld in testQueue:
+    params=ld.split("/")
 
-a=Analysis(params)
+    logFile=open("logs/log_"+params[0]+".txt","w", encoding="utf-8")
+
+    # RUNNIG METHODS 
+    a=Analysis(params)
 
 
-a.initialize()
-a.testPatterns(a.lexel.patterns)
-a.log(set(a.lexel.addedPatterns),False)
+    a.initialize()
+    a.testPatterns(a.lexel.patterns)
+    a.log(set(a.lexel.addedPatterns),False)
+    a.insertRecord()
 
-logFile.close()
+    logFile.close()
 
 
     
