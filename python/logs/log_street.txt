@@ -1,0 +1,1042 @@
+Analysis object initialized
+{'stræt': 2, 'stræte': 1, 'strætt': 1, 'strate': 4, 'stre': 2, 'strede': 1, 'stret': 20, 'strete': 50, 'strét': 2, 'stréte': 2}
+Lexel initialized
+[[{'lit': 'tt', 'ln': 2, 'index': 4}]]
+MIN pattern length=5
+Pattern CCCVCC is valid
+Pattern CCCVCV is valid
+Pattern CCCV is invalid
+Pattern CCCVC is valid
+{'value': 5, 'patterns': ['CCCVCV']}
+	[[{'lit': 'tt', 'ln': 2, 'index': 4}]]
+	MIN pattern length=5
+	Pattern CCCVCC is valid
+	Pattern CCCVCV is valid
+	Pattern CCCV is invalid
+	Pattern CCCVC is valid
+	Making the selection for pattern: CCCVCC
+	Selection for pattern: CCCVCC completed
+	Making a version for pattern: CCCVCC
+			___CCCVCC : 0___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: s
+					RESULT:  ['s']
+			___CCCVCC : 1___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: t
+					RESULT:  ['t']
+			___CCCVCC : 2___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: r
+					RESULT:  ['r']
+			___CCCVCC : 3___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: é
+					RESULT:  ['é']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: é
+					RESULT:  ['é']
+			___CCCVCC : 4___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_']
+				s/t/r/e(CCCV)
+s/t/r/e/_(CCCVA)
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: d
+					RESULT:  ['d']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: t
+					RESULT:  ['t']
+			___CCCVCC : 5___
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'æ', 't', '_']
+				s/t/r/æ/t(CCCVC)
+s/t/r/æ/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'æ', 't']
+				{'string': 's/t/r/æ/t', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't']
+				version split: ['s', 't', 'r', 'æ', 't', '_']
+				{'string': 's/t/r/æ/t/_', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'æ', 't', '_', 'e']
+				s/t/r/æ/t/e(CCCVCV)
+s/t/r/æ/t/_/e(CCCVCAV)
+				version split: ['s', 't', 'r', 'æ', 't', 'e']
+				{'string': 's/t/r/æ/t/e', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't', 'e']
+				version split: ['s', 't', 'r', 'æ', 't', '_', 'e']
+				{'string': 's/t/r/æ/t/_/e', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't', '_', 'e']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'a', 't', '_', 'e']
+				s/t/r/a/t/e(CCCVCV)
+s/t/r/a/t/_/e(CCCVCAV)
+				version split: ['s', 't', 'r', 'a', 't', 'e']
+				{'string': 's/t/r/a/t/e', 'rgx': '((s))/((t))/((r))/((a))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'a', 't', 'e']
+				version split: ['s', 't', 'r', 'a', 't', '_', 'e']
+				{'string': 's/t/r/a/t/_/e', 'rgx': '((s))/((t))/((r))/((a))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'a', 't', '_', 'e']
+				ANALYSING: stre
+					resolving (2)
+					> version: s/t/r/e
+					> version: s/t/r/e/_
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_', '_']
+				s/t/r/e(CCCV)
+s/t/r/e/_(CCCVA)
+s/t/r/e/_(CCCVA)
+s/t/r/e/_/_(CCCVAA)
+				version split: ['s', 't', 'r', 'e']
+				{'string': 's/t/r/e', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e']
+				version split: ['s', 't', 'r', 'e', '_']
+				{'string': 's/t/r/e/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', '_']
+				version split: ['s', 't', 'r', 'e', '_']
+				{'string': 's/t/r/e/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', '_']
+				version split: ['s', 't', 'r', 'e', '_', '_']
+				{'string': 's/t/r/e/_/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', 'd', '_', 'e']
+				s/t/r/e/d/e(CCCVCV)
+s/t/r/e/d/_/e(CCCVCAV)
+				version split: ['s', 't', 'r', 'e', 'd', 'e']
+				{'string': 's/t/r/e/d/e', 'rgx': '((s))/((t))/((r))/((e))/((d))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 'd', 'e']
+				version split: ['s', 't', 'r', 'e', 'd', '_', 'e']
+				{'string': 's/t/r/e/d/_/e', 'rgx': '((s))/((t))/((r))/((e))/((d))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 'd', '_', 'e']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', 't', '_']
+				s/t/r/e/t(CCCVC)
+s/t/r/e/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'e', 't']
+				{'string': 's/t/r/e/t', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 't']
+				version split: ['s', 't', 'r', 'e', 't', '_']
+				{'string': 's/t/r/e/t/_', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', 't', '_', 'e']
+				s/t/r/e/t/e(CCCVCV)
+s/t/r/e/t/_/e(CCCVCAV)
+				version split: ['s', 't', 'r', 'e', 't', 'e']
+				{'string': 's/t/r/e/t/e', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 't', 'e']
+				version split: ['s', 't', 'r', 'e', 't', '_', 'e']
+				{'string': 's/t/r/e/t/_/e', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 't', '_', 'e']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'é', 't', '_']
+				s/t/r/é/t(CCCVC)
+s/t/r/é/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'é', 't']
+				{'string': 's/t/r/é/t', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'é', 't']
+				version split: ['s', 't', 'r', 'é', 't', '_']
+				{'string': 's/t/r/é/t/_', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'é', 't', '_', 'e']
+				s/t/r/é/t/e(CCCVCV)
+s/t/r/é/t/_/e(CCCVCAV)
+				version split: ['s', 't', 'r', 'é', 't', 'e']
+				{'string': 's/t/r/é/t/e', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'é', 't', 'e']
+				version split: ['s', 't', 'r', 'é', 't', '_', 'e']
+				{'string': 's/t/r/é/t/_/e', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'é', 't', '_', 'e']
+		only one version left: ['s', 't', 'r', 'æ', 't', '_']
+		FAIL: 
+		FAIL: 
+		only one version left: ['s', 't', 'r', 'e', '_', '_']
+		FAIL: 
+		only one version left: ['s', 't', 'r', 'e', 't', '_']
+		FAIL: 
+		only one version left: ['s', 't', 'r', 'é', 't', '_']
+		FAIL: 
+		SPLIT: ['s', 't', 'r', 'æ', 't', 't']
+		SPLIT: ['s', 't', 'r', 'æ', 't', '_']
+		['s', 't', 'r', 'æ', 't', '_']
+		SPLIT: ['s', 't', 'r', 'æ', 't', '_', '----!']
+		SPLIT: ['s', 't', 'r', 'a', 't', '_', '----!']
+		SPLIT: ['s', 't', 'r', 'e', '_', '_']
+		['s', 't', 'r', 'e', '_', '_']
+		SPLIT: ['s', 't', 'r', 'e', 'd', '_', '----!']
+		SPLIT: ['s', 't', 'r', 'e', 't', '_']
+		['s', 't', 'r', 'e', 't', '_']
+		SPLIT: ['s', 't', 'r', 'e', 't', '_', '----!']
+		SPLIT: ['s', 't', 'r', 'é', 't', '_']
+		['s', 't', 'r', 'é', 't', '_']
+		SPLIT: ['s', 't', 'r', 'é', 't', '_', '----!']
+		version for pattern CCCVCC is INVALID
+		[]
+		5
+		OVERVIEW: version for pattern CCCVCC
+
+faulty splits: 5
+stræt----! <-! stræte
+strat----! <-! strate
+stred----! <-! strede
+stret----! <-! strete
+strét----! <-! stréte
+s | t | r | æ | t | t
+s | t | r | æ | t | _
+s | t | r | æ | t | _ | ----!
+s | t | r | a | t | _ | ----!
+s | t | r | e | _ | _
+s | t | r | e | d | _ | ----!
+s | t | r | e | t | _
+s | t | r | e | t | _ | ----!
+s | t | r | é | t | _
+s | t | r | é | t | _ | ----!
+	[[{'lit': 'tt', 'ln': 2, 'index': 4}]]
+	MIN pattern length=5
+	Pattern CCCVCC is valid
+	Pattern CCCVCV is valid
+	Pattern CCCV is invalid
+	Pattern CCCVC is valid
+	Making the selection for pattern: CCCVCV
+	Selection for pattern: CCCVCV completed
+	Making a version for pattern: CCCVCV
+			___CCCVCV : 0___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: s
+					> version: s/t/r/æ/tt
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: s
+					RESULT:  ['s']
+			___CCCVCV : 1___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: t
+					> version: s/t/r/æ/tt
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: t
+					RESULT:  ['t']
+			___CCCVCV : 2___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: r
+					> version: s/t/r/æ/tt
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: r
+					RESULT:  ['r']
+			___CCCVCV : 3___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: æ
+					> version: s/t/r/æ/tt
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: é
+					RESULT:  ['é']
+			___CCCVCV : 4___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: t
+					> version: s/t/r/æ/tt
+					TRYING: tt
+					>>> MULTIPLE RESOLVE OPTIONS: {'t', 'tt'}
+					RESULT:  ['t', 'tt']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_']
+				s/t/r/e(CCCV)
+s/t/r/e/_(CCCVA)
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					TRYING: t
+					RESULT:  ['t']
+			___CCCVCV : 5___
+				ANALYSING: stræte
+				adding littera based on matching pattern
+				ANALYSING: strate
+				adding littera based on matching pattern
+				ANALYSING: strede
+				adding littera based on matching pattern
+				ANALYSING: strete
+				adding littera based on matching pattern
+				ANALYSING: stréte
+				adding littera based on matching pattern
+				ANALYSING: stræt
+					resolving (1)
+					> version: s/t/r/æ/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'æ', 't', '_']
+				s/t/r/æ/t(CCCVC)
+s/t/r/æ/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'æ', 't']
+				{'string': 's/t/r/æ/t', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't']
+				version split: ['s', 't', 'r', 'æ', 't', '_']
+				{'string': 's/t/r/æ/t/_', 'rgx': '((s))/((t))/((r))/((æ))/((t))/((_))$'}
+				ANALYSING: strætt
+					resolving (2)
+					> version: s/t/r/æ/t/t
+					TRYING: t
+					> version: s/t/r/æ/tt
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'æ', 't', '_', 't']
+				adding dashed alternative: ['s', 't', 'r', 'æ', 'tt', '_']
+				s/t/r/æ/t/t(CCCVCC)
+s/t/r/æ/tt(CCCVC)
+s/t/r/æ/t/_/t(CCCVCAC)
+s/t/r/æ/tt/_(CCCVCA)
+				version split: ['s', 't', 'r', 'æ', 't', 't']
+				{'string': 's/t/r/æ/t/t', 'rgx': '((s))/((t))/((r))/((æ))/((t)|(tt))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't', 't']
+				version split: ['s', 't', 'r', 'æ', 'tt']
+				{'string': 's/t/r/æ/tt', 'rgx': '((s))/((t))/((r))/((æ))/((t)|(tt))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 'tt']
+				version split: ['s', 't', 'r', 'æ', 't', '_', 't']
+				{'string': 's/t/r/æ/t/_/t', 'rgx': '((s))/((t))/((r))/((æ))/((t)|(tt))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't', '_', 't']
+				version split: ['s', 't', 'r', 'æ', 'tt', '_']
+				{'string': 's/t/r/æ/tt/_', 'rgx': '((s))/((t))/((r))/((æ))/((t)|(tt))/((_))$'}
+				ANALYSING: stre
+					resolving (2)
+					> version: s/t/r/e
+					> version: s/t/r/e/_
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_', '_']
+				s/t/r/e(CCCV)
+s/t/r/e/_(CCCVA)
+s/t/r/e/_(CCCVA)
+s/t/r/e/_/_(CCCVAA)
+				version split: ['s', 't', 'r', 'e']
+				{'string': 's/t/r/e', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e']
+				version split: ['s', 't', 'r', 'e', '_']
+				{'string': 's/t/r/e/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', '_']
+				version split: ['s', 't', 'r', 'e', '_']
+				{'string': 's/t/r/e/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', '_']
+				version split: ['s', 't', 'r', 'e', '_', '_']
+				{'string': 's/t/r/e/_/_', 'rgx': '((s))/((t))/((r))/((e))/((_))/((_))$'}
+				ANALYSING: stret
+					resolving (1)
+					> version: s/t/r/e/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', 't', '_']
+				s/t/r/e/t(CCCVC)
+s/t/r/e/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'e', 't']
+				{'string': 's/t/r/e/t', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 't']
+				version split: ['s', 't', 'r', 'e', 't', '_']
+				{'string': 's/t/r/e/t/_', 'rgx': '((s))/((t))/((r))/((e))/((t))/((_))$'}
+				ANALYSING: strét
+					resolving (1)
+					> version: s/t/r/é/t
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'é', 't', '_']
+				s/t/r/é/t(CCCVC)
+s/t/r/é/t/_(CCCVCA)
+				version split: ['s', 't', 'r', 'é', 't']
+				{'string': 's/t/r/é/t', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'é', 't']
+				version split: ['s', 't', 'r', 'é', 't', '_']
+				{'string': 's/t/r/é/t/_', 'rgx': '((s))/((t))/((r))/((é))/((t))/((_))$'}
+		only one version left: ['s', 't', 'r', 'æ', 't', '_']
+		only one version left: ['s', 't', 'r', 'æ', 'tt', '_']
+		only one version left: ['s', 't', 'r', 'e', '_', '_']
+		only one version left: ['s', 't', 'r', 'e', 't', '_']
+		only one version left: ['s', 't', 'r', 'é', 't', '_']
+		SPLIT: ['s', 't', 'r', 'æ', 't', 'e']
+		SPLIT: ['s', 't', 'r', 'a', 't', 'e']
+		SPLIT: ['s', 't', 'r', 'e', 'd', 'e']
+		SPLIT: ['s', 't', 'r', 'e', 't', 'e']
+		SPLIT: ['s', 't', 'r', 'é', 't', 'e']
+		SPLIT: ['s', 't', 'r', 'æ', 't', '_']
+		['s', 't', 'r', 'æ', 't', '_']
+		SPLIT: ['s', 't', 'r', 'æ', 'tt', '_']
+		['s', 't', 'r', 'æ', 'tt', '_']
+		SPLIT: ['s', 't', 'r', 'e', '_', '_']
+		['s', 't', 'r', 'e', '_', '_']
+		SPLIT: ['s', 't', 'r', 'e', 't', '_']
+		['s', 't', 'r', 'e', 't', '_']
+		SPLIT: ['s', 't', 'r', 'é', 't', '_']
+		['s', 't', 'r', 'é', 't', '_']
+		OVERVIEW: version for pattern CCCVCV
+
+faulty splits: 0
+s | t | r | æ | t | e
+s | t | r | a | t | e
+s | t | r | e | d | e
+s | t | r | e | t | e
+s | t | r | é | t | e
+s | t | r | æ | t | _
+s | t | r | æ | tt | _
+s | t | r | e | _ | _
+s | t | r | e | t | _
+s | t | r | é | t | _
+	[[{'lit': 'tt', 'ln': 2, 'index': 4}]]
+	MIN pattern length=5
+	Pattern CCCVCC is valid
+	Pattern CCCVCV is valid
+	Pattern CCCV is invalid
+	Pattern CCCVC is valid
+	Making the selection for pattern: CCCVC
+	Selection for pattern: CCCVC completed
+	Making a version for pattern: CCCVC
+			___CCCVC : 0___
+				ANALYSING: stræt
+				adding littera based on matching pattern
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stret
+				adding littera based on matching pattern
+				ANALYSING: strét
+				adding littera based on matching pattern
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: s
+					RESULT:  ['s']
+			___CCCVC : 1___
+				ANALYSING: stræt
+				adding littera based on matching pattern
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stret
+				adding littera based on matching pattern
+				ANALYSING: strét
+				adding littera based on matching pattern
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: t
+					RESULT:  ['t']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: t
+					RESULT:  ['t']
+			___CCCVC : 2___
+				ANALYSING: stræt
+				adding littera based on matching pattern
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stret
+				adding littera based on matching pattern
+				ANALYSING: strét
+				adding littera based on matching pattern
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: r
+					RESULT:  ['r']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: r
+					RESULT:  ['r']
+			___CCCVC : 3___
+				ANALYSING: stræt
+				adding littera based on matching pattern
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stret
+				adding littera based on matching pattern
+				ANALYSING: strét
+				adding littera based on matching pattern
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: é
+					RESULT:  ['é']
+			___CCCVC : 4___
+				ANALYSING: stræt
+				adding littera based on matching pattern
+				ANALYSING: strætt
+				adding littera based on matching pattern
+				ANALYSING: stret
+				adding littera based on matching pattern
+				ANALYSING: strét
+				adding littera based on matching pattern
+				ANALYSING: stræte
+					resolving (1)
+					> version: s/t/r/æ/t/e
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['s', 't', 'r', 'æ', 't', 'e']
+				{'string': 's/t/r/æ/t/e', 'rgx': '((s))/((t))/((r))/((æ))/((t))$'}
+				_____REMOVING________['s', 't', 'r', 'æ', 't', 'e']
+				ANALYSING: strate
+					resolving (1)
+					> version: s/t/r/a/t/e
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['s', 't', 'r', 'a', 't', 'e']
+				{'string': 's/t/r/a/t/e', 'rgx': '((s))/((t))/((r))/((a))/((t))$'}
+				_____REMOVING________['s', 't', 'r', 'a', 't', 'e']
+				ANALYSING: stre
+					resolving (1)
+					> version: s/t/r/e
+					RESULT:  ['_']
+				adding dashed alternative: ['s', 't', 'r', 'e', '_']
+				s/t/r/e(CCCV)
+s/t/r/e/_(CCCVA)
+				version split: ['s', 't', 'r', 'e']
+				{'string': 's/t/r/e', 'rgx': '((s))/((t))/((r))/((e))/((_))$'}
+				_____REMOVING________['s', 't', 'r', 'e']
+				version split: ['s', 't', 'r', 'e', '_']
+				{'string': 's/t/r/e/_', 'rgx': '((s))/((t))/((r))/((e))/((_))$'}
+				ANALYSING: strede
+					resolving (1)
+					> version: s/t/r/e/d/e
+					TRYING: d
+					RESULT:  ['d']
+				version split: ['s', 't', 'r', 'e', 'd', 'e']
+				{'string': 's/t/r/e/d/e', 'rgx': '((s))/((t))/((r))/((e))/((d))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 'd', 'e']
+				ANALYSING: strete
+					resolving (1)
+					> version: s/t/r/e/t/e
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['s', 't', 'r', 'e', 't', 'e']
+				{'string': 's/t/r/e/t/e', 'rgx': '((s))/((t))/((r))/((e))/((t))$'}
+				_____REMOVING________['s', 't', 'r', 'e', 't', 'e']
+				ANALYSING: stréte
+					resolving (1)
+					> version: s/t/r/é/t/e
+					TRYING: t
+					RESULT:  ['t']
+				version split: ['s', 't', 'r', 'é', 't', 'e']
+				{'string': 's/t/r/é/t/e', 'rgx': '((s))/((t))/((r))/((é))/((t))$'}
+				_____REMOVING________['s', 't', 'r', 'é', 't', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['s', 't', 'r', 'e', '_']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['s', 't', 'r', 'æ', 't']
+		SPLIT: ['s', 't', 'r', 'æ', 'tt']
+		SPLIT: ['s', 't', 'r', 'e', 't']
+		SPLIT: ['s', 't', 'r', 'é', 't']
+		SPLIT: ['s', 't', 'r', 'æ', 't', '----!']
+		SPLIT: ['s', 't', 'r', 'a', 't', '----!']
+		SPLIT: ['s', 't', 'r', 'e', '_']
+		['s', 't', 'r', 'e', '_']
+		SPLIT: ['s', 't', 'r', 'e', 'd', '----!']
+		SPLIT: ['s', 't', 'r', 'e', 't', '----!']
+		SPLIT: ['s', 't', 'r', 'é', 't', '----!']
+		version for pattern CCCVC is INVALID
+		[]
+		5
+		OVERVIEW: version for pattern CCCVC
+
+faulty splits: 5
+stræt----! <-! stræte
+strat----! <-! strate
+stred----! <-! strede
+stret----! <-! strete
+strét----! <-! stréte
+s | t | r | æ | t
+s | t | r | æ | tt
+s | t | r | e | t
+s | t | r | é | t
+s | t | r | æ | t | ----!
+s | t | r | a | t | ----!
+s | t | r | e | _
+s | t | r | e | d | ----!
+s | t | r | e | t | ----!
+s | t | r | é | t | ----!
+	FOUND __ 1 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CCCVCV
+
+faulty splits: 0
+s | t | r | æ | t | e
+s | t | r | a | t | e
+s | t | r | e | d | e
+s | t | r | e | t | e
+s | t | r | é | t | e
+s | t | r | æ | t | _
+s | t | r | æ | tt | _
+s | t | r | e | _ | _
+s | t | r | e | t | _
+s | t | r | é | t | _
+	set()

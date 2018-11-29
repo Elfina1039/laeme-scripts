@@ -1,0 +1,55 @@
+﻿<County: Norfolk>
+<Code: D0530>
+<Reference: Cambridge University Library, Weasenham Hall muniments, Coke of Weasenham 135>
+<Function: Rental>
+
+<Transcribed by: MRS 19/07/2016>
+<Proofread by: KVT 06/09/2016>
+
+
+
+<rub>*THEES BEN~ THE LANDes FOLOWYNG~ y\T
+THE FERMOorS OF KYPTON~ *FLOK, MUST
+PAY FORE FOR THE LASTE YER~ <lat>VIz A\O IIJ\O
+HENR~ septIMI~</lat></rub>
+*FIRST TO sir WILaM *FYNCHaM FOR XIIIJ ACR~ <spn> IIIJ \S~ VIIJ \D
+*JT~ TO THE SAME WILLaM FOR IIJ ACR~ <spn> XVIIIJ+\D
+*JTM~ TO SKALES FOR VIJ ACR~ <spn> IJ S~ IIIJ D,
+*JTM~ TO *MOUNTAGEWS FOR VIJ ACR~ <spn> IJ S~ IIIJ \D,
+*JT~ *MARTYN~ *SKYPPON~ FOR IIJ ACR~ IIJ ROD, <spn> XXIJ D, OBx
+*THE VICAR~ OF WESENHaM IIJ ROD, <spn> I%I%I%J% D,
+*ROBxT *FAREWALLx FOR *J ACR~ DJx <spn> IX D,
+*THE SAME *ROBERD, FOR AN ACR~ & J ROD, <spn> VIJ D, OBx
+*THOM@ *MARIETTE IJ ACR~ ROD, <spn> XIIJ D, OBx
+*JOHN@ *BOWEMAN@ J ACR~ & DJx <spn> IX D,
+*JOHN~ *TorNOor IJ ACR~ <spn> XIJ D,
+WILLaM *BERHaM <add>IIIJ ACR~</add> <spn> IJ S~
+*EDWARD, HORN~ IIJ ACR~ <spn> XVIIJ D,
+WILLaM *MOLLE FOR IIIJ ACR~ DJx
+IN *NETHERNEWLOND AT IIIJ D, ACR~ <spn> XVIIJ D,
+*THE SAME WILLaM FOR VIIJ ACR~
+ABOUTE *THEDE <spn> IIIJ S~
+WILLaM PIERSON@ FOR AN ACR~ <spn> VJ D,
+*THE FERMOor OF *NORTHALLx FOR
+IIIJ ACR~ ABOUTE *THEDE <spn> IJ S~
+*THE SAME FERMOor FOR IIJ ACR~
+OF MYN~ BY ESCHAUNGE <spn> XVIIJ D,
+*ROBERD, *BOKENHaM FOR AN~ ACR~ <spn> VJ D,
+*JAMES *GYNNE FOR IIJ RODes <spn> IIIJ D,
+<cor>*ROB</cor> *MATHEWE HEY FOR IJ ACR~
+*LATE *ROBxT *GIRRES <spn> XIJ D,
+*RIC~ PASTN FOR *J ROD, DJx <spn> IJ D,
+*ROBxT *SKEPPE J ROD, DJx <spn> IJ D,
+*ADaM HOVELLx <spn> I%I%I%J% ACR~ D, <cor>R</cor>
+<cro>& *J RODE</cro> <spn> IJ S~ IIJ D,
+*THOMaS *CAMME <spn> XJ ACR~ ROD, & DJx ROD <com><corrected figures placed in superscript></com>
+*THOMaS *COOKE <spn> *J ACR~ D, <spn> IX D,
+*MATHEWE HEY FOR IJ ACR~ OF HIS
+OWN~ <spn> XIJ D,
+<cor><1 line></cor>
+*JOHN~ DAVY FOR AN ACR~ <spn> VJ D,
+*FOR THE LANDes LATE *RIC~
+*BOWEMAN@ J ACR~ & J ROD, <spn> VIJ D, OBx
+*ROBxT WOLBY FOR V ACR~ AT
+KYTES *GOORE <spn> XXIJ D,
+<cor><4 lines></cor> 

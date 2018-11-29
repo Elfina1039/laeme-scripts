@@ -1,0 +1,37 @@
+﻿<County: Middlesex>
+<Code: D4152#1>
+<Reference: London, London Metropolitan Archives: MS 4956/1, fol. 22r>
+<Function: Financial account>
+
+<Transcribed by: KVT 20/12/2016>
+<Proofread by: MRS 02/01/2017>
+
+
+
+<rub>*THEASE *BE THE RECEYTTes OF, WILLxI WALLYS~ & *THOMaS~ *COTTON~
+*CHURCHE WARDENS~ OF, ALLx HALOU~ STANYNG BY THE *SPACE OF,
+A+YERE THAT IS~ TO SEY *FROM~ THE *FEST OF, SEN~ LUKE *A\O XIIIJ\O
+VN-TO THE *FEST OF, *SEN~ LUKE *A\O XV\O</rub>
+*JN PriMus REC~ FOR quarTerRAGE<com><this is an unusual abbreviation of QUAR consisting of a Q with a swirly descender through it similar to the one used together with long S in SIR></com> AT THE *FEST OF, *SEN~ *MICHELLx *A\O XIIIJ\O
+*FOR THE *BEME LYGHxT <spn> IIJ S~ VJ D,
+*JT~ REC~ AT *CRISTON~ <lat>*A\O PreDCxO</lat> <spn> IIJ S~ IX D,
+*JT~ REC~ FOR quarTer AT OUR LADY DAY <lat>*A\O PreDCxO</lat> <spn> IIJ S~ VJ D,
+*JT~ REC~ FOR *MIDSOMer quarTer FOR THE *BEME <spn> IIJ S~ XJ D,
+*JT~ REC~ FOR THE PASCALLx AT *ESTER *A\O XIIIJ\O <spn> XJ S~ IIIJ D,
+*JT~ REC~ <cor>OF,</cor> <sup>FOR</sup> *MASTRES~ *ALLWYN~ *JN *ALLMus TO THE *CHURCHE <spn> IIIJ S~
+*JT~ REC~ FOR BURYING OF, A+CHYLD, WHEN~ HADLEY WAS *CLERKE <spn> XIJ D
+*JT~ REC~ OF, THE YREMONGERS FOR THE *CLERKes WEYGes <spn> IJ S~
+*JT~ REC~ AT *MIDSOMer FOR THE *CLERKes WEYGes <spn> XIIIJ S~
+*JT~ REC~ AT THE *BURYNG OF, *THOMaS *MANerS~ FOR BREKYNG OF,
+THE GROUNDE IN THE *CHYRCHE <add>A KYNDERKYN~ OF, ALE PRICE</add> <spn> <cro>VJ S~ VIIJ D,</cro>
+*JT~ REC~ FOR THE GRET BELLx FOR HIS KNYLLx <spn> <cro><ill><sum></ill></cro>
+*JT~ REC~ OF, WILLxI DEY FOR HIS~ WYFFES~ BURYNG & THE KNYLLx
+OF, THE IIIJ\T\Hx *BELLx <spn> XJ S~ VIIJ D,
+*JT~ REC~ OF, sir *THOMaS SMYTHx FOR A YERES *RENT OF, HIS
+HOWS <spn> IIIJ S~ <add><sub>*SMa LVJ S~ IX D,</sub></add>
+*JT~ REC~ ON~ SENT LUKes *DAY *A\O XV\O FOR BEME LYGHxT <spn> IJ S~ IJ D,
+*JT~ REC~ OFF, THEM~ THAT PAYS~ <cro>TWYS~</cro> <sup>ONYS</sup> A+YERE *FOR THE *BEME
+LYGHxT <spn> XXIJ D, <spa>
+*SMa TO\Lx *RECEYUED, X LxI <cor>IIJ S~</cor> X S~ <cor>IIJ D,</cor> IX D,
+
+

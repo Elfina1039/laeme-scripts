@@ -1,0 +1,21 @@
+<County: Cambridgeshire>
+<Code: D6076>
+<Reference: Cambridge, King's College: GRA/600>
+<Function: Receipt>
+
+<Transcribed by: GB 10/04/2015>
+<Proofread by: MRS 10/04/2015>
+
+
+
+<lat>XX\M\O DIE *DECEMBRes *ANNO XIIJ\M\O RRx HENRICI VIIJ\U\I</lat>
+*RECEYVYD, OF *JOHN@ *SMYTH FOR YE YERes RENTE OF Y\E *MANer OF GRANCESTER
+ENDYD, AT Y\E *FESTE OF *SEYNTTE *MIHEL LASTE PASTE THE DAAT HEROFF,
+<spn> VIIJ LxI XJ S~ X D, . *OVER AND ABOWE <spn> <und>XJ LxI V S~ VJ D,</und> PAYED TO *master HARTWELLx
+Y\E LASTE YERes / *AND OVER <spn> <und>LVJ S~</und> TO HYM~ ALOWED, FOR . I%J% . *CLOOser & GRA~CESTR
+*AND . <und>VIJ LxI</und> <ct> <sup>ASKYD,</sup> FOR REparACONnS DOON~ & LAYED, OWT BY HYM~ / *AND <spn> <und>VJ S~ VIIJ D</und>
+TO HYM~ ALSO ALLOWED FOR A GOWN@
+*JT~ THE DAY AND YER ABOWESPECYFYED, *RECEYVYD, OF THE *SAYD *JOHN@ *SMYzTHx
+FOR THE BAYLYWYKE OF *GRANCESTER OVER AND ABOWE <spn> <cor>XIJ D,</cor> <sup>XVIIJ D</sup> PAYED, FOR
+*CAPONS <spn> XV LI@ XIJ S~ X D, OBx quarta <lat><sgn>per ME W DUSSYNG / per ME *ROBxTU~ *BYGG~</sgn>
+<sgn>& per ME *JOHxEM *COCKE</sgn></lat>

@@ -1,0 +1,19 @@
+﻿<County: Norfolk>
+<Code: D0527>
+<Reference: Cambridge University Library, Weasenham Hall muniments, Coke of Weasenham 139, fol. 2r>
+<Function: Financial account>
+
+<Transcribed by: MRS 13/09/2016>
+<Proofread by: KVT 15/09/2016>
+
+
+
+<uis> *THx *GERMEN~ <gap> *SEXTEN~ FOR VIJ\*C-LX IN FOLDECORSE <sub>OF, master *STRANGE XV</sub>
+*JTM~ FOR THE *SHEPPERDes *JUSMENT <spn> V\X\XX <lat>OUES MATriSES</lat> <spn> XX D,
+*JN THE FOL<ct><sup>D</sup>CORSSE OF, master *BEUPRE OF, THE *SHEPPE OF master
+*STRAUNGE *SQWER~ <spn> VJ-\*C-&-LX
+*JTM~ FOR THE *SHEPPERDes *JUSMENT IIIJ\X\X <spn> XVJ D,
+*JTM~ FOR~ WILLxI *SYMSON~ *JUSMENT <spn> L <lat>OUES MATriC~</lat> <spn> X D,
+*JTM~ FOR *THx *JOHNSON@ FOR IIIJ\X\X WETHERRes <spn> XVJ D,
+*JTM~ OF, *THx *EDWARD, FOR XVJ EUES MATriC~ IIJ D,
+*JTM~ OF, *ROBxT~ *MAYNNE FOR XX <lat>OUES MATriC~</lat> <spn> IIIJ D,<com><remainder in Latin, mainly initials and sums></com>

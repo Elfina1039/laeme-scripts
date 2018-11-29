@@ -1,0 +1,27 @@
+<County: Norfolk>
+<Code: D0645#2>
+<Reference: Cambridge University Library, Weasenham Hall muniments: Coke of Weasenham 143 sheet 2>
+<Function: Financial account>
+
+<Transcribed by: AK 07/10/2016>
+<Proofread by: MRS 16/10/2016>
+
+
+
+<lat><ill>*A<.></ill> H VIIJ VNDECEMO</lat>
+*JTM~ FOR~ *CARYNG~ OF, Y\E *FOLDE TO LEXHaM & HOME A-GEN~ <spn> VIIJ+\D,
+*JTM~ FOR~ *FECHEYNG~ OF Y\E WOLLE FRO THE *FOLDE & LEDYNG~ IT TO <sub>*CRANWORTHE <add><spn>XVJ+\D,</add></sub>
+*JTM~ FOR~ *COSTes OF, THE *COWRTTE <spn> IIJ S~ IIIJ D,
+*JTM~ FOR~ DI@ A LODDE OF, MARLLE & HANGYN~ OF THE *FALDEz ATTE <cor><VJ+\D,</cor> <sup>IIIJ+\D</sup>
+*JTM~ FOR~ IJ HOKes IJ WARDEWELLes IJ STAPELLes & AN HELFE <spn> VIJ+\D,
+*JTM~ FOR~ A BARELLx TER & THE BRENGYNG+HOM~ <spn> IIIJ S~ IIIJ D,
+*JTM~ FOR~ HERDELLes IIIJ DOSEN~ <spn> IIIJ S~ VIIJ D,
+<add><nta> *SMa <spn> XJ S~ . XJ D, <spa></add>
+*A\O H VIIJ XIJ\M\O
+<cro>*JTM~ FOR~ *CARRY OF THE *FOLDE TO THE WASSEPET & HOM~ AGEN~</cro>
+*JTM~ FOR~ *FECHEYNG~ OF, THE WOLLE FRO THE *FOLDE & LEDYNG~ IT TO <sub>*CRANWORTHxE <add><spn> XVJ D,</add></sub>
+*JTM~ FOR~ A BARELLx TER~ & BRENGYNG~ HOME IIIJ S~ VIIJ+\D,
+*JTM~ FOR~ HERDELLes VJ DOSEN~ <spn> VIJ S~ VJ D,
+*JTM~ FOR~ *CREYENG~ OF, IJ STRAES <spn> IIJ D, .
+<add><nta> *SMa <spn> XIIJ S~ . IX D, <spa>
+<nta> *SMa TOT~ BILLE <spn> XXV S~ VIIJ D, <sgn>*J . *S</sgn></add>

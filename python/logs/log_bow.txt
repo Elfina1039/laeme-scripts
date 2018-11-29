@@ -1,0 +1,782 @@
+Analysis object initialized
+{'boᵹe': 1, 'boge': 2, 'boue': 1, 'bouwe': 1, 'bow': 1, 'boƿa': 1, 'boƿe': 2, 'bowe': 6, 'boȝe': 3}
+Lexel initialized
+[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}]]
+[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'uw', 'ln': 2, 'index': 2}, {'lit': 'ou', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+MIN pattern length=4
+Pattern CVC is invalid
+Pattern CVV is invalid
+Pattern CVVCV is invalid
+Pattern CVVV is invalid
+Pattern CVCCV is valid
+Pattern CVCV is valid
+Pattern CV is invalid
+{'value': 8, 'patterns': ['CVCV']}
+	[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'uw', 'ln': 2, 'index': 2}, {'lit': 'ou', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+	MIN pattern length=4
+	Pattern CVC is invalid
+	Pattern CVV is invalid
+	Pattern CVVCV is invalid
+	Pattern CVVV is invalid
+	Pattern CVCCV is valid
+	Pattern CVCV is valid
+	Pattern CV is invalid
+	Making the selection for pattern: CVCCV
+	Selection for pattern: CVCCV completed
+	Making a version for pattern: CVCCV
+			___CVCCV : 0___
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boᵹe
+					resolving (1)
+					> version: b/o/ᵹ/e
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: boge
+					resolving (1)
+					> version: b/o/g/e
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: boue
+					resolving (5)
+					> version: b/o/u/e
+					TRYING: b
+					> version: b/o/u/e
+					TRYING: b
+					> version: b/ou/e
+					TRYING: b
+					> version: b/o/ue
+					TRYING: b
+					> version: b/ou/e
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: b
+					> version: b/ow
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: boƿa
+					resolving (2)
+					> version: b/o/ƿ/a
+					TRYING: b
+					> version: b/oƿ/a
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: boƿe
+					resolving (2)
+					> version: b/o/ƿ/e
+					TRYING: b
+					> version: b/oƿ/e
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: bowe
+					resolving (2)
+					> version: b/o/w/e
+					TRYING: b
+					> version: b/ow/e
+					TRYING: b
+					RESULT:  ['b']
+				ANALYSING: boȝe
+					resolving (1)
+					> version: b/o/ȝ/e
+					TRYING: b
+					RESULT:  ['b']
+			___CVCCV : 1___
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boᵹe
+					resolving (1)
+					> version: b/o/ᵹ/e
+					TRYING: o
+					RESULT:  ['o']
+				ANALYSING: boge
+					resolving (1)
+					> version: b/o/g/e
+					TRYING: o
+					RESULT:  ['o']
+				ANALYSING: boue
+					resolving (5)
+					> version: b/o/u/e
+					TRYING: o
+					> version: b/o/u/e
+					TRYING: o
+					> version: b/ou/e
+					TRYING: ou
+					>>> MULTIPLE RESOLVE OPTIONS: {'ou', 'o'}
+					> version: b/o/ue
+					TRYING: o
+					>>> MULTIPLE RESOLVE OPTIONS: {'ou', 'o'}
+					> version: b/ou/e
+					TRYING: ou
+					>>> MULTIPLE RESOLVE OPTIONS: {'ou', 'o'}
+					RESULT:  ['ou', 'o']
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: o
+					> version: b/ow
+					TRYING: ow
+					adding blocked set: V = V >> ou, ow, o
+					RESULT:  ['o']
+				ANALYSING: boƿa
+					resolving (2)
+					> version: b/o/ƿ/a
+					TRYING: o
+					> version: b/oƿ/a
+					TRYING: oƿ
+					>>> MULTIPLE RESOLVE OPTIONS: {'oƿ', 'o'}
+					RESULT:  ['oƿ', 'o']
+				ANALYSING: boƿe
+					resolving (2)
+					> version: b/o/ƿ/e
+					TRYING: o
+					> version: b/oƿ/e
+					TRYING: oƿ
+					>>> MULTIPLE RESOLVE OPTIONS: {'oƿ', 'o'}
+					RESULT:  ['oƿ', 'o']
+				ANALYSING: bowe
+					resolving (2)
+					> version: b/o/w/e
+					TRYING: o
+					> version: b/ow/e
+					TRYING: ow
+					adding blocked set: V = V >> ou, oƿ, o, ow
+					RESULT:  ['o']
+				ANALYSING: boȝe
+					resolving (1)
+					> version: b/o/ȝ/e
+					TRYING: o
+					RESULT:  ['o']
+			___CVCCV : 2___
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boᵹe
+					resolving (1)
+					> version: b/o/ᵹ/e
+					TRYING: ᵹ
+					adding blocked set: C = C >> ᵹ, u
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'ᵹ', 'e']
+				b/o/ᵹ/e(CVCV)
+b/o/_/ᵹ/e(CVACV)
+				ANALYSING: boge
+					resolving (1)
+					> version: b/o/g/e
+					TRYING: g
+					adding blocked set: C = C >> u, g, _
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'g', 'e']
+				b/o/g/e(CVCV)
+b/o/_/g/e(CVACV)
+				ANALYSING: boue
+					resolving (5)
+					> version: b/o/u/e
+					TRYING: u
+					> version: b/o/u/e
+					TRYING: u
+					> version: b/ou/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: b/o/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ue', 'u'}
+					> version: b/ou/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ue', 'u'}
+					RESULT:  ['e', 'ue', 'u']
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: w
+					> version: b/ow
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'w']
+				adding dashed alternative: ['b', 'ow', '_']
+				b/o/w(CVC)
+b/ow(CV)
+b/o/_/w(CVAC)
+b/ow/_(CVA)
+				ANALYSING: boƿa
+					resolving (2)
+					> version: b/o/ƿ/a
+					TRYING: ƿ
+					> version: b/oƿ/a
+					TRYING: a
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'ƿ', 'a']
+				adding dashed alternative: ['b', 'oƿ', '_', 'a']
+				b/o/ƿ/a(CVCV)
+b/oƿ/a(CVV)
+b/o/_/ƿ/a(CVACV)
+b/oƿ/_/a(CVAV)
+				ANALYSING: boƿe
+					resolving (2)
+					> version: b/o/ƿ/e
+					TRYING: ƿ
+					> version: b/oƿ/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: bowe
+					resolving (2)
+					> version: b/o/w/e
+					TRYING: w
+					> version: b/ow/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: boȝe
+					resolving (1)
+					> version: b/o/ȝ/e
+					TRYING: ȝ
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'ȝ', 'e']
+				b/o/ȝ/e(CVCV)
+b/o/_/ȝ/e(CVACV)
+			___CVCCV : 3___
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boᵹe
+					resolving (2)
+					> version: b/o/ᵹ/e
+					TRYING: e
+					> version: b/o/_/ᵹ/e
+					TRYING: ᵹ
+					RESULT:  ['ᵹ']
+				ANALYSING: boge
+					resolving (2)
+					> version: b/o/g/e
+					TRYING: e
+					> version: b/o/_/g/e
+					TRYING: g
+					adding blocked set: C = C >> w, ᵹ, g
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'g', '_', 'e']
+				adding dashed alternative: ['b', 'o', '_', '_', 'g', 'e']
+				b/o/g/e(CVCV)
+b/o/_/g/e(CVACV)
+b/o/g/_/e(CVCAV)
+b/o/_/_/g/e(CVAACV)
+				ANALYSING: boue
+					resolving (5)
+					> version: b/o/u/e
+					TRYING: e
+					> version: b/o/u/e
+					TRYING: e
+					> version: b/ou/e
+					> version: b/o/ue
+					> version: b/ou/e
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'u', '_', 'e']
+				adding dashed alternative: ['b', 'o', 'u', '_', 'e']
+				adding dashed alternative: ['b', 'ou', 'e', '_']
+				adding dashed alternative: ['b', 'o', 'ue', '_']
+				adding dashed alternative: ['b', 'ou', 'e', '_']
+				b/o/u/e(CVCV)
+b/o/u/e(CVVV)
+b/ou/e(CVV)
+b/o/ue(CVV)
+b/ou/e(CVV)
+b/o/u/_/e(CVAAV)
+b/o/u/_/e(CVAAV)
+b/ou/e/_(CVVA)
+b/o/ue/_(CVVA)
+b/ou/e/_(CVVA)
+				ANALYSING: bow
+					resolving (4)
+					> version: b/o/w
+					> version: b/ow
+					> version: b/o/_/w
+					TRYING: w
+					> version: b/ow/_
+					RESULT:  ['w']
+				ANALYSING: boƿa
+					resolving (4)
+					> version: b/o/ƿ/a
+					TRYING: a
+					> version: b/oƿ/a
+					> version: b/o/_/ƿ/a
+					TRYING: ƿ
+					> version: b/oƿ/_/a
+					TRYING: a
+					RESULT:  ['ƿ']
+				ANALYSING: boƿe
+					resolving (2)
+					> version: b/o/ƿ/e
+					TRYING: e
+					> version: b/oƿ/e
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'ƿ', '_', 'e']
+				adding dashed alternative: ['b', 'oƿ', 'e', '_']
+				b/o/ƿ/e(CVCV)
+b/oƿ/e(CVV)
+b/o/ƿ/_/e(CVCAV)
+b/oƿ/e/_(CVVA)
+				ANALYSING: bowe
+					resolving (2)
+					> version: b/o/w/e
+					TRYING: e
+					> version: b/ow/e
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'w', '_', 'e']
+				adding dashed alternative: ['b', 'ow', 'e', '_']
+				b/o/w/e(CVCV)
+b/ow/e(CVV)
+b/o/w/_/e(CVCAV)
+b/ow/e/_(CVVA)
+				ANALYSING: boȝe
+					resolving (2)
+					> version: b/o/ȝ/e
+					TRYING: e
+					> version: b/o/_/ȝ/e
+					TRYING: ȝ
+					RESULT:  ['ȝ']
+			___CVCCV : 4___
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boᵹe
+					resolving (2)
+					> version: b/o/ᵹ/e
+					> version: b/o/_/ᵹ/e
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['b', 'o', 'ᵹ', 'e']
+				{'string': 'b/o/ᵹ/e', 'rgx': '((b))/((o))/((_))/((ᵹ))/((e))$'}
+				_____REMOVING________['b', 'o', 'ᵹ', 'e']
+				version split: ['b', 'o', '_', 'ᵹ', 'e']
+				{'string': 'b/o/_/ᵹ/e', 'rgx': '((b))/((o))/((_))/((ᵹ))/((e))$'}
+				ANALYSING: boge
+					resolving (4)
+					> version: b/o/g/e
+					> version: b/o/_/g/e
+					TRYING: e
+					> version: b/o/g/_/e
+					TRYING: e
+					> version: b/o/_/_/g/e
+					TRYING: g
+					RESULT:  ['e']
+				version split: ['b', 'o', 'g', 'e']
+				{'string': 'b/o/g/e', 'rgx': '((b))/((o))/((_))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'g', 'e']
+				version split: ['b', 'o', '_', 'g', 'e']
+				{'string': 'b/o/_/g/e', 'rgx': '((b))/((o))/((_))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', '_', 'g', 'e']
+				version split: ['b', 'o', 'g', '_', 'e']
+				{'string': 'b/o/g/_/e', 'rgx': '((b))/((o))/((_))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'g', '_', 'e']
+				version split: ['b', 'o', '_', '_', 'g', 'e']
+				{'string': 'b/o/_/_/g/e', 'rgx': '((b))/((o))/((_))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', '_', '_', 'g', 'e']
+				ANALYSING: boue
+					resolving (10)
+					> version: b/o/u/e
+					> version: b/o/u/e
+					> version: b/ou/e
+					> version: b/o/ue
+					> version: b/ou/e
+					> version: b/o/u/_/e
+					TRYING: e
+					> version: b/o/u/_/e
+					TRYING: e
+					> version: b/ou/e/_
+					> version: b/o/ue/_
+					> version: b/ou/e/_
+					RESULT:  ['e']
+				version split: ['b', 'o', 'u', 'e']
+				{'string': 'b/o/u/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'u', 'e']
+				version split: ['b', 'o', 'u', 'e']
+				{'string': 'b/o/u/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'u', 'e']
+				version split: ['b', 'ou', 'e']
+				{'string': 'b/ou/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'ou', 'e']
+				version split: ['b', 'o', 'ue']
+				{'string': 'b/o/ue', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'ue']
+				version split: ['b', 'ou', 'e']
+				{'string': 'b/ou/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'ou', 'e']
+				version split: ['b', 'o', 'u', '_', 'e']
+				{'string': 'b/o/u/_/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				version split: ['b', 'o', 'u', '_', 'e']
+				{'string': 'b/o/u/_/e', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				version split: ['b', 'ou', 'e', '_']
+				{'string': 'b/ou/e/_', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'ou', 'e', '_']
+				version split: ['b', 'o', 'ue', '_']
+				{'string': 'b/o/ue/_', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'ue', '_']
+				version split: ['b', 'ou', 'e', '_']
+				{'string': 'b/ou/e/_', 'rgx': '((b))/((ou)|(o))/((e)|(ue)|(u))/((_))/((e))$'}
+				_____REMOVING________['b', 'ou', 'e', '_']
+				ANALYSING: bow
+					resolving (4)
+					> version: b/o/w
+					> version: b/ow
+					> version: b/o/_/w
+					> version: b/ow/_
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'w', '_']
+				adding dashed alternative: ['b', 'ow', '_']
+				adding dashed alternative: ['b', 'o', '_', 'w', '_']
+				adding dashed alternative: ['b', 'ow', '_', '_']
+				b/o/w(CVC)
+b/ow(CV)
+b/o/_/w(CVAC)
+b/ow/_(CVA)
+b/o/w/_(CVCA)
+b/ow/_(CVA)
+b/o/_/w/_(CVACA)
+b/ow/_/_(CVAA)
+				version split: ['b', 'o', 'w']
+				{'string': 'b/o/w', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'o', 'w']
+				version split: ['b', 'ow']
+				{'string': 'b/ow', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'ow']
+				version split: ['b', 'o', '_', 'w']
+				{'string': 'b/o/_/w', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'o', '_', 'w']
+				version split: ['b', 'ow', '_']
+				{'string': 'b/ow/_', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'ow', '_']
+				version split: ['b', 'o', 'w', '_']
+				{'string': 'b/o/w/_', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'o', 'w', '_']
+				version split: ['b', 'ow', '_']
+				{'string': 'b/ow/_', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'ow', '_']
+				version split: ['b', 'o', '_', 'w', '_']
+				{'string': 'b/o/_/w/_', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				version split: ['b', 'ow', '_', '_']
+				{'string': 'b/ow/_/_', 'rgx': '((b))/((o))/((_))/((w))/((_))$'}
+				_____REMOVING________['b', 'ow', '_', '_']
+				ANALYSING: boƿa
+					resolving (4)
+					> version: b/o/ƿ/a
+					> version: b/oƿ/a
+					> version: b/o/_/ƿ/a
+					TRYING: a
+					> version: b/oƿ/_/a
+					RESULT:  ['a']
+				version split: ['b', 'o', 'ƿ', 'a']
+				{'string': 'b/o/ƿ/a', 'rgx': '((b))/((oƿ)|(o))/((_))/((ƿ))/((a))$'}
+				_____REMOVING________['b', 'o', 'ƿ', 'a']
+				version split: ['b', 'oƿ', 'a']
+				{'string': 'b/oƿ/a', 'rgx': '((b))/((oƿ)|(o))/((_))/((ƿ))/((a))$'}
+				_____REMOVING________['b', 'oƿ', 'a']
+				version split: ['b', 'o', '_', 'ƿ', 'a']
+				{'string': 'b/o/_/ƿ/a', 'rgx': '((b))/((oƿ)|(o))/((_))/((ƿ))/((a))$'}
+				version split: ['b', 'oƿ', '_', 'a']
+				{'string': 'b/oƿ/_/a', 'rgx': '((b))/((oƿ)|(o))/((_))/((ƿ))/((a))$'}
+				_____REMOVING________['b', 'oƿ', '_', 'a']
+				ANALYSING: boƿe
+					resolving (4)
+					> version: b/o/ƿ/e
+					> version: b/oƿ/e
+					> version: b/o/ƿ/_/e
+					TRYING: e
+					> version: b/oƿ/e/_
+					RESULT:  ['e']
+				version split: ['b', 'o', 'ƿ', 'e']
+				{'string': 'b/o/ƿ/e', 'rgx': '((b))/((oƿ)|(o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'ƿ', 'e']
+				version split: ['b', 'oƿ', 'e']
+				{'string': 'b/oƿ/e', 'rgx': '((b))/((oƿ)|(o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'oƿ', 'e']
+				version split: ['b', 'o', 'ƿ', '_', 'e']
+				{'string': 'b/o/ƿ/_/e', 'rgx': '((b))/((oƿ)|(o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'ƿ', '_', 'e']
+				version split: ['b', 'oƿ', 'e', '_']
+				{'string': 'b/oƿ/e/_', 'rgx': '((b))/((oƿ)|(o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'oƿ', 'e', '_']
+				ANALYSING: bowe
+					resolving (4)
+					> version: b/o/w/e
+					> version: b/ow/e
+					> version: b/o/w/_/e
+					TRYING: e
+					> version: b/ow/e/_
+					RESULT:  ['e']
+				version split: ['b', 'o', 'w', 'e']
+				{'string': 'b/o/w/e', 'rgx': '((b))/((o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'w', 'e']
+				version split: ['b', 'ow', 'e']
+				{'string': 'b/ow/e', 'rgx': '((b))/((o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'ow', 'e']
+				version split: ['b', 'o', 'w', '_', 'e']
+				{'string': 'b/o/w/_/e', 'rgx': '((b))/((o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'o', 'w', '_', 'e']
+				version split: ['b', 'ow', 'e', '_']
+				{'string': 'b/ow/e/_', 'rgx': '((b))/((o))/((e))/((_))/((e))$'}
+				_____REMOVING________['b', 'ow', 'e', '_']
+				ANALYSING: boȝe
+					resolving (2)
+					> version: b/o/ȝ/e
+					> version: b/o/_/ȝ/e
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['b', 'o', 'ȝ', 'e']
+				{'string': 'b/o/ȝ/e', 'rgx': '((b))/((o))/((_))/((ȝ))/((e))$'}
+				_____REMOVING________['b', 'o', 'ȝ', 'e']
+				version split: ['b', 'o', '_', 'ȝ', 'e']
+				{'string': 'b/o/_/ȝ/e', 'rgx': '((b))/((o))/((_))/((ȝ))/((e))$'}
+		only one version left: ['b', 'o', '_', 'ᵹ', 'e']
+		FAIL: 
+		only one version left: ['b', 'o', 'u', '_', 'e']
+		only one version left: ['b', 'o', '_', 'w', '_']
+		only one version left: ['b', 'o', '_', 'ƿ', 'a']
+		FAIL: 
+		FAIL: 
+		only one version left: ['b', 'o', '_', 'ȝ', 'e']
+		SPLIT: ['b', 'o', 'u', 'w', 'e']
+		SPLIT: ['b', 'o', '_', 'ᵹ', 'e']
+		['b', 'o', '_', 'ᵹ', 'e']
+		SPLIT: ['b', 'o', '_', '_', 'e', '----!']
+		SPLIT: ['b', 'o', 'u', '_', 'e']
+		['b', 'o', 'u', '_', 'e']
+		['b', 'o', 'u', '_', 'e']
+		SPLIT: ['b', 'o', '_', 'w', '_']
+		['b', 'o', '_', 'w', '_']
+		SPLIT: ['b', 'o', '_', 'ƿ', 'a']
+		['b', 'o', '_', 'ƿ', 'a']
+		SPLIT: ['b', 'oƿ.o', 'e', '_', 'e', '----!']
+		SPLIT: ['b', 'o', 'e', '_', 'e', '----!']
+		SPLIT: ['b', 'o', '_', 'ȝ', 'e']
+		['b', 'o', '_', 'ȝ', 'e']
+		version for pattern CVCCV is INVALID
+		[]
+		3
+		OVERVIEW: version for pattern CVCCV
+
+faulty splits: 3
+boe----! <-! boge
+boƿ.oee----! <-! boƿe
+boee----! <-! bowe
+b | o | u | w | e
+b | o | _ | ᵹ | e
+b | o | _ | _ | e | ----!
+b | o | u | _ | e
+b | o | _ | w | _
+b | o | _ | ƿ | a
+b | oƿ.o | e | _ | e | ----!
+b | o | e | _ | e | ----!
+b | o | _ | ȝ | e
+2 : {'u', 'g', '_'},{'ᵹ', 'u'}
+3 : {'w', 'ᵹ', 'g'}
+	[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'uw', 'ln': 2, 'index': 2}], [{'lit': 'ou', 'ln': 2, 'index': 1}], [{'lit': 'uw', 'ln': 2, 'index': 2}, {'lit': 'ou', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'oƿ', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ow', 'ln': 2, 'index': 1}]]
+	MIN pattern length=4
+	Pattern CVC is invalid
+	Pattern CVV is invalid
+	Pattern CVVCV is invalid
+	Pattern CVVV is invalid
+	Pattern CVCCV is valid
+	Pattern CVCV is valid
+	Pattern CV is invalid
+	Making the selection for pattern: CVCV
+	Selection for pattern: CVCV completed
+	Making a version for pattern: CVCV
+			___CVCV : 0___
+				ANALYSING: boᵹe
+				adding littera based on matching pattern
+				ANALYSING: boge
+				adding littera based on matching pattern
+				ANALYSING: boue
+				adding littera based on matching pattern
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boƿa
+				adding littera based on matching pattern
+				ANALYSING: boƿe
+				adding littera based on matching pattern
+				ANALYSING: bowe
+				adding littera based on matching pattern
+				ANALYSING: boȝe
+				adding littera based on matching pattern
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: b
+					> version: b/ow
+					TRYING: b
+					RESULT:  ['b']
+			___CVCV : 1___
+				ANALYSING: boᵹe
+				adding littera based on matching pattern
+				ANALYSING: boge
+				adding littera based on matching pattern
+				ANALYSING: boue
+				adding littera based on matching pattern
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boƿa
+				adding littera based on matching pattern
+				ANALYSING: boƿe
+				adding littera based on matching pattern
+				ANALYSING: bowe
+				adding littera based on matching pattern
+				ANALYSING: boȝe
+				adding littera based on matching pattern
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: o
+					> version: b/ow
+					TRYING: ow
+					adding blocked set: V = V >> ou, ow, o
+					RESULT:  ['o']
+			___CVCV : 2___
+				ANALYSING: boᵹe
+				adding littera based on matching pattern
+				ANALYSING: boge
+				adding littera based on matching pattern
+				ANALYSING: boue
+				adding littera based on matching pattern
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boƿa
+				adding littera based on matching pattern
+				ANALYSING: boƿe
+				adding littera based on matching pattern
+				ANALYSING: bowe
+				adding littera based on matching pattern
+				ANALYSING: boȝe
+				adding littera based on matching pattern
+				ANALYSING: bow
+					resolving (2)
+					> version: b/o/w
+					TRYING: w
+					adding blocked set: C = C >> ȝ, ᵹ, u, g, w, ƿ
+					> version: b/ow
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', '_', 'w']
+				adding dashed alternative: ['b', 'ow', '_']
+				b/o/w(CVC)
+b/ow(CV)
+b/o/_/w(CVAC)
+b/ow/_(CVA)
+			___CVCV : 3___
+				ANALYSING: boᵹe
+				adding littera based on matching pattern
+				ANALYSING: boge
+				adding littera based on matching pattern
+				ANALYSING: boue
+				adding littera based on matching pattern
+				ANALYSING: bouwe
+				adding littera based on matching pattern
+				ANALYSING: boƿa
+				adding littera based on matching pattern
+				ANALYSING: boƿe
+				adding littera based on matching pattern
+				ANALYSING: bowe
+				adding littera based on matching pattern
+				ANALYSING: boȝe
+				adding littera based on matching pattern
+				ANALYSING: bow
+					resolving (4)
+					> version: b/o/w
+					> version: b/ow
+					> version: b/o/_/w
+					TRYING: w
+					> version: b/ow/_
+					RESULT:  ['_']
+				adding dashed alternative: ['b', 'o', 'w', '_']
+				adding dashed alternative: ['b', 'ow', '_']
+				adding dashed alternative: ['b', 'o', '_', '_', 'w']
+				adding dashed alternative: ['b', 'ow', '_', '_']
+				b/o/w(CVC)
+b/ow(CV)
+b/o/_/w(CVAC)
+b/ow/_(CVA)
+b/o/w/_(CVCA)
+b/ow/_(CVA)
+b/o/_/_/w(CVAAC)
+b/ow/_/_(CVAA)
+				version split: ['b', 'o', 'w']
+				{'string': 'b/o/w', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'o', 'w']
+				version split: ['b', 'ow']
+				{'string': 'b/ow', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'ow']
+				version split: ['b', 'o', '_', 'w']
+				{'string': 'b/o/_/w', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'o', '_', 'w']
+				version split: ['b', 'ow', '_']
+				{'string': 'b/ow/_', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'ow', '_']
+				version split: ['b', 'o', 'w', '_']
+				{'string': 'b/o/w/_', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'o', 'w', '_']
+				version split: ['b', 'ow', '_']
+				{'string': 'b/ow/_', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'ow', '_']
+				version split: ['b', 'o', '_', '_', 'w']
+				{'string': 'b/o/_/_/w', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'o', '_', '_', 'w']
+				version split: ['b', 'ow', '_', '_']
+				{'string': 'b/ow/_/_', 'rgx': '((b))/((o))/((_))/((_))$'}
+				_____REMOVING________['b', 'ow', '_', '_']
+		FAIL: 
+		SPLIT: ['b', 'o', 'ᵹ', 'e']
+		SPLIT: ['b', 'o', 'g', 'e']
+		SPLIT: ['b', 'o', 'u', 'e']
+		SPLIT: ['b', 'ou', 'w', 'e']
+		SPLIT: ['b', 'o', 'ƿ', 'a']
+		SPLIT: ['b', 'o', 'ƿ', 'e']
+		SPLIT: ['b', 'o', 'w', 'e']
+		SPLIT: ['b', 'o', 'ȝ', 'e']
+		SPLIT: ['b', 'o', '_', '_', '----!']
+		version for pattern CVCV is INVALID
+		[{'ȝ', 'ᵹ', 'u', 'g', 'w', '_', 'ƿ'}]
+		1
+		OVERVIEW: version for pattern CVCV
+{'ȝ', 'ᵹ', 'u', 'g', 'w', '_', 'ƿ'}
+faulty splits: 1
+bo----! <-! bow
+b | o | ᵹ | e
+b | o | g | e
+b | o | u | e
+b | ou | w | e
+b | o | ƿ | a
+b | o | ƿ | e
+b | o | w | e
+b | o | ȝ | e
+b | o | _ | _ | ----!
+2 : {'ȝ', 'ᵹ', 'u', 'g', 'w', 'ƿ'}
+	FOUND __ 0 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CVCV
+{'ȝ', 'ᵹ', 'u', 'g', 'w', '_', 'ƿ'}
+faulty splits: 1
+bo----! <-! bow
+b | o | ᵹ | e
+b | o | g | e
+b | o | u | e
+b | ou | w | e
+b | o | ƿ | a
+b | o | ƿ | e
+b | o | w | e
+b | o | ȝ | e
+b | o | _ | _ | ----!
+2 : {'ȝ', 'ᵹ', 'u', 'g', 'w', 'ƿ'}
+	{'CVCCCV'}

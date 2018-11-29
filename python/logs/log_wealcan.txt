@@ -1,0 +1,3 @@
+Analysis object initialized
+{}
+Lexel initialized

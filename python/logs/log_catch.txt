@@ -1,0 +1,1202 @@
+Analysis object initialized
+{'cacch': 2, 'cah': 8, 'cach': 1, 'cais': 1, 'cauh': 1, 'kag': 1, 'kah': 1, 'kach': 1, 'kau': 2, 'kecch': 6, 'kech': 2, 'keih': 1}
+Lexel initialized
+[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+[[{'lit': 'ai', 'ln': 2, 'index': 1}]]
+[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+[[{'lit': 'ei', 'ln': 2, 'index': 1}]]
+MIN pattern length=3
+Pattern CVV is invalid
+Pattern CVCCC is valid
+Pattern CVC is valid
+Pattern CVVC is invalid
+Pattern CV is invalid
+Pattern CVCC is valid
+{'value': 12, 'patterns': ['CVC']}
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ai', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ei', 'ln': 2, 'index': 1}]]
+	MIN pattern length=3
+	Pattern CVV is invalid
+	Pattern CVCCC is valid
+	Pattern CVC is valid
+	Pattern CVVC is invalid
+	Pattern CV is invalid
+	Pattern CVCC is valid
+	Making the selection for pattern: CVCCC
+	Selection for pattern: CVCCC completed
+	Making a version for pattern: CVCCC
+			___CVCCC : 0___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: c
+					RESULT:  ['c']
+				ANALYSING: cach
+					resolving (2)
+					> version: c/a/c/h
+					TRYING: c
+					> version: c/a/ch
+					TRYING: c
+					RESULT:  ['c']
+				ANALYSING: cais
+					resolving (3)
+					> version: c/a/i/s
+					TRYING: c
+					> version: c/a/i/s
+					TRYING: c
+					> version: c/ai/s
+					TRYING: c
+					RESULT:  ['c']
+				ANALYSING: cauh
+					resolving (3)
+					> version: c/a/u/h
+					TRYING: c
+					> version: c/a/u/h
+					TRYING: c
+					> version: c/au/h
+					TRYING: c
+					RESULT:  ['c']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kach
+					resolving (2)
+					> version: k/a/c/h
+					TRYING: k
+					> version: k/a/ch
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: k
+					> version: k/a/u
+					TRYING: k
+					> version: k/au
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kech
+					resolving (2)
+					> version: k/e/c/h
+					TRYING: k
+					> version: k/e/ch
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: keih
+					resolving (3)
+					> version: k/e/i/h
+					TRYING: k
+					> version: k/e/i/h
+					TRYING: k
+					> version: k/ei/h
+					TRYING: k
+					RESULT:  ['k']
+			___CVCCC : 1___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: cach
+					resolving (2)
+					> version: c/a/c/h
+					TRYING: a
+					> version: c/a/ch
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: cais
+					resolving (3)
+					> version: c/a/i/s
+					TRYING: a
+					> version: c/a/i/s
+					TRYING: a
+					> version: c/ai/s
+					TRYING: ai
+					>>> MULTIPLE RESOLVE OPTIONS: {'ai', 'a'}
+					RESULT:  ['ai', 'a']
+				ANALYSING: cauh
+					resolving (3)
+					> version: c/a/u/h
+					TRYING: a
+					> version: c/a/u/h
+					TRYING: a
+					> version: c/au/h
+					TRYING: au
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'au'}
+					RESULT:  ['a', 'au']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kach
+					resolving (2)
+					> version: k/a/c/h
+					TRYING: a
+					> version: k/a/ch
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: a
+					> version: k/a/u
+					TRYING: a
+					> version: k/au
+					TRYING: au
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'au'}
+					RESULT:  ['a', 'au']
+				ANALYSING: kech
+					resolving (2)
+					> version: k/e/c/h
+					TRYING: e
+					> version: k/e/ch
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: keih
+					resolving (3)
+					> version: k/e/i/h
+					TRYING: e
+					> version: k/e/i/h
+					TRYING: e
+					> version: k/ei/h
+					TRYING: ei
+					adding blocked set: V = V >> ai, a, au, e, ei
+					RESULT:  ['e']
+			___CVCCC : 2___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: h
+					RESULT:  ['h']
+				ANALYSING: cach
+					resolving (2)
+					> version: c/a/c/h
+					TRYING: c
+					> version: c/a/ch
+					TRYING: ch
+					>>> MULTIPLE RESOLVE OPTIONS: {'ch', 'c'}
+					RESULT:  ['ch', 'c']
+				ANALYSING: cais
+					resolving (3)
+					> version: c/a/i/s
+					TRYING: i
+					adding blocked set: C = C >> ch, c, i, h
+					> version: c/a/i/s
+					TRYING: i
+					adding blocked set: C = C >> ch, c, i, h
+					> version: c/ai/s
+					TRYING: s
+					RESULT:  ['s']
+				ANALYSING: cauh
+					resolving (3)
+					> version: c/a/u/h
+					TRYING: u
+					adding blocked set: C = C >> s, u, h, ch, c
+					> version: c/a/u/h
+					TRYING: u
+					adding blocked set: C = C >> s, u, h, ch, c
+					> version: c/au/h
+					TRYING: h
+					RESULT:  ['h']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: g
+					RESULT:  ['g']
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: h
+					RESULT:  ['h']
+				ANALYSING: kach
+					resolving (2)
+					> version: k/a/c/h
+					TRYING: c
+					> version: k/a/ch
+					TRYING: ch
+					>>> MULTIPLE RESOLVE OPTIONS: {'ch', 'c'}
+					RESULT:  ['ch', 'c']
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: u
+					adding blocked set: C = C >> s, u, g, h, ch, c
+					> version: k/a/u
+					TRYING: u
+					adding blocked set: C = C >> s, u, g, h, ch, c
+					> version: k/au
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', '_', 'u']
+				adding dashed alternative: ['k', 'a', '_', 'u']
+				adding dashed alternative: ['k', 'au', '_']
+				k/a/u(CVC)
+k/a/u(CVV)
+k/au(CV)
+k/a/_/u(CVAA)
+k/a/_/u(CVAA)
+k/au/_(CVA)
+				ANALYSING: kech
+					resolving (2)
+					> version: k/e/c/h
+					TRYING: c
+					> version: k/e/ch
+					TRYING: ch
+					>>> MULTIPLE RESOLVE OPTIONS: {'ch', 'c'}
+					RESULT:  ['ch', 'c']
+				ANALYSING: keih
+					resolving (3)
+					> version: k/e/i/h
+					TRYING: i
+					adding blocked set: C = C >> _, s, i, g, h, ch, c
+					> version: k/e/i/h
+					TRYING: i
+					adding blocked set: C = C >> _, s, i, g, h, ch, c
+					> version: k/ei/h
+					TRYING: h
+					RESULT:  ['h']
+			___CVCCC : 3___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', 'h', '_']
+				c/a/h(CVC)
+c/a/h/_(CVCA)
+				ANALYSING: cach
+					resolving (2)
+					> version: c/a/c/h
+					TRYING: h
+					> version: c/a/ch
+					RESULT:  ['h']
+				ANALYSING: cais
+					resolving (3)
+					> version: c/a/i/s
+					TRYING: s
+					> version: c/a/i/s
+					TRYING: s
+					> version: c/ai/s
+					RESULT:  ['s']
+				ANALYSING: cauh
+					resolving (3)
+					> version: c/a/u/h
+					TRYING: h
+					> version: c/a/u/h
+					TRYING: h
+					> version: c/au/h
+					RESULT:  ['h']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'g', '_']
+				k/a/g(CVC)
+k/a/g/_(CVCA)
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'h', '_']
+				k/a/h(CVC)
+k/a/h/_(CVCA)
+				ANALYSING: kach
+					resolving (2)
+					> version: k/a/c/h
+					TRYING: h
+					> version: k/a/ch
+					RESULT:  ['h']
+				ANALYSING: kau
+					resolving (6)
+					> version: k/a/u
+					> version: k/a/u
+					> version: k/au
+					> version: k/a/_/u
+					TRYING: u
+					adding blocked set: C = C >> _, s, u, h, c
+					> version: k/a/_/u
+					TRYING: u
+					adding blocked set: C = C >> _, s, u, h, c
+					> version: k/au/_
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'u', '_']
+				adding dashed alternative: ['k', 'a', 'u', '_']
+				adding dashed alternative: ['k', 'au', '_']
+				adding dashed alternative: ['k', 'a', '_', '_', 'u']
+				adding dashed alternative: ['k', 'a', '_', '_', 'u']
+				adding dashed alternative: ['k', 'au', '_', '_']
+				k/a/u(CVC)
+k/a/u(CVV)
+k/au(CV)
+k/a/_/u(CVAA)
+k/a/_/u(CVAA)
+k/au/_(CVA)
+k/a/u/_(CVAA)
+k/a/u/_(CVAA)
+k/au/_(CVA)
+k/a/_/_/u(CVAAA)
+k/a/_/_/u(CVAAA)
+k/au/_/_(CVAA)
+				ANALYSING: kech
+					resolving (2)
+					> version: k/e/c/h
+					TRYING: h
+					> version: k/e/ch
+					RESULT:  ['h']
+				ANALYSING: keih
+					resolving (3)
+					> version: k/e/i/h
+					TRYING: h
+					> version: k/e/i/h
+					TRYING: h
+					> version: k/ei/h
+					RESULT:  ['h']
+			___CVCCC : 4___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (2)
+					> version: c/a/h
+					> version: c/a/h/_
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', 'h', '_']
+				adding dashed alternative: ['c', 'a', 'h', '_', '_']
+				c/a/h(CVC)
+c/a/h/_(CVCA)
+c/a/h/_(CVCA)
+c/a/h/_/_(CVCAA)
+				version split: ['c', 'a', 'h']
+				{'string': 'c/a/h', 'rgx': '((c))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['c', 'a', 'h']
+				version split: ['c', 'a', 'h', '_']
+				{'string': 'c/a/h/_', 'rgx': '((c))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['c', 'a', 'h', '_']
+				version split: ['c', 'a', 'h', '_']
+				{'string': 'c/a/h/_', 'rgx': '((c))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['c', 'a', 'h', '_']
+				version split: ['c', 'a', 'h', '_', '_']
+				{'string': 'c/a/h/_/_', 'rgx': '((c))/((a))/((h))/((_))/((_))$'}
+				ANALYSING: cach
+					resolving (2)
+					> version: c/a/c/h
+					> version: c/a/ch
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', 'c', 'h', '_']
+				adding dashed alternative: ['c', 'a', 'ch', '_']
+				c/a/c/h(CVCC)
+c/a/ch(CVC)
+c/a/c/h/_(CVCCA)
+c/a/ch/_(CVCA)
+				version split: ['c', 'a', 'c', 'h']
+				{'string': 'c/a/c/h', 'rgx': '((c))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'c', 'h']
+				version split: ['c', 'a', 'ch']
+				{'string': 'c/a/ch', 'rgx': '((c))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'ch']
+				version split: ['c', 'a', 'c', 'h', '_']
+				{'string': 'c/a/c/h/_', 'rgx': '((c))/((a))/((ch)|(c))/((h))/((_))$'}
+				version split: ['c', 'a', 'ch', '_']
+				{'string': 'c/a/ch/_', 'rgx': '((c))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'ch', '_']
+				ANALYSING: cais
+					resolving (3)
+					> version: c/a/i/s
+					> version: c/a/i/s
+					> version: c/ai/s
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', 'i', 's', '_']
+				adding dashed alternative: ['c', 'a', 'i', 's', '_']
+				adding dashed alternative: ['c', 'ai', 's', '_']
+				c/a/i/s(CVCC)
+c/a/i/s(CVVC)
+c/ai/s(CVC)
+c/a/i/s/_(CVACA)
+c/a/i/s/_(CVACA)
+c/ai/s/_(CVCA)
+				version split: ['c', 'a', 'i', 's']
+				{'string': 'c/a/i/s', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'a', 'i', 's']
+				version split: ['c', 'a', 'i', 's']
+				{'string': 'c/a/i/s', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'a', 'i', 's']
+				version split: ['c', 'ai', 's']
+				{'string': 'c/ai/s', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'ai', 's']
+				version split: ['c', 'a', 'i', 's', '_']
+				{'string': 'c/a/i/s/_', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'a', 'i', 's', '_']
+				version split: ['c', 'a', 'i', 's', '_']
+				{'string': 'c/a/i/s/_', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'a', 'i', 's', '_']
+				version split: ['c', 'ai', 's', '_']
+				{'string': 'c/ai/s/_', 'rgx': '((c))/((ai)|(a))/((s))/((s))/((_))$'}
+				_____REMOVING________['c', 'ai', 's', '_']
+				ANALYSING: cauh
+					resolving (3)
+					> version: c/a/u/h
+					> version: c/a/u/h
+					> version: c/au/h
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', 'u', 'h', '_']
+				adding dashed alternative: ['c', 'a', 'u', 'h', '_']
+				adding dashed alternative: ['c', 'au', 'h', '_']
+				c/a/u/h(CVCC)
+c/a/u/h(CVVC)
+c/au/h(CVC)
+c/a/u/h/_(CVACA)
+c/a/u/h/_(CVACA)
+c/au/h/_(CVCA)
+				version split: ['c', 'a', 'u', 'h']
+				{'string': 'c/a/u/h', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'u', 'h']
+				version split: ['c', 'a', 'u', 'h']
+				{'string': 'c/a/u/h', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'u', 'h']
+				version split: ['c', 'au', 'h']
+				{'string': 'c/au/h', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'au', 'h']
+				version split: ['c', 'a', 'u', 'h', '_']
+				{'string': 'c/a/u/h/_', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'u', 'h', '_']
+				version split: ['c', 'a', 'u', 'h', '_']
+				{'string': 'c/a/u/h/_', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'a', 'u', 'h', '_']
+				version split: ['c', 'au', 'h', '_']
+				{'string': 'c/au/h/_', 'rgx': '((c))/((a)|(au))/((h))/((h))/((_))$'}
+				_____REMOVING________['c', 'au', 'h', '_']
+				ANALYSING: kag
+					resolving (2)
+					> version: k/a/g
+					> version: k/a/g/_
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'g', '_']
+				adding dashed alternative: ['k', 'a', 'g', '_', '_']
+				k/a/g(CVC)
+k/a/g/_(CVCA)
+k/a/g/_(CVCA)
+k/a/g/_/_(CVCAA)
+				version split: ['k', 'a', 'g']
+				{'string': 'k/a/g', 'rgx': '((k))/((a))/((g))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'g']
+				version split: ['k', 'a', 'g', '_']
+				{'string': 'k/a/g/_', 'rgx': '((k))/((a))/((g))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'g', '_']
+				version split: ['k', 'a', 'g', '_']
+				{'string': 'k/a/g/_', 'rgx': '((k))/((a))/((g))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'g', '_']
+				version split: ['k', 'a', 'g', '_', '_']
+				{'string': 'k/a/g/_/_', 'rgx': '((k))/((a))/((g))/((_))/((_))$'}
+				ANALYSING: kah
+					resolving (2)
+					> version: k/a/h
+					> version: k/a/h/_
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'h', '_']
+				adding dashed alternative: ['k', 'a', 'h', '_', '_']
+				k/a/h(CVC)
+k/a/h/_(CVCA)
+k/a/h/_(CVCA)
+k/a/h/_/_(CVCAA)
+				version split: ['k', 'a', 'h']
+				{'string': 'k/a/h', 'rgx': '((k))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'h']
+				version split: ['k', 'a', 'h', '_']
+				{'string': 'k/a/h/_', 'rgx': '((k))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'h', '_']
+				version split: ['k', 'a', 'h', '_']
+				{'string': 'k/a/h/_', 'rgx': '((k))/((a))/((h))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'h', '_']
+				version split: ['k', 'a', 'h', '_', '_']
+				{'string': 'k/a/h/_/_', 'rgx': '((k))/((a))/((h))/((_))/((_))$'}
+				ANALYSING: kach
+					resolving (2)
+					> version: k/a/c/h
+					> version: k/a/ch
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'c', 'h', '_']
+				adding dashed alternative: ['k', 'a', 'ch', '_']
+				k/a/c/h(CVCC)
+k/a/ch(CVC)
+k/a/c/h/_(CVCCA)
+k/a/ch/_(CVCA)
+				version split: ['k', 'a', 'c', 'h']
+				{'string': 'k/a/c/h', 'rgx': '((k))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'a', 'c', 'h']
+				version split: ['k', 'a', 'ch']
+				{'string': 'k/a/ch', 'rgx': '((k))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'a', 'ch']
+				version split: ['k', 'a', 'c', 'h', '_']
+				{'string': 'k/a/c/h/_', 'rgx': '((k))/((a))/((ch)|(c))/((h))/((_))$'}
+				version split: ['k', 'a', 'ch', '_']
+				{'string': 'k/a/ch/_', 'rgx': '((k))/((a))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'a', 'ch', '_']
+				ANALYSING: kau
+					resolving (12)
+					> version: k/a/u
+					> version: k/a/u
+					> version: k/au
+					> version: k/a/_/u
+					> version: k/a/_/u
+					> version: k/au/_
+					> version: k/a/u/_
+					> version: k/a/u/_
+					> version: k/au/_
+					> version: k/a/_/_/u
+					TRYING: u
+					> version: k/a/_/_/u
+					TRYING: u
+					> version: k/au/_/_
+					RESULT:  ['u']
+				version split: ['k', 'a', 'u']
+				{'string': 'k/a/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', 'u']
+				version split: ['k', 'a', 'u']
+				{'string': 'k/a/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', 'u']
+				version split: ['k', 'au']
+				{'string': 'k/au', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'au']
+				version split: ['k', 'a', '_', 'u']
+				{'string': 'k/a/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', '_', 'u']
+				version split: ['k', 'a', '_', 'u']
+				{'string': 'k/a/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', '_', 'u']
+				version split: ['k', 'au', '_']
+				{'string': 'k/au/_', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'au', '_']
+				version split: ['k', 'a', 'u', '_']
+				{'string': 'k/a/u/_', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', 'u', '_']
+				version split: ['k', 'a', 'u', '_']
+				{'string': 'k/a/u/_', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'a', 'u', '_']
+				version split: ['k', 'au', '_']
+				{'string': 'k/au/_', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'au', '_']
+				version split: ['k', 'a', '_', '_', 'u']
+				{'string': 'k/a/_/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				version split: ['k', 'a', '_', '_', 'u']
+				{'string': 'k/a/_/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				version split: ['k', 'au', '_', '_']
+				{'string': 'k/au/_/_', 'rgx': '((k))/((a)|(au))/((_))/((_))/((u))$'}
+				_____REMOVING________['k', 'au', '_', '_']
+				ANALYSING: kech
+					resolving (2)
+					> version: k/e/c/h
+					> version: k/e/ch
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'e', 'c', 'h', '_']
+				adding dashed alternative: ['k', 'e', 'ch', '_']
+				k/e/c/h(CVCC)
+k/e/ch(CVC)
+k/e/c/h/_(CVCCA)
+k/e/ch/_(CVCA)
+				version split: ['k', 'e', 'c', 'h']
+				{'string': 'k/e/c/h', 'rgx': '((k))/((e))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'c', 'h']
+				version split: ['k', 'e', 'ch']
+				{'string': 'k/e/ch', 'rgx': '((k))/((e))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'ch']
+				version split: ['k', 'e', 'c', 'h', '_']
+				{'string': 'k/e/c/h/_', 'rgx': '((k))/((e))/((ch)|(c))/((h))/((_))$'}
+				version split: ['k', 'e', 'ch', '_']
+				{'string': 'k/e/ch/_', 'rgx': '((k))/((e))/((ch)|(c))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'ch', '_']
+				ANALYSING: keih
+					resolving (3)
+					> version: k/e/i/h
+					> version: k/e/i/h
+					> version: k/ei/h
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'e', 'i', 'h', '_']
+				adding dashed alternative: ['k', 'e', 'i', 'h', '_']
+				adding dashed alternative: ['k', 'ei', 'h', '_']
+				k/e/i/h(CVCC)
+k/e/i/h(CVVC)
+k/ei/h(CVC)
+k/e/i/h/_(CVACA)
+k/e/i/h/_(CVACA)
+k/ei/h/_(CVCA)
+				version split: ['k', 'e', 'i', 'h']
+				{'string': 'k/e/i/h', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'i', 'h']
+				version split: ['k', 'e', 'i', 'h']
+				{'string': 'k/e/i/h', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'i', 'h']
+				version split: ['k', 'ei', 'h']
+				{'string': 'k/ei/h', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'ei', 'h']
+				version split: ['k', 'e', 'i', 'h', '_']
+				{'string': 'k/e/i/h/_', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'i', 'h', '_']
+				version split: ['k', 'e', 'i', 'h', '_']
+				{'string': 'k/e/i/h/_', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'e', 'i', 'h', '_']
+				version split: ['k', 'ei', 'h', '_']
+				{'string': 'k/ei/h/_', 'rgx': '((k))/((e))/((h))/((h))/((_))$'}
+				_____REMOVING________['k', 'ei', 'h', '_']
+		only one version left: ['c', 'a', 'h', '_', '_']
+		only one version left: ['c', 'a', 'c', 'h', '_']
+		FAIL: 
+		FAIL: 
+		only one version left: ['k', 'a', 'g', '_', '_']
+		only one version left: ['k', 'a', 'h', '_', '_']
+		only one version left: ['k', 'a', 'c', 'h', '_']
+		only one version left: ['k', 'a', '_', '_', 'u']
+		only one version left: ['k', 'e', 'c', 'h', '_']
+		FAIL: 
+		SPLIT: ['c', 'a', 'c', 'c', 'h']
+		SPLIT: ['k', 'e', 'c', 'c', 'h']
+		SPLIT: ['c', 'a', 'h', '_', '_']
+		['c', 'a', 'h', '_', '_']
+		SPLIT: ['c', 'a', 'c', 'h', '_']
+		['c', 'a', 'c', 'h', '_']
+		SPLIT: ['c', 'ai.a', 's', 's', '_', '----!']
+		SPLIT: ['c', 'a.au', 'h', 'h', '_', '----!']
+		SPLIT: ['k', 'a', 'g', '_', '_']
+		['k', 'a', 'g', '_', '_']
+		SPLIT: ['k', 'a', 'h', '_', '_']
+		['k', 'a', 'h', '_', '_']
+		SPLIT: ['k', 'a', 'c', 'h', '_']
+		['k', 'a', 'c', 'h', '_']
+		SPLIT: ['k', 'a', '_', '_', 'u']
+		['k', 'a', '_', '_', 'u']
+		['k', 'a', '_', '_', 'u']
+		SPLIT: ['k', 'e', 'c', 'h', '_']
+		['k', 'e', 'c', 'h', '_']
+		SPLIT: ['k', 'e', 'h', 'h', '_', '----!']
+		version for pattern CVCCC is INVALID
+		[]
+		3
+		OVERVIEW: version for pattern CVCCC
+
+faulty splits: 3
+cai.ass----! <-! cais
+ca.auhh----! <-! cauh
+kehh----! <-! keih
+c | a | c | c | h
+k | e | c | c | h
+c | a | h | _ | _
+c | a | c | h | _
+c | ai.a | s | s | _ | ----!
+c | a.au | h | h | _ | ----!
+k | a | g | _ | _
+k | a | h | _ | _
+k | a | c | h | _
+k | a | _ | _ | u
+k | e | c | h | _
+k | e | h | h | _ | ----!
+2 : {'s', 'u', 'g', 'h', 'ch', 'c'}
+3 : {'_', 's', 'u', 'h', 'c'}
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ai', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ei', 'ln': 2, 'index': 1}]]
+	MIN pattern length=3
+	Pattern CVV is invalid
+	Pattern CVCCC is valid
+	Pattern CVC is valid
+	Pattern CVVC is invalid
+	Pattern CV is invalid
+	Pattern CVCC is valid
+	Making the selection for pattern: CVC
+	Selection for pattern: CVC completed
+	Making a version for pattern: CVC
+			___CVC : 0___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cah
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kag
+				adding littera based on matching pattern
+				ANALYSING: kah
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kau
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+			___CVC : 1___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cah
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kag
+				adding littera based on matching pattern
+				ANALYSING: kah
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kau
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+			___CVC : 2___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cah
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kag
+				adding littera based on matching pattern
+				ANALYSING: kah
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kau
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+		SPLIT: ['c', 'a', 'cch']
+		SPLIT: ['c', 'a', 'h']
+		SPLIT: ['c', 'a', 'ch']
+		SPLIT: ['c', 'ai', 's']
+		SPLIT: ['c', 'au', 'h']
+		SPLIT: ['k', 'a', 'g']
+		SPLIT: ['k', 'a', 'h']
+		SPLIT: ['k', 'a', 'ch']
+		SPLIT: ['k', 'a', 'u']
+		SPLIT: ['k', 'e', 'cch']
+		SPLIT: ['k', 'e', 'ch']
+		SPLIT: ['k', 'ei', 'h']
+		version for pattern CVC is INVALID
+		[{'ai', 'a', 'au', 'e', 'ei'}, {'s', 'u', 'cch', 'g', 'h', 'ch'}]
+		0
+		OVERVIEW: version for pattern CVC
+{'ai', 'a', 'au', 'e', 'ei'}, {'s', 'u', 'cch', 'g', 'h', 'ch'}
+faulty splits: 0
+c | a | cch
+c | a | h
+c | a | ch
+c | ai | s
+c | au | h
+k | a | g
+k | a | h
+k | a | ch
+k | a | u
+k | e | cch
+k | e | ch
+k | ei | h
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ai', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'cch', 'ln': 3, 'index': 2}], [{'lit': 'ch', 'ln': 2, 'index': 3}], [{'lit': 'cch', 'ln': 3, 'index': 2}, {'lit': 'ch', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ch', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ei', 'ln': 2, 'index': 1}]]
+	MIN pattern length=3
+	Pattern CVV is invalid
+	Pattern CVCCC is valid
+	Pattern CVC is valid
+	Pattern CVVC is invalid
+	Pattern CV is invalid
+	Pattern CVCC is valid
+	Making the selection for pattern: CVCC
+	Selection for pattern: CVCC completed
+	Making a version for pattern: CVCC
+			___CVCC : 0___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: c
+					RESULT:  ['c']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: k
+					RESULT:  ['k']
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: k
+					> version: k/a/u
+					TRYING: k
+					> version: k/au
+					TRYING: k
+					RESULT:  ['k']
+			___CVCC : 1___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: a
+					> version: k/a/u
+					TRYING: a
+					> version: k/au
+					TRYING: au
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'au'}
+					RESULT:  ['a', 'au']
+			___CVCC : 2___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (1)
+					> version: c/a/h
+					TRYING: h
+					adding blocked set: C = C >> c, i, u, h
+					RESULT:  ['_']
+				adding dashed alternative: ['c', 'a', '_', 'h']
+				c/a/h(CVC)
+c/a/_/h(CVAC)
+				ANALYSING: kag
+					resolving (1)
+					> version: k/a/g
+					TRYING: g
+					adding blocked set: C = C >> _, i, u, g, c
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', '_', 'g']
+				k/a/g(CVC)
+k/a/_/g(CVAC)
+				ANALYSING: kah
+					resolving (1)
+					> version: k/a/h
+					TRYING: h
+					adding blocked set: C = C >> _, i, u, h, c
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', '_', 'h']
+				k/a/h(CVC)
+k/a/_/h(CVAC)
+				ANALYSING: kau
+					resolving (3)
+					> version: k/a/u
+					TRYING: u
+					adding blocked set: C = C >> _, c, i, u
+					> version: k/a/u
+					TRYING: u
+					adding blocked set: C = C >> _, c, i, u
+					> version: k/au
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', '_', 'u']
+				adding dashed alternative: ['k', 'a', '_', 'u']
+				adding dashed alternative: ['k', 'au', '_']
+				k/a/u(CVC)
+k/a/u(CVV)
+k/au(CV)
+k/a/_/u(CVAA)
+k/a/_/u(CVAA)
+k/au/_(CVA)
+			___CVCC : 3___
+				ANALYSING: cacch
+				adding littera based on matching pattern
+				ANALYSING: cach
+				adding littera based on matching pattern
+				ANALYSING: cais
+				adding littera based on matching pattern
+				ANALYSING: cauh
+				adding littera based on matching pattern
+				ANALYSING: kach
+				adding littera based on matching pattern
+				ANALYSING: kecch
+				adding littera based on matching pattern
+				ANALYSING: kech
+				adding littera based on matching pattern
+				ANALYSING: keih
+				adding littera based on matching pattern
+				ANALYSING: cah
+					resolving (2)
+					> version: c/a/h
+					> version: c/a/_/h
+					TRYING: h
+					RESULT:  ['h']
+				version split: ['c', 'a', 'h']
+				{'string': 'c/a/h', 'rgx': '((c))/((a))/((_))/((h))$'}
+				_____REMOVING________['c', 'a', 'h']
+				version split: ['c', 'a', '_', 'h']
+				{'string': 'c/a/_/h', 'rgx': '((c))/((a))/((_))/((h))$'}
+				ANALYSING: kag
+					resolving (2)
+					> version: k/a/g
+					> version: k/a/_/g
+					TRYING: g
+					RESULT:  ['g']
+				version split: ['k', 'a', 'g']
+				{'string': 'k/a/g', 'rgx': '((k))/((a))/((_))/((g))$'}
+				_____REMOVING________['k', 'a', 'g']
+				version split: ['k', 'a', '_', 'g']
+				{'string': 'k/a/_/g', 'rgx': '((k))/((a))/((_))/((g))$'}
+				ANALYSING: kah
+					resolving (2)
+					> version: k/a/h
+					> version: k/a/_/h
+					TRYING: h
+					RESULT:  ['h']
+				version split: ['k', 'a', 'h']
+				{'string': 'k/a/h', 'rgx': '((k))/((a))/((_))/((h))$'}
+				_____REMOVING________['k', 'a', 'h']
+				version split: ['k', 'a', '_', 'h']
+				{'string': 'k/a/_/h', 'rgx': '((k))/((a))/((_))/((h))$'}
+				ANALYSING: kau
+					resolving (6)
+					> version: k/a/u
+					> version: k/a/u
+					> version: k/au
+					> version: k/a/_/u
+					TRYING: u
+					adding blocked set: C = C >> s, u, g, h, ch
+					> version: k/a/_/u
+					TRYING: u
+					adding blocked set: C = C >> s, u, g, h, ch
+					> version: k/au/_
+					RESULT:  ['_']
+				adding dashed alternative: ['k', 'a', 'u', '_']
+				adding dashed alternative: ['k', 'a', 'u', '_']
+				adding dashed alternative: ['k', 'au', '_']
+				adding dashed alternative: ['k', 'a', '_', '_', 'u']
+				adding dashed alternative: ['k', 'a', '_', '_', 'u']
+				adding dashed alternative: ['k', 'au', '_', '_']
+				k/a/u(CVC)
+k/a/u(CVV)
+k/au(CV)
+k/a/_/u(CVAA)
+k/a/_/u(CVAA)
+k/au/_(CVA)
+k/a/u/_(CVAA)
+k/a/u/_(CVAA)
+k/au/_(CVA)
+k/a/_/_/u(CVAAA)
+k/a/_/_/u(CVAAA)
+k/au/_/_(CVAA)
+				version split: ['k', 'a', 'u']
+				{'string': 'k/a/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'u']
+				version split: ['k', 'a', 'u']
+				{'string': 'k/a/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'u']
+				version split: ['k', 'au']
+				{'string': 'k/au', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'au']
+				version split: ['k', 'a', '_', 'u']
+				{'string': 'k/a/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', '_', 'u']
+				version split: ['k', 'a', '_', 'u']
+				{'string': 'k/a/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', '_', 'u']
+				version split: ['k', 'au', '_']
+				{'string': 'k/au/_', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'au', '_']
+				version split: ['k', 'a', 'u', '_']
+				{'string': 'k/a/u/_', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'u', '_']
+				version split: ['k', 'a', 'u', '_']
+				{'string': 'k/a/u/_', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', 'u', '_']
+				version split: ['k', 'au', '_']
+				{'string': 'k/au/_', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'au', '_']
+				version split: ['k', 'a', '_', '_', 'u']
+				{'string': 'k/a/_/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', '_', '_', 'u']
+				version split: ['k', 'a', '_', '_', 'u']
+				{'string': 'k/a/_/_/u', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+				_____REMOVING________['k', 'a', '_', '_', 'u']
+				version split: ['k', 'au', '_', '_']
+				{'string': 'k/au/_/_', 'rgx': '((k))/((a)|(au))/((_))/((_))$'}
+		only one version left: ['c', 'a', '_', 'h']
+		only one version left: ['k', 'a', '_', 'g']
+		only one version left: ['k', 'a', '_', 'h']
+		only one version left: ['k', 'au', '_', '_']
+		SPLIT: ['c', 'a', 'c', 'ch']
+		SPLIT: ['c', 'a', 'c', 'h']
+		SPLIT: ['c', 'a', 'i', 's']
+		SPLIT: ['c', 'a', 'u', 'h']
+		SPLIT: ['k', 'a', 'c', 'h']
+		SPLIT: ['k', 'e', 'c', 'ch']
+		SPLIT: ['k', 'e', 'c', 'h']
+		SPLIT: ['k', 'e', 'i', 'h']
+		SPLIT: ['c', 'a', '_', 'h']
+		['c', 'a', '_', 'h']
+		SPLIT: ['k', 'a', '_', 'g']
+		['k', 'a', '_', 'g']
+		SPLIT: ['k', 'a', '_', 'h']
+		['k', 'a', '_', 'h']
+		SPLIT: ['k', 'au', '_', '_']
+		['k', 'au', '_', '_']
+		version for pattern CVCC is INVALID
+		[{'_', 'c', 'i', 'u'}]
+		0
+		OVERVIEW: version for pattern CVCC
+{'_', 'c', 'i', 'u'}
+faulty splits: 0
+c | a | c | ch
+c | a | c | h
+c | a | i | s
+c | a | u | h
+k | a | c | h
+k | e | c | ch
+k | e | c | h
+k | e | i | h
+c | a | _ | h
+k | a | _ | g
+k | a | _ | h
+k | au | _ | _
+2 : {'_', 'i', 'u', 'g', 'c'},{'c', 'i', 'u', 'h'},{'_', 'i', 'u', 'h', 'c'},{'_', 'c', 'i', 'u'}
+3 : {'s', 'u', 'g', 'h', 'ch'}
+	FOUND __ 0 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CVC
+{'ai', 'a', 'au', 'e', 'ei'}, {'s', 'u', 'cch', 'g', 'h', 'ch'}
+faulty splits: 0
+c | a | cch
+c | a | h
+c | a | ch
+c | ai | s
+c | au | h
+k | a | g
+k | a | h
+k | a | ch
+k | a | u
+k | e | cch
+k | e | ch
+k | ei | h
+	set()

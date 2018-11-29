@@ -1,0 +1,18 @@
+﻿<County: Norfolk>
+<Code: D0635#2>
+<Reference: Cambridge University Library, Weasenham Hall muniments: Coke of Weasenham 132, dorse>
+<Function: Rental>
+
+<Transcribed by: MRS 11/09/2016>
+<Proofread by: KVT 13/09/2016>
+
+
+
+<lat>REC~ LIX \S~ IIIJ D, OBx</lat>
+<uis> WHEROF *J MUST <ct> <sup>BE</sup> ALLOWED, IIJ Lx <sup>SAVE VJJ D,</sup> THAT
+y\E SEID *THOMaS HATH RESCEYVED, & SO
+*J OWE HYM XIJ \S~ IIJ D<spa>
+<rub><lat>*MICHxIS IIIJ\T\O H VIIJ</lat></rub>
+*THE SUmME OF CerTEYN@ parCELLx PAYED
+BY *T *EDWARDes
+TO master HASTYNGes <spn> XXVIJ \S~ <com><remaining 5 lines in Latin></com>

@@ -1,0 +1,21 @@
+﻿<County: Norfolk>
+<Code: D0644>
+<Reference: Cambridge University Library, Weasenham Hall Muniments: Coke of Weasenham 148>
+<Function: Rental>
+
+<Transcribed by: MRS 11/09/2016>
+<Proofread by: KVT 13/09/2016>
+
+
+
+<rub>*OWT *RENTes OF *MOLLES IN WESENHaM</rub>
+*FIRST TO THE MANer OF KYPTON~ BY YER~ <spn> VIJ S~ X D,
+*JT~ TO THE *MANer OF HASTYNS BY YER~ <spn> IIJ S~ VJ D, <com><IJ S added above line></com>
+*JT~ TO *MASTer *BEAUPRE GENT~
+FOR THE *MANer OF *NORTHx-HAWLL~ BY YER~ <spn> IIJ S VIIJ D, <com><IJ S VJ D added above line></com>
+TO Y\E MANer OF KYPTON~ FOR LANDes LATE
+*GAMAGes BY YER <spn> IIJ S~
+<rub>*RENT TO BE PAYD TO *MOLLES</rub><com><this and the following is in different ink, except for the first name></com>
+*ROBxTUS PYNGELLx
+*D~ *JOHxN PYNGELLx FOR RENT OF V PECYS <ct> <ill><sup><name of holding?></sup></ill>
+OF LOND ARRABILx <com><remainder of document, this and 17 more lines, in Latin></com>

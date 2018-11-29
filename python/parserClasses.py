@@ -4,6 +4,7 @@
 import rawSets
 import rawLits
 import rawPhons
+import rawChanges
 
 import re
 import itertools as itr
@@ -53,12 +54,37 @@ def replaceChars(form):
     
     return form.lower()
 
+class Change:
+    def __init__(self,d):
+        self.code=d["code"]
+        self.name=d["name"]
+        self.date=d["date"] 
+        self.types=d["types"]
+        self.sets=d["sets"]
+        self.context=d["context"] 
+
+def getChanges():
+    rsl=[]
+    for i in rawChanges.changes:
+        rsl.append(Change(rawChanges.changes[i]))
+    return rsl
+
 class Analysis:
+    changes=getChanges()
     #main object holding most of the data
     def __init__(self,params):
+        
+        if(params==["-"]):
+            c.callproc("get_next_morpheme",[])
+            params=list(c.fetchall())[0]
+            self.morphid=params[3]
+            params[3]=0
+            print(params)
+        self.params=params
         self.litterae=self.getLitterae()
         self.litDict=self.makeDict(self.litterae)
         self.substSets=self.getSubstSets()
+        
         self.formFreqLimit=params[3]
         self.selections=[]
         self.versions=[]
@@ -83,10 +109,12 @@ class Analysis:
         rsl=[]
         for i in rawSets.rawSets:
             rsl.append(SubstSet(i))
-        return rsl        
+        return rsl   
+    
+     
     
     def initialize(self):
-        self.lexel=Lexel(params)
+        self.lexel=Lexel(self.params)
         self.formCount=len(self.lexel.forms)
         self.lexel.getOptions()
         self.lexel.calcPattScore()
@@ -124,6 +152,7 @@ class Analysis:
         self.versions = sorted(self.versions, key=lambda k: len(k.faultySplits))
         self.minErrors=len(self.versions[0].faultySplits)
         self.log(self.versions[0].display(),True)
+        self.askForTask()
         
     def getSuccessRate(self):
         rsl=(self.formCount-self.minErrors)/(self.formCount/100)
@@ -138,7 +167,46 @@ class Analysis:
     
     def insertRecord(self):
         records=open("logs/tested.txt","a")
-        records.write(self.lexel.record() + "/ "+self.formFreqLimit+" ("+self.versions[0].pattern+") : " +str(self.validCount)+ " : "+str(self.minErrors) + " / " + str(self.formCount) +" = " + str(self.getSuccessRate()) + " % \n")
+        records.write(self.lexel.record() + "/ "+str(self.formFreqLimit)+" ("+self.versions[0].pattern+") : " +str(self.validCount)+ " : "+str(self.minErrors) + " / " + str(self.formCount) +" = " + str(self.getSuccessRate()) + " % \n")
+        
+    def askForTask(self):
+        todo=input("What next?\n ")
+        if(todo=="save"):
+            self.saveLitterae()
+        elif(todo=="pattern"):
+            self.pickPattern()
+        elif(todo=="set"):
+            self.allowSet()
+        elif(todo=="next"):
+            pass
+        else:
+            self.insertRecord()
+            logFile.close()
+        
+    def pickPattern(self):
+        patt=input("select pattern: " + str(self.lexel.patterns))
+        self.testPatterns([patt])
+    
+    def allowSet(self):
+        toAllow=input("Pick set(s)\n ").split("/")
+        for ta in toAllow:
+            idx=ta.split(",")
+            toAdd=list(self.versions[0].alignments[int(idx[0])].blockedSets[int(idx[1])].members)
+            print("adding"+str(toAdd))
+            self.substSets.append(SubstSet(toAdd))
+        self.testPatterns(self.lexel.patterns)
+    
+    
+    def saveLitterae(self):
+        for v in self.versions[0].selected:
+            if(v.ok!=False):
+                print("saving: "+str(self.morphid) +"/"+self.versions[0].pattern+"->"+ str(v.split))
+                c.callproc("save_litterae",(list(v.split),self.morphid,self.versions[0].pattern))
+                conn.commit()
+            else:
+                print("skipping: "+str(self.morphid) +"/"+self.versions[0].pattern+"->"+ str(v.split))
+            
+    
 
    
 class Lexel:
@@ -199,6 +267,7 @@ class Lexel:
     
     def getMinLength(self):
         rsl=20
+        print(self.forms)
         longest=max(list(map(lambda x : len(x),self.forms)))
         for o in self.options:
             if(len(o)==longest):
@@ -330,6 +399,8 @@ class OptionSet:
         self.original=original
         self.split=split
         self.versions=versions
+        self.ok=True
+        self.ok=True
         
     def displayVersions(self):
         rsl=[]
@@ -362,7 +433,8 @@ class OptionSet:
                 a.log("TRYING: " +v.split[index], False)
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
-                if(sSet.isValid(a.substSets) or (sSet.type==sType or sSet.type=="A")):
+                if(sSet.isValid(a.substSets) or (sSet.type==sType and sSet.type=="V")):
+                    #or (sSet.type==sType or sSet.type=="A")
                     rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
                 elif(sSet.type==sType or sSet.type=="A"):
@@ -432,6 +504,7 @@ class Version:
         self.splits=list(map(lambda x: x.split, selection.selected))
         self.isValid=True
         self.validate(selection)
+        self.selected=selection.selected
         a.log(self.display(),False)
         a.level=a.level-1
             
@@ -463,13 +536,14 @@ class Version:
         #self.display()
     
     def resolveSplits(self,selection):
-        for s in selection.selected:
+        for s in filter(lambda x: x.original==False,selection.selected):
             remaining=set(list(map(lambda x: "/".join(x.split),s.versions)))
             if(s.original==False and len(remaining)==1):
                 s.split=s.versions[0].split
                 a.log("only one version left: " + str(s.split), False)
             else:
                 s.split=list(map(lambda x: ".".join(x) ,s.split))+["----!" ]
+                s.ok=False
                 vs=list(map(lambda x : "/".join(x.split),s.versions))
                 a.log("FAIL: " + ", ".join(vs), False)
                 
@@ -484,6 +558,10 @@ class Version:
         for s in self.splits:
             rsl.append(" | ".join(s))
         print("> BLOCKED SETS:")
+        
+        for al in self.alignments:
+            al.set.findChanges(Analysis.changes, al.index)
+        
         for a in filter(lambda x: len(x.blockedSets)>0,self.alignments):
             #print(a.blockedSets)
             rsl.append(str(a.index)+" : "+",".join(set(map(lambda x: str(x.members), set(a.blockedSets)))))
@@ -537,7 +615,9 @@ class Alignment:
                 
         a.level=a.level-1
 
+        
 
+        
 class SubstSet:
     # set of corresponding litterae at a specific position
     def __init__(self,members):
@@ -575,6 +655,14 @@ class SubstSet:
             return "C"
         elif(cv["C"]==False and cv["V"]==True):
             return "V"
+
+    def findChanges(self, chs, index):
+        #print("changes in:" + str(self.members))
+        for ch in chs:
+            for s in ch.sets:
+                sset=set(list(s["pre"])+list(s["post"]))
+                if((sset<=set(self.members)) or (set(self.members)<=sset)):
+                    a.log("POSSIBLE CHANGE: " + str(index) + " : " + ch.name, True);
             
 
 class Scores:
@@ -604,12 +692,12 @@ for ld in testQueue:
 
     a.initialize()
     a.testPatterns(a.lexel.patterns)
-    a.log(set(a.lexel.addedPatterns),False)
-    a.insertRecord()
+   # a.log(set(a.lexel.addedPatterns),False)
+   
 
-    logFile.close()
+    
 
-
+    
     
 
 

@@ -1,0 +1,22 @@
+﻿<County: Norfolk>
+<Code: D0635#1>
+<Reference: Cambridge University Library, Weasenham Hall muniments: Coke of Weasenham 132, recto>
+<Function: Rental>
+
+<Transcribed by: MRS 11/09/2016>
+<Proofread by: KVT 13/09/2016>
+
+
+
+<rub><lat>*MICHxIS IIJ\O *H VIIJ</lat></rub><com><followed by 23 lines in latin></com>
+[line 25]*JTM@ ROMESHOT FOR WESEHaM <spn> IIIJ D,
+*JTM@ TO THE SHREVES TOorNE <spn> X D,
+*JTM@ SUTE TO y\E HUNDRED, <sup>FOR MY FYNE</sup> <spn> IJ S~
+*JTM@ ENTRYNG OF THE SAME <spn> IIIJ D,
+*JTM@ RENT TO THE HUNDRED, <spn> IIIJ D,
+*JTM@ ROMESHOT OF WELLx <spn> IIJ D, OBx
+*JTM@ MYLEHaM RENT <spn> V S~
+<rub><lat>SMa REDD, RESOLUT~</lat></rub>
+*M\D, THAT *J MUST ALLOW *TH *EDWARDes
+FOR <uis> *TOWNESHENDes RENT <spn> IIJ \S~ IIIJ D,
+FOR THE LAST FOR THE LAST <cor>A</cor> YER~

@@ -1,0 +1,11 @@
+﻿<County: Norfolk>
+<Code: D0642#1>
+<Reference: Cambridge University Library, Weasenham Hall Muniments: Coke of Weasenham 145, recto>
+<Function: Rental>
+
+<Transcribed by: MRS 11/09/2016>
+<Proofread by: KVT 13/09/2016>
+
+
+
+[line 20]*THE HALF, YER@ FERME <lat>*A\O XIIIJ\O H VIJ\M\I BEAUPRE WESENHaM</lat> <com><remainder in Latin, 12 lines></com>

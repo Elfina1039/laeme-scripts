@@ -1,0 +1,42 @@
+Analysis object initialized
+{'ðo': 1, 'do': 1120, 'dó': 4}
+Lexel initialized
+MIN pattern length=2
+Pattern CV is valid
+{'value': 3, 'patterns': ['CV']}
+	MIN pattern length=2
+	Pattern CV is valid
+	Making the selection for pattern: CV
+	Selection for pattern: CV completed
+	Making a version for pattern: CV
+			___CV : 0___
+				ANALYSING: ðo
+				adding littera based on matching pattern
+				ANALYSING: do
+				adding littera based on matching pattern
+				ANALYSING: dó
+				adding littera based on matching pattern
+			___CV : 1___
+				ANALYSING: ðo
+				adding littera based on matching pattern
+				ANALYSING: do
+				adding littera based on matching pattern
+				ANALYSING: dó
+				adding littera based on matching pattern
+		SPLIT: ['ð', 'o']
+		SPLIT: ['d', 'o']
+		SPLIT: ['d', 'ó']
+		OVERVIEW: version for pattern CV
+
+faulty splits: 0
+ð | o
+d | o
+d | ó
+	FOUND __ 1 __ VALID VERSION(S)
+	OVERVIEW: version for pattern CV
+
+faulty splits: 0
+ð | o
+d | o
+d | ó
+	set()

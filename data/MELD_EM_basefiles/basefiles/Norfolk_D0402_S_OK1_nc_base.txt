@@ -1,0 +1,26 @@
+<County: Norfolk>
+<Code: D0402>
+<Reference: Cambridge, King's College: COL/444>
+<Function: Financial account>
+
+<Transcribed by: AK 23/04/2015>
+<Proofread by: MRS 23/04/2015>
+
+
+
+<rub>*COUTESSALE *THE BILL OF ALLOWANCE <lat>*ANNO PriMO . H . VIIJ\M,</lat></rub>
+**THIS IS THE LOWANS Y\T YE BALY ASKE A+LOWONS OF
+*JTEM@ FOR~ RENT PAYYD, TO YE KYNKE <spn> <cro>IIJ\S IIIJ\D </cro>
+*JTEM@ FOR~ RENT PAYYD, TO LORD, *MORLEY <spn> <cro>IJ\S IIIJ D,</cro>
+*JTEM@ TO YE KYnGYS LETTE <spn> <cro>J D, OBx</cro>
+*JTEM@ FOR~ *ROMSHOT <spn> <cro>J D </cro>
+*JTEM@ PAYYD, TO YE KYNGS OFFERYS <spn> <cro>XX D,</cro>
+*JTEM@ FOR~ REPARACION~ OF A *OUYN~ <spn> <cro>IIIJ D,</cro>
+*JTEM@ FOR~ TO MEN~ A DAY HEGGYN~ <spn> <cro>VIIJ D,</cro>
+*JTEM@ FOR~ RENT Y\T *J CANNAT GATHER~ <spn> <cro>V OBx</cro>
+*JTEM@ FOR~ YE LONDYS LAT *WILLxIAM~ *NICHOLLYS <sup>LONDYS</sup> <spn> <cro>IIIJ\S</cro>
+*JTEM@ FOR~ YE LOND OF *WILLxIAM~ *COWPAR~ <spn> <cro>VJ\D,</cro>
+*JTEM@ FOR~ YE LONDYS OF *WILLxIAM~ *COOKE <spn> <cro>VJ\D,</cro>
+*JTEM@ FOR~ MYn EXPENSE & MYn GOWNE <spn> <cro>V\S</cro>
+*JTEM@ FOR~ *COSTYS OF YE *CORTE <spn> <cro>XVJ\D,</cro>
+*JTM@ FOR THE *DEMENE LONDes <spn> <cro>IIJ S IIIJ D,</cro>

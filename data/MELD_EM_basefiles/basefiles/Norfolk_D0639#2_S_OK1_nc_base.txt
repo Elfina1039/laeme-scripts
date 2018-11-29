@@ -1,0 +1,22 @@
+﻿<County: Norfolk>
+<Code: D0639#2>
+<Reference: Cambridge University Library, Weasenham Hall muniments, Coke of Weasenham 128, sheet 2>
+<Function: Financial account>
+
+<Transcribed by: MRS 13/09/2016>
+<Proofread by: KVT 15/09/2016>
+
+
+
+<rub>FOR Y\E COSTYS & REPEraSYNnS</rub>
+<cro>*JTN~ FOR Y\E COSTYS OF IJ CORTYS <spn> IIJ S</cro>
+*JTN~ V DOSYN@ HERDELYS <spn> V \S <spn> X D,
+*JTN~ FOR Y\E *NEPARE~ FOR HES GRES <spn> XIIJ \D,
+*JTN~ FOR Y\E REPERASYON@ OF y\E *NEPERS WATERYNG@ <spn> IX \D,
+*JTN~ FOR Y\E REDYN@ <spn> VJ D,
+*JTN~ FOR Y\E ROMSOTTE~ <spn> IJ \D OBx
+*JTN~ FOR <cor><exp>Y\E</exp></cor> IIJ LODE OF WODxE KARYNG <spn> XIJ \D,
+*JTN~ FOR XXXX RODxE & VJ FOR HEGYN@ <spn> IIJ+\S X+\D,
+*JTN~ TO WYLLx RORSO <spn> VIIJ D,
+*JTN~ TO Y\E SEPARDx <spn> VJ+\S <spn> VIIJ+\D,
+<add>*SM\A <spn> XX S~ V D, OBx <und><sgn>H ALLOor</sgn></und><com><in different hand and ink></add>

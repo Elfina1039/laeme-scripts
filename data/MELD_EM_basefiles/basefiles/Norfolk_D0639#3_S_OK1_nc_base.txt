@@ -1,0 +1,18 @@
+﻿<County: Norfolk>
+<Code: D0639#3>
+<Reference: Cambridge University Library, Weasenham Hall muniments: Coke of Weasenham 128, sheet 3>
+<Function: Financial account>
+
+<Transcribed by: MRS 05/09/2016>
+<Proofread by: KVT 13/09/2016>
+
+
+
+*JTN~ *THOMAS EDWARD FOR IIJ ACRes OF SOMER THATTH <spn> IIJ+\S
+*JTN~ Y\E SaYD, *THOMAS EDWARD, FOR VIJ RODes OF WYnTR~ TATHx IJ+\S IIIJ+\D,
+*JTN~ Y\E SaYD, *THOMAS EDWRAD~ <sic> FOR IJ ACR~ <spn> IJ S
+*JTN~ JOHN@ KELYNWORTH FOR IIIJ ACR~ OF SOMerTATHATT <sic> <spn> IIIJ+\S
+*JTN~ JOHN@ JONSON@ FOR TATHYNG@ OF A-N+AKYER~ & HALLFFE <spn> IJ+\S
+*JTN~ WYLLYAM~ *COOKE FOR A-N+AKYR~ <spn> XVJ D,
+*JTN~ SER *R LYON@ WYNTer TATHYNnG OF J ACRE <spn> XVJ+\D,
+<lat><SM\A <2 words> <spn> V ACR J ROD</lat>

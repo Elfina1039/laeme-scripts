@@ -1,0 +1,23 @@
+<County: Norfolk>
+<Code: D0526>
+<Reference: Cambridge University Library, Weasenham Hall muniments: Coke of Weasenham 101>
+<Function: Rental>
+
+<Transcribed by: AK 11/08/2016>
+<Proofread by: MRS 24/08/2016>
+
+
+
+<lat>PreSENS *TERR~ RENON@ UITT AP\D WESSENHaM per *THOM~ *EDWARDes
+*MARTN@ *SKYPPON~ *THOM~ *COOKE *JOHxEM WYLKYN@ & ALLx TEN@ DIM~ IBM@
+*MENS~ JULIJ *A\O RR~ H VIJ X\O per PASTUR~ BIDENS DE KYPTON@</lat>
+*FYRST XX\T\I% ACR~ OF THE *MANer
+OF KYPTON~ VOC~ KYPTON~ *CROFT
+VIJ ACR~ OF THE *MANer OF, KYPTON~
+XIJ ACR~ OF THE SEYD, *MANer
+XIJ ACR~ OF THE SEYD *MANer
+VIJ ACR~ OF, THE SEYD *MANer
+XIIIJ ACR~ OF, KYPTON~
+VIJ ACR~ OF KYPTON@
+XIIIJ ACR~ OF KYPTON@
+<lat><com><the rest of the rental is in Latin></com></lat>

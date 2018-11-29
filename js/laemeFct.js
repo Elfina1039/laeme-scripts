@@ -10,7 +10,7 @@ angular
 	
 		$http({
 			method:"POST",
-			url:"http://localhost/mylaeme/php/loadCorp.php",
+			url:"http://localhost/laeme-scripts/php/loadCorp.php",
 			data:{fce:fce,ps:ps}
 		}).then(function(resp){
 		
@@ -38,7 +38,7 @@ angular
 	
 		$http({
 			method:"POST",
-			url:"http://localhost/mylaeme/php/loadProfile.php",
+			url:"http://localhost/laeme-scripts/php/loadProfile.php",
 			data:{t:txt}
 		}).then(function(resp){
 		
@@ -60,7 +60,7 @@ angular
 	
 		$http({
 			method:"POST",
-			url:"http://localhost/mylaeme/php/getSlotAlternatives.php",
+			url:"http://localhost/laeme-scripts/php/getSlotAlternatives.php",
 			data:{t:txt, lit:lit}
 		}).then(function(resp){
 		

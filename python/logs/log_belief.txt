@@ -1,0 +1,4828 @@
+Analysis object initialized
+{'læfe': 10, 'lafe': 1, 'laue': 1, 'le': 4, 'lea': 3, 'leaf': 3, 'leafan': 3, 'leafe': 5, 'leaue': 127, 'leauen': 1, 'lefe': 2, 'leue': 73, 'leuen': 1, 'lewe': 1, 'lia': 1, 'liaue': 5}
+Lexel initialized
+[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'au', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+[[{'lit': 'ew', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ia', 'ln': 2, 'index': 1}]]
+[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+MIN pattern length=4
+Pattern CV is invalid
+Pattern CVVCVC is invalid
+Pattern CVCVC is valid
+Pattern CVVV is invalid
+Pattern CVVC is invalid
+Pattern CCVCV is valid
+Pattern CVC is invalid
+Pattern CVCV is valid
+Pattern CCV is invalid
+Pattern CVVCV is invalid
+Pattern CVVVV is invalid
+Pattern CCVV is invalid
+Pattern CVV is invalid
+Pattern CVVVC is invalid
+Pattern CVVVVC is invalid
+{'value': 9, 'patterns': ['CVCV']}
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'au', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ew', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	MIN pattern length=4
+	Pattern CV is invalid
+	Pattern CVVCVC is invalid
+	Pattern CVCVC is valid
+	Pattern CVVV is invalid
+	Pattern CCVCV is valid
+	Pattern CVVC is invalid
+	Pattern CVC is invalid
+	Pattern CVCV is valid
+	Pattern CCV is invalid
+	Pattern CVVCV is invalid
+	Pattern CVVVV is invalid
+	Pattern CCVV is invalid
+	Pattern CVV is invalid
+	Pattern CVVVC is invalid
+	Pattern CVVVVC is invalid
+	Making the selection for pattern: CVCVC
+	Selection for pattern: CVCVC completed
+	Making a version for pattern: CVCVC
+			___CVCVC : 0___
+				ANALYSING: leafan
+				adding littera based on matching pattern
+				ANALYSING: leauen
+				adding littera based on matching pattern
+				ANALYSING: leuen
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: l
+					> version: l/a/u/e
+					TRYING: l
+					> version: l/au/e
+					TRYING: l
+					> version: l/a/ue
+					TRYING: l
+					> version: l/au/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: l
+					> version: l/ea
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: l
+					> version: l/ea/f
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: l
+					> version: l/ea/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: l
+					> version: l/e/a/u/e
+					TRYING: l
+					> version: l/e/au/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/e/a/ue
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/e/au/e
+					TRYING: l
+					> version: l/ea/ue
+					TRYING: l
+					> version: l/ea/ue
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: l
+					> version: l/e/u/e
+					TRYING: l
+					> version: l/eu/e
+					TRYING: l
+					> version: l/e/ue
+					TRYING: l
+					> version: l/eu/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: l
+					> version: l/ew/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: l
+					> version: l/i/a
+					TRYING: l
+					> version: l/ia
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: liaue
+					resolving (14)
+					> version: l/i/a/u/e
+					TRYING: l
+					> version: l/i/a/u/e
+					TRYING: l
+					> version: l/ia/u/e
+					TRYING: l
+					> version: l/ia/u/e
+					TRYING: l
+					> version: l/i/au/e
+					TRYING: l
+					> version: l/i/au/e
+					TRYING: l
+					> version: l/i/a/ue
+					TRYING: l
+					> version: l/i/a/ue
+					TRYING: l
+					> version: l/ia/u/e
+					TRYING: l
+					> version: l/ia/u/e
+					TRYING: l
+					> version: l/ia/ue
+					TRYING: l
+					> version: l/i/au/e
+					TRYING: l
+					> version: l/i/au/e
+					TRYING: l
+					> version: l/ia/ue
+					TRYING: l
+					RESULT:  ['l']
+			___CVCVC : 1___
+				ANALYSING: leafan
+				adding littera based on matching pattern
+				ANALYSING: leauen
+				adding littera based on matching pattern
+				ANALYSING: leuen
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: a
+					> version: l/a/u/e
+					TRYING: a
+					> version: l/au/e
+					TRYING: au
+					adding blocked set: V = V >> e, a, æ, au, ea
+					> version: l/a/ue
+					TRYING: a
+					> version: l/au/e
+					TRYING: au
+					adding blocked set: V = V >> e, a, æ, au, ea
+					RESULT:  ['a']
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: e
+					> version: l/ea
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: e
+					> version: l/ea/f
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: e
+					> version: l/ea/f/e
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/au/e
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/e/a/ue
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/e/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/ue
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/ue
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/eu/e
+					TRYING: eu
+					adding blocked set: V = V >> e, eu, a, æ, ea
+					> version: l/e/ue
+					TRYING: e
+					> version: l/eu/e
+					TRYING: eu
+					adding blocked set: V = V >> e, eu, a, æ, ea
+					RESULT:  ['e']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: e
+					> version: l/ew/e
+					TRYING: ew
+					adding blocked set: V = V >> e, a, æ, ew, ea
+					RESULT:  ['e']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: i
+					adding blocked set: V = V >> e, i, a, æ, ea
+					> version: l/i/a
+					TRYING: i
+					adding blocked set: V = V >> e, i, a, æ, ea
+					> version: l/ia
+					TRYING: ia
+					RESULT:  ['ia']
+				ANALYSING: liaue
+					resolving (14)
+					> version: l/i/a/u/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/a/u/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/ia/u/e
+					TRYING: ia
+					> version: l/ia/u/e
+					TRYING: ia
+					> version: l/i/au/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/au/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/a/ue
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/a/ue
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/ia/u/e
+					TRYING: ia
+					> version: l/ia/u/e
+					TRYING: ia
+					> version: l/ia/ue
+					TRYING: ia
+					> version: l/i/au/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/au/e
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/ia/ue
+					TRYING: ia
+					RESULT:  ['ia']
+			___CVCVC : 2___
+				ANALYSING: leafan
+				adding littera based on matching pattern
+				ANALYSING: leauen
+				adding littera based on matching pattern
+				ANALYSING: leuen
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: u
+					> version: l/a/u/e
+					TRYING: u
+					> version: l/au/e
+					TRYING: e
+					> version: l/a/ue
+					TRYING: ue
+					> version: l/au/e
+					TRYING: e
+					RESULT:  ['u']
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				l/e(CV)
+l/e/_(CVA)
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: a
+					> version: l/ea
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a']
+				adding dashed alternative: ['l', 'ea', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: a
+					> version: l/ea/f
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: a
+					> version: l/ea/f/e
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: a
+					> version: l/e/a/u/e
+					TRYING: a
+					> version: l/e/au/e
+					TRYING: au
+					> version: l/ea/u/e
+					TRYING: u
+					> version: l/ea/u/e
+					TRYING: u
+					> version: l/e/a/ue
+					TRYING: a
+					> version: l/ea/u/e
+					TRYING: u
+					> version: l/ea/u/e
+					TRYING: u
+					> version: l/e/au/e
+					TRYING: au
+					> version: l/ea/ue
+					TRYING: ue
+					> version: l/ea/ue
+					TRYING: ue
+					RESULT:  ['u']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: u
+					> version: l/e/u/e
+					TRYING: u
+					> version: l/eu/e
+					TRYING: e
+					> version: l/e/ue
+					TRYING: ue
+					> version: l/eu/e
+					TRYING: e
+					RESULT:  ['u']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: w
+					> version: l/ew/e
+					TRYING: e
+					RESULT:  ['w']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: a
+					> version: l/i/a
+					TRYING: a
+					> version: l/ia
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'ia', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+				ANALYSING: liaue
+					resolving (14)
+					> version: l/i/a/u/e
+					TRYING: a
+					> version: l/i/a/u/e
+					TRYING: a
+					> version: l/ia/u/e
+					TRYING: u
+					> version: l/ia/u/e
+					TRYING: u
+					> version: l/i/au/e
+					TRYING: au
+					> version: l/i/au/e
+					TRYING: au
+					> version: l/i/a/ue
+					TRYING: a
+					> version: l/i/a/ue
+					TRYING: a
+					> version: l/ia/u/e
+					TRYING: u
+					> version: l/ia/u/e
+					TRYING: u
+					> version: l/ia/ue
+					TRYING: ue
+					> version: l/i/au/e
+					TRYING: au
+					> version: l/i/au/e
+					TRYING: au
+					> version: l/ia/ue
+					TRYING: ue
+					RESULT:  ['u']
+			___CVCVC : 3___
+				ANALYSING: leafan
+				adding littera based on matching pattern
+				ANALYSING: leauen
+				adding littera based on matching pattern
+				ANALYSING: leuen
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: e
+					> version: l/a/u/e
+					TRYING: e
+					> version: l/au/e
+					> version: l/a/ue
+					> version: l/au/e
+					RESULT:  ['e']
+				ANALYSING: le
+					resolving (2)
+					> version: l/e
+					> version: l/e/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				l/e(CV)
+l/e/_(CVA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+				ANALYSING: lea
+					resolving (4)
+					> version: l/e/a
+					> version: l/ea
+					> version: l/e/_/a
+					TRYING: a
+					> version: l/ea/_
+					RESULT:  ['a']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: f
+					> version: l/ea/f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'f']
+				adding dashed alternative: ['l', 'ea', 'f', '_']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/a/_/f(CVVAC)
+l/ea/f/_(CVCA)
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: f
+					> version: l/ea/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: u
+					> version: l/e/a/u/e
+					TRYING: u
+					> version: l/e/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/a/ue
+					TRYING: ue
+					adding blocked set: V = V >> a, e, _, ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					RESULT:  ['e', 'u']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/eu/e
+					> version: l/e/ue
+					> version: l/eu/e
+					RESULT:  ['e']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: e
+					> version: l/ew/e
+					RESULT:  ['e']
+				ANALYSING: lia
+					resolving (6)
+					> version: l/i/a
+					> version: l/i/a
+					> version: l/ia
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/ia/_
+					RESULT:  ['a']
+				ANALYSING: liaue
+					resolving (14)
+					> version: l/i/a/u/e
+					TRYING: u
+					> version: l/i/a/u/e
+					TRYING: u
+					> version: l/ia/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ia/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/a/ue
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/a/ue
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ia/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ia/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ia/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/i/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ia/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					RESULT:  ['e', 'u']
+			___CVCVC : 4___
+				ANALYSING: leafan
+				adding littera based on matching pattern
+				ANALYSING: leauen
+				adding littera based on matching pattern
+				ANALYSING: leuen
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'æ', 'f', 'e', '_']
+				l/æ/f/e(CVCV)
+l/æ/f/e/_(CVCVA)
+				version split: ['l', 'æ', 'f', 'e']
+				{'string': 'l/æ/f/e', 'rgx': '((l))/((æ))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'æ', 'f', 'e']
+				version split: ['l', 'æ', 'f', 'e', '_']
+				{'string': 'l/æ/f/e/_', 'rgx': '((l))/((æ))/((f))/((e))/((_))$'}
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'a', 'f', 'e', '_']
+				l/a/f/e(CVCV)
+l/a/f/e/_(CVCVA)
+				version split: ['l', 'a', 'f', 'e']
+				{'string': 'l/a/f/e', 'rgx': '((l))/((a))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'a', 'f', 'e']
+				version split: ['l', 'a', 'f', 'e', '_']
+				{'string': 'l/a/f/e/_', 'rgx': '((l))/((a))/((f))/((e))/((_))$'}
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					> version: l/a/u/e
+					> version: l/au/e
+					> version: l/a/ue
+					> version: l/au/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'a', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'a', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'a', 'ue', '_']
+				adding dashed alternative: ['l', 'au', 'e', '_']
+				l/a/u/e(CVCV)
+l/a/u/e(CVVV)
+l/au/e(CVV)
+l/a/ue(CVV)
+l/au/e(CVV)
+l/a/u/e/_(CVAVA)
+l/a/u/e/_(CVAVA)
+l/au/e/_(CVVA)
+l/a/ue/_(CVVA)
+l/au/e/_(CVVA)
+				version split: ['l', 'a', 'u', 'e']
+				{'string': 'l/a/u/e', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'a', 'u', 'e']
+				version split: ['l', 'a', 'u', 'e']
+				{'string': 'l/a/u/e', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'a', 'u', 'e']
+				version split: ['l', 'au', 'e']
+				{'string': 'l/au/e', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'au', 'e']
+				version split: ['l', 'a', 'ue']
+				{'string': 'l/a/ue', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'a', 'ue']
+				version split: ['l', 'au', 'e']
+				{'string': 'l/au/e', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'au', 'e']
+				version split: ['l', 'a', 'u', 'e', '_']
+				{'string': 'l/a/u/e/_', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				version split: ['l', 'a', 'u', 'e', '_']
+				{'string': 'l/a/u/e/_', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				version split: ['l', 'au', 'e', '_']
+				{'string': 'l/au/e/_', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'au', 'e', '_']
+				version split: ['l', 'a', 'ue', '_']
+				{'string': 'l/a/ue/_', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'a', 'ue', '_']
+				version split: ['l', 'au', 'e', '_']
+				{'string': 'l/au/e/_', 'rgx': '((l))/((a))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'au', 'e', '_']
+				ANALYSING: le
+					resolving (4)
+					> version: l/e
+					> version: l/e/_
+					> version: l/e/_
+					> version: l/e/_/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', '_']
+				l/e(CV)
+l/e/_(CVA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+l/e/_/_(CVAA)
+l/e/_/_/_(CVAAA)
+				version split: ['l', 'e']
+				{'string': 'l/e', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_', '_', '_']
+				{'string': 'l/e/_/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				ANALYSING: lea
+					resolving (4)
+					> version: l/e/a
+					> version: l/ea
+					> version: l/e/_/a
+					> version: l/ea/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_']
+				adding dashed alternative: ['l', 'ea', '_']
+				adding dashed alternative: ['l', 'e', '_', 'a', '_']
+				adding dashed alternative: ['l', 'ea', '_', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+l/e/a/_(CVVA)
+l/ea/_(CVA)
+l/e/_/a/_(CVAVA)
+l/ea/_/_(CVAA)
+				version split: ['l', 'e', 'a']
+				{'string': 'l/e/a', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'e', 'a']
+				version split: ['l', 'ea']
+				{'string': 'l/ea', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ea']
+				version split: ['l', 'e', '_', 'a']
+				{'string': 'l/e/_/a', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a']
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ea', '_']
+				version split: ['l', 'e', 'a', '_']
+				{'string': 'l/e/a/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_']
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ea', '_']
+				version split: ['l', 'e', '_', 'a', '_']
+				{'string': 'l/e/_/a/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				version split: ['l', 'ea', '_', '_']
+				{'string': 'l/ea/_/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_']
+				ANALYSING: leaf
+					resolving (4)
+					> version: l/e/a/f
+					> version: l/ea/f
+					> version: l/e/a/_/f
+					TRYING: f
+					adding blocked set: C = C >> n, _, f
+					> version: l/ea/f/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', 'f', '_']
+				adding dashed alternative: ['l', 'ea', 'f', '_']
+				adding dashed alternative: ['l', 'e', 'a', '_', '_', 'f']
+				adding dashed alternative: ['l', 'ea', 'f', '_', '_']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/a/_/f(CVVAC)
+l/ea/f/_(CVCA)
+l/e/a/f/_(CVVCA)
+l/ea/f/_(CVCA)
+l/e/a/_/_/f(CVVAAC)
+l/ea/f/_/_(CVCAA)
+				version split: ['l', 'e', 'a', 'f']
+				{'string': 'l/e/a/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f']
+				version split: ['l', 'ea', 'f']
+				{'string': 'l/ea/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f']
+				version split: ['l', 'e', 'a', '_', 'f']
+				{'string': 'l/e/a/_/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'f']
+				version split: ['l', 'ea', 'f', '_']
+				{'string': 'l/ea/f/_', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_']
+				version split: ['l', 'e', 'a', 'f', '_']
+				{'string': 'l/e/a/f/_', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', '_']
+				version split: ['l', 'ea', 'f', '_']
+				{'string': 'l/ea/f/_', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_']
+				version split: ['l', 'e', 'a', '_', '_', 'f']
+				{'string': 'l/e/a/_/_/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', '_', 'f']
+				version split: ['l', 'ea', 'f', '_', '_']
+				{'string': 'l/ea/f/_/_', 'rgx': '((l))/((e)|(ea))/((f))/((_))/((_))$'}
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: e
+					> version: l/ea/f/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', 'f', '_', 'e']
+				adding dashed alternative: ['l', 'ea', 'f', 'e', '_']
+				l/e/a/f/e(CVVCV)
+l/ea/f/e(CVCV)
+l/e/a/f/_/e(CVVCAV)
+l/ea/f/e/_(CVCVA)
+				version split: ['l', 'e', 'a', 'f', 'e']
+				{'string': 'l/e/a/f/e', 'rgx': '((l))/((e)|(ea))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', 'e']
+				version split: ['l', 'ea', 'f', 'e']
+				{'string': 'l/ea/f/e', 'rgx': '((l))/((e)|(ea))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', 'e']
+				version split: ['l', 'e', 'a', 'f', '_', 'e']
+				{'string': 'l/e/a/f/_/e', 'rgx': '((l))/((e)|(ea))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', '_', 'e']
+				version split: ['l', 'ea', 'f', 'e', '_']
+				{'string': 'l/ea/f/e/_', 'rgx': '((l))/((e)|(ea))/((f))/((e))/((_))$'}
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/au/e
+					> version: l/ea/u/e
+					> version: l/ea/u/e
+					> version: l/e/a/ue
+					> version: l/ea/u/e
+					> version: l/ea/u/e
+					> version: l/e/au/e
+					> version: l/ea/ue
+					> version: l/ea/ue
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'e', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'e', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'ea', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'ea', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'e', 'a', 'ue', '_']
+				adding dashed alternative: ['l', 'ea', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'ea', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'e', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'ea', 'ue', '_']
+				adding dashed alternative: ['l', 'ea', 'ue', '_']
+				l/e/a/u/e(CVVCV)
+l/e/a/u/e(CVVVV)
+l/e/au/e(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/a/ue(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/au/e(CVVV)
+l/ea/ue(CVV)
+l/ea/ue(CVV)
+l/e/a/u/_/e(CVVAAV)
+l/e/a/u/_/e(CVVAAV)
+l/e/au/e/_(CVVVA)
+l/ea/u/e/_(CVAVA)
+l/ea/u/e/_(CVAVA)
+l/e/a/ue/_(CVVVA)
+l/ea/u/e/_(CVAVA)
+l/ea/u/e/_(CVAVA)
+l/e/au/e/_(CVVVA)
+l/ea/ue/_(CVVA)
+l/ea/ue/_(CVVA)
+				version split: ['l', 'e', 'a', 'u', 'e']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e']
+				version split: ['l', 'e', 'a', 'u', 'e']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e']
+				version split: ['l', 'e', 'au', 'e']
+				{'string': 'l/e/au/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'au', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'e', 'a', 'ue']
+				{'string': 'l/e/a/ue', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'ue']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'e', 'au', 'e']
+				{'string': 'l/e/au/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'au', 'e']
+				version split: ['l', 'ea', 'ue']
+				{'string': 'l/ea/ue', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'ue']
+				version split: ['l', 'ea', 'ue']
+				{'string': 'l/ea/ue', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'ue']
+				version split: ['l', 'e', 'a', 'u', '_', 'e']
+				{'string': 'l/e/a/u/_/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', '_', 'e']
+				version split: ['l', 'e', 'a', 'u', '_', 'e']
+				{'string': 'l/e/a/u/_/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', '_', 'e']
+				version split: ['l', 'e', 'au', 'e', '_']
+				{'string': 'l/e/au/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', '_']
+				version split: ['l', 'ea', 'u', 'e', '_']
+				{'string': 'l/ea/u/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'ea', 'u', 'e', '_']
+				{'string': 'l/ea/u/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'e', 'a', 'ue', '_']
+				{'string': 'l/e/a/ue/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'ue', '_']
+				version split: ['l', 'ea', 'u', 'e', '_']
+				{'string': 'l/ea/u/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'ea', 'u', 'e', '_']
+				{'string': 'l/ea/u/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'e', 'au', 'e', '_']
+				{'string': 'l/e/au/e/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', '_']
+				version split: ['l', 'ea', 'ue', '_']
+				{'string': 'l/ea/ue/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_']
+				version split: ['l', 'ea', 'ue', '_']
+				{'string': 'l/ea/ue/_', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'f', 'e', '_']
+				l/e/f/e(CVCV)
+l/e/f/e/_(CVCVA)
+				version split: ['l', 'e', 'f', 'e']
+				{'string': 'l/e/f/e', 'rgx': '((l))/((e))/((f))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'f', 'e']
+				version split: ['l', 'e', 'f', 'e', '_']
+				{'string': 'l/e/f/e/_', 'rgx': '((l))/((e))/((f))/((e))/((_))$'}
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					> version: l/e/u/e
+					> version: l/eu/e
+					> version: l/e/ue
+					> version: l/eu/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'e', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'eu', 'e', '_']
+				adding dashed alternative: ['l', 'e', 'ue', '_']
+				adding dashed alternative: ['l', 'eu', 'e', '_']
+				l/e/u/e(CVCV)
+l/e/u/e(CVVV)
+l/eu/e(CVV)
+l/e/ue(CVV)
+l/eu/e(CVV)
+l/e/u/e/_(CVAVA)
+l/e/u/e/_(CVAVA)
+l/eu/e/_(CVVA)
+l/e/ue/_(CVVA)
+l/eu/e/_(CVVA)
+				version split: ['l', 'e', 'u', 'e']
+				{'string': 'l/e/u/e', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'u', 'e']
+				version split: ['l', 'e', 'u', 'e']
+				{'string': 'l/e/u/e', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'u', 'e']
+				version split: ['l', 'eu', 'e']
+				{'string': 'l/eu/e', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'eu', 'e']
+				version split: ['l', 'e', 'ue']
+				{'string': 'l/e/ue', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'ue']
+				version split: ['l', 'eu', 'e']
+				{'string': 'l/eu/e', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'eu', 'e']
+				version split: ['l', 'e', 'u', 'e', '_']
+				{'string': 'l/e/u/e/_', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				version split: ['l', 'e', 'u', 'e', '_']
+				{'string': 'l/e/u/e/_', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				version split: ['l', 'eu', 'e', '_']
+				{'string': 'l/eu/e/_', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'eu', 'e', '_']
+				version split: ['l', 'e', 'ue', '_']
+				{'string': 'l/e/ue/_', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'ue', '_']
+				version split: ['l', 'eu', 'e', '_']
+				{'string': 'l/eu/e/_', 'rgx': '((l))/((e))/((u))/((e))/((_))$'}
+				_____REMOVING________['l', 'eu', 'e', '_']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					> version: l/ew/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'w', 'e', '_']
+				adding dashed alternative: ['l', 'ew', 'e', '_']
+				l/e/w/e(CVCV)
+l/ew/e(CVV)
+l/e/w/e/_(CVCVA)
+l/ew/e/_(CVVA)
+				version split: ['l', 'e', 'w', 'e']
+				{'string': 'l/e/w/e', 'rgx': '((l))/((e))/((w))/((e))/((_))$'}
+				_____REMOVING________['l', 'e', 'w', 'e']
+				version split: ['l', 'ew', 'e']
+				{'string': 'l/ew/e', 'rgx': '((l))/((e))/((w))/((e))/((_))$'}
+				_____REMOVING________['l', 'ew', 'e']
+				version split: ['l', 'e', 'w', 'e', '_']
+				{'string': 'l/e/w/e/_', 'rgx': '((l))/((e))/((w))/((e))/((_))$'}
+				version split: ['l', 'ew', 'e', '_']
+				{'string': 'l/ew/e/_', 'rgx': '((l))/((e))/((w))/((e))/((_))$'}
+				_____REMOVING________['l', 'ew', 'e', '_']
+				ANALYSING: lia
+					resolving (6)
+					> version: l/i/a
+					> version: l/i/a
+					> version: l/ia
+					> version: l/i/_/a
+					> version: l/i/_/a
+					> version: l/ia/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'ia', '_']
+				adding dashed alternative: ['l', 'i', '_', 'a', '_']
+				adding dashed alternative: ['l', 'i', '_', 'a', '_']
+				adding dashed alternative: ['l', 'ia', '_', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+l/i/a/_(CAVA)
+l/i/a/_(CAVA)
+l/ia/_(CVA)
+l/i/_/a/_(CAAVA)
+l/i/_/a/_(CAAVA)
+l/ia/_/_(CVAA)
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'ia']
+				{'string': 'l/ia', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ia']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ia', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ia', '_']
+				version split: ['l', 'i', '_', 'a', '_']
+				{'string': 'l/i/_/a/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a', '_']
+				version split: ['l', 'i', '_', 'a', '_']
+				{'string': 'l/i/_/a/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a', '_']
+				version split: ['l', 'ia', '_', '_']
+				{'string': 'l/ia/_/_', 'rgx': '((l))/((ia))/((_))/((a))/((_))$'}
+				_____REMOVING________['l', 'ia', '_', '_']
+				ANALYSING: liaue
+					resolving (14)
+					> version: l/i/a/u/e
+					TRYING: e
+					> version: l/i/a/u/e
+					TRYING: e
+					> version: l/ia/u/e
+					> version: l/ia/u/e
+					> version: l/i/au/e
+					> version: l/i/au/e
+					> version: l/i/a/ue
+					> version: l/i/a/ue
+					> version: l/ia/u/e
+					> version: l/ia/u/e
+					> version: l/ia/ue
+					> version: l/i/au/e
+					> version: l/i/au/e
+					> version: l/ia/ue
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'i', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'ia', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'ia', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'i', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'i', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'i', 'a', 'ue', '_']
+				adding dashed alternative: ['l', 'i', 'a', 'ue', '_']
+				adding dashed alternative: ['l', 'ia', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'ia', 'u', 'e', '_']
+				adding dashed alternative: ['l', 'ia', 'ue', '_']
+				adding dashed alternative: ['l', 'i', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'i', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'ia', 'ue', '_']
+				l/i/a/u/e(CCVCV)
+l/i/a/u/e(CVVVV)
+l/ia/u/e(CVCV)
+l/ia/u/e(CVVV)
+l/i/au/e(CCVV)
+l/i/au/e(CVVV)
+l/i/a/ue(CCVV)
+l/i/a/ue(CVVV)
+l/ia/u/e(CVCV)
+l/ia/u/e(CVVV)
+l/ia/ue(CVV)
+l/i/au/e(CCVV)
+l/i/au/e(CVVV)
+l/ia/ue(CVV)
+l/i/a/u/_/e(CAVAAV)
+l/i/a/u/_/e(CAVAAV)
+l/ia/u/e/_(CVAVA)
+l/ia/u/e/_(CVAVA)
+l/i/au/e/_(CAVVA)
+l/i/au/e/_(CAVVA)
+l/i/a/ue/_(CAVVA)
+l/i/a/ue/_(CAVVA)
+l/ia/u/e/_(CVAVA)
+l/ia/u/e/_(CVAVA)
+l/ia/ue/_(CVVA)
+l/i/au/e/_(CAVVA)
+l/i/au/e/_(CAVVA)
+l/ia/ue/_(CVVA)
+				version split: ['l', 'i', 'a', 'u', 'e']
+				{'string': 'l/i/a/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'u', 'e']
+				version split: ['l', 'i', 'a', 'u', 'e']
+				{'string': 'l/i/a/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'u', 'e']
+				version split: ['l', 'ia', 'u', 'e']
+				{'string': 'l/ia/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'u', 'e']
+				version split: ['l', 'ia', 'u', 'e']
+				{'string': 'l/ia/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'u', 'e']
+				version split: ['l', 'i', 'au', 'e']
+				{'string': 'l/i/au/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e']
+				version split: ['l', 'i', 'au', 'e']
+				{'string': 'l/i/au/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e']
+				version split: ['l', 'i', 'a', 'ue']
+				{'string': 'l/i/a/ue', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'ue']
+				version split: ['l', 'i', 'a', 'ue']
+				{'string': 'l/i/a/ue', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'ue']
+				version split: ['l', 'ia', 'u', 'e']
+				{'string': 'l/ia/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'u', 'e']
+				version split: ['l', 'ia', 'u', 'e']
+				{'string': 'l/ia/u/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'u', 'e']
+				version split: ['l', 'ia', 'ue']
+				{'string': 'l/ia/ue', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'ue']
+				version split: ['l', 'i', 'au', 'e']
+				{'string': 'l/i/au/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e']
+				version split: ['l', 'i', 'au', 'e']
+				{'string': 'l/i/au/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e']
+				version split: ['l', 'ia', 'ue']
+				{'string': 'l/ia/ue', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'ue']
+				version split: ['l', 'i', 'a', 'u', '_', 'e']
+				{'string': 'l/i/a/u/_/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'u', '_', 'e']
+				version split: ['l', 'i', 'a', 'u', '_', 'e']
+				{'string': 'l/i/a/u/_/e', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'u', '_', 'e']
+				version split: ['l', 'ia', 'u', 'e', '_']
+				{'string': 'l/ia/u/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'ia', 'u', 'e', '_']
+				{'string': 'l/ia/u/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'i', 'au', 'e', '_']
+				{'string': 'l/i/au/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e', '_']
+				version split: ['l', 'i', 'au', 'e', '_']
+				{'string': 'l/i/au/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e', '_']
+				version split: ['l', 'i', 'a', 'ue', '_']
+				{'string': 'l/i/a/ue/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'ue', '_']
+				version split: ['l', 'i', 'a', 'ue', '_']
+				{'string': 'l/i/a/ue/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', 'ue', '_']
+				version split: ['l', 'ia', 'u', 'e', '_']
+				{'string': 'l/ia/u/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'ia', 'u', 'e', '_']
+				{'string': 'l/ia/u/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				version split: ['l', 'ia', 'ue', '_']
+				{'string': 'l/ia/ue/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'ue', '_']
+				version split: ['l', 'i', 'au', 'e', '_']
+				{'string': 'l/i/au/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e', '_']
+				version split: ['l', 'i', 'au', 'e', '_']
+				{'string': 'l/i/au/e/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'i', 'au', 'e', '_']
+				version split: ['l', 'ia', 'ue', '_']
+				{'string': 'l/ia/ue/_', 'rgx': '((l))/((ia))/((u))/((e)|(u))/((_))$'}
+				_____REMOVING________['l', 'ia', 'ue', '_']
+		only one version left: ['l', 'æ', 'f', 'e', '_']
+		only one version left: ['l', 'a', 'f', 'e', '_']
+		only one version left: ['l', 'a', 'u', 'e', '_']
+		only one version left: ['l', 'e', '_', '_', '_']
+		only one version left: ['l', 'e', '_', 'a', '_']
+		only one version left: ['l', 'ea', 'f', '_', '_']
+		only one version left: ['l', 'ea', 'f', 'e', '_']
+		only one version left: ['l', 'ea', 'u', 'e', '_']
+		only one version left: ['l', 'e', 'f', 'e', '_']
+		only one version left: ['l', 'e', 'u', 'e', '_']
+		only one version left: ['l', 'e', 'w', 'e', '_']
+		FAIL: 
+		only one version left: ['l', 'ia', 'u', 'e', '_']
+		SPLIT: ['l', 'ea', 'f', 'a', 'n']
+		SPLIT: ['l', 'ea', 'u', 'e', 'n']
+		SPLIT: ['l', 'e', 'u', 'e', 'n']
+		SPLIT: ['l', 'æ', 'f', 'e', '_']
+		['l', 'æ', 'f', 'e', '_']
+		SPLIT: ['l', 'a', 'f', 'e', '_']
+		['l', 'a', 'f', 'e', '_']
+		SPLIT: ['l', 'a', 'u', 'e', '_']
+		['l', 'a', 'u', 'e', '_']
+		['l', 'a', 'u', 'e', '_']
+		SPLIT: ['l', 'e', '_', '_', '_']
+		['l', 'e', '_', '_', '_']
+		SPLIT: ['l', 'e', '_', 'a', '_']
+		['l', 'e', '_', 'a', '_']
+		SPLIT: ['l', 'ea', 'f', '_', '_']
+		['l', 'ea', 'f', '_', '_']
+		SPLIT: ['l', 'ea', 'f', 'e', '_']
+		['l', 'ea', 'f', 'e', '_']
+		SPLIT: ['l', 'ea', 'u', 'e', '_']
+		['l', 'ea', 'u', 'e', '_']
+		['l', 'ea', 'u', 'e', '_']
+		['l', 'ea', 'u', 'e', '_']
+		['l', 'ea', 'u', 'e', '_']
+		SPLIT: ['l', 'e', 'f', 'e', '_']
+		['l', 'e', 'f', 'e', '_']
+		SPLIT: ['l', 'e', 'u', 'e', '_']
+		['l', 'e', 'u', 'e', '_']
+		['l', 'e', 'u', 'e', '_']
+		SPLIT: ['l', 'e', 'w', 'e', '_']
+		['l', 'e', 'w', 'e', '_']
+		SPLIT: ['l', 'ia', '_', 'a', '_', '----!']
+		SPLIT: ['l', 'ia', 'u', 'e', '_']
+		['l', 'ia', 'u', 'e', '_']
+		['l', 'ia', 'u', 'e', '_']
+		['l', 'ia', 'u', 'e', '_']
+		['l', 'ia', 'u', 'e', '_']
+		version for pattern CVCVC is INVALID
+		[]
+		1
+		POSSIBLE CHANGE: 0 : Palatal Vicinity l-deletion
+		OVERVIEW: version for pattern CVCVC
+
+faulty splits: 1
+liaa----! <-! lia
+l | ea | f | a | n
+l | ea | u | e | n
+l | e | u | e | n
+l | æ | f | e | _
+l | a | f | e | _
+l | a | u | e | _
+l | e | _ | _ | _
+l | e | _ | a | _
+l | ea | f | _ | _
+l | ea | f | e | _
+l | ea | u | e | _
+l | e | f | e | _
+l | e | u | e | _
+l | e | w | e | _
+l | ia | _ | a | _ | ----!
+l | ia | u | e | _
+4 : {'n', '_', 'f'}
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'au', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ew', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	MIN pattern length=4
+	Pattern CV is invalid
+	Pattern CVVCVC is invalid
+	Pattern CVCVC is valid
+	Pattern CVVV is invalid
+	Pattern CCVCV is valid
+	Pattern CVVC is invalid
+	Pattern CVC is invalid
+	Pattern CVCV is valid
+	Pattern CCV is invalid
+	Pattern CVVCV is invalid
+	Pattern CVVVV is invalid
+	Pattern CCVV is invalid
+	Pattern CVV is invalid
+	Pattern CVVVC is invalid
+	Pattern CVVVVC is invalid
+	Making the selection for pattern: CCVCV
+	Selection for pattern: CCVCV completed
+	Making a version for pattern: CCVCV
+			___CCVCV : 0___
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: l
+					> version: l/a/u/e
+					TRYING: l
+					> version: l/au/e
+					TRYING: l
+					> version: l/a/ue
+					TRYING: l
+					> version: l/au/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: l
+					> version: l/ea
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: l
+					> version: l/ea/f
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: l
+					> version: l/ea/f/a/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: l
+					> version: l/ea/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: l
+					> version: l/e/a/u/e
+					TRYING: l
+					> version: l/e/au/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/e/a/ue
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/ea/u/e
+					TRYING: l
+					> version: l/e/au/e
+					TRYING: l
+					> version: l/ea/ue
+					TRYING: l
+					> version: l/ea/ue
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: l
+					> version: l/e/a/u/e/n
+					TRYING: l
+					> version: l/e/au/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/e/a/ue/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/e/au/e/n
+					TRYING: l
+					> version: l/ea/ue/n
+					TRYING: l
+					> version: l/ea/ue/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: l
+					> version: l/e/u/e
+					TRYING: l
+					> version: l/eu/e
+					TRYING: l
+					> version: l/e/ue
+					TRYING: l
+					> version: l/eu/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: l
+					> version: l/e/u/e/n
+					TRYING: l
+					> version: l/eu/e/n
+					TRYING: l
+					> version: l/e/ue/n
+					TRYING: l
+					> version: l/eu/e/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: l
+					> version: l/ew/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: l
+					> version: l/i/a
+					TRYING: l
+					> version: l/ia
+					TRYING: l
+					RESULT:  ['l']
+			___CCVCV : 1___
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: æ
+					RESULT:  ['æ']
+				ANALYSING: lafe
+					resolving (1)
+					> version: l/a/f/e
+					TRYING: a
+					RESULT:  ['_']
+				adding dashed alternative: ['l', '_', 'a', 'f', 'e']
+				l/a/f/e(CVCV)
+l/_/a/f/e(CAVCV)
+				ANALYSING: laue
+					resolving (5)
+					> version: l/a/u/e
+					TRYING: a
+					> version: l/a/u/e
+					TRYING: a
+					> version: l/au/e
+					TRYING: au
+					> version: l/a/ue
+					TRYING: a
+					> version: l/au/e
+					TRYING: au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', '_', 'au', 'e']
+				adding dashed alternative: ['l', '_', 'a', 'ue']
+				adding dashed alternative: ['l', '_', 'au', 'e']
+				l/a/u/e(CVCV)
+l/a/u/e(CVVV)
+l/au/e(CVV)
+l/a/ue(CVV)
+l/au/e(CVV)
+l/_/a/u/e(CAVAV)
+l/_/a/u/e(CAVAV)
+l/_/au/e(CAVV)
+l/_/a/ue(CAVV)
+l/_/au/e(CAVV)
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: e
+					> version: l/ea
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: e
+					> version: l/ea/f
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: e
+					> version: l/ea/f/a/n
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: e
+					> version: l/ea/f/e
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/au/e
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: ea
+					> version: l/ea/u/e
+					TRYING: ea
+					> version: l/e/a/ue
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: ea
+					> version: l/ea/u/e
+					TRYING: ea
+					> version: l/e/au/e
+					TRYING: e
+					> version: l/ea/ue
+					TRYING: ea
+					> version: l/ea/ue
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/au/e/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: ea
+					> version: l/ea/u/e/n
+					TRYING: ea
+					> version: l/e/a/ue/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: ea
+					> version: l/ea/u/e/n
+					TRYING: ea
+					> version: l/e/au/e/n
+					TRYING: e
+					> version: l/ea/ue/n
+					TRYING: ea
+					> version: l/ea/ue/n
+					TRYING: ea
+					RESULT:  ['e']
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/eu/e
+					TRYING: eu
+					> version: l/e/ue
+					TRYING: e
+					> version: l/eu/e
+					TRYING: eu
+					RESULT:  ['e']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: eu
+					> version: l/e/ue/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: eu
+					RESULT:  ['e']
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: e
+					> version: l/ew/e
+					TRYING: ew
+					RESULT:  ['e']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: i
+					> version: l/i/a
+					TRYING: i
+					> version: l/ia
+					TRYING: ia
+					RESULT:  ['i']
+			___CCVCV : 2___
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (1)
+					> version: l/æ/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'æ', '_', 'f', 'e']
+				l/æ/f/e(CVCV)
+l/æ/_/f/e(CVACV)
+				ANALYSING: lafe
+					resolving (2)
+					> version: l/a/f/e
+					TRYING: f
+					> version: l/_/a/f/e
+					TRYING: a
+					RESULT:  ['a']
+				ANALYSING: laue
+					resolving (10)
+					> version: l/a/u/e
+					TRYING: u
+					> version: l/a/u/e
+					TRYING: u
+					> version: l/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/a/ue
+					TRYING: ue
+					adding blocked set: V = V >> a, _, ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/_/a/u/e
+					TRYING: a
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'e', 'u'}
+					> version: l/_/a/u/e
+					TRYING: a
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'e', 'u'}
+					> version: l/_/au/e
+					TRYING: au
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'e', 'au', 'u'}
+					> version: l/_/a/ue
+					TRYING: a
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'e', 'au', 'u'}
+					> version: l/_/au/e
+					TRYING: au
+					>>> MULTIPLE RESOLVE OPTIONS: {'a', 'e', 'au', 'u'}
+					RESULT:  ['a', 'e', 'au', 'u']
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				l/e(CV)
+l/e/_(CVA)
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a']
+				adding dashed alternative: ['l', 'ea', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/f
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'f']
+				adding dashed alternative: ['l', 'ea', '_', 'f']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/_/a/f(CVAVC)
+l/ea/_/f(CVAC)
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/f/a/n
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'f', 'a', 'n']
+				l/e/a/f/a/n(CVVCVC)
+l/ea/f/a/n(CVCVC)
+l/e/_/a/f/a/n(CVAVCVC)
+l/ea/_/f/a/n(CVACVC)
+				ANALYSING: leafe
+					resolving (2)
+					> version: l/e/a/f/e
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'f', 'e']
+				adding dashed alternative: ['l', 'ea', '_', 'f', 'e']
+				l/e/a/f/e(CVVCV)
+l/ea/f/e(CVCV)
+l/e/_/a/f/e(CVAVCV)
+l/ea/_/f/e(CVACV)
+				ANALYSING: leaue
+					resolving (11)
+					> version: l/e/a/u/e
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/a/u/e
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/au/e
+					TRYING: au
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/a/ue
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/au/e
+					TRYING: au
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/ue
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					> version: l/ea/ue
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'au', 'e']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'ue']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'au', 'e']
+				adding dashed alternative: ['l', 'ea', '_', 'ue']
+				adding dashed alternative: ['l', 'ea', '_', 'ue']
+				l/e/a/u/e(CVVCV)
+l/e/a/u/e(CVVVV)
+l/e/au/e(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/a/ue(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/au/e(CVVV)
+l/ea/ue(CVV)
+l/ea/ue(CVV)
+l/e/_/a/u/e(CVAVAV)
+l/e/_/a/u/e(CVAVAV)
+l/e/_/au/e(CVAVV)
+l/ea/_/u/e(CVAAV)
+l/ea/_/u/e(CVAAV)
+l/e/_/a/ue(CVAVV)
+l/ea/_/u/e(CVAAV)
+l/ea/_/u/e(CVAAV)
+l/e/_/au/e(CVAVV)
+l/ea/_/ue(CVAV)
+l/ea/_/ue(CVAV)
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/a/u/e/n
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/au/e/n
+					TRYING: au
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/a/ue/n
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/au/e/n
+					TRYING: au
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ea/ue/n
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					> version: l/ea/ue/n
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'au', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'a', 'ue', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'au', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'ue', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'ue', 'n']
+				l/e/a/u/e/n(CVVCVC)
+l/e/a/u/e/n(CVVVVC)
+l/e/au/e/n(CVVVC)
+l/ea/u/e/n(CVCVC)
+l/ea/u/e/n(CVVVC)
+l/e/a/ue/n(CVVVC)
+l/ea/u/e/n(CVCVC)
+l/ea/u/e/n(CVVVC)
+l/e/au/e/n(CVVVC)
+l/ea/ue/n(CVVC)
+l/ea/ue/n(CVVC)
+l/e/_/a/u/e/n(CVAVAVC)
+l/e/_/a/u/e/n(CVAVAVC)
+l/e/_/au/e/n(CVAVVC)
+l/ea/_/u/e/n(CVAAVC)
+l/ea/_/u/e/n(CVAAVC)
+l/e/_/a/ue/n(CVAVVC)
+l/ea/_/u/e/n(CVAAVC)
+l/ea/_/u/e/n(CVAAVC)
+l/e/_/au/e/n(CVAVVC)
+l/ea/_/ue/n(CVAVC)
+l/ea/_/ue/n(CVAVC)
+				ANALYSING: lefe
+					resolving (1)
+					> version: l/e/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'f', 'e']
+				l/e/f/e(CVCV)
+l/e/_/f/e(CVACV)
+				ANALYSING: leue
+					resolving (5)
+					> version: l/e/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/u/e
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/eu/e
+					TRYING: e
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/ue
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					> version: l/eu/e
+					TRYING: e
+					adding blocked set: V = V >> e, u, a, _, au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'eu', '_', 'e']
+				adding dashed alternative: ['l', 'e', '_', 'ue']
+				adding dashed alternative: ['l', 'eu', '_', 'e']
+				l/e/u/e(CVCV)
+l/e/u/e(CVVV)
+l/eu/e(CVV)
+l/e/ue(CVV)
+l/eu/e(CVV)
+l/e/_/u/e(CVAAV)
+l/e/_/u/e(CVAAV)
+l/eu/_/e(CVAV)
+l/e/_/ue(CVAV)
+l/eu/_/e(CVAV)
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/u/e/n
+					TRYING: u
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/eu/e/n
+					TRYING: e
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/e/ue/n
+					TRYING: ue
+					adding blocked set: V = V >> ue, e, u, a, _, au
+					> version: l/eu/e/n
+					TRYING: e
+					adding blocked set: V = V >> e, u, a, _, au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'eu', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'ue', 'n']
+				adding dashed alternative: ['l', 'eu', '_', 'e', 'n']
+				l/e/u/e/n(CVCVC)
+l/e/u/e/n(CVVVC)
+l/eu/e/n(CVVC)
+l/e/ue/n(CVVC)
+l/eu/e/n(CVVC)
+l/e/_/u/e/n(CVAAVC)
+l/e/_/u/e/n(CVAAVC)
+l/eu/_/e/n(CVAVC)
+l/e/_/ue/n(CVAVC)
+l/eu/_/e/n(CVAVC)
+				ANALYSING: lewe
+					resolving (2)
+					> version: l/e/w/e
+					TRYING: w
+					> version: l/ew/e
+					TRYING: e
+					adding blocked set: V = V >> e, u, a, _, au
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'w', 'e']
+				adding dashed alternative: ['l', 'ew', '_', 'e']
+				l/e/w/e(CVCV)
+l/ew/e(CVV)
+l/e/_/w/e(CVACV)
+l/ew/_/e(CVAV)
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/i/a
+					TRYING: a
+					adding blocked set: V = V >> e, u, a, _, au
+					> version: l/ia
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'ia', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+			___CCVCV : 3___
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (2)
+					> version: l/æ/f/e
+					TRYING: e
+					> version: l/æ/_/f/e
+					TRYING: f
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'f'}
+					RESULT:  ['e', 'f']
+				ANALYSING: lafe
+					resolving (2)
+					> version: l/a/f/e
+					TRYING: e
+					> version: l/_/a/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'a', 'f', '_', 'e']
+				adding dashed alternative: ['l', '_', 'a', '_', 'f', 'e']
+				l/a/f/e(CVCV)
+l/_/a/f/e(CAVCV)
+l/a/f/_/e(CVCAV)
+l/_/a/_/f/e(CAVACV)
+				ANALYSING: laue
+					resolving (10)
+					> version: l/a/u/e
+					TRYING: e
+					> version: l/a/u/e
+					TRYING: e
+					> version: l/au/e
+					> version: l/a/ue
+					> version: l/au/e
+					> version: l/_/a/u/e
+					TRYING: u
+					> version: l/_/a/u/e
+					TRYING: u
+					> version: l/_/au/e
+					TRYING: e
+					> version: l/_/a/ue
+					TRYING: ue
+					> version: l/_/au/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'a', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'au', 'e', '_']
+				adding dashed alternative: ['l', 'a', 'ue', '_']
+				adding dashed alternative: ['l', 'au', 'e', '_']
+				adding dashed alternative: ['l', '_', 'a', '_', 'u', 'e']
+				adding dashed alternative: ['l', '_', 'a', '_', 'u', 'e']
+				adding dashed alternative: ['l', '_', 'au', '_', 'e']
+				adding dashed alternative: ['l', '_', 'a', '_', 'ue']
+				adding dashed alternative: ['l', '_', 'au', '_', 'e']
+				l/a/u/e(CVCV)
+l/a/u/e(CVVV)
+l/au/e(CVV)
+l/a/ue(CVV)
+l/au/e(CVV)
+l/_/a/u/e(CAVAV)
+l/_/a/u/e(CAVAV)
+l/_/au/e(CAVV)
+l/_/a/ue(CAVV)
+l/_/au/e(CAVV)
+l/a/u/_/e(CVAAV)
+l/a/u/_/e(CVAAV)
+l/au/e/_(CVVA)
+l/a/ue/_(CVVA)
+l/au/e/_(CVVA)
+l/_/a/_/u/e(CAVAAV)
+l/_/a/_/u/e(CAVAAV)
+l/_/au/_/e(CAVAV)
+l/_/a/_/ue(CAVAV)
+l/_/au/_/e(CAVAV)
+				ANALYSING: le
+					resolving (2)
+					> version: l/e
+					> version: l/e/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				l/e(CV)
+l/e/_(CVA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+				ANALYSING: lea
+					resolving (4)
+					> version: l/e/a
+					> version: l/ea
+					> version: l/e/_/a
+					TRYING: a
+					> version: l/ea/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_']
+				adding dashed alternative: ['l', 'ea', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a']
+				adding dashed alternative: ['l', 'ea', '_', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+l/e/a/_(CVVA)
+l/ea/_(CVA)
+l/e/_/_/a(CVAAV)
+l/ea/_/_(CVAA)
+				ANALYSING: leaf
+					resolving (4)
+					> version: l/e/a/f
+					TRYING: f
+					> version: l/ea/f
+					> version: l/e/_/a/f
+					TRYING: a
+					> version: l/ea/_/f
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'f']
+				adding dashed alternative: ['l', 'ea', 'f', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'f']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'f']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/_/a/f(CVAVC)
+l/ea/_/f(CVAC)
+l/e/a/_/f(CVVAC)
+l/ea/f/_(CVCA)
+l/e/_/_/a/f(CVAAVC)
+l/ea/_/_/f(CVAAC)
+				ANALYSING: leafan
+					resolving (4)
+					> version: l/e/a/f/a/n
+					TRYING: f
+					> version: l/ea/f/a/n
+					TRYING: a
+					> version: l/e/_/a/f/a/n
+					TRYING: a
+					> version: l/ea/_/f/a/n
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', 'f', '_', 'a', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'f', 'a', 'n']
+				l/e/a/f/a/n(CVVCVC)
+l/ea/f/a/n(CVCVC)
+l/e/_/a/f/a/n(CVAVCVC)
+l/ea/_/f/a/n(CVACVC)
+l/e/a/_/f/a/n(CVVACVC)
+l/ea/f/_/a/n(CVCAVC)
+l/e/_/_/a/f/a/n(CVAAVCVC)
+l/ea/_/_/f/a/n(CVAACVC)
+				ANALYSING: leafe
+					resolving (4)
+					> version: l/e/a/f/e
+					TRYING: f
+					> version: l/ea/f/e
+					TRYING: e
+					> version: l/e/_/a/f/e
+					TRYING: a
+					> version: l/ea/_/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'f', 'e']
+				adding dashed alternative: ['l', 'ea', 'f', '_', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'f', 'e']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'f', 'e']
+				l/e/a/f/e(CVVCV)
+l/ea/f/e(CVCV)
+l/e/_/a/f/e(CVAVCV)
+l/ea/_/f/e(CVACV)
+l/e/a/_/f/e(CVVACV)
+l/ea/f/_/e(CVCAV)
+l/e/_/_/a/f/e(CVAAVCV)
+l/ea/_/_/f/e(CVAACV)
+				ANALYSING: leaue
+					resolving (22)
+					> version: l/e/a/u/e
+					TRYING: u
+					> version: l/e/a/u/e
+					TRYING: u
+					> version: l/e/au/e
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: e
+					> version: l/e/a/ue
+					TRYING: ue
+					> version: l/ea/u/e
+					TRYING: e
+					> version: l/ea/u/e
+					TRYING: e
+					> version: l/e/au/e
+					TRYING: e
+					> version: l/ea/ue
+					> version: l/ea/ue
+					> version: l/e/_/a/u/e
+					TRYING: a
+					> version: l/e/_/a/u/e
+					TRYING: a
+					> version: l/e/_/au/e
+					TRYING: au
+					> version: l/ea/_/u/e
+					TRYING: u
+					> version: l/ea/_/u/e
+					TRYING: u
+					> version: l/e/_/a/ue
+					TRYING: a
+					> version: l/ea/_/u/e
+					TRYING: u
+					> version: l/ea/_/u/e
+					TRYING: u
+					> version: l/e/_/au/e
+					TRYING: au
+					> version: l/ea/_/ue
+					TRYING: ue
+					> version: l/ea/_/ue
+					TRYING: ue
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', 'au', '_', 'e']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'ue']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'e', 'au', '_', 'e']
+				adding dashed alternative: ['l', 'ea', 'ue', '_']
+				adding dashed alternative: ['l', 'ea', 'ue', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'au', 'e']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'ue']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'au', 'e']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'ue']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'ue']
+				l/e/a/u/e(CVVCV)
+l/e/a/u/e(CVVVV)
+l/e/au/e(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/a/ue(CVVV)
+l/ea/u/e(CVCV)
+l/ea/u/e(CVVV)
+l/e/au/e(CVVV)
+l/ea/ue(CVV)
+l/ea/ue(CVV)
+l/e/_/a/u/e(CVAVAV)
+l/e/_/a/u/e(CVAVAV)
+l/e/_/au/e(CVAVV)
+l/ea/_/u/e(CVAAV)
+l/ea/_/u/e(CVAAV)
+l/e/_/a/ue(CVAVV)
+l/ea/_/u/e(CVAAV)
+l/ea/_/u/e(CVAAV)
+l/e/_/au/e(CVAVV)
+l/ea/_/ue(CVAV)
+l/ea/_/ue(CVAV)
+l/e/a/_/u/e(CVVAAV)
+l/e/a/_/u/e(CVVAAV)
+l/e/au/_/e(CVVAV)
+l/ea/u/_/e(CVAAV)
+l/ea/u/_/e(CVAAV)
+l/e/a/_/ue(CVVAV)
+l/ea/u/_/e(CVAAV)
+l/ea/u/_/e(CVAAV)
+l/e/au/_/e(CVVAV)
+l/ea/ue/_(CVVA)
+l/ea/ue/_(CVVA)
+l/e/_/_/a/u/e(CVAAVAV)
+l/e/_/_/a/u/e(CVAAVAV)
+l/e/_/_/au/e(CVAAVV)
+l/ea/_/_/u/e(CVAAAV)
+l/ea/_/_/u/e(CVAAAV)
+l/e/_/_/a/ue(CVAAVV)
+l/ea/_/_/u/e(CVAAAV)
+l/ea/_/_/u/e(CVAAAV)
+l/e/_/_/au/e(CVAAVV)
+l/ea/_/_/ue(CVAAV)
+l/ea/_/_/ue(CVAAV)
+				ANALYSING: leauen
+					resolving (22)
+					> version: l/e/a/u/e/n
+					TRYING: u
+					> version: l/e/a/u/e/n
+					TRYING: u
+					> version: l/e/au/e/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: e
+					> version: l/e/a/ue/n
+					TRYING: ue
+					> version: l/ea/u/e/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: e
+					> version: l/e/au/e/n
+					TRYING: e
+					> version: l/ea/ue/n
+					TRYING: n
+					> version: l/ea/ue/n
+					TRYING: n
+					> version: l/e/_/a/u/e/n
+					TRYING: a
+					> version: l/e/_/a/u/e/n
+					TRYING: a
+					> version: l/e/_/au/e/n
+					TRYING: au
+					> version: l/ea/_/u/e/n
+					TRYING: u
+					> version: l/ea/_/u/e/n
+					TRYING: u
+					> version: l/e/_/a/ue/n
+					TRYING: a
+					> version: l/ea/_/u/e/n
+					TRYING: u
+					> version: l/ea/_/u/e/n
+					TRYING: u
+					> version: l/e/_/au/e/n
+					TRYING: au
+					> version: l/ea/_/ue/n
+					TRYING: ue
+					> version: l/ea/_/ue/n
+					TRYING: ue
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', 'au', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'ue', 'n']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'e', 'au', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', 'ue', '_', 'n']
+				adding dashed alternative: ['l', 'ea', 'ue', '_', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'au', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'a', 'ue', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'au', 'e', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'ue', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', 'ue', 'n']
+				l/e/a/u/e/n(CVVCVC)
+l/e/a/u/e/n(CVVVVC)
+l/e/au/e/n(CVVVC)
+l/ea/u/e/n(CVCVC)
+l/ea/u/e/n(CVVVC)
+l/e/a/ue/n(CVVVC)
+l/ea/u/e/n(CVCVC)
+l/ea/u/e/n(CVVVC)
+l/e/au/e/n(CVVVC)
+l/ea/ue/n(CVVC)
+l/ea/ue/n(CVVC)
+l/e/_/a/u/e/n(CVAVAVC)
+l/e/_/a/u/e/n(CVAVAVC)
+l/e/_/au/e/n(CVAVVC)
+l/ea/_/u/e/n(CVAAVC)
+l/ea/_/u/e/n(CVAAVC)
+l/e/_/a/ue/n(CVAVVC)
+l/ea/_/u/e/n(CVAAVC)
+l/ea/_/u/e/n(CVAAVC)
+l/e/_/au/e/n(CVAVVC)
+l/ea/_/ue/n(CVAVC)
+l/ea/_/ue/n(CVAVC)
+l/e/a/_/u/e/n(CVVAAVC)
+l/e/a/_/u/e/n(CVVAAVC)
+l/e/au/_/e/n(CVVAVC)
+l/ea/u/_/e/n(CVAAVC)
+l/ea/u/_/e/n(CVAAVC)
+l/e/a/_/ue/n(CVVAVC)
+l/ea/u/_/e/n(CVAAVC)
+l/ea/u/_/e/n(CVAAVC)
+l/e/au/_/e/n(CVVAVC)
+l/ea/ue/_/n(CVVAC)
+l/ea/ue/_/n(CVVAC)
+l/e/_/_/a/u/e/n(CVAAVAVC)
+l/e/_/_/a/u/e/n(CVAAVAVC)
+l/e/_/_/au/e/n(CVAAVVC)
+l/ea/_/_/u/e/n(CVAAAVC)
+l/ea/_/_/u/e/n(CVAAAVC)
+l/e/_/_/a/ue/n(CVAAVVC)
+l/ea/_/_/u/e/n(CVAAAVC)
+l/ea/_/_/u/e/n(CVAAAVC)
+l/e/_/_/au/e/n(CVAAVVC)
+l/ea/_/_/ue/n(CVAAVC)
+l/ea/_/_/ue/n(CVAAVC)
+				ANALYSING: lefe
+					resolving (2)
+					> version: l/e/f/e
+					TRYING: e
+					> version: l/e/_/f/e
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'f', '_', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'f', 'e']
+				l/e/f/e(CVCV)
+l/e/_/f/e(CVACV)
+l/e/f/_/e(CVCAV)
+l/e/_/_/f/e(CVAACV)
+				ANALYSING: leue
+					resolving (10)
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/e/u/e
+					TRYING: e
+					> version: l/eu/e
+					> version: l/e/ue
+					> version: l/eu/e
+					> version: l/e/_/u/e
+					TRYING: u
+					> version: l/e/_/u/e
+					TRYING: u
+					> version: l/eu/_/e
+					TRYING: e
+					> version: l/e/_/ue
+					TRYING: ue
+					> version: l/eu/_/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'e', 'u', '_', 'e']
+				adding dashed alternative: ['l', 'eu', 'e', '_']
+				adding dashed alternative: ['l', 'e', 'ue', '_']
+				adding dashed alternative: ['l', 'eu', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'u', 'e']
+				adding dashed alternative: ['l', 'eu', '_', '_', 'e']
+				adding dashed alternative: ['l', 'e', '_', '_', 'ue']
+				adding dashed alternative: ['l', 'eu', '_', '_', 'e']
+				l/e/u/e(CVCV)
+l/e/u/e(CVVV)
+l/eu/e(CVV)
+l/e/ue(CVV)
+l/eu/e(CVV)
+l/e/_/u/e(CVAAV)
+l/e/_/u/e(CVAAV)
+l/eu/_/e(CVAV)
+l/e/_/ue(CVAV)
+l/eu/_/e(CVAV)
+l/e/u/_/e(CVAAV)
+l/e/u/_/e(CVAAV)
+l/eu/e/_(CVVA)
+l/e/ue/_(CVVA)
+l/eu/e/_(CVVA)
+l/e/_/_/u/e(CVAAAV)
+l/e/_/_/u/e(CVAAAV)
+l/eu/_/_/e(CVAAV)
+l/e/_/_/ue(CVAAV)
+l/eu/_/_/e(CVAAV)
+				ANALYSING: leuen
+					resolving (10)
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: n
+					> version: l/e/ue/n
+					TRYING: n
+					> version: l/eu/e/n
+					TRYING: n
+					> version: l/e/_/u/e/n
+					TRYING: u
+					> version: l/e/_/u/e/n
+					TRYING: u
+					> version: l/eu/_/e/n
+					TRYING: e
+					> version: l/e/_/ue/n
+					TRYING: ue
+					> version: l/eu/_/e/n
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'e', 'u', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'eu', 'e', '_', 'n']
+				adding dashed alternative: ['l', 'e', 'ue', '_', 'n']
+				adding dashed alternative: ['l', 'eu', 'e', '_', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'u', 'e', 'n']
+				adding dashed alternative: ['l', 'eu', '_', '_', 'e', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', 'ue', 'n']
+				adding dashed alternative: ['l', 'eu', '_', '_', 'e', 'n']
+				l/e/u/e/n(CVCVC)
+l/e/u/e/n(CVVVC)
+l/eu/e/n(CVVC)
+l/e/ue/n(CVVC)
+l/eu/e/n(CVVC)
+l/e/_/u/e/n(CVAAVC)
+l/e/_/u/e/n(CVAAVC)
+l/eu/_/e/n(CVAVC)
+l/e/_/ue/n(CVAVC)
+l/eu/_/e/n(CVAVC)
+l/e/u/_/e/n(CVAAVC)
+l/e/u/_/e/n(CVAAVC)
+l/eu/e/_/n(CVVAC)
+l/e/ue/_/n(CVVAC)
+l/eu/e/_/n(CVVAC)
+l/e/_/_/u/e/n(CVAAAVC)
+l/e/_/_/u/e/n(CVAAAVC)
+l/eu/_/_/e/n(CVAAVC)
+l/e/_/_/ue/n(CVAAVC)
+l/eu/_/_/e/n(CVAAVC)
+				ANALYSING: lewe
+					resolving (4)
+					> version: l/e/w/e
+					TRYING: e
+					> version: l/ew/e
+					> version: l/e/_/w/e
+					TRYING: w
+					> version: l/ew/_/e
+					TRYING: e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'w', '_', 'e']
+				adding dashed alternative: ['l', 'ew', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', 'w', 'e']
+				adding dashed alternative: ['l', 'ew', '_', '_', 'e']
+				l/e/w/e(CVCV)
+l/ew/e(CVV)
+l/e/_/w/e(CVACV)
+l/ew/_/e(CVAV)
+l/e/w/_/e(CVCAV)
+l/ew/e/_(CVVA)
+l/e/_/_/w/e(CVAACV)
+l/ew/_/_/e(CVAAV)
+				ANALYSING: lia
+					resolving (6)
+					> version: l/i/a
+					> version: l/i/a
+					> version: l/ia
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/ia/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'ia', '_']
+				adding dashed alternative: ['l', 'i', '_', '_', 'a']
+				adding dashed alternative: ['l', 'i', '_', '_', 'a']
+				adding dashed alternative: ['l', 'ia', '_', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+l/i/a/_(CAVA)
+l/i/a/_(CAVA)
+l/ia/_(CVA)
+l/i/_/_/a(CAAAV)
+l/i/_/_/a(CAAAV)
+l/ia/_/_(CVAA)
+			___CCVCV : 4___
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: læfe
+					resolving (2)
+					> version: l/æ/f/e
+					> version: l/æ/_/f/e
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['l', 'æ', 'f', 'e']
+				{'string': 'l/æ/f/e', 'rgx': '((l))/((æ))/((_))/((e)|(f))/((e))$'}
+				_____REMOVING________['l', 'æ', 'f', 'e']
+				version split: ['l', 'æ', '_', 'f', 'e']
+				{'string': 'l/æ/_/f/e', 'rgx': '((l))/((æ))/((_))/((e)|(f))/((e))$'}
+				ANALYSING: lafe
+					resolving (4)
+					> version: l/a/f/e
+					> version: l/_/a/f/e
+					TRYING: e
+					> version: l/a/f/_/e
+					TRYING: e
+					> version: l/_/a/_/f/e
+					TRYING: f
+					RESULT:  ['e']
+				version split: ['l', 'a', 'f', 'e']
+				{'string': 'l/a/f/e', 'rgx': '((l))/((_))/((a))/((_))/((e))$'}
+				_____REMOVING________['l', 'a', 'f', 'e']
+				version split: ['l', '_', 'a', 'f', 'e']
+				{'string': 'l/_/a/f/e', 'rgx': '((l))/((_))/((a))/((_))/((e))$'}
+				_____REMOVING________['l', '_', 'a', 'f', 'e']
+				version split: ['l', 'a', 'f', '_', 'e']
+				{'string': 'l/a/f/_/e', 'rgx': '((l))/((_))/((a))/((_))/((e))$'}
+				_____REMOVING________['l', 'a', 'f', '_', 'e']
+				version split: ['l', '_', 'a', '_', 'f', 'e']
+				{'string': 'l/_/a/_/f/e', 'rgx': '((l))/((_))/((a))/((_))/((e))$'}
+				_____REMOVING________['l', '_', 'a', '_', 'f', 'e']
+				ANALYSING: laue
+					resolving (20)
+					> version: l/a/u/e
+					> version: l/a/u/e
+					> version: l/au/e
+					> version: l/a/ue
+					> version: l/au/e
+					> version: l/_/a/u/e
+					TRYING: e
+					> version: l/_/a/u/e
+					TRYING: e
+					> version: l/_/au/e
+					> version: l/_/a/ue
+					> version: l/_/au/e
+					> version: l/a/u/_/e
+					TRYING: e
+					> version: l/a/u/_/e
+					TRYING: e
+					> version: l/au/e/_
+					> version: l/a/ue/_
+					> version: l/au/e/_
+					> version: l/_/a/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/_/a/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/_/au/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/_/a/_/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/_/au/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					RESULT:  ['ue', 'e', 'u']
+				version split: ['l', 'a', 'u', 'e']
+				{'string': 'l/a/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'u', 'e']
+				version split: ['l', 'a', 'u', 'e']
+				{'string': 'l/a/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'u', 'e']
+				version split: ['l', 'au', 'e']
+				{'string': 'l/au/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'au', 'e']
+				version split: ['l', 'a', 'ue']
+				{'string': 'l/a/ue', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'ue']
+				version split: ['l', 'au', 'e']
+				{'string': 'l/au/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'au', 'e']
+				version split: ['l', '_', 'a', 'u', 'e']
+				{'string': 'l/_/a/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'a', 'u', 'e']
+				version split: ['l', '_', 'a', 'u', 'e']
+				{'string': 'l/_/a/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'a', 'u', 'e']
+				version split: ['l', '_', 'au', 'e']
+				{'string': 'l/_/au/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'au', 'e']
+				version split: ['l', '_', 'a', 'ue']
+				{'string': 'l/_/a/ue', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'a', 'ue']
+				version split: ['l', '_', 'au', 'e']
+				{'string': 'l/_/au/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'au', 'e']
+				version split: ['l', 'a', 'u', '_', 'e']
+				{'string': 'l/a/u/_/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'u', '_', 'e']
+				version split: ['l', 'a', 'u', '_', 'e']
+				{'string': 'l/a/u/_/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'u', '_', 'e']
+				version split: ['l', 'au', 'e', '_']
+				{'string': 'l/au/e/_', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'au', 'e', '_']
+				version split: ['l', 'a', 'ue', '_']
+				{'string': 'l/a/ue/_', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'a', 'ue', '_']
+				version split: ['l', 'au', 'e', '_']
+				{'string': 'l/au/e/_', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'au', 'e', '_']
+				version split: ['l', '_', 'a', '_', 'u', 'e']
+				{'string': 'l/_/a/_/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'a', '_', 'u', 'e']
+				version split: ['l', '_', 'a', '_', 'u', 'e']
+				{'string': 'l/_/a/_/u/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', '_', 'a', '_', 'u', 'e']
+				version split: ['l', '_', 'au', '_', 'e']
+				{'string': 'l/_/au/_/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				version split: ['l', '_', 'a', '_', 'ue']
+				{'string': 'l/_/a/_/ue', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				version split: ['l', '_', 'au', '_', 'e']
+				{'string': 'l/_/au/_/e', 'rgx': '((l))/((_))/((a)|(e)|(au)|(u))/((_))/((ue)|(e)|(u))$'}
+				ANALYSING: le
+					resolving (4)
+					> version: l/e
+					> version: l/e/_
+					> version: l/e/_
+					> version: l/e/_/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', '_']
+				l/e(CV)
+l/e/_(CVA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+l/e/_/_(CVAA)
+l/e/_/_/_(CVAAA)
+				version split: ['l', 'e']
+				{'string': 'l/e', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_']
+				version split: ['l', 'e', '_', '_', '_']
+				{'string': 'l/e/_/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				ANALYSING: lea
+					resolving (8)
+					> version: l/e/a
+					> version: l/ea
+					> version: l/e/_/a
+					> version: l/ea/_
+					> version: l/e/a/_
+					> version: l/ea/_
+					> version: l/e/_/_/a
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ea/_/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_']
+				adding dashed alternative: ['l', 'ea', '_']
+				adding dashed alternative: ['l', 'e', '_', 'a', '_']
+				adding dashed alternative: ['l', 'ea', '_', '_']
+				adding dashed alternative: ['l', 'e', 'a', '_', '_']
+				adding dashed alternative: ['l', 'ea', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', '_', 'a']
+				adding dashed alternative: ['l', 'ea', '_', '_', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+l/e/a/_(CVVA)
+l/ea/_(CVA)
+l/e/_/_/a(CVAAV)
+l/ea/_/_(CVAA)
+l/e/a/_(CVVA)
+l/ea/_(CVA)
+l/e/_/a/_(CVAVA)
+l/ea/_/_(CVAA)
+l/e/a/_/_(CVVAA)
+l/ea/_/_(CVAA)
+l/e/_/_/_/a(CVAAAV)
+l/ea/_/_/_(CVAAA)
+				version split: ['l', 'e', 'a']
+				{'string': 'l/e/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a']
+				version split: ['l', 'ea']
+				{'string': 'l/ea', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea']
+				version split: ['l', 'e', '_', 'a']
+				{'string': 'l/e/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a']
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_']
+				version split: ['l', 'e', 'a', '_']
+				{'string': 'l/e/a/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_']
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_']
+				version split: ['l', 'e', '_', '_', 'a']
+				{'string': 'l/e/_/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a']
+				version split: ['l', 'ea', '_', '_']
+				{'string': 'l/ea/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_']
+				version split: ['l', 'e', 'a', '_']
+				{'string': 'l/e/a/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_']
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_']
+				version split: ['l', 'e', '_', 'a', '_']
+				{'string': 'l/e/_/a/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a', '_']
+				version split: ['l', 'ea', '_', '_']
+				{'string': 'l/ea/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_']
+				version split: ['l', 'e', 'a', '_', '_']
+				{'string': 'l/e/a/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', '_']
+				version split: ['l', 'ea', '_', '_']
+				{'string': 'l/ea/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_']
+				version split: ['l', 'e', '_', '_', '_', 'a']
+				{'string': 'l/e/_/_/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', '_', 'a']
+				version split: ['l', 'ea', '_', '_', '_']
+				{'string': 'l/ea/_/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_', '_']
+				ANALYSING: leaf
+					resolving (8)
+					> version: l/e/a/f
+					> version: l/ea/f
+					> version: l/e/_/a/f
+					TRYING: f
+					> version: l/ea/_/f
+					> version: l/e/a/_/f
+					TRYING: f
+					> version: l/ea/f/_
+					> version: l/e/_/_/a/f
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ea/_/_/f
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', 'f', '_']
+				adding dashed alternative: ['l', 'ea', 'f', '_']
+				adding dashed alternative: ['l', 'e', '_', 'a', '_', 'f']
+				adding dashed alternative: ['l', 'ea', '_', 'f', '_']
+				adding dashed alternative: ['l', 'e', 'a', '_', '_', 'f']
+				adding dashed alternative: ['l', 'ea', 'f', '_', '_']
+				adding dashed alternative: ['l', 'e', '_', '_', '_', 'a', 'f']
+				adding dashed alternative: ['l', 'ea', '_', '_', '_', 'f']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/_/a/f(CVAVC)
+l/ea/_/f(CVAC)
+l/e/a/_/f(CVVAC)
+l/ea/f/_(CVCA)
+l/e/_/_/a/f(CVAAVC)
+l/ea/_/_/f(CVAAC)
+l/e/a/f/_(CVVCA)
+l/ea/f/_(CVCA)
+l/e/_/a/_/f(CVAVAC)
+l/ea/_/f/_(CVACA)
+l/e/a/_/_/f(CVVAAC)
+l/ea/f/_/_(CVCAA)
+l/e/_/_/_/a/f(CVAAAVC)
+l/ea/_/_/_/f(CVAAAC)
+				version split: ['l', 'e', 'a', 'f']
+				{'string': 'l/e/a/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f']
+				version split: ['l', 'ea', 'f']
+				{'string': 'l/ea/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f']
+				version split: ['l', 'e', '_', 'a', 'f']
+				{'string': 'l/e/_/a/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'f']
+				version split: ['l', 'ea', '_', 'f']
+				{'string': 'l/ea/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', 'f']
+				version split: ['l', 'e', 'a', '_', 'f']
+				{'string': 'l/e/a/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'f']
+				version split: ['l', 'ea', 'f', '_']
+				{'string': 'l/ea/f/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_']
+				version split: ['l', 'e', '_', '_', 'a', 'f']
+				{'string': 'l/e/_/_/a/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'f']
+				version split: ['l', 'ea', '_', '_', 'f']
+				{'string': 'l/ea/_/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'f']
+				version split: ['l', 'e', 'a', 'f', '_']
+				{'string': 'l/e/a/f/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', '_']
+				version split: ['l', 'ea', 'f', '_']
+				{'string': 'l/ea/f/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_']
+				version split: ['l', 'e', '_', 'a', '_', 'f']
+				{'string': 'l/e/_/a/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a', '_', 'f']
+				version split: ['l', 'ea', '_', 'f', '_']
+				{'string': 'l/ea/_/f/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', 'f', '_']
+				version split: ['l', 'e', 'a', '_', '_', 'f']
+				{'string': 'l/e/a/_/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', '_', 'f']
+				version split: ['l', 'ea', 'f', '_', '_']
+				{'string': 'l/ea/f/_/_', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_', '_']
+				version split: ['l', 'e', '_', '_', '_', 'a', 'f']
+				{'string': 'l/e/_/_/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', '_', 'a', 'f']
+				version split: ['l', 'ea', '_', '_', '_', 'f']
+				{'string': 'l/ea/_/_/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_', '_', 'f']
+				ANALYSING: leafan
+					resolving (8)
+					> version: l/e/a/f/a/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ea/f/a/n
+					TRYING: n
+					> version: l/e/_/a/f/a/n
+					TRYING: f
+					> version: l/ea/_/f/a/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/e/a/_/f/a/n
+					TRYING: f
+					> version: l/ea/f/_/a/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/e/_/_/a/f/a/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ea/_/_/f/a/n
+					TRYING: f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', 'f', '_', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', 'f', 'a', '_', 'n']
+				adding dashed alternative: ['l', 'e', '_', 'a', '_', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', '_', 'f', '_', 'a', 'n']
+				adding dashed alternative: ['l', 'e', 'a', '_', '_', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', 'f', '_', '_', 'a', 'n']
+				adding dashed alternative: ['l', 'e', '_', '_', '_', 'a', 'f', 'a', 'n']
+				adding dashed alternative: ['l', 'ea', '_', '_', '_', 'f', 'a', 'n']
+				l/e/a/f/a/n(CVVCVC)
+l/ea/f/a/n(CVCVC)
+l/e/_/a/f/a/n(CVAVCVC)
+l/ea/_/f/a/n(CVACVC)
+l/e/a/_/f/a/n(CVVACVC)
+l/ea/f/_/a/n(CVCAVC)
+l/e/_/_/a/f/a/n(CVAAVCVC)
+l/ea/_/_/f/a/n(CVAACVC)
+l/e/a/f/_/a/n(CVVCAVC)
+l/ea/f/a/_/n(CVCVAC)
+l/e/_/a/_/f/a/n(CVAVACVC)
+l/ea/_/f/_/a/n(CVACAVC)
+l/e/a/_/_/f/a/n(CVVAACVC)
+l/ea/f/_/_/a/n(CVCAAVC)
+l/e/_/_/_/a/f/a/n(CVAAAVCVC)
+l/ea/_/_/_/f/a/n(CVAAACVC)
+				version split: ['l', 'e', 'a', 'f', 'a', 'n']
+				{'string': 'l/e/a/f/a/n', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', 'a', 'n']
+				version split: ['l', 'ea', 'f', 'a', 'n']
+				{'string': 'l/ea/f/a/n', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', 'a', 'n']
+				version split: ['l', 'e', '_', 'a', 'f', 'a', 'n']
+				{'string': 'l/e/_/a/f/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'f', 'a', 'n']
+				version split: ['l', 'ea', '_', 'f', 'a', 'n']
+				{'string': 'l/ea/_/f/a/n', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', 'f', 'a', 'n']
+				version split: ['l', 'e', 'a', '_', 'f', 'a', 'n']
+				{'string': 'l/e/a/_/f/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'f', 'a', 'n']
+				version split: ['l', 'ea', 'f', '_', 'a', 'n']
+				{'string': 'l/ea/f/_/a/n', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_', 'a', 'n']
+				version split: ['l', 'e', '_', '_', 'a', 'f', 'a', 'n']
+				{'string': 'l/e/_/_/a/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'f', 'a', 'n']
+				version split: ['l', 'ea', '_', '_', 'f', 'a', 'n']
+				{'string': 'l/ea/_/_/f/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'f', 'a', 'n']
+				version split: ['l', 'e', 'a', 'f', '_', 'a', 'n']
+				{'string': 'l/e/a/f/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', '_', 'a', 'n']
+				version split: ['l', 'ea', 'f', 'a', '_', 'n']
+				{'string': 'l/ea/f/a/_/n', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', 'a', '_', 'n']
+				version split: ['l', 'e', '_', 'a', '_', 'f', 'a', 'n']
+				{'string': 'l/e/_/a/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', 'a', '_', 'f', 'a', 'n']
+				version split: ['l', 'ea', '_', 'f', '_', 'a', 'n']
+				{'string': 'l/ea/_/f/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', 'f', '_', 'a', 'n']
+				version split: ['l', 'e', 'a', '_', '_', 'f', 'a', 'n']
+				{'string': 'l/e/a/_/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', '_', 'f', 'a', 'n']
+				version split: ['l', 'ea', 'f', '_', '_', 'a', 'n']
+				{'string': 'l/ea/f/_/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f', '_', '_', 'a', 'n']
+				version split: ['l', 'e', '_', '_', '_', 'a', 'f', 'a', 'n']
+				{'string': 'l/e/_/_/_/a', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_', '_', '_', 'a', 'f', 'a', 'n']
+				version split: ['l', 'ea', '_', '_', '_', 'f', 'a', 'n']
+				{'string': 'l/ea/_/_/_/f', 'rgx': '((l))/((e))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ea', '_', '_', '_', 'f', 'a', 'n']
+				ANALYSING: leafe
+					resolving (8)
+					> version: l/e/a/f/e
+					TRYING: e
+					> version: l/ea/f/e
+					> version: l/e/_/a/f/e
+					TRYING: f
+					> version: l/ea/_/f/e
+					TRYING: e
+					> version: l/e/a/_/f/e
+					TRYING: f
+					> version: l/ea/f/_/e
+					TRYING: e
+					> version: l/e/_/_/a/f/e
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ea/_/_/f/e
+					TRYING: f
+					RESULT:  ['e']
+				version split: ['l', 'e', 'a', 'f', 'e']
+				{'string': 'l/e/a/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', 'e']
+				version split: ['l', 'ea', 'f', 'e']
+				{'string': 'l/ea/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ea', 'f', 'e']
+				version split: ['l', 'e', '_', 'a', 'f', 'e']
+				{'string': 'l/e/_/a/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'f', 'e']
+				version split: ['l', 'ea', '_', 'f', 'e']
+				{'string': 'l/ea/_/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ea', '_', 'f', 'e']
+				version split: ['l', 'e', 'a', '_', 'f', 'e']
+				{'string': 'l/e/a/_/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'f', 'e']
+				version split: ['l', 'ea', 'f', '_', 'e']
+				{'string': 'l/ea/f/_/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ea', 'f', '_', 'e']
+				version split: ['l', 'e', '_', '_', 'a', 'f', 'e']
+				{'string': 'l/e/_/_/a/f', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'f', 'e']
+				version split: ['l', 'ea', '_', '_', 'f', 'e']
+				{'string': 'l/ea/_/_/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'f', 'e']
+				ANALYSING: leaue
+					resolving (44)
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/a/u/e
+					TRYING: e
+					> version: l/e/au/e
+					> version: l/ea/u/e
+					> version: l/ea/u/e
+					> version: l/e/a/ue
+					> version: l/ea/u/e
+					> version: l/ea/u/e
+					> version: l/e/au/e
+					> version: l/ea/ue
+					> version: l/ea/ue
+					> version: l/e/_/a/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/a/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/_/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/_/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/a/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/u/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/au/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/au/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/au/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/ue/_
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/ue/_
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/u/e
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/u/e
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/au/e
+					TRYING: au
+					adding blocked set: V = V >> ue, e, u, _, au
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/ue
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/au/e
+					TRYING: au
+					adding blocked set: V = V >> ue, e, u, _, au
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					RESULT:  ['ue', 'e', 'u']
+				version split: ['l', 'e', 'a', 'u', 'e']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e']
+				version split: ['l', 'e', 'a', 'u', 'e']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e']
+				version split: ['l', 'e', 'au', 'e']
+				{'string': 'l/e/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'e', 'a', 'ue']
+				{'string': 'l/e/a/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'ue']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'ea', 'u', 'e']
+				{'string': 'l/ea/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e']
+				version split: ['l', 'e', 'au', 'e']
+				{'string': 'l/e/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e']
+				version split: ['l', 'ea', 'ue']
+				{'string': 'l/ea/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue']
+				version split: ['l', 'ea', 'ue']
+				{'string': 'l/ea/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue']
+				version split: ['l', 'e', '_', 'a', 'u', 'e']
+				{'string': 'l/e/_/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'u', 'e']
+				version split: ['l', 'e', '_', 'a', 'u', 'e']
+				{'string': 'l/e/_/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'u', 'e']
+				version split: ['l', 'e', '_', 'au', 'e']
+				{'string': 'l/e/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'au', 'e']
+				version split: ['l', 'ea', '_', 'u', 'e']
+				{'string': 'l/ea/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e']
+				version split: ['l', 'ea', '_', 'u', 'e']
+				{'string': 'l/ea/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e']
+				version split: ['l', 'e', '_', 'a', 'ue']
+				{'string': 'l/e/_/a/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'ue']
+				version split: ['l', 'ea', '_', 'u', 'e']
+				{'string': 'l/ea/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e']
+				version split: ['l', 'ea', '_', 'u', 'e']
+				{'string': 'l/ea/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e']
+				version split: ['l', 'e', '_', 'au', 'e']
+				{'string': 'l/e/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'au', 'e']
+				version split: ['l', 'ea', '_', 'ue']
+				{'string': 'l/ea/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'ue']
+				version split: ['l', 'ea', '_', 'ue']
+				{'string': 'l/ea/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'ue']
+				version split: ['l', 'e', 'a', '_', 'u', 'e']
+				{'string': 'l/e/a/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'u', 'e']
+				version split: ['l', 'e', 'a', '_', 'u', 'e']
+				{'string': 'l/e/a/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'u', 'e']
+				version split: ['l', 'e', 'au', '_', 'e']
+				{'string': 'l/e/au/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', '_', 'e']
+				version split: ['l', 'ea', 'u', '_', 'e']
+				{'string': 'l/ea/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e']
+				version split: ['l', 'ea', 'u', '_', 'e']
+				{'string': 'l/ea/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e']
+				version split: ['l', 'e', 'a', '_', 'ue']
+				{'string': 'l/e/a/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'ue']
+				version split: ['l', 'ea', 'u', '_', 'e']
+				{'string': 'l/ea/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e']
+				version split: ['l', 'ea', 'u', '_', 'e']
+				{'string': 'l/ea/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e']
+				version split: ['l', 'e', 'au', '_', 'e']
+				{'string': 'l/e/au/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', '_', 'e']
+				version split: ['l', 'ea', 'ue', '_']
+				{'string': 'l/ea/ue/_', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_']
+				version split: ['l', 'ea', 'ue', '_']
+				{'string': 'l/ea/ue/_', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_']
+				version split: ['l', 'e', '_', '_', 'a', 'u', 'e']
+				{'string': 'l/e/_/_/a/u', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'u', 'e']
+				version split: ['l', 'e', '_', '_', 'a', 'u', 'e']
+				{'string': 'l/e/_/_/a/u', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'u', 'e']
+				version split: ['l', 'e', '_', '_', 'au', 'e']
+				{'string': 'l/e/_/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'au', 'e']
+				version split: ['l', 'ea', '_', '_', 'u', 'e']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e']
+				version split: ['l', 'ea', '_', '_', 'u', 'e']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e']
+				version split: ['l', 'e', '_', '_', 'a', 'ue']
+				{'string': 'l/e/_/_/a/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'ue']
+				version split: ['l', 'ea', '_', '_', 'u', 'e']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e']
+				version split: ['l', 'ea', '_', '_', 'u', 'e']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e']
+				version split: ['l', 'e', '_', '_', 'au', 'e']
+				{'string': 'l/e/_/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'au', 'e']
+				version split: ['l', 'ea', '_', '_', 'ue']
+				{'string': 'l/ea/_/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'ue']
+				version split: ['l', 'ea', '_', '_', 'ue']
+				{'string': 'l/ea/_/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'ue']
+				ANALYSING: leauen
+					resolving (44)
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/au/e/n
+					TRYING: n
+					> version: l/ea/u/e/n
+					TRYING: n
+					> version: l/ea/u/e/n
+					TRYING: n
+					> version: l/e/a/ue/n
+					TRYING: n
+					> version: l/ea/u/e/n
+					TRYING: n
+					> version: l/ea/u/e/n
+					TRYING: n
+					> version: l/e/au/e/n
+					TRYING: n
+					> version: l/ea/ue/n
+					> version: l/ea/ue/n
+					> version: l/e/_/a/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/a/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/au/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/_/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/_/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/a/ue/n
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/au/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/ue/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/ue/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/au/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/a/_/ue/n
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/u/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/au/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/ue/_/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/ue/_/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/u/e/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/u/e/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/au/e/n
+					TRYING: au
+					adding blocked set: V = V >> ue, e, u, _, au
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/a/ue/n
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/e/_/_/au/e/n
+					TRYING: au
+					adding blocked set: V = V >> ue, e, u, _, au
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/ue/n
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/ea/_/_/ue/n
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					RESULT:  ['ue', 'e', 'u']
+				version split: ['l', 'e', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/a/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/a/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', 'au', 'e', 'n']
+				{'string': 'l/e/au/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'e', 'a', 'ue', 'n']
+				{'string': 'l/e/a/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'ue', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'e', 'au', 'e', 'n']
+				{'string': 'l/e/au/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', 'n']
+				version split: ['l', 'ea', 'ue', 'n']
+				{'string': 'l/ea/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', 'n']
+				version split: ['l', 'ea', 'ue', 'n']
+				{'string': 'l/ea/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', 'n']
+				version split: ['l', 'e', '_', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/_/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/_/a/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', 'au', 'e', 'n']
+				{'string': 'l/e/_/au/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'au', 'e', 'n']
+				version split: ['l', 'ea', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e', 'n']
+				version split: ['l', 'ea', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', 'a', 'ue', 'n']
+				{'string': 'l/e/_/a/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'a', 'ue', 'n']
+				version split: ['l', 'ea', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e', 'n']
+				version split: ['l', 'ea', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', 'au', 'e', 'n']
+				{'string': 'l/e/_/au/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'au', 'e', 'n']
+				version split: ['l', 'ea', '_', 'ue', 'n']
+				{'string': 'l/ea/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'ue', 'n']
+				version split: ['l', 'ea', '_', 'ue', 'n']
+				{'string': 'l/ea/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', 'ue', 'n']
+				version split: ['l', 'e', 'a', '_', 'u', 'e', 'n']
+				{'string': 'l/e/a/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', 'a', '_', 'u', 'e', 'n']
+				{'string': 'l/e/a/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', 'au', '_', 'e', 'n']
+				{'string': 'l/e/au/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', '_', 'e', 'n']
+				version split: ['l', 'ea', 'u', '_', 'e', 'n']
+				{'string': 'l/ea/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e', 'n']
+				version split: ['l', 'ea', 'u', '_', 'e', 'n']
+				{'string': 'l/ea/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e', 'n']
+				version split: ['l', 'e', 'a', '_', 'ue', 'n']
+				{'string': 'l/e/a/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'ue', 'n']
+				version split: ['l', 'ea', 'u', '_', 'e', 'n']
+				{'string': 'l/ea/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e', 'n']
+				version split: ['l', 'ea', 'u', '_', 'e', 'n']
+				{'string': 'l/ea/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', '_', 'e', 'n']
+				version split: ['l', 'e', 'au', '_', 'e', 'n']
+				{'string': 'l/e/au/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', '_', 'e', 'n']
+				version split: ['l', 'ea', 'ue', '_', 'n']
+				{'string': 'l/ea/ue/_/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_', 'n']
+				version split: ['l', 'ea', 'ue', '_', 'n']
+				{'string': 'l/ea/ue/_/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', '_', 'n']
+				version split: ['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/_/_/a/u', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/_/_/a/u', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'au', 'e', 'n']
+				{'string': 'l/e/_/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'au', 'e', 'n']
+				version split: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'a', 'ue', 'n']
+				{'string': 'l/e/_/_/a/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'a', 'ue', 'n']
+				version split: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'ea', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/ea/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'au', 'e', 'n']
+				{'string': 'l/e/_/_/au/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'au', 'e', 'n']
+				version split: ['l', 'ea', '_', '_', 'ue', 'n']
+				{'string': 'l/ea/_/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'ue', 'n']
+				version split: ['l', 'ea', '_', '_', 'ue', 'n']
+				{'string': 'l/ea/_/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'ea', '_', '_', 'ue', 'n']
+				ANALYSING: lefe
+					resolving (4)
+					> version: l/e/f/e
+					> version: l/e/_/f/e
+					TRYING: e
+					> version: l/e/f/_/e
+					TRYING: e
+					> version: l/e/_/_/f/e
+					TRYING: f
+					RESULT:  ['e']
+				version split: ['l', 'e', 'f', 'e']
+				{'string': 'l/e/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'f', 'e']
+				version split: ['l', 'e', '_', 'f', 'e']
+				{'string': 'l/e/_/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', 'f', 'e']
+				version split: ['l', 'e', 'f', '_', 'e']
+				{'string': 'l/e/f/_/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'f', '_', 'e']
+				version split: ['l', 'e', '_', '_', 'f', 'e']
+				{'string': 'l/e/_/_/f/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'f', 'e']
+				ANALYSING: leue
+					resolving (20)
+					> version: l/e/u/e
+					> version: l/e/u/e
+					> version: l/eu/e
+					> version: l/e/ue
+					> version: l/eu/e
+					> version: l/e/_/u/e
+					TRYING: e
+					> version: l/e/_/u/e
+					TRYING: e
+					> version: l/eu/_/e
+					> version: l/e/_/ue
+					> version: l/eu/_/e
+					> version: l/e/u/_/e
+					TRYING: e
+					> version: l/e/u/_/e
+					TRYING: e
+					> version: l/eu/e/_
+					> version: l/e/ue/_
+					> version: l/eu/e/_
+					> version: l/e/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/_/u/e
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/eu/_/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/_/ue
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/eu/_/_/e
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					RESULT:  ['ue', 'e', 'u']
+				version split: ['l', 'e', 'u', 'e']
+				{'string': 'l/e/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', 'e']
+				version split: ['l', 'e', 'u', 'e']
+				{'string': 'l/e/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', 'e']
+				version split: ['l', 'eu', 'e']
+				{'string': 'l/eu/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e']
+				version split: ['l', 'e', 'ue']
+				{'string': 'l/e/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'ue']
+				version split: ['l', 'eu', 'e']
+				{'string': 'l/eu/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e']
+				version split: ['l', 'e', '_', 'u', 'e']
+				{'string': 'l/e/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'u', 'e']
+				version split: ['l', 'e', '_', 'u', 'e']
+				{'string': 'l/e/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'u', 'e']
+				version split: ['l', 'eu', '_', 'e']
+				{'string': 'l/eu/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', 'e']
+				version split: ['l', 'e', '_', 'ue']
+				{'string': 'l/e/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'ue']
+				version split: ['l', 'eu', '_', 'e']
+				{'string': 'l/eu/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', 'e']
+				version split: ['l', 'e', 'u', '_', 'e']
+				{'string': 'l/e/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', '_', 'e']
+				version split: ['l', 'e', 'u', '_', 'e']
+				{'string': 'l/e/u/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', '_', 'e']
+				version split: ['l', 'eu', 'e', '_']
+				{'string': 'l/eu/e/_', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', '_']
+				version split: ['l', 'e', 'ue', '_']
+				{'string': 'l/e/ue/_', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'ue', '_']
+				version split: ['l', 'eu', 'e', '_']
+				{'string': 'l/eu/e/_', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', '_']
+				version split: ['l', 'e', '_', '_', 'u', 'e']
+				{'string': 'l/e/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'u', 'e']
+				version split: ['l', 'e', '_', '_', 'u', 'e']
+				{'string': 'l/e/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'u', 'e']
+				version split: ['l', 'eu', '_', '_', 'e']
+				{'string': 'l/eu/_/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', '_', 'e']
+				version split: ['l', 'e', '_', '_', 'ue']
+				{'string': 'l/e/_/_/ue', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				version split: ['l', 'eu', '_', '_', 'e']
+				{'string': 'l/eu/_/_/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', '_', 'e']
+				ANALYSING: leuen
+					resolving (20)
+					> version: l/e/u/e/n
+					TRYING: n
+					> version: l/e/u/e/n
+					TRYING: n
+					> version: l/eu/e/n
+					> version: l/e/ue/n
+					> version: l/eu/e/n
+					> version: l/e/_/u/e/n
+					TRYING: e
+					> version: l/e/_/u/e/n
+					TRYING: e
+					> version: l/eu/_/e/n
+					TRYING: n
+					> version: l/e/_/ue/n
+					TRYING: n
+					> version: l/eu/_/e/n
+					TRYING: n
+					> version: l/e/u/_/e/n
+					TRYING: e
+					> version: l/e/u/_/e/n
+					TRYING: e
+					> version: l/eu/e/_/n
+					TRYING: n
+					> version: l/e/ue/_/n
+					TRYING: n
+					> version: l/eu/e/_/n
+					TRYING: n
+					> version: l/e/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/_/u/e/n
+					TRYING: u
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/eu/_/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/_/_/ue/n
+					TRYING: ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					> version: l/eu/_/_/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'ue', 'e', 'u'}
+					RESULT:  ['ue', 'e', 'u']
+				version split: ['l', 'e', 'u', 'e', 'n']
+				{'string': 'l/e/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', 'e', 'n']
+				version split: ['l', 'e', 'u', 'e', 'n']
+				{'string': 'l/e/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', 'e', 'n']
+				version split: ['l', 'eu', 'e', 'n']
+				{'string': 'l/eu/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', 'n']
+				version split: ['l', 'e', 'ue', 'n']
+				{'string': 'l/e/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'ue', 'n']
+				version split: ['l', 'eu', 'e', 'n']
+				{'string': 'l/eu/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', 'n']
+				version split: ['l', 'e', '_', 'u', 'e', 'n']
+				{'string': 'l/e/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', 'u', 'e', 'n']
+				{'string': 'l/e/_/u/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'u', 'e', 'n']
+				version split: ['l', 'eu', '_', 'e', 'n']
+				{'string': 'l/eu/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', 'e', 'n']
+				version split: ['l', 'e', '_', 'ue', 'n']
+				{'string': 'l/e/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', 'ue', 'n']
+				version split: ['l', 'eu', '_', 'e', 'n']
+				{'string': 'l/eu/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', 'e', 'n']
+				version split: ['l', 'e', 'u', '_', 'e', 'n']
+				{'string': 'l/e/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', '_', 'e', 'n']
+				version split: ['l', 'e', 'u', '_', 'e', 'n']
+				{'string': 'l/e/u/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'u', '_', 'e', 'n']
+				version split: ['l', 'eu', 'e', '_', 'n']
+				{'string': 'l/eu/e/_/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', '_', 'n']
+				version split: ['l', 'e', 'ue', '_', 'n']
+				{'string': 'l/e/ue/_/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', 'ue', '_', 'n']
+				version split: ['l', 'eu', 'e', '_', 'n']
+				{'string': 'l/eu/e/_/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', 'e', '_', 'n']
+				version split: ['l', 'e', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/e/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'u', 'e', 'n']
+				{'string': 'l/e/_/_/u/e', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'u', 'e', 'n']
+				version split: ['l', 'eu', '_', '_', 'e', 'n']
+				{'string': 'l/eu/_/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', '_', 'e', 'n']
+				version split: ['l', 'e', '_', '_', 'ue', 'n']
+				{'string': 'l/e/_/_/ue/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'ue', 'n']
+				version split: ['l', 'eu', '_', '_', 'e', 'n']
+				{'string': 'l/eu/_/_/e/n', 'rgx': '((l))/((e))/((_))/((_))/((ue)|(e)|(u))$'}
+				_____REMOVING________['l', 'eu', '_', '_', 'e', 'n']
+				ANALYSING: lewe
+					resolving (8)
+					> version: l/e/w/e
+					> version: l/ew/e
+					> version: l/e/_/w/e
+					TRYING: e
+					> version: l/ew/_/e
+					> version: l/e/w/_/e
+					TRYING: e
+					> version: l/ew/e/_
+					> version: l/e/_/_/w/e
+					TRYING: w
+					> version: l/ew/_/_/e
+					TRYING: e
+					RESULT:  ['e']
+				version split: ['l', 'e', 'w', 'e']
+				{'string': 'l/e/w/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'w', 'e']
+				version split: ['l', 'ew', 'e']
+				{'string': 'l/ew/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ew', 'e']
+				version split: ['l', 'e', '_', 'w', 'e']
+				{'string': 'l/e/_/w/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', 'w', 'e']
+				version split: ['l', 'ew', '_', 'e']
+				{'string': 'l/ew/_/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ew', '_', 'e']
+				version split: ['l', 'e', 'w', '_', 'e']
+				{'string': 'l/e/w/_/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', 'w', '_', 'e']
+				version split: ['l', 'ew', 'e', '_']
+				{'string': 'l/ew/e/_', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ew', 'e', '_']
+				version split: ['l', 'e', '_', '_', 'w', 'e']
+				{'string': 'l/e/_/_/w/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'e', '_', '_', 'w', 'e']
+				version split: ['l', 'ew', '_', '_', 'e']
+				{'string': 'l/ew/_/_/e', 'rgx': '((l))/((e))/((_))/((_))/((e))$'}
+				_____REMOVING________['l', 'ew', '_', '_', 'e']
+				ANALYSING: lia
+					resolving (12)
+					> version: l/i/a
+					> version: l/i/a
+					> version: l/ia
+					> version: l/i/_/a
+					> version: l/i/_/a
+					> version: l/ia/_
+					> version: l/i/a/_
+					> version: l/i/a/_
+					> version: l/ia/_
+					> version: l/i/_/_/a
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/i/_/_/a
+					TRYING: a
+					adding blocked set: V = V >> ue, e, u, a, _
+					> version: l/ia/_/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'i', 'a', '_']
+				adding dashed alternative: ['l', 'ia', '_']
+				adding dashed alternative: ['l', 'i', '_', 'a', '_']
+				adding dashed alternative: ['l', 'i', '_', 'a', '_']
+				adding dashed alternative: ['l', 'ia', '_', '_']
+				adding dashed alternative: ['l', 'i', 'a', '_', '_']
+				adding dashed alternative: ['l', 'i', 'a', '_', '_']
+				adding dashed alternative: ['l', 'ia', '_', '_']
+				adding dashed alternative: ['l', 'i', '_', '_', '_', 'a']
+				adding dashed alternative: ['l', 'i', '_', '_', '_', 'a']
+				adding dashed alternative: ['l', 'ia', '_', '_', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+l/i/a/_(CAVA)
+l/i/a/_(CAVA)
+l/ia/_(CVA)
+l/i/_/_/a(CAAAV)
+l/i/_/_/a(CAAAV)
+l/ia/_/_(CVAA)
+l/i/a/_(CAVA)
+l/i/a/_(CAVA)
+l/ia/_(CVA)
+l/i/_/a/_(CAAVA)
+l/i/_/a/_(CAAVA)
+l/ia/_/_(CVAA)
+l/i/a/_/_(CAVAA)
+l/i/a/_/_(CAVAA)
+l/ia/_/_(CVAA)
+l/i/_/_/_/a(CAAAAV)
+l/i/_/_/_/a(CAAAAV)
+l/ia/_/_/_(CVAAA)
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'ia']
+				{'string': 'l/ia', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_']
+				version split: ['l', 'i', '_', '_', 'a']
+				{'string': 'l/i/_/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', '_', 'a']
+				version split: ['l', 'i', '_', '_', 'a']
+				{'string': 'l/i/_/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', '_', 'a']
+				version split: ['l', 'ia', '_', '_']
+				{'string': 'l/ia/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'i', 'a', '_']
+				{'string': 'l/i/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_']
+				version split: ['l', 'i', '_', 'a', '_']
+				{'string': 'l/i/_/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a', '_']
+				version split: ['l', 'i', '_', 'a', '_']
+				{'string': 'l/i/_/a/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', 'a', '_']
+				version split: ['l', 'ia', '_', '_']
+				{'string': 'l/ia/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_', '_']
+				version split: ['l', 'i', 'a', '_', '_']
+				{'string': 'l/i/a/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_', '_']
+				version split: ['l', 'i', 'a', '_', '_']
+				{'string': 'l/i/a/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', 'a', '_', '_']
+				version split: ['l', 'ia', '_', '_']
+				{'string': 'l/ia/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_', '_']
+				version split: ['l', 'i', '_', '_', '_', 'a']
+				{'string': 'l/i/_/_/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', '_', '_', 'a']
+				version split: ['l', 'i', '_', '_', '_', 'a']
+				{'string': 'l/i/_/_/_/a', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'i', '_', '_', '_', 'a']
+				version split: ['l', 'ia', '_', '_', '_']
+				{'string': 'l/ia/_/_/_', 'rgx': '((l))/((i))/((_))/((_))/((_))$'}
+				_____REMOVING________['l', 'ia', '_', '_', '_']
+		only one version left: ['l', 'æ', '_', 'f', 'e']
+		FAIL: 
+		FAIL: l/_/au/_/e, l/_/a/_/ue, l/_/au/_/e
+		only one version left: ['l', 'e', '_', '_', '_']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['l', 'e', '_', '_', 'ue']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['l', 'i', 'a', 'u', 'e']
+		SPLIT: ['l', 'æ', '_', 'f', 'e']
+		['l', 'æ', '_', 'f', 'e']
+		SPLIT: ['l', '_', 'a', '_', 'e', '----!']
+		SPLIT: ['l', '_', 'a.e.au.u', '_', 'ue.e.u', '----!']
+		['l', '_', 'au', '_', 'e']
+		['l', '_', 'a', '_', 'ue']
+		['l', '_', 'au', '_', 'e']
+		SPLIT: ['l', 'e', '_', '_', '_']
+		['l', 'e', '_', '_', '_']
+		SPLIT: ['l', 'e', '_', '_', '_', '----!']
+		SPLIT: ['l', 'e', '_', '_', '_', '----!']
+		SPLIT: ['l', 'e', '_', '_', '_', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'e', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'ue.e.u', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'ue.e.u', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'e', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'ue']
+		['l', 'e', '_', '_', 'ue']
+		SPLIT: ['l', 'e', '_', '_', 'ue.e.u', '----!']
+		SPLIT: ['l', 'e', '_', '_', 'e', '----!']
+		SPLIT: ['l', 'i', '_', '_', '_', '----!']
+		version for pattern CCVCV is INVALID
+		[{'e', 'u', 'a', '_', 'au'}, {'e', '_', 'u', 'f'}]
+		12
+		POSSIBLE CHANGE: 0 : Palatal Vicinity l-deletion
+		OVERVIEW: version for pattern CCVCV
+{'e', 'u', 'a', '_', 'au'}, {'e', '_', 'u', 'f'}
+faulty splits: 12
+lae----! <-! lafe
+la.e.au.uue.e.u----! <-! laue
+le----! <-! lea
+le----! <-! leaf
+le----! <-! leafan
+lee----! <-! leafe
+leue.e.u----! <-! leaue
+leue.e.u----! <-! leauen
+lee----! <-! lefe
+leue.e.u----! <-! leuen
+lee----! <-! lewe
+li----! <-! lia
+l | i | a | u | e
+l | æ | _ | f | e
+l | _ | a | _ | e | ----!
+l | _ | a.e.au.u | _ | ue.e.u | ----!
+l | e | _ | _ | _
+l | e | _ | _ | _ | ----!
+l | e | _ | _ | _ | ----!
+l | e | _ | _ | _ | ----!
+l | e | _ | _ | e | ----!
+l | e | _ | _ | ue.e.u | ----!
+l | e | _ | _ | ue.e.u | ----!
+l | e | _ | _ | e | ----!
+l | e | _ | _ | ue
+l | e | _ | _ | ue.e.u | ----!
+l | e | _ | _ | e | ----!
+l | i | _ | _ | _ | ----!
+2 : {'e', 'u', 'a', '_', 'au'},{'ue', 'e', 'u', 'a', '_', 'au'}
+4 : {'ue', 'e', 'u', 'a', '_'}
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'au', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ea', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'eu', 'ln': 2, 'index': 1}], [{'lit': 'ue', 'ln': 2, 'index': 2}], [{'lit': 'eu', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 2}]]
+	[[{'lit': 'ew', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	[[{'lit': 'ia', 'ln': 2, 'index': 1}], [{'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}], [{'lit': 'ia', 'ln': 2, 'index': 1}, {'lit': 'au', 'ln': 2, 'index': 2}, {'lit': 'ue', 'ln': 2, 'index': 3}]]
+	MIN pattern length=4
+	Pattern CV is invalid
+	Pattern CVVCVC is invalid
+	Pattern CVCVC is valid
+	Pattern CVVV is invalid
+	Pattern CCVCV is valid
+	Pattern CVVC is invalid
+	Pattern CVC is invalid
+	Pattern CVCV is valid
+	Pattern CCV is invalid
+	Pattern CVVCV is invalid
+	Pattern CVVVV is invalid
+	Pattern CCVV is invalid
+	Pattern CVV is invalid
+	Pattern CVVVC is invalid
+	Pattern CVVVVC is invalid
+	Making the selection for pattern: CVCV
+	Selection for pattern: CVCV completed
+	Making a version for pattern: CVCV
+			___CVCV : 0___
+				ANALYSING: læfe
+				adding littera based on matching pattern
+				ANALYSING: lafe
+				adding littera based on matching pattern
+				ANALYSING: laue
+				adding littera based on matching pattern
+				ANALYSING: leafe
+				adding littera based on matching pattern
+				ANALYSING: leaue
+				adding littera based on matching pattern
+				ANALYSING: lefe
+				adding littera based on matching pattern
+				ANALYSING: leue
+				adding littera based on matching pattern
+				ANALYSING: lewe
+				adding littera based on matching pattern
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: l
+					> version: l/ea
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: l
+					> version: l/ea/f
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: l
+					> version: l/ea/f/a/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: l
+					> version: l/e/a/u/e/n
+					TRYING: l
+					> version: l/e/au/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/e/a/ue/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/ea/u/e/n
+					TRYING: l
+					> version: l/e/au/e/n
+					TRYING: l
+					> version: l/ea/ue/n
+					TRYING: l
+					> version: l/ea/ue/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: l
+					> version: l/e/u/e/n
+					TRYING: l
+					> version: l/eu/e/n
+					TRYING: l
+					> version: l/e/ue/n
+					TRYING: l
+					> version: l/eu/e/n
+					TRYING: l
+					RESULT:  ['l']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: l
+					> version: l/i/a
+					TRYING: l
+					> version: l/ia
+					TRYING: l
+					RESULT:  ['l']
+			___CVCV : 1___
+				ANALYSING: læfe
+				adding littera based on matching pattern
+				ANALYSING: lafe
+				adding littera based on matching pattern
+				ANALYSING: laue
+				adding littera based on matching pattern
+				ANALYSING: leafe
+				adding littera based on matching pattern
+				ANALYSING: leaue
+				adding littera based on matching pattern
+				ANALYSING: lefe
+				adding littera based on matching pattern
+				ANALYSING: leue
+				adding littera based on matching pattern
+				ANALYSING: lewe
+				adding littera based on matching pattern
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					TRYING: e
+					RESULT:  ['e']
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: e
+					> version: l/ea
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: e
+					> version: l/ea/f
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: e
+					> version: l/ea/f/a/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/a/u/e/n
+					TRYING: e
+					> version: l/e/au/e/n
+					TRYING: e
+					> version: l/ea/u/e/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/e/a/ue/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/u/e/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/e/au/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/ue/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					> version: l/ea/ue/n
+					TRYING: ea
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					RESULT:  ['e', 'ea']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: eu
+					adding blocked set: V = V >> e, ia, eu, a, æ, ea
+					> version: l/e/ue/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: eu
+					adding blocked set: V = V >> e, ia, eu, a, æ, ea
+					RESULT:  ['e']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/i/a
+					TRYING: i
+					adding blocked set: V = V >> e, ia, i, a, æ, ea
+					> version: l/ia
+					TRYING: ia
+					RESULT:  ['ia']
+			___CVCV : 2___
+				ANALYSING: læfe
+				adding littera based on matching pattern
+				ANALYSING: lafe
+				adding littera based on matching pattern
+				ANALYSING: laue
+				adding littera based on matching pattern
+				ANALYSING: leafe
+				adding littera based on matching pattern
+				ANALYSING: leaue
+				adding littera based on matching pattern
+				ANALYSING: lefe
+				adding littera based on matching pattern
+				ANALYSING: leue
+				adding littera based on matching pattern
+				ANALYSING: lewe
+				adding littera based on matching pattern
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: le
+					resolving (1)
+					> version: l/e
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				l/e(CV)
+l/e/_(CVA)
+				ANALYSING: lea
+					resolving (2)
+					> version: l/e/a
+					TRYING: a
+					> version: l/ea
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_', 'a']
+				adding dashed alternative: ['l', 'ea', '_']
+				l/e/a(CVV)
+l/ea(CV)
+l/e/_/a(CVAV)
+l/ea/_(CVA)
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: a
+					> version: l/ea/f
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: a
+					> version: l/ea/f/a/n
+					TRYING: f
+					RESULT:  ['f']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: a
+					> version: l/e/a/u/e/n
+					TRYING: a
+					> version: l/e/au/e/n
+					TRYING: au
+					> version: l/ea/u/e/n
+					TRYING: u
+					> version: l/ea/u/e/n
+					TRYING: u
+					> version: l/e/a/ue/n
+					TRYING: a
+					> version: l/ea/u/e/n
+					TRYING: u
+					> version: l/ea/u/e/n
+					TRYING: u
+					> version: l/e/au/e/n
+					TRYING: au
+					> version: l/ea/ue/n
+					TRYING: ue
+					> version: l/ea/ue/n
+					TRYING: ue
+					RESULT:  ['u']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: u
+					> version: l/e/u/e/n
+					TRYING: u
+					> version: l/eu/e/n
+					TRYING: e
+					> version: l/e/ue/n
+					TRYING: ue
+					> version: l/eu/e/n
+					TRYING: e
+					RESULT:  ['u']
+				ANALYSING: lia
+					resolving (3)
+					> version: l/i/a
+					TRYING: a
+					> version: l/i/a
+					TRYING: a
+					> version: l/ia
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'i', '_', 'a']
+				adding dashed alternative: ['l', 'ia', '_']
+				l/i/a(CCV)
+l/i/a(CVV)
+l/ia(CV)
+l/i/_/a(CAAV)
+l/i/_/a(CAAV)
+l/ia/_(CVA)
+			___CVCV : 3___
+				ANALYSING: læfe
+				adding littera based on matching pattern
+				ANALYSING: lafe
+				adding littera based on matching pattern
+				ANALYSING: laue
+				adding littera based on matching pattern
+				ANALYSING: leafe
+				adding littera based on matching pattern
+				ANALYSING: leaue
+				adding littera based on matching pattern
+				ANALYSING: lefe
+				adding littera based on matching pattern
+				ANALYSING: leue
+				adding littera based on matching pattern
+				ANALYSING: lewe
+				adding littera based on matching pattern
+				ANALYSING: liaue
+				adding littera based on matching pattern
+				ANALYSING: le
+					resolving (2)
+					> version: l/e
+					> version: l/e/_
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', '_']
+				adding dashed alternative: ['l', 'e', '_', '_']
+				l/e(CV)
+l/e/_(CVA)
+l/e/_(CVA)
+l/e/_/_(CVAA)
+				version split: ['l', 'e']
+				{'string': 'l/e', 'rgx': '((l))/((e))/((_))/((_))$'}
+				_____REMOVING________['l', 'e']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_']
+				{'string': 'l/e/_', 'rgx': '((l))/((e))/((_))/((_))$'}
+				_____REMOVING________['l', 'e', '_']
+				version split: ['l', 'e', '_', '_']
+				{'string': 'l/e/_/_', 'rgx': '((l))/((e))/((_))/((_))$'}
+				ANALYSING: lea
+					resolving (4)
+					> version: l/e/a
+					> version: l/ea
+					> version: l/e/_/a
+					TRYING: a
+					> version: l/ea/_
+					RESULT:  ['a']
+				version split: ['l', 'e', 'a']
+				{'string': 'l/e/a', 'rgx': '((l))/((e)|(ea))/((_))/((a))$'}
+				_____REMOVING________['l', 'e', 'a']
+				version split: ['l', 'ea']
+				{'string': 'l/ea', 'rgx': '((l))/((e)|(ea))/((_))/((a))$'}
+				_____REMOVING________['l', 'ea']
+				version split: ['l', 'e', '_', 'a']
+				{'string': 'l/e/_/a', 'rgx': '((l))/((e)|(ea))/((_))/((a))$'}
+				version split: ['l', 'ea', '_']
+				{'string': 'l/ea/_', 'rgx': '((l))/((e)|(ea))/((_))/((a))$'}
+				_____REMOVING________['l', 'ea', '_']
+				ANALYSING: leaf
+					resolving (2)
+					> version: l/e/a/f
+					TRYING: f
+					> version: l/ea/f
+					RESULT:  ['_']
+				adding dashed alternative: ['l', 'e', 'a', '_', 'f']
+				adding dashed alternative: ['l', 'ea', 'f', '_']
+				l/e/a/f(CVVC)
+l/ea/f(CVC)
+l/e/a/_/f(CVVAC)
+l/ea/f/_(CVCA)
+				version split: ['l', 'e', 'a', 'f']
+				{'string': 'l/e/a/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', 'f']
+				version split: ['l', 'ea', 'f']
+				{'string': 'l/ea/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))$'}
+				_____REMOVING________['l', 'ea', 'f']
+				version split: ['l', 'e', 'a', '_', 'f']
+				{'string': 'l/e/a/_/f', 'rgx': '((l))/((e)|(ea))/((f))/((_))$'}
+				_____REMOVING________['l', 'e', 'a', '_', 'f']
+				version split: ['l', 'ea', 'f', '_']
+				{'string': 'l/ea/f/_', 'rgx': '((l))/((e)|(ea))/((f))/((_))$'}
+				ANALYSING: leafan
+					resolving (2)
+					> version: l/e/a/f/a/n
+					TRYING: f
+					> version: l/ea/f/a/n
+					TRYING: a
+					RESULT:  ['a']
+				version split: ['l', 'e', 'a', 'f', 'a', 'n']
+				{'string': 'l/e/a/f/a', 'rgx': '((l))/((e)|(ea))/((f))/((a))$'}
+				_____REMOVING________['l', 'e', 'a', 'f', 'a', 'n']
+				version split: ['l', 'ea', 'f', 'a', 'n']
+				{'string': 'l/ea/f/a/n', 'rgx': '((l))/((e)|(ea))/((f))/((a))$'}
+				_____REMOVING________['l', 'ea', 'f', 'a', 'n']
+				ANALYSING: leauen
+					resolving (11)
+					> version: l/e/a/u/e/n
+					TRYING: u
+					> version: l/e/a/u/e/n
+					TRYING: u
+					> version: l/e/au/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/a/ue/n
+					TRYING: ue
+					adding blocked set: V = V >> a, e, _, ue
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/u/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/e/au/e/n
+					TRYING: e
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/ue/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					> version: l/ea/ue/n
+					TRYING: n
+					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'u'}
+					RESULT:  ['e', 'u']
+				version split: ['l', 'e', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', 'a', 'u', 'e', 'n']
+				{'string': 'l/e/a/u/e', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'u', 'e', 'n']
+				version split: ['l', 'e', 'au', 'e', 'n']
+				{'string': 'l/e/au/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'e', 'a', 'ue', 'n']
+				{'string': 'l/e/a/ue/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'e', 'a', 'ue', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'ea', 'u', 'e', 'n']
+				{'string': 'l/ea/u/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'u', 'e', 'n']
+				version split: ['l', 'e', 'au', 'e', 'n']
+				{'string': 'l/e/au/e/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'e', 'au', 'e', 'n']
+				version split: ['l', 'ea', 'ue', 'n']
+				{'string': 'l/ea/ue/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', 'n']
+				version split: ['l', 'ea', 'ue', 'n']
+				{'string': 'l/ea/ue/n', 'rgx': '((l))/((e)|(ea))/((u))/((e)|(u))$'}
+				_____REMOVING________['l', 'ea', 'ue', 'n']
+				ANALYSING: leuen
+					resolving (5)
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/e/u/e/n
+					TRYING: e
+					> version: l/eu/e/n
+					TRYING: n
+					> version: l/e/ue/n
+					TRYING: n
+					> version: l/eu/e/n
+					TRYING: n
+					RESULT:  ['e']
+				version split: ['l', 'e', 'u', 'e', 'n']
+				{'string': 'l/e/u/e/n', 'rgx': '((l))/((e))/((u))/((e))$'}
+				_____REMOVING________['l', 'e', 'u', 'e', 'n']
+				version split: ['l', 'e', 'u', 'e', 'n']
+				{'string': 'l/e/u/e/n', 'rgx': '((l))/((e))/((u))/((e))$'}
+				_____REMOVING________['l', 'e', 'u', 'e', 'n']
+				version split: ['l', 'eu', 'e', 'n']
+				{'string': 'l/eu/e/n', 'rgx': '((l))/((e))/((u))/((e))$'}
+				_____REMOVING________['l', 'eu', 'e', 'n']
+				version split: ['l', 'e', 'ue', 'n']
+				{'string': 'l/e/ue/n', 'rgx': '((l))/((e))/((u))/((e))$'}
+				_____REMOVING________['l', 'e', 'ue', 'n']
+				version split: ['l', 'eu', 'e', 'n']
+				{'string': 'l/eu/e/n', 'rgx': '((l))/((e))/((u))/((e))$'}
+				_____REMOVING________['l', 'eu', 'e', 'n']
+				ANALYSING: lia
+					resolving (6)
+					> version: l/i/a
+					> version: l/i/a
+					> version: l/ia
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/i/_/a
+					TRYING: a
+					> version: l/ia/_
+					RESULT:  ['a']
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'i', 'a']
+				{'string': 'l/i/a', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'i', 'a']
+				version split: ['l', 'ia']
+				{'string': 'l/ia', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'ia']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'i', '_', 'a']
+				{'string': 'l/i/_/a', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'i', '_', 'a']
+				version split: ['l', 'ia', '_']
+				{'string': 'l/ia/_', 'rgx': '((l))/((ia))/((_))/((a))$'}
+				_____REMOVING________['l', 'ia', '_']
+		only one version left: ['l', 'e', '_', '_']
+		only one version left: ['l', 'e', '_', 'a']
+		only one version left: ['l', 'ea', 'f', '_']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		SPLIT: ['l', 'æ', 'f', 'e']
+		SPLIT: ['l', 'a', 'f', 'e']
+		SPLIT: ['l', 'a', 'u', 'e']
+		SPLIT: ['l', 'ea', 'f', 'e']
+		SPLIT: ['l', 'ea', 'u', 'e']
+		SPLIT: ['l', 'e', 'f', 'e']
+		SPLIT: ['l', 'e', 'u', 'e']
+		SPLIT: ['l', 'e', 'w', 'e']
+		SPLIT: ['l', 'ia', 'u', 'e']
+		SPLIT: ['l', 'e', '_', '_']
+		['l', 'e', '_', '_']
+		SPLIT: ['l', 'e', '_', 'a']
+		['l', 'e', '_', 'a']
+		SPLIT: ['l', 'ea', 'f', '_']
+		['l', 'ea', 'f', '_']
+		SPLIT: ['l', 'e.ea', 'f', 'a', '----!']
+		SPLIT: ['l', 'e.ea', 'u', 'e.u', '----!']
+		SPLIT: ['l', 'e', 'u', 'e', '----!']
+		SPLIT: ['l', 'ia', '_', 'a', '----!']
+		version for pattern CVCV is INVALID
+		[]
+		4
+		POSSIBLE CHANGE: 0 : Palatal Vicinity l-deletion
+		OVERVIEW: version for pattern CVCV
+
+faulty splits: 4
+le.eafa----! <-! leafan
+le.eaue.u----! <-! leauen
+leue----! <-! leuen
+liaa----! <-! lia
+l | æ | f | e
+l | a | f | e
+l | a | u | e
+l | ea | f | e
+l | ea | u | e
+l | e | f | e
+l | e | u | e
+l | e | w | e
+l | ia | u | e
+l | e | _ | _
+l | e | _ | a
+l | ea | f | _
+l | e.ea | f | a | ----!
+l | e.ea | u | e.u | ----!
+l | e | u | e | ----!
+l | ia | _ | a | ----!
+	FOUND __ 0 __ VALID VERSION(S)
+	POSSIBLE CHANGE: 0 : Palatal Vicinity l-deletion
+	OVERVIEW: version for pattern CVCVC
+
+faulty splits: 1
+liaa----! <-! lia
+l | ea | f | a | n
+l | ea | u | e | n
+l | e | u | e | n
+l | æ | f | e | _
+l | a | f | e | _
+l | a | u | e | _
+l | e | _ | _ | _
+l | e | _ | a | _
+l | ea | f | _ | _
+l | ea | f | e | _
+l | ea | u | e | _
+l | e | f | e | _
+l | e | u | e | _
+l | e | w | e | _
+l | ia | _ | a | _ | ----!
+l | ia | u | e | _
+4 : {'n', '_', 'f'}
+	{'CCVCCV', 'CCCVCV'}

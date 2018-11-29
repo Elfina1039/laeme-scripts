@@ -1,0 +1,34 @@
+<County: Norfolk>
+<Code: D0403>
+<Reference: Cambridge, King's College: COL/445>
+<Function: Financial account>
+
+<Transcribed by: AK 10/04/2015>
+<Proofread by: MRS 10/04/2015>
+
+
+
+<lat><nta> *ANNO SCDO RRx HENR OCTAUI,</lat>
+**THIS BILL MADE THE FURST *DAY OF THE MONYTH OF
+OCTOBUR~ THE YER~ AND *REYNG~ OF KYNG~ HARY THE
+VIIJ THE SECUNDE *J *RAFF *BAYSPOLE *BALY OFF
+*COUTESHALE HASKE TO BE *ALOWYD
+. *JN PrIMIS *FOR~ Y\E NEW LONDE <spn> I%IJ S IIIJ D,
+. *JTM~ *FOR~ LORDE <ill>beginning of a word>LEY</ill> <spn> I%J S IIIJ D,
+. *JTM~ *FOR~ PORTE <spn> J% D
+<cro>. *JTM~ *FOR~ ERLE WARANT~</cro> <spn> .
+. *JTM~ *FOR~ *GOGMANS SHOTTE <spn> J% D, OBx
+. *JTM~ *FOR~ WILLIAM~ *COOKE <spn> VJ% D,
+. *JTM~ *FOR~ WILLIAM~ *COWPER <spn> VJ D,
+. *JTM~ *FOR~ MY *COSTYS <spn> V S
+. *JTM~ *FOR~ A *COWRTE <spn> XX D,
+. *JTM~ *FOR~ THE LONDes OFF *ROBx LANE <spn> XJ S <com><writing smudgy here> IJ D,</com>
+. *JTM~ *FOR~ THE DEKAY+LONDE <spn> I%IJ S IIIJ D,
+. *JTM~ *FOR~ THE RENT Y\T MY RENTALL <spn>
+WYLL NOT EXTEND TO <spn> V S
+*JTM~ *FOR~ LONDES OFF sir <cro>*NI</cro> *NYCHOLAS *BLAKE <spn>
+*FOR~ VJ YER <spn> IJ S
+. *JTM~ *FOR~ MY *FEE <spn> XX S
+<cro>*JTM~ *FOR~</cro> *A MARCYMENT OFF WILLIAM~ LELY <spn> <cro>IIJ</cro>
+SMa TOTALx LB S IIJ D, OBx
+[dorse]<lat>ANNO IJ\DO *H VI%I%I%</lat>
