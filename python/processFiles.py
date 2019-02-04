@@ -9,10 +9,10 @@ nid=(0,)
 class Line:
     def __init__(self, inp):
        # print(type(inp))
-        print("INPUT: " + inp.rstrip("\n"))
+        print("INPUT: " + inp.rstrip("\n").replace("\\\\","|"))
         
       #  mtch=re.findall('\\$',inp)
-        txt=inp
+        txt=inp.rstrip("\n").replace("\\\\","|")
       #  print(mtch)
       #  print("NEW LINE__: " + txt);
         parts=re.split("\s+",txt)
@@ -33,26 +33,33 @@ class Line:
         for t1 in self.tags:
             t1.higher=[]
             for t2 in self.tags:
-                if(t1.rawForm<=t2.rawForm and t1!=t2):
+                if(t1.rawForm.replace("-","+")<=t2.rawForm.replace("-","+") and t1!=t2):
                     t1.higher.append(t2)
-                    print(t1.form +" is part of "+ t2.form)
+                    print(t1.rawForm +" is part of "+ t2.rawForm)          
             t1.level=len(t1.higher)
-        lower=list(map(lambda x: x.rawForm.rstrip(),filter(lambda x: x.level==1,self.tags)))
-        #print("LOWER:"+str(lower))
-        root=self.word.rawForm
+        for t in self.tags:
+            if(t.level>0 and t.type=="root"):
+                t.type="compound"
+        roots=lower=list(filter(lambda x: x.type in ("root","compound"),self.tags))
+        for r in roots:
+            self.addRoots(r);
+            
+    def addRoots(self, highest):
+        #lower=list(map(lambda x: x.rawForm.rstrip(),filter(lambda x: x.level==1,self.tags)))
+        lower=list(filter(lambda x: x.level==highest.level+1,self.tags))
+        print("LOWER:"+str(lower))
+        root=highest.rawForm
         for lw in lower:
-            print("replacing: "+lw)
-            root=root.replace(lw,"")
+            print("replacing: "+lw.rawForm)
+            root=root.replace("-","+").replace(lw.rawForm.strip().replace("-","+"),"")
             print("ROOT: "+root)
-        self.roots=root.split("+")
-        for r in self.roots:
-            self.tags.append(Tag("$"+self.word.lexel+"/"+self.word.grammel+"_"+r, "root"))
+        self.tags.append(Tag("$"+highest.lexel+"/"+highest.grammel+"_"+root, "root"))
             
             
     def display(self):
         lvl=0
         while(len(list(filter(lambda x: (x.level==lvl),self.tags)))):
-            #print(list(map(lambda x: x.rawForm,filter(lambda x: x.level==lvl,self.tags))))
+            #print(list(map(lambda x: x.rawForm,filter(lambda x: x.level==lvl,selo.tags))))
             lvl+=1
             
     def saveToDb(self):
@@ -75,12 +82,14 @@ class Tag:
     def __init__(self, txt, type):
        
         txt.rstrip()
-        #print("NEW TAG: " + txt)
+        print("NEW TAG: " + txt)
         parts=txt.split("/")
         self.lexel=parts[0].replace("$","")
         self.grammel=parts[1].split("_")[0]
         self.rawForm=parts[1].split("_")[1].split("\\")[0]
-        self.form=self.rawForm.replace("+","")
+        self.form=self.rawForm.replace("+","").replace("-","")
+        
+        print(self.rawForm)
         
         if(self.rawForm.startswith("*")):
             print("capital")
@@ -91,7 +100,7 @@ class Tag:
         
         #print(">>> FORM: "+self.form)
         
-        self.morphCount=len(self.rawForm.split("+"))
+        self.morphCount=len(re.split("[-\+]",self.rawForm))
         self.level=0
         if(type is not None):
             self.type=type
@@ -111,6 +120,7 @@ class Tag:
             rsl="suffix"
         if(self.lexel.endswith("-")):
             rsl="prefix"
+        print("-----> "+self.rawForm+" = "+rsl)
         return rsl
     
     def getInsert(self, getType):
@@ -128,7 +138,7 @@ files=fileIndex.texts[start:end]
 
 for f in files:  
     currentFile=f["id"]
-    with open("laemeFiles/text_"+str(f["id"])+".txt") as tf:
+    with open("D:/laemeFiles/text_"+str(f["id"])+".txt") as tf:
         for line in tf:
             if(line[0]=="$"):
                 line.rstrip()
@@ -139,5 +149,4 @@ for f in files:
                 #print("SKIPPING: ________"+line + "("+str(nid)+")")
                 if(int(nid[0])!=0):
                     c.callproc("insertcomment",(line, int(nid[0])))
-
 #sample.display()

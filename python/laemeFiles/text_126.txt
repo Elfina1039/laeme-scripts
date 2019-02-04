@@ -1,0 +1,101 @@
+# 126\n
+{Stratford-upon-Avon, Shakespeare Birthplace Library, DR 10/1408, pp. 23-24: Coventry Writ}\n
+C13b2-C14a1\n
+435 280 E\n
+{=Coventry, Warwicks=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~p23~}\n
+{(*CARTA *REGIS *EDWARDI ANGLICE SCr^IPTA .(}\n
+\'_[]DWARD\n
+{=Space left for large initial not carried out=}\n
+$/TN_zE\n
+$king/n_KYNGe\n
+$greet/vps13-ct_GRET\n
+$/P11GOdpl+C_MYNE\n
+$bishop/nplOd_*BUSSHOP+ES $/plnOd_+ES\n
+$&/cj_&\n
+$/P11GOdpl+V_MYNE\n
+$earl/nplOd_*ERL+ES $/plnOd_+ES\n
+{\\}\n
+$&/cj_&\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P11GOdpl+C_MYNE\n
+$thane/nplOd_THEYGN+ES $/plnOd_+ES\n
+$in{p}/pr_IN\n
+$/T<pr_YE\n
+$shire/n<pr_SHIRE\n
+$there/av>=_zER\n
+$there{w}/cj<=_zER\n
+\'_*LEOUWYN\n
+{\\}\n
+$abbot/n-t_*ABBOT\n
+$in{p}/pr_IN\n
+;_*COUENTRe\n
+$have/vps13_HABB+ET $/vps13_+ET\n
+$land/nOd_LOND\n
+$in{p}/pr<_INNE\n
+$friendly/av_FREOND+LICHE $-ly/xs-av_+LICHE\n
+{.}\n
+$&/cj_&\n
+$/P11N_ICH\n
+{\\}\n
+{~p24~}\n
+$cy:Yan/vps11_CHUTHE\n
+$/P22Oi_OU\n
+$that/cj_YAT\n
+$/P11N_ICH\n
+$will{mv}/vps11_WILLE\n
+$that/cj_YAT\n
+$/P13NM_HE\n
+$be/vsjps13_BOE\n
+$/P13GM_HIS\n
+$sacu/nG_SAC+E $/Gn_+E\n
+$&/cj_&\n
+$/P13GM_HIS\n
+$so:cn/nG_SOCEN+E $/Gn_+E\n
+$worth/aj_WURTH\n
+{\\}\n
+$toll/nG_TOLL+ES $/Gn_+ES\n
+$&/cj_&\n
+$te:am/nG_TEM+ES $/Gn_+ES\n
+$over/pr_OUER\n
+$/P13GM_HYS\n
+$land/n<pr_LOND\n
+$&/cj_&\n
+$over/pr_OUer\n
+$/P13GM_HYS\n
+$meine:/n<pr_MEYN\n
+$binnan/pr_BYNNEN\n
+$burh/n<pr>_BOROUGH~\n
+{\\}\n
+$&/cj_&\n
+$bu:tan{os}/pr<_BOUTEN\n
+$as/av_SO\n
+$full/av_FOUL\n
+$&/cj_&\n
+$as/av>=_SO\n
+$forth/av_FORTH\n
+$as/cj<=_SO-SO\n
+\'_*LEOFRIC\n
+$earl/n-t_*ERL\n
+$1/qoav_FIRM+EST $-est/xs-sup-av_+EST\n
+$have/vpt13_HAU+EDE $/vpt13_+EDE\n
+{.}\n
+$&/cj_&\n
+$/P11N_ICH\n
+$willnot/vps11_N+ULLE $n-/xp-neg_N+\n
+$suffer/viFir_SUFFR+EN $/viFir_+EN\n
+$that/cj_YAT\n
+$man/indef_MON\n
+$/P13OiM_HYM\n
+$in{m}/pr_IN\n
+$anything/n<pr_AN+Y-THYNG $-ig/xs-aj-k_+Y- $thing/n<pr-k_-THYNG\n
+$misbe:odan/vsjps13_MYS\\+BEDE $mis-/xp-v_MYS\\+\n
+{=BEDE taken to the right hand side of the line below and separated from\n
+the following text to its left by a paraph=}\n
+{\\\\}\n
+|\n
+\n
+\n'

@@ -1,0 +1,76 @@
+# 267\n
+{Dublin, Trinity College 432 (D.4.18), part I, fol. 22r: version of My Leman on the Rood}\n
+C13\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - C13 book hand influenced by documentary script=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f22r~}\n
+{=The main part of the folio is Latin in two columns. The English verse\n
+is written in a single column in the bottom margin, in a different\n
+hand from the Latin=}\n
+$when/cj_*WHANNE\n
+$/P11N_I\n
+$/P12Od_yE\n
+$on{p}/pr_O\n
+$rood/n<pr_RODE\n
+$see/vps11_I-SE $ge-/xp-vps11_I-\n
+\'_IHesU\n
+$/P11G-voc+C_MI\n
+$leman/n-voc{rh}_LE+MAN $man/n-voc-k{rh}_+MAN\n
+{.}\n
+$how/av_WHU\n
+$/P12GN+C_yI\n
+$mother/n_MODER\n
+$stand/vps13-ct_STANT\n
+$/P12>pr-ad_TE\n
+$by{p}/pr<_BI\n
+$weep/vpsp_WEP+ENDE $/vpsp_+ENDE\n
+{\\}\n
+$&/cj_*AND\n
+\'_*IOHAN\n
+{.}\n
+$well{w}/av_WEL\n
+$a:gan/vps11_OUTE\n
+$/P11N_IHC\n
+$with{w}/pr_WIT\n
+$heart/n<pr_HERTE\n
+$weep/vi_WEP+EN $/vi_+EN\n
+$&/cj_AND\n
+$/P11GOd+C_MI\n
+$neb/nOd_NEB\n
+$with{w}/pr_WIT\n
+$tear/npl<pr_TER+ES $/pln<pr_+ES\n
+$wae:tan/vi_WET+EN $/vi_+EN\n
+{\\}\n
+$if/cj_IF\n
+$/P11N+V_IHC\n
+$in{c}/pr_ONE\n
+$love/n<pr_LUUE\n
+$can/vps11{rh}_KAN\n
+$for/cj_FOR\n
+$benot/vps13_N+IS $n-/xp-neg(>ajN)_N+\n
+$no/aj+C_NON\n
+$now/av_NU\n
+$man/n_MAN\n
+$alive/av_O-LIUE $on/pr-xp-av_O-\n
+{.}\n
+$/RTA_*yAT\n
+$will/vpt13_WOLDE\n
+$Yolian/viK2_yOL+IEN $/viK2_+IEN\n
+{\\}\n
+$of/pr_OF\n
+$death/n<pr_DET\n
+$/TOd_yE\n
+$pi:ne/nOd_PINE\n
+$for/pr_FOR\n
+$love/n<pr_LUUE\n
+$of/pr_OF\n
+$sinful/aj<pr_SEN+FUL $-ful/xs-aj<pr_+FUL\n
+$man/n<pr{rh}_M*AN\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

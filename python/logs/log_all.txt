@@ -1,1066 +1,4703 @@
 Analysis object initialized
-{'a': 4, 'æl': 1, 'al': 1043, 'ale': 2, 'all': 144, 'alle': 79, 'eal': 3, 'eall': 2}
+{'a': 1, 'æl': 3, 'æll': 5, 'al': 2930, 'ald': 11, 'aldre': 1, 'ale': 2, 'all': 3177, 'alle': 290, 'allen': 5, 'alll': 1, 'alre': 6, 'alþ': 1, 'eæll': 1, 'eal': 32, 'eall': 38, 'eallan': 1, 'ealle': 2, 'eallum': 1, 'eallun': 1, 'ealre': 3, 'eeal': 1, 'hal': 5, 'hall': 3}
 Lexel initialized
-[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-[[{'lit': 'ea', 'ln': 2, 'index': 0}]]
-[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}]]
-[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}], [{'lit': 'll', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 0}]]
-MIN pattern length=2
-Pattern VCV is valid
-Pattern VVC is invalid
-Pattern V is invalid
-Pattern VVCC is invalid
-Pattern VCC is valid
+MIN pattern length=4
+Pattern CVC is invalid
 Pattern VCCV is valid
-Pattern VC is valid
-{'value': 5, 'patterns': ['VC']}
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}], [{'lit': 'll', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 0}]]
-	MIN pattern length=2
-	Pattern VCV is valid
-	Pattern VVC is invalid
-	Pattern V is invalid
-	Pattern VVCC is invalid
-	Pattern VCC is valid
+Pattern VCVC is valid
+Pattern VCCC is valid
+Pattern VCC is invalid
+Pattern V is invalid
+Pattern VCCCV is valid
+Pattern VCV is invalid
+Pattern VC is invalid
+{'value': 4, 'patterns': ['VCVC']}
+	MIN pattern length=4
+	Pattern CVC is invalid
 	Pattern VCCV is valid
-	Pattern VC is valid
-	Making the selection for pattern: VCV
-	Selection for pattern: VCV completed
-	Making a version for pattern: VCV
-			___VCV : 0___
-				ANALYSING: ale
-				adding littera based on matching pattern
-				ANALYSING: alle
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (1)
-					> version: a
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					TRYING: æ
-					RESULT:  ['æ']
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: a
-					> version: a/ll
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: e
-					> version: ea/l
-					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					RESULT:  ['e', 'ea']
-				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: e
-					> version: e/a/ll
-					TRYING: e
-					> version: ea/l/l
-					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					> version: ea/ll
-					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					RESULT:  ['e', 'ea']
-			___VCV : 1___
-				ANALYSING: ale
-				adding littera based on matching pattern
-				ANALYSING: alle
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (1)
-					> version: a
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				a(V)
-a/_(VA)
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: l
-					> version: a/ll
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: a
-					> version: ea/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: a
-					> version: e/a/ll
-					TRYING: a
-					> version: ea/l/l
-					TRYING: l
-					> version: ea/ll
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-			___VCV : 2___
-				ANALYSING: ale
-				adding littera based on matching pattern
-				ANALYSING: alle
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (2)
-					> version: a
-					> version: a/_
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				adding dashed alternative: ['a', '_', '_']
-				a(V)
-a/_(VA)
-a/_(VA)
-a/_/_(VAA)
-				version split: ['a']
-				{'string': 'a', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_', '_']
-				{'string': 'a/_/_', 'rgx': '((a))/((_))/((_))$'}
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					RESULT:  ['_']
-				adding dashed alternative: ['æ', 'l', '_']
-				æ/l(VC)
-æ/l/_(VCA)
-				version split: ['æ', 'l']
-				{'string': 'æ/l', 'rgx': '((æ))/((l))/((_))$'}
-				_____REMOVING________['æ', 'l']
-				version split: ['æ', 'l', '_']
-				{'string': 'æ/l/_', 'rgx': '((æ))/((l))/((_))$'}
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_']
-				a/l(VC)
-a/l/_(VCA)
-				version split: ['a', 'l']
-				{'string': 'a/l', 'rgx': '((a))/((l))/((_))$'}
-				_____REMOVING________['a', 'l']
-				version split: ['a', 'l', '_']
-				{'string': 'a/l/_', 'rgx': '((a))/((l))/((_))$'}
-				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: l
-					> version: a/ll
-					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_', 'l']
-				adding dashed alternative: ['a', 'll', '_']
-				a/l/l(VCC)
-a/ll(VC)
-a/l/_/l(VCAC)
-a/ll/_(VCA)
-				version split: ['a', 'l', 'l']
-				{'string': 'a/l/l', 'rgx': '((a))/((l)|(ll))/((_))$'}
-				_____REMOVING________['a', 'l', 'l']
-				version split: ['a', 'll']
-				{'string': 'a/ll', 'rgx': '((a))/((l)|(ll))/((_))$'}
-				_____REMOVING________['a', 'll']
-				version split: ['a', 'l', '_', 'l']
-				{'string': 'a/l/_/l', 'rgx': '((a))/((l)|(ll))/((_))$'}
-				_____REMOVING________['a', 'l', '_', 'l']
-				version split: ['a', 'll', '_']
-				{'string': 'a/ll/_', 'rgx': '((a))/((l)|(ll))/((_))$'}
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: l
-					> version: ea/l
-					RESULT:  ['_']
-				adding dashed alternative: ['e', 'a', '_', 'l']
-				adding dashed alternative: ['ea', 'l', '_']
-				e/a/l(VVC)
-ea/l(VC)
-e/a/_/l(VVAC)
-ea/l/_(VCA)
-				version split: ['e', 'a', 'l']
-				{'string': 'e/a/l', 'rgx': '((e)|(ea))/((l))/((_))$'}
-				_____REMOVING________['e', 'a', 'l']
-				version split: ['ea', 'l']
-				{'string': 'ea/l', 'rgx': '((e)|(ea))/((l))/((_))$'}
-				_____REMOVING________['ea', 'l']
-				version split: ['e', 'a', '_', 'l']
-				{'string': 'e/a/_/l', 'rgx': '((e)|(ea))/((l))/((_))$'}
-				_____REMOVING________['e', 'a', '_', 'l']
-				version split: ['ea', 'l', '_']
-				{'string': 'ea/l/_', 'rgx': '((e)|(ea))/((l))/((_))$'}
-				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: l
-					> version: e/a/ll
-					TRYING: ll
-					> version: ea/l/l
-					TRYING: l
-					> version: ea/ll
-					RESULT:  ['_']
-				adding dashed alternative: ['e', 'a', '_', 'l', 'l']
-				adding dashed alternative: ['e', 'a', '_', 'll']
-				adding dashed alternative: ['ea', 'l', '_', 'l']
-				adding dashed alternative: ['ea', 'll', '_']
-				e/a/l/l(VVCC)
-e/a/ll(VVC)
-ea/l/l(VCC)
-ea/ll(VC)
-e/a/_/l/l(VVACC)
-e/a/_/ll(VVAC)
-ea/l/_/l(VCAC)
-ea/ll/_(VCA)
-				version split: ['e', 'a', 'l', 'l']
-				{'string': 'e/a/l/l', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'l', 'l']
-				version split: ['e', 'a', 'll']
-				{'string': 'e/a/ll', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'll']
-				version split: ['ea', 'l', 'l']
-				{'string': 'ea/l/l', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'l', 'l']
-				version split: ['ea', 'll']
-				{'string': 'ea/ll', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'll']
-				version split: ['e', 'a', '_', 'l', 'l']
-				{'string': 'e/a/_/l', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', '_', 'l', 'l']
-				version split: ['e', 'a', '_', 'll']
-				{'string': 'e/a/_/ll', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', '_', 'll']
-				version split: ['ea', 'l', '_', 'l']
-				{'string': 'ea/l/_/l', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'l', '_', 'l']
-				version split: ['ea', 'll', '_']
-				{'string': 'ea/ll/_', 'rgx': '((e)|(ea))/((l)|(ll))/((_))$'}
-		only one version left: ['a', '_', '_']
-		only one version left: ['æ', 'l', '_']
-		only one version left: ['a', 'l', '_']
-		only one version left: ['a', 'll', '_']
-		only one version left: ['ea', 'l', '_']
-		only one version left: ['ea', 'll', '_']
-		SPLIT: ['a', 'l', 'e']
-		SPLIT: ['a', 'll', 'e']
-		SPLIT: ['a', '_', '_']
-		['a', '_', '_']
-		SPLIT: ['æ', 'l', '_']
-		['æ', 'l', '_']
-		SPLIT: ['a', 'l', '_']
-		['a', 'l', '_']
-		SPLIT: ['a', 'll', '_']
-		['a', 'll', '_']
-		SPLIT: ['ea', 'l', '_']
-		['ea', 'l', '_']
-		SPLIT: ['ea', 'll', '_']
-		['ea', 'll', '_']
-		POSSIBLE CHANGE: 1 : Palatal Vicinity l-deletion
-		OVERVIEW: version for pattern VCV
-
-faulty splits: 0
-a | l | e
-a | ll | e
-a | _ | _
-æ | l | _
-a | l | _
-a | ll | _
-ea | l | _
-ea | ll | _
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}], [{'lit': 'll', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 0}]]
-	MIN pattern length=2
-	Pattern VCV is valid
-	Pattern VVC is invalid
+	Pattern VCVC is valid
+	Pattern VCCC is valid
+	Pattern VCC is invalid
 	Pattern V is invalid
-	Pattern VVCC is invalid
-	Pattern VCC is valid
-	Pattern VCCV is valid
-	Pattern VC is valid
-	Making the selection for pattern: VCC
-	Selection for pattern: VCC completed
-	Making a version for pattern: VCC
-			___VCC : 0___
-				ANALYSING: all
-				adding littera based on matching pattern
-				ANALYSING: eall
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (1)
-					> version: a
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					TRYING: æ
-					RESULT:  ['æ']
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: ale
-					resolving (1)
-					> version: a/l/e
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: alle
-					resolving (2)
-					> version: a/l/l/e
-					TRYING: a
-					> version: a/ll/e
-					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: e
-					> version: ea/l
-					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					RESULT:  ['e', 'ea']
-			___VCC : 1___
-				ANALYSING: all
-				adding littera based on matching pattern
-				ANALYSING: eall
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (1)
-					> version: a
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				a(V)
-a/_(VA)
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: ale
-					resolving (1)
-					> version: a/l/e
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: alle
-					resolving (2)
-					> version: a/l/l/e
-					TRYING: l
-					> version: a/ll/e
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: a
-					> version: ea/l
-					TRYING: l
-					RESULT:  ['l']
-			___VCC : 2___
-				ANALYSING: all
-				adding littera based on matching pattern
-				ANALYSING: eall
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (2)
-					> version: a
-					> version: a/_
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				adding dashed alternative: ['a', '_', '_']
-				a(V)
-a/_(VA)
-a/_(VA)
-a/_/_(VAA)
-				version split: ['a']
-				{'string': 'a', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_', '_']
-				{'string': 'a/_/_', 'rgx': '((a))/((_))/((_))$'}
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
-					RESULT:  ['_']
-				adding dashed alternative: ['æ', 'l', '_']
-				æ/l(VC)
-æ/l/_(VCA)
-				version split: ['æ', 'l']
-				{'string': 'æ/l', 'rgx': '((æ))/((l))/((_))$'}
-				_____REMOVING________['æ', 'l']
-				version split: ['æ', 'l', '_']
-				{'string': 'æ/l/_', 'rgx': '((æ))/((l))/((_))$'}
-				ANALYSING: al
-					resolving (1)
-					> version: a/l
-					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_']
-				a/l(VC)
-a/l/_(VCA)
-				version split: ['a', 'l']
-				{'string': 'a/l', 'rgx': '((a))/((l))/((_))$'}
-				_____REMOVING________['a', 'l']
-				version split: ['a', 'l', '_']
-				{'string': 'a/l/_', 'rgx': '((a))/((l))/((_))$'}
-				ANALYSING: ale
-					resolving (1)
-					> version: a/l/e
-					TRYING: e
-					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_', 'e']
-				a/l/e(VCV)
-a/l/_/e(VCAV)
-				version split: ['a', 'l', 'e']
-				{'string': 'a/l/e', 'rgx': '((a))/((l))/((_))$'}
-				_____REMOVING________['a', 'l', 'e']
-				version split: ['a', 'l', '_', 'e']
-				{'string': 'a/l/_/e', 'rgx': '((a))/((l))/((_))$'}
-				_____REMOVING________['a', 'l', '_', 'e']
-				ANALYSING: alle
-					resolving (2)
-					> version: a/l/l/e
-					TRYING: l
-					> version: a/ll/e
-					TRYING: e
-					RESULT:  ['l']
-				version split: ['a', 'l', 'l', 'e']
-				{'string': 'a/l/l/e', 'rgx': '((a))/((l)|(ll))/((l))$'}
-				_____REMOVING________['a', 'l', 'l', 'e']
-				version split: ['a', 'll', 'e']
-				{'string': 'a/ll/e', 'rgx': '((a))/((l)|(ll))/((l))$'}
-				_____REMOVING________['a', 'll', 'e']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: l
-					> version: ea/l
-					RESULT:  ['l']
-				version split: ['e', 'a', 'l']
-				{'string': 'e/a/l', 'rgx': '((e)|(ea))/((l))/((l))$'}
-				_____REMOVING________['e', 'a', 'l']
-				version split: ['ea', 'l']
-				{'string': 'ea/l', 'rgx': '((e)|(ea))/((l))/((l))$'}
-				_____REMOVING________['ea', 'l']
-		only one version left: ['a', '_', '_']
-		only one version left: ['æ', 'l', '_']
-		only one version left: ['a', 'l', '_']
-		FAIL: 
-		FAIL: 
-		FAIL: 
-		SPLIT: ['a', 'l', 'l']
-		SPLIT: ['ea', 'l', 'l']
-		SPLIT: ['a', '_', '_']
-		['a', '_', '_']
-		SPLIT: ['æ', 'l', '_']
-		['æ', 'l', '_']
-		SPLIT: ['a', 'l', '_']
-		['a', 'l', '_']
-		SPLIT: ['a', 'l', '_', '----!']
-		SPLIT: ['a', 'l.ll', 'l', '----!']
-		SPLIT: ['e.ea', 'l', 'l', '----!']
-		version for pattern VCC is INVALID
-		[]
-		3
-		POSSIBLE CHANGE: 1 : Palatal Vicinity l-deletion
-		POSSIBLE CHANGE: 2 : Palatal Vicinity l-deletion
-		OVERVIEW: version for pattern VCC
-
-faulty splits: 3
-al----! <-! ale
-al.lll----! <-! alle
-e.eall----! <-! eal
-a | l | l
-ea | l | l
-a | _ | _
-æ | l | _
-a | l | _
-a | l | _ | ----!
-a | l.ll | l | ----!
-e.ea | l | l | ----!
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}], [{'lit': 'll', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 0}]]
-	MIN pattern length=2
-	Pattern VCV is valid
-	Pattern VVC is invalid
-	Pattern V is invalid
-	Pattern VVCC is invalid
-	Pattern VCC is valid
-	Pattern VCCV is valid
-	Pattern VC is valid
+	Pattern VCCCV is valid
+	Pattern VCV is invalid
+	Pattern VC is invalid
 	Making the selection for pattern: VCCV
 	Selection for pattern: VCCV completed
 	Making a version for pattern: VCCV
 			___VCCV : 0___
-				ANALYSING: alle
+				ANALYSING: alre
 				adding littera based on matching pattern
-				ANALYSING: a
+				ANALYSING: ealre
+				adding littera based on matching pattern
+				ANALYSING: aldre
 					resolving (1)
-					> version: a
+					> version: a/l/d/r/e
 					TRYING: a
+					NEW MEMBER: (0)['a']
 					RESULT:  ['a']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/u/m
+					TRYING: ea
+					> version: ea/ll/u/m
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: ea
+					> version: ea/ll/u/n
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
 				ANALYSING: æl
 					resolving (1)
 					> version: æ/l
 					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
 					RESULT:  ['æ']
 				ANALYSING: al
 					resolving (1)
 					> version: a/l
 					TRYING: a
-					RESULT:  ['a']
-				ANALYSING: ale
-					resolving (1)
-					> version: a/l/e
-					TRYING: a
+					NEW MEMBER: (0)['a']
 					RESULT:  ['a']
 				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: a
+					resolving (1)
 					> version: a/ll
 					TRYING: a
+					NEW MEMBER: (0)['a']
 					RESULT:  ['a']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: eæ
+					NEW MEMBER: (0)['eæ']
+					RESULT:  ['eæ']
 				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: e
+					resolving (1)
 					> version: ea/l
 					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					RESULT:  ['e', 'ea']
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
 				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: e
-					> version: e/a/ll
-					TRYING: e
-					> version: ea/l/l
-					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
+					resolving (1)
 					> version: ea/ll
 					TRYING: ea
-					>>> MULTIPLE RESOLVE OPTIONS: {'e', 'ea'}
-					RESULT:  ['e', 'ea']
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: eea
+					NEW MEMBER: (0)['eea']
+					RESULT:  ['eea']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: hal
+					resolving (1)
+					> version: h/a/l
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'l']
+				_/h/a/l(ACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: h/a/ll
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'll']
+				_/h/a/ll(ACVC)
 			___VCCV : 1___
-				ANALYSING: alle
+				ANALYSING: alre
 				adding littera based on matching pattern
-				ANALYSING: a
+				ANALYSING: ealre
+				adding littera based on matching pattern
+				ANALYSING: aldre
 					resolving (1)
-					> version: a
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				a(V)
-a/_(VA)
-				ANALYSING: æl
-					resolving (1)
-					> version: æ/l
+					> version: a/l/d/r/e
 					TRYING: l
+					NEW MEMBER: (1)['l']
 					RESULT:  ['l']
-				ANALYSING: al
+				ANALYSING: ald
 					resolving (1)
-					> version: a/l
+					> version: a/l/d
 					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: l
+					NEW MEMBER: (1)['l']
 					RESULT:  ['l']
 				ANALYSING: ale
 					resolving (1)
 					> version: a/l/e
 					TRYING: l
+					NEW MEMBER: (1)['l']
 					RESULT:  ['l']
-				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: l
-					> version: a/ll
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: a
-					> version: ea/l
-					TRYING: l
-					RESULT:  ['l']
-				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: a
-					> version: e/a/ll
-					TRYING: a
-					> version: ea/l/l
-					TRYING: l
-					> version: ea/ll
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-			___VCCV : 2___
 				ANALYSING: alle
-				adding littera based on matching pattern
-				ANALYSING: a
+					resolving (1)
+					> version: a/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallum
 					resolving (2)
-					> version: a
-					> version: a/_
-					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				adding dashed alternative: ['a', '_', '_']
-				a(V)
-a/_(VA)
-a/_(VA)
-a/_/_(VAA)
+					> version: ea/ll/u/m
+					TRYING: ll
+					> version: ea/ll/u/m
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: ll
+					> version: ea/ll/u/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
 				ANALYSING: æl
 					resolving (1)
 					> version: æ/l
-					RESULT:  ['_']
-				adding dashed alternative: ['æ', 'l', '_']
-				æ/l(VC)
-æ/l/_(VCA)
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
 				ANALYSING: al
 					resolving (1)
 					> version: a/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: lll
+					adding blocked set: C = C >> l, ll, lll
+					NEW MEMBER: (1)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_']
-				a/l(VC)
-a/l/_(VCA)
+				adding dashed alternative: ['a', '_', 'lll']
+				a/_/lll(VAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				a/_(VA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'l']
+				_/_/h/a/l(AACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'll']
+				_/_/h/a/ll(AACVC)
+			___VCCV : 2___
+				ANALYSING: alre
+				adding littera based on matching pattern
+				ANALYSING: ealre
+				adding littera based on matching pattern
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: d
+					adding blocked set: C = C >> d, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'd', 'r', 'e']
+				a/l/_/d/r/e(VCACCV)
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: d
+					adding blocked set: C = C >> _, d, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'd']
+				a/l/_/d(VCAC)
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: þ
+					adding blocked set: C = C >> _, þ, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'þ']
+				a/l/_/þ(VCAC)
 				ANALYSING: ale
 					resolving (1)
 					> version: a/l/e
 					TRYING: e
+					NEW MEMBER: (2)['_']
 					RESULT:  ['_']
 				adding dashed alternative: ['a', 'l', '_', 'e']
-				a/l/e(VCV)
-a/l/_/e(VCAV)
-				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					TRYING: l
-					> version: a/ll
-					RESULT:  ['l']
-				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					TRYING: l
-					> version: ea/l
-					RESULT:  ['l']
-				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: l
-					> version: e/a/ll
-					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					> version: ea/l/l
-					TRYING: l
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					> version: ea/ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-			___VCCV : 3___
+				a/l/_/e(VCAV)
 				ANALYSING: alle
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (4)
-					> version: a
-					> version: a/_
-					> version: a/_
-					> version: a/_/_
+					resolving (1)
+					> version: a/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				adding dashed alternative: ['a', '_', '_']
-				adding dashed alternative: ['a', '_', '_']
-				adding dashed alternative: ['a', '_', '_', '_']
-				a(V)
-a/_(VA)
-a/_(VA)
-a/_/_(VAA)
-a/_(VA)
-a/_/_(VAA)
-a/_/_(VAA)
-a/_/_/_(VAAA)
-				version split: ['a']
-				{'string': 'a', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_', '_']
-				{'string': 'a/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_', '_']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_']
-				version split: ['a', '_', '_']
-				{'string': 'a/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_', '_']
-				version split: ['a', '_', '_']
-				{'string': 'a/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
-				_____REMOVING________['a', '_', '_']
-				version split: ['a', '_', '_', '_']
-				{'string': 'a/_/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
+				adding dashed alternative: ['a', 'll', '_', 'e']
+				a/ll/_/e(VCAV)
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', 'e', 'n']
+				a/ll/_/e/n(VCAVC)
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: a
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'a', 'n']
+				ea/ll/_/a/n(VCAVC)
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'e']
+				ea/ll/_/e(VCAV)
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					> version: ea/ll/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'm']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'm']
+				ea/ll/_/u/m(VCAAC)
+ea/ll/_/u/m(VCAAC)
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					> version: ea/ll/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'n']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'n']
+				ea/ll/_/u/n(VCAAC)
+ea/ll/_/u/n(VCAAC)
 				ANALYSING: æl
-					resolving (2)
+					resolving (1)
 					> version: æ/l
-					> version: æ/l/_
+					NEW MEMBER: (2)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['æ', 'l', '_']
-				adding dashed alternative: ['æ', 'l', '_', '_']
-				æ/l(VC)
-æ/l/_(VCA)
-æ/l/_(VCA)
-æ/l/_/_(VCAA)
-				version split: ['æ', 'l']
-				{'string': 'æ/l', 'rgx': '((æ))/((l))/((_))/((_))$'}
-				_____REMOVING________['æ', 'l']
-				version split: ['æ', 'l', '_']
-				{'string': 'æ/l/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
-				_____REMOVING________['æ', 'l', '_']
-				version split: ['æ', 'l', '_']
-				{'string': 'æ/l/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
-				_____REMOVING________['æ', 'l', '_']
-				version split: ['æ', 'l', '_', '_']
-				{'string': 'æ/l/_/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
+				æ/l/_(VCA)
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/ll/_(VCA)
 				ANALYSING: al
-					resolving (2)
+					resolving (1)
 					> version: a/l
-					> version: a/l/_
+					NEW MEMBER: (2)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', '_']
-				adding dashed alternative: ['a', 'l', '_', '_']
-				a/l(VC)
-a/l/_(VCA)
-a/l/_(VCA)
-a/l/_/_(VCAA)
-				version split: ['a', 'l']
-				{'string': 'a/l', 'rgx': '((a))/((l))/((_))/((_))$'}
-				_____REMOVING________['a', 'l']
-				version split: ['a', 'l', '_']
-				{'string': 'a/l/_', 'rgx': '((a))/((l))/((_))/((_))$'}
-				_____REMOVING________['a', 'l', '_']
-				version split: ['a', 'l', '_']
-				{'string': 'a/l/_', 'rgx': '((a))/((l))/((_))/((_))$'}
-				_____REMOVING________['a', 'l', '_']
-				version split: ['a', 'l', '_', '_']
-				{'string': 'a/l/_/_', 'rgx': '((a))/((l))/((_))/((_))$'}
+				a/l/_(VCA)
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/ll/_(VCA)
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> _, lll, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', 'lll']
+				a/_/_/lll(VAAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eæ/ll/_(VCA)
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/l/_(VCA)
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/ll/_(VCA)
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eea/l/_(VCA)
+				ANALYSING: a
+					resolving (1)
+					> version: a/_
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/_/_(VAA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, h, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'l']
+				_/_/_/h/a/l(AAACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, h, r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'll']
+				_/_/_/h/a/ll(AAACVC)
+			___VCCV : 3___
+				ANALYSING: alre
+				adding littera based on matching pattern
+				ANALYSING: ealre
+				adding littera based on matching pattern
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/_/d/r/e
+					TRYING: d
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'd', 'r', 'e']
+				a/l/_/_/d/r/e(VCAACCV)
+				version split: ['a', 'l', '_', '_', 'd', 'r', 'e']
+				{'string': 'a/l/_/_/d', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'd', 'r', 'e']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/_/d
+					TRYING: d
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'd']
+				a/l/_/_/d(VCAAC)
+				version split: ['a', 'l', '_', '_', 'd']
+				{'string': 'a/l/_/_/d', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'd']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/_/þ
+					TRYING: þ
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'þ']
+				a/l/_/_/þ(VCAAC)
+				version split: ['a', 'l', '_', '_', 'þ']
+				{'string': 'a/l/_/_/þ', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'þ']
 				ANALYSING: ale
-					resolving (2)
-					> version: a/l/e
+					resolving (1)
 					> version: a/l/_/e
 					TRYING: e
+					NEW MEMBER: (3)['e']
 					RESULT:  ['e']
-				version split: ['a', 'l', 'e']
-				{'string': 'a/l/e', 'rgx': '((a))/((l))/((_))/((e))$'}
-				_____REMOVING________['a', 'l', 'e']
 				version split: ['a', 'l', '_', 'e']
 				{'string': 'a/l/_/e', 'rgx': '((a))/((l))/((_))/((e))$'}
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['e']
+					RESULT:  ['e']
+				version split: ['a', 'll', '_', 'e']
+				{'string': 'a/ll/_/e', 'rgx': '((a))/((ll))/((_))/((e))$'}
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/_/e/n
+					TRYING: e
+					NEW MEMBER: (3)['e']
+					RESULT:  ['e']
+				version split: ['a', 'll', '_', 'e', 'n']
+				{'string': 'a/ll/_/e/n', 'rgx': '((a))/((ll))/((_))/((e))$'}
+				_____REMOVING________['a', 'll', '_', 'e', 'n']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/_/a/n
+					TRYING: a
+					NEW MEMBER: (3)['a']
+					RESULT:  ['a']
+				version split: ['ea', 'll', '_', 'a', 'n']
+				{'string': 'ea/ll/_/a/n', 'rgx': '((ea))/((ll))/((_))/((a))$'}
+				_____REMOVING________['ea', 'll', '_', 'a', 'n']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['e']
+					RESULT:  ['e']
+				version split: ['ea', 'll', '_', 'e']
+				{'string': 'ea/ll/_/e', 'rgx': '((ea))/((ll))/((_))/((e))$'}
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/_/u/m
+					TRYING: u
+					> version: ea/ll/_/u/m
+					TRYING: u
+					NEW MEMBER: (3)['u']
+					RESULT:  ['u']
+				version split: ['ea', 'll', '_', 'u', 'm']
+				{'string': 'ea/ll/_/u/m', 'rgx': '((ea))/((ll))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', 'u', 'm']
+				version split: ['ea', 'll', '_', 'u', 'm']
+				{'string': 'ea/ll/_/u/m', 'rgx': '((ea))/((ll))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', 'u', 'm']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/_/u/n
+					TRYING: u
+					> version: ea/ll/_/u/n
+					TRYING: u
+					NEW MEMBER: (3)['u']
+					RESULT:  ['u']
+				version split: ['ea', 'll', '_', 'u', 'n']
+				{'string': 'ea/ll/_/u/n', 'rgx': '((ea))/((ll))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', 'u', 'n']
+				version split: ['ea', 'll', '_', 'u', 'n']
+				{'string': 'ea/ll/_/u/n', 'rgx': '((ea))/((ll))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', 'u', 'n']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/l/_/_(VCAA)
+				version split: ['æ', 'l', '_', '_']
+				{'string': 'æ/l/_/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/ll/_/_(VCAA)
+				version split: ['æ', 'll', '_', '_']
+				{'string': 'æ/ll/_/_', 'rgx': '((æ))/((ll))/((_))/((_))$'}
+				ANALYSING: al
+					resolving (1)
+					> version: a/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/_/_(VCAA)
+				version split: ['a', 'l', '_', '_']
+				{'string': 'a/l/_/_', 'rgx': '((a))/((l))/((_))/((_))$'}
 				ANALYSING: all
-					resolving (2)
-					> version: a/l/l
-					> version: a/ll
+					resolving (1)
+					> version: a/ll/_
+					NEW MEMBER: (3)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['a', 'l', 'l', '_']
-				adding dashed alternative: ['a', 'll', '_']
-				a/l/l(VCC)
-a/ll(VC)
-a/l/l/_(VCCA)
-a/ll/_(VCA)
-				version split: ['a', 'l', 'l']
-				{'string': 'a/l/l', 'rgx': '((a))/((l)|(ll))/((l))/((_))$'}
-				_____REMOVING________['a', 'l', 'l']
-				version split: ['a', 'll']
-				{'string': 'a/ll', 'rgx': '((a))/((l)|(ll))/((l))/((_))$'}
-				_____REMOVING________['a', 'll']
-				version split: ['a', 'l', 'l', '_']
-				{'string': 'a/l/l/_', 'rgx': '((a))/((l)|(ll))/((l))/((_))$'}
-				version split: ['a', 'll', '_']
-				{'string': 'a/ll/_', 'rgx': '((a))/((l)|(ll))/((l))/((_))$'}
-				_____REMOVING________['a', 'll', '_']
+				a/ll/_/_(VCAA)
+				version split: ['a', 'll', '_', '_']
+				{'string': 'a/ll/_/_', 'rgx': '((a))/((ll))/((_))/((_))$'}
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/_/lll
+					TRYING: lll
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', '_', 'lll']
+				a/_/_/_/lll(VAAAC)
+				version split: ['a', '_', '_', '_', 'lll']
+				{'string': 'a/_/_/_/lll', 'rgx': '((a))/((_))/((_))/((_))$'}
+				_____REMOVING________['a', '_', '_', '_', 'lll']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eæ/ll/_/_(VCAA)
+				version split: ['eæ', 'll', '_', '_']
+				{'string': 'eæ/ll/_/_', 'rgx': '((eæ))/((ll))/((_))/((_))$'}
 				ANALYSING: eal
-					resolving (2)
-					> version: e/a/l
-					> version: ea/l
+					resolving (1)
+					> version: ea/l/_
+					NEW MEMBER: (3)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['e', 'a', 'l', '_']
-				adding dashed alternative: ['ea', 'l', '_']
-				e/a/l(VVC)
-ea/l(VC)
-e/a/l/_(VVCA)
-ea/l/_(VCA)
-				version split: ['e', 'a', 'l']
-				{'string': 'e/a/l', 'rgx': '((e)|(ea))/((l))/((l))/((_))$'}
-				_____REMOVING________['e', 'a', 'l']
-				version split: ['ea', 'l']
-				{'string': 'ea/l', 'rgx': '((e)|(ea))/((l))/((l))/((_))$'}
-				_____REMOVING________['ea', 'l']
-				version split: ['e', 'a', 'l', '_']
-				{'string': 'e/a/l/_', 'rgx': '((e)|(ea))/((l))/((l))/((_))$'}
-				_____REMOVING________['e', 'a', 'l', '_']
-				version split: ['ea', 'l', '_']
-				{'string': 'ea/l/_', 'rgx': '((e)|(ea))/((l))/((l))/((_))$'}
-				_____REMOVING________['ea', 'l', '_']
+				ea/l/_/_(VCAA)
+				version split: ['ea', 'l', '_', '_']
+				{'string': 'ea/l/_/_', 'rgx': '((ea))/((l))/((_))/((_))$'}
 				ANALYSING: eall
-					resolving (4)
-					> version: e/a/l/l
-					TRYING: l
-					> version: e/a/ll
-					> version: ea/l/l
-					> version: ea/ll
+					resolving (1)
+					> version: ea/ll/_
+					NEW MEMBER: (3)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['e', 'a', 'l', '_', 'l']
-				adding dashed alternative: ['e', 'a', 'll', '_']
-				adding dashed alternative: ['ea', 'l', 'l', '_']
-				adding dashed alternative: ['ea', 'll', '_']
-				e/a/l/l(VVCC)
-e/a/ll(VVC)
-ea/l/l(VCC)
-ea/ll(VC)
-e/a/l/_/l(VVCAC)
-e/a/ll/_(VVCA)
-ea/l/l/_(VCCA)
-ea/ll/_(VCA)
-				version split: ['e', 'a', 'l', 'l']
-				{'string': 'e/a/l/l', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'l', 'l']
-				version split: ['e', 'a', 'll']
-				{'string': 'e/a/ll', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'll']
-				version split: ['ea', 'l', 'l']
-				{'string': 'ea/l/l', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'l', 'l']
-				version split: ['ea', 'll']
-				{'string': 'ea/ll', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'll']
-				version split: ['e', 'a', 'l', '_', 'l']
-				{'string': 'e/a/l/_/l', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'l', '_', 'l']
-				version split: ['e', 'a', 'll', '_']
-				{'string': 'e/a/ll/_', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['e', 'a', 'll', '_']
-				version split: ['ea', 'l', 'l', '_']
-				{'string': 'ea/l/l/_', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				version split: ['ea', 'll', '_']
-				{'string': 'ea/ll/_', 'rgx': '((e)|(ea))/((l)|(ll))/((l)|(ll))/((_))$'}
-				_____REMOVING________['ea', 'll', '_']
-		only one version left: ['a', '_', '_', '_']
-		only one version left: ['æ', 'l', '_', '_']
-		only one version left: ['a', 'l', '_', '_']
-		only one version left: ['a', 'l', '_', 'e']
-		only one version left: ['a', 'l', 'l', '_']
+				ea/ll/_/_(VCAA)
+				version split: ['ea', 'll', '_', '_']
+				{'string': 'ea/ll/_/_', 'rgx': '((ea))/((ll))/((_))/((_))$'}
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eea/l/_/_(VCAA)
+				version split: ['eea', 'l', '_', '_']
+				{'string': 'eea/l/_/_', 'rgx': '((eea))/((l))/((_))/((_))$'}
+				ANALYSING: a
+					resolving (1)
+					> version: a/_/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/_/_/_(VAAA)
+				version split: ['a', '_', '_', '_']
+				{'string': 'a/_/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/_/h/a/l
+					TRYING: h
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'l']
+				_/_/_/_/h/a/l(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'l']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'l']
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/_/h/a/ll
+					TRYING: h
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'll']
+				_/_/_/_/h/a/ll(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'll']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'll']
 		FAIL: 
-		only one version left: ['ea', 'l', 'l', '_']
-		SPLIT: ['a', 'l', 'l', 'e']
-		SPLIT: ['a', '_', '_', '_']
-		['a', '_', '_', '_']
-		SPLIT: ['æ', 'l', '_', '_']
-		['æ', 'l', '_', '_']
-		SPLIT: ['a', 'l', '_', '_']
-		['a', 'l', '_', '_']
+		FAIL: 
+		FAIL: 
+		only one version left: ['a', 'l', '_', 'e']
+		only one version left: ['a', 'll', '_', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['ea', 'll', '_', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['æ', 'l', '_', '_']
+		only one version left: ['æ', 'll', '_', '_']
+		only one version left: ['a', 'l', '_', '_']
+		only one version left: ['a', 'll', '_', '_']
+		FAIL: 
+		only one version left: ['eæ', 'll', '_', '_']
+		only one version left: ['ea', 'l', '_', '_']
+		only one version left: ['ea', 'll', '_', '_']
+		only one version left: ['eea', 'l', '_', '_']
+		only one version left: ['a', '_', '_', '_']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['a', 'l', 'r', 'e']
+		SPLIT: ['ea', 'l', 'r', 'e']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'l', '_', '_', '----!']
 		SPLIT: ['a', 'l', '_', 'e']
 		['a', 'l', '_', 'e']
-		SPLIT: ['a', 'l', 'l', '_']
-		['a', 'l', 'l', '_']
-		SPLIT: ['e.ea', 'l', 'l', '_', '----!']
-		SPLIT: ['ea', 'l', 'l', '_']
-		['ea', 'l', 'l', '_']
+		SPLIT: ['a', 'll', '_', 'e']
+		['a', 'll', '_', 'e']
+		SPLIT: ['a', 'll', '_', 'e', '----!']
+		SPLIT: ['ea', 'll', '_', 'a', '----!']
+		SPLIT: ['ea', 'll', '_', 'e']
+		['ea', 'll', '_', 'e']
+		SPLIT: ['ea', 'll', '_', 'u', '----!']
+		SPLIT: ['ea', 'll', '_', 'u', '----!']
+		SPLIT: ['æ', 'l', '_', '_']
+		['æ', 'l', '_', '_']
+		SPLIT: ['æ', 'll', '_', '_']
+		['æ', 'll', '_', '_']
+		SPLIT: ['a', 'l', '_', '_']
+		['a', 'l', '_', '_']
+		SPLIT: ['a', 'll', '_', '_']
+		['a', 'll', '_', '_']
+		SPLIT: ['a', '_', '_', '_', '----!']
+		SPLIT: ['eæ', 'll', '_', '_']
+		['eæ', 'll', '_', '_']
+		SPLIT: ['ea', 'l', '_', '_']
+		['ea', 'l', '_', '_']
+		SPLIT: ['ea', 'll', '_', '_']
+		['ea', 'll', '_', '_']
+		SPLIT: ['eea', 'l', '_', '_']
+		['eea', 'l', '_', '_']
+		SPLIT: ['a', '_', '_', '_']
+		['a', '_', '_', '_']
+		SPLIT: ['_', '_', '_', '_', '----!']
+		SPLIT: ['_', '_', '_', '_', '----!']
 		version for pattern VCCV is INVALID
-		[]
-		1
-		POSSIBLE CHANGE: 1 : Palatal Vicinity l-deletion
-		POSSIBLE CHANGE: 2 : Palatal Vicinity l-deletion
+		[{'ea', 'a', '_', 'eæ', 'æ', 'eea'}]
+		10
 		OVERVIEW: version for pattern VCCV
-
-faulty splits: 1
-e.eall----! <-! eal
-a | l | l | e
-a | _ | _ | _
-æ | l | _ | _
-a | l | _ | _
+{'ea', 'a', '_', 'eæ', 'æ', 'eea'}
+faulty splits: 10
+al----! <-! aldre
+al----! <-! ald
+al----! <-! alþ
+alle----! <-! allen
+ealla----! <-! eallan
+eallu----! <-! eallum
+eallu----! <-! eallun
+a----! <-! alll
+----! <-! hal
+----! <-! hall
+a | l | r | e
+ea | l | r | e
+a | l | _ | _ | ----!
+a | l | _ | _ | ----!
+a | l | _ | _ | ----!
 a | l | _ | e
-a | l | l | _
-e.ea | l | l | _ | ----!
-ea | l | l | _
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 1}]]
-	[[{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}]]
-	[[{'lit': 'll', 'ln': 2, 'index': 2}], [{'lit': 'ea', 'ln': 2, 'index': 0}], [{'lit': 'll', 'ln': 2, 'index': 2}, {'lit': 'ea', 'ln': 2, 'index': 0}]]
-	MIN pattern length=2
-	Pattern VCV is valid
-	Pattern VVC is invalid
-	Pattern V is invalid
-	Pattern VVCC is invalid
-	Pattern VCC is valid
+a | ll | _ | e
+a | ll | _ | e | ----!
+ea | ll | _ | a | ----!
+ea | ll | _ | e
+ea | ll | _ | u | ----!
+ea | ll | _ | u | ----!
+æ | l | _ | _
+æ | ll | _ | _
+a | l | _ | _
+a | ll | _ | _
+a | _ | _ | _ | ----!
+eæ | ll | _ | _
+ea | l | _ | _
+ea | ll | _ | _
+eea | l | _ | _
+a | _ | _ | _
+_ | _ | _ | _ | ----!
+_ | _ | _ | _ | ----!
+1 : {'l', 'll', 'lll'},{'_', 'l', 'll', 'h'}
+2 : {'d', 'r'},{'_', 'lll', 'r'},{'_', 'd', 'r'},{'_', 'h', 'r'},{'_', 'u', 'r'},{'_', 'þ', 'r'}
+	MIN pattern length=4
+	Pattern CVC is invalid
 	Pattern VCCV is valid
-	Pattern VC is valid
-	Making the selection for pattern: VC
-	Selection for pattern: VC completed
-	Making a version for pattern: VC
-			___VC : 0___
-				ANALYSING: æl
+	Pattern VCVC is valid
+	Pattern VCCC is valid
+	Pattern VCC is invalid
+	Pattern V is invalid
+	Pattern VCCCV is valid
+	Pattern VCV is invalid
+	Pattern VC is invalid
+	Making the selection for pattern: VCVC
+	Selection for pattern: VCVC completed
+	Making a version for pattern: VCVC
+			___VCVC : 0___
+				ANALYSING: allen
 				adding littera based on matching pattern
-				ANALYSING: al
+				ANALYSING: eallan
 				adding littera based on matching pattern
-				ANALYSING: all
+				ANALYSING: eallum
 				adding littera based on matching pattern
-				ANALYSING: eal
+				ANALYSING: eallun
 				adding littera based on matching pattern
-				ANALYSING: eall
-				adding littera based on matching pattern
-				ANALYSING: a
-					resolving (1)
-					> version: a
-					TRYING: a
-					RESULT:  ['a']
 				ANALYSING: ale
 					resolving (1)
 					> version: a/l/e
 					TRYING: a
+					NEW MEMBER: (0)['a']
 					RESULT:  ['a']
 				ANALYSING: alle
-					resolving (2)
-					> version: a/l/l/e
-					TRYING: a
+					resolving (1)
 					> version: a/ll/e
 					TRYING: a
+					NEW MEMBER: (0)['a']
 					RESULT:  ['a']
-			___VC : 1___
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
 				ANALYSING: æl
-				adding littera based on matching pattern
+					resolving (1)
+					> version: æ/l
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
 				ANALYSING: al
-				adding littera based on matching pattern
+					resolving (1)
+					> version: a/l
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
 				ANALYSING: all
-				adding littera based on matching pattern
+					resolving (1)
+					> version: a/ll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: eæ
+					NEW MEMBER: (0)['eæ']
+					RESULT:  ['eæ']
 				ANALYSING: eal
-				adding littera based on matching pattern
+					resolving (1)
+					> version: ea/l
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
 				ANALYSING: eall
-				adding littera based on matching pattern
+					resolving (1)
+					> version: ea/ll
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: eea
+					NEW MEMBER: (0)['eea']
+					RESULT:  ['eea']
 				ANALYSING: a
 					resolving (1)
 					> version: a
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: hal
+					resolving (1)
+					> version: h/a/l
+					TRYING: h
+					NEW MEMBER: (0)['_']
 					RESULT:  ['_']
-				adding dashed alternative: ['a', '_']
-				a(V)
-a/_(VA)
-				version split: ['a']
-				{'string': 'a', 'rgx': '((a))/((_))$'}
-				_____REMOVING________['a']
-				version split: ['a', '_']
-				{'string': 'a/_', 'rgx': '((a))/((_))$'}
+				adding dashed alternative: ['_', 'h', 'a', 'l']
+				_/h/a/l(ACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: h/a/ll
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'll']
+				_/h/a/ll(ACVC)
+			___VCVC : 1___
+				ANALYSING: allen
+				adding littera based on matching pattern
+				ANALYSING: eallan
+				adding littera based on matching pattern
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
 				ANALYSING: ale
 					resolving (1)
 					> version: a/l/e
 					TRYING: l
+					NEW MEMBER: (1)['l']
 					RESULT:  ['l']
-				version split: ['a', 'l', 'e']
-				{'string': 'a/l/e', 'rgx': '((a))/((l))$'}
-				_____REMOVING________['a', 'l', 'e']
 				ANALYSING: alle
-					resolving (2)
-					> version: a/l/l/e
-					TRYING: l
+					resolving (1)
 					> version: a/ll/e
 					TRYING: ll
-					>>> MULTIPLE RESOLVE OPTIONS: {'l', 'll'}
-					RESULT:  ['l', 'll']
-				version split: ['a', 'l', 'l', 'e']
-				{'string': 'a/l/l', 'rgx': '((a))/((l)|(ll))$'}
-				_____REMOVING________['a', 'l', 'l', 'e']
-				version split: ['a', 'll', 'e']
-				{'string': 'a/ll/e', 'rgx': '((a))/((l)|(ll))$'}
-				_____REMOVING________['a', 'll', 'e']
-		only one version left: ['a', '_']
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: lll
+					adding blocked set: C = C >> l, ll, lll
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', 'lll']
+				a/_/lll(VAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				a/_(VA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'l']
+				_/_/h/a/l(AACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'll']
+				_/_/h/a/ll(AACVC)
+			___VCVC : 2___
+				ANALYSING: allen
+				adding littera based on matching pattern
+				ANALYSING: eallan
+				adding littera based on matching pattern
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: e
+					NEW MEMBER: (2)['e']
+					RESULT:  ['e']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['e']
+					RESULT:  ['e']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['e']
+					RESULT:  ['e']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'd']
+				a/l/_/d(VCAC)
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'd', 'r', 'e']
+				a/l/_/d/r/e(VCACCV)
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'r', 'e']
+				a/l/_/r/e(VCACV)
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: þ
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'þ']
+				a/l/_/þ(VCAC)
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: r
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'l', '_', 'r', 'e']
+				ea/l/_/r/e(VCACV)
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/l/_(VCA)
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/ll/_(VCA)
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/l/_(VCA)
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/ll/_(VCA)
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/lll
+					TRYING: lll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', 'lll']
+				a/_/_/lll(VAAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eæ/ll/_(VCA)
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/l/_(VCA)
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/ll/_(VCA)
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eea/l/_(VCA)
+				ANALYSING: a
+					resolving (1)
+					> version: a/_
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/_/_(VAA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/h/a/l
+					TRYING: h
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'l']
+				_/_/_/h/a/l(AAACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/h/a/ll
+					TRYING: h
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'll']
+				_/_/_/h/a/ll(AAACVC)
+			___VCVC : 3___
+				ANALYSING: allen
+				adding littera based on matching pattern
+				ANALYSING: eallan
+				adding littera based on matching pattern
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/e/_(VCVA)
+				version split: ['a', 'l', 'e', '_']
+				{'string': 'a/l/e/_', 'rgx': '((a))/((l))/((e))/((_))$'}
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/ll/e/_(VCVA)
+				version split: ['a', 'll', 'e', '_']
+				{'string': 'a/ll/e/_', 'rgx': '((a))/((ll))/((e))/((_))$'}
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/ll/e/_(VCVA)
+				version split: ['ea', 'll', 'e', '_']
+				{'string': 'ea/ll/e/_', 'rgx': '((ea))/((ll))/((e))/((_))$'}
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/_/d
+					TRYING: d
+					adding blocked set: C = C >> _, d, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'd']
+				a/l/_/_/d(VCAAC)
+				version split: ['a', 'l', '_', '_', 'd']
+				{'string': 'a/l/_/_/d', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'd']
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/_/d/r/e
+					TRYING: d
+					adding blocked set: C = C >> _, d, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'd', 'r', 'e']
+				a/l/_/_/d/r/e(VCAACCV)
+				version split: ['a', 'l', '_', '_', 'd', 'r', 'e']
+				{'string': 'a/l/_/_/d', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'd', 'r', 'e']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/_/r/e
+					TRYING: r
+					adding blocked set: C = C >> _, r, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'r', 'e']
+				a/l/_/_/r/e(VCAACV)
+				version split: ['a', 'l', '_', '_', 'r', 'e']
+				{'string': 'a/l/_/_/r', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'r', 'e']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/_/þ
+					TRYING: þ
+					adding blocked set: C = C >> _, þ, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'þ']
+				a/l/_/_/þ(VCAAC)
+				version split: ['a', 'l', '_', '_', 'þ']
+				{'string': 'a/l/_/_/þ', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'þ']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/_/r/e
+					TRYING: r
+					adding blocked set: C = C >> _, r, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'l', '_', '_', 'r', 'e']
+				ea/l/_/_/r/e(VCAACV)
+				version split: ['ea', 'l', '_', '_', 'r', 'e']
+				{'string': 'ea/l/_/_/r', 'rgx': '((ea))/((l))/((_))/((_))$'}
+				_____REMOVING________['ea', 'l', '_', '_', 'r', 'e']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/l/_/_(VCAA)
+				version split: ['æ', 'l', '_', '_']
+				{'string': 'æ/l/_/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/ll/_/_(VCAA)
+				version split: ['æ', 'll', '_', '_']
+				{'string': 'æ/ll/_/_', 'rgx': '((æ))/((ll))/((_))/((_))$'}
+				ANALYSING: al
+					resolving (1)
+					> version: a/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/_/_(VCAA)
+				version split: ['a', 'l', '_', '_']
+				{'string': 'a/l/_/_', 'rgx': '((a))/((l))/((_))/((_))$'}
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/ll/_/_(VCAA)
+				version split: ['a', 'll', '_', '_']
+				{'string': 'a/ll/_/_', 'rgx': '((a))/((ll))/((_))/((_))$'}
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> _, lll, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', '_', 'lll']
+				a/_/_/_/lll(VAAAC)
+				version split: ['a', '_', '_', '_', 'lll']
+				{'string': 'a/_/_/_/lll', 'rgx': '((a))/((_))/((_))/((_))$'}
+				_____REMOVING________['a', '_', '_', '_', 'lll']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eæ/ll/_/_(VCAA)
+				version split: ['eæ', 'll', '_', '_']
+				{'string': 'eæ/ll/_/_', 'rgx': '((eæ))/((ll))/((_))/((_))$'}
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/l/_/_(VCAA)
+				version split: ['ea', 'l', '_', '_']
+				{'string': 'ea/l/_/_', 'rgx': '((ea))/((l))/((_))/((_))$'}
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/ll/_/_(VCAA)
+				version split: ['ea', 'll', '_', '_']
+				{'string': 'ea/ll/_/_', 'rgx': '((ea))/((ll))/((_))/((_))$'}
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eea/l/_/_(VCAA)
+				version split: ['eea', 'l', '_', '_']
+				{'string': 'eea/l/_/_', 'rgx': '((eea))/((l))/((_))/((_))$'}
+				ANALYSING: a
+					resolving (1)
+					> version: a/_/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/_/_/_(VAAA)
+				version split: ['a', '_', '_', '_']
+				{'string': 'a/_/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, h, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'l']
+				_/_/_/_/h/a/l(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'l']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'l']
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, h, n, m
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'll']
+				_/_/_/_/h/a/ll(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'll']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'll']
+		only one version left: ['a', 'l', 'e', '_']
+		only one version left: ['a', 'll', 'e', '_']
+		only one version left: ['ea', 'll', 'e', '_']
 		FAIL: 
 		FAIL: 
-		SPLIT: ['æ', 'l']
-		SPLIT: ['a', 'l']
-		SPLIT: ['a', 'll']
-		SPLIT: ['ea', 'l']
-		SPLIT: ['ea', 'll']
-		SPLIT: ['a', '_']
-		['a', '_']
-		SPLIT: ['a', 'l', '----!']
-		SPLIT: ['a', 'l.ll', '----!']
-		version for pattern VC is INVALID
-		[]
-		2
-		POSSIBLE CHANGE: 1 : Palatal Vicinity l-deletion
-		OVERVIEW: version for pattern VC
-
-faulty splits: 2
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['æ', 'l', '_', '_']
+		only one version left: ['æ', 'll', '_', '_']
+		only one version left: ['a', 'l', '_', '_']
+		only one version left: ['a', 'll', '_', '_']
+		FAIL: 
+		only one version left: ['eæ', 'll', '_', '_']
+		only one version left: ['ea', 'l', '_', '_']
+		only one version left: ['ea', 'll', '_', '_']
+		only one version left: ['eea', 'l', '_', '_']
+		only one version left: ['a', '_', '_', '_']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['a', 'll', 'e', 'n']
+		SPLIT: ['ea', 'll', 'a', 'n']
+		SPLIT: ['ea', 'll', 'u', 'm']
+		SPLIT: ['ea', 'll', 'u', 'n']
+		SPLIT: ['a', 'l', 'e', '_']
+		['a', 'l', 'e', '_']
+		SPLIT: ['a', 'll', 'e', '_']
+		['a', 'll', 'e', '_']
+		SPLIT: ['ea', 'll', 'e', '_']
+		['ea', 'll', 'e', '_']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['ea', 'l', '_', '_', '----!']
+		SPLIT: ['æ', 'l', '_', '_']
+		['æ', 'l', '_', '_']
+		SPLIT: ['æ', 'll', '_', '_']
+		['æ', 'll', '_', '_']
+		SPLIT: ['a', 'l', '_', '_']
+		['a', 'l', '_', '_']
+		SPLIT: ['a', 'll', '_', '_']
+		['a', 'll', '_', '_']
+		SPLIT: ['a', '_', '_', '_', '----!']
+		SPLIT: ['eæ', 'll', '_', '_']
+		['eæ', 'll', '_', '_']
+		SPLIT: ['ea', 'l', '_', '_']
+		['ea', 'l', '_', '_']
+		SPLIT: ['ea', 'll', '_', '_']
+		['ea', 'll', '_', '_']
+		SPLIT: ['eea', 'l', '_', '_']
+		['eea', 'l', '_', '_']
+		SPLIT: ['a', '_', '_', '_']
+		['a', '_', '_', '_']
+		SPLIT: ['_', '_', '_', '_', '----!']
+		SPLIT: ['_', '_', '_', '_', '----!']
+		version for pattern VCVC is INVALID
+		[{'ea', 'a', '_', 'eæ', 'æ', 'eea'}]
+		8
+		OVERVIEW: version for pattern VCVC
+{'ea', 'a', '_', 'eæ', 'æ', 'eea'}
+faulty splits: 8
+al----! <-! ald
+al----! <-! aldre
+al----! <-! alre
+al----! <-! alþ
+eal----! <-! ealre
+a----! <-! alll
+----! <-! hal
+----! <-! hall
+a | ll | e | n
+ea | ll | a | n
+ea | ll | u | m
+ea | ll | u | n
+a | l | e | _
+a | ll | e | _
+ea | ll | e | _
+a | l | _ | _ | ----!
+a | l | _ | _ | ----!
+a | l | _ | _ | ----!
+a | l | _ | _ | ----!
+ea | l | _ | _ | ----!
+æ | l | _ | _
+æ | ll | _ | _
+a | l | _ | _
+a | ll | _ | _
+a | _ | _ | _ | ----!
+eæ | ll | _ | _
+ea | l | _ | _
+ea | ll | _ | _
+eea | l | _ | _
+a | _ | _ | _
+_ | _ | _ | _ | ----!
+_ | _ | _ | _ | ----!
+1 : {'l', 'll', 'lll'},{'_', 'l', 'll', 'h'}
+3 : {'_', 'd', 'n', 'm'},{'_', 'þ', 'n', 'm'},{'_', 'h', 'n', 'm'},{'_', 'lll', 'n', 'm'},{'_', 'r', 'n', 'm'}
+	MIN pattern length=4
+	Pattern CVC is invalid
+	Pattern VCCV is valid
+	Pattern VCVC is valid
+	Pattern VCCC is valid
+	Pattern VCC is invalid
+	Pattern V is invalid
+	Pattern VCCCV is valid
+	Pattern VCV is invalid
+	Pattern VC is invalid
+	Making the selection for pattern: VCCC
+	Selection for pattern: VCCC completed
+	Making a version for pattern: VCCC
+			___VCCC : 0___
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: eæ
+					NEW MEMBER: (0)['eæ']
+					RESULT:  ['eæ']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: eea
+					NEW MEMBER: (0)['eea']
+					RESULT:  ['eea']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: hal
+					resolving (1)
+					> version: h/a/l
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'l']
+				_/h/a/l(ACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: h/a/ll
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'll']
+				_/h/a/ll(ACVC)
+			___VCCC : 1___
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: lll
+					adding blocked set: C = C >> l, ll, lll
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', 'lll']
+				a/_/lll(VAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				a/_(VA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'l']
+				_/_/h/a/l(AACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'll']
+				_/_/h/a/ll(AACVC)
+			___VCCC : 2___
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: d
+					NEW MEMBER: (2)['d']
+					RESULT:  ['d']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: r
+					adding blocked set: C = C >> r, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'r', 'e']
+				a/l/_/r/e(VCACV)
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: r
+					adding blocked set: C = C >> _, r, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'l', '_', 'r', 'e']
+				ea/l/_/r/e(VCACV)
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: d
+					NEW MEMBER: (2)['d']
+					RESULT:  ['d']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: þ
+					NEW MEMBER: (2)['þ']
+					RESULT:  ['þ']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'e']
+				a/l/_/e(VCAV)
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', 'e']
+				a/ll/_/e(VCAV)
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', 'e', 'n']
+				a/ll/_/e/n(VCAVC)
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: a
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'a', 'n']
+				ea/ll/_/a/n(VCAVC)
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'e']
+				ea/ll/_/e(VCAV)
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/l/_(VCA)
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/ll/_(VCA)
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/l/_(VCA)
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/ll/_(VCA)
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> u, lll, d, _, þ
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', 'lll']
+				a/_/_/lll(VAAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eæ/ll/_(VCA)
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/l/_(VCA)
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/ll/_(VCA)
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eea/l/_(VCA)
+				ANALYSING: a
+					resolving (1)
+					> version: a/_
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/_/_(VAA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> u, d, _, þ, h
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'l']
+				_/_/_/h/a/l(AAACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> u, d, _, þ, h
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'll']
+				_/_/_/h/a/ll(AAACVC)
+			___VCCC : 3___
+				ANALYSING: aldre
+					resolving (1)
+					> version: a/l/d/r/e
+					TRYING: r
+					NEW MEMBER: (3)['r']
+					RESULT:  ['r']
+				version split: ['a', 'l', 'd', 'r', 'e']
+				{'string': 'a/l/d/r/e', 'rgx': '((a))/((l))/((d))/((r))$'}
+				_____REMOVING________['a', 'l', 'd', 'r', 'e']
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/_/r/e
+					TRYING: r
+					NEW MEMBER: (3)['r']
+					RESULT:  ['r']
+				version split: ['a', 'l', '_', 'r', 'e']
+				{'string': 'a/l/_/r/e', 'rgx': '((a))/((l))/((_))/((r))$'}
+				_____REMOVING________['a', 'l', '_', 'r', 'e']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/_/r/e
+					TRYING: r
+					NEW MEMBER: (3)['r']
+					RESULT:  ['r']
+				version split: ['ea', 'l', '_', 'r', 'e']
+				{'string': 'ea/l/_/r/e', 'rgx': '((ea))/((l))/((_))/((r))$'}
+				_____REMOVING________['ea', 'l', '_', 'r', 'e']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/d/_(VCCA)
+				version split: ['a', 'l', 'd', '_']
+				{'string': 'a/l/d/_', 'rgx': '((a))/((l))/((d))/((_))$'}
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/þ/_(VCCA)
+				version split: ['a', 'l', 'þ', '_']
+				{'string': 'a/l/þ/_', 'rgx': '((a))/((l))/((þ))/((_))$'}
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'e']
+				a/l/_/_/e(VCAAV)
+				version split: ['a', 'l', '_', '_', 'e']
+				{'string': 'a/l/_/_/e', 'rgx': '((a))/((l))/((_))/((_))$'}
+				_____REMOVING________['a', 'l', '_', '_', 'e']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', '_', 'e']
+				a/ll/_/_/e(VCAAV)
+				version split: ['a', 'll', '_', '_', 'e']
+				{'string': 'a/ll/_/_/e', 'rgx': '((a))/((ll))/((_))/((_))$'}
+				_____REMOVING________['a', 'll', '_', '_', 'e']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/_/e/n
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', '_', 'e', 'n']
+				a/ll/_/_/e/n(VCAAVC)
+				version split: ['a', 'll', '_', '_', 'e', 'n']
+				{'string': 'a/ll/_/_/e', 'rgx': '((a))/((ll))/((_))/((_))$'}
+				_____REMOVING________['a', 'll', '_', '_', 'e', 'n']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/_/a/n
+					TRYING: a
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'a', 'n']
+				ea/ll/_/_/a/n(VCAAVC)
+				version split: ['ea', 'll', '_', '_', 'a', 'n']
+				{'string': 'ea/ll/_/_/a', 'rgx': '((ea))/((ll))/((_))/((_))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'a', 'n']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'e']
+				ea/ll/_/_/e(VCAAV)
+				version split: ['ea', 'll', '_', '_', 'e']
+				{'string': 'ea/ll/_/_/e', 'rgx': '((ea))/((ll))/((_))/((_))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'e']
+				ANALYSING: eallum
+				adding littera based on matching pattern
+				ANALYSING: eallun
+				adding littera based on matching pattern
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/l/_/_(VCAA)
+				version split: ['æ', 'l', '_', '_']
+				{'string': 'æ/l/_/_', 'rgx': '((æ))/((l))/((_))/((_))$'}
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/ll/_/_(VCAA)
+				version split: ['æ', 'll', '_', '_']
+				{'string': 'æ/ll/_/_', 'rgx': '((æ))/((ll))/((_))/((_))$'}
+				ANALYSING: al
+					resolving (1)
+					> version: a/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/_/_(VCAA)
+				version split: ['a', 'l', '_', '_']
+				{'string': 'a/l/_/_', 'rgx': '((a))/((l))/((_))/((_))$'}
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/ll/_/_(VCAA)
+				version split: ['a', 'll', '_', '_']
+				{'string': 'a/ll/_/_', 'rgx': '((a))/((ll))/((_))/((_))$'}
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> lll, r, m, _, n
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', '_', 'lll']
+				a/_/_/_/lll(VAAAC)
+				version split: ['a', '_', '_', '_', 'lll']
+				{'string': 'a/_/_/_/lll', 'rgx': '((a))/((_))/((_))/((_))$'}
+				_____REMOVING________['a', '_', '_', '_', 'lll']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eæ/ll/_/_(VCAA)
+				version split: ['eæ', 'll', '_', '_']
+				{'string': 'eæ/ll/_/_', 'rgx': '((eæ))/((ll))/((_))/((_))$'}
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/l/_/_(VCAA)
+				version split: ['ea', 'l', '_', '_']
+				{'string': 'ea/l/_/_', 'rgx': '((ea))/((l))/((_))/((_))$'}
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/ll/_/_(VCAA)
+				version split: ['ea', 'll', '_', '_']
+				{'string': 'ea/ll/_/_', 'rgx': '((ea))/((ll))/((_))/((_))$'}
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eea/l/_/_(VCAA)
+				version split: ['eea', 'l', '_', '_']
+				{'string': 'eea/l/_/_', 'rgx': '((eea))/((l))/((_))/((_))$'}
+				ANALYSING: a
+					resolving (1)
+					> version: a/_/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/_/_/_(VAAA)
+				version split: ['a', '_', '_', '_']
+				{'string': 'a/_/_/_', 'rgx': '((a))/((_))/((_))/((_))$'}
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> r, m, _, n, h
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'l']
+				_/_/_/_/h/a/l(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'l']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'l']
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> r, m, h, _, n
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'll']
+				_/_/_/_/h/a/ll(AAAACVC)
+				version split: ['_', '_', '_', '_', 'h', 'a', 'll']
+				{'string': '_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', 'h', 'a', 'll']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['a', 'l', 'd', '_']
+		only one version left: ['a', 'l', 'þ', '_']
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		FAIL: 
+		only one version left: ['æ', 'l', '_', '_']
+		only one version left: ['æ', 'll', '_', '_']
+		only one version left: ['a', 'l', '_', '_']
+		only one version left: ['a', 'll', '_', '_']
+		FAIL: 
+		only one version left: ['eæ', 'll', '_', '_']
+		only one version left: ['ea', 'l', '_', '_']
+		only one version left: ['ea', 'll', '_', '_']
+		only one version left: ['eea', 'l', '_', '_']
+		only one version left: ['a', '_', '_', '_']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['a', 'l', 'd', 'r', '----!']
+		SPLIT: ['a', 'l', '_', 'r', '----!']
+		SPLIT: ['ea', 'l', '_', 'r', '----!']
+		SPLIT: ['a', 'l', 'd', '_']
+		['a', 'l', 'd', '_']
+		SPLIT: ['a', 'l', 'þ', '_']
+		['a', 'l', 'þ', '_']
+		SPLIT: ['a', 'l', '_', '_', '----!']
+		SPLIT: ['a', 'll', '_', '_', '----!']
+		SPLIT: ['a', 'll', '_', '_', '----!']
+		SPLIT: ['ea', 'll', '_', '_', '----!']
+		SPLIT: ['ea', 'll', '_', '_', '----!']
+		SPLIT: ['ea', 'll', 'u', 'm']
+		SPLIT: ['ea', 'll', 'u', 'n']
+		SPLIT: ['æ', 'l', '_', '_']
+		['æ', 'l', '_', '_']
+		SPLIT: ['æ', 'll', '_', '_']
+		['æ', 'll', '_', '_']
+		SPLIT: ['a', 'l', '_', '_']
+		['a', 'l', '_', '_']
+		SPLIT: ['a', 'll', '_', '_']
+		['a', 'll', '_', '_']
+		SPLIT: ['a', '_', '_', '_', '----!']
+		SPLIT: ['eæ', 'll', '_', '_']
+		['eæ', 'll', '_', '_']
+		SPLIT: ['ea', 'l', '_', '_']
+		['ea', 'l', '_', '_']
+		SPLIT: ['ea', 'll', '_', '_']
+		['ea', 'll', '_', '_']
+		SPLIT: ['eea', 'l', '_', '_']
+		['eea', 'l', '_', '_']
+		SPLIT: ['a', '_', '_', '_']
+		['a', '_', '_', '_']
+		SPLIT: ['_', '_', '_', '_', '----!']
+		SPLIT: ['_', '_', '_', '_', '----!']
+		version for pattern VCCC is INVALID
+		[{'ea', 'a', '_', 'eæ', 'æ', 'eea'}, {'_', 'u', 'þ', 'd'}, {'_', 'n', 'r', 'm'}]
+		11
+		OVERVIEW: version for pattern VCCC
+{'ea', 'a', '_', 'eæ', 'æ', 'eea'}, {'_', 'u', 'þ', 'd'}, {'_', 'n', 'r', 'm'}
+faulty splits: 11
+aldr----! <-! aldre
+alr----! <-! alre
+ealr----! <-! ealre
 al----! <-! ale
-al.ll----! <-! alle
-æ | l
-a | l
-a | ll
-ea | l
-ea | ll
-a | _
-a | l | ----!
-a | l.ll | ----!
-	FOUND __ 1 __ VALID VERSION(S)
-	POSSIBLE CHANGE: 1 : Palatal Vicinity l-deletion
-	OVERVIEW: version for pattern VCV
-
-faulty splits: 0
-a | l | e
-a | ll | e
-a | _ | _
-æ | l | _
-a | l | _
-a | ll | _
-ea | l | _
-ea | ll | _
-	set()
+all----! <-! alle
+all----! <-! allen
+eall----! <-! eallan
+eall----! <-! ealle
+a----! <-! alll
+----! <-! hal
+----! <-! hall
+a | l | d | r | ----!
+a | l | _ | r | ----!
+ea | l | _ | r | ----!
+a | l | d | _
+a | l | þ | _
+a | l | _ | _ | ----!
+a | ll | _ | _ | ----!
+a | ll | _ | _ | ----!
+ea | ll | _ | _ | ----!
+ea | ll | _ | _ | ----!
+ea | ll | u | m
+ea | ll | u | n
+æ | l | _ | _
+æ | ll | _ | _
+a | l | _ | _
+a | ll | _ | _
+a | _ | _ | _ | ----!
+eæ | ll | _ | _
+ea | l | _ | _
+ea | ll | _ | _
+eea | l | _ | _
+a | _ | _ | _
+_ | _ | _ | _ | ----!
+_ | _ | _ | _ | ----!
+1 : {'l', 'll', 'lll'},{'_', 'l', 'll', 'h'}
+2 : {'_', 'r', 'd'},{'u', 'd', '_', 'þ', 'h'},{'u', 'lll', 'd', '_', 'þ'},{'r', 'd'}
+3 : {'r', 'm', 'h', '_', 'n'},{'r', 'm', '_', 'n', 'h'},{'lll', 'r', 'm', '_', 'n'}
+	MIN pattern length=4
+	Pattern CVC is invalid
+	Pattern VCCV is valid
+	Pattern VCVC is valid
+	Pattern VCCC is valid
+	Pattern VCC is invalid
+	Pattern V is invalid
+	Pattern VCCCV is valid
+	Pattern VCV is invalid
+	Pattern VC is invalid
+	Making the selection for pattern: VCCCV
+	Selection for pattern: VCCCV completed
+	Making a version for pattern: VCCCV
+			___VCCCV : 0___
+				ANALYSING: aldre
+				adding littera based on matching pattern
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/u/m
+					TRYING: ea
+					> version: ea/ll/u/m
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: ea
+					> version: ea/ll/u/n
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: æ
+					NEW MEMBER: (0)['æ']
+					RESULT:  ['æ']
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: eæ
+					NEW MEMBER: (0)['eæ']
+					RESULT:  ['eæ']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ea
+					NEW MEMBER: (0)['ea']
+					RESULT:  ['ea']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: eea
+					NEW MEMBER: (0)['eea']
+					RESULT:  ['eea']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					TRYING: a
+					NEW MEMBER: (0)['a']
+					RESULT:  ['a']
+				ANALYSING: hal
+					resolving (1)
+					> version: h/a/l
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'l']
+				_/h/a/l(ACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: h/a/ll
+					TRYING: h
+					NEW MEMBER: (0)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', 'h', 'a', 'll']
+				_/h/a/ll(ACVC)
+			___VCCCV : 1___
+				ANALYSING: aldre
+				adding littera based on matching pattern
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/u/m
+					TRYING: ll
+					> version: ea/ll/u/m
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: ll
+					> version: ea/ll/u/n
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: alll
+					resolving (1)
+					> version: a/lll
+					TRYING: lll
+					adding blocked set: C = C >> l, ll, lll
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', 'lll']
+				a/_/lll(VAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					TRYING: ll
+					NEW MEMBER: (1)['ll']
+					RESULT:  ['ll']
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					TRYING: l
+					NEW MEMBER: (1)['l']
+					RESULT:  ['l']
+				ANALYSING: a
+					resolving (1)
+					> version: a
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				a/_(VA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'l']
+				_/_/h/a/l(AACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, l, ll, h
+					NEW MEMBER: (1)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', 'h', 'a', 'll']
+				_/_/h/a/ll(AACVC)
+			___VCCCV : 2___
+				ANALYSING: aldre
+				adding littera based on matching pattern
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/r/e
+					TRYING: r
+					adding blocked set: C = C >> r, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'r', 'e']
+				a/l/_/r/e(VCACV)
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/r/e
+					TRYING: r
+					adding blocked set: C = C >> _, r, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'l', '_', 'r', 'e']
+				ea/l/_/r/e(VCACV)
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					TRYING: d
+					NEW MEMBER: (2)['d']
+					RESULT:  ['d']
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					TRYING: þ
+					NEW MEMBER: (2)['þ']
+					RESULT:  ['þ']
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', 'e']
+				a/l/_/e(VCAV)
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', 'e']
+				a/ll/_/e(VCAV)
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/e/n
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', 'e', 'n']
+				a/ll/_/e/n(VCAVC)
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/a/n
+					TRYING: a
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'a', 'n']
+				ea/ll/_/a/n(VCAVC)
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/e
+					TRYING: e
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'e']
+				ea/ll/_/e(VCAV)
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, þ, d
+					> version: ea/ll/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, þ, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'm']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'm']
+				ea/ll/_/u/m(VCAAC)
+ea/ll/_/u/m(VCAAC)
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, þ, d
+					> version: ea/ll/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, þ, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'n']
+				adding dashed alternative: ['ea', 'll', '_', 'u', 'n']
+				ea/ll/_/u/n(VCAAC)
+ea/ll/_/u/n(VCAAC)
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/l/_(VCA)
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				æ/ll/_(VCA)
+				ANALYSING: al
+					resolving (1)
+					> version: a/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/l/_(VCA)
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/ll/_(VCA)
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> _, lll, þ, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', 'lll']
+				a/_/_/lll(VAAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eæ/ll/_(VCA)
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/l/_(VCA)
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				ea/ll/_(VCA)
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				eea/l/_(VCA)
+				ANALYSING: a
+					resolving (1)
+					> version: a/_
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				a/_/_(VAA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, h, þ, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'l']
+				_/_/_/h/a/l(AAACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, h, þ, d
+					NEW MEMBER: (2)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', 'h', 'a', 'll']
+				_/_/_/h/a/ll(AAACVC)
+			___VCCCV : 3___
+				ANALYSING: aldre
+				adding littera based on matching pattern
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/_/r/e
+					TRYING: r
+					NEW MEMBER: (3)['r']
+					RESULT:  ['r']
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/_/r/e
+					TRYING: r
+					NEW MEMBER: (3)['r']
+					RESULT:  ['r']
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/d/_(VCCA)
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/þ/_(VCCA)
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'l', '_', '_', 'e']
+				a/l/_/_/e(VCAAV)
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', '_', 'e']
+				a/ll/_/_/e(VCAAV)
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/_/e/n
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', 'll', '_', '_', 'e', 'n']
+				a/ll/_/_/e/n(VCAAVC)
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/_/a/n
+					TRYING: a
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'a', 'n']
+				ea/ll/_/_/a/n(VCAAVC)
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/_/e
+					TRYING: e
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'e']
+				ea/ll/_/_/e(VCAAV)
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/_/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					> version: ea/ll/_/u/m
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'u', 'm']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'u', 'm']
+				ea/ll/_/_/u/m(VCAAAC)
+ea/ll/_/_/u/m(VCAAAC)
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/_/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					> version: ea/ll/_/u/n
+					TRYING: u
+					adding blocked set: C = C >> _, u, r
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'u', 'n']
+				adding dashed alternative: ['ea', 'll', '_', '_', 'u', 'n']
+				ea/ll/_/_/u/n(VCAAAC)
+ea/ll/_/_/u/n(VCAAAC)
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/l/_/_(VCAA)
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				æ/ll/_/_(VCAA)
+				ANALYSING: al
+					resolving (1)
+					> version: a/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/l/_/_(VCAA)
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/ll/_/_(VCAA)
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/_/lll
+					TRYING: lll
+					adding blocked set: C = C >> _, lll, r
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', '_', 'lll']
+				a/_/_/_/lll(VAAAC)
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eæ/ll/_/_(VCAA)
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/l/_/_(VCAA)
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				ea/ll/_/_(VCAA)
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				eea/l/_/_(VCAA)
+				ANALYSING: a
+					resolving (1)
+					> version: a/_/_
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				a/_/_/_(VAAA)
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/_/h/a/l
+					TRYING: h
+					adding blocked set: C = C >> _, h, r
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'l']
+				_/_/_/_/h/a/l(AAAACVC)
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/_/h/a/ll
+					TRYING: h
+					adding blocked set: C = C >> _, h, r
+					NEW MEMBER: (3)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', 'h', 'a', 'll']
+				_/_/_/_/h/a/ll(AAAACVC)
+			___VCCCV : 4___
+				ANALYSING: aldre
+				adding littera based on matching pattern
+				ANALYSING: alre
+					resolving (1)
+					> version: a/l/_/r/e
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['a', 'l', '_', 'r', 'e']
+				{'string': 'a/l/_/r/e', 'rgx': '((a))/((l))/((_))/((r))/((e))$'}
+				ANALYSING: ealre
+					resolving (1)
+					> version: ea/l/_/r/e
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['ea', 'l', '_', 'r', 'e']
+				{'string': 'ea/l/_/r/e', 'rgx': '((ea))/((l))/((_))/((r))/((e))$'}
+				ANALYSING: ald
+					resolving (1)
+					> version: a/l/d/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				a/l/d/_/_(VCCAA)
+				version split: ['a', 'l', 'd', '_', '_']
+				{'string': 'a/l/d/_/_', 'rgx': '((a))/((l))/((d))/((_))/((_))$'}
+				ANALYSING: alþ
+					resolving (1)
+					> version: a/l/þ/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				a/l/þ/_/_(VCCAA)
+				version split: ['a', 'l', 'þ', '_', '_']
+				{'string': 'a/l/þ/_/_', 'rgx': '((a))/((l))/((þ))/((_))/((_))$'}
+				ANALYSING: ale
+					resolving (1)
+					> version: a/l/_/_/e
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['a', 'l', '_', '_', 'e']
+				{'string': 'a/l/_/_/e', 'rgx': '((a))/((l))/((_))/((_))/((e))$'}
+				ANALYSING: alle
+					resolving (1)
+					> version: a/ll/_/_/e
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['a', 'll', '_', '_', 'e']
+				{'string': 'a/ll/_/_/e', 'rgx': '((a))/((ll))/((_))/((_))/((e))$'}
+				ANALYSING: allen
+					resolving (1)
+					> version: a/ll/_/_/e/n
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['a', 'll', '_', '_', 'e', 'n']
+				{'string': 'a/ll/_/_/e/n', 'rgx': '((a))/((ll))/((_))/((_))/((e))$'}
+				_____REMOVING________['a', 'll', '_', '_', 'e', 'n']
+				ANALYSING: eallan
+					resolving (1)
+					> version: ea/ll/_/_/a/n
+					TRYING: a
+					NEW MEMBER: (4)['a']
+					RESULT:  ['a']
+				version split: ['ea', 'll', '_', '_', 'a', 'n']
+				{'string': 'ea/ll/_/_/a/n', 'rgx': '((ea))/((ll))/((_))/((_))/((a))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'a', 'n']
+				ANALYSING: ealle
+					resolving (1)
+					> version: ea/ll/_/_/e
+					TRYING: e
+					NEW MEMBER: (4)['e']
+					RESULT:  ['e']
+				version split: ['ea', 'll', '_', '_', 'e']
+				{'string': 'ea/ll/_/_/e', 'rgx': '((ea))/((ll))/((_))/((_))/((e))$'}
+				ANALYSING: eallum
+					resolving (2)
+					> version: ea/ll/_/_/u/m
+					TRYING: u
+					> version: ea/ll/_/_/u/m
+					TRYING: u
+					NEW MEMBER: (4)['u']
+					RESULT:  ['u']
+				version split: ['ea', 'll', '_', '_', 'u', 'm']
+				{'string': 'ea/ll/_/_/u/m', 'rgx': '((ea))/((ll))/((_))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'u', 'm']
+				version split: ['ea', 'll', '_', '_', 'u', 'm']
+				{'string': 'ea/ll/_/_/u/m', 'rgx': '((ea))/((ll))/((_))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'u', 'm']
+				ANALYSING: eallun
+					resolving (2)
+					> version: ea/ll/_/_/u/n
+					TRYING: u
+					> version: ea/ll/_/_/u/n
+					TRYING: u
+					NEW MEMBER: (4)['u']
+					RESULT:  ['u']
+				version split: ['ea', 'll', '_', '_', 'u', 'n']
+				{'string': 'ea/ll/_/_/u/n', 'rgx': '((ea))/((ll))/((_))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'u', 'n']
+				version split: ['ea', 'll', '_', '_', 'u', 'n']
+				{'string': 'ea/ll/_/_/u/n', 'rgx': '((ea))/((ll))/((_))/((_))/((u))$'}
+				_____REMOVING________['ea', 'll', '_', '_', 'u', 'n']
+				ANALYSING: æl
+					resolving (1)
+					> version: æ/l/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				æ/l/_/_/_(VCAAA)
+				version split: ['æ', 'l', '_', '_', '_']
+				{'string': 'æ/l/_/_/_', 'rgx': '((æ))/((l))/((_))/((_))/((_))$'}
+				ANALYSING: æll
+					resolving (1)
+					> version: æ/ll/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				æ/ll/_/_/_(VCAAA)
+				version split: ['æ', 'll', '_', '_', '_']
+				{'string': 'æ/ll/_/_/_', 'rgx': '((æ))/((ll))/((_))/((_))/((_))$'}
+				ANALYSING: al
+					resolving (1)
+					> version: a/l/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				a/l/_/_/_(VCAAA)
+				version split: ['a', 'l', '_', '_', '_']
+				{'string': 'a/l/_/_/_', 'rgx': '((a))/((l))/((_))/((_))/((_))$'}
+				ANALYSING: all
+					resolving (1)
+					> version: a/ll/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				a/ll/_/_/_(VCAAA)
+				version split: ['a', 'll', '_', '_', '_']
+				{'string': 'a/ll/_/_/_', 'rgx': '((a))/((ll))/((_))/((_))/((_))$'}
+				ANALYSING: alll
+					resolving (1)
+					> version: a/_/_/_/lll
+					TRYING: lll
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['a', '_', '_', '_', '_', 'lll']
+				a/_/_/_/_/lll(VAAAAC)
+				version split: ['a', '_', '_', '_', '_', 'lll']
+				{'string': 'a/_/_/_/_/lll', 'rgx': '((a))/((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['a', '_', '_', '_', '_', 'lll']
+				ANALYSING: eæll
+					resolving (1)
+					> version: eæ/ll/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				eæ/ll/_/_/_(VCAAA)
+				version split: ['eæ', 'll', '_', '_', '_']
+				{'string': 'eæ/ll/_/_/_', 'rgx': '((eæ))/((ll))/((_))/((_))/((_))$'}
+				ANALYSING: eal
+					resolving (1)
+					> version: ea/l/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				ea/l/_/_/_(VCAAA)
+				version split: ['ea', 'l', '_', '_', '_']
+				{'string': 'ea/l/_/_/_', 'rgx': '((ea))/((l))/((_))/((_))/((_))$'}
+				ANALYSING: eall
+					resolving (1)
+					> version: ea/ll/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				ea/ll/_/_/_(VCAAA)
+				version split: ['ea', 'll', '_', '_', '_']
+				{'string': 'ea/ll/_/_/_', 'rgx': '((ea))/((ll))/((_))/((_))/((_))$'}
+				ANALYSING: eeal
+					resolving (1)
+					> version: eea/l/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				eea/l/_/_/_(VCAAA)
+				version split: ['eea', 'l', '_', '_', '_']
+				{'string': 'eea/l/_/_/_', 'rgx': '((eea))/((l))/((_))/((_))/((_))$'}
+				ANALYSING: a
+					resolving (1)
+					> version: a/_/_/_
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				a/_/_/_/_(VAAAA)
+				version split: ['a', '_', '_', '_', '_']
+				{'string': 'a/_/_/_/_', 'rgx': '((a))/((_))/((_))/((_))/((_))$'}
+				ANALYSING: hal
+					resolving (1)
+					> version: _/_/_/_/h/a/l
+					TRYING: h
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', '_', 'h', 'a', 'l']
+				_/_/_/_/_/h/a/l(AAAAACVC)
+				version split: ['_', '_', '_', '_', '_', 'h', 'a', 'l']
+				{'string': '_/_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', '_', 'h', 'a', 'l']
+				ANALYSING: hall
+					resolving (1)
+					> version: _/_/_/_/h/a/ll
+					TRYING: h
+					NEW MEMBER: (4)['_']
+					RESULT:  ['_']
+				adding dashed alternative: ['_', '_', '_', '_', '_', 'h', 'a', 'll']
+				_/_/_/_/_/h/a/ll(AAAAACVC)
+				version split: ['_', '_', '_', '_', '_', 'h', 'a', 'll']
+				{'string': '_/_/_/_/_/h', 'rgx': '((_))/((_))/((_))/((_))/((_))$'}
+				_____REMOVING________['_', '_', '_', '_', '_', 'h', 'a', 'll']
+		only one version left: ['a', 'l', '_', 'r', 'e']
+		only one version left: ['ea', 'l', '_', 'r', 'e']
+		only one version left: ['a', 'l', 'd', '_', '_']
+		only one version left: ['a', 'l', 'þ', '_', '_']
+		only one version left: ['a', 'l', '_', '_', 'e']
+		only one version left: ['a', 'll', '_', '_', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['ea', 'll', '_', '_', 'e']
+		FAIL: 
+		FAIL: 
+		only one version left: ['æ', 'l', '_', '_', '_']
+		only one version left: ['æ', 'll', '_', '_', '_']
+		only one version left: ['a', 'l', '_', '_', '_']
+		only one version left: ['a', 'll', '_', '_', '_']
+		FAIL: 
+		only one version left: ['eæ', 'll', '_', '_', '_']
+		only one version left: ['ea', 'l', '_', '_', '_']
+		only one version left: ['ea', 'll', '_', '_', '_']
+		only one version left: ['eea', 'l', '_', '_', '_']
+		only one version left: ['a', '_', '_', '_', '_']
+		FAIL: 
+		FAIL: 
+		SPLIT: ['a', 'l', 'd', 'r', 'e']
+		SPLIT: ['a', 'l', '_', 'r', 'e']
+		['a', 'l', '_', 'r', 'e']
+		SPLIT: ['ea', 'l', '_', 'r', 'e']
+		['ea', 'l', '_', 'r', 'e']
+		SPLIT: ['a', 'l', 'd', '_', '_']
+		['a', 'l', 'd', '_', '_']
+		SPLIT: ['a', 'l', 'þ', '_', '_']
+		['a', 'l', 'þ', '_', '_']
+		SPLIT: ['a', 'l', '_', '_', 'e']
+		['a', 'l', '_', '_', 'e']
+		SPLIT: ['a', 'll', '_', '_', 'e']
+		['a', 'll', '_', '_', 'e']
+		SPLIT: ['a', 'll', '_', '_', 'e', '----!']
+		SPLIT: ['ea', 'll', '_', '_', 'a', '----!']
+		SPLIT: ['ea', 'll', '_', '_', 'e']
+		['ea', 'll', '_', '_', 'e']
+		SPLIT: ['ea', 'll', '_', '_', 'u', '----!']
+		SPLIT: ['ea', 'll', '_', '_', 'u', '----!']
+		SPLIT: ['æ', 'l', '_', '_', '_']
+		['æ', 'l', '_', '_', '_']
+		SPLIT: ['æ', 'll', '_', '_', '_']
+		['æ', 'll', '_', '_', '_']
+		SPLIT: ['a', 'l', '_', '_', '_']
+		['a', 'l', '_', '_', '_']
+		SPLIT: ['a', 'll', '_', '_', '_']
+		['a', 'll', '_', '_', '_']
+		SPLIT: ['a', '_', '_', '_', '_', '----!']
+		SPLIT: ['eæ', 'll', '_', '_', '_']
+		['eæ', 'll', '_', '_', '_']
+		SPLIT: ['ea', 'l', '_', '_', '_']
+		['ea', 'l', '_', '_', '_']
+		SPLIT: ['ea', 'll', '_', '_', '_']
+		['ea', 'll', '_', '_', '_']
+		SPLIT: ['eea', 'l', '_', '_', '_']
+		['eea', 'l', '_', '_', '_']
+		SPLIT: ['a', '_', '_', '_', '_']
+		['a', '_', '_', '_', '_']
+		SPLIT: ['_', '_', '_', '_', '_', '----!']
+		SPLIT: ['_', '_', '_', '_', '_', '----!']
+		version for pattern VCCCV is INVALID
+		[{'ea', 'a', '_', 'eæ', 'æ', 'eea'}]
+		7
+		OVERVIEW: version for pattern VCCCV
+{'ea', 'a', '_', 'eæ', 'æ', 'eea'}
+faulty splits: 7
+alle----! <-! allen
+ealla----! <-! eallan
+eallu----! <-! eallum
+eallu----! <-! eallun
+a----! <-! alll
+----! <-! hal
+----! <-! hall
+a | l | d | r | e
+a | l | _ | r | e
+ea | l | _ | r | e
+a | l | d | _ | _
+a | l | þ | _ | _
+a | l | _ | _ | e
+a | ll | _ | _ | e
+a | ll | _ | _ | e | ----!
+ea | ll | _ | _ | a | ----!
+ea | ll | _ | _ | e
+ea | ll | _ | _ | u | ----!
+ea | ll | _ | _ | u | ----!
+æ | l | _ | _ | _
+æ | ll | _ | _ | _
+a | l | _ | _ | _
+a | ll | _ | _ | _
+a | _ | _ | _ | _ | ----!
+eæ | ll | _ | _ | _
+ea | l | _ | _ | _
+ea | ll | _ | _ | _
+eea | l | _ | _ | _
+a | _ | _ | _ | _
+_ | _ | _ | _ | _ | ----!
+_ | _ | _ | _ | _ | ----!
+1 : {'l', 'll', 'lll'},{'_', 'l', 'll', 'h'}
+2 : {'r', 'd'},{'_', 'u', 'þ', 'd'},{'_', 'h', 'þ', 'd'},{'_', 'r', 'd'},{'_', 'lll', 'þ', 'd'}
+3 : {'_', 'h', 'r'},{'_', 'u', 'r'},{'_', 'lll', 'r'}
+	FOUND __ 0 __ VALID VERSION(S)
+	OVERVIEW: version for pattern VCCCV
+{'ea', 'a', '_', 'eæ', 'æ', 'eea'}
+faulty splits: 7
+alle----! <-! allen
+ealla----! <-! eallan
+eallu----! <-! eallum
+eallu----! <-! eallun
+a----! <-! alll
+----! <-! hal
+----! <-! hall
+a | l | d | r | e
+a | l | _ | r | e
+ea | l | _ | r | e
+a | l | d | _ | _
+a | l | þ | _ | _
+a | l | _ | _ | e
+a | ll | _ | _ | e
+a | ll | _ | _ | e | ----!
+ea | ll | _ | _ | a | ----!
+ea | ll | _ | _ | e
+ea | ll | _ | _ | u | ----!
+ea | ll | _ | _ | u | ----!
+æ | l | _ | _ | _
+æ | ll | _ | _ | _
+a | l | _ | _ | _
+a | ll | _ | _ | _
+a | _ | _ | _ | _ | ----!
+eæ | ll | _ | _ | _
+ea | l | _ | _ | _
+ea | ll | _ | _ | _
+eea | l | _ | _ | _
+a | _ | _ | _ | _
+_ | _ | _ | _ | _ | ----!
+_ | _ | _ | _ | _ | ----!
+1 : {'l', 'll', 'lll'},{'_', 'l', 'll', 'h'}
+2 : {'r', 'd'},{'_', 'u', 'þ', 'd'},{'_', 'h', 'þ', 'd'},{'_', 'r', 'd'},{'_', 'lll', 'þ', 'd'}
+3 : {'_', 'h', 'r'},{'_', 'u', 'r'},{'_', 'lll', 'r'}
+		MIN pattern length=4
+		Pattern CVC is invalid
+		Pattern VCCV is valid
+		Pattern VCVC is valid
+		Pattern VCCC is valid
+		Pattern VCC is invalid
+		Pattern V is invalid
+		Pattern VCCCV is valid
+		Pattern VCV is invalid
+		Pattern VC is invalid
+		Making the selection for pattern: CVCCCVC
+		Selection for pattern: CVCCCVC completed
+		Making a version for pattern: CVCCCVC
+				___CVCCCVC : 0___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l
+						TRYING: h
+						NEW MEMBER: (0)['h']
+						RESULT:  ['h']
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll
+						TRYING: h
+						NEW MEMBER: (0)['h']
+						RESULT:  ['h']
+					ANALYSING: aldre
+						resolving (1)
+						> version: a/l/d/r/e
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', 'd', 'r', 'e']
+					_/a/l/d/r/e(AVCCCV)
+					ANALYSING: alre
+						resolving (1)
+						> version: a/l/r/e
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', 'r', 'e']
+					_/a/l/r/e(AVCCV)
+					ANALYSING: ealre
+						resolving (1)
+						> version: ea/l/r/e
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'l', 'r', 'e']
+					_/ea/l/r/e(AVCCV)
+					ANALYSING: ald
+						resolving (1)
+						> version: a/l/d
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', 'd']
+					_/a/l/d(AVCC)
+					ANALYSING: alþ
+						resolving (1)
+						> version: a/l/þ
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', 'þ']
+					_/a/l/þ(AVCC)
+					ANALYSING: allen
+						resolving (1)
+						> version: a/ll/e/n
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', 'e', 'n']
+					_/a/ll/e/n(AVCVC)
+					ANALYSING: eallan
+						resolving (1)
+						> version: ea/ll/a/n
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', 'a', 'n']
+					_/ea/ll/a/n(AVCVC)
+					ANALYSING: eallum
+						resolving (2)
+						> version: ea/ll/u/m
+						TRYING: ea
+						> version: ea/ll/u/m
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', 'u', 'm']
+					adding dashed alternative: ['_', 'ea', 'll', 'u', 'm']
+					_/ea/ll/u/m(AVCAC)
+_/ea/ll/u/m(AVCAC)
+					ANALYSING: eallun
+						resolving (2)
+						> version: ea/ll/u/n
+						TRYING: ea
+						> version: ea/ll/u/n
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', 'u', 'n']
+					adding dashed alternative: ['_', 'ea', 'll', 'u', 'n']
+					_/ea/ll/u/n(AVCAC)
+_/ea/ll/u/n(AVCAC)
+					ANALYSING: ale
+						resolving (1)
+						> version: a/l/e
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', 'e']
+					_/a/l/e(AVCV)
+					ANALYSING: alle
+						resolving (1)
+						> version: a/ll/e
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', 'e']
+					_/a/ll/e(AVCV)
+					ANALYSING: ealle
+						resolving (1)
+						> version: ea/ll/e
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', 'e']
+					_/ea/ll/e(AVCV)
+					ANALYSING: æl
+						resolving (1)
+						> version: æ/l
+						TRYING: æ
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'æ', 'l']
+					_/æ/l(AVC)
+					ANALYSING: æll
+						resolving (1)
+						> version: æ/ll
+						TRYING: æ
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'æ', 'll']
+					_/æ/ll(AVC)
+					ANALYSING: al
+						resolving (1)
+						> version: a/l
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l']
+					_/a/l(AVC)
+					ANALYSING: all
+						resolving (1)
+						> version: a/ll
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll']
+					_/a/ll(AVC)
+					ANALYSING: alll
+						resolving (1)
+						> version: a/lll
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'lll']
+					_/a/lll(AVC)
+					ANALYSING: eæll
+						resolving (1)
+						> version: eæ/ll
+						TRYING: eæ
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'eæ', 'll']
+					_/eæ/ll(AVC)
+					ANALYSING: eal
+						resolving (1)
+						> version: ea/l
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'l']
+					_/ea/l(AVC)
+					ANALYSING: eall
+						resolving (1)
+						> version: ea/ll
+						TRYING: ea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll']
+					_/ea/ll(AVC)
+					ANALYSING: eeal
+						resolving (1)
+						> version: eea/l
+						TRYING: eea
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'eea', 'l']
+					_/eea/l(AVC)
+					ANALYSING: a
+						resolving (1)
+						> version: a
+						TRYING: a
+						NEW MEMBER: (0)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a']
+					_/a(AV)
+				___CVCCCVC : 1___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/r/e
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/r/e
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/e/n
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/a/n
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/u/m
+						TRYING: ea
+						> version: _/ea/ll/u/m
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/u/n
+						TRYING: ea
+						> version: _/ea/ll/u/n
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/e
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/e
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/e
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l
+						TRYING: æ
+						NEW MEMBER: (1)['æ']
+						RESULT:  ['æ']
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll
+						TRYING: æ
+						NEW MEMBER: (1)['æ']
+						RESULT:  ['æ']
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/lll
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll
+						TRYING: eæ
+						NEW MEMBER: (1)['eæ']
+						RESULT:  ['eæ']
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll
+						TRYING: ea
+						NEW MEMBER: (1)['ea']
+						RESULT:  ['ea']
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l
+						TRYING: eea
+						NEW MEMBER: (1)['eea']
+						RESULT:  ['eea']
+					ANALYSING: a
+						resolving (1)
+						> version: _/a
+						TRYING: a
+						NEW MEMBER: (1)['a']
+						RESULT:  ['a']
+				___CVCCCVC : 2___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/r/e
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/r/e
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/e/n
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/a/n
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/u/m
+						TRYING: ll
+						> version: _/ea/ll/u/m
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/u/n
+						TRYING: ll
+						> version: _/ea/ll/u/n
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/e
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/e
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/e
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/lll
+						TRYING: lll
+						adding blocked set: C = C >> l, ll, lll
+						NEW MEMBER: (2)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', '_', 'lll']
+					_/a/_/lll(AVAC)
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll
+						TRYING: ll
+						NEW MEMBER: (2)['ll']
+						RESULT:  ['ll']
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l
+						TRYING: l
+						NEW MEMBER: (2)['l']
+						RESULT:  ['l']
+					ANALYSING: a
+						resolving (1)
+						> version: _/a
+						NEW MEMBER: (2)['_']
+						RESULT:  ['_']
+					_/a/_(AVA)
+				___CVCCCVC : 3___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					h/a/l/_(CVCA)
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					h/a/ll/_(CVCA)
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						TRYING: d
+						NEW MEMBER: (3)['d']
+						RESULT:  ['d']
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/r/e
+						TRYING: r
+						adding blocked set: C = C >> _, r, d
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', '_', 'r', 'e']
+					_/a/l/_/r/e(AVCACV)
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/r/e
+						TRYING: r
+						adding blocked set: C = C >> _, r, d
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'l', '_', 'r', 'e']
+					_/ea/l/_/r/e(AVCACV)
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d
+						TRYING: d
+						NEW MEMBER: (3)['d']
+						RESULT:  ['d']
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ
+						TRYING: þ
+						NEW MEMBER: (3)['þ']
+						RESULT:  ['þ']
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/e/n
+						TRYING: e
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', '_', 'e', 'n']
+					_/a/ll/_/e/n(AVCAVC)
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/a/n
+						TRYING: a
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'a', 'n']
+					_/ea/ll/_/a/n(AVCAVC)
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/u/m
+						TRYING: u
+						adding blocked set: C = C >> _, u, þ, d
+						> version: _/ea/ll/u/m
+						TRYING: u
+						adding blocked set: C = C >> _, u, þ, d
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'u', 'm']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'u', 'm']
+					_/ea/ll/_/u/m(AVCAAC)
+_/ea/ll/_/u/m(AVCAAC)
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/u/n
+						TRYING: u
+						adding blocked set: C = C >> _, u, þ, d
+						> version: _/ea/ll/u/n
+						TRYING: u
+						adding blocked set: C = C >> _, u, þ, d
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'u', 'n']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'u', 'n']
+					_/ea/ll/_/u/n(AVCAAC)
+_/ea/ll/_/u/n(AVCAAC)
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/e
+						TRYING: e
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', '_', 'e']
+					_/a/l/_/e(AVCAV)
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/e
+						TRYING: e
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', '_', 'e']
+					_/a/ll/_/e(AVCAV)
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/e
+						TRYING: e
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', 'e']
+					_/ea/ll/_/e(AVCAV)
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/æ/l/_(AVCA)
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/æ/ll/_(AVCA)
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/a/l/_(AVCA)
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/a/ll/_(AVCA)
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/_/lll
+						TRYING: lll
+						adding blocked set: C = C >> _, lll, þ, d
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', '_', '_', 'lll']
+					_/a/_/_/lll(AVAAC)
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/eæ/ll/_(AVCA)
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/ea/l/_(AVCA)
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/ea/ll/_(AVCA)
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/eea/l/_(AVCA)
+					ANALYSING: a
+						resolving (1)
+						> version: _/a/_
+						NEW MEMBER: (3)['_']
+						RESULT:  ['_']
+					_/a/_/_(AVAA)
+				___CVCCCVC : 4___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					h/a/l/_/_(CVCAA)
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					h/a/ll/_/_(CVCAA)
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						TRYING: r
+						NEW MEMBER: (4)['r']
+						RESULT:  ['r']
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/_/r/e
+						TRYING: r
+						NEW MEMBER: (4)['r']
+						RESULT:  ['r']
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/_/r/e
+						TRYING: r
+						NEW MEMBER: (4)['r']
+						RESULT:  ['r']
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/a/l/d/_(AVCCA)
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/a/l/þ/_(AVCCA)
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/_/e/n
+						TRYING: e
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', '_', '_', 'e', 'n']
+					_/a/ll/_/_/e/n(AVCAAVC)
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/_/a/n
+						TRYING: a
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'a', 'n']
+					_/ea/ll/_/_/a/n(AVCAAVC)
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/_/u/m
+						TRYING: u
+						adding blocked set: C = C >> _, u, r
+						> version: _/ea/ll/_/u/m
+						TRYING: u
+						adding blocked set: C = C >> _, u, r
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+					_/ea/ll/_/_/u/m(AVCAAAC)
+_/ea/ll/_/_/u/m(AVCAAAC)
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/_/u/n
+						TRYING: u
+						adding blocked set: C = C >> _, u, r
+						> version: _/ea/ll/_/u/n
+						TRYING: u
+						adding blocked set: C = C >> _, u, r
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+					_/ea/ll/_/_/u/n(AVCAAAC)
+_/ea/ll/_/_/u/n(AVCAAAC)
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/_/e
+						TRYING: e
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'l', '_', '_', 'e']
+					_/a/l/_/_/e(AVCAAV)
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/_/e
+						TRYING: e
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', 'll', '_', '_', 'e']
+					_/a/ll/_/_/e(AVCAAV)
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/_/e
+						TRYING: e
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'ea', 'll', '_', '_', 'e']
+					_/ea/ll/_/_/e(AVCAAV)
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/æ/l/_/_(AVCAA)
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/æ/ll/_/_(AVCAA)
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/a/l/_/_(AVCAA)
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/a/ll/_/_(AVCAA)
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/_/_/lll
+						TRYING: lll
+						adding blocked set: C = C >> _, lll, r
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', '_', '_', '_', 'lll']
+					_/a/_/_/_/lll(AVAAAC)
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/eæ/ll/_/_(AVCAA)
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/ea/l/_/_(AVCAA)
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/ea/ll/_/_(AVCAA)
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/eea/l/_/_(AVCAA)
+					ANALYSING: a
+						resolving (1)
+						> version: _/a/_/_
+						NEW MEMBER: (4)['_']
+						RESULT:  ['_']
+					_/a/_/_/_(AVAAA)
+				___CVCCCVC : 5___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					h/a/l/_/_/_(CVCAAA)
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					h/a/ll/_/_/_(CVCAAA)
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/_/r/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/_/r/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/a/l/d/_/_(AVCCAA)
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/a/l/þ/_/_(AVCCAA)
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/_/_/e/n
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/_/_/a/n
+						TRYING: a
+						NEW MEMBER: (5)['a']
+						RESULT:  ['a']
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/_/_/u/m
+						TRYING: u
+						> version: _/ea/ll/_/_/u/m
+						TRYING: u
+						NEW MEMBER: (5)['u']
+						RESULT:  ['u']
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/_/_/u/n
+						TRYING: u
+						> version: _/ea/ll/_/_/u/n
+						TRYING: u
+						NEW MEMBER: (5)['u']
+						RESULT:  ['u']
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/_/_/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/_/_/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/_/_/e
+						TRYING: e
+						NEW MEMBER: (5)['e']
+						RESULT:  ['e']
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/æ/l/_/_/_(AVCAAA)
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/æ/ll/_/_/_(AVCAAA)
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/a/l/_/_/_(AVCAAA)
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/a/ll/_/_/_(AVCAAA)
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/_/_/_/lll
+						TRYING: lll
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', '_', '_', '_', '_', 'lll']
+					_/a/_/_/_/_/lll(AVAAAAC)
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/eæ/ll/_/_/_(AVCAAA)
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/ea/l/_/_/_(AVCAAA)
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/ea/ll/_/_/_(AVCAAA)
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/eea/l/_/_/_(AVCAAA)
+					ANALYSING: a
+						resolving (1)
+						> version: _/a/_/_/_
+						NEW MEMBER: (5)['_']
+						RESULT:  ['_']
+					_/a/_/_/_/_(AVAAAA)
+				___CVCCCVC : 6___
+					ANALYSING: hal
+						resolving (1)
+						> version: h/a/l/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					h/a/l/_/_/_/_(CVCAAAA)
+					version split: ['h', 'a', 'l', '_', '_', '_', '_']
+					{'string': 'h/a/l/_/_/_/_', 'rgx': '((h))/((a))/((l))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: hall
+						resolving (1)
+						> version: h/a/ll/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					h/a/ll/_/_/_/_(CVCAAAA)
+					version split: ['h', 'a', 'll', '_', '_', '_', '_']
+					{'string': 'h/a/ll/_/_/_/_', 'rgx': '((h))/((a))/((ll))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: aldre
+						resolving (1)
+						> version: _/a/l/d/r/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/d/r/e/_(AVCCCVA)
+					version split: ['_', 'a', 'l', 'd', 'r', 'e', '_']
+					{'string': '_/a/l/d/r/e/_', 'rgx': '((_))/((a))/((l))/((d))/((r))/((e))/((_))$'}
+					ANALYSING: alre
+						resolving (1)
+						> version: _/a/l/_/r/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/_/r/e/_(AVCACVA)
+					version split: ['_', 'a', 'l', '_', 'r', 'e', '_']
+					{'string': '_/a/l/_/r/e/_', 'rgx': '((_))/((a))/((l))/((_))/((r))/((e))/((_))$'}
+					ANALYSING: ealre
+						resolving (1)
+						> version: _/ea/l/_/r/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/ea/l/_/r/e/_(AVCACVA)
+					version split: ['_', 'ea', 'l', '_', 'r', 'e', '_']
+					{'string': '_/ea/l/_/r/e/_', 'rgx': '((_))/((ea))/((l))/((_))/((r))/((e))/((_))$'}
+					ANALYSING: ald
+						resolving (1)
+						> version: _/a/l/d/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/d/_/_/_(AVCCAAA)
+					version split: ['_', 'a', 'l', 'd', '_', '_', '_']
+					{'string': '_/a/l/d/_/_/_', 'rgx': '((_))/((a))/((l))/((d))/((_))/((_))/((_))$'}
+					ANALYSING: alþ
+						resolving (1)
+						> version: _/a/l/þ/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/þ/_/_/_(AVCCAAA)
+					version split: ['_', 'a', 'l', 'þ', '_', '_', '_']
+					{'string': '_/a/l/þ/_/_/_', 'rgx': '((_))/((a))/((l))/((þ))/((_))/((_))/((_))$'}
+					ANALYSING: allen
+						resolving (1)
+						> version: _/a/ll/_/_/e/n
+						TRYING: n
+						NEW MEMBER: (6)['n']
+						RESULT:  ['n']
+					version split: ['_', 'a', 'll', '_', '_', 'e', 'n']
+					{'string': '_/a/ll/_/_/e/n', 'rgx': '((_))/((a))/((ll))/((_))/((_))/((e))/((n))$'}
+					ANALYSING: eallan
+						resolving (1)
+						> version: _/ea/ll/_/_/a/n
+						TRYING: n
+						NEW MEMBER: (6)['n']
+						RESULT:  ['n']
+					version split: ['_', 'ea', 'll', '_', '_', 'a', 'n']
+					{'string': '_/ea/ll/_/_/a/n', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((a))/((n))$'}
+					ANALYSING: eallum
+						resolving (2)
+						> version: _/ea/ll/_/_/u/m
+						TRYING: m
+						> version: _/ea/ll/_/_/u/m
+						TRYING: m
+						NEW MEMBER: (6)['m']
+						RESULT:  ['m']
+					version split: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+					{'string': '_/ea/ll/_/_/u/m', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((u))/((m))$'}
+					version split: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+					{'string': '_/ea/ll/_/_/u/m', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((u))/((m))$'}
+					ANALYSING: eallun
+						resolving (2)
+						> version: _/ea/ll/_/_/u/n
+						TRYING: n
+						> version: _/ea/ll/_/_/u/n
+						TRYING: n
+						NEW MEMBER: (6)['n']
+						RESULT:  ['n']
+					version split: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+					{'string': '_/ea/ll/_/_/u/n', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((u))/((n))$'}
+					version split: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+					{'string': '_/ea/ll/_/_/u/n', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((u))/((n))$'}
+					ANALYSING: ale
+						resolving (1)
+						> version: _/a/l/_/_/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/_/_/e/_(AVCAAVA)
+					version split: ['_', 'a', 'l', '_', '_', 'e', '_']
+					{'string': '_/a/l/_/_/e/_', 'rgx': '((_))/((a))/((l))/((_))/((_))/((e))/((_))$'}
+					ANALYSING: alle
+						resolving (1)
+						> version: _/a/ll/_/_/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/ll/_/_/e/_(AVCAAVA)
+					version split: ['_', 'a', 'll', '_', '_', 'e', '_']
+					{'string': '_/a/ll/_/_/e/_', 'rgx': '((_))/((a))/((ll))/((_))/((_))/((e))/((_))$'}
+					ANALYSING: ealle
+						resolving (1)
+						> version: _/ea/ll/_/_/e
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/ea/ll/_/_/e/_(AVCAAVA)
+					version split: ['_', 'ea', 'll', '_', '_', 'e', '_']
+					{'string': '_/ea/ll/_/_/e/_', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((e))/((_))$'}
+					ANALYSING: æl
+						resolving (1)
+						> version: _/æ/l/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/æ/l/_/_/_/_(AVCAAAA)
+					version split: ['_', 'æ', 'l', '_', '_', '_', '_']
+					{'string': '_/æ/l/_/_/_/_', 'rgx': '((_))/((æ))/((l))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: æll
+						resolving (1)
+						> version: _/æ/ll/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/æ/ll/_/_/_/_(AVCAAAA)
+					version split: ['_', 'æ', 'll', '_', '_', '_', '_']
+					{'string': '_/æ/ll/_/_/_/_', 'rgx': '((_))/((æ))/((ll))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: al
+						resolving (1)
+						> version: _/a/l/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/l/_/_/_/_(AVCAAAA)
+					version split: ['_', 'a', 'l', '_', '_', '_', '_']
+					{'string': '_/a/l/_/_/_/_', 'rgx': '((_))/((a))/((l))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: all
+						resolving (1)
+						> version: _/a/ll/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/ll/_/_/_/_(AVCAAAA)
+					version split: ['_', 'a', 'll', '_', '_', '_', '_']
+					{'string': '_/a/ll/_/_/_/_', 'rgx': '((_))/((a))/((ll))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: alll
+						resolving (1)
+						> version: _/a/_/_/_/_/lll
+						TRYING: lll
+						adding blocked set: C = C >> _, lll, n, m
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					adding dashed alternative: ['_', 'a', '_', '_', '_', '_', '_', 'lll']
+					_/a/_/_/_/_/_/lll(AVAAAAAC)
+					version split: ['_', 'a', '_', '_', '_', '_', '_', 'lll']
+					{'string': '_/a/_/_/_/_/_/lll', 'rgx': '((_))/((a))/((_))/((_))/((_))/((_))/((_))$'}
+					_____REMOVING________['_', 'a', '_', '_', '_', '_', '_', 'lll']
+					ANALYSING: eæll
+						resolving (1)
+						> version: _/eæ/ll/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/eæ/ll/_/_/_/_(AVCAAAA)
+					version split: ['_', 'eæ', 'll', '_', '_', '_', '_']
+					{'string': '_/eæ/ll/_/_/_/_', 'rgx': '((_))/((eæ))/((ll))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: eal
+						resolving (1)
+						> version: _/ea/l/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/ea/l/_/_/_/_(AVCAAAA)
+					version split: ['_', 'ea', 'l', '_', '_', '_', '_']
+					{'string': '_/ea/l/_/_/_/_', 'rgx': '((_))/((ea))/((l))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: eall
+						resolving (1)
+						> version: _/ea/ll/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/ea/ll/_/_/_/_(AVCAAAA)
+					version split: ['_', 'ea', 'll', '_', '_', '_', '_']
+					{'string': '_/ea/ll/_/_/_/_', 'rgx': '((_))/((ea))/((ll))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: eeal
+						resolving (1)
+						> version: _/eea/l/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/eea/l/_/_/_/_(AVCAAAA)
+					version split: ['_', 'eea', 'l', '_', '_', '_', '_']
+					{'string': '_/eea/l/_/_/_/_', 'rgx': '((_))/((eea))/((l))/((_))/((_))/((_))/((_))$'}
+					ANALYSING: a
+						resolving (1)
+						> version: _/a/_/_/_/_
+						NEW MEMBER: (6)['_']
+						RESULT:  ['_']
+					_/a/_/_/_/_/_(AVAAAAA)
+					version split: ['_', 'a', '_', '_', '_', '_', '_']
+					{'string': '_/a/_/_/_/_/_', 'rgx': '((_))/((a))/((_))/((_))/((_))/((_))/((_))$'}
+			only one version left: ['h', 'a', 'l', '_', '_', '_', '_']
+			only one version left: ['h', 'a', 'll', '_', '_', '_', '_']
+			only one version left: ['_', 'a', 'l', 'd', 'r', 'e', '_']
+			only one version left: ['_', 'a', 'l', '_', 'r', 'e', '_']
+			only one version left: ['_', 'ea', 'l', '_', 'r', 'e', '_']
+			only one version left: ['_', 'a', 'l', 'd', '_', '_', '_']
+			only one version left: ['_', 'a', 'l', 'þ', '_', '_', '_']
+			only one version left: ['_', 'a', 'll', '_', '_', 'e', 'n']
+			only one version left: ['_', 'ea', 'll', '_', '_', 'a', 'n']
+			only one version left: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+			only one version left: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+			only one version left: ['_', 'a', 'l', '_', '_', 'e', '_']
+			only one version left: ['_', 'a', 'll', '_', '_', 'e', '_']
+			only one version left: ['_', 'ea', 'll', '_', '_', 'e', '_']
+			only one version left: ['_', 'æ', 'l', '_', '_', '_', '_']
+			only one version left: ['_', 'æ', 'll', '_', '_', '_', '_']
+			only one version left: ['_', 'a', 'l', '_', '_', '_', '_']
+			only one version left: ['_', 'a', 'll', '_', '_', '_', '_']
+			FAIL: 
+			only one version left: ['_', 'eæ', 'll', '_', '_', '_', '_']
+			only one version left: ['_', 'ea', 'l', '_', '_', '_', '_']
+			only one version left: ['_', 'ea', 'll', '_', '_', '_', '_']
+			only one version left: ['_', 'eea', 'l', '_', '_', '_', '_']
+			only one version left: ['_', 'a', '_', '_', '_', '_', '_']
+			SPLIT: ['h', 'a', 'l', '_', '_', '_', '_']
+			['h', 'a', 'l', '_', '_', '_', '_']
+			SPLIT: ['h', 'a', 'll', '_', '_', '_', '_']
+			['h', 'a', 'll', '_', '_', '_', '_']
+			SPLIT: ['_', 'a', 'l', 'd', 'r', 'e', '_']
+			['_', 'a', 'l', 'd', 'r', 'e', '_']
+			SPLIT: ['_', 'a', 'l', '_', 'r', 'e', '_']
+			['_', 'a', 'l', '_', 'r', 'e', '_']
+			SPLIT: ['_', 'ea', 'l', '_', 'r', 'e', '_']
+			['_', 'ea', 'l', '_', 'r', 'e', '_']
+			SPLIT: ['_', 'a', 'l', 'd', '_', '_', '_']
+			['_', 'a', 'l', 'd', '_', '_', '_']
+			SPLIT: ['_', 'a', 'l', 'þ', '_', '_', '_']
+			['_', 'a', 'l', 'þ', '_', '_', '_']
+			SPLIT: ['_', 'a', 'll', '_', '_', 'e', 'n']
+			['_', 'a', 'll', '_', '_', 'e', 'n']
+			SPLIT: ['_', 'ea', 'll', '_', '_', 'a', 'n']
+			['_', 'ea', 'll', '_', '_', 'a', 'n']
+			SPLIT: ['_', 'ea', 'll', '_', '_', 'u', 'm']
+			['_', 'ea', 'll', '_', '_', 'u', 'm']
+			['_', 'ea', 'll', '_', '_', 'u', 'm']
+			SPLIT: ['_', 'ea', 'll', '_', '_', 'u', 'n']
+			['_', 'ea', 'll', '_', '_', 'u', 'n']
+			['_', 'ea', 'll', '_', '_', 'u', 'n']
+			SPLIT: ['_', 'a', 'l', '_', '_', 'e', '_']
+			['_', 'a', 'l', '_', '_', 'e', '_']
+			SPLIT: ['_', 'a', 'll', '_', '_', 'e', '_']
+			['_', 'a', 'll', '_', '_', 'e', '_']
+			SPLIT: ['_', 'ea', 'll', '_', '_', 'e', '_']
+			['_', 'ea', 'll', '_', '_', 'e', '_']
+			SPLIT: ['_', 'æ', 'l', '_', '_', '_', '_']
+			['_', 'æ', 'l', '_', '_', '_', '_']
+			SPLIT: ['_', 'æ', 'll', '_', '_', '_', '_']
+			['_', 'æ', 'll', '_', '_', '_', '_']
+			SPLIT: ['_', 'a', 'l', '_', '_', '_', '_']
+			['_', 'a', 'l', '_', '_', '_', '_']
+			SPLIT: ['_', 'a', 'll', '_', '_', '_', '_']
+			['_', 'a', 'll', '_', '_', '_', '_']
+			SPLIT: ['_', 'a', '_', '_', '_', '_', '_', '----!']
+			SPLIT: ['_', 'eæ', 'll', '_', '_', '_', '_']
+			['_', 'eæ', 'll', '_', '_', '_', '_']
+			SPLIT: ['_', 'ea', 'l', '_', '_', '_', '_']
+			['_', 'ea', 'l', '_', '_', '_', '_']
+			SPLIT: ['_', 'ea', 'll', '_', '_', '_', '_']
+			['_', 'ea', 'll', '_', '_', '_', '_']
+			SPLIT: ['_', 'eea', 'l', '_', '_', '_', '_']
+			['_', 'eea', 'l', '_', '_', '_', '_']
+			SPLIT: ['_', 'a', '_', '_', '_', '_', '_']
+			['_', 'a', '_', '_', '_', '_', '_']
+			version for pattern CVCCCVC is INVALID
+			[{'ea', 'a', 'eæ', 'æ', 'eea'}]
+			1
+			OVERVIEW: version for pattern CVCCCVC
+{'ea', 'a', 'eæ', 'æ', 'eea'}
+faulty splits: 1
+a----! <-! alll
+h | a | l | _ | _ | _ | _
+h | a | ll | _ | _ | _ | _
+_ | a | l | d | r | e | _
+_ | a | l | _ | r | e | _
+_ | ea | l | _ | r | e | _
+_ | a | l | d | _ | _ | _
+_ | a | l | þ | _ | _ | _
+_ | a | ll | _ | _ | e | n
+_ | ea | ll | _ | _ | a | n
+_ | ea | ll | _ | _ | u | m
+_ | ea | ll | _ | _ | u | n
+_ | a | l | _ | _ | e | _
+_ | a | ll | _ | _ | e | _
+_ | ea | ll | _ | _ | e | _
+_ | æ | l | _ | _ | _ | _
+_ | æ | ll | _ | _ | _ | _
+_ | a | l | _ | _ | _ | _
+_ | a | ll | _ | _ | _ | _
+_ | a | _ | _ | _ | _ | _ | ----!
+_ | eæ | ll | _ | _ | _ | _
+_ | ea | l | _ | _ | _ | _
+_ | ea | ll | _ | _ | _ | _
+_ | eea | l | _ | _ | _ | _
+_ | a | _ | _ | _ | _ | _
+2 : {'l', 'll', 'lll'}
+3 : {'_', 'r', 'd'},{'_', 'lll', 'þ', 'd'},{'_', 'u', 'þ', 'd'}
+4 : {'_', 'lll', 'r'},{'_', 'u', 'r'}
+6 : {'_', 'lll', 'n', 'm'}
+		FOUND __ 0 __ VALID VERSION(S)
+		OVERVIEW: version for pattern CVCCCVC
+{'ea', 'a', 'eæ', 'æ', 'eea'}
+faulty splits: 1
+a----! <-! alll
+h | a | l | _ | _ | _ | _
+h | a | ll | _ | _ | _ | _
+_ | a | l | d | r | e | _
+_ | a | l | _ | r | e | _
+_ | ea | l | _ | r | e | _
+_ | a | l | d | _ | _ | _
+_ | a | l | þ | _ | _ | _
+_ | a | ll | _ | _ | e | n
+_ | ea | ll | _ | _ | a | n
+_ | ea | ll | _ | _ | u | m
+_ | ea | ll | _ | _ | u | n
+_ | a | l | _ | _ | e | _
+_ | a | ll | _ | _ | e | _
+_ | ea | ll | _ | _ | e | _
+_ | æ | l | _ | _ | _ | _
+_ | æ | ll | _ | _ | _ | _
+_ | a | l | _ | _ | _ | _
+_ | a | ll | _ | _ | _ | _
+_ | a | _ | _ | _ | _ | _ | ----!
+_ | eæ | ll | _ | _ | _ | _
+_ | ea | l | _ | _ | _ | _
+_ | ea | ll | _ | _ | _ | _
+_ | eea | l | _ | _ | _ | _
+_ | a | _ | _ | _ | _ | _
+2 : {'l', 'll', 'lll'}
+3 : {'_', 'r', 'd'},{'_', 'lll', 'þ', 'd'},{'_', 'u', 'þ', 'd'}
+4 : {'_', 'lll', 'r'},{'_', 'u', 'r'}
+6 : {'_', 'lll', 'n', 'm'}

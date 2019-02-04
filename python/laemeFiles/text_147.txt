@@ -1,0 +1,570 @@
+# 147\n
+{London, British Library, Cotton Roll ii.11, language A: 3 documents from Crediton}\n
+C13b2\n
+283 100 E\n
+{=Crediton, Devon=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Textura semi-quadrata. note that both insular g\n
+(realised as g) and yogh (realised as z) are used=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+$/P11N+V_*H*ICH\n
+{=Large initial *H=}\n
+\'_EGGER\n
+$bishop/n-t_BISCHOB\n
+$bebe:odan/vps11_BE-BUDE $be-/xp-v_BE-\n
+$all/ajplOi_ALL+E $/plajOi_+E\n
+$/P11GOipl+V_MINE\n
+$aftercomer/nplOi_AFTHER-COM+END+E $after-/xp-n_AFTHER- $-end/xs-nplOi_+END+E $/plnOi_+E\n
+$to/pr_TO\n
+;_CRIDINTONES\n
+$minster/n<pr_MINISTRE\n
+{.}\n
+!_yAT\n
+{=Davidson (1878) tranlates this as "concerning". So the whole clause would\n
+read "I declare to all my successors in Crediton Minster, concerning the\n
+forgiveness etc".  But the word "that" has no other recorded uses (as far\n
+as I know) as a preposition meaning "about" so I prefer to take it as a\n
+false start or as a dittography of the definite article following and\n
+read "proclaim .... the forgiveness". This apparently follows MED\'s\n
+reading which omits any mention of yAT preceding yE zEUENISSE=}\n
+{\\}\n
+$/TOd_yE\n
+$forgiveness/nOd_zEUE+NISSE $-ness/xs-n_+NISSE\n
+{.}\n
+$/RTIOd_yAT\n
+$/P11N_HICH\n
+$begitan/vSpt13_BE-HET $be-/xp-v_BE-\n
+{.}\n
+$afterthat/cj_AFTHER-yAT-yAT $that/cj-k_-yAT- $that/cj-k_-yAT\n
+$/P11N_HICH\n
+$forsake/vSpt11_FOR-SOC $for-/xp-v_FOR-\n
+$saint/nG-t_SAINT+E $/Gn-t_+E\n
+\'_MARIE\n
+$minster/nOd_MINISTRE\n
+$for/pr_FOR\n
+{\\}\n
+$/P11G<pr+C_MIRE\n
+$pride/n<pr_PRIDE\n
+$&/cj_AND\n
+$to/pr_TO\n
+;_ROME\n
+$wendan/vpt11_HY-WENDE $ge-/xp-vpt11_HY-\n
+{.}\n
+$&/cj_AND\n
+$there/av_yAR\n
+$/P11N+H_HICH\n
+$untrumian/vpt11K2_HON+TROM+EDE $un-/xp-v_HON+ $/vpt11[N]K2_+EDE\n
+$7/qc_SOVE\n
+$year/npl-av_zER $/pln-av_0\n
+$&/cj_AND\n
+$more/av_MORE\n
+$&/cj_AN\n
+$there/av_THAR\n
+$/P11>pr_ME\n
+{\\}\n
+$before{p}/pr<_BI-FORE $be-/xp-pr_BI-\n
+$limpan/vSpt13_HY-LOMP $ge-/xp-vpt13_HY-\n
+{.}\n
+$/TN_yE\n
+$hre:ow/aj_REUE\n
+$queen/n_QUENE\n
+$in{p}/pr_ON\n
+$heaven/n<pr_HEUENE\n
+\'_MARIE\n
+{.}\n
+$&/cj_AnD\n
+$ne:dan/vpt13_NED+EDE $/vpt13_+EDE\n
+$/P11Od_ME\n
+$to/pr_TO\n
+$shrift/n<pr_SCRIFTE\n
+$go/vi_GO $/vi[V]_0\n
+{.}\n
+$to/pr_TO\n
+$/T<pr_yAN\n
+$holy/aj<pr_HOL+IA+ $-ig/xs-aj_+IA+\n
+$pope/n<pr-t_+PO\\PA\n
+\'_LEON\n
+$&/cj_AND\n
+$by/pr_BE\n
+$/P13GM_HIS\n
+$lore/n<pr_LORE\n
+$do/vi_DO $/vi[V]_0\n
+{.}\n
+$&/cj_*AND\n
+$/P13NM_HE\n
+$/P11Od_ME\n
+$rae:dan/vpt13_RADDE\n
+$anbi:dian/viK2_AN+BID+IA $an-/xp-v_AN+ $/viK2_+IA\n
+$1/qcG_ONES\n
+{(SIMILISSAMNIS(}\n
+$in{p}/pr_ON\n
+;_ROME\n
+{.}\n
+$&/cj_*AND\n
+$begitan/vi_BE\\-HITH+E $be-/xp-v_BE\\- $/vi_+E\n
+$forgiveness/nOd_TO-zIUE+NISSE $to-/xp-n_TO- $-ness/xs-nOd_+NISSE\n
+$to/pr_TO\n
+$bo:t/n<pr_BOTE\n
+$/P11GG+C_MIRE\n
+$mae:re/ajG_MER+E $/Gaj_+E\n
+$lady/nG_LEUEDI+E $/Gn_+E\n
+$&/cj_AN\n
+$to/pr_TO\n
+$/P11G<pr+C_MIRE\n
+$church/n<pr_CHERCHE\n
+{.}\n
+$&/cj_*AND\n
+$there/av_yAR\n
+$/P11N_HICH\n
+$begitan/vSpt11_BE-zETH $be-/xp-v_BE-\n
+{\\}\n
+$of/pr_OF\n
+$17/qc_SOUENTINE\n
+$archbishop/npl<pr_ARCHE+BISCHOB+ES $arch-/xp-n_ARCHE+ $/pln<pr_+ES\n
+$2000/qc_TO-yOUSENT $2/qc-k_TO- $1000/qc-k_-yOUSENT\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+$forgiveness/nOd_TO-zIUE+NISSE $to-/xp-n_TO- $-ness/xs-nOd_+NISSE\n
+$of/pr_OF\n
+$/P23G_HURE\n
+$sin/npl<pr_SINN+A $/pln<pr_+A\n
+{.}\n
+$all/ajplOi_ALL+E $/plajOi_+E\n
+$/TplOi_yANE\n
+$minster/nG_MI\\NISTR+E $/Gn_+E\n
+;_CRIDITONES\n
+$aginner/nplOi_A+zINN+er+AS $a-/xp-n_A+ $-er/xs-agt-nplOi_+er+AS $/plnOi_+AS\n
+$&/cj_AN\n
+$gooder/nplOi_GOD>I>+ER+AS $-er/xs-agt-nplOi_+ER+AS $/plnOi_+AS\n
+$bu:tan{w}/pr_OF-BUTE\n
+$end/n<pr_HENDE\n
+$evereach/aj-av_HEUERECHE\n
+$day/n-av_DAY\n
+$tocome/vpsp-aj-av_TO-COM+enDE $to-/xp-v_TO- $/vpsp-aj-av_+enDE\n
+{=sic MS TO-COMDE with titulus above M=}\n
+{.}\n
+$&/cj_AN\n
+$/TOd_THE\n
+{\\}\n
+$work/nOd_WORKE\n
+$betrendan/vpt23_BI-TREND+E $be-/xp-v_BI- $/vpt23[D]_+E\n
+$&/cj_AND\n
+$for/pr_FOR\n
+\'_ADyELSTON\n
+$swincan/vSpt23_SwNg+E $/vSpt23_+E\n
+{=w is dotted=}\n
+{.}\n
+$&/cj_*AND\n
+$of/pr_OF\n
+$other/ajpl<pr_OyER $/plaj<pr_0\n
+$bishop/npl<pr_BISCHOP+ES $/pln<pr_+ES\n
+$on{p}/pr_ON\n
+$eastend/n<pr_EST+ENDE $end/n<pr-k_+ENDE\n
+;_ROMES\n
+$burh/nG_BURg $/Gn_0\n
+{\\}\n
+$&/cj_AND\n
+$on{p}/pr_ON\n
+$westend/n<pr_WEST+ENDE $end/n<pr-k_+ENDE\n
+$of/pr_OF\n
+$/TG_yAS\n
+$mount/nG_MOUNT+ES $/Gn_+ES\n
+\'_MONGEUS\n
+$4000/qc_FEOUR-yOUSENT $4/qc-k_FEOUR $1000/qc-k_-yOUSENT\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{.}\n
+$&/cj_AND\n
+$7/qc_SONNE\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{.}\n
+$&/cj_&\n
+{\\}\n
+$of/pr_OF\n
+$other/ajpl<pr_HOyER $/plaj<pr_0\n
+$archbishop/npl<pr_ARCHE+BISCHOP+ES $arch-/xp-n_ARCHE+ $/pln<pr_+ES\n
+$&/cj_&\n
+$bishop/npl<pr_BISSOP+ES $/pln<pr_+ES\n
+$on{p}/pr_ON\n
+$/Dis<pr_yISSER\n
+$side/n<pr_SIDE\n
+$/TG_yAS\n
+$mount/nG_MOUNT+ES $/Gn_+ES\n
+$in{p}/pr_ON\n
+;_WALE-LONDES\n
+$/RTAplOd_yE\n
+$/P11N+V_ICH\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+{\\}\n
+$seek/vpt11_HI-SOg+TE $ge-/xp-vpt11_HI- $/vpt11[H]_+TE\n
+$or/cj_HOyER\n
+$by/pr_BI\n
+$wi:se/n<pr_WISE\n
+$send/vpt11_SENDE\n
+{.}\n
+$so/av_SO\n
+$/P11GN+C_MI\n
+$shrift/n_SCRIFT\n
+$be/vpt13_WAS\n
+{.}\n
+$3000/qc_yRU-yOUSEND $3/qc-k_yRU- $1000/qc-k_-yOUSEND\n
+$day/npl_DAg+E $/pln_+E\n
+$&/cj_&\n
+$7/qc_SOUENE\n
+{.}\n
+$of/pr_*OF\n
+$3/qc_yRU\n
+{\\}\n
+$archbishop/npl<pr_ARCHE+BISCHOP+ES $arch-/xp-n_ARCHE+ $/pln<pr_+ES\n
+$in{p}/pr_ON\n
+;_BRUTHUDE\n
+{.}\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P23G_HYRE\n
+$underbishop/npl<pr_ONDER+BISCHOP+ES $under-/xp-n_ONDER+ $/pln<pr_+ES\n
+{.}\n
+$1000/qc_ON-yOUSENT $1/qc-k_ON-\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+$&/cj_&\n
+$60/qc_SIXSTI\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{.}\n
+{\\}\n
+$of/pr_*OF\n
+$4/qc_FEOUR\n
+$archbishop/npl<pr_ARCHE+BISCHOP+ES $arch-/xp-n_ARCHE+ $/pln<pr_+ES\n
+$of/pr_OF\n
+;_HIRLONDE\n
+{.}\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P23G_HIRE\n
+$undersetla/najpl<pr_ONDER+SETEL+E $under-/xp-aj_ONDER+ $/plaj<pr_+E\n
+$bishop/npl<pr_BISCHOP+ES $/pln<pr_+ES\n
+$900/qc_NUNHENNE-HONDERD $9/qc-k_NUNHENNE- $100/qc-k_-HONDERD\n
+{\\}\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{.}\n
+$&/cj_&\n
+$10/qc_TIN\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{.}\n
+$&/cj_*AND\n
+$Ya:/cj_yO\n
+$/P11N_HICH\n
+$come/vSpt11_COM\n
+$home/n-av_HOM\n
+$to/pr_TO\n
+$/T<pr_yAN\n
+$gate/n<pr_zETE\n
+$in{p}/pr_ON\n
+$/T<pr_yAN\n
+$churchhege/n<pr_CHERCH+AY $hege/n<pr-k_+AY\n
+{.}\n
+$/P11N_HICH\n
+$self/aj_SILF\n
+$sinful/aj_SIN+FOL $-ful/xs-aj_+FOL\n
+$/P11N+V_HI\n
+{\\}\n
+$astaYelian/vpt11K2_A+STAHEL+EDE $a-/xp-v_A+ $/vpt11[L]K2_+EDE\n
+$there/av_yAR\n
+$100/qc_ON-HONDRED $1/qc+H-k_ON-\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+$in{m}/pr_IN\n
+$half/n<pr_HELF\n
+$/TOi_yAN\n
+$gate/nOi_zETE\n
+$evermore/av_EUE+MORE $more/av-k_+MORE\n
+$whoso/pn_WO-SO $so/av-k_-SO\n
+$biddan/vps13-ct_BITH\n
+$for/pr_FOR\n
+$wretch/aj<pr_WRECCHE\n
+\'_EDGER\n
+{.}\n
+$&/cj_*AND\n
+{\\}\n
+$Ya:/cj_yO\n
+$/P11N+H_HICH\n
+$ha:lgian/vpt11K2_HALg+EDE $/vpt11[H]K2_+EDE\n
+$/TOd_yANE\n
+$churchhege/nOd_CHERICH+AY $hege/nOd-k_+AY\n
+$all/av_AL\n
+$each/aj-av_HECHERE\n
+$hyrne/n-av_HURNE\n
+$all/av_AL\n
+$100/qc_HONDREID\n
+$day/npl-av_DAg+E $/pln-av_+E\n
+{.}\n
+$&/cj_*AND\n
+$eft/av_EFT\n
+$/P11N_HICH\n
+$besi:Yian?/vpt11K2_BU+SwI+DE $be-/xp-v_BU+ $/vpt11[V]K2_+DE\n
+$to/pr_TO\n
+;_ROME\n
+{\\}\n
+$for/pr_FOR\n
+$/P11G<pr+C_MIRE\n
+$leahtor/n<pr_LACTHERE\n
+$to/pr_TO\n
+$bo:t/n<pr_BOTE\n
+$&/cj_&\n
+$/TN_SE\n
+$holy/aj_HOL+IA $-ig/xs-aj_+IA+\n
+$pope/n-t_+POPA\n
+\'_LION\n
+$/TOd_yAY\n
+$forgiveness/nOd_zEUE+NISSE $-ness/xs-nOd_+NISSE\n
+$faestnian/vpt13K2_I+UASN+EDE $ge-/xp-vpt13_I+ $/vpt13[N]K2_+EDE\n
+$&/cj_&\n
+$more/vpt13_MOR+EDE $/vpt13[R]_+EDE\n
+$/P13OdI_HIT\n
+$mid{w}/pr_MID\n
+{\\}\n
+$1000/qc_ON-yOUSENT $1/qc-k_ON-\n
+$day/npl<pr_DAg+E $/pln<pr_+E\n
+{.}\n
+$&/cj_&\n
+$awaergan/vpt13_A-WIRg+EDE $a-/xp-v_A- $/vpt13[H]_+EDE\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/DospnOdRTApl_yAYE-yE\n
+$/P13OdI_HIT\n
+$aswi:gian/vpt23K2_A+SwI+DE $a-/xp-v_A+ $/vpt23[V]K2_+DE\n
+{.}\n
+$&/cj_&\n
+$/TOd_yANE\n
+$minster/nOd_MINSTer\n
+$of/pr_OF\n
+;_CRIDIANITONE\n
+$withset/vpt23_WIy\\-SETT+E $with-/xp-v_WIy\\- $/vpt23[D]_+E\n
+{.}\n
+{(SUmMA DIERum(}\n
+!_XII.CCCC.LXXX.}\n
+{=Spiral line fillers=}\n
+{\\\\}\n
+\'_*H*ONDRET\n
+{=Large initial *H=}\n
+$bishop/n-t_BISCHOC\n
+{.}\n
+$give/vSpt13_zIEF\n
+$100/qc_ON-HONDRED $1/qc+H-k_ON-\n
+$day/nplOd_DAz+E $/plnOd_+E\n
+{.}\n
+\'_*PO^URTE\n
+$bishop/n-t_BISCHOP\n
+$100/qc_ON-HONDREID $1/qc+H-k_ON-\n
+$day/nplOd_DAz+E $/plnOd_+E\n
+{.}\n
+$&/cj_&\n
+$beha:tan/vSpt13_BI-HET $be-/xp-v_BI-\n
+$300/qc_yROU\\-HONDREIT $3/qc-k_yROU\\- $100/qc-k_-HONDREIT\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+\'_LEUEGER\n
+$bishop/n-t_BISCHOP\n
+$beha:tan/vSpt13_BI-HET $be-/xp-v_BI-\n
+$200/qc_TO-HONDREIT $2/qc-k_TO- $100/qc-k_-HONDREIT\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+\'_EADBer\n
+$bishop/n-t_BISCHOP\n
+$begitan/vSpt13_BI-zET $be-/xp-v_BI-\n
+$400/qc_FROU-HON\\DREIT $4/qc-k_FROU- $100/qc-k_-HON\\DREIT\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+$&/cj_AND\n
+$10/qc_TIN\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+\'_*EANSBer\n
+$bishop/n-t_BISCHOP\n
+$begitan/vSpt13_BI-zET $be-/xp-v_BI-\n
+$700/qc-k_SONNE-HONDREIT $7/qc-k_SONNE- $100/qc-k_-HONDREIT\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+\'_*EALNOD\n
+$bishop/n-t_BISCHOP\n
+$begitan/vSpt13_BI\\-zET $be-/xp-v_BI\\-\n
+$100/qc_AND-HONDREIT $1/qc+H-k_AND-\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+\'_*ALGER\n
+$bishop/n-t_BISCHOP\n
+$beha:tan/vSpt13_BI-HET $be-/xp-v_BI-\n
+$300/qc_yRU-HONDREIT $3/qc-k_yRU- $100/qc-k_-HONDREIT\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+$&/cj_&\n
+$70/qc_SOUENTI\n
+$&/cj_AND\n
+$3/qcOd_yRU\n
+$day/nplOd_DAg+ES $/plnOd_+ES\n
+{\\}\n
+\'_*EADLUF\n
+$bishop/n-t_BISCHIP\n
+$begitan/vSpt13_BI-zET $be-/xp-v_BI-\n
+$60/qc_SIXSTI\n
+$day/nplOd_DAg+E $/plnOd_+E\n
+{.}\n
+\'_*LUHING\n
+$bishop/n-t_BISCHOP\n
+$200/qc_TO-HONDREIT $2/qc-k_TO- $100/qc-k_-HONDREIT\n
+$day/nplOd_DAz+E $/plnOd_+E\n
+{.}\n
+$&/cj_AND\n
+$other/aj-indef_ON-OyER $/AN+V_ON-\n
+\'_LEON\n
+$pope/n-t_POPA\n
+$/P13OdI_HIT\n
+$faestnian/vpt13K2_I+VASN+EDE $ge-/xp-vpt13_I+ $/vpt13[N]K2_+EDE\n
+$in{t}/pr_ON\n
+$e:ceness/n<pr_ECHE+NISSE $-ness/xs-n<pr_+NISSE\n
+$&/cj_ANT\n
+$aywhileday/n<pr_AY+WIL+DAY $while/av-k_+WIL+ $day/n<pr-k_+DAY\n
+{.}\n
+{(*SUmMA DIERum(}\n
+!_IJm.*D.XL.IIJ\n
+{=Symbol for 2000 is ij with a Welsh hat shape over the top\n
+see Capelli p. 415 column 2, 8th symbol down=}\n
+{\\\\}\n
+$here/av_*H*ER\n
+{=Large initial *H=}\n
+$cy:Yan/vps13-ct_KICD\n
+$in{p}/pr_ON\n
+$/Dis<pr_yISE\n
+$writ/n<pr_I+WRITE $ge-/xp-n_I+\n
+{.}\n
+$that/cj_yAT\n
+$/P11N_HICH\n
+\'_LUUIG\n
+$bishop/n-t_BISCHOP\n
+$at/pr_AT\n
+$/P11G<pr+C_MINE\n
+$forthsi:Y/n<pr_FUYR+SIyE $si:Y/n<pr-k_+SIyE\n
+$from/pr_WRAM\n
+;_Cr^IDITONe\n
+$/P11N_HI\n
+{\\}\n
+$minister/n_MINISTRE\n
+$to/pr_TO\n
+$/T<pr_yARE\n
+$church/n<pr_CHERCHE\n
+$of/pr_OF\n
+;_EXANICHESTRE\n
+$for/im>=_FOR\n
+$/P11GOdpl+C_MIRE\n
+$le:of/ajplOd_LEU+E $/plaj<pr_+E\n
+$brother/nplOd_BROyER+EN $/plnOd_+EN\n
+$to/im+H<=_TO\n
+$fre:frian/viK2-m_H-WREwR+IGHE $ge-/xp-vi_H- $/viK2-m_+IGHE\n
+$at/pr_AT\n
+{\\}\n
+$/P11G<prpl+V_MINE\n
+$outgang/npl<pr_OUT-GANH+ES $out-/xp-n_OUT- $/pln<pr_+ES\n
+$faestnian/vpt11K2_I+UASN+EDE $ge-/xp-vpt11_I+ $/vpt11[N]K2_+EDE\n
+$/TOd_yAY\n
+$forgiveness/nOd_zEUE+NISSE $-ness/xs-nOd_+NISSE\n
+$/RTIOd_yAT\n
+\'_EGGER\n
+$/TN_yE\n
+$le:of/aj_LUF\n
+$/P11GOi+C_MINE+\n
+$Ye:od/nOi_+THEUDE\n
+$bishop/n_BISCHOP\n
+$betrendan/vpt13_BI-Tr^EN+DE $be-/xp-v_BI- $/vpt13[N]_+DE\n
+{\\}\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_Cr^IDIANITONES\n
+$minster/n<pr_MINISTRE\n
+{.}\n
+$&/cj_AND\n
+$eke/av_HEg\n
+$/RTIpl_yAT\n
+$all/ajplOi_ALL+E $/plajOi_+E\n
+$other/ajplOi_OyER+E $/plajOi_+E\n
+$bishop/nplOi_BISCHOP+ES $/plnOi_+ES\n
+$since/av_SIDyE\n
+$of/pr_OF\n
+$/P11G<prpl+C_MINE\n
+$day/npl<pr_DAg+ES $/pln<pr_+ES\n
+{=MED cites MINE-DAgES from this text (s.v. mineday) as an example of the\n
+OE mynedaeg "remembrance day". But the days in question here are days of\n
+indulgence, and Bishop Living is here confirming the days of indulgence\n
+gathered from various sources by Bishop Egger and adding to them those\n
+gathered since and in his own day - MINE DAg+ES=}\n
+$be/vpt23_WERE\n
+{\\}\n
+$give/vSpp-pl_I+zEU+E $ge-/xp-vpp_I+ $/vSpp-pl_+E\n
+$&/cj_AND\n
+{=Space of one letter - possibly an erasure (illegible)=}\n
+$begitan/vSpp-pl_BI-zIT+E $be-/xp-v_BI- $/vSpp-pl_+E\n
+$of/pr_OF\n
+$other/ajpl<pr_OyER $/plaj<pr_0\n
+$bishop/npl<pr_BISCHOP+ES $/pln<pr_+ES\n
+$eke/av_HEK\n
+$/P11N+H_HICH\n
+$have/vps11_HABBE\n
+$outgather/vppK2_OUT-I+GADER+E $out-/xp-v_OUT- $ge-/xp-vpp_-I+ $/vpp[R]K2_+E\n
+$of/pr_OF\n
+$book/npl<pr_BOK+ES $/pln<pr_+ES\n
+{=The cross stroke of the K missing=}\n
+$fela/ajpl<pr_FALE\n
+{.}\n
+$&/cj_&\n
+$do/vSpp_I-DO $ge-/xp-vpp_I- $/vSpp[V]_0\n
+{\\}\n
+$in{i}/pr_IN\n
+$other/aj-indef<pr_ON-OyerE $/A<pr+V_ON-\n
+$massbook/n<pr_MASSE-BOC $book/n<pr-k_-BOC\n
+$at/pr_AT\n
+$saint/nG-t_SAINT+E $/Gn-t_+E\n
+\'_MARIE\n
+$we:ofod/n<pr_WEUEDE\n
+$together/av_TO-GADRE $to-/xp-av_TO-\n
+$bring/vpp_HI-BROg+T $ge-/xp-vpp_HI- $/vpp[H]_+T\n
+$there{w}/cj_yAR\n
+$man/indef_MA\n
+$/P13OdI_HIT\n
+$shall/vps13_SCHEL\n
+$see/vi_I-SU $ge-/xp-vi_I- $/vi[V]_0\n
+{.}\n
+$&/cj_*AND\n
+{\\}\n
+$in{p}/pr_IN\n
+$other/aj-indef<pr_ON-OyER $/A<pr+V_ON-\n
+$book/n<pr_BOKE\n
+$/RTI_yAT\n
+$ha:tan{n}/vps13-passform_HATTE\n
+{(PENITENCIALIS(}\n
+$be:odan/vpt11_BODDE\n
+$to/pr+H_TO\n
+$hoard/n<pr_HOURDE\n
+{.}\n
+$&/cj_AND\n
+$/P11N+H_ICH\n
+$/P13OdI_HIT\n
+$trymian/vpt11K2_I+TRIM+DE $ge-/xp-vpt11_I+ $/vpt11[N]K2_+DE\n
+$mid{w}/pr_MID\n
+$100/qc_ON\\-HONDREIT $1/qc+H-k_ON\\-\n
+{=Space of one or two letters=}\n
+$day/npl<pr_DAg+ES $/pln<pr_+ES\n
+$bu:tan{w}/pr_OF-BUTE\n
+$end/n<pr_ENDE\n
+$&/cj_AND\n
+$/P11N+V_ICH\n
+$oncurse/vps11K2_ON-CURS+IE $on-/xp-v_ON- $/vps11K2_+IE\n
+$/RTAOd-N_yAT\n
+$/P13OdI_HIT\n
+$other/aj-av_OyER+\n
+$wi:se/n-av_+wISE\n
+$set/vsjps13_I+SETTE $ge-/xp-vsjps13_I+\n
+{.}\n
+$&/cj_&\n
+$eke/av_HEK\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/TG_yARE\n
+$church/nG_CHURCH+A $/Gn_+A\n
+$foe/nplOd_Y-VO $ge-/xp-n_Y-\n
+{.}\n
+{=Three spiral line fillers=}\n
+{\\\\}\n
+{=Latin=}\n
+|\n
+\n
+\n'

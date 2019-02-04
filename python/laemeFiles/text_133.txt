@@ -1,0 +1,2299 @@
+# 133\n
+{London, PRO, E 164/28, fols. 52v-53r, 59v-60r, 165v-166v: Register of Ramsey Abbey, hand A}\n
+C14a\n
+529 285 N\n
+{=Ramsey, Hunts=}\n
+{=Sample represents all the English in this hand=}\n
+{=Script - Textura semiquadrata=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f52v~}\n
+;_KYNGESDELF\n
+{=The name is in the top margin=}\n
+{\'(*Pr^IMA DIUISIO *MARISCI DE KYNGESDELF .(\'}\n
+{=Title is at the right hand side of the first line of English=}\n
+{para}\n
+$/DesN_YEISE\n
+$man/npl_MEN\n
+$be/vpt23_WAREN\n
+$there/av_YER\n
+\'_*ALWINE\n
+$abbot/n-t_AB\\BOT\n
+$betell/vpt13_BE+TEAL+DE $be-/xp-v_BE+ $/vpt13[L]_+DE\n
+$/TplOd_YE\n
+$mearc{b}/nplOd_MARK+E $/plnOd_+E\n
+$&/cj_AND\n
+$/TplOd_YE\n
+$gemae:re/nplOd_MER+E $/plnOd_+E\n
+$after/pr_AFTER\n
+;_KYNGES-DELF\n
+$between/pr_BI-TWENEN $be-/xp-pr_BI-\n
+;_*RAMESEYE\n
+{\\}\n
+$&/cj_AND\n
+\'_*YORNEIYE\n
+$with{a}/pr_WITH\n
+\'_LEFRICHE\n
+$abbot/n<pr_*ABBOT\n
+$of/pr_OF\n
+;_*BURCH\n
+{.}\n
+$for/cj_FOR\n
+$/P13NM_HE\n
+$have/vpt13_HAU+EDE $/vpt13_+EDE\n
+;_*YORNEYE\n
+$then/av_YANNE\n
+$to/im+C_TO\n
+$ge:man/vi-m_GEM+EN $/vi-m_+EN\n
+{.}\n
+{\\}\n
+$&/cj_AND\n
+\'_*SIWARD\n
+$provost/n_PROUOST\n
+$of/pr_OF\n
+;_*YORNEIYE\n
+$mid{w}/pr_MID\n
+$/P13<prM_HIM\n
+$/RTA_YAT\n
+$be/vpt13_WAS\n
+$since/av_SIYEN\n
+$abbot/n_ABBOT\n
+$therein{p}/av-k_YER+INNE $in{p}/pr-k_+INNE\n
+{.}\n
+{\\}\n
+\'_*ALWINE\n
+$abbot/n-t_ABBOT\n
+{.}\n
+$abbot/n_ABBOT\n
+$of/pr_OF\n
+;_*RAMESEIYE\n
+$/P13OdI_IT\n
+$betell/vpt13_BI-TOL+DE $be-/xp-v_BI- $/vpt13[L]_+DE\n
+$&/cj_AND\n
+$/P13GMpl_HIS\n
+$monk/npl_MUNEK+ES $/pln_+ES\n
+$mid{w}/pr_MID\n
+$/P13<prM_HIM\n
+{.}\n
+{\\}\n
+\'_*ALFWOLD\n
+$&/cj_AND\n
+\'_ETHELWOLD\n
+$&/cj_AND\n
+$/P13GMpl_HISE\n
+$knight/npl_KNITT+ES $/pln_+ES\n
+\'_*TOKI\n
+$of/pr_OF\n
+;_*SCHITLINGDON~\n
+{.}\n
+\'_*LEOFWINECLO\\CHE\n
+{.}\n
+\'_*BRITHMAN-BALEHORN\n
+{.}\n
+\'_OSBerN\n
+{.}\n
+\'_WLWINE\n
+{.}\n
+\'_LEIYULF\n
+{.}\n
+$in{m}/pr_ON\n
+\'_LEFSINES\n
+$abbot/nG-t_ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_WIT+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+{\\}\n
+;_HELY\n
+{.}\n
+$&/cj_AND\n
+\'_SIRIKES\n
+$provost/nG-t_PROUOST+ES $/Gn-t_+ES\n
+$/P13GMpl_HIS\n
+$monk/nplG_MUNEK+ES $/plnG_+ES\n
+{.}\n
+$&/cj_AND\n
+\'_WLFGETES\n
+$abbot/nG_ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+;_CRULANDE\n
+$&/cj_AND\n
+\'_BRIXTA\\NES\n
+$/P13GMpl_HIS\n
+$monk/nplG_MUNEK+ES $/plnG_+ES\n
+$&/cj_AND\n
+\'_AILSIGES\n
+$monk/nG_MUNEK+ES $/Gn_+ES\n
+$&/cj_AND\n
+\'_LEOFWINES\n
+$monk/nG_MONEK+ES $/Gn_+ES\n
+$/TG_YE\n
+$long/ajG_LONG+E $/Gaj_+E\n
+$of/pr_OF\n
+{\\}\n
+;_BURGH~\n
+{=Here ~ represents a stroke through or to the ascender of H, et passim=}\n
+$&/cj_AND\n
+\'_*ALFWOLDES\n
+$of/pr_OF\n
+;_*YORNEYE\n
+$&/cj_AND\n
+\'_SIWARDES\n
+$provost/nG-t_ProUOST+ES $/Gn-t_+ES\n
+$/RTA_YAT\n
+$since/av_SIYEN\n
+$be/vpt13_wAS\n
+$abbot/n_ABBOT\n
+{\\}\n
+$therein{p}/av-k_YER+INNE $in{p}/pr-k_+INNE\n
+{.}\n
+$&/cj_&\n
+$/DesN_YEISE\n
+$lewd/ajpl_LEWED+E+ $/plaj_+E+\n
+$man/npl_+MEN\n
+$/P13OdI_HIT\n
+$swear/vSpt23_SWOR+EN $/vSpt23[R]_+EN\n
+$afterthat/av_AFTER-YANNE-YAT $Yan/av-k_-YANNE- $that/av-k_-YAT\n
+$/P13NI_IS\n
+{=error for IT?=}\n
+$be/vpt13_WAS\n
+$betell/vpp_BE+TOL+D $be-/xp-v_BE+ $/vpp[L]_+D\n
+$/TplOd_YE\n
+$2/qcOd_TWO\n
+{\\}\n
+$deal/nplOd_DEL $/plnOd_0\n
+$into/pr_IN+TO $to/pr-k_-TO\n
+$saint/n<pr-t_SanCtE\n
+\'_BeNeDICTE\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_*RAMSEYE\n
+$&/cj_&\n
+$/TOd_YE\n
+$3/qoajOd_YRIDDEN+\n
+$deal/nOd_+DEL\n
+$saint/n<pr-t_SanCtE\n
+\'_BOTULFE\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_*YORNEIYE\n
+{\\}\n
+$all/av_AL\n
+$be/vsjps13_BEO\n
+$/TN_YE\n
+;_GANGESTEDE\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_*RAMESEIYE\n
+$by{p}/pr_BE\n
+$easthalf/n<pr_EST+HALFE $half/n<pr-k_+HALFE\n
+$/T<pr_YE\n
+$delf/n<pr_DELF\n
+$&/cj_AND\n
+$by{p}/pr_BE\n
+$westhalf/n<pr_WEST-HALF $half/n<pr-k_-HALF\n
+$by{p}/pr_BE\n
+;_HINDE\\LAKE\n
+$so/av_SWO\n
+$on/av_ON\n
+$to/pr_TO\n
+;_WENDLESMERE\n
+$&/cj_AND\n
+$half/nOd_HALF\n
+;_*RAWEREHOLT\n
+{.}\n
+\'_YURULF\n
+$/TN_YE\n
+$fisher/n_FISS+ERE $-er/xs-agt-n_+ERE\n
+$of/pr_OF\n
+;_FARS\\HEUEDE\n
+$&/cj_AND\n
+\'_LEFSTAN-HERLEPIC\n
+$of/pr_OF\n
+;_*WITLESHEYE\n
+{.}\n
+$/P23N_HEO\n
+$swear/vSpt23_SWOR+EN $/vSpt23[R]_+EN\n
+$/TOd_YE\n
+$3/qoajOd_YRIDDEN+\n
+$deal/nOd_+DEL\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_YORNEIYE\n
+{.}\n
+{\\}\n
+\'_LEFSI-CREVLETA\n
+{.}\n
+$&/cj_AND\n
+\'_AILMER-HOGG\n
+$of/pr_OF\n
+;_*WELLEN\n
+$&/cj_AND\n
+\'_*WLFGEIT\n
+$/TN_YE\n
+$fisher/n_FISS+ERE $-er/xs-agt-n_+ERE\n
+$of/pr_OF\n
+;_HEYTUMDEGRAUE\n
+{\\}\n
+$/P23N_HEO\n
+$swear/vSpt23_SWOR+EN $/vSpt23[R]_+EN\n
+$all/av_AL\n
+$2/qcOd_TO\n
+$deal/nplOd_DEL $/plnOd_0\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+;_*RAMESEYE\n
+{.}\n
+$by/pr_BI\n
+$/DesG_YISSE\n
+$man/nplG_MANN+ES $/plnG_+ES\n
+$witness/n<pr_WIT+NESSE $-ness/xs-n<pr_+NESSE\n
+$&/cj_AND\n
+$many/ajpl<pr_MAN+I $-ig/xs-ajpl<pr_+I $/plaj<pr_0\n
+$other/pnpl<pr_OYER+E $/plajpn<pr_+E\n
+{.}\n
+{(id est HIJS TESTIBus & MuLTIS ALIJS . *ISTE WLFGEIT FUIT QUI OPTULIT\n
+LUCIUm COMITI Per MI\\RACULUM DIGITI CURUATI . *CARTA SanCtI *EDWARDI REGIS(}\n
+{\\\\}\n
+\'_*EDWARD\n
+$king/n-t_KING\n
+$greet/vps13-ct_GRET\n
+$well{w}/av_WEL\n
+\'_YULFYI\n
+$bishop/nOd-t_BISCOP\n
+$&/cj_AND\n
+\'_*TOSTI\n
+$earl/nOd-t_EORL\n
+$&/cj_&\n
+\'_*NORDMAN\n
+$sheriff/nOd-t_*SCHIRREF~\n
+{=Here ~ represents a downward stroke through the cross-stroke of F, et passim=}\n
+{\\}\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/P13GMpl_HIS\n
+$wita/nplOd_WIT+EN $/plnOd_+EN\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/P13GMpl_HIS\n
+$hold/nplOd_HOLD+EN $/plnOd_+EN\n
+$in{p}/pr_*IN\n
+;_HAMTONESCHIRE\n
+$ha:dian/vppK2-ajplOd_HAD+ED $/vppK2-ajplOd_+ED\n
+$&/cj_&\n
+$lewd/ajplOd_LEAWED $/plajOd_0\n
+$friendly/av_FREND+LIK~ $-ly/xs-av_+LIK~\n
+{Here ~ represents a stroke through the limb of K, et passim=}\n
+{\\}\n
+$&/cj_*AND\n
+$/P11N_*IK\n
+$cy:Yan/vps11_KYDHEN\n
+$/P22Oi_YOU\n
+$that/cj_YAT\n
+\'_*ALFWIN\n
+$abbot/n_ABBOT\n
+$of/pr_OF\n
+\'_*RAMESEYE\n
+$&/cj_&\n
+\'_LEOFRIC\n
+$abbot/n_ABBOT\n
+$of/pr_OF\n
+;_*BURGH~\n
+{\\}\n
+$have/vps23_HABB+EN $/vps23_+EN\n
+$/P11Oi_ME\n
+$cy:Yan/vpp_SE-KYD $ge-/xp-vpp_SE-\n
+{=sic - error arising from misreading of insular \'g\'=}\n
+$of/pr_OF\n
+$/T<pr_YAT\n
+$hwearf/n<pr_WHARF~\n
+$&/cj_&\n
+$of/pr_OF\n
+$that/cj_YAT\n
+$foreweard/n<pr_FORE+WARD $fore-/xp-n_FORE+\n
+$/RTIOd_YAT\n
+$/P23N_HE\n
+$have/vps23-apn_HABB+EN $/vps23-apn_+EN\n
+$speak/vSpp_SE-SPEK+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$&/cj_AND\n
+$do/vSpp_SE\\-DO+N $ge-/xp-vpp_SE\\- $/vSpp[V]_+N\n
+$/P23>pr_HEM\n
+$between/pr<_BI-TWENEN $be-/xp-pr_BI-\n
+$&/cj_&\n
+$/P11N_*IK\n
+$will{mv}/vps11_WIL\n
+$that/cj_YAT\n
+$/P22N_GHE\n
+$understand/vps22-apn_VNDER+STAND+EN $under-/xp-v_VNDER+ $/vps22-apn_+EN\n
+{*sj context*}\n
+$that/cj_YAT\n
+\'_*ALFWINE\n
+$abbot/n_ABBOT\n
+$of/pr_OF\n
+\'_*RAME\\SEIYE\n
+$in{m}/pr_ON\n
+$/Dis<pr_YIS\n
+$wi:se/n<pr_WISE\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+$hwearfian/vppK2_SE-WHARU+ED $ge-/xp-vpp_SE- $/vppK2_+ED\n
+$at/pr_AT\n
+\'_LEOFRIK~\n
+$abbot/n<pr_ABBOT\n
+$of/pr_OF\n
+;_BURGH~\n
+!_.IX.\n
+$gerdland/nplOd_GHERDE+LAND+ES $land/nplOd-k_+LAND+ES $/plnOd_+ES\n
+{\\}\n
+$at/pr_AT\n
+;_LUDYNGTONE\n
+$of/pr_OF\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_PETRES\n
+$so:cnland/n<pr_SOKNE+LANDE $land/n<pr-k_+LANDE\n
+$of/pr_OF\n
+;_BURGH~\n
+;_HUNTYNGESHIDE\n
+$by{re}/pr_BY\n
+$name/n<pr_NAME\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+\'_*GODRICHES\n
+$2/qcOd_TWO\n
+$gerd/nplOd_GHERD+E $/plnOd_+E\n
+$/TG_YE\n
+$dane/nG_*DENSK+E $/Gn_+E\n
+{.}\n
+$&/cj_&\n
+\'_BRANDES\n
+$gerd/nOd_GHERDE\n
+{.}\n
+$&/cj_&\n
+\'_LEOFGARES\n
+$gerd/nOd_GHERDE\n
+{.}\n
+$&/cj_&\n
+\'_*ALFWY\\NES\n
+$gerd/nOd_GHERDE\n
+$/TG_YE\n
+$black/ajG_BLAK+E $/Gaj_+E\n
+{.}\n
+$skaerr/av_SKER\n
+$&/cj_AND\n
+$sacle:as/aj-av_SAK+LES $-less/xs-aj-av_+LES\n
+$to/pr_TO\n
+$full/aj<pr_FUL\n
+$hwearf/n<pr_WHARF\n
+$with{w}/pr_WITH\n
+$evereach/aj<pr_EUERICH\n
+$man/n<pr_MAN\n
+$ereday/n-av_AR+DARGH $ere-/xp-n_AR+\n
+{=This might seem to be for MED ardawe (cf. DOST and OED darg) a\n
+day(work)\'s ploughing, but afterdagh militates against this. The phrase\n
+must mean something like "in days of yore and in after days". Cf.\n
+ardawes in Havelok. It seems to be from ON ardagar - hence perhaps the R=}\n
+{\\}\n
+$&/cj_&\n
+$afterday/n-av_AFTER+DAGH $after-/xp-n_AFTER+\n
+{.}\n
+$&/cj_&\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+$give/vSpp_GHIU+EN $/vSpp_+EN\n
+$/P13OiM_HIM\n
+$therefore/av-k_YER-FORE $for/pr-k_-FORE\n
+$/TOd_YAT\n
+$land/nOd_LAND\n
+$at/pr_AT\n
+;_*MARHaM\n
+$all/ajnOd_AL\n
+$/RTIOd_YAT\n
+$saint/n-t_SEYNT\n
+\'_*BENET\n
+{\\}\n
+$there/av_YER\n
+$a:gan/vpt13_AGHT\n
+$skaerr/av_SKER\n
+$&/cj_&\n
+$sacle:as/aj-av_SAC+LES $-less/xs-aj-av_+LES\n
+$with{w}/pr_WIT\n
+$evereach/aj<pr_EUERIK\n
+$man/n<pr_MAN\n
+$to/pr_TO\n
+$full/aj<pr_FULLE\n
+$hwearf/n<pr_WHARF\n
+$&/cj_AND\n
+$teke/pr_TO-EKEN\n
+$/Dis<pr_YIS\n
+$/TN_YE\n
+{\\}\n
+$abbot/n_*ABBOT\n
+$&/cj_AND\n
+$/TplN_YE\n
+$brother/npl_BRETHER+N $/pln_+N\n
+$of/pr_OF\n
+;_*RAMESe\n
+$shall/vps23_SHULNE\n
+$give/vi_GHIU+EN $/vi_+EN\n
+$each/aj-av_ILKE\n
+$year/n-av_GHER\n
+$4000/qc_FOURE-THOUSAND $4/qc-k_FOURE- $1000/qc-k_-THOUSAND\n
+$eel/nplOd_EEL $/plnOd_0\n
+$in{t}/pr_IN\n
+{\\}\n
+$lent/n<pr_LENTEN\n
+$to/pr_TO\n
+$charity/n<pr_CARITE\n
+$to/pr_TO\n
+$/T<pr_YE\n
+$abbot/n<pr_ABBOT\n
+$&/cj_AND\n
+$/Tpl<pr_YE\n
+$brother/npl<pr_*BRETHER+N $/pln<pr_+N\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*BURGH~\n
+$to/pr_TO\n
+$/P23G_YAIRE\n
+{=For OE feminine dative of definite article probably here to be taken as a form of "their"=}\n
+$foreweard/n<pr_FOR+WARD $fore-/xp-n_FOR+\n
+{\\}\n
+$that/cj_YAT\n
+$/TN_YE\n
+$abbot/n_ABBOT\n
+$&/cj_AND\n
+$/TplN_YE\n
+$brother/npl_*BRETHer+N $/pln_+N\n
+$of/pr_OF\n
+;_*RAMESe\n
+$shall/vps23_SHULN\n
+$have/vi_HABB+EN $/vi_+EN\n
+$of/pr_OF\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_PETRES\n
+$landa:r/n<pr_LAND+ARE $a:r{l}/n<pr-k_+ARE\n
+{"estate"}\n
+{\\}\n
+$workstone/nOd_WERK+STAN $stone/nOd-k_+STAN\n
+$at/pr_AT\n
+;_*BERNAK~\n
+$&/cj_AND\n
+$wallstone/nOd_WAL+STAN $stone/nOd-k_+STAN\n
+$at/pr_AT\n
+;_*BURGH~\n
+$as/av>=_ALS\n
+$much/nOd_MIKEL\n
+$as/cj<=_SWA\n
+$/P23Oi_HEM\n
+$behove/vps13K2_BI+HOU+ED $be-/xp-v_BI+ $/vps13K2_+ED\n
+$to/pr_TO\n
+{\\}\n
+$full/aj<pr_FULLE\n
+$foreweard/n<pr_FOR+WARD $fore-/xp-n_FOR+\n
+$skaerr/av_SKER\n
+$&/cj_AND\n
+$sacle:as/aj-av_SAK+LES $-less/xs-aj-av_+LES\n
+$with{w}/pr_WITH\n
+$toll/n<pr_TOL\n
+$&/cj_AND\n
+$with{w}/pr_WITH\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING $/pln<pr_0\n
+$by{re}/pr_BI\n
+$water/n<pr_WATRE\n
+$&/cj_AND\n
+{\\}\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+$evermore/av_AUERE+MARE $more/av-k_+MARE\n
+{.}\n
+$&/cj_*AND\n
+$/P23N_HEO\n
+$have/vps23-apn_HABB+EN $/vps23-apn_+EN\n
+$/P11Oi_ME\n
+$cy:Yan/vpp_SE-KID $ge-/xp-vpp_SE-\n
+$that/cj_YAT\n
+$/DisN_YIS\n
+$foreweard/n_FOR+WARD $fore-/xp-n_FOR+\n
+{\\}\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+$in{m}/pr_ON\n
+\'_*LEOFSIS\n
+$abbot/nG-t_ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+;_HELY\n
+$&/cj_AND\n
+\'_WLFGETES\n
+$abbot/nG_ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+{\\}\n
+;_*CRULAND~\n
+{=Final D with stroke through the ascender=}\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P23G_YEIR\n
+$man/npl<pr_MEN\n
+$/RTApl_YAT\n
+$mid{w}/pr_MID\n
+$/P23<pr_HOM\n
+$be/vpt23_WEREN\n
+{.}\n
+$now/av_*NU\n
+$cy:Yan/vps11_KIDEN\n
+$each/ajplOi_ILK~\n
+$/P22Oi_YOU\n
+$that/cj_YAT\n
+\'_*ALFWYN\n
+{\\}\n
+$abbot/n-t_ABBOT\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+$so/av_SWA\n
+$with{w}/pr_WIT\n
+$/P11<pr_ME\n
+$speak/vSpp_SPEK+EN $/vSpp_+EN\n
+$&/cj_AND\n
+$of/pr_OF\n
+$/P13GMpn<pr_HIS\n
+$/P11Oi_ME\n
+$give/vSpp_GHEU+EN $/vSpp_+EN\n
+$that/cj_YAT\n
+$/P11N+H_IK~\n
+$have/vps11_HABBE\n
+$ilk/DisOd_YIS-ILKE\n
+{\\}\n
+$foreweard/nOd_FOR+WARD $fore-/xp-n_FOR+\n
+$ge:atan/vpp_I+GHET+ED $ge-/xp-vpp_I+ $/vpp_+ED\n
+$&/cj_AND\n
+$/P11N_IK\n
+$will{mv}/vps11_WIL\n
+$that/cj_YAT\n
+$/P13NI_IT\n
+$stand/vsjps13_STANDE\n
+$as/av_ALSWA\n
+$/P23N_HEO\n
+$/P13OdI_HIT\n
+$speak/vSpp_SE-SPEK+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$have/vps23_HABB+ED $/vps23_+ED\n
+$god/nOi_GOD\n
+{\\}\n
+{~f53r~}\n
+$to/pr_TO\n
+$lof/n<pr_LOUE\n
+$&/cj_AND\n
+$saint/nOi-t_SEYNTE\n
+\'_MARIE\n
+$&/cj_&\n
+$saint/nOi-t_SEYNT\n
+\'_BENEDICT~\n
+{=Here ~ represents a stroke meeting the head stroke of T, et passim=}\n
+$evermore/av_AUERE+MARE $more/av-k_+MARE\n
+$with{w}/pr_WITH\n
+$born/vSpp-ajnpl<pr_BOR+ENE $/vSpp[R]-ajnpl<pr_+ENE\n
+$&/cj_ANT\n
+$with{w}/pr_WITH\n
+$unborn/vSpp-ajnpl<pr_VN+\\BOR+ENE $un-/xp-v_VN+ $/vSpp[R]-ajnpl<pr_+ENE\n
+$&/cj_*AND\n
+$/P11N+H_IK\n
+$ha:tan{c}/vps11_HATE\n
+$&/cj_AND\n
+$be:odan/vps11_BEODE\n
+$that/cj_YAT\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/neg-v(<nN>nor)_NE\n
+$weorYan/vsjps13_WORTHE\n
+$so/av_SWA\n
+$derf/aj_DOERF\n
+$nor/cj_NE\n
+$so/av_SWA\n
+$dyrstig/aj_DIRST+Y $-ig/xs-aj_+Y\n
+{\\}\n
+$that/cj_YAT\n
+$ilk/DisOd_YIS-ILK~\n
+$hwearf/nOd_WHARF\n
+$&/cj_&\n
+$ilk/DisOd_YIS-ILKE\n
+$foreweard/nOd_FOR+WARD~ $fore-/xp-n_FOR+\n
+$break/vsjps13_BREKE\n
+$ha:dian/vppK2-aj_HAD+ED $/vppK2-aj_+ED\n
+$nor/cj_NE\n
+$lewd/aj_LEAWED\n
+{.}\n
+$&/cj_*AND\n
+$/P11N_IK\n
+$forbid/vps11_FOR+BEODE $for-/xp-v_FOR+\n
+{\\}\n
+$by/pr_BI\n
+$full/aj<pr_FULLE\n
+$wi:te/n<pr_WITE\n
+$that/cj_YAT\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/neg-v(<nN)_NE\n
+$weorYan/vps13-ct_WORTH\n
+{*sj context*}\n
+$so/av_SWA\n
+$dyrstig/aj_DYRST+I $-ig/xs-aj_+I\n
+$that/cj_YAT\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_*BENETTES\n
+$man/nplOd_MEN\n
+$nor/cj_NE\n
+$/P23G_HER\n
+{\\}\n
+$thing/nplOd_THING $/plnOd_0\n
+$nowhere/av-k_NA+WHER $where/av-k_+WHER\n
+$/neg-v(<nor<av)_NE\n
+$deorfan/vps23_DERU+EN $/vps23_+EN\n
+{*sj context*}\n
+{.}\n
+$ac/cj_AC\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$griY/nOd_GRITH\n
+$&/cj_AND\n
+$/P11GpnOd_MIN\n
+$have/vps23-bpn_HABB+EN $/vps23-bpn_+EN\n
+{*sj context*}\n
+$/P23N_HEO\n
+$&/cj_AND\n
+$/P23G_HER\n
+$thing/npl_THING $/pln_0\n
+$by{re}/pr_BI\n
+{\\}\n
+$water/n<pr_WATRE\n
+$&/cj_AND\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+{.}\n
+$&/cj_*AND\n
+$/P11N+H_IK\n
+$ha:tan{c}/vps11_HATE\n
+$&/cj_&\n
+$be:odan/vps11_BEODE\n
+$mid{w}/pr_MID\n
+$ilk/Dis<pr_YIS-ILK~\n
+$writ/n<pr_WRIT\n
+$that/cj_YAT\n
+$ilk/DatN_YAT-ILKE\n
+$mearc{b}/n_*MERKE\n
+{\\}\n
+$&/cj_AND\n
+$gemae:re/n_MERE\n
+$after/pr_AFTER\n
+\'_*CNOUTES\n
+$delf/n<pr_DELF\n
+$king/nG_KYNG+ES $/Gn_+ES\n
+$stand/vsjps13_STANDE\n
+$as/av_ALSWA\n
+\'_*ALFWYNE\n
+$abbot/n_*ABBOT\n
+$of/pr_OF\n
+;_*RAME\\SEYE\n
+$/P13OdI_HIT\n
+$betell/vpt13_BI-TAL+DE $be-/xp-v_BI- $/vpt13[L]_+DE\n
+$with{a}/pr_WIT\n
+\'_SIWARD\n
+$abbot/n<pr_ABBOT\n
+$of/pr_OF\n
+;_*THORNEYE\n
+$all/av_AL\n
+$by{p}/pr_BI\n
+;_GANGESTIDE\n
+$by{p}/pr_BI\n
+$/T<pr_YE\n
+$easthalf/n<pr_EST+HALF $half/n<pr-k_+HALF\n
+{\\}\n
+$/T<pr_YE\n
+$delf/n<pr_DELF\n
+$&/cj_AND\n
+$/T<pr_YE\n
+$westhalf/n<pr_WEST+HALF $half/n<pr-k_+HALF\n
+$by{p}/pr_BI\n
+;_HYNDELAK~\n
+$so/av_SWA\n
+$anon/av_ONAN\n
+$to/pr_TO\n
+;_WENDLESMERE\n
+$&/cj_AND\n
+$half/nOd_HALF\n
+{=A stroke - perhaps the beginning of capital *R subpuncted at the end of the line=}\n
+{\\}\n
+;_*RAYERESHOLT\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEYE\n
+$in{m}/pr_ON\n
+\'_LEFSIES\n
+$abbot/nG-t_ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+;_HELY\n
+$&/cj_AND\n
+$in{m}/pr_ON\n
+\'_LEOF\\RIKES\n
+$abbot/nG_*ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+;_*BURGH~\n
+$&/cj_AND\n
+\'_WLFGETES\n
+$abbot/nG_*ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+;_*CRULANDE\n
+$&/cj_AND\n
+$/P23G_YAIRE\n
+$man/nplG_MEN\n
+$/RTApl_Y^T\n
+{\\}\n
+$/P23>pr_HOM\n
+$mid{w}/pr<_MID\n
+$be/vpt23_WEREN\n
+{.}\n
+$&/cj_*AND\n
+$if/cj_IF\n
+$anyman/n_AN+I+MAN $-ig/xs-aj-k_+I+ $man/n-k_+MAN\n
+$ilk/DisOd_YIS-ILKE\n
+$foreweard/nOd_FOR+WARD $fore-/xp-n_FOR+\n
+$mid{w}/pr_MID\n
+$anything/n<pr_AN+Y-YING $-ig/xs-aj-k_+I- $thing/n<pr-k_-YING\n
+$break/vsjps13_BREKE\n
+$&/cj_&\n
+{\\}\n
+$awansian/vsjps13K2_A+WANSIGE $a-/xp-v_A+\n
+$so/av_SO\n
+$be/vsjps13_BEO\n
+$/P13NM_HE\n
+$sunder/vppK2_SUNDR+ED $/vpp[R]K2_+ED\n
+$from/pr+H_FRAM\n
+$heavenrich{k}/nG_HEUE+RIK+ES $rich{k}/nG-k_+RIK+ES $/Gn_+ES\n
+$mirth/npl<pr_MIR+TH+EN $-th/xs-npl<pr_+TH+EN $/pln<pr_+EN\n
+$bu:tan/cj_BUTEN\n
+$/P13NM_HE\n
+$/P13OdI_HIT\n
+$be:tan/vsjps13_I+BETE $ge-/xp-vsjps13_I+\n
+$ere/cj_AR\n
+{\\}\n
+$/P13NM_HE\n
+$hence/av_HETHEN\n
+$wendan/vsjps13_WENDE\n
+{(*AMen .(}\n
+$/DisN_YIS\n
+$writ/n_WRIT\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+$at/pr_AT\n
+;_WESTMinster\n
+$on{t}/pr_ON\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_*PETRES\n
+$massday/n<pr_MAS\\SE+DAI $day/n<pr-k_+DAI\n
+{.}\n
+$in{m}/pr_ON\n
+\'_STIGANDES\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$archbishop/nG_ERCE+BISCOP $arch-/xp-n_ERCE+ $/Gn_0\n
+$&/cj_&\n
+\'_*EDWINES\n
+$abbot/nG-t_ABBOT $/Gn-t_0\n
+$&/cj_&\n
+\'_HAROLDES\n
+$earl/nG-t_EORL+ES $/Gn-t_+ES\n
+{\\}\n
+$&/cj_&\n
+\'_*ESGARES\n
+$staller/nG_STALL+ER+S $-er/xs-agt-nG_+ER+S $/Gn_+S\n
+$&/cj_&\n
+\'_*HUGELYNES\n
+$bu:rthane/nG_*BOUR+THEYN+ES $thane/nG_+THEYN+ES $/Gn_+ES\n
+{.}\n
+{\\\\}\n
+{=Latin for the rest of fol. 53r-59v=}\n
+{~f59v~}\n
+\'_*E*DWARD\n
+$king/n-t_KYNG\n
+$greet/vps13-ct_GRET\n
+\'_*STIGAND~\n
+$archbishop/nOd-t_*ERCE+B~ $arch-/xp-n_*ERCE+\n
+{.}\n
+$&/cj_&\n
+\'_*ATHELMAR\n
+$bishop/nOd-t_BISCOP\n
+{.}\n
+$&/cj_&\n
+\'_*GYRTH\n
+$earl/nOd-t_EORL\n
+$&/cj_&\n
+\'_*TO\\LY\n
+$sheriff/nOd-t_SCHIRREF\n
+$&/cj_&\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P13GMpl_HIS\n
+$thane/nplOd_THEIN+ES $/plnOd_+ES\n
+$in{p}/pr_IN\n
+;_*NORFFolk\n
+$&/cj_&\n
+$in{p}/pr_IN\n
+;_*SUFFolk\n
+$&/cj_AND\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P13GMpl_HIS\n
+$other/ajplOd_OTHER $/plajOd_0\n
+$wita/nplOd_WI\\T+EN $/plnOd_+EN\n
+{=WI\\TEN underlined with dashes by a later hand=}\n
+$over/pr_OUER\n
+$all/aj<pr_AL\n
+;_*ENGLAND\n
+$ha:dian/vppK2-ajplOd_HAD+ED $/vppK2-ajplOd_+ED\n
+$&/cj_&\n
+$lewd/ajplOd_LEAWED $/plajOd_0\n
+{=HADED & LEAWED underlined with dashes by a later hand=}\n
+$friendly/av_FREND+LIK~ $-ly/xs-av_+LIK~\n
+$&/cj_*AND\n
+$/P11N_IK\n
+$cy:Yan/vps11_KYTH\n
+$/P22Oi_YOU\n
+$that/cj_YAT\n
+$/P11N+H_IK~\n
+$have/vps11_HABBE\n
+{\\}\n
+$give/vSpp_SE-GHEU+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$christ/nOi_chr^IST\n
+$&/cj_&\n
+$saint/nOi-t_SanCtE\n
+\'_MARIE\n
+$&/cj_&\n
+$saint/nOi-t_SEYNT\n
+\'_*BENET\n
+$&/cj_&\n
+\'_*ALFWYNE\n
+$abbot/nOi-t_ABBOT\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEYE\n
+$sacu/nOd_SAK\n
+{\\}\n
+$&/cj_&\n
+$so:cn/nOd_SOKNE\n
+$toll/nOd_TOL\n
+$&/cj_&\n
+$te:am/nOd_THEAM\n
+$&/cj_AND\n
+$infangenethief/nOd_*IN+FANGENE+THEF $in-/xp-n_*IN+ $thief/nOd-k_+THEF\n
+$fightwi:te/nOd_FIGHT+WITE $wi:te/nOd-k_+WITE\n
+$&/cj_&\n
+$fyrdwi:te/nOd_FERD+WITE $wi:te/nOd-k_+WITE\n
+$foresteall/nOd_FOR+STAL $fore-/xp-n_FOR+\n
+$&/cj_&\n
+$ha:mso:cn/nOd_HAM\\+SOKNE $so:cn/nOd-k_+SOKNE\n
+$griYbryce/nOd_GRITH+BRICH $bryce/nOd-k_+BRICH\n
+$&/cj_&\n
+$seaupwearp/nOd_SE+UP+WARP $up-/xp-n_+UP+ $wearp/nOd-k_+WARP\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+EN $/plaj<pr_+EN\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+{=TH corrected from something else, probably YI=}\n
+$at/pr_AT\n
+;_*BRANCESTRE\n
+$&/cj_&\n
+$at/pr_AT\n
+;_*RYNG\\STED~\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$freely/av_FRE+LICHE $-ly/xs-av_+LICHE\n
+$as/cj<=_SWA\n
+$/P11N+H_IK\n
+$/P13OdI_HIT\n
+$/P11X_MI-SELF $-self/xs_-SELF\n
+$best/av_BEST\n
+$have/vps11_HABBE\n
+$by{p}/pr_BI\n
+$/T<pr_YE\n
+$searima/n<pr_SE+RYME $rima/n<pr-k_+RYME\n
+{\\}\n
+$a:where/av-k_O+WHER $where/av-k_+WHER\n
+$in{p}/pr_IN\n
+;_*ENGELAND~\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/TplOd_SE\n
+$right/nplOd_RIGHT $/plnOd_0\n
+$/RTIplOd_Y^T\n
+$/P11N_IK~\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$there/av_YARE\n
+$a:gan/vpt11_AGHT\n
+$&/cj_&\n
+$/P11N_IK\n
+$will{mv}/vps11_WIL\n
+$that/cj_YAT\n
+{\\}\n
+$/TN_SE\n
+$so:cn/n_SOKNE\n
+$within/pr_WID-INNEN $in/pr-k_-INNEN\n
+;_*BICHaMDIK~\n
+{=*BICHaMDIK~ underlined with dashes by a later hand. Three dots in the\n
+left margin=}\n
+$licgan/vsjps13_LIGGE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+$to/pr_TO\n
+$saint/n<pr-t_SEYNT\n
+\'_BENET\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+EN $/plaj<pr_+EN\n
+{\\}\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+{=TH corrected from Y=}\n
+$as/av_SWA\n
+$full/av_FUL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$forth/av_FORD\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P13OdI_HIT\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$a:gan/vps11_AGHTE\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/TplOd_SE\n
+$right/nplOd_*RIGHT+E $/plnOd_+E\n
+$/RTIplOd_Y^T\n
+$any/aj_AN+I $-ig/xs-aj_+I\n
+$king/n_KYNG\n
+$may/vps13_MAI\n
+$a:gan/vi_AGH+EN $/vi_+EN\n
+{.}\n
+$&/cj_&\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$/TplN_YA\n
+$man/npl_MEN\n
+$/RTApl_Y^T\n
+$be/vps23_BEN\n
+$mootworthy/ajpl_MOT-WORTH+I $worthy/ajpl-k_-WORTH+I $-ig/xs-ajpl_+I $/plaj_0\n
+$fyrdworthy/ajpl_FERD+WORTH+I $worthy/ajpl-k_+WORTH+I $-ig/xs-ajpl_+I $/plaj_0\n
+$&/cj_AND\n
+{\\}\n
+$foldworthy/ajpl_FALD+WORTH+I $worthy/ajpl-k_+WORTH+I $-ig/xs-ajpl_+I $/plaj_0\n
+$in{p}/pr_IN\n
+$/T<pr_YAT\n
+$1.5/qc_OTHER-HALF $2/qoaj<pr-k_OTHER- $half/aj<pr-k_-HALF\n
+$hundred/n<pr_HUNDRED\n
+{=Literally "the second half hundred" i.e. "the one and a half hundreds"=}\n
+$sowhich/aj>=_SWA-YHILK+\n
+$man/n_+MAN\n
+$so/cj<=_SWA\n
+$/TplOd_YA\n
+$man/nplOd_MEN\n
+$a:gan/vsjps13_AHE\n
+{(SanCtE(}\n
+{\\}\n
+\'_MARIE\n
+$&/cj_&\n
+$saint/n-t_SEYNT\n
+\'_BENET\n
+$&/cj_&\n
+$/TN_YE\n
+$abbot/n_ABBOT\n
+$&/cj_&\n
+$/TplN_YE\n
+$brother/npl_BROTHer+NE $/pln_+NE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+$have/vps23_HABB+EN $/vps23_+EN\n
+{*sj context*}\n
+$/TOd_YAT\n
+$so:cn/nOd_SOKNE\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_AL\\L+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+$over/pr_OUER\n
+$/P23<pr_HOM\n
+{.}\n
+$&/cj_&\n
+$/TOd_YE\n
+$market/nOd_MARKET\n
+$at/pr_AT\n
+;_*DOUNHaM\n
+$by{re}/pr_BI\n
+$water/n<pr_WATER\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+$mid{w}/pr_MID\n
+$inload/n<pr_IN+LADE $in-/xp-n_IN+\n
+{\\}\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$outload/n<pr_VT+LADE $out-/xp-n_VT+\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$all/ajpl<pr_AL $/plaj<pr_0\n
+$/Tpl<pr_SE\n
+$right/npl<pr_RIGHT $/pln<pr_0\n
+$/RTIpl_YAT\n
+$thereto/av-k_YAR-TO $to/pr-k_-TO\n
+$hear/vps23_HER+ED $/vps23_+ED\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_AND\n
+$as/av>=_SWA\n
+$freely/av_FRE+LIKE $-ly/xs-av_+LIKE\n
+{\\}\n
+$as/cj<=_SWA\n
+$/P11N+H_IK\n
+$/P13OdI_HIT\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$best/av_BEST\n
+$a:gan/vps11_AGHTE\n
+{.}\n
+$&/cj_&\n
+$/P11N_IK\n
+$willnot/vps11_N+ILLE $n-/xp-neg_N+\n
+$Yolian/viK2_THOL+IEN $/viK2_+IEN\n
+$that/cj_Y^T\n
+$anyman/n_AN+I+MAN $-ig/xs-aj-k_+I+ $man/n_+MAN\n
+$/DispnOd_YIS\n
+$ly:tlian/vsjps13K2_LITTELLEN\n
+$mid{w}/pr_MID\n
+{\\}\n
+$anything/n<pr_AN+I+THINGE $-ig/xs-aj-k_+I+ $thing/n<pr-k_+THINGE\n
+{.}\n
+$&/cj_&\n
+$in{p}/pr_IN\n
+$each/aj<pr_*ILKE+\n
+$shire/n<pr_+SCHIRE\n
+$/RTI>pr_YAT\n
+$saint/n-t_SEYNT\n
+\'_BENET\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+$land/nOd_LAND\n
+$in{m}/pr<_IN\n
+$/P13GM_HIS\n
+$sacu/nOd_SAKE\n
+$&/cj_&\n
+$/P13GM_HIS\n
+$so:cn/nOd_SOKNE\n
+{\\}\n
+$toll/nOd_TOL\n
+$&/cj_&\n
+$te:am/nOd_THEAM\n
+$&/cj_&\n
+$infangenethief/nOd_*IN+FANGENE+THEF $in-/xp-n_*IN+ $thief/nOd-k_+THEF\n
+$within/pr_WIT-INNE $in/pr-k_-INNE\n
+$burh/n<pr>_BURGH~\n
+$&/cj_&\n
+$without{os}/pr<_WITH-OUTEN $out/pr-k_-OUTEN\n
+$&/cj_&\n
+$in{p}/pr_ON\n
+$each/aj<pr_ILK~\n
+$stead/n<pr_STEDE\n
+$by{re}/pr_BI\n
+{\\}\n
+$land/n<pr_LANDE\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$strand/n<pr_STRANDE\n
+$by{re}/pr_BI\n
+$wood/n<pr_WODE\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$field/n<pr_FELDE\n
+$sowhich/aj>=_SWA-YILK+\n
+$man/n_+MAN\n
+$so/cj<=_SWA\n
+$/TOd_YE\n
+$so:cn/nOd_SOKNE\n
+$a:gan/vsjps13_AGHE\n
+$saint/n-t_SEINT\n
+{\\}\n
+\'_BENET\n
+$have/vsjps13_HABBE\n
+$/P13GM_HIS\n
+$freedom/nOd_FRE+DOM $-dom/xs-nOd_+DOM\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+E $/pln<pr_+E\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$freely/av_FRE+LIK~ $-ly/xs-av_+LIK~\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P13OdI_HIT\n
+$/P11X_MI\\-SELF $-self/xs_-SELF\n
+$best/av_BEST\n
+$a:gan/vpt11_AGHT\n
+$a:where/av-k_O+WERE $where/av-k_+WERE\n
+$in{p}/pr_IN\n
+;_*ENGLAND\n
+{.}\n
+$&/cj_&\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/TplOd_YA\n
+$guilt/nplOd_GILT+ES $/plnOd_+ES\n
+$/RTIpl_Y^T\n
+$belimpan/vps23_BE-LIMP+Ed $be-/xp-v_BE- $/vps23_+Ed\n
+$to/pr_TO\n
+$/P11G<pr+C_MINE\n
+$cynehelm/n<pr_KIN-HEL\\ME $helm/n<pr-k_-HEL\\ME\n
+$in{t}/pr_IN\n
+$yule/n<pr_YOL\n
+$&/cj_&\n
+$in{t}/pr_IN\n
+$easter/n<pr_ESTERNE\n
+$&/cj_&\n
+$in{t}/pr_INNE\n
+$/T<pr_YE\n
+$holy/aj<pr_HAL+I $-ig/xs-aj<pr_+I\n
+$week/n<pr_WOKE\n
+$&/cj_&\n
+$gangday/npl<pr_GANG+DAW+ES $day/npl<pr-k_+DAW+ES $/pln<pr_+ES\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+~ $/pln<pr_+~\n
+{=Here ~ represents a stroke downward to or through the offstroke of G, et passim=}\n
+$as/av_AL\\SWA\n
+$/P11N+H_IK\n
+$/P13OdI_HIT\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$a:gan/vps11_AGHE\n
+$&/cj_&\n
+$tollfree/av_TOL+FREO $free/av-k_+FREO\n
+$over/pr_OUER+\n
+$all/aj<pr_+AL\n
+;_ENGLAND\n
+$within/pr_WIT-INNE $in/pr-k_-INNE\n
+$burh/n<pr>_BURGH~\n
+$&/cj_&\n
+$without{os}/pr<_WITH\\-OUTEN $out/pr-k_-OUTEN\n
+$at/pr_AT\n
+$year/nG_GHER+ES $/Gn_+ES\n
+$ce:apian/vn<prK2_CHEP+ING~ $/vn<prK2_+ING~\n
+$&/cj_&\n
+$in{p}/pr_ON\n
+$evereach/aj<pr_AUERIK\n
+$stead/n<pr_STEDE\n
+$by{re}/pr_BI\n
+$water/n<pr_WATER\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+{.}\n
+$&/cj_&\n
+$/P11N_*IK\n
+$forbid/vps11_FOR+BEDE $for-/xp-v_FOR+\n
+{\\}\n
+{~f60r~}\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$forbod/nOd_FOR+BODE $for-/xp-n_FOR+\n
+$&/cj_AND\n
+$/P11GpnOd_MYN\n
+$that/cj_YAT\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/DisOd_YIS\n
+$gift/nOd_GHIFT\n
+$/neg-v([neither]<nN>norC)_NE\n
+$ly:tlian/vsjps13K2_LITLIGE\n
+$nor/cj_NE\n
+$wendan/vsjps13_A+WENDE $a-/xp-v_A+\n
+$&/cj_&\n
+$if/cj_YIF\n
+$anyman/n_AN+I\\-MAN $-ig/xs-aj-k_+I\\- $man/n-k_-MAN\n
+$/P13OdI_HIT\n
+$awansian/vsjps13K2_A+WANSI $a-/xp-v_A+\n
+$mid{w}/pr_MID\n
+$ever/av_AUER\n
+$anything/n<pr_AN+I-THINGE $-ig/xs-aj-k_+I- $thing/n<pr-k_-THINGE\n
+$of/pr_OF\n
+$/Datpn<prRTIOd_YAN-YAT\n
+$/P11N+H_IK\n
+$have/vps11_HABBE\n
+$here/av_HERE\n
+$unnan/vSpp_SE-VNN+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$in{p}/pr_ON\n
+{\\}\n
+$/Dis<pr_YIS\n
+$writ/n<pr_WRIT\n
+$so/av_SO\n
+$be/vsjps13_BE\n
+$/P13NM_HE\n
+$sunder/vppK2_SUNDR+ED $/vpp[R]K2_+ED\n
+$from/pr_FRAM\n
+$christ/n<pr_CRIST\n
+$&/cj_AND\n
+$from/pr+V_FRAM\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P13GMpl_HIS\n
+$ha:lga/npl<pr_HALW+EN $/pln<pr_+EN\n
+{(AMen .(}\n
+$/DisN_THIS\n
+$writ/n_WRIT\n
+{\\}\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+$at/pr_AT\n
+;_WYNDLESOUERE\n
+$on{t}/pr_ON\n
+$4/qoaj<pr_FEORTH\n
+$easterday/n<pr_ESTRE-DAY $day/n<pr-k_-DAY\n
+$in{m}/pr_ON\n
+\'_*EADGODE\n
+$witness/n<pr_WITTE\\+NESSE $-ness/xs-n<pr_+NESSE\n
+$/TG_YE\n
+$queen/nG_QUEN+E $/Gn_+E\n
+$&/cj_&\n
+\'_*GODWYNES\n
+$earl/nG-t_EORL+ES $/Gn-t_+ES\n
+$&/cj_&\n
+\'_HAROLDES\n
+$earl/nG-t_*EORL+ES $/Gn-t_+ES\n
+{.}\n
+{\\\\}\n
+{=Latin till fol. 165v=}\n
+{~f165v~}\n
+{=Folio begins with Latin followed by the usual English clauses as follows=}\n
+$sacu/nOd_SAK\n
+$mundbryce/nOd_MUnD+BRY\\CHE $bryce/nOd-k_+BRY\\CHE\n
+{.}\n
+$fyrdwi:te/nOd_FEARD~+YITE $wi:te/nOd-k_+YITE\n
+{.}\n
+$fightwi:te/nOd_FIHT+YITE $wi:te/nOd-k_+YITE\n
+{.}\n
+$bloodwi:te/nOd_BLOD+YITE $wi:te/nOd-k_+YITE\n
+{.}\n
+$miscennan/vnOd_MIS+CHENN+INGE $mis-/xp-n_MIS+ $/vnOd_+INGE\n
+{.}\n
+$friYso:cn/nOd_FRIT+SOCNE $so:cn/nOd-k_+SOCNE\n
+{.}\n
+$ha:mso:cn/nOd_HAM+SOCNE $so:cn/nOd-k_+SOCNE\n
+{.}\n
+$foresteall/nOd_FOR+STALL~ $fore-/xp-n_FOR+\n
+{.}\n
+$forefang/nOd_FOR+HPHEANG $fore-/xp-n_FOR+\n
+{.}\n
+{\\}\n
+$withfang?/nOd_YITH+PHEANG $with-/xp-n_YITH+\n
+{.}\n
+$hangwi:te/nOd_HEANG+YITE $wi:te/nOd-k_+YITE\n
+{.}\n
+$griYbryce/nOd_GRID+BRICHE $bryce/nOd-k_+BRICHE\n
+{.}\n
+$outleap/nOd_VTH+LEAP $out-/xp-n_VTH+\n
+{.}\n
+$infangenethief/nOd_IN+FANGENE+THEAF $in-/xp-n_IN+ $thief/nOd-k_+THEAF\n
+{.}\n
+$shipbryce/nOd_SCIP+BRICHE $bryce/nOd-k_+BRICHE\n
+{.}\n
+$toll/nOd_TOL\n
+{.}\n
+$&/cj_&\n
+$te:am/nOd_TEAM\n
+{.}\n
+{=Document continues in Latin=}\n
+{\\\\}\n
+\'_*EDWARD\n
+$king/n-t_KYNG~\n
+$greet/vps13-ct_GRET\n
+$well{w}/av_WEL\n
+\'_YULFYI\n
+$bishop/nOd-t_*BISCOP\n
+$&/cj_&\n
+\'_TOSTI\n
+$earl/nOd-t_EORL\n
+$&/cj_&\n
+\'_*NORDMAN\n
+$sheriff/nOd-t_*SHIRREF~\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/P13GMpl_HIS\n
+$wita/nplOd_WIT+EN $/plnOd_+EN\n
+$&/cj_&\n
+{\\}\n
+$all/ajplOd_AL $/plajOd_0\n
+$/P13GMpl_HIS\n
+$hold/nplOd_HOLD+EN $/plnOd_+EN\n
+$in{p}/pr_IN\n
+;_HAMTONSHIRe\n
+$ha:dian/vppK2-ajplOd_HAD+ED $/vppK2-ajplOd_+ED\n
+$&/cj_&\n
+$lewd/ajplOd_LEAWED $/plajOd_0\n
+$friendly/av_FREnD+LIK~ $-ly/xs-av_+LIK~\n
+$&/cj_*AND\n
+$/P11N_*IK~\n
+$cy:Yan/vps11_KYDHEN\n
+$/P22Oi_YOU\n
+$that/cj_Y^T\n
+\'_*ALFWIN\n
+$abbot/n_ABBOT\n
+{\\}\n
+$of/pr_OF\n
+;_*RAMSEYE\n
+$&/cj_&\n
+\'_LEOFRIC\n
+$abbot/n_*ABBOT\n
+$of/pr_OF\n
+;_*BURGH~\n
+$have/vps23_HABB+EN $/vps23_+EN\n
+$/P11Oi_ME\n
+$cy:Yan/vpp_SE+KID $ge-/xp-vpp_SE+\n
+$of/pr_OF\n
+$/T<pr_Y^T\n
+$hwearf/n<pr_WHARF\n
+$&/cj_&\n
+$of/pr_OF\n
+$/T<pr_Y^T\n
+$foreweard/n<pr_FORE+WARD $fore-/xp-n_FORE+\n
+$/RTIOd_Y^T\n
+$/P23N_HE\n
+{\\}\n
+$have/vps23-apn_HABB+EN $/vps23-apn_+EN\n
+$speak/vSpp_SE-SPEK+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$&/cj_&\n
+$do/vSpp_SE-DO+N $ge-/xp-vpp_SE- $/vSpp[V]_+N\n
+$/P23>pr_HEM\n
+$between/pr<_BI-TWENEN $be-/xp-pr_BI-\n
+$that/cj_Y^T\n
+$/P11N_*IK\n
+$will{mv}/vps11_WILLE\n
+$that/cj_Y^T\n
+$/P22N_GHE\n
+$understand/vps22-apn_VNDER+STAND+EN $under-/xp-v_VNDER+ $/vps22-apn_+EN\n
+{*sj context*}\n
+$that/cj_Y^T\n
+\'_*ALFWYNE\n
+$abbot/n_AB\\BOT\n
+$of/pr_OF\n
+;_*RAMESEYE\n
+$in{m}/pr_ON\n
+$/Dis<pr_YIS\n
+$wi:se/n<pr_WISE\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+$hwearfian/vppK2_SE-WHARU+ED $ge-/xp-vpp_SE- $/vppK2_+ED\n
+$at/pr_AT\n
+\'_LEOFRIK~\n
+$abbot/n<pr_ABBOT\n
+$of/pr_OF\n
+;_*BURGH~\n
+!_.IX.\n
+$gerdland/nplOd_GHERDE+LAn\\D+ES $land/nplOd-k_+LAn\\D+ES $/plnOd_+ES\n
+$at/pr_AT\n
+;_*LUDINGTONE\n
+$of/pr_OF\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_*PETRES\n
+$so:cnland/n<pr_SOKNE+LANDE $land/n<pr-k_+LANDE\n
+$of/pr_OF\n
+;_BURGH~\n
+{.}\n
+;_*HUNTYNGESHIDE\n
+$by{re}/pr_BY\n
+$name/n<pr_NAME\n
+$&/cj_&\n
+\'_*GO\\DERICHES\n
+$2/qcOd_TWA\n
+$gerd/nplOd_GHERD+E $/plnOd_+E\n
+$/TG_YE\n
+$dane/nG_*DENSK+E $/Gn_+E\n
+$&/cj_&\n
+\'_BRANDES\n
+$gerd/nOd_GHERDE\n
+{.}\n
+$&/cj_&\n
+\'_LEOFGARES\n
+$gerd/nOd_GHERDE\n
+{.}\n
+$&/cj_&\n
+\'_*ALFWYNES\n
+$gerd/nOd_GHERDE\n
+{.}\n
+{\\}\n
+$/TG_YE\n
+$black/ajG_BLAK+E $/Gaj_+E\n
+{.}\n
+$skaerr/av_SKER\n
+$&/cj_&\n
+$sacle:as/aj-av_SAK+LES $-less/xs-aj-av_+LES\n
+$to/pr_TO\n
+$full/aj<pr_FUL\n
+$hwearf/n<pr_WHARF~\n
+$with{w}/pr_WITH\n
+$evereach/aj<pr_EUERIK~\n
+$man/n<pr_MAN\n
+$ereday/n-av_AR+DARGH~ $ere-/xp-n_AR+\n
+{=This might seem to be for MED ardawe (cf. DOST and OED darg) a\n
+day(work)\'s ploughing, but afterdagh militates against this. The phrase\n
+must mean something like "in days of yore and in after days". Cf.\n
+ardawes in Havelok. It seems to be from ON ardagar - hence perhaps the R=}\n
+{\\}\n
+$&/cj_&\n
+$afterday/n-av_AFTER+DAGH~ $after-/xp-n_AFTER+\n
+$&/cj_&\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+{\\}\n
+$give/vSpp_GHIU+EN $/vSpp_+EN\n
+$/P13OiM_HIM\n
+$therefore/av-k_YER-FORE $for/pr-k_-FORE\n
+$/TOd_Y^T\n
+$land/nOd_LAND\n
+$at/pr_AT\n
+;_*MARHAM\n
+$all/ajnOd_AL\n
+$/RTIOd_YHAT\n
+$saint/n-t_SEYNT\n
+\'_*BENET\n
+$there/av_YER\n
+$a:gan/vpt13_AGHT\n
+$skaerr/av_SKER\n
+$&/cj_&\n
+$sacle:as/aj-av_SAK+LES $-less/xs-aj-av_+LES\n
+{\\}\n
+{~f170r~}\n
+$with{w}/pr_WITH\n
+$evereach/aj<pr_EUERIK~\n
+$man/n<pr_MAN\n
+$to/pr_TO\n
+$full/aj<pr_FUL\n
+$hwearf/n<pr_WHARF\n
+{.}\n
+$&/cj_AND\n
+$teke/pr_TO-EKEN\n
+$/Dis<pr_YIS\n
+$/TN_YE\n
+$abbot/n_*ABBOT\n
+$&/cj_&\n
+$/TplN_YE\n
+$brother/npl_*BROTHER+N $/pln_+N\n
+$of/pr_OF\n
+;_*RAMESEYE\n
+$shall/vps23_SHULNE\n
+{=Scribe first wrote L and then corrected to S by overwriting. He or a\n
+later scribe also adds another correcting S above=}\n
+{\\}\n
+$give/vi_GHIU+EN $/vi_+EN\n
+$each/aj-av_ILKE\n
+$year/n-av_GHER\n
+$4000/qc_FOURE-THOUSEND $4/qc-k_FOURE- $1000/qc-k_-THOUSEND\n
+$eel/nplOd_EEL $/plnOd_0\n
+$in{t}/pr_IN\n
+$lent/n<pr_LENTEN\n
+$to/pr_TO\n
+$charity/n<pr_CARITE\n
+$to/pr_TO\n
+$/T<pr_YE\n
+$abbot/n<pr_ABBOT\n
+$&/cj_AND\n
+$/Tpl<pr_YE\n
+$brother/npl<pr_BROTHR+EN $/pln<pr_+EN\n
+{\\}\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_BURGH~\n
+{.}\n
+$to/pr_TO\n
+$/P23G_YAIRE\n
+$foreweard/n<pr_FOR+WART $fore-/xp-n_FOR+\n
+$that/cj_YAT\n
+$/TN_YE\n
+$abbot/n_ABBOT\n
+$&/cj_AND\n
+$/TplN_YE\n
+$brother/npl_BROTHR+EN $/pln_+EN\n
+$of/pr_OF\n
+;_*RAMESe\n
+$shall/vps23_SHULN\n
+$have/vi_HABB+EN $/vi_+EN\n
+{\\}\n
+$of/pr_OF\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_PETRES\n
+$landa:r/n<pr_LAND+ARE $a:r{l}/n<pr-k_+ARE\n
+{"estate"}\n
+$workstone/nOd_WERK+STAN $stone/nOd-k_+STAN\n
+$at/pr_AT\n
+;_*BERNAK~\n
+$&/cj_&\n
+$wallstone/nOd_WAL+STAN $stone/nOd-k_+STAN\n
+$at/pr_AT\n
+;_BURGH~\n
+{.}\n
+$as/av>=_ALS\n
+$much/nOd_MIKEL\n
+$as/cj<=_SWA\n
+{\\}\n
+$/P23Oi_HEM\n
+$behove/vps13K2_BI-HOU+ED $be-/xp-v_BI- $/vps13K2_+ED\n
+$to/pr_TO\n
+$full/aj<pr_FUL\n
+$foreweard/n<pr_FOR+WARD $fore-/xp-n_FOR+\n
+$skaerr/av_SKER\n
+$&/cj_AND\n
+$sacle:as/aj-av_SAK+LES $-less/xs-aj-av_+LES\n
+$with{w}/pr_WITH\n
+$toll/n<pr_TOL\n
+$&/cj_&\n
+$with{w}/pr_WITH\n
+$all/ajpl<pr_*AL $/plaj<pr_0\n
+$thing/npl<pr_THING+~ $/pln<pr_+~\n
+$by{re}/pr_BI\n
+$water/n<pr_WATRE\n
+$&/cj_&\n
+{\\}\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+$evermore/av_AUERE+MARE $more/av-k_+MARE\n
+{.}\n
+$&/cj_&\n
+$/P23N_HE\n
+$have/vps23-apn_HABB+EN $/vps23-apn_+EN\n
+$/P11Oi_ME\n
+$cy:Yan/vpp_SE-KID $ge-/xp-vpp_SE-\n
+$that/cj_Y^T\n
+$/DisN_YIS\n
+$foreweard/n_FOR+WARD $fore-/xp-n_FOR+\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+{\\}\n
+$in{m}/pr_ON\n
+\'_LEOFSIS\n
+$abbot/nG-t_ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+;_*ELY\n
+{.}\n
+$&/cj_&\n
+\'_WLFGETES\n
+$abbot/nG_ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+;_*CRULAND~\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P23G_YER\n
+$man/npl<pr_MEN\n
+$that/cj_YAT\n
+{\\}\n
+$mid{w}/pr_MID\n
+$/P23<pr_HEM\n
+$be/vpt23_WEREN\n
+{.}\n
+$now/av_*NU\n
+$cy:Yan/vps11_KIDEN\n
+$/P11N_IK~\n
+$/P22Oi_YOU\n
+$that/cj_YAT\n
+\'_*ALFWYN\n
+$abbot/n-t_ABBOT\n
+$have/vps13_HAU+ET $/vps13_+ET\n
+$so/av_SWA\n
+$with{w}/pr_WITH\n
+$/P11<pr_ME\n
+$speak/vSpp_SPEK+EN $/vSpp_+EN\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P13GMpn<pr_HIS\n
+$/P11Oi_ME\n
+$give/vSpp_GHIU+EN $/vSpp_+EN\n
+$that/cj_Y^T\n
+$/P11N+H_IK~\n
+$have/vps11_HABBE\n
+$ilk/DisOd_YIS-ILKE\n
+$foreweard/nOd_FOR+WARD $fore-/xp-n_FOR+\n
+$ge:atan/vpp_I+GHET+UD $ge-/xp-vpp_I+ $/vpp_+UD\n
+$&/cj_&\n
+$/P11N_IK~\n
+$will{mv}/vps11_WIL\n
+$that/cj_Y^T\n
+$/P13NI_IT\n
+$stand/vsjps13_STANDE\n
+$as/av_*AL-SWA\n
+{\\}\n
+$/P23N_HEO\n
+$/P13OdI_HIT\n
+$speak/vSpp_SE-SPEK+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$have/vps23_HABB+ET $/vps23_+ET\n
+$god/nOi_GOD\n
+$to/pr_TO\n
+$lof/n<pr_LOUE\n
+$&/cj_&\n
+$saint/nOi-t_SEYNTE\n
+\'_*MARIE\n
+$&/cj_&\n
+$saint/nOi-t_SEYNT\n
+\'_*BENEDICT~\n
+$evermore/av_AUerE+MARE $more/av-k_+MARE\n
+$with{w}/pr_WITH~\n
+$born/vSpp-ajnpl<pr_BO\\R+ENE $/vSpp[R]-ajnpl<pr_+ENE\n
+$&/cj_&\n
+$with{w}/pr_WITH~\n
+$unborn/vSpp-ajnpl<pr_VN+BOR+ENE $un-/xp-v_VN+ $/vSpp[R]-ajnpl<pr_+ENE\n
+$&/cj_*AND\n
+$/P11N+H_IK~\n
+$ha:tan{c}/vps11_HATE\n
+$&/cj_&\n
+$be:odan/vps11_BEODE\n
+$that/cj_YAT\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/neg-v(<nN>nor)_NE\n
+$weorYan/vsjps13_WORTHE\n
+$so/av_SWA\n
+$djarfr?/aj_DOERST~\n
+$nor/cj_NE\n
+$so/av_SWA\n
+$dyrstig/aj_DIRST+Y $-ig/xs-aj_+Y\n
+{\\}\n
+$that/cj_YAT\n
+$ilk/DisOd_YIS-ILK~\n
+$hwearf/nOd_WHARF\n
+$&/cj_&\n
+$ilk/DisOd_YIS-ILKE\n
+{=Final E written over the usual stroke through the limb of K=}\n
+$foreweard/nOd_FOR+WARD~ $fore-/xp-n_FOR+\n
+$break/vsjps13_BREKE\n
+$ha:dian/vppK2-aj_HAD+ED $/vppK2-aj_+ED\n
+$nor/cj_NE\n
+$lewd/aj_LEAWED\n
+{.}\n
+$&/cj_&\n
+$/P11N_IK~\n
+$forbid/vps11_FOR+BEODE $for-/xp-v_FOR+\n
+$by/pr_BI\n
+$full/aj<pr_FULLE\n
+$wi:te/n<pr_WITE\n
+{\\}\n
+$that/cj_YAT\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/neg-v(<nN)_NE\n
+$weorYan/vps13-ct_WRTH\n
+{*sj context*}\n
+$so/av_SWA\n
+$dyrstig/aj_DYRST+I $-ig/xs-aj_+I\n
+$that/cj_YAT\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_*BENETTIS\n
+$man/nplOd_+MEN\n
+$nor/cj_NE\n
+$/P23G_HER\n
+$thing/nplOd_THYNG+~ $/plnOd_+~\n
+$nowhere/av-k_NA+WHER $where/av-k_+WHER\n
+$/neg-v(<nor<av)_NE\n
+$derian/vsjps23K2[1]_DERYEN\n
+{=Y corrected from U=}\n
+{.}\n
+(>)KYNGESDELFF)>}\n
+{=ins, in right hand margin in a later hand with a pointing hand beneath=}\n
+{\\}\n
+$ac/cj_*AC\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$griY/nOd_GRITH\n
+$&/cj_&\n
+$/P11GpnOd_MIN\n
+$have/vps23-bpn_HABB+EN $/vps23-bpn_+EN\n
+{*sj context*}\n
+$/P23N_HEO\n
+$&/cj_&\n
+$/P23G_HERE\n
+$thing/npl_THING+~ $/pln_+~\n
+$by{re}/pr_BI\n
+$water/n<pr_WATRE\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+{.}\n
+{para}\n
+$&/cj_*AND\n
+$/P11N+H_IK~\n
+$ha:tan{c}/vps11_HATE\n
+$&/cj_&\n
+$be:odan/vps11_BEODE\n
+$mid{w}/pr_MID\n
+$ilk/Dis<pr_YIS\\-ILK~\n
+$writ/n<pr_WRIT\n
+$that/cj_Y^T\n
+$ilk/DatN_YAT-ILKE\n
+$mearc{b}/n_MERK~\n
+$&/cj_&\n
+$gemae:re/n_MERE\n
+$after/pr_AFTRE\n
+\'_*CNOUTES\n
+$delf/n<pr_DELF~\n
+$king/nG_KYNG+ES $/Gn_+ES\n
+$stand/vsjps13_STANDE\n
+$as/av_*ALSWA\n
+\'_*ALFWINE\n
+$abbot/n_*ABBOT\n
+{\\}\n
+$of/pr_OF\n
+;_*RAMESe\n
+$/P13OdI_HIT\n
+$betell/vpt13_BI+TAL+DE $be-/xp-v_BI+ $/vpt13[L]_+DE\n
+$with{a}/pr_WIT\n
+\'_*SIWARD\n
+$abbot/n<pr_ABBOT\n
+$of/pr_OF\n
+;_*THORNEYE\n
+$all/av_*AL\n
+$by{p}/pr_BI\n
+;_GANGESTIDE\n
+$by{p}/pr_BI\n
+$/T<pr_YE\n
+$easthalf/n<pr_EST+HALF~ $half/n<pr-k_+HALF~\n
+$/T<pr_YE\n
+$delf/n<pr_DELF~\n
+$&/cj_&\n
+{\\}\n
+$/T<pr_YE\n
+$westhalf/n<pr_WEST+HALF~ $half/n<pr-k_+HALF~\n
+$by{p}/pr_BI\n
+;_HYNDELAK~E\n
+$so/av_SWA\n
+$anon/av_ONAN\n
+$to/pr_TO\n
+;_WENDLESMERE\n
+$&/cj_AND\n
+$half/nOd_HALF\n
+;_*RAYERESHOLT\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEIE\n
+{\\}\n
+$in{m}/pr_ON\n
+\'_LEFSIES\n
+$abbot/nG-t_ABBOT+ES $/Gn-t_+ES\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+;_*ELY\n
+{.}\n
+$&/cj_&\n
+$in{m}/pr_ON\n
+\'_LEOFRIKES\n
+$abbot/nG_ABBOT+~ $/Gn_+~\n
+$of/pr_OF\n
+;_BOURGH~\n
+{.}\n
+$&/cj_&\n
+\'_WLFGETES\n
+$abbot/nG_ABBOT+ES $/Gn_+ES\n
+$of/pr_OF\n
+{\\}\n
+;_*CRULANDE\n
+$&/cj_&\n
+$/P23G_YAIRE\n
+$man/nplG_MEN\n
+$/RTApl_YAT\n
+$/P23>pr_HEM\n
+$mid{w}/pr<_MID\n
+$be/vpt23_WEREN\n
+{.}\n
+$&/cj_*AND\n
+$if/cj_IF\n
+$anyman/n_AN+I+MAN $-ig/xs-aj-k_+I+ $man/n-k_+MAN\n
+$ilk/DisOd_YIS-ILK~\n
+$foreweard/nOd_FOR+WARD $fore-/xp-n_FOR+\n
+$mid{w}/pr_MID\n
+$anything/n<pr_AN+I-THInG~ $-ig/xs-aj-k_+I- $thing/n<pr-k_-THInG~\n
+{\\}\n
+$break/vsjps13_BREKE\n
+$&/cj_&\n
+$awansian/vsjps13K2_A+WANSIGE $a-/xp-v_A+\n
+$so/av_SO\n
+$be/vsjps13_BE\n
+$/P13NM_HE\n
+$sunder/vppK2_SUNDR+ED $/vpp[R]K2_+ED\n
+$from/pr+H_FRAM\n
+$heavenrich{k}/nG_HEUENE+RIK+ES $rich{k}/nG-k_+RIK+ES $/Gn_+ES\n
+$mirth/npl<pr_MIR+TH+EN $-th/xs-npl<pr_+TH+EN $/pln<pr_+EN\n
+$bu:tan/cj_BUTEN\n
+$/P13NM_HE\n
+$/P13OdI_HIT\n
+$be:tan/vsjps13_I+BETE $ge-/xp-vsjps13_I+\n
+$ere/cj_AR\n
+$/P13NM_HE\n
+$hence/av_HE\\THEN\n
+$wendan/vsjps13_WENDE\n
+{(*AMen .(}\n
+$/DisN_YIS\n
+$writ/n_WRIT\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+$at/pr_AT\n
+;_WESTMinster\n
+$on{t}/pr_ON\n
+$saint/nG-t_SEYNT $/Gn-t_0\n
+\'_PETRES\n
+$massday/n<pr_MAS+DAI $day/n<pr-k_+DAI\n
+{.}\n
+$in{m}/pr_ON\n
+\'_*STIGANDES\n
+{\\}\n
+$witness/n<pr_WITTE+NESSE $-ness/xs-n<pr_+NESSE\n
+$archbishop/nG_ERCE+BISCOP $arch-/xp-n_ERCE+ $/Gn_0\n
+$&/cj_&\n
+\'_EDWINus\n
+$abbot/nG-t_ABBOT $/Gn-t_0\n
+$&/cj_&\n
+\'_HAROLDES\n
+$earl/nG-t_*EORL+ES $/Gn-t_+ES\n
+{.}\n
+$&/cj_&\n
+\'_*ESGARES\n
+$staller/nG_STALL+ER+S $-er/xs-agt-nG_+ER+S $/Gn_+S\n
+$&/cj_&\n
+\'_*HUGELINES\n
+$bu:rthane/nG_BOUR\\+THEYN+ES $thane/nG-k_+THEYN+ES $/Gn_+ES\n
+{.}\n
+{(*INSPEXIMUS IN SUPer Qu^AMDOAM ALIAM CARTAm IPsIus SanCtI *EDWARDI IN\n
+HEC UERBA(}\n
+{\\\\}\n
+{>()*CART^A .III DE \\ HUNDRe CLAK~)(>}\n
+{=ins, in right margin in a later hand=}\n
+\'_*EDWARD\n
+$king/n-t_KYNG\n
+$greet/vps13-ct_GRET~\n
+\'_*STIGAND\n
+$archbishop/nOd-t_*ERCE+B~. $arch-/xp-n_*ERCE+\n
+$&/cj_&\n
+\'_*ATHELMAR\n
+$bishop/nOd-t_BISCOP\n
+$&/cj_&\n
+\'_*GYId\n
+$earl/nOd-t_EORL\n
+$&/cj_&\n
+\'_*TOLI\n
+$sheriff/nOd-t_SHIRREF~\n
+$&/cj_AND\n
+{\\}\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P13GMpl_HIS\n
+$thane/nplOd_THEIN+ES $/plnOd_+ES\n
+$in{p}/pr_IN\n
+;_*NORFFolk\n
+$&/cj_&\n
+$in{p}/pr_IN\n
+;_*SUFFolk\n
+$&/cj_&\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P13GMpl_HIS\n
+$other/ajplOd_OTHER $/plajOd_0\n
+$wita/nplOd_WIT+EN $/plnOd_+EN\n
+{.}\n
+$over/pr_OUER\n
+$all/aj<pr_AL\n
+;_*ENGLAND\n
+$ha:dian/vppK2-ajplOd_HAD+ED $/vppK2-ajplOd_+ED\n
+$&/cj_&\n
+$lewd/ajplOd_LEAWED $/plajOd_0\n
+{\\}\n
+$friendly/av_FREND+LIK~ $-ly/xs-av_+LIK~\n
+{.}\n
+$&/cj_&\n
+$/P11N_IK\n
+$cy:Yan/vps11_KYTH\n
+$/P22Oi_YOU\n
+$that/cj_YAT\n
+$/P11N+H_IK~\n
+$have/vps11_HABBE\n
+$give/vSpp_SE-GHEU+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$christ/nOi_chr^IST\n
+$&/cj_&\n
+$saint/nOi-t_SanCtE\n
+\'_*MARIE\n
+$&/cj_&\n
+$saint/nOi-t_SEYNT\n
+\'_*BENET\n
+$&/cj_&\n
+\'_*ALFWYNE\n
+{\\}\n
+$abbot/nOi-t_ABBOT\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESEYE\n
+$sacu/nOd_SAK~\n
+$&/cj_&\n
+$so:cn/nOd_SOKNE\n
+$toll/nOd_TOL\n
+$&/cj_&\n
+$te:am/nOd_THEAM\n
+$&/cj_&\n
+$infangenethief/nOd_IN+FANGEN+THEF~ $in-/xp-n_IN+ $thief/nOd-k_+THEF~\n
+{.}\n
+$fightwi:te/nOd_FIGHT+WITE $wi:te/nOd-k_+WITE\n
+$&/cj_&\n
+$fyrdwi:te/nOd_FERD+WITE $wi:te/nOd-k_+WITE\n
+$foresteall/nOd_FOR+STAL $fore-/xp-n_FOR+\n
+{\\}\n
+$&/cj_&\n
+$ha:mso:cn/nOd_HAM+SOKNE $so:cn/nOd-k_+SOKNE\n
+{.}\n
+$griYbryce/nOd_*GRId+BRICHE $bryce/nOd-k_+BRICHE\n
+$&/cj_&\n
+$shipbryce/nOd_SCHIP+BRICH~ $bryce/nOd_+BRICH~\n
+$&/cj_&\n
+$seaupwearp/nOd_SE+UP+WARP $up-/xp-n_+UP+ $wearp/nOd-k_+WARP\n
+{.}\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+EN $/plaj<pr_+EN\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+$at/pr_AT\n
+;_*BRANCESTRE\n
+$&/cj_&\n
+$at/pr_AT\n
+;_*RING\\STEDE\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$freely/av_FRE+LIKE $-ly/xs-av_+LIKE\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P13OdI_HIT\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$best/av_BEST\n
+$have/vps11_HABBE\n
+$by{p}/pr_BI\n
+$/T<pr_THE\n
+$searima/n<pr_SE+RYNE $rima/n<pr-k_+RYNE\n
+$a:where/av-k_O+WHER $where/av-k_+WHER\n
+$in{p}/pr_IN\n
+;_*ENGELAND~\n
+{.}\n
+$&/cj_&\n
+{\\}\n
+$all/ajplOd_AL $/plajOd_0\n
+$/TplOd_YA\n
+$right/nplOd_SE-*RIGHT $ge-/xp-n_SE- $/plnOd_0\n
+$/RTIplOd_Y^T\n
+$/P11N_IK~\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$there/av_YARE\n
+$a:gan/vpt11_AGHT\n
+{.}\n
+$&/cj_&\n
+$/P11N_IK~\n
+$will{mv}/vps11_WILLE\n
+$that/cj_YAT\n
+$/DisN_YESE\n
+$so:cn/n_SOKNE\n
+$within/pr_WID[]\n
+{>)INNE)>}\n
+{=ins,  added above by a later hand=}\n
+;_BICCHAMDIK~\n
+$licgan/vsjps13_LIGGE\n
+{\\}\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+$to/pr_TO\n
+$saint/n<pr-t_SEYNT\n
+;_BENET\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+$as/av_SWA\n
+$full/av_FUL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$forth/av_FORd\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P23Od_HIO\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$a:gan/vps11_AGHTE\n
+{\\}\n
+$&/cj_&\n
+$all/ajplOd_AL $/plajOd_0\n
+$/TplOd_YA\n
+$right/nplOd_SE-*RIGHT+E $ge-/xp-n_SE- $/plnOd_+E\n
+$/RTIplOd_YAT\n
+$any/aj_AN+I $-ig/xs-aj_+I\n
+$king/n_KING~\n
+$may/vps13_MAI\n
+$a:gan/vi_AGH+EN $/vi_+EN\n
+$&/cj_&\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$/TplN_YA\n
+$man/npl_MEN\n
+$/RTApl_Y^T\n
+$be/vps23_BEN\n
+$mootworthy/ajpl_MOT-WORTH+I $worthy/ajpl-k_-WORTH+I $-ig/xs-ajpl_+I $/plaj_0\n
+{.}\n
+$fyrdworthy/ajpl_FERD+WORTH+I $worthy/ajpl-k_+WORTH+I $-ig/xs-ajpl_+I $/plaj_0\n
+{\\}\n
+$in{p}/pr_IN\n
+$/T<pr_YAT\n
+$1.5/qc_OTHER-HALF $2/qoaj<pr-k_OTHER- $half/aj<pr-k_-HALF\n
+$hundred/n<pr_HUNDRED\n
+$sowhich/aj>=_SWA-YHILK+\n
+$man/n_+MAN\n
+$so/cj<=_SWA\n
+$/TplOd_YA\n
+$man/nplOd_MEN\n
+$a:gan/vsjps13_AHE\n
+$saint/n-t_SanCtE\n
+\'_*MARIE\n
+$&/cj_&\n
+$saint/n-t_SEYnT\n
+\'_BENET\n
+$&/cj_&\n
+$/TN_YE\n
+$abbot/n_AB\\BOT\n
+$&/cj_&\n
+$/TplN_YE\n
+$brother/npl_BROTHER+NE $/pln_+NE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_*RAMESe\n
+{.}\n
+$have/vps23_HABB+EN $/vps23_+EN\n
+{*sj context*}\n
+$/TOd_YAT\n
+$so:cn/nOd_SOKNE\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+EN $/pln<pr_+EN\n
+$over/pr_OUER\n
+$/P23<pr_HOM\n
+{=A mended tear in the MS=}\n
+$&/cj_&\n
+$/TOd_Y^T\n
+$market/nOd_*MARKET\n
+{\\}\n
+$at/pr_AT\n
+;_DUNHAM\n
+$by{re}/pr_BI\n
+$water/n<pr_WATER\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+$mid{w}/pr_MID\n
+$inload/n<pr_IN+LADE $in-/xp-n_IN+\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$outload/n<pr_VT+LADE $out-/xp-n_VT+\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/Tpl<pr_YE\n
+$right/npl<pr_SE-*RIGHT $ge-/xp-n_SE- $/pln<pr_0\n
+{=Mended tear between SE and *RIGHT=}\n
+$/RTIpl_Y^T\n
+$thereto/av-k_YAR\\-TO $to/pr-k_-TO\n
+$hear/vps23_HER+ED $/vps23_+ED\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$freely/av_FRE+LIK~ $-ly/xs-av_+LIK~\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P13OdI_HIT\n
+$/P11X_ME-SELF $-self/xs_-SELF\n
+$best/av_BEST\n
+$a:gan/vps11_AGHTE\n
+$&/cj_&\n
+$/P11N_IK~\n
+$willnot/vps11_N+ELLE $n-/xp-neg_N+\n
+{=Mended tear=}\n
+$Yolian/viK2_THOL+IEN $/viK2_+IEN\n
+$that/cj_YAT\n
+{\\}\n
+$anyman/n_AN+I+MAN $-ig/xs-aj-k_+I+ $man/n-k_+MAN\n
+$/P13OdI_YIT\n
+$ly:tlian/viK2_LITTILL+EN $/viK2_+EN\n
+$mid{w}/pr_MID\n
+$anything/n<pr_AN+I-THINGE $-ig/xs-aj-k_+I- $thing/n<pr-k_-THINGE\n
+{,}\n
+$&/cj_&\n
+$in{p}/pr_IN\n
+$each/aj<pr_*ILKE\n
+$shire/n<pr_SHIRE\n
+$/RTI>pr_YAT\n
+$saint/n-t_SEYNT\n
+\'_BENET\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+{=Mended tear between E and D=}\n
+$land/nOd_LAND\n
+$in{p}/pr<_IN\n
+{=A siglum in the text and *NOta in a later hand in the right margin=}\n
+$/P13GM_HIS\n
+{\\}\n
+$sacu/nOd_SAKE\n
+$&/cj_&\n
+$/P13GM_HIS\n
+$so:cn/nOd_SOKNE\n
+$toll/nOd_TOL\n
+$&/cj_&\n
+$te:am/nOd_THEAM\n
+$&/cj_&\n
+$infangenethief/nOd_*IN+FANGEN+THEF~ $in-/xp-n_*IN+ $thief/nOd-k_+THEF~\n
+$within/pr_WIT-INNE $in/pr-k_-INNE\n
+$burh/n<pr>_BURGH~\n
+$&/cj_&\n
+$without{os}/pr<_WIT-OUTEN $out/pr-k_-OUTEN\n
+$&/cj_&\n
+$in{p}/pr_ON\n
+$each/aj<pr_ILKE\n
+$stead/n<pr_STE\\DE\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$strand/n<pr_STRANDE\n
+$by{re}/pr_BI\n
+$wood/n<pr_WODE\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$field/n<pr_FELDE\n
+$sowhich/aj>=_SWA-YILK+\n
+$man/n_+MAN\n
+$so/cj<=_SWA\n
+$/TOd_YE\n
+$so:cn/nOd_SOKNE\n
+$a:gan/vsjps13_AHE\n
+$saint/n-t_SEYNT\n
+\'_BENET\n
+{.}\n
+{\\}\n
+$have/vsjps13_HABBE\n
+$/P13GM_HIS\n
+$freedom/nOd_FRE+DOM $-dom/xs-nOd_+DOM\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+E $/pln<pr_+E\n
+$as/av_SWA\n
+$well{w}/av_WEL\n
+$&/cj_&\n
+$as/av>=_SWA\n
+$freely/av_FRE+LIK~ $-ly/xs-av_+LIK~\n
+$as/cj<=_SWA\n
+$/P11N+H_IK~\n
+$/P13OdI_HIT\n
+$/P11X_ME-SEOLF $-self/xs_-SEOLF\n
+$best/av_BEST\n
+$a:gan/vps11_AGH\n
+$a:where/av-k_O+WHERE $where/av-k_+WHERE\n
+{\\}\n
+{~f170v~}\n
+$in{p}/pr_IN\n
+;_*ENGELAND\n
+$&/cj_&\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/TplOd_YA\n
+$guilt/nplOd_GILT+ES $/plnOd_+ES\n
+$/RTIpl_YAT\n
+$belimpan/vps23_BE-LIMP+Ed $be-/xp-v_BE- $/vps23_+Ed\n
+{=L corrected from ?K=}\n
+$to/pr_TO\n
+$/P11G<pr+C_MINE\n
+$cynehelm/n<pr_KIN+HELME $helm/n<pr-k_+HELME\n
+$in{t}/pr_IN\n
+$yule/n<pr_YOL\n
+$&/cj_&\n
+$in{t}/pr_IN\n
+$easter/n<pr_*ESTERNE\n
+$&/cj_&\n
+$in{t}/pr_IN\n
+$/T<pr_YE\n
+$holy/aj<pr_HAL+I $-ig/xs-aj<pr_+I\n
+$week/n<pr_WOKE\n
+{\\}\n
+$at/pr_AT\n
+$gangday/npl<pr_GANGE+DAW+ES $day/npl<pr-k_+DAW+ES $/pln<pr_+ES\n
+$in{m}/pr_ON\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_THING+~ $/pln<pr_+~\n
+$as/av_ALSWA\n
+$/P11N+H_IK~\n
+$/P23Od_HEO\n
+$/P11X_ME-SELF~ $-self/xs_-SELF~\n
+$a:gan/vps11_AGHE\n
+{,}\n
+$&/cj_&\n
+$tollfree/av_TOL+FREO $free/av-k_+FREO\n
+$over/pr_OUER\n
+$all/aj<pr_AL\n
+;_*ENGLAND\n
+$within/pr_WIT-INNE $in/pr-k_-INNE\n
+{\\}\n
+$burh/n<pr>_BURGH~\n
+$&/cj_&\n
+$without{os}/pr<_WITH-OUTEN $out/pr-k_-OUTEN\n
+$&/cj_AND\n
+{=ND squashed as though added later and divided from the next word by a\n
+vertical stroke=}\n
+$year/nG_GHER+ES $/Gn_+ES\n
+$ce:apian/vn<prK2_CHEP+ING~ $/vn<prK2_+ING~\n
+$&/cj_&\n
+$in{p}/pr_ON\n
+$evereach/aj<pr_AUERIK\n
+$stead/n<pr_STEDE\n
+$by{re}/pr_BI\n
+$water/n<pr_WATER\n
+$&/cj_&\n
+$by{re}/pr_BI\n
+$land/n<pr_LANDE\n
+{.}\n
+$&/cj_&\n
+$/P11N_IK~\n
+$forbid/vps11_FOR+BEDE $for-/xp-v_FOR+\n
+$god/nG_GOD+ES $/Gn_+ES\n
+{\\}\n
+$forbod/nOd_FOR+BODE $for-/xp-n_FOR+\n
+$&/cj_&\n
+$/P11GpnOd_MIN\n
+$that/cj_Y^T\n
+$noman/n_NO+MAN $man/n-k_+MAN\n
+$/DisOd_THIS\n
+{=TH corrected from Y=}\n
+$gift/nOd_GHIFT\n
+$/neg-v([neither]<nN>norC)_NE\n
+$ly:tlian/vsjps13K2_LITLIGE\n
+$nor/cj_NE\n
+$wendan/vsjps13_A+WENDE $a-/xp-v_A+\n
+{.}\n
+$&/cj_&\n
+$if/cj_YIF~\n
+$anyman/n_AN+I+MAN $-ig/xs-aj-k_+I+ $man/n-k_+MAN\n
+$/P13OdI_HIT\n
+$awansian/vsjps13K2_A+WANSI $a-/xp-v_A+\n
+$mid{w}/pr_MID\n
+$ever/av_AUER\n
+{\\}\n
+$anything/n<pr_AN+I-THINGE $-ig/xs-aj-k_+I- $thing/n<pr-k_THINGE\n
+$of/pr_OF\n
+$/Datpn<prRTIOd_YAN-Y^T\n
+$/P11N+H_IK~\n
+$have/vps11_HABBE\n
+$here/av_HERE\n
+$unnan/vSpp_SE-VNN+EN $ge-/xp-vpp_SE- $/vSpp_+EN\n
+$in{p}/pr_ON\n
+$/Dis<pr_YIS\n
+$writ/n<pr_WRIT\n
+{,}\n
+$so/av_SO\n
+$be/vsjps13_BE\n
+$/P13NM_HE\n
+$sunder/vppK2_SUNDR+ED $/vpp[R]K2_+ED\n
+$from/pr_FRAM\n
+$christ/n<pr_CRIST\n
+$&/cj_&\n
+$from/pr+V_FRAM\n
+{\\}\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P13GMpl_HIS\n
+$ha:lga/npl<pr_HALEW+EN $/pln<pr_+EN\n
+{(AMen .(}\n
+$/DisN_YIS\n
+$writ/n_WRIT\n
+$be/vpt13_WAS\n
+$make/vppK2_MAK+ED $/vpp[K]K2_+ED\n
+$at/pr_AT\n
+;_WINDLESOUerE\n
+$on{t}/pr_ON\n
+$4/qoaj<pr_FEORTH\n
+$easterday/n<pr_ESTRE-DAY $day/n<pr-k_-DAY\n
+$in{m}/pr_IN\n
+\'_*ETDGIDE\n
+$witness/n<pr_WIT\\TE+NESSE $-ness/xs-n<pr_+NESSE\n
+$/TG_YE\n
+$queen/nG_QWEN+E $/Gn_+E\n
+$&/cj_&\n
+\'_*GODWYNES\n
+$earl/nG-t_*EORL+ES $/Gn-t_+ES\n
+$&/cj_&\n
+\'_HAROLDES\n
+$earl/nG-t_*EORL+ES $/Gn-t_+ES\n
+{.}\n
+{=Text continues in Latin=}\n
+{\\\\}\n
+|\n
+\n
+\n'

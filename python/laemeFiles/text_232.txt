@@ -1,0 +1,500 @@
+# 232\n
+{London, British Library, Add 27909, fol. 2r: Penitence for Wasted Life}\n
+C12b2-13a1\n
+433 228 N\n
+{=NW Oxon=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - basic proto-Gothic non-cursive book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f2ra~}\n
+$lady/n-voc_*LEUEDI\n
+$saint/n-voc-t_SAINTE\n
+\'_MARIE\n
+$mother/n-voc_MODER\n
+$&/cj_AND\n
+$maid/n-voc{rh}_MEIDE\n
+{.}\n
+$/P12N_yU\n
+$wissian/v-impK2_wI\\SIE\n
+$/P11Od_ME\n
+$now/av_NUyE\n
+$for/cj_FOR\n
+$/P11N+V_ICH\n
+$be/vps11_EOM\n
+$ae:rae:de/aj{rh}_EIREDE\n
+{.}\n
+$unnytt/ajOd_VN+NUT $un-/xp-aj_VN+\n
+$life/nOd_LIF\n
+$too/av_TO\n
+$long/av_LON\\GE\n
+$/P11N_ICH\n
+$lead/vps11{rh}_LEDE\n
+{.}\n
+$when/cj_HwANNE\n
+$/P11N_ICH\n
+$/P11MX_ME\n
+$bethink/vps11_BI+yENCHE $be-/xp-v_BI+\n
+{.\'}\n
+$well{v}/av_wEL\n
+$sore/av_SORE\n
+{\\}\n
+$/P11N_ICH\n
+$/P11MX_ME\n
+$adread/vps11{rh}_A-DREDE $a-/xp-v_A-\n
+{.}\n
+$/P11N+V_*ICH\n
+$be/vps11_EOM\n
+$bind/vSpp_I-BUND+E $ge-/xp-vpp_I- $/vSpp_+E\n
+$sore/av_SORE\n
+$mid{w}/pr_MID\n
+{<D<}\n
+{=MS MIDD with second D subpuncted=}\n
+{\\}\n
+$well{v}/av_wEL\n
+$fela/ajpl<pr_FEOLE\n
+$sin/npl<pr{rh}_SEONN+E $/pln<pr_+E\n
+{.}\n
+$mid{w}/pr_MID\n
+$small/ajpl<pr_SMAL+E $/plaj<pr_+E\n
+$&/cj_AND\n
+$mid{w}/pr_MID\n
+$great/ajpl<pr_GRET+E $/plaj<pr_+E\n
+$mid{w}/pr_MID\n
+{\\}\n
+$well{v}/av_wEL\n
+$fela/ajpl<pr_FEOLE\n
+$kin/npl<pr{rh}_CUNN+E $/pln<pr{rh}_+E\n
+{.}\n
+$day/n-av_DAI\n
+$&/cj_AND\n
+$night/n-av_NICHT\n
+$/P11N_ICH\n
+$fundian/vps11K2_FUND+IE $/vps11K2_+IE\n
+$to/im+C_TO\n
+{\\}\n
+$wendan/vi-m_wEND+ENDE $/vi-m_+ENDE\n
+$hence/av{rh}_HEONNE\n
+{.}\n
+$wealdan/vsjps13_wIELDE\n
+$god/n_*GODD\n
+$in{p}/pr_AN\n
+$heaven/n<pr_HEUENE\n
+$to/pr_TO\n
+{\\}\n
+$which/aj<pr_HwUCCHERE\n
+$wynn/n<pr{rh}_wUNNE\n
+{.}\n
+$sleep/n_*SLEP\n
+$/P11Oi_ME\n
+$have/vps13_HA+d $/vps13[V]_+d\n
+$/P11GOd+C_MI\n
+$life/nOd_LIF\n
+$forsteal/vSpp_FOR+STOL+E $for-/xp-v_FOR+ $/vSpp_+E\n
+{\\}\n
+$right/av_RICHT\n
+$half/nOd_HALF\n
+$or/cj_OdER\n
+$more/ajnOd{rh}_MORE\n
+{.}\n
+$a:wei/int_AwAI\n
+$too/av_TO\n
+$late/av_LATE\n
+$/P11N_ICH\n
+$be/vpt11_wAS\n
+$aware/aj_I\\-wAR $ge-/xp-aj_I\\-\n
+{.}\n
+$now/av_NU\n
+$/P13NI_HIT\n
+$/P11Oi_ME\n
+$rue/vps13_REOw+Ed $/vps13[W]_+Ed\n
+$sore/av{rh}_SORE\n
+$in{c}/pr_INNE\n
+$sleep/n<pr_SLEPE\n
+$/neg-v>=_NE\n
+$we:nan/vpt11_wEN\\+DE $/vpt11[N]_+DE\n
+$/P11N+V_ICH\n
+$end/viK2_END+IE $/viK2_+IE\n
+$not/neg-v<=_NOCHT\n
+$though/cj_yECH\n
+$/P11N_ICH\n
+$sleep/vps11_SLEPE\n
+{*sj context*}\n
+$evermore/av{rh}_EURE+MORE $more/av-k{rh}_+MORE\n
+{.}\n
+{\\}\n
+$whoso/pn_HwAO-SE $so/av-k_-SE\n
+{=sic=}\n
+$live/vps13_LIF+Ed $/vps13[F]_+Ed\n
+$/RTA_y~\n
+$wacor/aj-cpv_wAKER+UR $-er/xs-cpv-aj_+UR\n
+$be/vsjps13_BEO\n
+$think/vps13_yENC+y $/vps13[K]_+d\n
+$of/pr_OF\n
+$/P11G<pr+C_MINE\n
+{\\}\n
+$lore/n<pr{rh}_LORE\n
+{.}\n
+$all/av_*AL\n
+$too/av_TO\n
+$long/av_LONGE\n
+$sleep/vps13_SLEP+d $/vps13[P]_+d\n
+$/TN_yE\n
+$man/n_MANN\n
+$/RTA_y~\n
+$never/av_NEURE\n
+{\\}\n
+$willnot/vps13_N+ELE $n-/xp-neg(<av)_N+\n
+$awake/viK2{rh}_A+wAK+IE $a-/xp-v_A+ $/viK2{rh}_+IE\n
+{.}\n
+$whoso/pn_HwO+SE $so/av-k_+SE\n
+$understand/vps13-ct_UNDer+STANT $under-/xp-v_UNDer+\n
+$well{w}/av_wEL\n
+$/P13GM_HIS\n
+$endday/nOd_ENDE\\-DAI $day/nOd-k_-DAI\n
+$well{v}/av_wEL\n
+$georne/av_gEORNE\n
+$/P13NM_HE\n
+$mo:t/vps13_MOT\n
+$spaken/vi{rh}_SPAK+IE $/vi{rh}_+IE\n
+$to/im+C_TO\n
+$do/vi-m_DO+NDE $/vi[V]-m_+NDE\n
+$sin/nOd_SUn\\NE\n
+$away/av_A+wEI $a-/xp-av_A+\n
+$from/pr+H_FRAm\n
+$/P13<prM_HIM\n
+$&/cj_&\n
+$fela/ajOd_FELE\n
+$alms/nOd_ALMESSE\n
+$make/viK2{rh}_MAK+IE $/viK2{rh}_+IE\n
+{.}\n
+$if/cj_gIF\n
+{\\}\n
+$/P13OiM_HIM\n
+$/neg-v_NE\n
+$shall/vps13_SCHAL\n
+$when/cj_HwANNE\n
+$/P13NM_HE\n
+$forthwendan/vps13-ct_FORd-wANT $forth-/xp-v_FORd-\n
+{.}\n
+$/P13GM_HIS\n
+{\\}\n
+$breechgirdle/n_BREI+GurDEL $girdle/n-k_+GurDEL\n
+$quake/viK2{rh}_Qu^AK+IE $/viK2{rh}_+IE\n
+{.}\n
+$sleep/n_*SLEP\n
+$/P11Oi_ME\n
+$have/vps13_HA+d $/vps13[V]_+d\n
+$/P11GOd+C_MI\n
+$life/nOd_LIF\n
+$forsteal/vSpp_FOR\\+STOL+E $for-/xp-v_FOR\\+ $/vSpp_+E\n
+$ere/cj_ER\n
+$/P11N_ICH\n
+$/P11MX_ME\n
+$besee/vSpt11{rh}_BI+SEHE $be-/xp-v_BI+\n
+{.}\n
+$/DatpnOd_y~\n
+$/P11N_ICH\n
+$well{w}/av_wEL\n
+$agitan/vps11_A+gITTE $a-/xp-v_A+\n
+{"understand"}\n
+$now/av_NU\n
+{\\}\n
+$by/pr_BI\n
+$sight/n<pr_SUH+dE $-th/xs-n<pr_+dE\n
+$of/pr_OF\n
+$/P11G<pr+V_MIN\n
+$eye/n<pr{rh}_EHE\n
+{.}\n
+$/P11GN+C_MI\n
+$brown/aj_BRUNE\n
+$hair/n_HER\n
+$be/vps13_IS\n
+$white/aj_HwIT\n
+{\\}\n
+$become/vSpp_BI+CUM+E $be-/xp-v_BI+ $/vSpp_+E\n
+$/P11N_ICH\n
+$witannot/vps11_N+OT $n-/xp-neg_N+\n
+$for/pr_FOR\n
+$which/aj<pr_HwUCCHE\n
+$lye/n<pr{rh}_LEIHE\n
+{.}\n
+$&/cj_&\n
+$/P11GN+C_MI\n
+$taut/aj_TOHTE\n
+{\\}\n
+$rudu/n_RUDE\n
+$turn/vpp_I+TurN+D $ge-/xp-vpp_I+ $/vpp[N]_+D\n
+$all/av_AL\n
+$into/pr+V_IN-TO $to/pr+V-k_-TO\n
+$other/aj<pr_OdRE\n
+$dye/n<pr{rh}_DEHE\n
+{.}\n
+$gefyrn/av_*I+FURN $ge-/xp-av_*I+\n
+$/P11N+H_ICH\n
+$have/vps11_HABBE\n
+$sin/vppK2_I+SUNEH+ED $ge-/xp-vpp_I+ $/vpp[H]K2_+ED\n
+$mid{w}/pr_MID\n
+$work/n<pr_wORKE\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$word/n<pr{rh}_wORDE\n
+{.}\n
+{\\}\n
+$while/av_HwILE\n
+$in{p}/pr_IN\n
+$/P11G<pr+C_MINE\n
+$bed/n<pr_BEDDE\n
+$&/cj_&\n
+$while/av_HwILE\n
+$at/pr_AT+\n
+$/T<pr-ad_+TE\n
+$board/n<pr{rh}_BORDE\n
+{.}\n
+{\\}\n
+$often/av_OFTE\n
+$wine/nOd_wIN\n
+$drink/vSpp_I+DRUNK+E $ge-/xp-vpp_I+ $/vSpp_+E\n
+$&/cj_&\n
+$seldom/av_SELD^E\n
+{=Corrected from SELE by overwriting=}\n
+$of{f}/pr_OF\n
+$/T<pr_yE\n
+$ford/n<pr{rh}_FORDE\n
+{.}\n
+$much/nOd_MUCHEL\n
+{\\}\n
+$/P11N+H_ICH\n
+$have/vps11_HABBE\n
+$spend/vpp_I+SPEN+ED $ge-/xp-vpp_I+ $/vpp[N]_+ED\n
+{.}\n
+$too/av_TO\n
+$ly:t/nOd_LITE\n
+$/P11N+H_ICH\n
+$have/vps11_HABBE\n
+$in{p}/pr_AN\n
+$hoard/n<pr{rh}_HORDE\n
+{.}\n
+{\\}\n
+$hoard/n_*HORD\n
+$/RTIOd_y~\n
+$/P11N_ICH\n
+$tell/vps11_TELLE\n
+{.}\n
+$be/vps13_IS\n
+$almsdeed/n{rh}_ALMESSE-DEDE $deed/n{rh}_-DEDE\n
+{.}\n
+$give/vi_gIE>U>+>E> $/vi_+>E>\n
+$/TOi_yE\n
+$hungry/ajnOi_HUN\\GR+IE $-ig/xs-ajnOi_+IE\n
+$meat/nOd_METE\n
+$&/cj_&\n
+$/TOi-ad_TE\n
+$naked/ajnOi_NAKEDE\n
+$wae:de/nOd{rh}_I+wEDE $ge-/xp-n_I+\n
+{.}\n
+$rae:dan/vi_RED+E $/vi_+E\n
+$/TOd_yE\n
+$rae:dless/ajnOd_RED\\+LIESE $-less/xs-ajnOd_+LIESE\n
+$/RTA_y~\n
+$be/vps13_IS\n
+$without/pr_wId-UTE $out/pr-k_-UTE\n
+$rae:d/n<pr{rh}_REDE\n
+{.}\n
+$love/viK2_LUU+IE $/viK2_+IE\n
+$godalmighty/nOd_GOD+AL+MICHT+I $almighty/ajOd-k_+AL+MICHT+I $mighty/ajOd-k_MICHT+I $-ig/xs-ajOd_+I\n
+{\\}\n
+$&/cj_&\n
+$of/pr_OF\n
+$/P13<prM_HIM\n
+$have/vi_HABB+E $/vi_+E\n
+$dread/nOd{rh}_DREDE\n
+{.}\n
+$gefyrn/av_*I+FURN $ge-/xp-av_*I+\n
+$/P11N+H_ICH\n
+$have/vps11_HABBE\n
+$sin/vppK2_I+SUNE\\g+ET $ge-/xp-vpp_I+ $/vpp[J]K2_+ET\n
+$mid{w}/pr_MID\n
+$work/npl<pr_wURK+EN $/pln<pr_+EN\n
+{=Corrected from yURKEN=}\n
+$&/cj_&\n
+$mid{w}/pr_MIDD\n
+$mouth/n<pr{rh}_MUdE\n
+{.}\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+{\\}\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P11G<prpl+C_MINE\n
+$limb/npl<pr_LIM+E $/pln<pr_+E\n
+$since/cj_SIddE\n
+$/P11N_ICH\n
+$sin/viK2_SUNEH+I $/viK2_+I\n
+$can/vpt11{rh}_CUdE\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$well{v}/av_wEL\n
+$fela/ajplOd_FEOLE\n
+$sin/nplOd_SUNN+E $/plnOd_+E\n
+$do/vSpp_I+DO $ge-/xp-vpp_I+ $/vSpp[V]_0\n
+$/RTI_yE\n
+$/P11Oi_ME\n
+$ofYyncan/vps13_OF+yINCH+Ed $of-/xp-v_OF+ $/vps13_+Ed\n
+{\\}\n
+$now/av{rh}_NUdE\n
+{.}\n
+$&/cj_&\n
+$so/av_SwO\n
+$/P11Oi_ME\n
+$have/vpt13_HA+DDE $/vpt13[V]_+DDE\n
+{*sj context*}\n
+$gefyrn/av_I+FURN $ge-/xp-av_I+\n
+$if/cj_gIF\n
+$/P13OdI_HIT\n
+{\\}\n
+$/P11Oi_ME\n
+$christ/n_Cr^IST\n
+$unnan/vpt13{rh}_I-gUdE $ge-/xp-vpt13_I-\n
+{*sj context*}\n
+{.}\n
+$mother/n-voc_*MODER\n
+$full/aj-voc_FUL\n
+$of/pr_OF\n
+$milds/n<pr_MILCE\n
+$/P11N_I+\n
+$biddan/vps11_+BID\\DE\n
+$/P11GOd+C_MI\n
+$mood/nOd_MOD\n
+$wendan/vi{rh}_wEND+E $/vi{rh}_+E\n
+{.}\n
+$lae:tan/v-imp_*LaeTE\n
+$/P11Od_ME\n
+$ste:wan{*}/vi_STEOw+I $/vi_+I\n
+$/P11GOd+C_MI\n
+$flesh/nOd_FLESC\n
+{\\}\n
+$&/cj_&\n
+$/P11GOd+C_MINE\n
+$foe/nOd_FO\n
+$scendan/vi{rh}_SCHIEND+E $/vi{rh}_+E\n
+{.}\n
+$e:admo:dness/nOd_ED+MOD+NESSE $mo:d/aj-k_+MOD+ $-ness/xs-nOd_+NESSE\n
+$love/viK2_LUU+IE $/viK2_+IE\n
+$to/pr_TO\n
+{\\}\n
+$/P11GG+C_MINE\n
+$life/nG_LIF+ES $/Gn_+ES\n
+$end/n<pr{rh}_ENDE\n
+{.}\n
+$love/nOd_LUUE\n
+$to/pr_TO\n
+$god/n<pr_GODE\n
+$&/cj_&\n
+$to/pr_TE\n
+$man/n<pr_MANN\n
+{\\}\n
+{~f2rb~}\n
+$/P11N_IC\n
+$biddan/vps11_BIDDE\n
+$that/cj_y~\n
+$/P12N-ad_TU\n
+$/P11Oi_ME\n
+$send/vsjps12{rh}_SENDE\n
+{.}\n
+$lady/n-voc_*LEUEDI\n
+$saint/n-voc-t_SAINTE\n
+\'_MARIE\n
+{\\}\n
+$understand/v-imp_UNDer+STOND $under-/xp-v_UNDer+\n
+$now/av_NU\n
+$sin/nplOd_SEONN+E $/plnOd_+E\n
+$/P11GOdpl<{rh}_MINE\n
+{.}\n
+$bear/v-imp_BER\n
+$/P11GOd+V_MIN\n
+$ae:rende/nOd_ERENDE\n
+{\\}\n
+$well{w}/av_wEL\n
+$to/pr_TO\n
+$dear/aj<pr_DEORE\n
+$son/n<pr_SUNE\n
+$/P12G<pr<{rh}_yINE\n
+{.}\n
+$whose/pn_HwAS\n
+$flesh/n_FLECS\n
+$&/cj_&\n
+$blood/n_BLOD\n
+$ha:lgian/vppK2_I+HAL\\g+ED $ge-/xp-vpp_I+ $/vpp[H]K2_+ED\n
+$be/vps13_IS\n
+$of/pr_OF\n
+$bread/n<pr_BRED\n
+{.}\n
+$of/pr_OF\n
+$water/n<pr_wATer\n
+$of/pr_OF\n
+$wine/n<pr{rh}_wINE\n
+{.}\n
+$that/cj_y~\n
+$/P21Od_US\n
+$shield/vsjps13_I+SCHULDE $ge-/xp-vsjps13_I+\n
+{\\}\n
+$/P13NM_HE\n
+$ever/av_EURE\n
+{.\'}\n
+$from/pr+V_FRAm\n
+$all/aj<pr_ALLE\n
+$hell/nG_HELL+E $/Gn_+E\n
+$pi:ne/n<pr{rh}_PINE\n
+{.}\n
+$in{m}/pr_*INNE\n
+$meat/n<pr_METE\n
+$&/cj_&\n
+{\\}\n
+$in{m}/pr_INNE\n
+$drink/n<pr_DRINKE\n
+$/P11N+H_IC\n
+$have/vps11_HABBE\n
+$be/vSpp_I+BEO $ge-/xp-vpp_I+ $/vSpp[V]_0\n
+$overdeed/aj{rh}_OUER+DEDE $over-/xp-aj_OUER+\n
+{.}\n
+$&/cj_&\n
+$in{m}/pr_INNE\n
+$well{w}/av_wEL\n
+{\\}\n
+$sit/vpsp-ajpl<pr_SITT+ENDE $/vpsp-ajpl<pr_+ENDE\n
+$shoe/npl<pr_SCHO+N $/pln<pr_+N\n
+$in{m}/pr_IN\n
+$proud/aj<pr_PRUTTerE\n
+$wae:de/n<pr{rh}_I+wEDE $ge-/xp-n_I+\n
+{.}\n
+$when/cj_HwANNE\n
+$/P11N+V_ICH\n
+$hear/vpt11_I+HUR+DE $ge-/xp-vpt11_I+ $/vpt11[R]_+DE\n
+{\\}\n
+$of/pr_OF\n
+$god/n<pr_GODE\n
+$speak/vi_SPEK+E $/vi_+E\n
+{.\'}\n
+$/neg-v_NE\n
+$heed/vpt11_HEDD\n
+$/P11N_ICH\n
+$what/pnOd_HwAT\n
+$man/indef_ME\n
+$say/vpt13{rh}_SE+DE $/vpt13[V]{rh}_+DE\n
+{.}\n
+$when/cj_HwAN\n
+$/P11N+H_ICH\n
+{\\}\n
+$hereof/av-k_HIER-OF $of/pr-k_-OF\n
+$reckon/viK2_REKEN+I $/viK2_+I\n
+$shall/vps11_SCHAL\n
+{.\'}\n
+$well{v}/av_wEL\n
+$sore/av_SORE\n
+$/P11Oi_ME\n
+$may/vps13_MEI\n
+$dread/vi{rh}_DRED+E $/vi{rh}_+E\n
+{\\\\}\n
+|\n
+\n
+\n'

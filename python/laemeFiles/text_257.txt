@@ -1,0 +1,168 @@
+# 257\n
+{London, British Library, Cotton Faustina A.v, fols. 105v-106r, hand B: verses on Lazarus in a Latin sermon}\n
+C14a\n
+428 467 E\n
+{=WRY=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f105v~}\n
+{(*LAZARE InQuit \\ VITA SPiritUALI PriUATE . ECCE >E>GO QUI SUm VI^A &\n
+ResuRrectiO . STO AD HOSTIUm & PULSO . & IdeO VENI \\ FORAS(}\n
+$/P12N_YOU\n
+\'_LAzERe\n
+$/RTA_YAT\n
+$be/vps13_IS\n
+$ghostly/av_GAS+LI $-ly/xs-av_+LI\n
+$dead/aj{rh}_DETD\n
+{,}\n
+$/P12N_YOU\n
+$rise/v-imp_RISE\n
+$of{f}/pr_OF\n
+$sin/n<pr_SIN\n
+$as/cj_ALS\n
+$/P11N_I\n
+$/P12Od_THE\n
+$rae:dan/vps11{rh}_REDE\n
+{.}\n
+{\\}\n
+{~f106r~}\n
+$&/cj_AND\n
+$therefore/av-k_YAR-FOR $for/pr-k_-FOR\n
+$hardily/av_ARDI+LI $-ly/xs-av_+LI\n
+$/P12N_YOU\n
+$come/v-imp_CUm\n
+$out/av{rh}_OUTE\n
+{,}\n
+$&/cj_AND\n
+$of/pr_OF\n
+$/P12G<pr+C_THI\n
+$life/n<pr_LIFE\n
+$have/v-imp_HAUE\n
+$/P12N_YOU\n
+$no/ajOd+C_NA\n
+$doubt/nOd{rh}_DOUTE\n
+{\\}\n
+$though/cj_OF\n
+$/P12N_YOU\n
+$be/vsjps12_BE\n
+$dead/aj_DETD\n
+$be/vps11_IH+^AM $/P11N+V_IH+\n
+$life/n{rh}_LIFE\n
+{,}\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$/P12Od_TE\n
+$raise/vi_RAIS+E $/vi_+E\n
+$without/pr_WITH-OUTEN $out/pr-k_-OUTEN\n
+$strife/n<pr{rh}_STRIFE\n
+{.}\n
+{(*LAZARE [three words of Latin too faint to read on photocopy] LIGATE .\n
+ECCE EGO QUI COn [illeg] VINCuLA DIS[..}PO [four words illeg] STO AD\n
+OSTIUm & PULSO & IdeO VEnI FORAS(}\n
+$/P12N_YOU\n
+\'_LAzER\n
+$/RTA_YAT\n
+$be/vps13_IS\n
+$ghostly/av_GAS+LI $-ly/xs-av_+LI\n
+{\\}\n
+$bind/vSpp{rh}_BUND+EN $/vSpp{rh}_+EN\n
+{,}\n
+$with{w}/pr_WITH\n
+$bond/npl<pr_BAND+ES $/pln<pr_+ES\n
+$of/pr_OF\n
+$sin/n<pr_SIN\n
+$hard/av_HARDE\n
+$run/vSpp{rh}_RONN+EN $/vSpp{rh}_+EN\n
+{,}\n
+$lo/int_LO\n
+$/P11Od_ME\n
+$here/av_HERE\n
+$/RTA_YAT\n
+$shall/vps13_SAL\n
+$/P23Od_THAM\n
+$break/vi{rh}_BREK+E $/vi{rh}_+E\n
+{,}\n
+{\\}\n
+$&/cj_AND\n
+$of/pr_OF\n
+$/P12G<prpl+C_THI\n
+$bond/npl<pr_BAND+ES $/pln<pr_+ES\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$/P12Od_THE\n
+$wrecan/vi{rh}_WREK+E $/vi{rh}_+E\n
+{.}\n
+$&/cj_AND\n
+$therefore/av-k_YAR-FOR $for/pr-k_-FOR\n
+$hardily/av_HARDI+LI $-ly/xs-av_+LI\n
+$/P12N_YOU\n
+$come/v-imp_CUm\n
+$out/av{rh}_OUTE\n
+{,}\n
+{\\}\n
+$&/cj_AND\n
+$of/pr_OF\n
+$/P12G<prpl+C_THI\n
+$bond/npl<pr_BAND+ES $/pln<pr_+ES\n
+$have/v-imp_HAUE\n
+$/P12N_YOU\n
+$no/ajOd+C_NA+\n
+$doubt/nOd{rh}_+DOUTE\n
+{.}\n
+{(*LAZARE IN SEPULCr^O PECCatORes COLLOCATE \\ ECCE EGO QUI MORTUOS &\n
+Qu^A[....] RESUSCITO . STO AD OSTIUm & PULSO & IdeO conFI\\DENTer VENI\n
+FORAS .(}\n
+$/P12N_YOU\n
+\'_LAzARe\n
+$licgan/vpsp_LI+ANDE $/vpsp_+ANDE\n
+$in{p}/pr_IN\n
+$/P12G<pr+C_THI\n
+$grave/n<pr{rh}_GRAUE\n
+{,}\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$on{p}/pr_ON\n
+$/P12<pr_THE\n
+$mercy/nOd_MerCY\n
+$have/vi{rh}_HAU+E $/vi{rh}_+E\n
+{,}\n
+{\\}\n
+$though/cj_OF\n
+$/P12N_YOU\n
+$be/vsjps12_BE\n
+$dead/aj_DEID\n
+$of{f}/pr_OF\n
+$time/n<pr_THIME\n
+$long/aj<pr{rh}_LANGE\n
+{,}\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$/P12Od_THE\n
+$raise/vi_RAIS+E $/vi_+E\n
+$through/pr_THOURe\n
+$might/n<pr_MYTH\n
+$strong/aj<pr{rh}_STRANGE\n
+{.}\n
+{\\}\n
+$&/cj_AND\n
+$therefore/av-k_YAR+FOR $for/pr-k_+FOR\n
+$hardily/av_HARDE+LI $-ly/xs-av_+LI\n
+$/P12N_YOU\n
+$come/v-imp_CUm\n
+$out/av{rh}_OUTE\n
+{,}\n
+$&/cj_AND\n
+$of/pr_OF\n
+$/P12G<prpl+C_THI\n
+$sin/npl<pr_SINN+ES $/pln<pr_+ES\n
+$have/v-imp_HAUE\n
+$/P12N_YOU\n
+$no/ajOd+C_NA\n
+$doubt/nOd{rh}_DOUTE\n
+{.}\n
+{=19 further lines of Latin=}\n
+{\\\\}\n
+|\n
+\n
+\n'

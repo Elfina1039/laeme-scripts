@@ -1,0 +1,708 @@
+# 136\n
+{London, Lambeth Palace Library 499, fols. 64v-69r, 124r, 125v: lyrics}\n
+C13b2\n
+344 377 E\n
+{=W Cheshire=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - early Anglicana showing C13 forking of ascenders=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The verses appear in the bottom margins of the folios cited.\n
+The bulk of the MS is in Latin. The verses are edited (largely\n
+following an unpublished text by Angus McIntosh) by Pickering\n
+(1992). Here I differ from Pickering (and McIntosh) in some\n
+readings and interpretations, as noted=}\n
+{~f64v~}\n
+{=The first and last lines of the four are linked with a wavy bracket=}\n
+$/P11N+H_*I\n
+$hold/vps11_HOLDE\n
+;_HENDEBURNE\n
+$here/av{rh}_HER\n
+{.}\n
+$worthly/ajOd_WORTH+LI $-ly/xs-ajOd_+LI\n
+$water/nOd_WATER\n
+$&/cj_ANT\n
+$wise/ajOd{rh}_WYS\n
+{=Pickering (1992) takes this to be from OE wis "assuredly". But the\n
+"and" seems to require a balancing adjective and the rhyme with PRIS a\n
+long vowel. It is certainly anthropomorphic to grant the river worldly\n
+wisdom, but it may be a conceit along the lines that it sees so much\n
+of the world go by=}\n
+{.}\n
+$in{p}/pr_I\n
+$world/n<pr_WORLD\n
+$as/cj_AS\n
+$/P11N_I\n
+$we:nan/vps11{rh}_WENE\n
+{.\'}\n
+{=Punctus elevatus formed with punctus and a virgule-like oblique stroke=}\n
+{\\}\n
+$in{p}/pr_*I\n
+$green/n<pr{rh}_Gr^ENE\n
+{.}\n
+$by{p}/pr_BI\n
+$/P13<prI_HIRE\n
+$be/vps23_ARN\n
+$prince/npl_Pr^INC+ES $/pln_+ES\n
+$in{m}/pr_I\n
+$pris/n<pr{rh}_PRIS\n
+{.}\n
+$with{w}/pr_WITH\n
+{>}\n
+$swi:De/av_SWITHE\n
+{=ins, after GER marked for transposition with two oblique strokes here\n
+and above the word itself. This scribal emendation is not noticed in\n
+Pickering (1992) nor by McIntosh (unpubl)=}\n
+{>}\n
+$gamely/aj<pr_GOME+LICHE $-ly/xs-aj<pr_+LICHE\n
+$gear/n<pr{rh}_GER\n
+$to/im+C_TO\n
+$be:tan/vi-m_BET+EN $/vi-m_+EN\n
+$/P21G_UR\n
+$be:n/nOd{rh}_BENE\n
+{.}\n
+{\\}\n
+$bide:ne/av{rh}_BI-DENE\n
+{.}\n
+$when/cj_WEN\n
+$/P23N_HO\n
+$be/vpt23_WER\n
+$choose/vSpp-pl_CHOS+EN $/vSpp-pl_+EN\n
+$upon{t}/pr_UP-O\n
+$cier/n<pr{rh}_CHER\n
+{.}\n
+$&/cj_ANT\n
+$eachone/aj_HILCHON\n
+$hi:red/n_HERED\n
+$have/vpt13_HAU+ED $/vpt13_+ED\n
+$hyse?/nOd{rh}_HIS\n
+{="young man, warrior, champion". Pickering (1992) reads this as "his"\n
+with "leader" understood. In this he follows McIntosh (unpubl) who\n
+points out that there is clearly nothing missing as HIS is the rhyming\n
+word. The metre would also preclude an extra word here. I suggest HIS here\n
+could be a continuation of the OE poetic word, hyse "young man, warrior"\n
+used in the sense "champion" in the context of a tournament. We might\n
+expect the OE /y/ to be realised here as U but there are recorded spellings\n
+with <i> in Old English and cf. BRYTNEN below with Y for [i]=}\n
+{.}\n
+$/AN_A\n
+$see/n_SExE\n
+{"court"}\n
+$there/av_YER\n
+$be/vpt13_WAS\n
+$see/vSpp{rh}_SE+NE $/vSpp[V]{rh}_+NE\n
+{.\'}\n
+{=Formed with punctus and virgule-like oblique stroke=}\n
+{\\}\n
+$of/pr_*OF\n
+$te:ona/n<pr{rh}_TENE\n
+{="conflict" - i.e. the tournament. Pickering (1992) and McIntosh\n
+(unpubl) read *OFTENE "often", but there is a clear, wide gap\n
+between the two words and the metre and rhyme require the long\n
+stressed vowel in TENE while the sense implies not just a knightly\n
+gathering but some sort of tournament=}\n
+{.}\n
+$when/cj_WEN\n
+$/P23N_HO\n
+$be/vpt23_WER\n
+$busken/vpp-pl_BUSK+ET $/vpp[K]-pl_+ET\n
+$in{m}/pr_I\n
+$bysse/n<pr_BIS\n
+{=A fine fabric=}\n
+{.}\n
+$there/av_YER\n
+$/TOd_THE\n
+$banner/nOd_BANER\n
+$/P23N_HO\n
+$bear/vSpt23_BER $/vSpt23[R]_0\n
+$with{w}/pr_WITH\n
+$cost{m}/npl<pr_COST+ES $/pln<pr_+ES\n
+$full{v}/av_FUL\n
+$keen/ajpl<pr{rh}_KEN+E $/plaj<pr{rh}_+E\n
+{\\\\}\n
+{~f65r~}\n
+$busken/vps23_BUSK+EN $/vps23_+EN\n
+$beorn/npl_BERN+ES $/pln_+ES\n
+{.}\n
+$bone/nplOd_BON+ES $/plnOd_+ES\n
+$brytnian/vps23K2_BRYTN+EN $/vps23K2_+EN\n
+{=Pickering (1992) reads BOUES BRYTNEN and translates "bows take life".\n
+The scribe differentiates between N and U and the reading is clearly\n
+BONES and this would mean that the verb could retain its normal sense of\n
+"cut up". It is a word often used in the context of hunting for butchering the\n
+carcase. Presumably the men are cutting up an animal already killed in\n
+the hunt. The order of events here is somewhat obscure=}\n
+{.}\n
+$blithe/ajpl_BLITH+E $/plaj_+E\n
+$byrd/npl_BURD+ES $/pln_+ES\n
+$bo:t/nplOd_BOT+ES $/plnOd_+ES\n
+$be:odan/vps23{rh}_BED+EN $/vps23{rh}_+EN\n
+{.}\n
+{\\}\n
+$bra:Dligr/ajpl_BROTH+LI $-ly/xs-ajpl_+LI $/plaj_0\n
+{"angry, violent"}\n
+$breast/npl_BREST+ES $/pln_+ES\n
+$bro:hli:ce*?/av_BROU+LI $-ly/xs-av_+LI\n
+{=BROULI is not recorded in MED and there is no obvious sense to be made\n
+of it. Pickering (1992) suggests it is an error for BREULI, see MED s.v.\n
+brefli adv. sense 2 "quickly". This seems unlikely in sense as well as\n
+requiring emendation. I suggest it may be from an unattested OE *bro:hli:ce\n
+formed from bro:g/bro:h "terror" (see B-T s.v. bro:ga and bro:h-Yre:a).\n
+Cf. OE fae:r and the derived fae:rli:ce. It would then mean "terribly"\n
+or even (like fae:rli:ce) "suddenly"=}\n
+$bleed/vps23_BLED+EN $/vps23_+EN\n
+{=Either literally, or perhaps figuratively, "suffer anguish"=}\n
+{.}\n
+$beofian/vps23K2_BEU+IEN $/vps23K2_+IEN\n
+$beard/npl_BERD+ES $/pln_+ES\n
+{.}\n
+$bra:D/nplOd_BRATH+ES $/plnOd_+ES\n
+{=not BRACH+ES as OP reads - the scribe differentiates between C and T.\n
+There seems to be an intended courtly contrast here between the\n
+gracious ladies offering comforts or remedies (perhaps for the\n
+bleeding breasts) and the bristling beards of the men, revealing\n
+anger or violence. See MED s.v. bratthe n. and for plural usage cf.\n
+the quotation from  Pearl 346: bray Yy braYes breme=}\n
+$be:odan/vps23{rh}_BED+EN $/vps23{rh}_+EN\n
+{.}\n
+{\\}\n
+$brock/npl_BROCK+ES $/pln_+ES\n
+$bark/vps23_BURK+EN $/vps23_+EN\n
+{.}\n
+$bough/nplOd_BOW+ES $/plnOd_+ES\n
+{="Limbs". In this context they are probably the limbs of men or of dogs\n
+rather than tree boughs. See Pickering (1992) and MED s.v. bough n.\n
+sense 2.=}\n
+$barian/vps23K2_BAR+EN $/vps23K2_+EN\n
+{"Lay bare"}\n
+{.}\n
+$brown/ajpl_BROUN+E $/plaj_+E\n
+$boar/npl_BOR+ES $/pln_+ES\n
+$bold/av_BOLDE\n
+$bregdan/vps23{rh}_BRED+EN $/vps23{rh}_+EN\n
+{.}\n
+{\\}\n
+$bitch/npl_BICCH+ES $/pln_+ES\n
+$bark/vps23_BURK+EN $/vps23_+EN\n
+$boar/nplOd_BOR+ES $/plnOd_+ES\n
+$butt/vps23_BUT+EN $/vps23_+EN\n
+{"strike [at]"}\n
+{.}\n
+$bright/ajpl_BRITH+E $/plaj_+E\n
+$blossom/npl_BLOSM+ES $/pln_+ES\n
+$broad/av_BRODE\n
+$breed/vps23{rh}_BRED+EN $/vps23{rh}_+EN\n
+{.}\n
+{\\\\}\n
+{~f65v~}\n
+$fast/av_FASTE\n
+$freeze/vps23_FRES+EN $/vps23_+EN\n
+$fen/npl_FENN+ES $/pln_+ES\n
+$foul/ajpl_FUL+E $/plaj_+E\n
+{.}\n
+$frost/nG_FROST+ES $/Gn_+ES\n
+$frere/n_FRER\n
+$be/vps13_IS\n
+$fowl/nG_FOUL+ES $/Gn_+ES\n
+$foe/n{rh}_FOxOx\n
+{.}\n
+{\\}\n
+$fealwian/vps23K2_FALEW+EN $/vps23K2_+EN\n
+$feuille/npl_FILL+ES $/pln_+ES\n
+{.}\n
+$flower/npl_FLUR+ES $/pln_+ES\n
+$fall/vps23_FALL+EN $/vps23_+EN\n
+{.}\n
+$feeble/ajpl_FEBL+E $/plaj_+E\n
+$fox/npl_FOX+ES $/pln_+ES\n
+$false/av_FALSE\n
+$flee/vps23{rh}_FLE+N $/vps23[V]{rh}_+N\n
+{.}\n
+{\\}\n
+$foam/npl_FOM+ES $/pln_+ES\n
+$fill/vps23_FULL+EN $/vps23_+EN\n
+{.}\n
+$flood/npl_FLOD+ES $/pln_+ES\n
+$fall/vps23_FALL+EN $/vps23_+EN\n
+{=i.e. the sea fills up from the rushing floods=}\n
+{.}\n
+$fair/ajpl_FEIR+E $/plaj_+E\n
+$fish/npl_FISCH+ES $/pln_+ES\n
+$fle:otan/vps23_FLET+EN $/vps23_+EN\n
+$from/av{rh}_FROx\n
+{=MS FROxN with N subpuncted for removal=}\n
+{.}\n
+{\\}\n
+$flight/nplOd_FLIT+ES $/plnOd_+ES\n
+$fine/ajplOd_FIN+E $/plajOd_+E\n
+{.}\n
+$finch/nplOd_FINCH+ES $/plnOd_+ES\n
+$fa:h/ajplOd_FAw+E $/plajOd_+E\n
+{=I read the third letter as wynn because it is wynn-shaped and\n
+completely different in shape from the scribe\'s usual Anglicana <w>. It\n
+has two lobes however making it a little like the <w> of some informal\n
+scripts of the period. I think the second lobe is possibly to help\n
+differentiate the figura from Y/y also similar in this hand=}\n
+{.}\n
+$fremde/ajplOd_FREMD+E $/plajOd_+E\n
+$fe:ra/nplOd_FER+ES $/plnOd_+ES\n
+$find/vps11_FINDE\n
+$/P11N_I\n
+$free/ajplOd{rh}_FRE $/plajOd{rh}_0\n
+{=Presumably these are migratory birds the poet is referring to=}\n
+{.}\n
+{\\\\}\n
+{~f66r~}\n
+$fast/av_FASTE\n
+$fundian/vppK2_I+FUNDE $ge-/xp-vpp_I+\n
+$far/av_FER\n
+$on{p}/pr_ON\n
+$folde/n<pr_FOLDE\n
+{.}\n
+;_FRODE-FRYTH\n
+$be/vps13_IS\n
+$fair/av_FEIRE\n
+$free/aj{rh}_FRE\n
+{.}\n
+{\\}\n
+$folk/nOd_FOLK\n
+$/P11N_I\n
+$find/vps11_FINDE\n
+$fela/av_FELE\n
+$find/vSpp_I-FOND+E $ge-/xp-vpp_I- $/vSpp_+E\n
+{.}\n
+$faegen/ajOd_FAYN\n
+$to/im+C_TO\n
+$fight/vi-m_FIYTHT+E $/vi-m_+E\n
+{=Pickering (1992) reads FIYCHTE=}\n
+$with{a}/pr_WITH\n
+$/P13GM_IS\n
+$foe/n<pr{rh}_FO\n
+{.}\n
+{\\}\n
+$fae:ge/ajn_FEY\n
+$in{p}/pr_I\n
+$fjall/npl<pr_FELL+ES $/pln<pr_+ES\n
+$fodder/nOd_FODDRE\n
+$fill/vps13_FULL+ES $/vps13[L]_+ES\n
+{.}\n
+$/TN_YE\n
+$fe:de/vpp-aj_FEDE\n
+{"feeble"}\n
+$man/n_MON\n
+$be/vps13_IS\n
+$fu:s/aj_FUS\n
+$to/im+C_TO\n
+$flee/vi-m{rh}_FLE $/vi[V]-m{rh}_0\n
+{.}\n
+{\\}\n
+$fandian/vps13K2_FOND+ES $/vps13K2_+ES\n
+$ford/nplOd_FORTH+ES $/plnOd_+ES\n
+{.}\n
+$fern/nplOd_FERN+ES $/plnOd_+ES\n
+$fell/vps13_FALL+ES $/vps13[L]_+ES\n
+{.}\n
+$fercian/vps13K2_FERK+ES $/vps13[K]K2_+ES\n
+$forth/av_FORTH\n
+$on{m}/pr_ON\n
+$foot/n<pr_FOTE\n
+$from/av{rh}_Fr^O\n
+{.}\n
+{\\\\}\n
+{~f67r~}\n
+{=Note that in the left margin the first and last of the four lines\n
+below and the second and third lines are linked with embedded\n
+chevron-shaped brackets with the Latin word DIFFRA (for ?DIFFERENTIA)\n
+preceded by a paraph=}\n
+$/P11N+H_*I\n
+$have/vps11_HAUE\n
+$to/pr+V_TO\n
+$/A<pr_A\n
+$seemly/ajn<pr_SEM+LY $-ly/xs-ajn<pr_+LY\n
+$/RTAOd_THAT\n
+$/P11N_I\n
+$besettan/vps11{rh}_BI-SETE $be-/xp-v_BI-\n
+{.}\n
+$send/vpp_SEND\n
+$/P11GOd+C_MINE\n
+$sond/nOd_SONDE\n
+$selli:ce/av_SEL+LICHE $-ly/xs-av_+LICHE\n
+$set/vpp{rh}_SETE\n
+{.}\n
+{\\}\n
+$/RTA_YAT\n
+$be/vps13_IS\n
+$bright/aj-cpv_BRITH+URE $-er/xs-cpv-aj_+URE\n
+$in{p}/pr_IN\n
+$bu:r/n<pr_BUR\n
+$than/cj_YEN\n
+$besaunt/n_BASOTE\n
+$&/cj_*ANT\n
+$better/aj{rh}_BETE\n
+{.}\n
+$if/cj_YIF\n
+$/DatN_THAT\n
+$byrd/n_BURDE\n
+$have/vps13_HAU+ES $/vps13_+ES\n
+$break/vSpp_BROK+EN $/vSpp_+EN\n
+{.}\n
+$best/av_BEST\n
+$be/vps13_IS\n
+$to/im+C_TO\n
+$be:tan/vi-m{rh}_BET+E $/vi-m{rh}_+E\n
+{.}\n
+{\\}\n
+$goodly/av_GOD+LI $-ly/xs-av_+LI\n
+$greiDa/vpp_GREYTH+ET $/vpp_+ET\n
+$under/pr_VNDER\n
+$gear/n<pr_GERE\n
+{.}\n
+$with{w}/pr_WID\n
+$game/n<pr_GOMEN\n
+$/P11N_I\n
+$/P12Od_THE\n
+$greet/vps11{rh}_GRETE\n
+{.}\n
+$gegna/vps13_GEYN+ES $/vps13[N]_+ES\n
+$naught/nOd_NOTH\n
+$for/pr_FOR\n
+$/A<pr_A\n
+$gab/n<pr_GAB\n
+$grimly/av_GRIME+LI $-ly/xs-av_+LI\n
+$to/im+C_TO\n
+$greet{w}/vi-m{rh}_GRET+E $/vi-m{rh}_+E\n
+{.}\n
+{\\}\n
+$/TN_YE\n
+$leikr/n_LAIC\n
+$of/pr_OF\n
+$/Dat<pr_THAT\n
+$lady/n<pr_LEUEDY\n
+$/P11Oi_ME\n
+$be/vps13_IS\n
+$loth/aj_LOTH\n
+$lae:tan/vi{rh}_LET+E $/vi{rh}_+E\n
+{"forsake"}\n
+{.}\n
+$/P13GF_HIRE\n
+$love/n_LOUE\n
+$be/vps13_IS\n
+$full{v}/av_FUL\n
+$le:ofli:c/aj_LEF+LY $-ly/xs-aj_+LY\n
+$in{p}/pr_IN\n
+$land/n<pr_LOND\n
+$as/cj_AS\n
+$/P11N_*I\n
+$lae:tan/vps11{rh}_*LETE\n
+{"allow, think"}\n
+{.}\n
+{\\\\}\n
+{~f67v~}\n
+$welkin/npl_WELKN+ES $/pln_+ES\n
+$werren/vps23F_WERR+EN $/vps23F_+EN\n
+{.}\n
+$way/nplOd_WAI+ES $/plnOd_+ES\n
+$wae:tan/vps23_WET+EN $/vps23_+EN\n
+{.}\n
+$wind/npl_WIND+ES $/pln_+ES\n
+$wealcan/vps23_WALK+EN $/vps23_+EN\n
+$wide/av_W[Y]DE\n
+{=Y partially lost by rubbing but the first stroke visible. Pickering\n
+(1992) conjectures E and reads WEDE "clothes"=}\n
+$woe/av{rh}_WO\n
+{.}\n
+{\\}\n
+$wild/ajnpl_WILD+E $/plajn_+E\n
+$wealcan/vps23_WALK+EN $/vps23_+EN\n
+{.}\n
+$word/nplOd_WORD+ES $/plnOd_+ES\n
+$wrixlian/vps23K2_WRUXL+EN $/vps23K2_+EN\n
+{.}\n
+$woman/npl_WYMMEn\n
+$wrae:Yan/vps23_WR[ET]H+EN $/vps23_+EN\n
+{=ET not clear=}\n
+$well{v}/av_WEL\n
+$villr/ajpl-av_WIL+E $/plaj-av_+E\n
+$way/npl-av{rh}_WE $/pln-av{rh}_0\n
+{="very much perplexed" probably calqued on the OScand villr vega\n
+"astray" literally "wild in respect of paths". See Pickering (1992)=}\n
+{.}\n
+{\\}\n
+$wood/npl_WOD+ES $/pln_+ES\n
+$wri:Dan/vps23_WRID+EN $/vps23_+EN\n
+{.}\n
+$water/npl_WATTR+ES $/pln_+ES\n
+$we:dan/vps23_WED+EN $/vps23_+EN\n
+{.}\n
+$wave/npl_WAw+ES $/pln_+ES\n
+{=The same double-lobed wynn as in FAWE above, but this time dotted\n
+making it more likely that it is indeed intended as a form of wynn=}\n
+$weorpan/vps23_WERP+EN $/vps23_+EN\n
+{.}\n
+$wreck/nOd_WROK\n
+$in{p}/pr_IN\n
+$wro:/n<pr{rh}_WRO\n
+{="nook, corner" cf. OI ra:=}\n
+{.}\n
+{\\}\n
+$weather/npl_WEDER+ES $/pln_+ES\n
+$worse/vps23K2_WRS+EN $/vps23K2_+EN\n
+{.}\n
+$wrothly/av_WROTH+LI $-ly/xs-av_+LI\n
+$wendan/vps23_WEND+EN $/vps23_+EN\n
+{.}\n
+$worm/npl_WORM+ES $/pln_+ES\n
+$wait/vps23Fier_WAIT+EN $/vps23Fier_+EN\n
+$wuna/nOd_WON\n
+$to/im+C_TO\n
+$wre:on/vi-m{rh}_WRE $/vi[V]-m{rh}_0\n
+{"Snakes seek to protect their hiding place (McIntosh unpubl)=}\n
+{.}\n
+{\\\\}\n
+{~f68r~}\n
+{=The rhyming lines are joined by brackets to the right of the text=}\n
+$by{p}/pr_*BI\n
+;_BELE\n
+{=Probably the river Beal in Lancs=}\n
+$be/vps23_ARN\n
+$brid/npl_BRIDD+ES $/pln_+ES\n
+$bre:me/ajpl_Br^EM+E $/plaj_+E\n
+$on{p}/pr_ON\n
+$bough/npl<pr{rh}_BOw+ES $/pln<pr{rh}_+ES\n
+{=Same-shaped wynn=}\n
+{.}\n
+{\\}\n
+$bole/nplG_*BOL+ES $/plnG_+ES\n
+$blossom/npl_BLOSM+ES $/pln_+ES\n
+$breed/vps23_BRED+EN $/vps23_+EN\n
+$broad/av{rh}_BRODE\n
+{.}\n
+{\\}\n
+$bright/ajpl_*BRYTH+E $/plaj_+E\n
+$in{m}/pr_ON\n
+$ble:o/n<pr_BLE\n
+{.}\n
+$in{m}/pr_ON\n
+$breast/n<pr_BREST\n
+$&/cj_AN\n
+$brow/npl<pr{rh}_BROW+ES $/pln<pr{rh}_+ES\n
+{.}\n
+{\\}\n
+$at/pr_*AT\n
+;_BERYTH\n
+{=Not BERYCH as Pickering (1992) reads and hardly the name "Berwick".\n
+-RYTH may perhaps represent the element OE ri:Y(e) "stream"=}\n
+$man/indef_MEN\n
+$bi:dan/vps13_BYD+ES $/vps13_+ES\n
+$byr-r/nOd_BURE\n
+{.}\n
+$of/pr_OF\n
+$bod/n<pr{rh}_BODE\n
+{.}\n
+{\\}\n
+$blithe/ajplOi_*BLITH+E $/plajOi_+E\n
+$beorn/nplOi_BURN+ES $/plnOi_+ES\n
+$bregdan/vSpp-pl_BRAAD $/vSpp-pl_0\n
+$with{w}/pr_WITH\n
+$be:ag/npl<pr{rh}_BEw+ES $/pln<pr{rh}_+ES\n
+{=Same-shaped wynn=}\n
+{.}\n
+{\\}\n
+$byrian{b}/vsjpt13K2[1]_*BURDE\n
+$in{p}/pr_I\n
+$bu:r/npl<pr_BOUR+ES $/pln<pr_+ES\n
+$boon/nplOd_BON+ES $/plnOd_+ES\n
+$be:odan/vi{rh}_BED+E $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$beofian/vps23K2_*BEU+IEN $/vps23K2_+IEN\n
+$beard/npl_BERD+ES $/pln_+ES\n
+{.}\n
+$blacken/vps23_BLACN+EN $/vps23_+EN\n
+$brow/npl{rh}_BREY+ES $/pln{rh}_+ES\n
+{.}\n
+{\\}\n
+$bold/ajnpl_*BOLD+E $/plajn_+E\n
+$bark/vps23_BURK+EN $/vps23_+EN\n
+$bu:inn/ajpl_BUN $/plaj_0\n
+$to/im+C_TO\n
+$bleed/vi-m{rh}_BLED+E $/vi-m{rh}_+E\n
+{"suffer"}\n
+{.}\n
+{\\\\}\n
+{~f68v~}\n
+$little/n_*LITTEL\n
+$be/vps13_IS\n
+$li:Ye/aj_LITHE\n
+$by{p}/pr_BY\n
+;_LYTHUM\n
+{.}\n
+$when/cj_WEN\n
+$storm/npl_STORM+ES $/pln_+ES\n
+$be/vps23_ARN\n
+$strong/ajpl_STr^ONG+E $/plaj_+E\n
+$upon{p}/pr_UP-ON\n
+$stricawaroY?/n<pr{rh}_STr^IKE+WARTH $warY/n<pr-k{rh}_+WARTH\n
+{"shoreline?"}\n
+{.}\n
+{\\}\n
+$wiYer/ajpl_WITHER $/plaj_0\n
+$be/vps23_AR\n
+$water/npl_WATTR+ES $/pln_+ES\n
+{=Pickering (1992) reads WATIRES=}\n
+$in{p}/pr_Y\n
+;_WYTHUM\n
+{.}\n
+$when/cj_WEN\n
+$stream/npl_STr^EM+ES $/pln_+ES\n
+$be/vps23_AR\n
+$stern/ajpl_STIRN+E $/plaj_+E\n
+$with{a}/pr_WITH\n
+$sti:Y/aj<pr_STITH\n
+$staeY/n<pr{rh}_STAT\n
+{.}\n
+{\\}\n
+$beorn/npl_BERN+ES $/pln_+ES\n
+$/RTApl_YAT\n
+$born/vSpp-pl_BOR+N $/vSpp[R]-pl_+N\n
+$be/vpt23_WER\n
+$in{p}/pr_I\n
+;_BETHUM\n
+{.}\n
+$there/av_THER\n
+$man/indef_MEN\n
+$may/vps13_MAY\n
+$bring/vi_BRING+E $/vi_+E\n
+$to/pr_TO\n
+$broad/aj<pr_BROD\n
+$bath/n<pr{rh}_BATH\n
+{.}\n
+{\\}\n
+$/TplN_YE\n
+$side/npl_SYD+ES $/pln_+ES\n
+$be/vps23_ARN\n
+$sore/ajpl_SOR+E $/plaj_+E\n
+$by{p}/pr_BY\n
+;_SYTHUM\n
+{.}\n
+$/RTA_YAT\n
+$much/av_MUCHE\n
+$have/vps13_HAU+ES $/vps13_+ES\n
+$mow/vSpp_MOW+EN $/vSpp_+EN\n
+$among/pr_I-MONG $ge-/xp-pr_I-\n
+$mae:Y/n<pr{rh}_MATH\n
+{.}\n
+{\\\\}\n
+{~f69r~}\n
+$here/av_*HER\n
+$licgan/vps13_LI+S $/vps13[V]_+S\n
+\'_ARFAXAT\n
+$father/n_FADER\n
+\'_BRANDAN\n
+{.\'}\n
+{\\}\n
+$&/cj_ANT\n
+\'_KOLMKILNE\n
+{.}\n
+$&/cj_ANT\n
+\'_COwHEL\n
+$/Des_YER\n
+$ha:lga/npl_HALEw+E $/pln_+E\n
+{.\'}\n
+{\\}\n
+$&/cj_*ANT\n
+$dame/n-t_DAME\n
+\'_COROUNE\n
+$mother/n_MODER\n
+$/DesG_YEYRE\n
+$ha:lga/nplG_HALEw+E $/plnG_+E\n
+{.\'}\n
+{\\}\n
+$/RTApl_YAT\n
+$come/vSpt23_KOM+EN $/vSpt23_+EN\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_BRETENE\n
+{.}\n
+$saint/nplOd_SANT+ES $/plnOd_+ES\n
+$to/im+C_TO\n
+$seek/vi-m_SEK+E $/vi-m_+E\n
+{.}\n
+{\\\\} \n
+{~f124r~}\n
+$child/n_*CHILD\n
+$aweless/aj{rh}_*AYGHE-LES $-less/xs-aj{rh}_-LES\n
+{.}\n
+$old/aj_HOLD\n
+$man/n_MAN\n
+$lawless/aj{rh}_LAYGHE-LES $-less/xs-aj{rh}_-LES\n
+{.}\n
+{\\\\}\n
+;_*CHASTER-SCHIRE\n
+$thief/npl_THEU+ES $/pln_+ES\n
+{.}\n
+$le:ogan/vps23_LIYGH+E $/vps23_+E\n
+$&/cj_*ANT\n
+$steal/vps23_STEL+E $/vps23_+E\n
+$/P23Oi_HOM\n
+$lo:s/n_LOS\n
+$be/vps13_*IS\n
+{=I have chosen to tag this as "fame is to them" i.e. "that is their\n
+reputation". LOS could alternatively be tagged "loss" and the phrase\n
+mean "perdition is to them" i.e. "damn them". But the sense of "loss"\n
+meaning "damnation" is only attested in MED from somewhat later than\n
+this text. Both possibilities do seem open however=}  \n
+{.}\n
+{\\\\}\n
+{~f125v~}\n
+$ah/int_*A\n
+$when/cj_WENNE\n
+$/P11N_*I\n
+$think/vps11_THENKE\n
+$on{re}/pr_ON\n
+$thing/npl<pr_THINGR+ES $/pln<pr_+ES\n
+$3/qc<pr{rh}_THRE\n
+{.\'}\n
+$sorry/aj_SORI\n
+$may/vps13_MAI\n
+$/P11G+H_MY\n
+$heart/n_HERTE\n
+$be/vi{rh}_BExEx $/vi[V]{rh}_0\n
+{.}\n
+{\\}\n
+$/TN_*THAT\n
+$1/qcpn_ON\n
+$/P13NI_HIT\n
+$say/vps13_SEI+S $/vps13[V]_+S\n
+$/P11N_*I\n
+$shall/vps11_SCHAL\n
+$away/av{rh}_A+WAI $a-/xp-av_A+\n
+{.\'}\n
+$/TN_THAT\n
+$2/qcpn_OTHER\n
+$say/vps13_SEI+S $/vps13[V]_+S\n
+$/P11N_*I\n
+$witannot/vps11_N+OT $n-/xp-neg_N+\n
+$which/aj-av_WIL\n
+$day/n-av{rh}_DAI\n
+{.}\n
+{\\}\n
+$for/pr_*FOR\n
+$/T<pr_THE\n
+$3/qopn<pr_THRIDDE\n
+$/P11N_*I\n
+$have/vps11_HAUE\n
+$most/ajOd_MOST\n
+$care/nOd{rh}_KARE\n
+{.}\n
+$that/cj_THAT\n
+$/P11N_*I\n
+$/neg-v_NE\n
+$witan/vps11_WOTH\n
+$how/av_HOU\n
+$/P11N_*I\n
+$shall/vps11_SCHAL\n
+$faran/vi{rh}_FAR+E $/vi{rh}_+E\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

@@ -1,0 +1,143 @@
+# 18\n
+{Oxford, Bodleian Library, Bodley 42, fol. 250r: Candet Nudatum Pectus, etc}\n
+C13b2-C14a1\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - basic proto-Gothic book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f250r~}\n
+{=The English version of Candet nudatum pectus starts the folio and is\n
+not preceded by a Latin version=}\n
+{>.360.>\n
+{=ins, in top margin, medieval foliation=}\n
+{>.A.>}\n
+{=ins in top margin of first column - second column is marked .B.=} \n
+$white/aj_*WIT\n
+$be/vpt13_WAS\n
+$/P13GM_HIS\n
+$naked/aj_NAKEDE\n
+$breast/n_BREST\n
+{.}\n
+$&/cj_AND\n
+$red/aj_RED\n
+$of/pr_OF\n
+{\\}\n
+$blood/n<pr_BLOD\n
+$/P13GM_HIS\n
+$side/n{rh}_SIDE\n
+{.}\n
+$bloody/aj_*BLOD $-ig/xs-aj_0\n
+$be/vpt13_WAS\n
+$/P13GM_HIS\n
+$fair/aj_FAIRE\n
+$neb/n_NEB\n
+{.}\n
+{\\}\n
+$/P13GMpl_HIS\n
+$wound/npl_WND+EN $/pln_+EN\n
+$deep/ajpl_DEP+E $/plaj_+E\n
+$&/cj_AN\n
+$wide/ajpl{rh}_UID+E $/plaj{rh}_+E\n
+{.}\n
+$stark/ajpl_STARK+E $/plaj_+E\n
+$be/vpt23_WAREN\n
+{\\}\n
+$/P13GMpl_HIS\n
+$arm/npl_ARM+ES $/pln_+ES\n
+{.}\n
+$spread/vpp-pl_HI-SPRED $ge-/xp-vpp_HI-\n
+$upon{p}/pr_OP-ON\n
+$/T<pr_yE\n
+$rood/n<pr{rh}_RODE\n
+{.}\n
+$in{p}/pr_*IN\n
+{\\}\n
+$5/qc_FIF\n
+$stead/npl<pr_STED+EN $/pln<pr_+EN\n
+$on{p}/pr_AN\n
+$/P13GM_HIS\n
+$body/n<pr_BODI\n
+$stream/npl_STREM+ES $/pln_+ES\n
+$run/vSpt23_HURN+E $/vSpt23_+E\n
+{\\}\n
+$of/pr_OF\n
+$blood/n<pr{rh}_BLODE\n
+{.}\n
+{(*SIC DEus COGITARE DE christ^O PASSO. \\ & DoloREm . O BONE IHesU .(}\n
+$white/aj_WIT\n
+$be/vpt13_WAS\n
+{(& Cetera. HIC \\ DICit AUGustinus. CANDET & Cetera.(}\n
+{\\\\}\n
+{(*RESPICE In FACIEM christ^I & UIDEBIS DORSO FLA\\GELLATO . LATerE SAUCIATO .\n
+CAPITE PUCTO UEPRI\\Bus . MANIBus PerFORATIS . PEDIBus  conFOSSIS . VOLUE\n
+\\ & REUOLUE IlluD DoMiniCUM CORPUS . A LATerE USQue \\ AD LATus A SUmMO\n
+USQue DEORSUm & C^IrCUmQu^Aque InUENI\\ES DOLOReM . & CRUOREm & HOC P^C\n
+ANGLICE SIC EXPONI.(}\n
+{\\}\n
+$look/v-impK2_*LOKE\n
+$man/n-voc_MAN\n
+$to/pr+V_TO\n
+\'_IESU+\n
+$christ/n<pr-t_+CRIST\n
+$nail/vppK2_HI-NEIL+ED $ge-/xp-vpp_HI- $/vpp[L]K2_+ED\n
+$on{p}/pr_AN\n
+$/T<pr_yO\n
+{\\}\n
+$rood/n<pr{rh}_RODE\n
+{.}\n
+$&/cj_AND\n
+$gewis/av_HI-wITZ $ge-/xp-av_HI-\n
+$/P13GM_HIS\n
+$naked/aj<pr_NAKEDE\n
+$body/n<pr_BODI\n
+$red/aj<pr_RED\n
+{.}\n
+$make/vppK2_HI-MAK+ED $ge-/xp-vpp_HI- $/vpp[K]K2_+ED\n
+$mid{w}/pr_MID\n
+$blood/n<pr{rh}_BLODE\n
+{.}\n
+$/P13GM_HIS\n
+$ridge/n_REG\n
+$mid{w}/pr_MID\n
+$scourge/n<pr_SCUR\\GE\n
+$swinge/vSpp_I-SUUNG+E $ge-/xp-vpp_I- $/vSpp_+E\n
+{.}\n
+$/P13GM_HIS\n
+$head/nOd_HEUED\n
+$thorn/npl_yORN+ES $/pln_+ES\n
+$prick/vpt23K2{rh}_PRIK+E\\DE $/vpt23[K]K2{rh}_+E\\DE\n
+{.}\n
+$/TplN_yO\n
+$nail/npl_NAIL+ES $/pln_+ES\n
+$in{p}/pr_IN\n
+$/P13<prM_HIM\n
+$stician/vpt23K2{rh}_STIK+EDE $/vpt23[K]K2{rh}_+EDE\n
+{.}\n
+$wendan/v-imp_wUEND\n
+$&/cj_AND\n
+{\\}\n
+$trendan/v-imp_TREND\n
+$/P12GG+C_yI\n
+$lord/nG_LORD+ES $/Gn_+ES\n
+$body/nOd_BODI\n
+$through/pr_yURCH\n
+$whom/pn<pr_WAM\n
+$/P12N_yU\n
+{\\}\n
+$be/vps12_ART\n
+$beorgan/vSpp{rh}_I+BORUH+E $ge-/xp-vpp_I+ $/vSpp{rh}_+E\n
+{.}\n
+$there/av_yER\n
+$/P12N_yU\n
+$may/vps12_MIT\n
+$find/vi_HI-UInD+E $ge-/xp-vi_HI- $/vi_+E\n
+$blood/nOd_BLO\\DE\n
+$&/cj_AN\n
+$sorrow/nOd{rh}_SORUE\n
+{.}\n
+{=rest of the folio in Latin in the same hand=}\n
+{\\\\}\n
+|\n
+\n
+\n'

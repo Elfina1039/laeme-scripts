@@ -1,0 +1,428 @@
+# 11\n
+{Kew, The National Archives, C66/73 (Patent Roll 43 Henry III), membr. 15 item 40, Chancery enrollment of proclamation in English by Henry III, dated from London, 18 October 1258}\n
+C13b1\n
+545 183 SW\n
+{=W Essex=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - charter hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=Preceding enrollment in Latin=}\n
+{para}\n
+\'_*HENRe\n
+$through/pr_yURg\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$fultum/n<pr_FULTUME\n
+$king/n_KING\n
+$in{p}/pr_ON\n
+;_*ENGLENELOANDE\n
+{.}\n
+$lord/n_*LHOAUERD\n
+$in{p}/pr_ON\n
+;_*YRLOAND~\n
+{=Here ~ represents a stroke through the ascender of D. Such separately\n
+made  strokes through or over final letters or parts of place or\n
+personal names are given this siglum if they do not abbreviate a\n
+substantive part of the name. Where they do, the abbreviation is\n
+expanded according to context=}\n
+{.}\n
+$duke/n_*DUK\n
+$in{p}/pr_ON\n
+;_*NORMande\n
+$in{p}/pr_ON\n
+;_*AQUITAIN~\n
+$&/cj_AND\n
+$earl/n_EORL\n
+$in{p}/pr_ON\n
+;_*ANIOW\n
+$send/vps13-ct_*SEND\n
+$greet/vnOd_I+GRET+INGE $ge-/xp-vn_I+ $/vnOd_+INGE\n
+$to/pr+V_TO\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P13GMpl_HISE\n
+$hold/npl<pr_HOLD+E $/pln<pr_+E\n
+$lae:ran/vpp-ajpl<pr_I+LaeR+DE $ge-/xp-vpp-aj_I+ $/vpp[R]-ajpl<pr_+DE\n
+$&/cj_AND\n
+$lewd/ajpl<pr_I+LEAWED+E $ge-/xp-aj_I+ $/plaj<pr_+E\n
+$in{p}/pr_ON\n
+;_*HUNTENDON~\n
+$shire/n<pr_SCHIRe\n
+{\\}\n
+$that/cj_yaeT\n
+$witan/vps22-apn_WITEN\n
+{*sj context*}\n
+$/P22N_gE\n
+$well{w}/av_WEL\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$that/cj_yaeT\n
+{>}\n
+{=ins, interlined above=}\n
+$/P01N_WE\n
+{>}\n
+$will{mv}/vps01_WILL+EN $/vps01_+EN\n
+$&/cj_AND\n
+$unnan/vps01_VNNEn\n
+$/DatpnOd_yaeT\n
+{.}\n
+$/RTIOd_yaeT\n
+$/P01G_VRE\n
+$rae:dsman/npl_RaeDES-MEN $man/npl-k_-MEN\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$or/cj_OyER\n
+$/TN_yE\n
+$more/aj_MOARE\n
+$deal/n_DaeL\n
+$of/pr_OF\n
+$/P23<pr_HEOM\n
+$/RTApl_yaeT\n
+$be/vps23_BEOy\n
+$choose/vSpp-pl_I+CHOS+EN $ge-/xp-vpp_I+ $/vSpp-pl_+EN\n
+$through/pr_yURg\n
+$/P01<pr_US\n
+$&/cj_AND\n
+$through/pr_yURg\n
+$/T<pr_yaeT\n
+$land/nG_LOAND+ES $/Gn_+ES\n
+$folk/n<pr_FOLK\n
+$in{p}/pr_ON\n
+$/P01G_VRE\n
+$cynerich{k}/n<pr_KUNE+RICHE $rich{k}/n<pr-k_+RICHE\n
+{.\'}\n
+$have/vps23_HABB+Ey $/vps23_+Ey\n
+$do/vSpp_I+DO+N $ge-/xp-vpp_I+ $/vSpp[V]_+N\n
+$&/cj_AND\n
+$shall/vps23_SCHULEn\n
+{\\}\n
+$do/vi_DO+N $/vi[V]_+N\n
+$in{m}/pr_IN\n
+$/T<pr_yE\n
+$worthness/n<pr_WORy+NESSE $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+$god/n<pr_GODE\n
+$&/cj_AND\n
+$in{m}/pr_ON\n
+$/P01G_VRE\n
+$truth/n<pr_TREOW+yE $-th/xs-n<pr_+yE\n
+{.}\n
+$for/pr_FOR\n
+$/T<pr_yE\n
+$fremu/n<pr_FREME\n
+$of/pr_OF\n
+$/T<pr_yE\n
+$land/n<pr_LOANDE\n
+{.}\n
+$through/pr_yURg\n
+$/T<pr_yE\n
+$besight/n<pr_BE+SIg+TE $be-/xp-n_BE+ $-th/xs-n<pr_+TE\n
+$of/pr_OF\n
+$/Tpl<pr_yAN\n
+$beforesay/vpp-ajpl<pr_TO-FOREN+I+SEI+DE $before-/xp-v_TO-FOREN+ $to-/xp-xp_TO- $ge-/xp-vpp-aj_+I+ $/vpp[V]-ajpl<pr_+DE\n
+$rae:dsman/npl_REDES+MEN $man/npl<pr-k_+MEN\n
+{.\'}\n
+$be/vsjps13_BEO\n
+$steadfast/aj_STEDE+FaeST $-fast/xs-aj_+FaeST\n
+$&/cj_AND\n
+$last/vpsp-aj_I+LEST+INDE $ge-/xp-vpsp-aj_I+ $/vpsp-aj_+INDE\n
+$in{m}/pr_IN\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$thing/npl<pr_yING+E $/pln<pr_+E\n
+$bu:tan{w}/pr_ABUTEN\n
+$end/n<pr_aeNDE\n
+{.}\n
+$&/cj_*AND\n
+$/P01N_WE\n
+$ha:tan{c}/vps01_HOAT+EN $/vps01_+EN\n
+{\\}\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+$/P01G_VRE\n
+$true/ajnplOd_TREOW+E $/plajnOd_+E\n
+$in{m}/pr_IN\n
+$/T<pr_yE\n
+$truth/n<pr_TREOW+yE $-th/xs-n<pr_+yE\n
+$/RTIOd_yaeT\n
+$/P23N_HEO\n
+$/P01Oi_VS\n
+$a:gan/vps23_OgEN\n
+{.}\n
+$that/cj_yaeT\n
+$/P23N_HEO\n
+$steadfastly/av_STEDE+FaeST+LICHE $-fast/xs-aj-k_+FaeST+ $-ly/xs-av_+LICHE\n
+$hold/vps23_HEALD+EN $/vps23_+EN\n
+{*sj context*}\n
+$&/cj_AND\n
+$swear/vps23K2[1]_SWER+IEN $/vps23K2[1]_+IEN\n
+{*sj context*}\n
+$to/im+H_TO\n
+$hold/vi-m_HEALD+EN $/vi-m_+EN\n
+$&/cj_AND\n
+$to/im+C_TO\n
+$werian/viK2[1]-m_WER+IEN $/viK2[1]-m_+IEN\n
+$/TplOd_yO\n
+$gesetness/nplOd_I+SET+NESS+ES $ge-/xp-n_I+ $-ness/xs-nplOd_+NESS+ES $/plnOd_+ES\n
+$/RTIpl_yaeT\n
+$be/vps23_BEON\n
+$make/vpp-plK2_MAK+EDE $/vpp[K]-plK2_+EDE\n
+$&/cj_AND\n
+$be/vps23_BEON\n
+$to/im+C_TO\n
+$make/viK2-m_MAK+IEN $/viK2-m_+IEN\n
+$through/pr_yURg\n
+$/Tpl<pr_yAN\n
+$beforesay/vpp-ajpl<pr_TO-FOREN-I+SEI+DE $before-/xp-v_TO-FOREN- $to-/xp-xp_TO- $ge-/xp-vpp-aj_-I+ $/vpp[V]-ajpl<pr_+DE\n
+$rae:dsman/npl<pr_RaeDES+MEN $man/npl<pr-k_+MEN\n
+{\\}\n
+$or/cj_OyER\n
+$through/pr_yURg\n
+$/T<pr_yE\n
+$more/aj<pr_MOARE\n
+$deal/n<pr_DaeL\n
+$of/pr_OF\n
+$/P23<pr_HEOM\n
+$also/av_ALSWO\n
+$as/av_ALSE\n
+$/P13NI_HIT\n
+$be/vps13_IS\n
+$beforesay/vpp_BI+FOREN-I+SEI+D $before-/xp-v_BI+FOREN- $be-/xp-xp_BI+ $ge-/xp-vpp_-I+ $/vpp[V]_+D\n
+{.}\n
+$&/cj_*AND\n
+$that/cj_yaeT\n
+$each/pn_aeHC\n
+$other/pnX_OyER\n
+$help/vsjps13_HELPE\n
+$/DatpnOd_yaeT\n
+$forto/im+C_FOR-TO $to/im+C-k_-TO\n
+$do/vi-m_DO+NE $/vi[V]-m_+NE\n
+$by/pr_BI\n
+$ilk/Dat<pr_yAN-ILCHE\n
+$oath/n<pr_OyE\n
+$against/pr_A+gENES $a-/xp-pr_A+\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$man/npl<pr_MEN\n
+{.}\n
+$right/nOd_*RIgT\n
+$forto/im+C_FOR-TO $to/im+C-k_-TO\n
+$do/vi-m_DO+NE $/vi[V]-m_+NE\n
+$&/cj_AND\n
+$to/im+C_TO\n
+$fo:n/vi-m_FOANG+EN $/vi-m_+EN\n
+{.}\n
+$&/cj_*AND\n
+$none/pn_NOAN\n
+$/neg-v(<pnN>nor)_NE\n
+$niman/vsjps13_NIME\n
+$of/pr_OF\n
+$land/n<pr_LOANDE\n
+$nor/cj_NE\n
+$of/pr_OF\n
+{\\}\n
+$ae:ht/n<pr_EgTE\n
+{.}\n
+$wherethrough/av-k_WHER+yURg $through/pr-k_+yURg\n
+$/DisN_yIS\n
+$besight/n_BE+SIg+TE $be-/xp-n_BE+ $-th/xs-n_+TE\n
+$may/vsjps13_MUgE\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$lettan/vpp_I+LET $ge-/xp-vpp_I+\n
+$or/cj_OyER\n
+$worse/vppK2_I+WERS+ED $ge-/xp-vpp_I+ $/vpp[S]K2_+ED\n
+$in{m}/pr_ON\n
+$any/aj<pr_ON+IE $-ig/xs-aj<pr_+IE\n
+$wi:se/n<pr_WISE\n
+{.}\n
+$&/cj_*AND\n
+$if/cj_gIF\n
+$any/pn_ON+I $-ig/xs-pn_+I\n
+$or/cj_OyER\n
+$any/pnpl_ON+I+E $-ig/xs-pnpl_+I+E $/plajpn_+E\n
+$come/vps23_CUM+EN $/vps23_+EN\n
+$hereagainst/av-k_HER-ON+gENES $against/pr-k_-ON+gENES $on-/xp-pr_-ON+\n
+{.\'}\n
+$/P01N_WE\n
+$will{mv}/vps01_WILL+EN $/vps01_+EN\n
+$&/cj_AND\n
+$ha:tan{c}/vps01_HOAT+EN $/vps01_+EN\n
+$that/cj_yaeT\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$/P01G_VRE\n
+$true/ajnpl_TREOW+E $/plajn_+E\n
+$/P23Od_HEOM\n
+$hold/vps23_HEALD+EN $/vps23_+EN\n
+{*sj context*}\n
+$deadly/ajplOd_DEAD+LICH+E $-ly/xs-ajplOd_+LICH+E $/plajOd_+E\n
+$foe/nplOd_I+FOA+N $ge-/xp-n_I+ $/plnOd_+N\n
+{.}\n
+$&/cj_*AND\n
+$forthat/cj_FOR-yaeT $that/cj-k_-yaeT\n
+{\\}\n
+$/P01N_WE\n
+$will{mv}/vps01_WILL+EN $/vps01_+EN\n
+$that/cj_yaeT\n
+$/Dispn_yIS\n
+$be/vsjps13_BEO\n
+$steadfast/aj_STEDE+FaeST $-fast/xs-aj_+FaeST\n
+$&/cj_AND\n
+$last/vpsp-aj_LEST+INDE $/vpsp-aj_+INDE\n
+{.\'}\n
+$/P01N_WE\n
+$send/vps01_SEND+EN $/vps01_+EN\n
+$/P22Oi_gEW\n
+$/DisOd_yIS\n
+$writ/nOd_WRIT\n
+$open/ajOd_OPEN\n
+$segnian/vppK2_I+SEIN+ED $ge-/xp-vpp_I+ $/vpp[N]K2_+ED\n
+$with{w}/pr_WIy\n
+$/P01G_VRE\n
+$seal/n<pr_SEEL\n
+{.}\n
+$to/im+H_TO\n
+$hold/vi-m_HALD+EN $/vi-m_+EN\n
+$among/pr_A+MANGES $a-/xp-pr_A+\n
+$/P22<pr_gEW\n
+$in{p}/pr_INE\n
+$hoard/n<pr_HORD\n
+{.}\n
+$witness/n_*WIT+NESSE $-ness/xs-n_+NESSE\n
+$/P01X_VS-SELUEN $-self/xs-pl_-SELUEN\n
+$at/pr_aeT\n
+;_*LUNDEN~\n
+{.}\n
+$/T-av_yANE\n
+$18/qoaj-av_*EgTETENyE\n
+$day/n-av_DAY\n
+{.}\n
+$in{t}/pr_ON\n
+$/T<pr_yE\n
+$month/n<pr_*MONyE\n
+{\\}\n
+$of/pr_OF\n
+$october/n<pr_*OCTOBRe\n
+$in{t}/pr_*IN\n
+$/T<pr_yE\n
+$42/qoaj<pr_*TWO+AND+FOWERTIgyE $2/qc-k_*TWO+ $&/cj_+AND+ $40/qoaj<pr-k_+FOWERTIgyE\n
+$year/n<pr_gEARE\n
+$of/pr_OF\n
+$/P01G_VRE\n
+$crown/vn<prF_CRUN+INGE $/vn<prF_+INGE\n
+{.}\n
+$&/cj_*AND\n
+$/Dispn_yIS\n
+$be/vpt13_WES\n
+$do/vSpp_I+DO+N $ge-/xp-vpp_I+ $/vSpp[V]_+N\n
+$before{p}/pr_aeT+FOREN $at-/xp-pr_aeT+\n
+$/P01G_VRE\n
+$swear/vSpp-ajpl<pr_I+SWOR+ENE $ge-/xp-vpp-aj_I+ $/vSpp[R]-ajpl<pr_+ENE\n
+$rae:dsman/npl<pr_REDES+MEN  $man/npl<pr-k_+MEN \n
+{.}\n
+\'_*BONEFACe\n
+$archbishop/n_*aeRCHE+BISCHOP $arch-/xp-n_*aeRCHE+\n
+$in{p}/pr_ON\n
+;_*KANTerBURe\n
+{.}\n
+\'_*WALTer\n
+$of/pr_OF\n
+;_*CANTELOW\n
+{.}\n
+$bishop/n_*BISCHOP\n
+$in{p}/pr_ON\n
+;_*WIRECHESTRe\n
+{.}\n
+{\\}\n
+\'_*SIMon\n
+$of/pr_OF\n
+;_*MUNTFORT\n
+{.}\n
+$earl/n_*EORL\n
+$in{p}/pr_ON\n
+;_*LEIRCHESTRe\n
+{.}\n
+\'_*RIChard\n
+$of/pr_OF\n
+;_*CLARe\n
+$earl/n_EORL\n
+$in{p}/pr_ON\n
+;_*GLOWCHESTRe\n
+$&/cj_AND\n
+$in{p}/pr_ON\n
+;_*HURTFORD~\n
+{.}\n
+\'_*ROGer-*BIGOD\n
+$earl/n_EORL\n
+$in{p}/pr_ON\n
+;_*NORTHFOLK~\n
+$&/cj_AND\n
+$marshal/n_*MARESCAL\n
+$in{p}/pr_ON\n
+;_*ENGLENELOAND~\n
+{.}\n
+\'_*PERRES\n
+$of/pr_OF\n
+;_*SAUUEYE\n
+{.}\n
+\'_*WILLiam\n
+$of/pr_OF\n
+;_*FORT\n
+$earl/n_EORL+\n
+$in{p}/pr_+ON\n
+;_*AUBEMarle\n
+{\\}\n
+\'_*IOHn\n
+$of/pr_OF\n
+;_*PLESEIZ\n
+{.}\n
+$earl/n_EORL\n
+$in{p}/pr_ON\n
+;_*WAREWIK\n
+\'_*IOHn-*GEFFREES\n
+$son/n_SUNE\n
+{.}\n
+\'_*PERRES\n
+$of/pr_OF\n
+;_*MUNTFORT\n
+{.}\n
+\'_*RIChard\n
+$of/pr_OF\n
+;_*GREY\n
+{.}\n
+\'_*ROGer\n
+$of/pr_OF\n
+;_*MORTEMER\n
+{.}\n
+\'_*IAMES\n
+$of/pr_OF\n
+;_*ALDITHEL\n
+$&/cj_AND\n
+$before{p}/pr_aeT+FOREN $at-/xp-pr_aeT+\n
+$other/pnpl<pr_OyR+E $/plajpn<pr_+E\n
+$enough/ajpl<pr_INOg+E $/plaj<pr_+E\n
+{.}\n
+{=Rest of line blank=}\n
+{\\}\n
+{para}\n
+$&/cj_*AND\n
+$all/ajn_AL\n
+$in{m}/pr_ON\n
+$ilk/Dos<pr_yO-ILCH+E $/plaj<pr_+E\n
+$word/npl<pr_WORD+EN $/pln<pr_+EN\n
+$be/vps13_IS\n
+$send/vpp_I+SEND $ge-/xp-vpp_I+\n
+$into/pr+V_IN-TO $to/pr+V-k_-TO\n
+$evereach/aj<pr_aeURIHCE\n
+$other/aj<pr_OyRE\n
+$shire/n<pr_SHCIRE\n
+$over/pr_OUER\n
+$all/aj<pr_AL\n
+$/T<pr_yaeRE\n
+$cynerich{k}/n<pr_KUNE+RICHE $rich{k}/n<pr-k_+RICHE\n
+$in{p}/pr_ON\n
+;_*ENGLENELOANDE\n
+{.}\n
+$&/cj_*AND\n
+$eke/av_EK\n
+$into{til}/pr+V_IN-TEL $to{til}/pr+V-k_-TEL\n
+;_*IRELONDE\n
+{.}\n
+{=Rest of line blank}\n
+{\\\\}\n
+{=Next enrollment in Latin=}\n
+|\n
+\n
+\n'

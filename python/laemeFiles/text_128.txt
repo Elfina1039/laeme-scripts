@@ -1,0 +1,162 @@
+# 128\n
+{London, Lincoln\'s Inn Hale 135, fol. 137v: Nou sprinkes the sprai}\n
+ca1300\n
+507 395 E\n
+{=N Lincs=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f137v~}\n
+{=The folio contains mostly Latin. The first six manuscript lines are\n
+English. The top left hand corner of the folio is worn and stained\n
+making the first portions of the first three lines difficult to read.\n
+The scribe sometimes has Y for thorn as shown=}\n
+!_*NO[]\n
+!_SPr^I[]+[]S\n
+{[Now springs[}\n
+$/TN_yE\n
+$spray/n{rh}_SPRAI\n
+$all/av_AL\n
+$for/pr_FOR\n
+$love/n<pr_LOUE\n
+{.}\n
+$/P11N+V_ICCHE\n
+$be/vps11_AM\n
+$so/av_SO\n
+$sick/aj_SEEK~\n
+{=~ indicates a stroke through the limb of K=}\n
+{.}\n
+$that/cj_yAT\n
+$sleep/vi_SLEP+EN $/vi_+EN\n
+$/P11N_I\n
+$/neg-v_NE\n
+$may/vps11{rh}_MAI\n
+{.}\n
+$/Dis-av_yIS\n
+$ender/aj-av_ENDRE\n
+$day/n-av{rh}_DEI\n
+$as/cj_ALS\n
+$/P11N_I\n
+$/P11OiX_ME\n
+$ride/vSpt11_RODE\n
+{=I take this to be dative of reference - hence the Oi tag=}\n
+$in{m}/pr_O\n
+$/P11G<pr+C_MI\n
+{\\}\n
+!_[]GE\n
+{[playing[}\n
+$see/vSpt11_S[E]IH\n
+$/P11N_I\n
+$where/av_HWAR\n
+$/AN_A\n
+$little/aj_LITEL\n
+$mae:g{m}/n{rh}_MAI\n
+$beginnan/vSpt13_BI+GAN $be-/xp-v_BI+\n
+$to/im+C_TO\n
+$sing/vi-m{rh}_SINGG+E $/vi-m{rh}_+E\n
+{.}\n
+$/TN_YE\n
+$clot/n_CLOT\n
+$/P13OiM_HIM\n
+$cling/vps13_CLINGG+ES $/vps13[K]_+ES\n
+{.}\n
+$wei/av_WAI\n
+$be/vps13_ES\n
+$/P13OiM_HIM\n
+$in{c}/pr_I\n
+$lovelong/vn<prK2{rh}_LOUUE\\-L[ON]G+[IN]GE $long/vn<prK2{rh}_-L[ON]G+[IN]GE $/vn<prK2{rh}_+[IN]GE\n
+$shall/vps13_SAL\n
+$live/vi_LIBB+EN $/vi_+EN\n
+$ay/av{rh}_AI\n
+{.}\n
+$now/av_*NOU\n
+$spring/vps13_SPr^INK+ES $/vps13[K]_+ES\n
+{(& Cetera.(}\n
+$soon/av_*SON\n
+$/P11N+H_ICCHE\n
+$hear/vpt11_HER+DE $/vpt11[R]_+DE\n
+$/DatOd_yAT\n
+$merry/ajOd_MIRIE\n
+$note/nOd{rh}_NOTE\n
+{.}\n
+$thither/av_YIDER\n
+$/P11N_I\n
+$draw/vSpt11{rh}_DROGH\n
+{.}\n
+$/P11N_I\n
+$find/vSpt11_FONDE\n
+$/P13OdF_HIRE\n
+{\\}\n
+{=Two letters illegible=}\n
+{[in[}\n
+$/A<pr+H_AN\n
+$harbour/n<pr_HERBER\n
+$swo:t/aj<pr{rh}_SWOT\n
+{.}\n
+$under/pr_VNDER\n
+$/A<pr_A\n
+$bough/n<pr{rh}_BOGH\n
+{.}\n
+$with{w}/pr_WITH\n
+$joy/n<pr_IOIE\n
+$enough/aj<pr{rh}_INOGH\n
+{.}\n
+$soon/av_SON\n
+$/P11N+V_I\n
+$ask/vpt11K2_ASK+ED $/vpt11[K]K2_+ED\n
+$/P12N_yOU\n
+$merry/aj-voc_MIRIE\n
+$mae:g{m}/n-voc{rh}_MAI\n
+{.}\n
+$why/av_HWI\n
+$sing/vps12_SINK+ES $/vps12[K]_+ES\n
+$/P12N-as_TOU\n
+$ay/av{rh}_AI\n
+{\\}\n
+$now/av_*NOU\n
+$spring/vps13_SPr^INK+ES $/vps13[K]_+ES\n
+$/TN_YE\n
+$spray/n{rh}_SPRAI\n
+{.}\n
+{(& Cetera.(}\n
+$then/av_yAN\n
+$answer/vpt13K2_AN+SWER+DE $and-/xp-v_AN+ $/vpt13[R]K2_+DE\n
+$/DatN_YAT\n
+$maiden/n_MAID+EN $-en{d}/xs-n_+EN\n
+$swo:t/aj{rh}_SWOTE\n
+{.}\n
+$mid{w}/pr_MIDDE\n
+$word/npl<pr_WORD+ES $/pln<pr_+ES\n
+$few/ajpl<pr{rh}_FEW+E $/plaj<pr{rh}_+E\n
+{.}\n
+$/P11GN+C_MI\n
+$leman/n_LEM+MAN $man/n-k_+MAN\n
+$/P11Oi_ME\n
+{\\}\n
+$have/vps13_HAU+ES $/vps13_+ES\n
+$beha:tan/vSpp{rh}_BI-HOT $be-/xp-v_BI- $/vSpp{rh}_0\n
+$of/pr_OF\n
+$love/n<pr_LOUUE\n
+$true/aj<pr{rh}_TREWE\n
+{.}\n
+$/P13NM_HE\n
+$change/vps13F_CHAUNG+ES $/vps13F_+ES\n
+$anew/av{rh}_A-NEWE $a-/xp-av_A-\n
+{.}\n
+$if/cj_yIIF\n
+$/P11N_I\n
+$may/vps11{rh}_MAI\n
+{.}\n
+$/P13NI_IT\n
+$shall/vps13_SHAL\n
+$/P13OiM_HIM\n
+$rue/vi{rh}_REW+E $/vi{rh}_+E\n
+{.}\n
+$by{inv}/pr_BI\n
+$/Dis<pr_YIS\n
+$day/n<pr{rh}_DAI\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

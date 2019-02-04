@@ -1,0 +1,78 @@
+# 13\n
+{Durham, Dean & Chapter Library A.III.12, fol. 49r: Candet Nudatum Pectus}\n
+C13a2-b\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - proto-Gothic book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=This is an inserted strip of vellum and contains a fragment of a\n
+previous piece in Latin of which the last line begins: INDE FLUXISSE and\n
+then the Latin text of Candet Nudatum Pectus, in a hand different from\n
+the following English version=}\n
+{~f49r~}\n
+{para}\n
+{)(IDem . *ATTENDE QuoD CANDET NUDATUm Pe^CTUS . RUBET Cr^UENTUm LATUS .\n
+\\ *TENSA ARENT UISC^IrA . *DECORA LANQueNT LUMINA . *REGIA PALLENT ORA\n
+\\ *ProCERA RIGENT Br^ACHIA . Cr^URA PENDENT MARMOREA . TEREBRATOS PEDES\n
+\\ BEATI SANGu^INIS UNDA()} \n
+$white/aj_WYTH\n
+{>)WHITE)>}\n
+{=ins, in left hand margin, glossing WYTH, in modern hand=}\n
+$be/vpt13_WAS\n
+$/P13GM_HYS\n
+{>}\n
+{=ins, interlined above=}\n
+$naked/aj_NAKEDE\n
+{>}\n
+$breast/n_BREST\n
+$&/cj_AND\n
+$red/aj_RED\n
+$of/pr_OF\n
+$blood/n<pr_BLOD\n
+$/P13GM_HYS\n
+$side/n{rh}_SYDE\n
+{.}\n
+$bla:c/aj_*BLEYC\n
+$be/vpt13_WAS\n
+$/P13GM_HYS\n
+$fair/aj_FAIR\n
+$andwlita/n_HAND+LED $and-/xp-n_HAND+\n
+{=sic=}\n
+{.}\n
+{>)HANDS)>}\n
+{=ins, in right hand margin, misglossing HANDLED, in modern hand=}\n
+$/P13GM_HYS\n
+$wound/n_WNDE\n
+$deep/aj_DOP\n
+$&/cj_ANT\n
+$wide/aj{rh}_WYDE\n
+{.}\n
+$&/cj_*AND\n
+$/P13GMpl_HYS\n
+$arm/npl_ARM+ES $/pln_+ES\n
+$stretch/vpp-pl_Y+STREITH $ge-/xp-vpp_Y+\n
+$high/av_HEY\n
+$upon{p}/pr_UP-HON\n
+$/T<pr_yE\n
+$rood/n<pr{rh}_RODE\n
+{.}\n
+{>)HIGH UPON Y^E RODE PRO ROOD \\ IE CROSSE)>}\n
+{=ins, in right hand margin in modern hand=}\n
+$in{p}/pr_*ON\n
+$5/qc_FIF\n
+$stead/npl<pr_STUD+ES $/pln<pr_+ES\n
+{>)STUDS IE WOUNDS)>}\n
+{=ins, in bottom margin, misglossing STUDES, in modern hand=}\n
+$on{p}/pr_ON\n
+$/P13GM_HYS\n
+$body/n_BODY\n
+$/TplN_yE\n
+$stream/npl_STREM+ES $/pln_+ES\n
+$run/vSpt23_RAN $/vSpt23_0\n
+$of/pr_O\n
+$blood/n<pr{rh}_BLODE\n
+{\\\\}\n
+|\n
+\n
+\n'

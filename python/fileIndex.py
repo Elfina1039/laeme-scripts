@@ -171,6 +171,8 @@ input["293"]="linzbt.tag"
 
 texts=[]
 
+texts.append({"id":0, "file":"titusart.tag"})
+
 for i in input:
     texts.append({"id":int(i), "file":input[i]})
     

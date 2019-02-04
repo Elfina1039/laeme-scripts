@@ -1,0 +1,142 @@
+# 125\n
+{Herefordshire Record Office AL 19/2, Registrum Ricardi de Swinfield, fol. 152r: Bromfield Writ}\n
+C14a1\n
+351 239 W\n
+{=Hereford, Herefords=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - not seen. Transcript by Rosalind Caird=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f152r~}\n
+\'_*EDWARD\n
+$king/n-t_KYNGe\n
+{=Final G has a looped abbreviation like that used in later scripts for\n
+plural +es=}\n
+$greet/vps13-ct_GRET\n
+\'_*ELDRED\n
+$archbishop/nOd-t_*ERCHE+BISSOP $arch-/xp-n_*ERCHE+\n
+$&/cj_AND\n
+\'_*BEGARD\n
+$bishop/nOd-t_*BISSOP\n
+$&/cj_AND\n
+\'_HARALD\n
+$earl/nOd-t_*EORL\n
+$&/cj_AND\n
+$all/ajplOd_ALL+E $/plajOd_+E\n
+{\\}\n
+$/P11GOdpl+C_MYNE\n
+$thane/nplOd_yEYN+ES $/plnOd_+ES\n
+$of/pr_OF\n
+;_*HEREFORDSHIRE\n
+{>}\n
+{=ins, internlined above=}\n
+$&/cj_AND\n
+$of/pr_OF\n
+;_*SALOPPSHIRE\n
+{>}\n
+$&/cj_AND\n
+$/P11N_ICH\n
+$cy:Yan/vps11_COUyE\n
+$/P22Oi_OW\n
+$that/cj_yAT\n
+$/P11N+H_ICH\n
+$have/vps11_HABBE\n
+$give/vSpp_zEU+EN $/vSpp_+EN\n
+$saint/nOi-t_SEYNTE\n
+\'_MARIE\n
+$mother/nOi_MODER\n
+{\\}\n
+$christ/nG_CRIST+ES $/Gn_+ES\n
+$minster/nG_MUNSTR+ES $/Gn_+ES\n
+$&/cj_AND\n
+$/P11GOipl+C_MYNE\n
+$clerk/nplOi_CLERK+ES $/plnOi_+ES\n
+$of/pr_OF\n
+;_BROMFELDE\n
+$/RTApl_yAT\n
+$in{p}/pr_IN\n
+$/T<pr_yOEN\n
+$minster/n<pr_MUNSTRE\n
+$wunian/vps23K2_WON+YETH $/vps23K2_+YETH\n
+$in{m}/pr_ON\n
+$christ/nG_CRIST+ES $/Gn_+ES\n
+{\\}\n
+$Ye:owdom/n<pr_yEWE+DOME $-dom/xs-n<pr_+DOME\n
+$that/cj_yAT\n
+$/P23N_HOE\n
+$be/vsjps23_BOE\n
+$on{re}/pr_ON\n
+$/P23G_HORE\n
+$sacu/n<pr_SAKE\n
+$worth/ajpl_WORy+E $/plaj_+E\n
+$&/cj_AND\n
+$/P23G_HORE\n
+$so:cn/n<pr_SOKENE\n
+$of/pr_OF\n
+$/P23G_HORE\n
+$land/n<pr_LAND\n
+$&/cj_AN\n
+$griY/nG_GRYy+ES $/Gn_+ES\n
+$bryce/nG_BRU\\CH+ES $/Gn_+ES\n
+$&/cj_AND\n
+$ha:mso:cn/nG_HOME+SOKEN+E $so:cn/nG-k_+SOKEN+E $/Gn_+E\n
+$&/cj_AND\n
+$foresteall/nG_FOR+STALL+ES $fore-/xp-n_FOR+ $/Gn_+ES\n
+$&/cj_AND\n
+$infangenethief/nG_IN+FONGGENE+yEU+ES $in-/xp-n_IN+ $thief/nG-k_+yEU+ES $/Gn_+ES\n
+$&/cj_AND\n
+$each/ajG_ULK+ES $/Gaj_+ES\n
+$wi:te/nG_WYT+ES $/Gn_+ES\n
+$worth/ajpl_WORTH+E $/plaj_+E\n
+$binnan/pr_BYNNE\n
+$burh/n<pr>_BUR\\CH\n
+$&/cj_AND\n
+$without{os}/pr<_WIT-OUTEN+ $out/pr-k_-OUTEN+\n
+$toll/nG_+TOLL+ES $/Gn_+ES\n
+$&/cj_AND\n
+$te:am/nG_TEAM+ES $/Gn_+ES\n
+$of/pr_OF\n
+$strand/n<pr_STRONDE\n
+$&/cj_AND\n
+$of/pr_OF\n
+$stream/n<pr_STREME\n
+{.}\n
+$&/cj_AND\n
+$/P11N_ICH\n
+$willnot/vps11_N+ULLE $n-/xp-neg(>neithernor>ajN>but)_N+\n
+$Yolian/viK2_yOL+YEN $/viK2_+YEN\n
+{\\}\n
+$that/cj_yAT\n
+$anyman/n_EN+Y+MAN $-ig/xs-aj-k_+Y+ $man/n-k_+MAN\n
+$anything/nOd_EN+Y+yYNG $-ig/xs-aj-k_+Y+ $thing/nOd-k_+yYNG\n
+$oversee/vsjps13_OUER+SOE $over-/xp-v_OUER+\n
+$neither/cj>=_NOUyER\n
+$bishop/n_*BISSOP\n
+$nor/cj<=_NE\n
+$no/aj+V_NAN\n
+$other/aj_OyER\n
+$man/n_MAN\n
+$bu:tan{e}/av_BOTEN\n
+$lookwho/pn_LOKE+WO $who/pn-k_+WO\n
+$/P13XM_YS+SELF $-self/xs_+SELF\n
+$will{mv}/vps13_WOLLE\n
+{\\}\n
+$&/cj_AND\n
+$/P11N_ICH\n
+$willnot/vps11_N+ULLE $n-/xp-neg_N+\n
+$Yafian/viK2_zE-yAW+YEN $ge-/xp-vi_zE- $/viK2_+YEN\n
+$that/cj_yAT\n
+$anyman/n_EN+Y+MAN $-ig/xs-aj-k_+Y+ $man/n-k_+MAN\n
+$/DispnOd_yYS\n
+$abreak/vsjps13_A+BREKE $a-/xp-v_A+\n
+$by/pr_BY\n
+$/P11G<pr+C_MYNE\n
+$freeship/n<pr_FRO+SHYPE $-ship/xs-n<pr_+SHYPE\n
+{.}\n
+$sound/ajplOd_*SOUND $/plajOd_0\n
+$/P22OdX_OW\n
+$hold/vsjps22_zE-HOLDEN $ge-/xp-vsjps22_zE-\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

@@ -1,0 +1,92 @@
+# 127\n
+{Cambridge, Sidney Sussex College 97 (D.5.12), fol. 111r: Candet Nudatum Pectus}\n
+C13a2-b1\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - small cursive Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f111r~}\n
+{=This folio a former paste down with names and pen trials in various\n
+other hands and the Candet verses first in Latin and then in an unusual\n
+English translation both in the same hand=}\n
+{(*CANDET NUDATUm P^ECTUS . RUBET SANGUINEUm LATUS . TENSA AREnT VISCerA .\n
+\\ DECORA LANGUEnT LUMINA . REGIA PALLEnT ORA . ProCerA RIGEnT Br^AGIA . \\\n
+*CRURA PENDEnT MARMOREA . & TEREBr^ATOS PEDES .\' RIGAT BEATI SANGUINIS \\\n
+UNDA .(}\n
+{\\}\n
+{=Two empty lines=}\n
+$/P13GM_*HIS\n
+$unwre:on/vSpp-aj_VN+WROW+ENE $un-/xp-v_VN+ $/vSpp-aj_+ENE\n
+$breast/n_BRESTE\n
+$beginnan/vSpt13_BI+GAN $be-/xp-v_BI+\n
+$to/im+C_TO\n
+$shine/vi-m_SYN+E $/vi-m_+E\n
+{.\'}\n
+$/P13GM_HIS\n
+$bloody/vppK2-aj_BLODEG+EDE $/vpp[J]K2-aj_+EDE\n
+$side/n_SIDE\n
+$beginnan/vSpt13_BI+GAN $be-/xp-v_BI+\n
+{\\}\n
+$to/im+C_TO\n
+$rudian/viK2-m_RUD+IEn $/viK2-m_+IEn\n
+{.}\n
+$stretch/vpp-aj_I+STREIT $ge-/xp-vpp-aj_I+\n
+$body/n_BODI\n
+$beginnan/vSpt13_BI+GAN $be-/xp-v_BI+\n
+$to/im+C_TO\n
+$dru:gian/viK2-m_DRUIU+EN $/viK2-m_+EN\n
+{.}\n
+$/P13GMpl_HIS\n
+$fair/ajpl_FAIR+E $/plaj_+E\n
+$eye/npl_EIENE\n
+$beginnan/vSpt23_BI+GAN $be-/xp-v_BI+ $/vSpt23_0\n
+$to/im+C_TO\n
+{\\}\n
+$dwi:nan/vi-m_DWINN+IEN $/vi-m_+IEN\n
+{.}\n
+$/TG_THE\n
+$king/nG_KING+ES $/Gn_+ES\n
+$lip/npl_LIPP+ES $/pln_+ES\n
+$beginnan/vSpt23_BI+GANN+E $be-/xp-v_BI+ $/vSpt23_+E\n
+$to/im+C_TO\n
+$wanian/viK2-m_WANN+IE $/viK2-m_+IE\n
+{.}\n
+$/P13GMpl_HIS\n
+$long/ajpl_LONG+E $/plaj_+E\n
+$arm/npl_EREM+ES $/pln_+ES\n
+{\\}\n
+$beginnan/vSpt23_BI+GANN+E $be-/xp-v_BI+ $/vSpt23_+E\n
+$to/im+C_TO\n
+$stiffen/viK2-m_ST>I>VN+IEN $/viK2-m_+IEN\n
+{=or read ST>I>VUIEN=}\n
+{.}\n
+{\\}\n
+$/P13GMpl_HIS\n
+$fair/ajpl_FAIR+E $/plaj_+E\n
+$thigh/npl_THI+ES $/pln_+ES\n
+$beginnan/vSpt23_BI+GANN+E $be-/xp-v_BI+ $/vSpt23_+E\n
+$to/im+C_TO\n
+$cealdian/viK2-m_CHELD+I $/viK2-m_+I\n
+{.}\n
+$in{m}/pr_*A\n
+$stream/nG_STREM+ES $/Gn_+ES\n
+{<[]SE<}\n
+{=A word, perhaps a form of "wise" obliterated at the end of the line=}\n
+{\\}\n
+$wi:se/n<pr_WYSE\n
+{<OF []<}\n
+{=del, second word illegibly obliterated=}\n
+$of/pr_OF\n
+$/Dat<pr_yAT\n
+$blood/n<pr_BLOD\n
+$from/pr+H_FRO\n
+$/P13GM_HIS\n
+$bore/vppK2-aj<pr_BOR+EDE $/vpp[R]K2-aj<pr_+EDE\n
+$foot/n<pr_FOT\n
+{.}\n
+{\\\\}\n
+{=Notes and pen trials in Latin=}\n
+|\n
+\n
+\n'

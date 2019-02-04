@@ -1,0 +1,587 @@
+# 228\n
+{Oxford, Bodleian Library, Rawlinson G 18, fols. 105v-106r: World\'s bliss}\n
+C13b\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Textura semiquadrata=}\n
+{=The first stanza (up to the first line of fol. 106r) is written\n
+beneath the music, interlined. Verse lines are not preserved.\n
+Thereafter the poem is simply written out as prose=}\n
+{~f105v~}\n
+$world/nG_*WORLD+ES+ $/Gn_+ES+\n
+{=Enlarged coloured initial *W reaching up to the level of top of the\n
+musical stave above=}\n
+$bliss/n_+BLIS\n
+$/neg-v(>av)_NE\n
+$last/vps13-ct_LAST\n
+$no/aj-av+C_NO\n
+$Yra:g/n-av{rh}_yROWE\n
+{.}\n
+$/P13NI_HIT\n
+$wi:tan{d}/vps13-ct_WIT\n
+{\\}\n
+$&/cj_ANT\n
+$wendan/vps13-ct_WEND\n
+$away/av_A-WEY $a-/xp-av_A-\n
+$anon/av{rh}_A-NON\n
+{.}\n
+$/D-cpv_yE\n
+$long/av-cpv_LENG+UR $-er/xs-cpv-av_+UR\n
+$that/cj_yAT\n
+{\\}\n
+$/P11N+H_HICH\n
+$/P13OdI_HIT\n
+$know/vps11{rh}_I-KNOWE $ge-/xp-vps11_I-\n
+{.}\n
+$/D-cpv_yE\n
+$less/av_LASSE\n
+$/P11N_HIC\n
+$find/vps11_FINDE\n
+$pris/nOd_PRIS\n
+{\\}\n
+$therein{p}/av-k{rh}_yER-ON $in{p}/pr-k{rh}_-ON\n
+{.}\n
+$for/cj_FOR\n
+$all/av_AL\n
+$/P13NI_HIT\n
+$be/vps13_IS\n
+$mengan/vpp_I+MEYN+D $ge-/xp-vpp_I+ $/vpp[N]_+D\n
+$with{w}/pr_WYD\n
+$care/n<pr{rh}_KARE\n
+{.}\n
+{\\}\n
+$mid{w}/pr_MID\n
+$sorrow/n<pr_SOREWE\n
+$&/cj_ANT\n
+$with{w}/pr_WID\n
+$evil/aj<pr_UUEL\n
+$faru/n<pr{rh}_FARE\n
+{.}\n
+$&/cj_ANT\n
+$at/pr_AT\n
+{\\}\n
+$/T<pr_yE\n
+$last/n<pr_LASTE\n
+$poor/ajOd_POUERE\n
+$&/cj_ANT\n
+$bare/ajOd{rh}_BARE\n
+$/P13NI_HIT\n
+$lae:tan/vps13-ct_LET\n
+{"forsakes"}\n
+$man/nOd_MON\n
+$when/cj_WEN\n
+$/P13NI_HIT\n
+$ginnan{a}/vps13_GINN+ET $/vps13[N]_+ET\n
+$ago/vi{rh}_A-GO+N $a-/xp-v_A- $/vi[V]{rh}_+N\n
+{=CB13 prints GON=}\n
+{.}\n
+$all/aj_AL\n
+$/TN_yE\n
+$bliss/n_BLISSE\n
+{\\}\n
+{~f106r~}\n
+$/RTI_y+\n
+$be/vps13_+IS\n
+$here/av_HERE\n
+$&/cj_ANT\n
+$there/av{rh}_yERE\n
+$belu:can/vps13_BI-LOUK+ETH $be-/xp-v_BI- $/vps13[K]_+ETH\n
+$at/pr_AT\n
+$end/n<pr_HENDE\n
+$wo:p/nOd_WOP\n
+$&/cj_ANT\n
+$moan/nOd{rh}_*MON\n
+{.}\n
+{\\}\n
+$all/ajn_*AL\n
+{=Coloured initial *A=}\n
+$shall/vps13_SHAL\n
+$go/vi_GO+N $/vi[V]_+N\n
+$/RTIOd_yAT\n
+$here/av_HER\n
+$man/n_MON\n
+$a:gan/vps13{rh}_HOWET\n
+{.}\n
+$all/aj_AL\n
+$/P13NI_HIT\n
+$shall/vps13_SHAL\n
+$wendan/vi_WEND+EN $/vi_+EN\n
+$to/pr_TO\n
+{\\}\n
+$naught/n<pr{rh}_NOUT\n
+{.}\n
+$/TN_yE\n
+$man/n_MON\n
+$/RTA_yAT\n
+$here/av_HER\n
+$no/ajOd+C_NO\n
+$good/nOd_GOD\n
+$/neg-v(<aj)_NE\n
+$sow/vps13{rh}_SOW+ET $/vps13[W]{rh}_+ET\n
+{.}\n
+$when/cj_WEN\n
+$other/pnpl_OyER $/plajpn_0\n
+$reap/vps23_REP+EN $/vps23_+EN\n
+$/P13NM_HE\n
+{\\}\n
+$weorYan/vps13-ct_WORTH\n
+$bikeren/vpp_BI+KER+T $be-/xp-v_BI+ $/vpp[R]_+T\n
+{=This verb usually means "attack". It is not apparent what the present\n
+scribe means by it. The rhyme is spoiled here and CB13 emends to BIKAKT\n
+"beguiled" from bicacchen=}\n
+{.}\n
+$think/v-imp_yENC\n
+$man/n-voc_MON\n
+$forthy/av_FOR-yI $Yy:/av-k_-yI\n
+$while/cj_WIL\n
+$/P12N_yU\n
+$have/vps12_HAU+EST $/vps12_+EST\n
+$might/nOd{rh}_MYKTE\n
+{.}\n
+$that/cj_yAT\n
+$/P12N_yU\n
+{\\}\n
+$/P12GOdpl+C_yINE\n
+$guilt/nplOd_GULT+US $/plnOd_+US\n
+$here/av_HERE\n
+$aright/vsjps12{rh}_A+RIKTE $a-/xp-v_A+\n
+$&/cj_ANT\n
+$work/vsjps12_WRCHE\n
+$good/nOd_GOD\n
+$by{t}/pr_BI\n
+$day/n<pr_DAY\n
+$&/cj_AN\n
+$night/n<pr{rh}_NIKTE\n
+{.}\n
+$erethat/cj_AR\\-yEN $Yan/cj-k_-yEN\n
+$/P12N_yU\n
+$be/vsjps12_BE\n
+$of/pr_OF\n
+$lis/n<pr_LISSE\n
+$laeccan/vpp{rh}_I+LAK+T $ge-/xp-vpp_I+ $/vpp[K]{rh}_+T\n
+{.}\n
+$/P12N_yU\n
+$witannot/vps12_N+OST $n-/xp-neg_N+\n
+$when/av_WANNE\n
+$christ/n_CRIST\n
+$/P21G_URE\n
+$dryhten/n{rh}_DRIKTE\n
+{.}\n
+{\\}\n
+$/P12Od_yE\n
+$ask/vps13K2_ASK+ET $/vps13[K]K2_+ET\n
+$/RTIOd_yAT\n
+$/P13NM_HE\n
+$have/vps13_HAU+ET $/vps13_+ET\n
+$betae:can/vpp{rh}_BI+TAK+T $be-/xp-v_BI+ $/vpp[K]{rh}_+T\n
+{.}\n
+$all/ajOd_*AL+\n
+{=Coloured initial *A=}\n
+$/TOd_+yE\n
+$bliss/nOd_BLISSE\n
+$of/pr_OF\n
+$/Dis<pr_yISSE\n
+$life/n<pr{rh}_LIUE\n
+{.}\n
+$/P12N_yU\n
+{\\}\n
+$shall/vps12_SHALT\n
+$man/n-voc_MON\n
+$end/viK2_HEND+EN $/viK2_+EN\n
+$in{c}/pr_IN\n
+$wo:p/n<pr{rh}_WEP\n
+{.}\n
+$of/pr_OF\n
+$house/n<pr_HUSE\n
+$&/cj_ANT\n
+$home/n<pr_HOME\n
+$&/cj_ANT\n
+$child/n<pr_CHILD\n
+$&/cj_ANT\n
+{\\}\n
+$wife/n<pr{rh}_WYUE\n
+{.}\n
+$sae:lig/aj-voc_SEL+I $-ig/xs-aj-voc_+I\n
+$man/n-voc_MON\n
+$take/v-imp_TAK\n
+$thereof/av-k_yER-OF $of/pr-k_-OF\n
+$keep/nOd{rh}_KEP\n
+{.}\n
+$for/cj_FOR\n
+$/P12N_yU\n
+$shall/vps12_SHALT\n
+$all/ajOd_AL\n
+$belae:fan/vi_BI+LEU+EN $be-/xp-v_BI+ $/vi_+EN\n
+$here/av{rh}_HERE\n
+{.}\n
+{\\}\n
+$/TOd_yE\n
+$ae:ht/nOd_EYKTE\n
+{<WER<}\n
+{=del, crossed through=}\n
+$whereof/av-k_WERE-OF $of/pr-k_-OF\n
+$lord/n_LOUERD\n
+$/P12N_yU\n
+$be/vpt12{rh}_WERE\n
+{.}\n
+$when/cj_WEN\n
+$/P12N_yU\n
+$licgan/vps12_LI+ST $/vps12[V]_+ST\n
+$man/n-voc_MON\n
+{\\}\n
+$upon{p}/pr_UP-ON\n
+$bier/n<pr{rh}_BERE\n
+{.}\n
+$&/cj_ANT\n
+$sleep/vps12_SLEP+EST $/vps12[P]_+EST\n
+$/AOd_A\n
+$swi:De/av_SWYyE\n
+$dri:/ajOd_DRUYE\n
+$sleep/nOd{rh}_SLEP\n
+{.}\n
+$/neg-v(>aj>but)_NE\n
+$shall/vps12+P_SHAL+TU $/P12N_+TU\n
+$have/vi_HAB+EN $/vi_+EN\n
+{\\}\n
+$with{w}/pr_WIT\n
+$/P12<pr_yE\n
+$no/ajOd+C_NO\n
+$fe:ra/nOd{rh}_FERE\n
+{.}\n
+$bu:tan{e}/pr_BUTTE\n
+$/P12G<prpl+C_yINE\n
+$work/npl<pr_WERK+US $/pln<pr_+US\n
+$in{m}/pr_ON\n
+$/A<pr+H_AN\n
+$heap/n<pr{rh}_HEP\n
+{.}\n
+$man/n-voc_*MON\n
+{=Coloured initial *M=}\n
+$why/av_WI\n
+{\\}\n
+$see/vps12+P_SEE+S+TU $/vps12[V]+P_+S+TU $/P12N-as_+TU\n
+{=Sense here is "perceive", almost "believe to be". I think\n
+this is better than trying to take the word as a form of "set"=}\n
+$love/nOd_LOUE\n
+$&/cj_ANT\n
+$heart/nOd{rh}_HERTE\n
+{.}\n
+$on{p}/pr_ON\n
+$world/nG_WORLD+ES+ $/Gn_+ES+\n
+$bliss/n<pr_+BLISSE\n
+$/RTI_yAT\n
+$not/neg>v>=_NOUT\n
+$/neg>v<=_NE\n
+$last/vps13-ct{rh}_LAST\n
+{.}\n
+{\\}\n
+$why/av_WY\n
+$Yolian/vps12K2+P_yOL+ES+TU $/vps12[L]K2+P_+ES+TU $/P12N-as_+TU\n
+$/RTIOd-N_yAT\n
+$/P12Oi-ad_TE\n
+$so/av_SO\n
+$often/av_OFTE\n
+$smart/vsjps13{rh}_SMERTE\n
+{.}\n
+$for/pr_FOR\n
+$love/n<pr_LOUE\n
+$/RTI_yAT\n
+$be/vps13_IS\n
+$so/av_SO\n
+$unsteadfast/aj{rh}_UN+STEDE+FAST $un-/xp-aj_UN+ $-fast/xs-aj{rh}_+FAST\n
+{.}\n
+{\\}\n
+$/P12N_yU\n
+$lick/vps12K2_LIK+EST $/vps12[K]K2_+EST\n
+$honey/nOd_HUNI\n
+$of{f}/pr_OF\n
+$thorn/n<pr_yORN\n
+$gewis/av{rh}_I+WIS $ge-/xp-av_I+\n
+{.}\n
+$/RTA_yAT\n
+$see/vps12_SEE+ST $/vps12[V]_+ST\n
+{=See note above=}\n
+$/P12GOd+C_yI\n
+$love/nOd_LOUE\n
+$on{p}/pr_ON\n
+$world/nG_WORLD+ES+ $/Gn_+ES+\n
+$bliss/n<pr{rh}_+BLIS\n
+{.}\n
+{\\}\n
+$for/cj_FOR\n
+$full/aj_FUL\n
+$of/pr_OF\n
+$bitterness/n<pr_BITTER+NIS $-ness/xs-n<pr_+NIS\n
+$/P13NI_HIT\n
+$be/vps13{rh}_IS\n
+{.}\n
+$sore/av_SORE\n
+$/P12N_yU\n
+$may/vps12_MIKT\n
+$be/vi_BE+N $/vi[V]_+N\n
+$ofgasten/vpp{rh}_OF-GAST $of-/xp-v_OF-\n
+{.}\n
+$/RTA_yAT\n
+$dispenden/vps12F_DESPEN\\D+ES $/vps12[D]F_+ES\n
+$here/av_HERE\n
+$ae:ht/nOd_HEIKTE\n
+$amiss/av{rh}_A+MIS $a-/xp-av_A+\n
+$wherethrough/av-k_WER-yURK $through/pr-k_-yURK\n
+$be/vi_BE+N $/vi[V]_+N\n
+$into/pr+H_IN-TO $to/pr+H-k_-TO\n
+$hell/n<pr_HELLE\n
+$teach/vpp{rh}_I+TAK+T $ge-/xp-vpp_I+ $/vpp[K]{rh}_+T\n
+{=The sense here is "enticed" -  see MED s.v. te:chen v. sense 10 (c)=}\n
+{.}\n
+$think/v-imp_*yENC\n
+{=Coloured initial *y=}\n
+{\\}\n
+$man/n-voc_MON\n
+$whereof/av-k_WAR-OF $of/pr-k_-OF\n
+$christ/n_CRIST\n
+$/P12Od_yE\n
+$work/vpt13{rh}_WROUK+TE $/vpt13[K]{rh}_+TE\n
+{.}\n
+$&/cj_ANT\n
+$do/v-imp_DO\n
+$away/av_WEY\n
+$pride/nOd_PRUDE\n
+$&/cj_ANT\n
+$filth/najOd_FUL+THE $-th/xs-najOd_+THE\n
+{\\}\n
+$mood/nOd{rh}_MOD\n
+{.}\n
+$think/v-imp_yENC\n
+$how/av_WOU\n
+$dear/av_DERE\n
+$/P13NM_HE\n
+$/P12Od_yE\n
+$buy/vpt13{rh}_BOK+TE $/vpt13[K]{rh}_+TE\n
+{.}\n
+$on{p}/pr_ON\n
+$rood/n<pr_RODE\n
+$mid{w}/pr_MIT\n
+$/P13GM_HIS\n
+$sweet/aj<pr_SWETE\n
+$blood/n<pr{rh}_BLOD\n
+{.}\n
+{\\}\n
+$/P13OdXM_HIM-SELF $-self/xs-Od_-SELF\n
+$/P13NM_HE\n
+$give/vSpt13_GAF\n
+$for/pr_FOR\n
+$/P12<pr_yE\n
+$in{m}/pr_IN\n
+$pris/n<pr{rh}_PRIS\n
+{.}\n
+$to/im+C_TO\n
+$buy/vi-m_BUG+E $/vi-m_+E\n
+$/P12Oi_yE\n
+$bliss/nOd_BLIS\n
+$if/cj_YF\n
+$/P12N_yU\n
+$be/vsjps12_BE\n
+$wise/aj{rh}_WIS\n
+{.}\n
+{\\}\n
+$bethink/v-imp_BI-yENC $be-/xp-v_BI-\n
+$/P12MX_yE\n
+$man/n-voc_MON\n
+$&/cj_ANT\n
+$uparise/v-imp{rh}_UP-A+RIS  $up-/xp-v_UP- $a-/xp-v_A+\n
+{.}\n
+$of{f}/pr_OF\n
+$sloth/n<pr_SLOV+yE $-th/xs-n<pr_+yE\n
+$&/cj_AN\n
+$ginnan/v-imp_GIN\n
+$to/im+C_TO\n
+$work/vi-m_WORCH+E $/vi-m_+E\n
+$good/nOd{rh}_GOD\n
+{.}\n
+{\\}\n
+$while/cj_WIL\n
+$time/n_TIME\n
+$to/im+C_TO\n
+$work/vi-m_WORCH+EN $/vi-m_+EN\n
+$be/vps13{rh}_IS\n
+{.}\n
+$for/cj_FOR\n
+$else/av_ELLES\n
+$/P12N_yU\n
+$be/vps12_ART\n
+$witless/aj_WIT+LES $-less/xs-aj_+LES\n
+$&/cj_ANT\n
+$wo:d/aj{rh}_WOD\n
+{.}\n
+{\\}\n
+$all/aj-av_*AL+\n
+{=Coloured initial *A=}\n
+$day/n-av_+DAY\n
+$/P12N_yU\n
+$may/vps12_MIKT\n
+$understand/vi{rh}_UNDUR+STOND+E $under-/xp-v_UNDUR+ $/vi{rh}_+E\n
+{=CB13 prints UNDERSTONDE=}\n
+$&/cj_ANT\n
+$/P12GOd-ad+C_TI\n
+$mirror/nOd_MIROUR\n
+$before{p}/pr_BI-FOR $be-/xp-pr_BI-\n
+$/P12<pr_yE\n
+$see/vi{rh}_SE+N $/vi[V]{rh}_+N\n
+{.}\n
+{\\}\n
+{<}\n
+{=del, subpuncted and crossed through. Dittography - see below=}\n
+$how/av_WOU\n
+$/DisN_yIS\n
+$world/n_WORLD\n
+{<}\n
+$what/pn_WAT\n
+$be/vps13_IS+\n
+$to/im+C_+TO\n
+$do/vi-m_DO+N $/vi[V]-m_+N\n
+$&/cj_AN\n
+$to/im+C_TO\n
+$wandian/viK2-m{rh}_WOND+EN $/viK2-m{rh}_+EN\n
+$&/cj_ANT\n
+$what/pn_WAT\n
+$to/im+H_TO\n
+$hold/vi-m_HOL\\D+EN $/vi-m_+EN\n
+$&/cj_ANT\n
+$to/im+C_TO\n
+$flee/vi-m{rh}_FLE+N $/vi[V]-m{rh}_+N\n
+{.}\n
+$for/cj_FOR\n
+$all/aj-av_AL+\n
+$day/n-av_+DAY\n
+$/P12N_yU\n
+$see/vps12_SIG+ST $/vps12[H]_+ST\n
+$with{w}/pr_WID\n
+$/P12G<prpl+V_yIN\n
+$eye/npl<pr{rh}_EGVEN\n
+$how/av_WOU\n
+$/DisN_yIS\n
+{\\}\n
+$world/n_WORLD\n
+$wendan/vps13-ct_WENT\n
+{.}\n
+$&/cj_ANT\n
+$how/av_WOU\n
+$man/npl_MEN\n
+$die/vps23{rh}_DEI+EGT $/vps23[V]{rh}_+EGT\n
+{.}\n
+$/DatpnOd_yAT\n
+$witan/v-imp_WITE\n
+$well{w}/av_WEL\n
+$that/cj_yAT\n
+$/P12N_yU\n
+$shall/vps12_SHALT\n
+{\\}\n
+{<}\n
+{=del, subpuncted=}\n
+$/P12N_yU\n
+{<}\n
+$dre:ogan/vi{rh}_DREIG+EN $/vi{rh}_+EN\n
+$death/nOd_DET\n
+$as/av_AL-SO\n
+$other/aj-indef_AN-OyER $/AN+V_AN-\n
+$do/vps13{rh}_DE+T $/vps13[V]{rh}_+T\n
+{.}\n
+$/neg-v>=_NE\n
+$help/vps13_HELP+UT $/vps13[P]_+UT\n
+$not/neg-v<=(>pn>neg[nor])_NOUT\n
+$there/av_yER\n
+$none/pnOd_NON\n
+$to/im+C_TO\n
+{\\}\n
+$le:ogan/vi-m{rh}_LIG+EN $/vi-m{rh}_+EN\n
+{.}\n
+$/neg-v(>nN>neg[nor])_NE\n
+$may/vps13_MAY\n
+$noman/n_NO-MON $man/n-k_-MON\n
+$be/vi_BU $/vi[V]_0\n
+$death/n>pr_DET\n
+$against/pr<{rh}_A+GEYN $a-/xp-pr_A+\n
+{.}\n
+$/neg-v(>neithernorC)_*NE\n
+{=Coloured initial *N=}\n
+$weorYan/vps13-ct_WORT\n
+$neither/cj>=_NE\n
+$good/n_GOD\n
+{\\}\n
+$there/av_yER\n
+$unforgieldan/vSpp{rh}_UN+FOR+GULD+E $un-/xp-v_UN+ $for-/xp-v_+FOR+ $/vSpp{rh}_+E\n
+$nor/cj<=_NE\n
+$no/aj+V_NON\n
+$evil/n_UUEL\n
+$/neg-v(<norC<ajN)_NE\n
+$weorYan/vps13-ct_WORTH\n
+$unbuy/vpp{rh}_UN-BOK+T $un-/xp-v_UN- $/vpp[K]{rh}_+T\n
+{=MS UNBOUKT with U subpuncted=}\n
+{.}\n
+$when/cj_WANNE\n
+{\\}\n
+$/P12N_yU\n
+$licgan/vps12_LI+ST $/vps12[V]_+ST\n
+$man/n-voc_MON\n
+$under/pr_UNDUR\n
+$molde/n<pr{rh}_MOLDE\n
+{.}\n
+$/P12N_yU\n
+$shall/vps12_SHALT\n
+$have/vi_HAU+EN $/vi_+EN\n
+$as/av_AS+\n
+$/P12N-as_+TU\n
+$have/vps12_HAU+EST $/vps12_+EST\n
+{\\}\n
+$work/vpp{rh}_WROK+T $/vpp[K]{rh}_+T\n
+{.}\n
+$bethink/v-imp_BI-yENC $be-/xp-v_BI-\n
+$/P12MX_yE\n
+$well{w}/av_WEL\n
+$forthy/av_FOR-yI $Yy:/av-k_-yI\n
+$/P11N_HIC\n
+$rae:dan/vps11{rh}_REDE\n
+{.}\n
+$&/cj_ANT\n
+$cleanse/v-impK2_CLANSE\n
+$/P12OdX_yE\n
+$of/pr_OF\n
+$/P12G<prpl+C_yINE\n
+{\\}\n
+$misdeed/npl<pr{rh}_MIS+DED+E $mis-/xp-n_MIS+ $/pln<pr{rh}_+E\n
+{.}\n
+$that/cj_yAT\n
+$/P13NM_HE\n
+$/P12Od_yE\n
+$help/vsjps13_HELPE\n
+$at/pr_AT\n
+$/P12G<pr+C_yINE\n
+$need/n<pr{rh}_NEDE\n
+{.}\n
+$/RTA_yAT\n
+$so/av_SO\n
+$dear/av_DURE\n
+$/P21Od_HUS\n
+$have/vps13_HAU+ED $/vps13_+ED\n
+{\\}\n
+$buy/vpp{rh}_I+BOUK+T $ge-/xp-vpp_I+ $/vpp[K]{rh}_+T\n
+{.}\n
+$&/cj_ANT\n
+$to/pr+H_TO\n
+$heaven/nG_HEUEN+E $/Gn_+E\n
+$bliss/n<pr_BLISSE\n
+$lead/vsjps13{rh}_LEDE\n
+{.}\n
+$/RTI_yAT\n
+$ever/av_EUERE\n
+$last/vps13-ct_LEST\n
+$&/cj_ANT\n
+$fail/vps13Fir_FAIL+ET $/vps13[L]Fir_+ET\n
+$not/neg-v<{rh}_NOUT\n
+{.}\n
+{(AMen(}\n
+{\\\\}\n
+|\n
+\n
+\n'

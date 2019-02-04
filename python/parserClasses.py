@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*-coding:utf-8 -*-
 
-import rawSets
+# import rawSets
 import rawLits
 import rawPhons
 import rawChanges
@@ -14,6 +14,11 @@ import psycopg2.extras as e
 conn=p.connect("dbname='postgres' user='postgres' host='localhost' password='postgrass'")
 c=conn.cursor(cursor_factory=e.DictCursor)
 
+rawSets=[]
+
+c.execute("SELECT members FROM laeme.sets")
+rows=c.fetchall()
+rawSets=list(map(lambda x: x[0], rows))
 
 
 def makeDict(lits):
@@ -94,8 +99,11 @@ class Analysis:
         
     def getLitterae(self):
         rsl=[]
+        
         for i in rawLits.rawLits:
-            rsl.append(Littera(i["lit"],i["cat"],i["ln"]))
+            if("defaultDigraph" not in i.keys()):
+                i["defaultDigraph"]=False
+            rsl.append(Littera(i["lit"],i["cat"],i["ln"],i["defaultDigraph"]))
         
         return rsl
     
@@ -107,7 +115,7 @@ class Analysis:
     
     def getSubstSets(self):
         rsl=[]
-        for i in rawSets.rawSets:
+        for i in rawSets:
             rsl.append(SubstSet(i))
         return rsl   
     
@@ -185,6 +193,7 @@ class Analysis:
         
     def pickPattern(self):
         patt=input("select pattern: " + str(self.lexel.patterns))
+        self.versions=[]
         self.testPatterns([patt])
     
     def allowSet(self):
@@ -194,7 +203,7 @@ class Analysis:
             toAdd=list(self.versions[0].alignments[int(idx[0])].blockedSets[int(idx[1])].members)
             print("adding"+str(toAdd))
             self.substSets.append(SubstSet(toAdd))
-        self.testPatterns(self.lexel.patterns)
+        self.askForTask()
     
     
     def saveLitterae(self):
@@ -267,7 +276,7 @@ class Lexel:
     
     def getMinLength(self):
         rsl=20
-        print(self.forms)
+        #print(self.forms)
         longest=max(list(map(lambda x : len(x),self.forms)))
         for o in self.options:
             if(len(o)==longest):
@@ -282,7 +291,7 @@ class Lexel:
     #filter function selecting digraphs present in the form
         def getDigraphs(x):
             if(x.ln>1 and form.find(x.lit)!=-1):
-                return {"lit":x.lit, "ln":x.ln, "index":form.find(x.lit)}
+                return {"lit":x.lit, "ln":x.ln, "defaultDigraph":x.defaultDigraph ,"index":form.find(x.lit)}
             else:
                 return {}
         
@@ -301,17 +310,27 @@ class Lexel:
         
         # list for all possible split options
         options=[]
-        splits=[list(form)]
+        
        # options.append({"split":basicSplit, "pattern":makeSlots(basicSplit)})
         digraphs=list(filter(None,map(getDigraphs,a.litterae)))
-        combos=[]
+        default=list(filter(lambda x: x["defaultDigraph"],digraphs))
+        optional=list(filter(lambda x: x["defaultDigraph"]==False,digraphs))
+        
+        if(len(default)>0):
+            combos=[default]
+            splits=[]
+        else:
+            combos=[]
+            splits=[list(form)]
+        
+        
             #a.log(digraphs,False)
         
-        if(len(digraphs)>0):
-            for n in range(1,len(digraphs)+1):
-                nComb=list(itr.combinations(digraphs,n))
+        if(len(optional)>0):
+            for n in range(1,len(optional)+1):
+                nComb=list(itr.combinations(optional,n))
                 for nc in nComb:
-                    combos.append(list(nc))
+                    combos.append(list(nc)+default)
                 a.log(combos, False)
         #print(combos)
       
@@ -319,9 +338,8 @@ class Lexel:
         i=0
         
         for cmb in combos:
+            cmb=sorted(cmb, key=lambda x: [-x["defaultDigraph"], -x["ln"]])
             splits.append(getDigrSplits(form,cmb))
-            
-    
             
         for nSplit in splits:
             nOption=Option(nSplit, None);
@@ -329,7 +347,7 @@ class Lexel:
                 options=options+nOption.vcVariants()
             else:
                 options.append(nOption)
-        self.options[form]=OptionSet(form,options, False, [], [])
+        self.options[form]=OptionSet(form,options, False, "0", [], [])
         self.patterns=self.patterns+list(map(lambda x: x.pattern,options))
         
     def calcPattScore(self):
@@ -356,10 +374,14 @@ class Lexel:
 
 class Littera:
     # constant data - litterae with classes and lengths
-    def __init__(self, lit, cat, ln):
+    def __init__(self, lit, cat, ln, defaultDigraph):
         self.lit=lit
         self.cat=cat
         self.ln=ln
+        if(defaultDigraph):
+            self.defaultDigraph=defaultDigraph
+        else:
+            self.defaultDigraph=False
 
 class Option:
     # basic object holding a splitting option and pattern
@@ -377,6 +399,7 @@ class Option:
         
     def makeSlots(self):
         rsl=[]
+        #print(self.split)
         for s in self.split:
             rsl.append(a.litDict[s].cat)
         return ''.join(rsl)
@@ -392,11 +415,12 @@ class Option:
         return rsl
 
 class OptionSet:
-    def __init__(self, form,lst, original, split, versions):
+    def __init__(self, form,lst, original,overlap, split, versions):
         self.form=form
         self.list=lst
         self.patterns=dict.fromkeys(map(lambda x: x.pattern,lst),0)
         self.original=original
+        self.overlap=overlap
         self.split=split
         self.versions=versions
         self.ok=True
@@ -409,19 +433,41 @@ class OptionSet:
         return "\n".join(rsl)
 
     def evaluate(self,pattern):
+        def calcOverlap(patt1, patt2):
+            rsl=""
+            streak=0
+            shift=0
+            x=0
+            while(patt1[x+shift:x+shift+1] and patt2[x:x+1]):
+                if(patt1[x+shift]==patt2[x]):
+                    streak+=1
+                    x+=1
+                else:
+                    rsl=rsl+str(streak)
+                    streak=0
+                    shift-=1
+                    x+=1
+            rsl=rsl+str(streak)
+            return rsl;
+            
         found=False
         for v in self.list:
             if(v.pattern==pattern):
                 found=True
                 original=True
+                overlap=str(len(v.pattern))
                 split=v.split
                 versions=[]
+            else:
+                overlap=calcOverlap(v.pattern, pattern)
         if(found==False):
             original=False
             split=[]
             versions=self.list
-        rsl=OptionSet(self.form,self.list, original, split, versions)
+        rsl=OptionSet(self.form,self.list, original,overlap, split, versions)
         return rsl
+    
+   
     
     def resolvePos(self,index,sset,sType):
         # filling up positions in splits which do not fit the pattern being processed
@@ -433,7 +479,7 @@ class OptionSet:
                 a.log("TRYING: " +v.split[index], False)
                 sSet=sset.projectSet([v.split[index]])
                 #print(sSet.members)
-                if(sSet.isValid(a.substSets) or (sSet.type==sType and sSet.type=="V")):
+                if((sSet.isValid(a.substSets) and sSet.type==sType) or (sSet.type==sType and sSet.type=="V") ):
                     #or (sSet.type==sType or sSet.type=="A")
                     rsl.append(v.split[index])
                     #print(self.form+" : "+rsl)
@@ -481,7 +527,7 @@ class Selection:
         self.selected=[]
         for o in options:
             self.selected.append(options[o].evaluate(self.pattern))
-            self.selected = sorted(self.selected, key=lambda k: -k.original)
+            self.selected = sorted(self.selected, key=lambda k: k.overlap, reverse=True)
         a.log("Selection for pattern: " + pattern + " completed",True)
       
         
@@ -559,8 +605,8 @@ class Version:
             rsl.append(" | ".join(s))
         print("> BLOCKED SETS:")
         
-        for al in self.alignments:
-            al.set.findChanges(Analysis.changes, al.index)
+        #for al in self.alignments:
+        #    al.set.findChanges(Analysis.changes, al.index)
         
         for a in filter(lambda x: len(x.blockedSets)>0,self.alignments):
             #print(a.blockedSets)
@@ -594,7 +640,9 @@ class Alignment:
                         pass
                 # !! adding working options to result set
                 graph=resolved["rsl"]
+                # CONDITION - not provisional version
                 self.set.addMembers(graph)
+                a.log("NEW MEMBER: ("+str(index)+")" + str(graph), False);
                 s.split.append(graph)
                 a.log("RESULT:  "+str(graph), False)
                 a.level=a.level-1
@@ -603,9 +651,12 @@ class Alignment:
                     self.blockedSets=self.blockedSets+resolved["blockedSets"]
                     alternatives=[]
                     for vr in s.versions:
-                        a.log("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),False)
-                        alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
-                    s.versions=s.versions+alternatives
+                        if(index+1<=len(vr.split)):
+                            a.log("adding dashed alternative: " +str(vr.split[0:index]+["_"]+vr.split[index:]),False)
+                            alternatives.append(Option(vr.split[0:index]+["_"]+vr.split[index:],None))
+                        else:
+                            alternatives.append(Option(vr.split+["_"],None))
+                    s.versions=alternatives
                     a.log(s.displayVersions(),False)
                 if((len(selection.pattern)-1)==index):
                     span=index+2
@@ -626,6 +677,7 @@ class SubstSet:
         
     def isValid(self, ssets):
         # comparing the set with existing sets
+        # a.log("---VALIDATING: "+str(self.members), False)
         for s in ssets:
             project=s.projectSet(["_"])
             if(self.members<=project.members and project.type!="I"):

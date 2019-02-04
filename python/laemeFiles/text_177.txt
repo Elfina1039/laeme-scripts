@@ -1,0 +1,113 @@
+# 177\n
+{Oxford, Bodleian Library, Bodley 57, fol 102v: lyric}\n
+c1300\n
+460 302 N\n
+{=Leicester, Leics=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - very small Textura semi-quadrata with cursive\n
+tendencies - proto-Anglicana?=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f102va~}\n
+{=The verse is written at the foot of the folio in two columns of six\n
+short lines. Rough squiggles are used as line fillers to even up the text\n
+blocks. The hand and rubrication are the same as that on the rest of\n
+fol. 102v and on 103r (both Latin) (MB pers. comm.)=} \n
+$when/cj_*V[V]EN\n
+{=Large red initial *V taking up two lines depth=}\n
+{=This reading is to a certain extent conjectural, but a best guess. The\n
+*V is a plain large capital very like a modern Roman capital V. It is\n
+supported by the presence of a marginal guide letter V. The second\n
+letter looks superficially very like the symbol used for Y (in HYS\n
+three times in the poem). It is different from that used for thorn,\n
+having a short first element and a second element sweeping widely to\n
+the left. The letter is dotted in each case. But the second letter in\n
+"when" shows signs of being tampered with, the sweeping tail being\n
+added later and not quite joining. If this were the case, the original\n
+letter would almost certainly have been V and I therefore conjecture\n
+that the dot may well have been supplied later too. Presumably the\n
+scribe began with VEN leaving a gap for the initial *V in order that\n
+together they would produce VV = W. Either he thought better of it, or\n
+some other corrector misunderstood, and tried to change the letter to\n
+a wynn (which one would have to suppose was identical to Y in his\n
+script) after which confusion was worse confounded with the addition\n
+of the capital *V. The scribe does not use wynn anywhere else in the\n
+poem, which (although short) has a number of contexts where it would\n
+have been possible, but he writes W in each case. I am inclined\n
+therefore to assume it was a different scribe who tampered with the\n
+letter. If this hypothesis is right, then *VV restores the original\n
+intended reading=}\n
+$/P11N+V_I\n
+$on{p}/pr_O\n
+$/T<pr_yE\n
+$rood/n<pr_RODE\n
+$see/vi{rh}_SE $/vi[V]{rh}_0\n
+{\\}\n
+$fast/av_*FASTE\n
+$nail/vppK2_NAIL+ED $/vpp[L]K2_+ED\n
+$to/pr_TO\n
+$/T<pr_yE\n
+$tree/n<pr{rh}_TRE\n
+{\\}\n
+\'_*IESU\n
+$/P11GOd+C_MI\n
+$leman/nOd{rh}_LEF+MAN $man/nOd-k{rh}_+MAN\n
+{.}\n
+{\\}\n
+$bind/vSpp_*I+BUND+EN $ge-/xp-vpp_*I+ $/vSpp_+EN\n
+$bla:c/ajOd_BLOC\n
+$&/cj_AN\n
+$bloody/ajOd{rh}_BLOD+I $-ig/xs-ajOd{rh}_+I\n
+{\\}\n
+$&/cj_*AN\n
+$/P13GM_HYS\n
+$mother/n_MODER\n
+$stand/vps13-ct_STANT\n
+$/P13>prM_HIM\n
+$by{p}/pr<{rh}_BI\n
+{.}\n
+{\\}\n
+$weep/vpsp_*WEP+ANDE $/vpsp_+ANDE\n
+$&/cj_AN\n
+\'_*IOHAN\n
+{.}\n
+{\\}\n
+$/P13GM_*HYS\n
+$back/n_BAC\n
+$with{w}/pr_WID\n
+$scourge/n<pr_SCUURGE\n
+$swinge/vSpp{rh}_I+SWUNG+EN $ge-/xp-vpp_I+ $/vSpp{rh}_+EN\n
+{\\}\n
+$/P13GM_*HYS\n
+$side/n_SIDE\n
+$deep/av_DEPE\n
+$sting/vSpp{rh}_I+STUNG+EN $ge-/xp-vpp_I+ $/vSpp{rh}_+EN\n
+{\\}\n
+$for/pr_*FOR\n
+$sin/n<pr_SINNE\n
+$&/cj_AN\n
+$love/n<pr_LOWE\n
+$of/pr_OF\n
+$man/n<pr{rh}_MAN\n
+{.}\n
+{\\}\n
+$well{w}/av_*WEIL\n
+$a:gan/vps11+P_AUT+I $/P11N_+I\n
+$sin/nOd_SINNE\n
+$lae:tan/vi{rh}_LET+E $/vi{rh}_+E\n
+{\\}\n
+$&/cj_*AN\n
+$neb/nOd_NEB\n
+$with{w}/pr_WIT\n
+$tear/npl<pr_TER+ES $/pln<pr_+ES\n
+$wae:tan/vi{rh}_WET+E $/vi{rh}_+E\n
+{\\}\n
+$if/cj_yIF\n
+$/P11N+V_*I\n
+$of/pr_OF\n
+$love/n<pr_LOWE\n
+$can/vps11{rh}_KAN\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

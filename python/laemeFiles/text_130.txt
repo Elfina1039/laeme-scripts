@@ -1,0 +1,43 @@
+# 130\n
+{Oxford, Bodleian Library, Rawlinson C 510, fol. 3r: Fragment of Stella Maris}\n
+C13b1 (ca 1270)\n
+512 369 W\n
+{=Bardney, Central Lincs=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - proto-Gothic book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=These are the last two lines of the lyric Stella Maris, for which see\n
+BL Egerton 613 fol. 2r (text no. 235)=}\n
+{~f3r~}\n
+$so/av_*SO\n
+{=Littera notabilior *S in separate ruled space nearly a centimeter to the\n
+left of the O=}\n
+$hende/aj_HEND\n
+$&/cj_AND\n
+$so/av_SO\n
+$good/aj_GOD\n
+$/P13NM_HE\n
+$be/vps13{rh}_IS\n
+{.}\n
+$/P13NM_HE\n
+$have/vps13_AU+ES $/vps13_+ES\n
+$bring/vpp_BROC+T $/vpp[K]_+T\n
+$/P21Od_US\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+$bliss/n<pr{rh}_BLIS\n
+{.\'}\n
+{\\}\n
+{(*SUPerNI(}\n
+{=Littera notabilior *S separated as above=}\n
+{.}\n
+$&/cj_AND\n
+$dyttan/vpp{rh}_I-DIT $ge-/xp-vpp_I-\n
+$/TOd_yE\n
+$foul/ajOd_FULE\n
+$pit/nOd{rh}_PIT\n
+{(INFERNI(}\n
+{\\\\}\n
+|\n
+\n
+\n
+\n'

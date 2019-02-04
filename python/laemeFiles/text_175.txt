@@ -1,0 +1,121 @@
+# 175\n
+{Oxford, Bodleian Library, Ashmole 360, fol. 145v, hand B: lyric}\n
+C13b2\n
+565 313 N\n
+{=NW Norfolk=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - basic proto-Gothic book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f145vb~}\n
+$when/cj_*QVANNE\n
+$/P11N_*I\n
+{=Capital *I whether here or as a prefix below is bounded by two punctus\n
+which I count as part of the figura and do not transcribe separately=}\n
+$think/vps11_ZENKE\n
+$on{re}/pr_ONNE\n
+$/T<pr_yE\n
+$rood/n<pr{rh}_RODE\n
+$whereupon{p}/av-k_QUOR+UPE\\-ONE $upon{p}/pr-k_+UPE\\-ONE\n
+$/P12N_yU\n
+$stand/vSpt12{rh}_STODE\n
+$sweet/aj-voc_SQUETE\n
+\'_IHesU\n
+$/P11G-voc+C_MI\n
+$leman/n-voc{rh}_LE+MAN $man/n-voc-k{rh}_+MAN\n
+{.}\n
+{\\}\n
+$how/av_*HU\n
+$by{p}/pr_BI\n
+$/P12<pr_yE\n
+$be/vpt13_WAS\n
+$stand/vpsp{rh}_STOND+ENDE $/vpsp{rh}_+ENDE\n
+$/P12GN+C_yI\n
+$mother/n_MODer\n
+$weep/vpsp{rh}_WEP+ENDE $/vpsp{rh}_+ENDE\n
+$&/cj_AN\n
+{\\}\n
+$/P12GN+C_yI\n
+$disciple/n_DISCIPLE\n
+$saint/n-t_SEI\n
+\'_IOHAN\n
+{.}\n
+{\\}\n
+$how/av_*HU\n
+$/P12GN+C_yI\n
+$ridge/n_RIGE\n
+$be/vpt13_WAS\n
+$swinge/vSpp{rh}_*I-SQUNG+EN $ge-/xp-vpp_*I- $/vSpp{rh}_+EN\n
+$&/cj_A\n
+$/P12GN+C_TI\n
+$side/n_SIDE\n
+$throughsting/vSpp{rh}_ZURHC-STUnG+EN $through-/xp-v_ZURHC- $/vSpp{rh}_+EN\n
+{\\}\n
+$for/pr_FOR\n
+$/T<pr_yE\n
+$guilt/n<pr_GILTE\n
+$of/pr_OF\n
+$man/n<pr{rh}_MAN\n
+{.}\n
+{\\}\n
+$how/av_*HU\n
+$/P12GNpl+C_yI\n
+$foot/npl_FET\n
+$bleed/vpt23{rh}_*I-BLEDD+EN $ge-/xp-vpt23_*I- $/vpt23[D]{rh}_+EN\n
+$&/cj_AN+\n
+$/P12GOdpl+H_+TI\n
+$hand/nplOd_HOND+EN $/plnOd_+EN\n
+$/P23N_HE\n
+$spread/vpt23{rh}_SPREDD+EN $/vpt23[D]_+EN\n
+{\\}\n
+$that/cj_yAT\n
+$/P23N_HE\n
+$may/vpt23_MITEN\n
+$tell/vi_TELL+E $/vi_+E\n
+{=MS TELLEN with N subpuncted=}\n
+$/P12GOdpl+C_yI\n
+$bone/nplOd{rh}_BOAN $/plnOd{rh}_0\n
+{.}\n
+{\\}\n
+$how/av_*HU\n
+$/TplN_yE\n
+$stone/npl_STOANN+ES $/pln_+ES\n
+$tobreak/vSpt23{rh}_TO-BREK+EN $to-/xp-v_TO- $/vSpt23{rh}_+EN\n
+$/TplN_yE\n
+$dead/ajnpl_DED+E $/plajn_+E\n
+$arise/vSpt23_A+RIS+EN $a-/xp-v_A+ $/vSpt23_+EN\n
+{\\}\n
+$&/cj_AN\n
+$speak/vSpt23{rh}_SPEK+EN $/vSpt23{rh}_+EN\n
+$/TN_yE\n
+$sun/n_SUNNE\n
+$wax/vSpt13_VEX\n
+$all/av_AL\n
+$wan/aj{rh}_WAN\n
+{.}\n
+{\\}\n
+$no/aj+C_*NO\n
+$selli:c/ajn_SEL+LI $-ly/xs-ajn_+LI\n
+$though/cj_yECH\n
+$/P11N_I\n
+$weep/vps11_WEPE\n
+{*sj context*}\n
+$&/cj_AN\n
+$/P11GOdpl+C_MI\n
+$sin/nplOd_SINN+ES $/plnOd_+ES\n
+$be:tan/vps11_BETTE\n
+{*sj context*}\n
+{.}\n
+$if/cj_IF\n
+{\\}\n
+$/P11N_I\n
+{<LIUE WEL CAN<}\n
+{=del, crossed through=}\n
+$live/viK2_LIU+IEN $/viK2_+IEN\n
+$well{w}/av_WEL\n
+$can/vps11{rh}_CAN\n
+{.}\n
+{(B. *O BONE IHesU(}\n
+{\\\\}\n
+|\n
+\n
+\n'

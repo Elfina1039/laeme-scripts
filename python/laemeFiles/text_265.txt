@@ -1,0 +1,277 @@
+# 265\n
+{Cambridge, Gonville and Caius College 52/29, fol. 43r: Creed, Pater Noster, Ave Maria, In manus tuas}\n
+C13\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - 13th century book hand influenced by documentary script=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=Y and y identical and thorn-like - here realised as Y. W is very\n
+idiosyncratic being formed by a single diagonal first stroke with a\n
+3-shaped broken stroke placed against it - almost like two Vs stacked\n
+rather than properly ligatured. Sometimes punctus appear on either\n
+side of Tironian symbol for \'and\'. These are regarded as part of the\n
+symbol and are not recorded separately as punctuation marks=}\n
+{~f43r~}\n
+{=English texts begin in column b beneath preceding Latin \'Summa qui\n
+dicitur speculum in morum\'=}\n
+{>(\'*CREDO.\'(>}\n
+{=ins, in right hand margin with lines connecting to the first and last\n
+line of the text of the creed=}\n
+{para}\n
+$/P11N+V_*ICH\n
+$believe/vps11_I+LEUE $ge-/xp-vps11_I+\n
+$in{b}/pr_IN\n
+$god/n<pr_GOD\n
+$father/n<pr_FADER\n
+$almighty/aj<pr_AL+MIzT+INDE $mighty/aj<pr-k_+MIzT+INDE $-end/xs-naj_+INDE\n
+$shaper/n<pr_SCHEPP+ARE $-er/xs-agt-n<pr_+ARE\n
+$of/pr_OF+\n
+$heaven/n<pr_+HEUENE\n
+{\\}\n
+$&/cj_ANT\n
+$earth/n<pr_EERTHE\n
+{.}\n
+$&/cj_AANT\n
+$in{b}/pr_IN\n
+\'_IHesU\n
+$christ/n<pr-t_CRIST\n
+$/P21G_OURE\n
+$mae:neli:c/aj<pr_MENE+LICHE $-ly/xs-aj<pr_+LICHE\n
+$lord/n<pr_LOUERD\n
+{.}\n
+{\\}\n
+$/RTA_YAT\n
+$cennan{k}/vpp_KENN+ED $/vpp[N]_+ED\n
+$be/vps13_IS\n
+{.}\n
+$of/pr_OF\n
+$/T<pr_YEN\n
+$holy/aj<pr_HOL+I+ $-ig/xs-aj<pr_+I+\n
+$ghost/n<pr_+GOST\n
+{.}\n
+$born/vSpp_Y+BOR+EN $ge-/xp-vpp_Y+ $/vSpp[R]_+EN\n
+$of/pr_OF\n
+$/T<pr_YEN\n
+$maiden/n<pr_MAY\\D+EN $-en{d}/xs-n<pr_+EN\n
+\'_MARIE\n
+{.}\n
+$pi:nian/vppK2_Y+PIN+ED $ge-/xp-vpp_Y+ $/vpp[N]K2_+ED\n
+$under/pr_UNDER\n
+\'_POUNCE\n
+\'_PILATE\n
+$on{p}/pr_OON\n
+$rood/n<pr_RODE\n
+{\\}\n
+$do/vSpp_Y+DO+N $ge-/xp-vpp_Y+ $/vSpp[V]_+N\n
+{.}\n
+$dead/aj_DET\n
+$&/cj_&\n
+$bury/vpp_I+BUR+ED $ge-/xp-vpp_I+ $/vpp[R]_+ED\n
+{.}\n
+$alight{d}/vpt13_A+LIzSTE $a-/xp-v_A+\n
+$into/pr+H_*IN+THO $to/pr+H-k_+THO\n
+$hell/n<pr_HELLE\n
+{.}\n
+{=Vertical line after punctus, too thick for a virgule - perhaps\n
+intended as a paragraph marker but not certain=}\n
+$/T-av_YENE\n
+$3/qoaj-av_THRID\\DE\n
+$day/n-av_DAY\n
+$arise/vSpt13_A+ROOS $a-/xp-v_A+\n
+$of{f}/pr_OF\n
+$death/n<pr_DET\n
+{.}\n
+$&/cj_&\n
+$sti:gan/vps13_STEH+EY $/vps13[H]_+EY\n
+$into/pr+H_*In+TO $to/pr+H-k_+TO\n
+$heaven/n<pr_HEUENE\n
+{.}\n
+$sit/vps13-ct_SIYT\n
+$on{p}/pr_ON\n
+{\\}\n
+$/P13GM_HIS\n
+$father/nG_FADER $/Gn_0\n
+$right/aj<pr_RITH\n
+$half/n<pr_HALF\n
+$god/nG_GOD+E^S $/Gn_+E^S\n
+$alwealdende/ajG_AL+WELD+InD+E $wealdende/ajG-k_+WELD+InD+E $/vpsp-ajG_+InD+E $/Gaj_+E\n
+{.}\n
+$thence/av_YENENE\n
+$be/vps13_IS\n
+$come/vpsp_COM+InDE $/vpsp_+InDE\n
+{C is T-shaped}\n
+{\\}\n
+$to/im+C_THO\n
+$deem/vi-m_DEM+ENE $/vi-m_+ENE\n
+$quick/ajnplOd_QUIK+E $/plajnOd_+E\n
+$&/cj_&\n
+$/TplOd_YE\n
+$dead/ajnplOd_DEED+E $/plajnOd_+E\n
+{.}\n
+$/P11N_*HICH\n
+$believe/vps11_LEUE\n
+$in{b}/pr_*IN\n
+$/T<pr_YE\n
+$holy/aj<pr_HOL+I+ $-ig/xs-aj<pr_+I+\n
+$ghost/n<pr_+GOST\n
+{.}\n
+{\\}\n
+$holy/aj<pr_HOL+IE $-ig/xs-aj<pr_+IE\n
+$church/n<pr_CHURCHE\n
+{.}\n
+$fe:rrae:den/n<pr_*FERE+RADENE $-rae:den/xs-n<pr_+RADENE\n
+$of/pr_OF\n
+$ha:lga/npl<pr_HALUW+EN $/pln<pr_+EN\n
+{.}\n
+$forgiveness/n<pr_FOR-WIzF+NESSE $for-/xp-n_FOR- $-ness/xs-n<pr_+NESSE\n
+{=sic=}\n
+{\\}\n
+$of/pr_OF\n
+$sin/npl<pr_SUNN+EN $/pln<pr_+EN\n
+{.}\n
+$ariseness/n<pr_*A+RYS+NESSE $a-/xp-n_*A+ $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+$flesh/n<pr_FLESSE\n
+{.}\n
+$&/cj_&\n
+$e:ce/aj<pr_ECHE\n
+$life/n<pr_LIF\n
+{.}\n
+$so/av_SO\n
+$be/vsjps13_BEE\n
+{\\}\n
+$/P13NI_HIT\n
+{.}\n
+$/Datpn_YAT\n
+$be/vps13_IS\n
+{(AMEN(}\n
+{.}\n
+{>(\'PATER NosteR\'(>}\n
+{=ins, in right hand margin with lines linking the title to the first\n
+and last lines of the text=}\n
+{\\}\n
+{para}\n
+$father/n-voc_*FADER\n
+$/P21G-voc_OURE\n
+$/RTA_YAT\n
+$be/vps12_ART\n
+$in{p}/pr_IN\n
+$heaven/n<pr_HEUE\n
+$ha:lgian/vppK2_*I+HALS+EED $ge-/xp-vpp_*I+ $/vpp[S]K2_+EED\n
+{or from ha:lsian? But sense requires \'hallowed\' not \'greeted\'}\n
+$be/vsjps13_BEE\n
+$/P12GN+C_YI\n
+$name/n_NOME\n
+{.}\n
+{\\}\n
+$come/vsjps13_*I+CUME $ge-/xp-vsjps13_*I+\n
+$/P12GN+C_YI\n
+$cynerich{k}/n_KINE+RICHE $rich{k}/n-k_+RICHE\n
+{.}\n
+$weorYan/vsjps13_Y+WORTHE $ge-/xp-vsjps13_Y+\n
+$/P12GN+C_YI\n
+$will/n_WYLLE\n
+$as/av>=_ALSO\n
+$be/vps13_IS\n
+$in{p}/pr_IN\n
+{\\}\n
+$heaven/n<pr_HEUENE\n
+$so/cj<=_SO\n
+$be/vsjps13_BE\n
+$on{p}/pr_ON\n
+$earth/n<pr_ERTHE\n
+{.}\n
+$/P21G_*OURE\n
+$eachday/nG_ICHE+DAY+ES $day/nG-k_+DAY+ES $/Gn_+ES\n
+$bread/nOd_BRED\n
+$give/v-imp_GIF\n
+{\\}\n
+$/P21Oi_VS\n
+$today/av_TO-DAY $to-/xp-av_TO-\n
+{.}\n
+$&/cj_&\n
+$forgive/v-imp_FOR-GIF $for-/xp-v_FOR-\n
+$/P21Oi_VS\n
+$/P21G_OURE\n
+$guilt/nplOd_GULT+ES $/plnOd_+ES\n
+{.}\n
+$as/av_ALSO\n
+$/P21N_WE\n
+$forgive/vps21-apn_FOR\\-GIV+ET $for-/xp-v_FOR\\- $/vps21-apn_+ET\n
+$/P21G_OVRE\n
+$guilter/nplOd_GULT+AR+E^S $-er/xs-agt-nplOd_+AR+E^S $/plnOd_+E^S\n
+{.}\n
+$&/cj_&\n
+$/neg-v>=_NE\n
+$lead/v-imp_LED\n
+$/P21Od_OVS\n
+$not/neg-v<=_NOVTH\n
+$into/pr_*IN+TO $to/pr-k_+TO\n
+{\\}\n
+$fandian/vn<prK2_FOND+InGGE $/vn<prK2_+InGGE\n
+{.}\n
+$ac/cj_AACH\n
+$ale:san/v-imp_A+LES $a-/xp-v_A+\n
+$/P21Od_OVS\n
+$of{f}/pr_OF\n
+$harm/n<pr_HARME\n
+$so/av_SO\n
+$be/vsjps13_BE\n
+$/P13NI_HIT\n
+{.}\n
+{\\}\n
+{>(\'AUE MARIA.\'(}\n
+{=ins, in right hand margin with lines linking title to the first and last\n
+lines of the text=}\n
+{para}\n
+$hail/int_*HAYL\n
+\'_MARIE\n
+$full/aj-voc_FOL\n
+$of/pr_OF\n
+$milds/n<pr_MILCE\n
+$god/n_GOD\n
+$be/vps13_IS\n
+$mid{w}/pr_MIT\n
+$/P12<pr_THE\n
+{.}\n
+$/P12N_YU\n
+$bletsian/vppK2-aj_I+BLESS+EDE $ge-/xp-vpp-aj_I+ $/vpp[S]K2-aj_+EDE\n
+{\\}\n
+$among/pr_A+MONG $a-/xp-pr_A+\n
+$woman/npl<pr_WYMMEN\n
+{.}\n
+$bletsian/vppK2_I+BLESS+ED $ge-/xp-vpp_I+ $/vpp[S]K2_+ED\n
+$be/vsjps13_BE\n
+$fruit/n_FRUT\n
+$of/pr_OF\n
+$/P12G<pr+C_YIRE\n
+$womb/n<pr_WUmBE\n
+{\\}\n
+$so/av_SO\n
+$be/vsjps13_BE\n
+$/P13NI_HIT\n
+{.}\n
+{\\}\n
+{>(\'IN MANus TUA^S.\'(}\n
+{=ins, in right hand margin with lines linking the title to the text=}\n
+$in{i}/pr_*ON\n
+$/P12G<prpl+H_YINE\n
+$hand/npl<pr_HOND+E^S $/pln<pr_+E^S\n
+$/P11N_HICH\n
+$betae:can/vps11_BI+TECHE $be-/xp-v_BI+\n
+$/P11GOd+C_MINE\n
+$ghost/nOd_GOST\n
+{=Curlicue on ligatured ST=}\n
+$/P12N_YU\n
+$/P11Od_ME\n
+{\\}\n
+$buy/vpt12_BOVz+TEST $/vpt12[H]_+TEST\n
+$lord/n-voc_LOUERD\n
+$of/pr_OF\n
+$soothness/n<pr_SOTH+NESSE $-ness/xs-n<pr_+NESSE\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

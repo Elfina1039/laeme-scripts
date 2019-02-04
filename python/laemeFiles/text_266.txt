@@ -1,0 +1,171 @@
+# 266\n
+{Cambridge University Library Hh.6.11, fol. 70v: Pater Noster and Ave Maria}\n
+C13\n
+529 285 N\n
+{=Ramsey, Hunts=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - proto-Gothic book hand, most like Textura semi-quadrata but\n
+has Anglicana-style <w>. Thorn and <y> are similar but not identical.\n
+Thorn is sometimes dotted=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f70va~}\n
+{=The rest of the folio is in Latin in at least two different hands=}\n
+$/P21G-voc_*HVRE\n
+{=Two-line initial *H=}\n
+$father/n-voc_FADER\n
+$/RTA_yAT\n
+$be/vps12_ART\n
+$in{p}/pr_IN\n
+$heaven/n<pr_HEUENE\n
+{\\}\n
+$bletsian/vppK2_BLESC+ED $/vpp[S]K2_+ED\n
+$be/vsjps13_BE\n
+$/P12GN+C_yI\n
+$name/n{rh}_NAME\n
+{.}\n
+$/P12GN+H_*yIN\n
+$holy/aj_HO\\L+I $-ig/xs-aj_+I\n
+$heavenrich{k}/n_HEUE+RICHE $rich{k}/n-k_+RICHE\n
+$mo:t/vsjps13_MOTE\n
+$/P21Oi_US\n
+$come/vi_CUM+EN $/vi_+EN\n
+$to/pr_TO\n
+{\\}\n
+$frami/n<pr{rh}_FRAME\n
+{.}\n
+{para}\n
+$/P12GN+C_*yI\n
+$will/n_WIL\n
+$be/vsjps13_BE\n
+$do/vSpp_DO+N $/vSpp[V]_+N\n
+$in{p}/pr_IN\n
+$heaven/n<pr_HEUE\\NE\n
+$&/cj_AND\n
+$on{p}/pr_IN\n
+$earth/n<pr_ERTHE\n
+{=MS HERTHE with H erased=}\n
+$samen/av{rh}_II-SAME $ge-/xp-av_II-\n
+{.}\n
+{para}\n
+$today/av_*TO\\+DAY $to-/xp-av_*TO\\+\n
+$/P21Oi_US\n
+$give/v-imp_YIF\n
+$/P21G_URE\n
+$lifely/ajOd_LIF+LI $-ly/xs-ajOd_+LI\n
+$bread/nOd_BRED\n
+$/RTIOd_yAT\n
+{\\}\n
+$each/aj-av_ILKE\n
+$day/n-av_DAI\n
+$/P21N_WE\n
+$crave/vps21K2-apn{rh}_CRAU+EN $/vps21K2-apn{rh}_+EN\n
+{.}\n
+{para}\n
+$&/cj_*AND\n
+$forgive/v-imp_FOR\\-YIF $for-/xp-v_FOR\\-\n
+$/P21Oi_US\n
+$/P21G_OURE\n
+$debt/nplOd_DETT+ES $/plnOd_+ES\n
+$as/av>=_SO\n
+$strong/av_STRONGE\n
+{\\}\n
+$as/cj<=_SO\n
+$/P21N_WE\n
+$/P23Od_HES\n
+$have/vps21{rh}_HAU+EN $/vps21{rh}_+EN\n
+$as/av_AL-SO\n
+{=MS ALLE-SO with second L and E subpuncted for removal=}\n
+$/P21N_WE\n
+{\\}\n
+$do/vps21-apn_DO+N $/vps21[V]-apn_+N\n
+$all/ajplOi_ALL+E $/plajOi_+E\n
+$man/nplOi_MEN\n
+$/RTApl_yAT\n
+$in{c}/pr_IN\n
+$/P21G_OURE\n
+$debt/npl<pr_DET\\T+ES $/pln<pr_+ES\n
+$be/vps23_AREN\n
+{.}\n
+{para}\n
+$&/cj_*AND\n
+$lead/v-imp_LEDE\n
+$/P21Od_US\n
+$not/neg-v<_NOHT\n
+{\\}\n
+$in{i}/pr_IN\n
+$fandian/vn<prK2_FOND+ING $/vn<prK2_+ING\n
+{para}\n
+$but/cj_BOTE\n
+$shield/v-imp_SILDE\n
+$/P21Od_US\n
+$from/pr+H_FRO\n
+{\\}\n
+$harm/n<pr_HARM\n
+$&/cj_AND\n
+$from/pr_FRO\n
+{>}\n
+{=ins, in left margin marked for insertion=}\n
+$shame/n<pr{rh}_SCHAME\n
+$&/cj_AND\n
+$from/pr+V_FRO\n
+{>}\n
+$all/ajG_ALL+E $/Gaj_+E\n
+$kin/nG_KENN+ES $/Gn_+ES\n
+$evil/npl<pr_IUE\\L+ES $/pln<pr_+ES\n
+$through/pr_yURUH\n
+$/P12G<pr+H_yIN\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$name/n<pr{rh}_NAME\n
+{.}\n
+{\\}\n
+{(*AME*N(}\n
+{\\}\n
+$hail/int_*H*EYL\n
+{=Two-line initial *H=}\n
+\'_MARIE\n
+$of/pr_OF\n
+$grace/n<pr_GRACE\n
+$fill/vpp{rh}_I-FIL+D $ge-/xp-vpp_I- $/vpp[L]{rh}_+D\n
+{.}\n
+{\\}\n
+$&/cj_AND\n
+$of/pr_OF\n
+$god/n<pr_GOD\n
+$/P13<prXM_HIM-SILF $-self/xs-<pr_-SILF\n
+$tell/vpp{rh}_I+TEL+D $ge-/xp-vpp_I+ $/vpp[L]{rh}_+D\n
+{.}\n
+{\\}\n
+$blissian/vppK2_BLISC+ETH $/vpp[S]K2_+ETH\n
+{=sic=}\n
+$be/vsjps12_BE\n
+$/P12N_yU\n
+$among/pr_A+MOnG $a-/xp-pr_A+\n
+$woman/npl<pr{rh}_WIM\\MEN\n
+$for/cj_FOR\n
+$/P12N_yU\n
+$be/vps12_ART\n
+$of/pr_OF\n
+\'_DAUI\n
+$king/nG_KInG\\G+ES $/Gn_+ES\n
+{=Space of 1 cm in MS=}\n
+$kin/n<pr{rh}_KIN\n
+{.}\n
+$bletsian/vppK2_BLESC+ED $/vpp[S]K2_+ED\n
+$be/vsjps13_BE\n
+$/TN_yE\n
+$fruit/n_Fr^UT\n
+{\\}\n
+$of/pr_OF\n
+$/P12G<pr+C_yI\n
+$womb/n<pr{rh}_WOMBE\n
+$for/cj_FOR\n
+$/P13NI_IT\n
+$be/vps13_IS\n
+$god/nG_GODD+ES $/Gn_+ES\n
+{\\}\n
+$own/aj_OWENE\n
+$lamb/n{rh}_LOMBE\n
+{.}\n
+|\n
+\n
+\n'

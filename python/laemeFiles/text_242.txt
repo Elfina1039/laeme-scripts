@@ -1,0 +1,1570 @@
+# 242\n
+{London, British Library, Cotton Caligula A ix, fols. 247r-248v: The Latemest Day}\n
+C13b2\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample consists of this text only, in the same hand as that of the two\n
+different kinds of language in The Owl and the Nightingale in the same\n
+manuscript. The language of this text is not identical to either\n
+language 1 or language 2 of O&N=}\n
+{=Script - skilled, professional book hand - Textura semi-quadrata.\n
+For further details see under text no. 2 or 3, the Owl and the Nightingale=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f247rb~}\n
+{=The verse is in rhyming quatrains but has been written as prose\n
+within each stanza. Each new stanza begins with a large initial\n
+capital and to accommodate that occasionally the last word or part\n
+of word of the stanza has had to be taken to the right hand side\n
+of the line below. Punctuation is restricted to punctus at the end\n
+of each verse line and usually (though not always) also midline. The\n
+punctus vary in height from baseline to midline apparently randomly=}\n
+$hear/v-imp22_*I+HER+Ed $ge-/xp-v-imp_*I+ $/v-imp22_+Ed\n
+{=Large initial *I extending one line above its own and four lines below\n
+in the left margin=}\n
+$of/pr_OF\n
+$/A<pr_ONE\n
+$thing/n<pr_yINGE\n
+{=MS yINGE ONE marked for transposition=}\n
+{.}\n
+$/RTI>pr_yer\n
+$/P22N_zE\n
+$a:gan/vps22_OHEN\n
+$of/pr<_OF\n
+{\\}\n
+$think/vi{rh}_yENCH+E $/vi{rh}_+E\n
+{.}\n
+$/P22N_*zE\n
+$/RTApl_yer\n
+$wear/vps22K2[1]_wER+IEd $/vps22K2[1]_+IEd\n
+$rich/ajOd_RICHE\n
+$shroud/nOd_SCHRUD\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$sit/vps22_SITT+Ed $/vps22_+Ed\n
+$on{p}/pr_ON\n
+$/P22G_OURE\n
+$bench/n<pr{rh}_BENCHE\n
+{.}\n
+$though/cj_*yAH\n
+$man/indef_ME\n
+{\\}\n
+$kneel/vsjps13K2_KNEOLI\n
+$/P22>pr_OU\n
+$before{p}/pr<_BI+UORE $be-/xp-pr_BI+\n
+{.}\n
+$&/cj_&\n
+$mid{w}/pr_MID\n
+$wine/n<pr_wIN\n
+{\\}\n
+$scencan/vsjps13{rh}_SCHENCHE\n
+{.}\n
+$from/pr_*FROM\n
+$/T<pr_yE\n
+$dreary/aj<pr_DREOR+IE $-ig/xs-aj<pr_+IE\n
+$death/n<pr_DEAd\n
+{.}\n
+{\\}\n
+$/neg-v(>nN)_NE\n
+$may/vps13_MAI\n
+$noman/n_NO-MON $man/n-k_-MON\n
+$atblencan/vi{rh}_AT-BLENCH+E $at-/xp-v_AT- $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$/P22N_*zE\n
+{=Two-line initial capital yogh=}\n
+$/RTApl_yer\n
+$sit/vps22_SITT+ET $/vps22_+ET\n
+$shroud/vpp-pl_I+SCHRUD $ge-/xp-vpp_I+\n
+$with{w}/pr_wId\n
+$scarlet/n<pr_SKAR\\LET\n
+$&/cj_&\n
+$with{w}/pr_wId\n
+$pael/n<pr{rh}_PALLE\n
+{.}\n
+$well{v}/av_wEL\n
+$sooth/ajOd_SOyE\n
+$tiding/nOd_TIyIN\\GE\n
+{~f247va~}\n
+{.}\n
+$/P11N+V_*ICH\n
+$/P22Oi_OU\n
+$will/vps11_wILE\n
+$tell/vi{rh}_TELL+E $/vi{rh}_+E\n
+{.}\n
+$/TN_*yE\n
+$fiend/n_FEOND\n
+$think/vps13_yEN\\CH+Ed $/vps13_+Ed\n
+$gewis/av_I+wIS $ge-/xp-av_I+\n
+{.}\n
+$/TOd_yE\n
+$soul/nOd_SAwLE\n
+{=w looks like y=}\n
+$forto/im+C_FOR+TO $to/im+C-k_+TO\n
+$cwellan/vi-m{rh}_CwELL+E $/vi-m{rh}_+E\n
+{=w looks like y=}\n
+{.}\n
+{\\}\n
+$as/av_*ASE\n
+$/P21N_wE\n
+{=w looks like y=}\n
+$/P13OdI_HIT\n
+$find/vps21_FIND+Ey $/vps21_+Ey\n
+$write/vSpp_I+wRIT+EN $ge-/xp-vpp_I+ $/vSpp_+EN\n
+{.}\n
+$in{p}/pr_In\n
+$/T<pr_yE\n
+$gospel/n<pr{rh}_GODD\\SPELLE\n
+{=Second part of word taken to right hand of column below to accommodate\n
+large initial capital of beginning of next stanza=}\n
+{.}\n
+{\\}\n
+$ac/cj_*AH\n
+{=Large initial *A. Guide letter A visible to its left=}\n
+$of/pr_OF\n
+$1/qc<pr_ONE\n
+$thing/n<pr_yINGE\n
+{.}\n
+$/P21N_wE\n
+{\\}\n
+$shall/vps21_SCHULE\n
+$niman/vi_NIM+E $/vi_+E\n
+$gaumr/nOd{rh}_GOME\n
+{.}\n
+$that/cj_*yer\n
+$/P21N_wE\n
+$be/vpt21_wEREN\n
+{\\}\n
+$poor/ajpl_POUR+E $/plaj_+E\n
+{.}\n
+$Ya:/cj_yA\n
+$/P21N_wE\n
+$hither/av_HIDER\n
+$come/vSpt21{rh}_COM+E $/vSpt21{rh}_+E\n
+{.}\n
+$/P21N_wE\n
+{=w looks like y=}\n
+$/P13OdI_HIT\n
+{\\}\n
+$hear/vps21_HER+Ed $/vps21_+Ed\n
+$gewis/av_I+wIS $ge-/xp-av_I+\n
+{.}\n
+$swi:De/av_SwIyE\n
+$often/av_OFTE\n
+$&/cj_&\n
+$gelo:me/av{rh}_I+LOME $ge-/xp-av_I+\n
+{.}\n
+{\\}\n
+$/TN_*yE\n
+$soul/n_SAwLE\n
+$&/cj_&\n
+$/TN_yE\n
+$li:chama/n_LICOME\n
+{.}\n
+$seldom/av_SELDE\n
+$/P23N_HEO\n
+$be/vps23_BEOy\n
+{\\}\n
+{para}\n
+$geso:m/ajpl{rh}_I+SOM+E $ge-/xp-aj_I+ $/plaj{rh}_+E\n
+{=ISOME taken to right hand of column beneath in order\n
+to accommodate large initial capital of beginning of next\n
+stanza. It is separated from the following text on the\n
+left of the column by a paragraph marker=}\n
+{\\}\n
+$when/cj_*HwENNE\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$/TN_yer\n
+$child/n_CHILD\n
+$be/v-fut13_BID\n
+{\\}\n
+$born/vSpp_I+BOR+EN $ge-/xp-vpp_I+ $/vSpp[R]_+EN\n
+{.}\n
+$&/cj_&\n
+$on{i}/pr_ON\n
+$earth/n<pr_EORyE\n
+$fall/vSpp{rh}_I-FALL+E $ge-/xp-vpp_I- $/vSpp{rh}_+E\n
+{.}\n
+$willnot/vpt11_*N+OLDE $n-/xp-neg_*N+\n
+{\\}\n
+$/P11N_ICH\n
+$give/vi_zEU+EN $/vi_+EN\n
+$1/qcOd_ENNE\n
+$penny/nOd_PENI\n
+{.}\n
+$for/pr_FOR\n
+$/P13GMpl_HIS\n
+$wae:de/npl<pr_wED+EN $/pln<pr_+EN\n
+{\\}\n
+$all/ajpl<pr{rh}_ALL+E $/plaj<pr{rh}_+E\n
+{.}\n
+$ac/cj_*AH\n
+$since/av_SEOddAN\n
+$manyman/n_MON+I-MON $-ig/xs-aj-k_+I- $man/n-k_-MON\n
+{.}\n
+$begitan/vps13-ct_BI\\+zET $be-/xp-v_BI\\+\n
+$bu:r/nplOd_BOR+ES $/plnOd_+ES\n
+$&/cj_&\n
+$hall/nOd{rh}_HALLE\n
+{.}\n
+$forwhy/cj_*FOR-HwI $why/cj-k_-HwI\n
+$/TN_yE\n
+$wretch/aj_wREC\\CHE\n
+$soul/n_SAwLE\n
+$shall/vps13_SCHAL\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+$pi:ne/n<pr_PINE\n
+$fall/vi{rh}_UALL+E $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$think/vsjps21-bpn_*yENCHE\n
+{=Large initial capital thorn extending a further line up and a further\n
+line below in the left margin=}\n
+$/P21N_wE\n
+$on{re}/pr_ON\n
+$/T<pr_yE\n
+$last/aj<pr_LASTE\n
+$day/n<pr_DAI\n
+{.}\n
+$that/cj_yer\n
+$/P21N_wE\n
+{\\}\n
+$shall/vps21_SCHULE\n
+$hence/av_HEONNE\n
+$faran/vi{rh}_FAR+E $/vi{rh}_+E\n
+{.}\n
+$outof/pr_*VT-OF $of{f}/pr-k_-OF\n
+$/Dis<pr_yISSE\n
+{\\}\n
+$world/n<pr_wORLDE\n
+{.}\n
+$with{w}/pr_wId\n
+$pi:ne/n<pr_PINE\n
+$&/cj_&\n
+$with{w}/pr_wId\n
+$care/n<pr{rh}_KARE\n
+{.}\n
+$as/av_*ALSO\n
+{\\}\n
+$/P21N_wE\n
+$hither/av_HIDER\n
+$come/vSpt21_COM+EN $/vSpt21_+EN\n
+{.}\n
+$naked/ajpl_NAKED $/plaj_0\n
+$&/cj_&\n
+$bare/ajpl{rh}_BAR+E $/plaj{rh}_+E\n
+{.}\n
+{\\}\n
+$&/cj_*AND\n
+$of/pr_OF\n
+$/P21G_URE\n
+$sin/npl<pr_SUNN+EN $/pln<pr_+EN\n
+{.}\n
+$give/vi_zEU+EN $/vi_+EN\n
+$answer/nOd{rh}_OND+SwE\\ARE $and-/xp-n_OND+\n
+{=last three letters taken to right hand side of column below\n
+to accommodate large initial capital of beginning of next stanza=}\n
+{.}\n
+{\\}\n
+$havenot/vsjps13_*N+ABBE $n-/xp-neg(>nN)_*N+\n
+{=Large initial *N=}\n
+$noman/n_NO-MON $man/n-k_-MON\n
+$so/av_SO\n
+$much/nOd_MUCHEL\n
+{.}\n
+{\\}\n
+$all/aj_AL\n
+$/P13NI_HIT\n
+$will/vps13_wOLLE\n
+$ago/vi{rh}_A+GO+N $a-/xp-v_A+ $/vi[V]{rh}_+N\n
+{.}\n
+$/P13GM_*HIS\n
+$land/n_LOND\n
+$&/cj_&\n
+{\\}\n
+$/P13GM_HIS\n
+$house/n_HUS\n
+$&/cj_&\n
+$/P13GM_HIS\n
+$home/n{rh}_HOM\n
+{.}\n
+$/TN_*yE\n
+$sorry/aj_SOR+IE $-ig/xs-aj_+IE\n
+$soul/n_SOU\\LE\n
+{.}\n
+$make/vps13K2_MAK+Ey $/vps13[K]K2_+Ey\n
+$/P13GF_HIRE\n
+$moan/nOd{rh}_MON\n
+{.}\n
+$gewis/av_*I+wIS $ge-/xp-av_*I+\n
+$/neg-v(>av>pnN)_NE\n
+$may/vps13_MAI\n
+{\\}\n
+$atblencan/vi_AT-BLENCH+E $at-/xp-v_AT- $/vi_+E\n
+$/P21Gpn_URE\n
+$never/av_NEAUER\n
+$none/pn{rh}_NON\n
+{.}\n
+{\\}\n
+$then{w}/cj>=_*yENNE\n
+{=Large initial capital thorn extending a further line up and a further\n
+line below in the left margin=}\n
+$/TOd_yE\n
+$latemost/ajOd_LATE+MEST $-most/xs-ajOd_+MEST\n
+$day/nOd_DAI\n
+{.}\n
+$death/n_DEy\n
+$have/vps13_HA\\U+Ed $/vps13_+Ed\n
+$bring/vpp{rh}_I+BROUH+IT $ge-/xp-vpp_I+ $/vpp[H]{rh}_+IT\n
+{.}\n
+$beniman/vps13_*BI-NIM+Ed $be-/xp-v_*BI- $/vps13[N]_+Ed\n
+$/P21G_URE\n
+$speech/nOd_SPE\\CHE\n
+{.}\n
+$/P21G_URE\n
+$sight/nOd_SIH+T $-th/xs-nOd_+T\n
+$&/cj_&\n
+$/P21G_URE\n
+$thought/nOd{rh}_yOHT\n
+{.}\n
+$&/cj_*AND\n
+$in{p}/pr_IN\n
+{\\}\n
+$each/aj<pr_EUCHE\n
+$limb/n<pr_LIME\n
+$death/n_DEy\n
+$/P21Od_US\n
+$have/vps13_HAF+d $/vps13[F]_+y\n
+$throughseek/vpp{rh}_yURH-SOH+T $through-/xp-v_yURH- $/vpp[H]{rh}_+T\n
+{=Corrected from yUCH?=}\n
+{.}\n
+{\\}\n
+$then/av<=_*yENNE\n
+$be/vps23_BEOd\n
+$/P21G_URE\n
+$bliss/npl_BLISS+E $/pln_+E\n
+{.}\n
+$all/av_AL\n
+$turn/vpp-pl_I+TURN+D $ge-/xp-vpp_I+ $/vpp[N]-pl_+D\n
+$to/pr_TO\n
+{\\}\n
+$naught/n<pr{rh}_NOHT\n
+{=NOHT taken to right hand of column below to accommodate\n
+large initial capital of beginning of next stanza=}\n
+{.}\n
+{\\}\n
+$/neg-v(>ajN)_*NE\n
+{=Large initial *N=}\n
+$may/vpt13_MIzTE\n
+$no/aj+C_NO\n
+$tongue/n_TUNGE\n
+$tell/vi_TEL\\L+EN $/vi_+EN\n
+{.}\n
+$/RTA_yer\n
+$ever/av_EUER\n
+$be/vpt13_wES\n
+$born/vSpp{rh}_I+BOR+EN $ge-/xp-vpp_I+ $/vSpp[R]{rh}_+EN\n
+{.}\n
+$/TOd_*yE\n
+$strong/ajOd_STRON\\GE\n
+$pi:ne/nOd_PINE\n
+$of/pr_OF\n
+$hell/n<pr_HELLE\n
+{.}\n
+$though/cj_yAH\n
+$/P13NM_HE\n
+$have/vpt13_HE+DDE $/vpt13[V]_+DDE\n
+{*sj context*}\n
+$swear/vSpp{rh}_I\\+SwOR+EN $ge-/xp-vpp_I\\+ $/vSpp[R]{rh}_+EN\n
+{.}\n
+$ere/cj_*ER\n
+$/TN_yE\n
+$soul/n_SAwLE\n
+$&/cj_&\n
+$/TN_yE\n
+$body/n_BODI\n
+{\\}\n
+$in{m}/pr_A\n
+$2/qcpn<pr_TwO\n
+$be/vsjps23_BEON\n
+$todraw/vSpp-pl_TO-DREH+EN $to-/xp-v_TO- $/vSpp-pl_+EN\n
+{.}\n
+$bu:tan{e}/pr_*BUTE\n
+$christ/n<pr_Cr^IST\n
+$/RTA_yer\n
+{\\}\n
+{~f247vb~}\n
+$le:san/vpt13_LES+EDE $/vpt13[S]_+EDE\n
+$/P13GM_HIS\n
+$folk/nOd_FOLC\n
+{.}\n
+$/RTI_yer\n
+$there/av_yER\n
+$be/vpt13_wES\n
+$forlose/vSpp{rh}_FOR-LOR+EN $for-/xp-v_FOR- $/vSpp[R]{rh}_+EN\n
+{.}\n
+{\\}\n
+$anon/av_*ANON\n
+{=Large initial *A. Guide letter A still visible to its left=}\n
+$as/cj_SO\n
+$/TN_yE\n
+$soul/n_SAwLE\n
+{.}\n
+$be/v-fut13_BId\n
+$faran/vSpp_I+FAR+EN $ge-/xp-vpp_I+ $/vSpp[R]_+EN\n
+$out/av{rh}_UT\n
+{.}\n
+{\\}\n
+$man/indef_*ME\n
+$niman/vps13_NIM+Ed $/vps13[N]_+Ed\n
+$/TOd_yE\n
+$li:chama/nOd_LICOME\n
+{.}\n
+$&/cj_&\n
+$pre:onan/vps13_PREON+Ed $/vps13[N]_+Ed\n
+$in{p}/pr_IN\n
+{\\}\n
+$/A<pr_A\n
+$clout/n<pr{rh}_CLUT\n
+{.}\n
+$/RTA_*yer\n
+$be/vpt13_wES\n
+{=w looks like y=}\n
+$so/av_SO+\n
+$mo:dig/aj_+MOD+I $-ig/xs-aj_+I\n
+$&/cj_&\n
+$so/av_SO\n
+$strong/aj_STRONG\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$so/av_SO\n
+$swi:De/av_SwIyE\n
+$proud/aj{rh}_PRUD\n
+{.}\n
+$&/cj_*AND\n
+$be/vpt13_wES\n
+$wunian/vppK2_I+wON+ED $ge-/xp-vpp_I+ $/vpp[N]K2_+ED\n
+{\\}\n
+$to/im+C_TO\n
+$wear/viK2[1]-m_wER+IEN $/viK2[1]-m_+IEN\n
+{.}\n
+$many/ajOd_MON+I $-ig/xs-ajOd_+I\n
+$/AOd_A+\n
+$fair/ajOd_+FEIR\n
+$shroud/nOd{rh}_SCHRUD\n
+{.}\n
+{\\}\n
+$now/av_*NU\n
+{=Large initial *N=}\n
+$licgan/vps13_LI+d $/vps13[V]_+d\n
+$/TN_yE\n
+$clayclot/n_CLEI-CLOT $clot/n-k_-CLOT\n
+{.}\n
+$as/av_AL-SO\n
+$/TN_yE\n
+$stone/n{rh}_STON\n
+{.}\n
+{\\}\n
+$&/cj_*AND\n
+$/P13GMpl_HIS\n
+$friend/npl_FREOND+ES $/pln_+ES\n
+$strive/vps23F_STRIU+Ed $/vps23F_+Ed\n
+{.}\n
+$to/im+C_TO\n
+$gri:pan/vi-m_GRIP+EN $/vi-m_+EN\n
+{\\}\n
+$/P13GM_HIS\n
+$va:n{d}/nOd{rh}_I+wON $ge-/xp-n_I+\n
+{.}\n
+$/TN_*yE\n
+$sorry/aj_SOR+IE $-ig/xs-aj_+IE\n
+$soul/n_SOwLE\n
+$make/vps13K2_MAK+Ed $/vps13[K]K2_+Ed\n
+{\\}\n
+$/P13GF_HIRE\n
+$moan/nOd{rh}_MON\n
+{.}\n
+$of/pr_*OF\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P13GF_HIRE\n
+$ere/av-cpv_ER+URE $-er/xs-cpv-av_+URE\n
+$friend/npl<pr_FRE\\OND $/pln<pr_0\n
+{.}\n
+$now/av_NU\n
+$havenot/vps13_N+AF+d $n-/xp-neg(>pn)_N+ $/vps13[F]_+y\n
+$/P13NF_HEO\n
+$none/pnOd{rh}_NON\n
+{.}\n
+{\\}\n
+$then/av_*yENNE\n
+{=Large initial capital thorn extending a further line up in the\n
+left margin=}\n
+$say/vps13_SAI+d $/vps13[V]_+d\n
+$/TN_yE\n
+$soul/n_SAwLE\n
+{.}\n
+$with{w}/pr_wId\n
+$sorry/aj<pr_SOR+IE $-ig/xs-aj<pr_+IE\n
+$chere/n<pr{rh}_CHE\\RE\n
+{.}\n
+$a:wei/int_*A-wAI\n
+$/P12N_yU\n
+$wretch/aj-voc_wRECCHE\n
+$foul/aj-voc_FOLE\n
+$belg/n-voc_BALI\n
+$now/av_NU\n
+{\\}\n
+$/P12N_yU\n
+$licgan/vps12_LI+ST $/vps12[V]_+ST\n
+$on{p}/pr_ON\n
+$bier/n<pr{rh}_BERE\n
+{.}\n
+$/P11N_*ICH\n
+$shall/vps11_SCHAL\n
+$have/vi_HABB+EN $/vi_+EN\n
+$for/pr_FOR\n
+{\\}\n
+$/P12<pr_yE\n
+$fiend/nplOd_FEND+ES $/plnOd_+ES\n
+$to/pr+V_TO\n
+$gefe:ra/npl<pr{rh}_I+FER+E $ge-/xp-n_I+ $/pln<pr{rh}_+E\n
+{.}\n
+$a:wei/int_*AwAI\n
+$that/cj_yAT\n
+$/P12N_yU\n
+{\\}\n
+$ever/av_EUERE\n
+{.}\n
+$to/pr_TO\n
+$man/n<pr_MONNE\n
+$shape/vSpp_I+SCHAP+E $ge-/xp-vpp_I+ $/vSpp_+E\n
+$be/vpt12{rh}_wERE\n
+{.}\n
+{\\}\n
+$/neg-v(>av>nor2>av>aj)_*NE\n
+{=Large initial *N=}\n
+$shall/vps12+P_SCHAL+TU $/P12N_+TU\n
+$never/av_NEAUER\n
+$sit/vi_SITT+EN $/vi_+EN\n
+{.}\n
+$on{p}/pr_ON\n
+$bolster/n<pr_BOL\\STRE\n
+$nor/cj_NE\n
+$on{p}/pr_ON\n
+$bench/n<pr{rh}_BENCHE\n
+{.}\n
+$nor/cj_*NE\n
+$never/av_NEUer\n
+$in{p}/pr_IN\n
+$no/aj<pr+H_NONE\n
+{\\}\n
+$hall/n<pr_HALLE\n
+{.}\n
+$there{w}/RT_yer\n
+$man/indef_ME\n
+$wine/nOd_UIN\n
+$scencan/vps13{rh}_SCHEnCH+Ed $/vps13{rh}_+Ed\n
+{.}\n
+$for/pr_*FOR\n
+$/P12G<prpl+C_yINE\n
+{\\}\n
+$foul/ajpl<pr_FUL+E $/plaj<pr_+E\n
+$sin/npl<pr_SUNN+EN $/pln<pr_+EN\n
+{.}\n
+$&/cj_&\n
+$for/pr_FOR\n
+$/P12G<prpl+V_yIN\n
+$unwrench/npl<pr{rh}_UN+I-wRENCH+E $un-/xp-n_UN+ $ge-/xp-n_+I- $/pln<pr{rh}_+E\n
+{.}\n
+{\\}\n
+$/P11N_*HI\n
+$shall{mv}/vps11_SCHAL\n
+$wretch/aj_wRECCHE\n
+$soul/n_SAwLE\n
+$to/pr+V_TO\n
+$ateli:c/aj<pr_ATE+LICHE $-ly/xs-aj<pr_+LICHE\n
+{\\}\n
+$stench/n<pr{rh}_STENCHE\n
+{=STENCHE taken to right hand of column below to accommodate\n
+large initial capital of beginning of next stanza=}\n
+{.}\n
+{\\}\n
+$where/av_*HwER\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$be/vps23_BEOd\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$/P12GNpl+C_yINE\n
+$friend/npl_FROnD $/pln_0\n
+{.}\n
+{\\}\n
+$/RTApl_yer\n
+$fair/av_FAIRE\n
+$/P12Oi_yE\n
+$beha:tan/vSpt23{rh}_BI+HET+E $be-/xp-v_BI+ $/vSpt23{rh}_+E\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$fair/av_FEIRE\n
+$/P12Od_yE\n
+$greet/vpt23_I+GRET\\T+EN $ge-/xp-vpt23_I+ $/vpt23[D]_+EN\n
+{.}\n
+$by{p}/pr_BI\n
+$way/npl<pr_wEI+ES $/pln<pr_+ES\n
+$&/cj_&\n
+$by{p}/pr_BI\n
+$street/n<pr{rh}_STRETE\n
+{.}\n
+$now/av_*NU\n
+$/P23N_HEO\n
+{\\}\n
+$will/vps23_wOLLEd\n
+$wretch/n_wRECCHE\n
+{.}\n
+$all/ajpl_ALL+E $/plaj_+E\n
+$/P12Od_yE\n
+$forlae:tan/vi{rh}_FOR-LET+E $for-/xp-v_FOR- $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$willnot/vpt23_*N+OL\\DEN $n-/xp-neg(>pnN)_*N+\n
+$/P23N_HE\n
+$/P23G_HORE\n
+$thank{c}/nG-av_STONK+ES $/Gn-av_+ES\n
+{=sic=}\n
+$none/pn_NON\n
+$now/av_NU\n
+$/P12Od_yE\n
+$meet/vi{rh}_I+MET+E $ge-/xp-vi_I+ $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$where/av_*HwER\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$be/vps23_BEOd\n
+$/P12GNpl+C_yINE\n
+$dish/npl_DIHSCH+ES $/pln_+ES\n
+{.}\n
+$mid{w}/pr_MIDD\n
+$/P12G<pr+C_yI\\NE\n
+$sweet/aj<pr_SwETE\n
+$sond/n<pr{rh}_SONDE\n
+{.}\n
+$where/av_*H>w>ER\n
+$be/vps23_BEOy\n
+$/P12GNpl+C_yINE\n
+$hnaep/npl_NAP\\P+ES $/pln_+ES\n
+{.}\n
+$/RTIpl_yer\n
+$/P12Oi_yE\n
+$gli:dan/vps23_GLID+Ey $/vps23_+Ey\n
+$to/pr+H_TO\n
+$hand/n<pr{rh}_HONDE\n
+{.}\n
+$where/av_*HwER\n
+$be/vps13_IS\n
+$/P12GN+C_yI\n
+{\\}\n
+$bread/n_BRED\n
+$&/cj_&\n
+$/P12GN+V_yIN\n
+$ale/n_ALE\n
+{.}\n
+$/P12GN+C_yI\n
+$tun/n_TUNNE\n
+$&/cj_&\n
+$/P12GN+C_yINE\n
+{\\}\n
+$stande{c}/n{rh}_STONDE\n
+{.}\n
+$now/av_*NU\n
+$/P12N_yU\n
+$shall/vps12_SCHALT\n
+$in{p}/pr_IN\n
+$/T<pr_yE\n
+$pit/n<pr_PUT\\TE\n
+{.}\n
+$wunian/viK2_wUN+IE $/viK2_+IE\n
+$with{w}/pr_wID\n
+$/T<pr_yE\n
+$va:ndr/n<pr{rh}_wONDE\n
+{="the evil one". This is unlikely to be a form of "fiend" because it would\n
+not provide a true rhyme. All the other versions of the text, Digby, Jesus and\n
+Trinity, hand A, have WONDE or wONDE here - so it is presumably original=}\n
+{.}\n
+{\\}\n
+$of/pr_*OF\n
+{=Large initial *O=}\n
+$/P11<pr_ME\n
+$/P12N_yU\n
+$have/vpt12_HEU+EDEST $/vpt12_+EDEST\n
+$might/nOd_MIzTE\n
+{.}\n
+$to/im+C_TO\n
+$do/vi-m_DO+N $/vi[V]-m_+N\n
+{\\}\n
+$all/ajOd_AL\n
+$/P12GOd+C_yINE\n
+$will/nOd{rh}_wILLE\n
+{.}\n
+$ever/av_*EUER\n
+$/P12N_yU\n
+$be/vpt12_wERE\n
+$about{re}/av_A\\+BUTEN $a-/xp-av_A\\+\n
+{~f248ra~}\n
+{.}\n
+$/P21Od_US\n
+$both/ajOd_BO\n
+$forto/im+C_FOR-TO $to/im+C-k_-TO\n
+$spill/vi-m{rh}_SPILL+E $/vi-m{rh}_+E\n
+{.}\n
+$now/av_*NU\n
+$/P12N_yU\n
+{\\}\n
+$shall/vps12_SCHALT\n
+$wretch/n_wRECCHE\n
+$licgan/vi_LIGG+EN $/vi_+EN\n
+$full{v}/av_FUL\n
+$still/av{rh}_STILLE\n
+{.}\n
+$&/cj_*AND\n
+{\\}\n
+$/P11N_ICH\n
+$shall/vps11_SCHAL\n
+$/P12GOdpl+C_yINer\n
+{=sic, with the scribe\'s normal abbreviation sign for \'er\' appearing\n
+above the N. yINE was presumably intended (see Morris\'s edition where\n
+yINE is given with no comment) but the scribe normally does not\n
+abbreviate final E. It was perhaps accidentally omitted and rather than\n
+squash it in or insert it, a generic abbreviation mark was used instead=}\n
+$guilt/nplOd_GULT+ES $/plnOd_+ES\n
+{.}\n
+$abuy/vi_A+BUGG+En $a-/xp-v_A+ $/vi_+En\n
+$full{v}/av_FUL\n
+$ill/av{rh}_ILLE\n
+{.}\n
+{\\}\n
+$why/av_*HwI\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$willnot/vpt12_N+OLDEST $n-/xp-neg_N+\n
+$/P12N_yU\n
+$mid{w}/pr_MID\n
+$christ/n<pr_CRIST\n
+{.}\n
+$make/viK2_MAK+EN $/viK2_+EN\n
+{\\}\n
+$/P21Od_US\n
+$sehtan/vpp-pl{rh}_I+SAHTE $ge-/xp-vpp_I+\n
+{.}\n
+$mass/nOd_*MASSE\n
+$lae:tan/vi_LET+EN $/vi_+EN\n
+$sing/vi_SING+E $/vi_+E\n
+$of/pr_OF\n
+$/RTI<pr-Od_yer\n
+{\\}\n
+$/P13NM_HE\n
+$/P12Oi_yE\n
+$betae:can/vpt13{rh}_BI-TAH+TE $be-/xp-v_BI- $/vpt13[H]{rh}_+TE\n
+{.}\n
+$ever/av_*EUER\n
+$/P12N_yU\n
+$be/vpt12_wERE\n
+$about{re}/av_A+BU\\TEN $a-/xp-av_A+\n
+$to/im+V_TO\n
+$e:acan/vi-m_ECH+EN $/vi-m_+EN\n
+$/P12GOd+V_yIN\n
+$ae:ht/nOd{rh}_AHTE\n
+{.}\n
+$forthy/cj_*FOR-yI $Yy:/cj-k_-yI\n
+$/P21N_wE\n
+{=wynn looks like thorn=}\n
+{\\}\n
+$be/vps21_BEOd\n
+$in{t}/pr_AN\n
+$end/n<pr_ENDE\n
+$both/pn_BOyE\n
+$bepae:can/vpp-pl{rh}_BI-PAH+TE $be-/xp-v_BI- $/vpp[H]-pl{rh}_+TE\n
+{.}\n
+{\\}\n
+$seldom/av_*yELDE\n
+{=sic error for *SELDE? Large initial capital thorn extending a\n
+{further line up and a further line below in the left margin=}\n
+$will/vps13_wOLE\n
+$man/indef_ME\n
+$for/pr_FOR\n
+$/P12<pr_yE\n
+$mass/nOd_MASSE\n
+$lae:tan/vi_LET+E $/vi_+E\n
+{.}\n
+{\\}\n
+$sing/vi{rh}_SING+E $/vi{rh}_+E\n
+$or/cj_*OyER\n
+$in{p}/pr_IN\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$church/n<pr_CHIRCHE\n
+{.}\n
+$do/vi_DO+N $/vi[V]_+N\n
+$any/ajOd_EI\n
+{\\}\n
+$offer/vnOdK2{rh}_OFFR+INGE $/vnOdK2{rh}_+INGE\n
+{.}\n
+$man/indef_*ME\n
+$will/vps13_wULE\n
+$for/pr_FOR\n
+$/P12G<pr+V_yIN\n
+$ae:ht/n<pr_AHTE\n
+$make/viK2_MA\\K+E $/viK2_+E\n
+$strive/vnOdF{rh}_STRIU+INGE $/vnOdF{rh}_+INGE\n
+{.}\n
+$&/cj_*AND\n
+$put/vi_PUT+E $/vi_+E\n
+$/P12Od_yE\n
+$without{os}/av_wId\\-UTEN $out/av-k_-UTEN\n
+{.}\n
+$of/pr_OF\n
+{=i.e. "deprive thee of"=}\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P12G<prpl+C_yINE\n
+$thing/npl<pr{rh}_yING+E $/pln<pr{rh}_+E\n
+{.}\n
+{\\}\n
+$licgan/v-imp_*LI\n
+{=Large initial *L with the ascender extending a further line up in the\n
+left margin=}\n
+$awaergan/vpp-aj-voc_A+wARI+EDE $a-/xp-v_A+ $/vpp[V]-aj-voc_+EDE\n
+$belg/n-voc_BALI\n
+$that/cj_yer\n
+$never/av_NEAUer\n
+$/P12N_yU+\n
+$/neg-v(<av)_+NE\n
+$arise/vsjps12{rh}_A\\+RISE $a-/xp-v_A\\+\n
+{.}\n
+$when/cj_*HwENNE\n
+$/P11N_ICH\n
+$think/vps11_yENCHE\n
+$/P12>pr_yE\n
+$upon{re}/pr<_UPPON\n
+{:}\n
+{=Apparently a colon not a punctus elevatus=}\n
+{\\}\n
+$full{v}/av_FUL\n
+$sore/av_SORE\n
+$/P11Oi_ME\n
+$may/vps13_MAI\n
+$agri:san/vi{rh}_A+Gr^IS+E $a-/xp-v_A+ $/vi{rh}_+E\n
+{.}\n
+$for/cj_*FOR\n
+$/P11N_ICH\n
+$shall/vps11_SCHAL\n
+{\\}\n
+$burn/vi_BERN+EN $/vi_+EN\n
+$in{p}/pr_IN\n
+$fire/n<pr_FUR\n
+{.}\n
+$&/cj_&\n
+$shiver/vi_CHIUER+IN $/vi_+IN\n
+$in{p}/pr_IN+\n
+$ice/n<pr{rh}_+ISE\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$ever/av_EUER\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$in{p}/pr_IN\n
+$pi:ne/npl<pr_PIN+EN $/pln<pr_+EN\n
+$in{m}/pr_A+\n
+$fela/ajplG_+FEOLE\n
+$kin/nplG_KUNN+E $/plnG_+E\n
+{\\}\n
+$wi:se/npl<pr{rh}_wIS+E $/pln<pr{rh}_+E\n
+{=wISE taken to right hand of column below to accommodate\n
+large initial capital of beginning of next stanza=}\n
+{.}\n
+{\\}\n
+$now/av_*NU\n
+{=Large initial *N=}\n
+$shall/vps13_SCHAL\n
+$/P12GN+H_yIN\n
+$hall/n_HALLE\n
+{.}\n
+$mid{w}/pr_*MID\n
+$spade/n<pr_SPA\\DE\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$work/vpp{rh}_I+wROH+T $ge-/xp-vpp_I+ $/vpp[H]{rh}_+T\n
+{.}\n
+$&/cj_*AND\n
+$/P12N_yU\n
+$shall/vps12_SCHALD\n
+$therein{p}/av-k_yER-IN\\NE $in{p}/pr-k_-IN\\NE\n
+{.}\n
+$wretch/n_wRECCHE\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$bring/vpp{rh}_I+BROz+T $ge-/xp-vpp_I+ $/vpp[H]{rh}_+T\n
+{.}\n
+$now/av_*NU\n
+$shall/vps23_SCHULEN\n
+{\\}\n
+$/P12GNpl+C_yINE\n
+$wae:de/npl_wED+EN $/pln_+EN\n
+{.}\n
+$all/ajpl_*ALL+E $/plaj_+E\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$seek/vpp-pl{rh}_I+SOz+T $ge-/xp-vpp_I+ $/vpp[H]{rh}_+T\n
+{.}\n
+$man/indef_*ME\n
+$will/vps13_wULE\n
+{\\}\n
+$sweep/vi_SwOP+EN $/vi_+EN\n
+$/P12GOd+H_yIN\n
+$house/nOd_HUS\n
+$&/cj_&\n
+$out/av_UT\n
+$mid{w}/pr_MID\n
+$/T<pr_yE\n
+$swoft/n<pr{rh}_SWOFT\n
+{.}\n
+{\\}\n
+$/P12GN+C_*yI\n
+{=Large initial capital thorn extending a further line up and a further\n
+line below in the left margin=}\n
+$bu:r/n_BUR\n
+$be/vps13_IS\n
+$soon/av_SONE\n
+$build/vpp_I+BULD $ge-/xp-vpp_I+\n
+{.}\n
+$/RTI>pr_yer\n
+$/P12N_yU\n
+$shall/vps12_SCHALD\n
+{\\}\n
+$wunian/viK2_wUN+IEN $/viK2_+IEN\n
+$in{p}/pr<{rh}_InNE\n
+{.}\n
+$/TN_*yE\n
+$roof/n_ROF\n
+$/TN_yE\n
+$first{c}/n_FIRSTE\n
+{.}\n
+$shall/vps13_SCHAL\n
+{\\}\n
+$licgan/vi_LIGG+E $/vi_+E\n
+$on{p}/pr_O\n
+$/P12G<pr+C_yINE\n
+$chin/n<pr{rh}_CHInNE\n
+{.}\n
+$now/av_*NU\n
+$/P12>pr_yE\n
+$shall/vps23_SCULEN\n
+{\\}\n
+$worm/npl_wORM+ES $/pln_+ES\n
+$wunian/viK2_wUN+IEN $/viK2_+IEN\n
+$within/pr<{rh}_wId-INNE $in/pr-k{rh}_-INNE\n
+{.}\n
+$/neg-v(>aj)_*NE\n
+$may/vps13_MAI\n
+$man/indef_ME\n
+{\\}\n
+$/P23Od_HEOm\n
+$outdrive/vi_VT-DRIU+EN $out-/xp-v_VT- $/vi_+EN\n
+{:}\n
+$with{w}/pr_wId\n
+$no/ajG_NON+ES $/Gaj_+ES\n
+$kin/nG_KUnN+ES $/Gn_+ES\n
+$gin/n<pr{rh}_GInNE\n
+{.}\n
+{\\}\n
+$now/av_*NU\n
+{=Large initial *N. Guide letter N still visible inside it=}\n
+$be/vps13_IS\n
+$afear/vpp_A-FER+ED $a-/xp-v_A- $/vpp[R]_+ED\n
+$of/pr_OF\n
+$/P12<pr_yE\n
+{.}\n
+$/P12GN+C_yI\n
+$mae:g/n_MEI\n
+$&/cj_&\n
+$/P12GN+C_yI\n
+$ma:ge/n{rh}_MO\\wE\n
+{.}\n
+$all/ajpl_*ALL+E $/plaj_+E\n
+$/P23N_HEO\n
+$wear/vps23K2[1]-apn_wER+Ed $/vps23K2[1]-apn_+Ed\n
+$/TplOd_yE\n
+$wae:de/nplOd_wED+EN $/plnOd_+EN\n
+{.}\n
+$/RTIpl_yer\n
+$ere/av_ER\n
+$be/vpt23_wE\\REN\n
+$/P12GNpl+V_yIN\n
+$own/ajpl{rh}_Ow+E $/plaj{rh}_+E\n
+{=w looks like y=}\n
+{.}\n
+$&/cj_*AND\n
+$/P12N_yU\n
+$shall/vps12_SCHALD\n
+$now/av_NU\n
+$in{p}/pr_IN\n
+{\\}\n
+$earth/n<pr_EORyE\n
+{.}\n
+$licgan/vi_LIGG+EN $/vi_+EN\n
+$full{v}/av_FUL\n
+$low/av{rh}_LOHE\n
+{.}\n
+$wei/int_*wAI\n
+$why/av_HwI\n
+$willnot/vpt12+P_N+OL\\DES+TU $n-/xp-neg_N+ $/P12N-as_+TU\n
+$ere/av_ER\n
+{.}\n
+$of/pr_OF\n
+$/Dispn<pr_yISSE\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$know/vSpp{rh}_I+CUOw+E $ge-/xp-vpp_I+ $/vSpp{rh}_+E\n
+{=sic - error for ICNOwE?=}\n
+{.}\n
+{\\}\n
+$now/av_*NU\n
+{=Large initial *N. Guide letter N still visible inside it=}\n
+$shall/vps23_SCHAL\n
+$forrot/viK2_FOR-ROT+IEN $for-/xp-v_FOR- $/viK2_+IEN\n
+$/P12GNpl+C_yINE\n
+$tooth/npl_TEd\n
+$&/cj_&\n
+{\\}\n
+{~f248rb~}\n
+$/P12GN+C_yI\n
+$tongue/n{rh}_TUNGE\n
+{.}\n
+$/P12GN+C_*yI\n
+$maga/n_MAHE\n
+$&/cj_&\n
+$/P12GN+C_yE\n
+$milte/n_MILTE\n
+{.}\n
+$/P12GN+C_yI\n
+{\\}\n
+$liver/n_LIURE\n
+$&/cj_&\n
+$/P12GN+C_yI\n
+$lung/n{rh}_LUNGE\n
+{.}\n
+$&/cj_*AND\n
+$/P12GN+C_yI\n
+$throatbolla/n_yROTE\\-BOLLE $bolla/n-k_-BOLLE\n
+$/RTI>pr_yer\n
+$/P12N_yU\n
+$mid{w}/pr<_MIDE\n
+$sing/vSpt12{rh}_SUNGE\n
+{.}\n
+$&/cj_*AND\n
+$/P12N_yU\n
+{\\}\n
+$shall/vps12_SCHAL\n
+$in{p}/pr_IN\n
+$/T<pr_yE\n
+$pit/n<pr_PUTTE\n
+$fast/av_FASTE\n
+$be/vi_BEO+N $/vi[V]_+N\n
+$Yringan/vSpp{rh}_I+yRUN\\G+E $ge-/xp-vpp_I+ $/vSpp{rh}_+E\n
+{=GE taken to right hand side of line below to accommodate the\n
+large initial capital of the next stanza. A paragraph mark separates\n
+the GE from the text to the left of it=}\n
+{.}\n
+{\\}\n
+$where/av_*HwER\n
+{=MS *HwERD with D expuncted. Large initial *H with the ascender\n
+extending a further line up in the left margin=}\n
+$be/vps23_BEOd\n
+$/P12GNpl+C_yINE\n
+$wain/npl_wEIN+ES $/pln_+ES\n
+{=or possibly intended as the adjective "vain" used as a noun synonymous\n
+with "vanities", "fripperies"? There may be some textual uncertainty\n
+here as the Jesus text reads yEYNES. The passage does not seem to be\n
+about people, however, but about material possessions=}\n
+{\\}\n
+$/RTIpl_yer\n
+$/P12Oi_yE\n
+$le:of/ajpl_LEOU+E $/plaj_+E\n
+$be/vpt23{rh}_wERE\n
+{.}\n
+$of/pr_*OF\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P12G<prpl+C_yINE\n
+$rich/ajpl<pr_RICH+E $/plaj<pr_+E\n
+{\\}\n
+$wae:de/npl<pr_wED+EN $/pln<pr_+EN\n
+$now/av_NU\n
+$/P12N_yU\n
+$be/vps12_ARD\n
+$all/av_AL\n
+$skaerr/aj{rh}_SKERE\n
+{.}\n
+$be/v-imp_*BEO\n
+$/P12N_yU\n
+{\\}\n
+$in{p}/pr_IN\n
+$/T<pr_yE\n
+$pit/n<pr_PUTTE\n
+$worm/nplG_wORM+ES $/plnG_+ES\n
+$gefe:ra/n{rh}_I+FERE $ge-/xp-n_I+\n
+{.}\n
+$/P13NI_*HIT\n
+$be/v-fut13_BId\n
+{\\}\n
+$soon/av_SONE\n
+$of/pr_OF\n
+$/P12<pr_yE\n
+$as/cj_AL-SO\n
+$/P12N_yU\n
+$never/av_NEAUER\n
+$benot/vpt12{rh}_N+ERE $n-/xp-neg(<av)_N+\n
+{*sj context*}\n
+{.}\n
+{\\}\n
+$all/ajn_*AL\n
+{=Large initial *A=}\n
+$/RTIOd_yer\n
+$/P11N+H_ICH\n
+$hate/vpt11K2_HAT+EDE $/vpt11K2_+EDE\n
+$/P13NI_HIT\n
+$Yyncan/vpt13_yUz+TE $/vpt13[H]_+TE\n
+$/P12Oi_yE\n
+{\\}\n
+$full{v}/av_FUL\n
+$good/aj{rh}_GOD\n
+{.}\n
+$/DatpnOd_*yAT\n
+$make/vpt13K2_MAK+EDE $/vpt13[K]K2_+EDE\n
+$/TN_yE\n
+$cwe:ad{d}/n_QUED\n
+$/DatpnRTA_yer\\yAT\n
+$/P12Oi_yE\n
+$bestand/vSpt13{rh}_BI-STOD $be-/xp-v_BI-\n
+{.}\n
+$have/vpt12_*HEU+EDEST $/vpt12_+EDEST\n
+$/P12N_yU\n
+$/P12GOd+C_yI\n
+{\\}\n
+$will/nOd_wILLE\n
+$/P12N_yU\n
+$be/vpt12_wERE\n
+$all/av_AL\n
+$wo:d/aj{rh}_wOD\n
+{.}\n
+$&/cj_*AND\n
+$/P11N+V_ICH\n
+$be/vps11_AM\n
+{\\}\n
+$wretch/aj_wRECCHE\n
+$soul/n_SAwLE\n
+$full{v}/av_FUL\n
+$sorrymo:d/aj{rh}_SOR+I-MOD $-ig/xs-aj-k_+I- $mo:d/aj-k{rh}_-MOD\n
+{.}\n
+{\\}\n
+$now/av_*NU\n
+{=Large initial *N=}\n
+$/P12N_yU\n
+$shall/vps12_SCHALD\n
+$belae:fan/vi_BI+LEU+EN $be-/xp-v_BI+ $/vi_+EN\n
+$&/cj_&\n
+$/P11N_ICHT\n
+{=sic=}\n
+{\\}\n
+$mo:t/vps11_MOT\n
+$faran/vi_FAR+E $/vi_+E\n
+$need/av{rh}_NEDE\n
+{.}\n
+$for/pr_*FOR\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$/P12G<prpl+C_yINE\n
+$guilt/npl<pr_GULT+ES $/pln<pr_+ES\n
+{\\}\n
+$fo:n/vi_FONG+ON $/vi_+ON\n
+$/P11N_I+\n
+$shall/vps11_+SCHAL\n
+$meed/nOd{rh}_MEDE\n
+{.}\n
+$/Datpn_*yer\n
+$be/vps13_IS\n
+$hunger/n_HUNGER\n
+{\\}\n
+$&/cj_&\n
+$cold/n_CHELE\n
+$&/cj_&\n
+$fireburning/vpsp-aj_FUR-BERN+INGE $burn/vpsp-aj-k_-BERN+INGE $/vpsp-aj_+INGE\n
+$gle:d/n{rh}_GLEDE\n
+{.}\n
+$&/cj_*AND\n
+$so/av_SO\n
+{\\}\n
+$/P11Od_ME\n
+$will/vps13_wULE\n
+\'_SATHANAS\n
+$full{v}/av_FUL\n
+$ateli:ce/av_ATE+LICHE $-ly/xs-av_+LICHE\n
+$brae:dan/vi{rh}_BRED+E $/vi{rh}_+E\n
+{.}\n
+{\\}\n
+$/P11N+V_*I*CH\n
+{=Large initial *I extending a further line up and a further\n
+line below in the left margin=}\n
+$be/vps11_AM\n
+$sorry/aj_SOR+I $-ig/xs-aj_+I\n
+$enough/av_INOH\n
+{.}\n
+$by{t}/pr_BI\n
+$day/n<pr_DAI\n
+$&/cj_&\n
+$by{t}/pr_BI\n
+$night/n<pr{rh}_NIHT\n
+{\\}\n
+$/P11N_*I\n
+$shall{mv}/vps11_SCHAL\n
+$to/pr_TO\n
+$Ye:oster/aj<pr_yEOSTRE\n
+$stead/n<pr_STUDE\n
+{.}\n
+$there{w}/RT_yer\n
+$never/av_NEAUer\n
+$/neg-v(<av)_NE\n
+{\\}\n
+$come/vps13_KUM+Ed $/vps13[N]_+Ed\n
+$light/n{rh}_LIHT\n
+{.}\n
+$that/cj_yAT\n
+$/P11N_I+\n
+$shall/vps11_+SCHAL\n
+$meet/vi_I-MET+E $ge-/xp-vi_I- $/vi_+E\n
+{\\}\n
+$many/ajOd_MON+I $-ig/xs-ajOd_+I\n
+$/AOd_A\n
+$foul/ajOd_FUL\n
+$wight/nOd{rh}_wIHT\n
+{.}\n
+$/neg-v(>av)_*NE\n
+$shall/vps11+P_SCHAL+ICH $/P11N_+ICH\n
+$never/av_NE\\AUer\n
+$see/vi_I-SEO $ge-/xp-vi_I- $/vi[V]_0\n
+$christ/nOd_CRIST\n
+$/RTA_yer\n
+$be/vps13_IS\n
+$so/av_SO\n
+$bright/aj{rh}_BRIHT\n
+{.}\n
+{\\}\n
+$in{p}/pr_*I*N\n
+{=Large initial *I extending two further lines below in the left margin=}\n
+$full{v}/av_FUL\n
+$/A<pr_A\n
+$bitter/aj<pr_BITTER\n
+$bath/n<pr_BAd\n
+$bathe/viK2_BAy+IEN $/viK2_+IEN\n
+$/P11N_ICH\n
+$shall/vps11_SCHAL\n
+{\\}\n
+$naked/aj{rh}_NAKED\n
+{.}\n
+$of/pr_*OF\n
+$pitch/n<pr_PISCH\n
+$&/cj_&\n
+$brimstone/n<pr_BRUNE+STON $stone/n<pr-k_+STON\n
+{\\}\n
+$weallan/vpsp-aj<pr_wALL+INDE $/vpsp-aj<pr_+INDE\n
+$be/vps13_IS\n
+$make/vppK2{rh}_I+MAK+ED $ge-/xp-vpp_I+ $/vpp[K]K2{rh}_+ED\n
+{.}\n
+$there/av_*yER\n
+$be/vps13_IS\n
+\'_SATHA\\NAS\n
+$/TN_yE\n
+$cwe:ad{d}/n_CwED\n
+$ready/aj_RED+I $-ig/xs-aj_+I\n
+$with{w}/pr_wId\n
+$/P13GM_HIS\n
+$rake/n<pr{rh}_RAKE\n
+{.}\n
+$&/cj_*AND\n
+$so/av_SwO\n
+{\\}\n
+$/P13NM_HE\n
+$/P11Od_ME\n
+$will/vps13_wULE\n
+$forswallow/vi_FOR-SwOLEH+EN $for-/xp-v_FOR- $/vi_+EN\n
+$/TN_yE\n
+$fireburning/vpsp-aj_FUR-BER\\N+INDE $burn/vpsp-aj-k_-BER\\N+INDE $/vpsp-aj_+INDE\n
+$dragon/n{rh}_DRAKE\n
+{=NINDE DRAKE taken to right hand side of column below to accommodate\n
+the large initial capital of the next stanza=}\n
+{.}\n
+{\\}\n
+$though/cj_*yAH\n
+{=Large initial capital thorn extending a further line up and a further\n
+line below in the left margin=}\n
+$all/aj_AL\n
+$/TN_yer\n
+$fire/n_FUR\n
+$in{p}/pr_IN\n
+{\\}\n
+$/Dis<pr_yIS\n
+$world/n<pr_wORLD\n
+{=MS wRORLD with first R expuncted=}\n
+$together/av_TO-GEDERE $to-/xp-av_TO-\n
+$be/vsjpt13_wERE\n
+$bring/vpp{rh}_*I+BROH+T $ge-/xp-vpp_*I+ $/vpp[H]{rh}_+T\n
+{.}\n
+{\\}\n
+$against/pr_*A+zEINES $a-/xp-pr_*A+\n
+$/Dat<pr_yARE\n
+$heat/n<pr_HETE\n
+$benot/vsjpt13_N+ERE $n-/xp-neg(>naughtN)_N+\n
+$/P13NI_HIT\n
+$all/aj_AL\n
+$naught/n{rh}_NOHT\n
+{.}\n
+{\\}\n
+$woe/av_*wO\n
+$be/vps13_IS\n
+$/P13OiM_HIM\n
+$alive/av_A+LIUE $a/pr-xp-av_A+\n
+$/RTA_yer\n
+$therein{p}/av-k_yER-INNE $in{p}/pr-k_-INNE\n
+$be/vps13_IS+\n
+$bring/vpp{rh}_+I+BROH+T $ge-/xp-vpp_I+ $/vpp[H]{rh}_+T\n
+{.}\n
+{\\}\n
+$a:wei/int_*AwAI\n
+$ilk/DisOd_yAS-ILKE\n
+$pi:ne/nOd_PINE\n
+{.}\n
+$/P12N_yU\n
+$have/vps12_HAU+EST $/vps12_+EST\n
+$/P11Oi_ME\n
+$beseech/vpp{rh}_BI\\-SOH+T $be-/xp-v_BI\\- $/vpp[H]{rh}_+T\n
+{=SOHT taken to right hand side of column below to accommodate the\n
+large initial capital of the next stanza. A paraph before\n
+SOHT indicates that it should be read with the text above=}\n
+{.}\n
+{\\}\n
+{~f248va~}\n
+$who/pn_*HwO\n
+{=Large initial *H with the ascender extending up into the top\n
+margin. Guide letter H is visible inside it=}\n
+$see/vsjpt13_I+SEHE $ge-/xp-vsjpt13_I+\n
+$/TOd_yENE\n
+$cwe:ad{d}/nOd_CwED\n
+$how/av_HU\n
+$lothly/aj_LOD+LICH $-ly/xs-aj_+LICH\n
+$/P13NM_HE\n
+{\\}\n
+$be/vsjps13{rh}_BEO\n
+{.}\n
+$horn/npl_*HORN+ES $/pln_+ES\n
+$on{p}/pr_ON\n
+$/P13GM_HIS\n
+$head/n<pr_HEAUED\n
+{.}\n
+$horn/npl_HORN+ES $/pln_+ES\n
+{\\}\n
+$on{p}/pr_ON\n
+$/P13GM_HIS\n
+$knee/n<pr{rh}_CNEO\n
+{.}\n
+$benot/vps13_*N+IS $n-/xp-neg(>nN)_*N+\n
+$nothing/n_NO-yING $thing/n-k_-yING\n
+$alive/av_A+LIUE $a/pr-xp-av_A+\n
+$/RTI_yer\n
+{\\}\n
+$so/av_SO\n
+$ateli:c/aj_ATE+LICHE $-ly/xs-aj_+LICHE\n
+$be/vsjps13{rh}_BEO\n
+{.}\n
+$woe/av_*WO\n
+$be/vps13_IS\n
+$/P23Oi_HEOM\n
+$in{p}/pr_INE\n
+$hell/n<pr_HEL\\LE\n
+{.}\n
+$/RTApl_yET\n
+$/P13OdM_HINE\n
+$shall/vps23_SCHULE\n
+$see/vi{rh}_I-SEO $ge-/xp-vi_I- $/vi[V]{rh}_0\n
+{.}\n
+{\\}\n
+$/P13NM_*HE\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$yawn/vps13K2_zEON+Ey $/vps13[N]K2_+Ey\n
+$mid{w}/pr_MID\n
+$/P13GM_HIS\n
+$mouth/n<pr_MUyE\n
+$&/cj_&\n
+$stare/vps13K2_STAR+Ey $/vps13[R]K2_+Ey\n
+{\\}\n
+$mid{w}/pr_MID\n
+$/P13GM_HIS\n
+$eye/n<pr{rh}_EzE\n
+{.}\n
+$of{f}/pr_*OF\n
+$/P13GMpl_HIS\n
+$noseYyrl/npl<pr_NEOSE-yURL+ES $Yyrl/npl<pr-k_-yURL+ES $/pln<pr_+ES\n
+$come/vps13_CU\\M+Ed $/vps13[N]_+Ed\n
+$/TN_yE\n
+$red/aj_REDE\n
+$le:g/n{rh}_LEIE\n
+{.}\n
+$/DatN_*yAT\n
+$fire/n_FUR\n
+$spring/vps13_SPr^ING+Ey $/vps13[K]_+Ey\n
+$/P13OiM_HIM\n
+{\\}\n
+$out/av>=_VT\n
+{.}\n
+$of{f}/pr<=_OF\n
+$evereach/aj<pr_EUERUCHE\n
+$brow/n<pr{rh}_*BREwE\n
+{.}\n
+$/P13NM_*HE\n
+$mo:t/vpt13_MOSTE\n
+{\\}\n
+$die/vi_DEI+E $/vi_+E\n
+$for/pr_FOR\n
+$care/n<pr_CARE\n
+{.}\n
+$whoso/pn_HwA+SE $so/av-k_+SE\n
+$/P13OdM_HINE\n
+$see/vsjpt13{rh}_I+SEzE $ge-/xp-vsjpt13_I+\n
+{.}\n
+{\\}\n
+$also/av_*ALSO\n
+{=Large initial *A. Guide letter A is visible to its left=}\n
+$be/vps23_BEOd\n
+$/P13GMpl_HIS\n
+$eyepit/npl_EzE-PUTT+ES $pit/npl-k_-PUTT+ES $/pln_+ES\n
+$as/av_ASE\n
+$/AN_A\n
+$bry:Yenlead/n{rh}_BRU\\yEN-LED $lead/n-k{rh}_-LED\n
+{.}\n
+$/TN_*yer\n
+$fire/n_FUR\n
+$spring/vps13_SPr^ING+Ey $/vps13[K]_+Ey\n
+$/P13>prM_HIM\n
+$of{f}/pr<_OF\n
+$wonderly/av_wUN\\DER+LICHE $-ly/xs-av_+LICHE\n
+$red/aj{rh}_RED\n
+{.}\n
+$/neg-v(>ajN)_*NE\n
+$may/vps13_MAI\n
+$no/aj+C_NO\n
+$tongue/n_TUNGE\n
+$tell/vi_TEL\\L+E $/vi_+E\n
+$how/av_HU\n
+$lothly/aj_LOD+LICH $-ly/xs-aj_+LICH\n
+$be/vps13_IS\n
+$/TN_yE\n
+$cwe:ad{d}/n{rh}_CwED\n
+{.}\n
+$whoso/pn_*HwA+SE $so/av-k_+SE\n
+$look/vpt13K2_LOK+EDE $/vpt13[K]K2_+EDE\n
+{\\}\n
+$/P13>prM_HIM\n
+$on{p}/pr<_ON\n
+$for/pr_FOR\n
+$care/n<pr_CARE\n
+$/P13NM_HE\n
+$may/vpt13_MIzTE\n
+$be/vi_BEO $/vi[V]_0\n
+$dead/aj{rh}_DEAD\n
+{.}\n
+{\\}\n
+$hold/vsjps21-bpn_*HOLDE\n
+{=Large initial *H with the ascender extending a further line up in the\n
+left margin=}\n
+$/P21N_wE\n
+$/P21OdX_US\n
+$clean/ajplOd_CLEN+E $/plajOd_+E\n
+$outof/pr_UT-OF $of{f}/pr-k_-OF\n
+$whoredom/n<pr{rh}_HOR+DOM $-dom/xs-n<pr{rh}_+DOM\n
+{.}\n
+{\\}\n
+$mass/nOd_*MASSE\n
+$lae:tan/vsjps21_LETEN\n
+$sing/vi_SING+EN $/vi_+EN\n
+$&/cj_&\n
+$almsdeed/nplOd_ALMES-DED+E $deed/nplOd-k_-DED+E $/plnOd_+E\n
+$do/vsjps21{rh}_DON\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$with{w}/pr_wId\n
+$holy/aj<pr_HAL+I $-ig/xs-aj<pr_+I\n
+$church/n<pr_CHIRCHE\n
+$make/vsjps21K2_MAKEN\n
+$/P21OdX_US\n
+$geso:m/ajplOd{rh}_I-SOM $ge-/xp-aj_I- $/plajOd{rh}_0\n
+$then/av_*wENNE\n
+$may/vps21-bpn_MOHE\n
+$/P21N_wE\n
+{=w looks like y=}\n
+$cwe:man/vi_CwEM+EN $/vi_+EN\n
+$christ/nOd_CRIST\n
+$at/pr_AT\n
+$/T<pr_yE\n
+{\\}\n
+$doom/n<pr{rh}_DOM\n
+{=DOM taken to right hand side of column below to accommodate the\n
+the intended large initial capital of the next stanza=}\n
+{.} \n
+{\\}\n
+$/TN_>y>E\n
+{=Space left for large initial capital not provided. Thorn supplied from\n
+small guide letter that would have been subsequently covered by the\n
+large descender=} \n
+$king/n_KING\n
+$/RTA_yAT\n
+$all/ajOd_AL\n
+$/DisOd_yIS\n
+$world/nOd_wORLD\n
+{\\}\n
+$shape/vSpt13_SCHEOP\n
+$through/pr_yURH\n
+$/P13GM_HIS\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$might/n<pr{rh}_MIzTE\n
+{.}\n
+$bewitan{g}/vsjps13_*BI-wITE $be-/xp-v_*BI-\n
+{\\}\n
+$/P21G_VRE\n
+$soul/nplOd_SAwL+E $/plnOd_+E\n
+$from/pr_FROm\n
+$/Dat<pr_yAN\n
+$foul/aj<pr_FULE\n
+$wight/n<pr{rh}_wIzTE\n
+{.}\n
+$&/cj_&\n
+$lae:tan/vsjps13_LETE\n
+$/P21Od_US\n
+{\\}\n
+$hate/viK2_HAT+IE $/viK2_+IE\n
+$/TOd_yer\n
+$wo:h/nOd_wOH\n
+$&/cj_&\n
+$love/viK2_LUU+IE $/viK2_+IE\n
+$/TOd_yer\n
+$right/nOd{rh}_RIzTE\n
+{.}\n
+$&/cj_&\n
+$bring/vsjps13_BRINGE\n
+{\\}\n
+$/P21G_URE\n
+$soul/nplOd_SAwL+E $/plnOd_+E\n
+$to/pr+H_TO\n
+$heavenrich{k}/nG_HEOUE+RICH+E $rich{k}/nG-k_+RICH+E $/Gn_+E\n
+$light/n<pr{rh}_LIzTE\n
+{.}\n
+{(*A*Men(}\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

@@ -1,0 +1,185 @@
+# 15\n
+{Oxford, Bodleian Library, Digby 55, fol. 49r: Candet Nudatum Pectus, etc}\n
+C13b\n
+550 365 SW\n
+{=E Lincs=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - very small Anglicana formata=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f49r~}\n
+{=Three quarters of the folio written in Latin by another hand. The\n
+present  verses appear to have been written afterwards in the space\n
+remaining at the end of the Latin text. Candet Nudatum Pectus appears\n
+first in Latin=}\n
+{para}\n
+{(*CANDet NUDATUm Pe^CTUS. RUBet Cr^UENTIS LATUS. REGIA PALLENT ORA.\n
+DECORA LANGUENT LUMINA. ProCerA RIGeNT Br^ACHIA TENSA \\ ARENT VICerA.\n
+Cr^URA PENDEnT MARMOREA. RIGAT TerEBr^ATOS PEDES BEATI SAGu^INIS VNDA.(}\n
+{\\}\n
+{para}\n
+$white/aj_*WYT\n
+$be/vps13_IS\n
+$/P12GN+C_YI\n
+$naked/aj_NACHEDE\n
+$breast/n_BREST\n
+$&/cj_AND\n
+{<P<}\n
+{=del, subpuncted=}\n
+{<BLOD<}\n
+{=del, deleted=}\n
+$bloody/aj_BLOD+I $-ig/xs-aj_+I\n
+$be/vps13_IS\n
+$/P12GN+C_YI\n
+$side/n{rh}_SIDE\n
+{.}\n
+{para}\n
+$stark/ajpl_STARK+E $/plaj_+E\n
+$be/vpt23_VEREN\n
+$/P12GNpl+V_YINE\n
+$arm/npl_ARM+ES $/pln_+ES\n
+$/RTIpl_ZAT\n
+$stretch/vpp-pl_STREK+EDE $/vpp[K]-pl_+EDE\n
+$be/vpt23_WEREN\n
+$so/av_SO\n
+$wide/av{rh}_VYDE\n
+{.}\n
+{\\}\n
+{para}\n
+$fealo/aj_*FALU\n
+$be/vps13_ES\n
+$/P12GN+C_THI\n
+$fair/aj_FAIRE\n
+$hle:or/n_LER\n
+$&/cj_AND\n
+$dim/vps13_DUmM+ES $/vps13[N]_+ES\n
+$/P12GN+C_YI\n
+$sight/n{rh}_SITH+E $-th/xs-n{rh}_+E\n
+{para}\n
+$dry/aj_DRIE\n
+$be/vps13_ES\n
+$/P12GN+V_YIN\n
+$hende/aj_ENDE\n
+$body/n_BODY\n
+$on{p}/pr_ON\n
+$rood/n<pr_RODE\n
+$so/av_SO\n
+$tyhtan/vpp{rh}_Y+TYCTHE $ge-/xp-vpp_Y+\n
+{.}\n
+{para}\n
+$/P12GNpl+C_*ZINE\n
+$thigh/npl_ZED+ES $/pln_+ES\n
+$hang/vps23K2_HOnG+EN $/vps23K2_+EN\n
+{\\}\n
+$cold/ajpl_COLD+E $/plaj_+E\n
+$as/av_AL-SO\n
+$/TN_ZE\n
+$marble/n_MARBRE\n
+$stone/n{rh}_STON\n
+{.}\n
+{para}\n
+$/P12GNpl+C_*YINE\n
+$Yyrlian/vppK2-ajplOd_THIRL+EDE $/vpp[L]K2-ajplOd_+EDE\n
+$foot/nplOd_FET\n
+{.\'}\n
+$/TN_YE\n
+$red/aj_REDE\n
+$blood/n_BLOD\n
+$berun/vSpt13{rh}_BY-RON $be-/xp-v_BY-\n
+{.}\n
+{para}\n
+{(*RESPICE In FACIEm . christ^I . TUI . & UI\\DEVIS In DORSO FLAGELLATO . LATerE\n
+SAUCIATO . CAPITE PUnCTO UEPr^IBus . FACIE conSPUTA . MANIBus PerFORATIS .\n
+PEDIBus conFOSSIS. \\ VOLUE >&> REUOLUE . A LATerE AD LATus . A CAPITE USque\n
+AD PEDES UBIque InUEnIES DOLOREm Quia VBIque CRUOREM.(}\n
+{\\\\}\n
+{=Empty line=}\n
+{>para (VOX . christ^I. In Cr^UCE.(>}\n
+{=ins, in right hand margin=}\n
+{para}\n
+$sweet/aj-voc_SUETE\n
+$leman/n-voc_LE+MAN $man/n-voc-k_+MAN\n
+$/P11N_Y\n
+$die/vps11_DEYE\n
+$for/pr_FOR\n
+$/P12G<pr+C_YI\n
+$love/n<pr_LOUE\n
+{.}\n
+$if/cj_YF\n
+$/P11N_Y\n
+$die/vps11_DEYE\n
+$for/pr_FOR\n
+$/P12<pr{rh}_ZE\n
+{.\'}\n
+$why/av_WY\n
+$/neg-v_NE\n
+$will/vps12+P_VIL+TU $/P12N_+TU\n
+$love/viK2_LOU+YEN $/viK2_+YEN\n
+$/P11Od{rh}_ME\n
+{.}\n
+$/P12Gint+V_*ZIN\n
+$a:r/n-int{rh}_ORE\n
+$/P12GN+C_YI\n
+$love/n_LOUE\n
+$bind/vps13_BIN\\D+ES $/vps13_+ES\n
+$/P11Od_ME\n
+$sore/av{rh}_SORE\n
+{.}\n
+$think/v-imp_THENC\n
+$what/pnOd_WAT\n
+$/P11N_Y\n
+{<ZO<}\n
+{=del, subuncted and crossed through=}\n
+$Yolian/vps11K2_THOL+IE $/vps11K2_+IE\n
+$le:of/ajn-voc_LEF\n
+$for/pr_FOR\n
+$/P12<pr{rh}_ZE\n
+{.\'}\n
+$belae:fan/v-imp_BY+LEF $be-/xp-v_BY+\n
+$/P12GOdpl+C_YINE\n
+$sin/nplOd_SINN+ES $/plnOd_+ES\n
+$&/cj_AND\n
+$turn/v-imp_TOREN\n
+$/P12OdX_THE\n
+$to/pr_TO\n
+$/P11<pr{rh}_ME\n
+{.}\n
+{\\\\}\n
+{=Empty line=}\n
+{>para (NUnC PecCATORIS.(>}\n
+{=ins, in right hand margin=}\n
+$when/cj>=_*WEN\n
+$/P11N+V_IHC\n
+$have/vps11_AUE\n
+$all/av_AL\n
+$do/vSpp_DO+N $/vSpp[V]_+N\n
+$/P11GOd+C_MINE\n
+$folly/nOd{rh}_FOLIE\n
+$then/av<=_THANNE\n
+$will/vps11+P_WIL+Y $/P11N_+Y\n
+\'_*IESU\n
+$mercy/nOd_MerCI\n
+$/P12Oi_YE\n
+$cry/viF{rh}_CRI+E $/viF{rh}_+E\n
+{.}\n
+$/P12Gint+V_YIN\n
+$a:r/n-int{rh}_ORE\n
+{.}\n
+$/P12Gint+V_YIN\n
+$a:r/n-int{rh}_ORE\n
+$/P11G-voc+C_MI\n
+$sweet/aj-voc_SUETE\n
+$leman/n-voc_LE+MAN $man/n-voc-k_+MAN\n
+{.\'}\n
+$sore/av{rh}_SORE\n
+{\\}\n
+$/P11Oi_ME\n
+$rue/vps13_REU+ES $/vps13[V]_+ES\n
+$that/cj_THAT\n
+$/P11N+V_Y\n
+$have/vps11_AUE\n
+$misdo/vSpp_MIS-DON $mis-/xp-v_MIS- $/vSpp[V]_+N\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

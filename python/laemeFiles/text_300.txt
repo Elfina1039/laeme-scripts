@@ -1,0 +1,493 @@
+# 300\n
+{London, British Library, Arundel 292, fol. 3r-v: Creed, Pater Noster, Ave Maria etc}\n
+C13b2-C14a1\n
+579 307 S\n
+{=W Norfolk=}\n
+{=Sample represents only a small part of the English in this hand.\n
+See no. 150, The Bestiary for the English on fols. 4r-10v in the\n
+same hand and similar but not identical language=}\n
+{=Script - proto-Gothic book hand with typical C13 forking of\n
+ascenders. It has some similarities to contemporary charter hand\n
+(cf. e.g. Johnson and Jenkinson (1915 [1967], Plate 16). The form\n
+of wynn made with three strokes and with an open top is unusual.\n
+See Wright (1960 no. 8)=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=In the verses on fol. 3r-v, initial litterae notabiliores are\n
+separated from the following text and rubricated. They are not\n
+always formed as majuscules however and here, as in The Bestiary,\n
+which is written as prose, I have not capitalised letters unless\n
+they are given a capital form, whether or not they appear to have\n
+rubrication. The scribe, both here and in The Bestiary, uses two\n
+distinct types of <g> with distinct functions. Both have a single\n
+lobe and a leftward curving tail as in a normal Caroline \'g\'. One has\n
+an off stroke linking it with the following littera - this \'hooked\'\n
+<g> stands for [g] and the rare occurrences of [d3]. The other lacks\n
+the off stroke or \'hook\' and stands for all other functions of \'g\'.\n
+See Wirtjes (1991: x) and the reference there to Gumbert and Vermeer\n
+(1971). Gumbert and Vermeer refer to the hookless <g> as \'an unusual\n
+yogh\' but its shape is nothing like yogh being identical to the\n
+scribe\'s normal <g> but simply lacking the offstroke and here I\n
+recognise this \'g\' as G2=}\n
+{~f3r~}\n
+{>}\n
+{=ins, in top margin=}\n
+!_*C.*X.\n
+{>}\n
+{>para (\'*CREDO IN DEUM\'(>}\n
+{=ins in right hand margin=}\n
+{>(\'*CREDO\'(>}\n
+{=ins, repeated in the margin further to the right=}\n
+$/P11N_*I\n
+{=enlarged initial capital=}\n
+$believe/vps11_LEUE\n
+$in{b}/pr_IN\n
+$godalmighty/n<pr_GODD-AL+MICT+EN $almighty/aj<pr-k_-AL+MICT+EN $mighty/aj<pr-k_+MICT+EN $-in/xs-naj<pr_+EN\n
+$father/n<pr{rh}_FADER\n
+{.}\n
+{\\}\n
+$/RTA_dAT\n
+$heaven/nOd_HEUENE\n
+$&/cj_&\n
+$earth/nOd_ERdE\n
+$make/vpt13_MA+DE $/vpt13[V]_+DE\n
+$to/im+C_TO\n
+$gera/vi-m{rh}_GAR $/vi-m{rh}_0\n
+{.}\n
+{"come into being"}\n
+{\\}\n
+$&/cj_&\n
+$in{b}/pr_IN\n
+\'_IHesU\n
+$christ/n<pr-t_CRIST\n
+$/P13GM_HIS\n
+$le:of/aj<pr_LEUE\n
+$son/n<pr{rh}_SUN\n
+{\\}\n
+$/P21G_*VRE\n
+$only/aj<pr_ONE+LIE $-ly/xs-aj<pr_+LIE\n
+$lord/n<pr_LOUERD\n
+$/P11N+H_IK\n
+$/P13OdM_HIM\n
+$munan/vps11{rh}_MUNE\n
+{.}\n
+{\\}\n
+$/RTA_*dAT\n
+$of/pr_OF\n
+$/T<pr_DE\n
+$holy/aj<pr_HOL+I+ $-ig/xs-aj<pr_+I+\n
+$ghost/n<pr_+GOST\n
+$becennan{b}/vpp_BI+KENN+EDD $be-/xp-v_BI+ $/vpp[N]_+EDD\n
+$be/vpt13{rh}_wAS\n
+{.}\n
+{\\}\n
+$of/pr_*OF\n
+\'_MARIE\n
+$/T<pr_dE\n
+$maiden/n<pr_MAID+EN $-en{d}/xs-n<pr_+EN\n
+$born/vSpp_BOR+EN $/vSpp[R]_+EN\n
+$/P13NM_HE\n
+$be/vpt13{rh}_wAS\n
+{.}\n
+{\\}\n
+$pi:nian/vppK2_*PIN+EDD $/vpp[N]K2_+EDD\n
+$under/pr_UNDER\n
+\'_PONCE-PILATE\n
+{.}\n
+{\\}\n
+$on{p}/pr_*ON\n
+$rood/n<pr_RODE\n
+$nail/vppK2_NAIL+EDD $/vpp[L]K2_+EDD\n
+$for/pr_FOR\n
+$man/nplG_MANN+ES $/plnG_+ES\n
+$sake/n<pr{rh}_SAKE\n
+{.}\n
+{\\}\n
+$there/av_dAR\n
+$Yolian/vpt13K2_dOL+EDE $/vpt13[L]K2_+EDE\n
+$/P13NM_HE\n
+$death/nOd_DEADD\n
+$without/pr_wID+UTEN $out/pr-k_+UTEN\n
+$weald/n<pr{rh}_wOLD\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$bury/vpp_BIRI+EDD $/vpp[V]_+EDD\n
+$be/vpt13_wAS\n
+$in{p}/pr_IN\n
+$/T<pr_DE\n
+$rock/n<pr_ROCHE\n
+$cold/aj<pr{rh}_COLD\n
+{.}\n
+{\\}\n
+$down/av_*DUN\n
+$to{til}/pr+H_TIL\n
+$hell/n<pr_HELLE\n
+$light{d}/vi_LICT+EN $/vi_+EN\n
+$/P13NM_HE\n
+$ginnan{a}/vSpt13{rh}_GAN\n
+{.}\n
+{\\}\n
+$/T-av_dE\n
+$3/qoaj-av_dRIDDE\n
+$day/n-av_DAI\n
+$of{f}/pr_OFF\n
+$death/n<pr_DEADD\n
+$atcome/vSpt13{rh}_AT+KAM $at-/xp-v_AT+\n
+{.}\n
+{\\}\n
+$to/pr+H_*TO\n
+$heaven/n<pr_HEUENE\n
+$/P13NM_HE\n
+$sti:gan/vSpt13_STEG2\n
+$in{m}/pr_IN\n
+$/P21G_URE\n
+$manli:c/n<pr{rh}_MAN+LICHE $li:c/n<pr-k_+LICHE\n
+{"image"}\n
+{.}\n
+{\\}\n
+$there/av_dAR\n
+$sit/vps13_SITT+Ed $/vps13_+Ed\n
+$/P13NM_HE\n
+$in{p}/pr_IN\n
+$/P13GM_HIJS\n
+$father/nG_FADER+ES $/Gn_+ES\n
+$rich{k}/n<pr{rh}_RICHE\n
+{.}\n
+{\\}\n
+$on{t}/pr_*O\n
+$doomsday/n<pr_DOM+ES-DAI $/Gn-k_+ES- $day/n<pr-k_-DAI\n
+$shall/vps13_SAL\n
+$/P13NM_HE\n
+$come/vi_CUM+EN $/vi_+EN\n
+$again/av{rh}_A+G2EN $a-/xp-av_A+\n
+{.}\n
+{\\}\n
+$to/im+C_*TO\n
+$deem/vi-m_DEM+EN $/vi-m_+EN\n
+$dead/ajplOd_DED+E $/plajOd_+E\n
+$&/cj_&\n
+$alive/nG_LIU+ES $/Gn_+ES\n
+$man/nplOd{rh}_MEN\n
+{.}\n
+{\\}\n
+$/P11N_*I\n
+$believe/vps11_LEUE\n
+$in{b}/pr_ON\n
+$/T<pr_dE\n
+$holy/aj<pr_HAL+I $-ig/xs-aj<pr_+I\n
+$ghost/n<pr{rh}_GAST\n
+{\\}\n
+$all/aj<pr_*AL\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$church/n<pr_CHIRCHE\n
+$steadfast/aj<pr{rh}_STEDE+FAST $-fast/xs-aj<pr{rh}_+FAST\n
+{.}\n
+{\\}\n
+$man/npl<pr_*MEN\n
+$of/pr_OFF\n
+$all/aj<pr_ALLE\n
+$holy/aj<pr_HOL+I $-ig/xs-aj<pr_+I\n
+$kin/n<pr{rh}_KINNE\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$forgiveness/n<pr_FOR+G2IUE+NESSE $for-/xp-n_FOR+ $-ness/xs-n<pr_+NESSE\n
+$of/pr_OF\n
+$man/nG_MANN+ES $/Gn_+ES\n
+$sin/n<pr{rh}_SINNE\n
+{.}\n
+{\\}\n
+$uprise/vnOd_*VP-RIS+INGE $up-/xp-v_*VP- $/vnOd_+INGE\n
+$of/pr_OF\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$man/npl<pr{rh}_MEN\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$e:ce/ajOd_ECHE+\n
+$life/nOd_+LIF\n
+$/P11N_I+\n
+$believe/vps11_+LEUE\n
+{(AMEN(}\n
+{.}\n
+{\\\\}\n
+{>para (\'*PateR NOSTE*R\'(>}\n
+{=ins, in right hand margin=}\n
+{>(\'PATer NosteR\'(>}\n
+{=ins, repeated in margin further to the right=}\n
+$father/n-voc_*FADER\n
+$/P21G_URE\n
+$/RTA_dATT\n
+$be/vps12_ART\n
+$in{p}/pr_In\n
+$heaven/nG_HEUEN+E $/Gn_+E\n
+$bliss/n<pr{rh}_BLISSE\n
+{\\}\n
+$/P12GN+H_dIN\n
+$high/aj_HEG2E\n
+$name/n_NAME\n
+$/P13NI_ITT\n
+$weorYan/vsjps13_wURdE\n
+$blissian/vppK2{rh}_BLISC+EDD $/vpp[S]K2{rh}_+EDD\n
+{.}\n
+{\\}\n
+$come/vi_*CUM+EN $/vi_+EN\n
+$/P13NI_ITT\n
+$mo:t/vps13_MOTE\n
+$/P12GN+C_dI\n
+$kingdom/n{rh}_KING-DOM $-dom/xs-n{rh}_-DOM\n
+{.}\n
+{\\}\n
+$/P12GN+H_dIN\n
+$holy/aj_HAL+I $-ig/xs-aj_+I\n
+$will/n_wIL\n
+$/P13NI_IT\n
+$be/vsjps13_BE\n
+$all/av_AL\n
+$do/vSpp{rh}_DO+N $/vSpp[V]{rh}_+N\n
+{.}\n
+{\\}\n
+{~f3v~}\n
+$in{p}/pr_*IN\n
+$heaven/n<pr_HEUENE\n
+$&/cj_&\n
+$on{p}/pr_IN\n
+$earth/n<pr_ERdE\n
+$also/av{rh}_ALL-SO\n
+{.}\n
+{\\}\n
+$so/av_*SO\n
+$/P13NI_ITT\n
+$shall/vps13_SALL\n
+$be/vi_BE+N $/vi[V]_+N\n
+$full{v}/av_FUL\n
+$well{w}/av_wEL\n
+$/P13OdI_IT\n
+$tre:owian/v-impK2{rh}_TRO\n
+{.}\n
+{\\}\n
+$give/v-imp_G2IF\n
+$/P21Oi_US\n
+$all/ajplOi_ALL+E $/plajOi_+E\n
+$on{t}/pr_ONE\n
+$/Dis<pr_dIS\n
+$day/n<pr{rh}_DAI\n
+{\\}\n
+$/P21G_*VRE\n
+$bread/nOd_BRED\n
+$of/pr_OF\n
+$each/aj<pr_ICHE\n
+$day/n<pr{rh}_DAI\n
+{.}\n
+{\\}\n
+$&/cj_&\n
+$forgive/v-imp_FOR+G2IUE $for-/xp-v_FOR+\n
+$/P21Oi_US\n
+$/P21G_URE\n
+$sin/nOd{rh}_SINNE\n
+{.}\n
+{\\}\n
+$as/av_*ALS\n
+$/P21N_wE\n
+$do/vps21-apn_DO+N $/vps21[V]-apn_+N\n
+$/P21G_URE\n
+$wiYerwinna/nplOi{rh}_wIDER+wINN+ES $winna/nplOi-k{rh}_+wINN+ES $/plnOi{rh}_+ES\n
+{.}\n
+{\\}\n
+$lae:tan/v-imp_*LEET\n
+$/P21Od_US\n
+$not/neg-v<_NOCT\n
+$in{i}/pr_IN\n
+$fandian/vn<prK2_FOND+INGE $/vn<prK2_+INGE\n
+$fall/vi{rh}_FALL+E $/vi{rh}_+E\n
+{\\}\n
+$ac/cj_*OxOxC\n
+$from/pr+V_FRO\n
+$evil/n<pr_IUEL\n
+$/P12N_dU\n
+$shield/v-imp_SILD+\n
+$/P21Od_+US\n
+$all/ajplOd{rh}_ALL+E $/plajOd{rh}_+E\n
+{(AMen(}\n
+{.}\n
+{\\\\}\n
+{>para (\'*AUE MARIA.\'(>}\n
+{=ins, in right hand margin=}\n
+{>(\'*AUE []\'(>}\n
+{=ins, repeated in the margin further to the right and cut off=}\n
+{para}\n
+\'_*MARIE\n
+$full/aj-voc_FULL\n
+$of/pr_OFF\n
+$grace/n<pr_Gr^ACE\n
+$well{w}/av_wExExL\n
+$/P12Oi_DE\n
+$be/vsjps13{rh}_BE\n
+{.}\n
+{\\}\n
+$god/n_*GODD\n
+$of/pr_OF\n
+$heaven/n<pr_HEUENE\n
+$be/vsjps13_BE\n
+$with{w}/pr_wId\n
+$/P12<pr{rh}_dE\n
+{.}\n
+{\\}\n
+$over/pr_*OURE\n
+$all/ajpl<pr_ALL+E $/plaj<pr_+E\n
+$woman/npl<pr_wIMMEN\n
+$blissian/vppK2_BLISC+EDD $/vpp[S]K2_+EDD\n
+$/P12N-ad_TU\n
+$be/vsjps12{rh}_BE\n
+{.}\n
+{\\}\n
+$so/av_*SO\n
+$be/vsjps13_BE\n
+$/TN_dE\n
+$bearn/n_BERN\n
+$/RTA_DATT\n
+$be/vps13_IS\n
+$born/vSpp_BOR+EN $/vSpp[R]_+EN\n
+$of/pr_OF\n
+$/P12<pr{rh}_dE\n
+{.}\n
+{\\}\n
+{>(\'*INMANus TUAS\'(>}\n
+{=ins, in right hand margin=}\n
+{>(\'*In MA[]\'(>}\n
+{=ins, repeated in the margin further to the right and cut off=}\n
+{para}\n
+$lord/n-voc_*LOUERD\n
+$god/n-voc_GODD\n
+$in{i}/pr_IN\n
+$hand/npl<pr_HOND+ES $/pln<pr_+ES\n
+$/P12G<pr-as<{rh}_TINE\n
+{.}\n
+{\\}\n
+$/P11N_*I\n
+$bequeath/vps11_BI+QUEdE $be-/xp-v_BI+\n
+$soul/nOd_SOULE\n
+$/P11GOd<{rh}_MINE\n
+{.}\n
+{\\}\n
+$/P12N_dU\n
+$/P11Od_ME\n
+$buy/vpt12_BOC+TEST $/vpt12[K]_+TEST\n
+$with{w}/pr_wId\n
+$/P12G<pr+C_dI\n
+$death/n<pr{rh}_DEADD\n
+{.}\n
+{\\}\n
+$lord/n-voc_*LOUERD\n
+$god/n-voc_GODD\n
+$of/pr_OF\n
+$soothfasthood/n<pr{rh}_SOd+FAST+HEEDD $-fast/xs-aj-k_+FAST+ $-hood/xs-n<pr{rh}_+HEEDD\n
+{.}\n
+{\\}\n
+{=Verses from now on written as prose=}\n
+{para}\n
+$when/cj_*wANNE\n
+$/P11N_I\n
+$think/vps11_dENKE\n
+$thing/nplOd_dING+ES $/plnOd_+ES\n
+$3/qcOd{rh}_dRE\n
+{.}\n
+$/neg-v(>av)_*NE\n
+$may/vps11_MAI\n
+$/P11N_HI\n
+$never/av_NEURE\n
+$blithe/aj_BLIdE\n
+$be/vi{rh}_BE+N $/vi[V]{rh}_+N\n
+{.}\n
+$1/qcpn-def_dE\\-TON $/TN_dE\\-\n
+$be/vps13_IS\n
+$that/cj_DAT\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$away/av{rh}_A+wEI $a-/xp-av_A+\n
+{.}\n
+$/TN_dE\n
+$2/qopn_TOdER\n
+$be/vps13_IS\n
+$/P11N_I+\n
+$/neg-v_+NE\n
+$witan/vps11_wOT\n
+$which/aj-av_wILK\n
+$day/n-av{rh}_DEI\n
+{.}\n
+$/TN_dE\n
+$3/qopn_dRIDDE\n
+{\\}\n
+$be/vps13_IS\n
+$/P11GN+C_MI\n
+$most/aj_MOSTE\n
+$care/n{rh}_KARE\n
+{.}\n
+$/P11N_*I+\n
+$/neg-v_+NE\n
+$witan/vps11_wOT\n
+$whither/av_wIDER\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$faran/vi{rh}_FAR+EN $/vi{rh}_+EN\n
+{.}\n
+{\\}\n
+{para}\n
+$if/cj_*IF\n
+$man/n_MAN\n
+$/P13MXM_HIM\n
+$bethink/vpt13{rh}_BI+dOC+TE $be-/xp-v_BI+ $/vpt13[K]_+TE\n
+{.}\n
+$innerly/av_IND+ER+LIKE $-er/xs-cpv-av-k_+ER+ $-ly/xs-av_+LIKE\n
+$&/cj_&\n
+$often/av{rh}_OFTE\n
+{.}\n
+$how/av_wU\n
+$hard/av_ARDE\n
+$be/vps13_IS\n
+$/TN-as_TE\n
+$fo:r/n{rh}_FORE\n
+{\\}\n
+$from/pr_FRO\n
+$bed/n<pr_BEDDE\n
+$to/pr_TE\n
+$floor/n<pr{rh}_FLORE\n
+{.}\n
+$how/av_wU\n
+$rueful/aj_REU+FUL $-ful/xs-aj_+FUL\n
+$be/vps13_IS\n
+$/TN-as_TE\n
+$flit/n{rh}_FLITTE\n
+{.}\n
+$from/pr_FRO\n
+$floor/n<pr_FLORE\n
+$to/pr_TE\n
+$pit/n<pr{rh}_PITTE\n
+{\\}\n
+$from/pr_FRO\n
+$pit/n<pr_PITTE\n
+$to/pr_TE\n
+$pi:ne/n<pr{rh}_PINE\n
+{.}\n
+$/RTI_dAT\n
+$never/av_NEURE\n
+$shall/vps13_SAL\n
+$finish/viF{rh}_FIN+E $/viF{rh}_+E\n
+{.}\n
+$/P11N_I\n
+$we:nan/vps11_wENE\n
+$no/aj+C_NON\n
+$sin/n{rh}_SINNE\n
+{\\}\n
+$shall/vpt13_SULDE\n
+$/P13GM_HIS\n
+$heart/nOd_HERTE\n
+$winnan/vi{rh}_wINN+EN $/vi{rh}_+EN\n
+{.}\n
+{(*ProUerBia(}\n
+{.}\n
+{(*MEMORARE NOUISSIMA TUA \\ & INETerNUM NOn PECCABIS.(}\n
+{\\\\}\n
+|\n
+\n
+\n'

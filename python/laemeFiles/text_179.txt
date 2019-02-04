@@ -1,0 +1,316 @@
+# 179\n
+{Oxford, Bodleian Library, Digby 2, fol. 6v, hand A language 2: verse}\n
+C13b2\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the English in this kind of language. The same\n
+scribe in the same manuscript writes a verse text in a different\n
+language for which see text no. 178=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The poem is in five stanzas of variable line length and the rhyme\n
+scheme aaaaaaabab, written as prose. The beginning of each stanza\n
+is indicated by a paraph consisting of two oblique lines=}\n
+{~f6v~}\n
+{para}\n
+$hail/int_*HAYL\n
+\'_MARI\n
+$/P11N+V_HIC\n
+$be/vps11_AM\n
+$sorry/aj{rh}_SOR+I $-ig/xs-aj{rh}_+I\n
+{.}\n
+$have/v-imp_HAF\n
+$pity/nOd_PITE\n
+$of/pr_OF\n
+$/P11<pr_ME\n
+$&/cj_AND\n
+$mercy/nOd{rh}_MERCI\n
+{.}\n
+{\\}\n
+$/P11G-voc+C_MI\n
+$lady/n-voc{rh}_LEUEDI\n
+$to/pr_TO\n
+$/P12<pr_yE\n
+$/P11N_I\n
+$cry/vps11F{rh}_CRI\n
+{.}\n
+$for/pr_FOR\n
+$/P11G<prpl+C_MI\n
+$sin/npl<pr_SINN+IS $/pln<pr_+IS\n
+$dread/vpp-aj_DRED\n
+$be/vps11_HAM\n
+$/P11N{rh}_HI\n
+{.}\n
+$when/cj_WEN\n
+{\\}\n
+$/P11N_HI\n
+$think/vps11_yENKE\n
+$that/cj_yAT\n
+$/P11N_HI\n
+$shall/vps11_SAL\n
+$buy/vi{rh}_BI $/vi{rh}_0\n
+{.}\n
+$/RTIOd_yAT\n
+$/P11N+H_HI\n
+$have/vps11_HAF\n
+$misdo/vSpp{rh}_MIS+HI+DO+N $mis-/xp-v_MIS+ $ge-/xp-vpp_+HI+ $/vSpp[V]{rh}_+N\n
+{.\'}\n
+$in{m}/pr_In\n
+$word/n<pr_WORDE\n
+{\\}\n
+$in{m}/pr_IN\n
+$work/n<pr_WORKE\n
+$in{m}/pr_In\n
+$thought/n<pr_yOITH\n
+$folly/aj<pr{rh}_FOLI\n
+$lady/n-voc_LEUEDI\n
+$hear/v-imp_HER\n
+$/P11GOd+C_MI\n
+$boon/nOd{rh}_BON\n
+{.}\n
+{\\}\n
+{para}\n
+$/P11GOd+C_*MI\n
+$boon/nOd_BON\n
+$/P12N_yU\n
+$hear/v-imp{rh}_HER\n
+$lady/n-voc_LEUEDI\n
+$dear/aj-voc{rh}_DER\n
+{.}\n
+$/RTIOd_yAT\n
+$/P11N+V_HIC\n
+$ask/vps11K2_ASK+E $/vps11K2_+E\n
+$with{w}/pr_WIT\n
+$rueful/aj<pr_REU+FUL $-ful/xs-aj<pr_+FUL\n
+{\\}\n
+$chere/n<pr{rh}_CHER\n
+{.}\n
+$/P12N_yU\n
+$lae:nan/v-imp_LEN\n
+$/P11Oi_ME\n
+$here/av{rh}_HER\n
+{<}\n
+{=del, subpuncted=}\n
+$lady/n-voc_LEFDI\n
+$dear/aj-voc_DER\n
+{<}\n
+$while/cj_WIL\n
+$/P11N+V_HIC\n
+$be/vps11_AM\n
+$far/aj{rh}_FER\n
+$do/vi_DO $/vi[V]_0\n
+$penance/nOd_PE\\NANZ\n
+$in{m}/pr_In\n
+$/P11G<pr+C_MI\n
+$prayer/n<pr{rh}_Pr^AIER\n
+{.}\n
+$/neg-v>=_NE\n
+$lae:tan/v-imp_LET\n
+$/P11Od_ME\n
+$not/neg-v<=_NOTH\n
+$lae:ran/vi{rh}_LER $/vi_0\n
+$/RTAOd_yAT\n
+$/P12N_yU\n
+$bear/vSpt12{rh}_BER\n
+{\\}\n
+$at/pr_AT\n
+$/P11G<pr+C_MI\n
+$endday/n<pr{rh}_NENDIN-DAY $day/n<pr-k{rh}_-DAY\n
+{.\'}\n
+$/TplN_yE\n
+$warlock/npl_WARLAI+S $/pln_+S\n
+$/P23N_yAI\n
+$will/vps23-apn_WIL\n
+$be/vi_BE $/vi[V]_0\n
+$here/av{rh}_HER\n
+$forto/im+C_FOR+T $to/im+C-k_+T\n
+$take/vi-m_TAK+E $/vi-m_+E\n
+$/P23G_yAIR\n
+$prey/nOd{rh}_PRAY\n
+{.}\n
+{para}\n
+$to/im+C_*TO\n
+$take/vi-m_TAK+E $/vi-m_+E\n
+$/P23G_yAR\n
+$prey/nOd{rh}_PRAY\n
+$as/av_ALSE\n
+$/P11N+H_HI\n
+$here/av_HER\n
+$say/vps11{rh}_SA[Y]\n
+{=Last letter partially lost in gutter=}\n
+$/P23N_yAI\n
+$be/vps23-apn_ER\n
+$ready/ajpl_RED+I $-ig/xs-ajpl_+I $/plaj_0\n
+$both/av>=_BOYT\n
+$night/n-av_NITE\n
+$&/cj<=_AND\n
+$day/n-av{rh}_DAY\n
+{.}\n
+$so/av_SO\n
+$strong/ajpl_STRANG+E $/plaj_+E\n
+$be/vps23-bpn_ER\n
+$/P23N{rh}_yAI\n
+{.}\n
+{\\}\n
+$that/cj_yAT\n
+$/P21N_WE\n
+$/neg-v_NE\n
+$may/vps21{rh}_MAY\n
+$against/pr_A+GAYNIS $a-/xp-pr_A+\n
+$/P23<pr_yAIM\n
+$stand/vi_STOND $/vi_0\n
+$so/av_SO\n
+$weila:wei/int{rh}_WAY-LA-WA[Y]\n
+{=Last letter partially lost in gutter=}\n
+{\\}\n
+$butif/cj_BUT-GIF $if/cj-k_-GIF\n
+$/P12N_yU\n
+{=MS yU GIF marked for transposition=}\n
+$help/vsjps12_HELP+\n
+$/P21Od_+US\n
+$mightful/aj-voc_MITTE+FUL $-ful/xs-aj-voc_+FUL\n
+$mae:g{m}/n-voc{rh}_MAY\n
+$with{w}/pr_WIT\n
+$/P12GG+C_yI\n
+$son/nG_SUN+ES $/Gn_+ES\n
+$grace/n<pr{rh}_Gr^AC[E]\n
+{=Last letter partially lost in gutter=}\n
+{\\}\n
+$when/cj_WAN\n
+$/P12N_yU\n
+$come/vps12_COM+ES $/vps12[N]_+ES\n
+$/P23N_yAI\n
+$fle:otan/vps23-apn_FLET $/vps23-apn_0\n
+$away/av{rh}_A-WAI $a-/xp-av_A-\n
+{.}\n
+$dare/vps23-bpn_DAR $/vps23-bpn_0\n
+$/P23N_yAI\n
+$not/neg-v<_NOT\n
+$see/vi_SE $/vi[V]_0\n
+$/P12GOd+C_yI\n
+$face/nOd{rh}_FAC[E]\n
+{=Last letter partially lost in gutter=}\n
+{\\}\n
+{para}\n
+$/P12GOd+C_yI\n
+$face/nOd_FACE\n
+$to/im+C_TO\n
+$see/vi-m{rh}_SE $/vi[V]-m{rh}_0\n
+$/P12N_yU\n
+$grant/v-impF_Gr^ANT\n
+$/P13OdI_HIT\n
+$/P11Oi{rh}_ME\n
+{.}\n
+$lady/n-voc_LEFDI\n
+$fulfil{fi}/vpp-aj-voc_FUL-FULL+ID $ful-/xp-v_FUL- $/vpp[L]-aj-voc_+ID\n
+$of/pr_OF\n
+$pity/n<pr{rh}_PITE\n
+{\\}\n
+$that/cj_yAT\n
+$/P11N_HI\n
+$may/vps11_MAY\n
+$be/vi{rh}_BE $/vi[V]{rh}_0\n
+$in{c}/pr_IN\n
+$joy/n<pr_*IOY\n
+$with{w}/pr_WIT\n
+$/P12<pr{rh}_yE\n
+{.}\n
+$to/im+C_TO\n
+$see/vi-m_SE $/vi[V]-m_0\n
+$/P12GOd+C_yI\n
+$son/nOd_SONE\n
+$in{m}/pr_In\n
+$trinity/n<pr{rh}_Tr^INITE\n
+{\\}\n
+$/RTA_yAT\n
+$suffer/vpt13Fir_SUFFER+ID $/vpt13[R]Fir_+ID\n
+$pi:ne/nOd_PINE\n
+$&/cj_AND\n
+$death/nOd_DED\n
+$for/pr_FOR\n
+$/P11<pr{rh}_ME\n
+{.}\n
+$&/cj_AND\n
+$for/pr_FOR\n
+$all/aj<pr_AL\n
+$mankind/n<pr{rh}_MAN\\-KYN $kin/n<pr-k{rh}_-KYN\n
+{.}\n
+$/P13GM_HIS\n
+$flesh/n_FLESSE\n
+$be/vpt13_WAS\n
+$spread/vpp_SPr^ADE\n
+$on{p}/pr_ON\n
+$roodtree/n<pr{rh}_RODE-TRE $tree/n<pr-k{rh}_-TRE\n
+$to/im+C_TO\n
+$le:san/vi-m_LEYS+\n
+$/P21Od_+us\n
+$all/ajplOd_AL\n
+$of{f}/pr_OF\n
+$sin/n<pr{rh}_SIN[E]\n
+{=Last letter partially lost in gutter=}\n
+{\\}\n
+{para}\n
+$of{f}/pr_*OF\n
+$sin/n<pr_SINE\n
+$&/cj_AND\n
+$care/n<pr{rh}_KAR\n
+$/P13NM_HE\n
+$make/vpt13K2_MAK+ED $/vpt13[K]K2_+ED\n
+$/P21Od_VS\n
+$bare/ajplOd{rh}_BAR $/plajOd{rh}_0\n
+{.}\n
+$when/cj_WAN\n
+$/P13NM_HE\n
+$Yolian/vpt13K2_yOLL+ID $/vpt13[L]K2_+ID\n
+{\\}\n
+$pi:ne/nplOd_PIN+ES $/plnOd_+ES\n
+$sore/ajplOd{rh}_SAR $/plajOd{rh}_0\n
+$to/im+C_TO\n
+$droop/vi-m_DRUP+E $/vi-m_+E\n
+$&/cj_AND\n
+$darian/viK2{rh}_DAR $/viK2{rh}_0\n
+$/P21N_WE\n
+$a:gan/vps21-apn_ATHE\n
+$well{w}/av_WEL\n
+$more/av{rh}_MARE\n
+{\\}\n
+$as/av_ALSE\n
+$for/pr_FOR\n
+$/Tpl<pr_yE\n
+$hound/npl<pr_HOND+IS $/pln<pr_+IS\n
+$do/vps13_DOY+T $/vps13[V]_+T\n
+$/TN_yE\n
+$hare/n{rh}_HAR\n
+{.}\n
+$when/cj_WEN\n
+$/P21N_WE\n
+$think/vps21-apn_yENK+E $/vps21-apn_+E\n
+{\\}\n
+$how/av_HU\n
+$/P21N_WE\n
+$shall/vps21-apn_SAL\n
+$faran/vi{rh}_FAR $/vi{rh}_0\n
+{.}\n
+$when/cj_WEN\n
+$/P13NM_HE\n
+$shall/vps13_SAL\n
+$deem/vi_DEM $/vi_0\n
+$/P21Od_VS\n
+$all/ajplOd{rh}_ALL+E $/plajOd{rh}_+E\n
+{.}\n
+$/P21N_WE\n
+$shall/vps21-apn_SAL\n
+$have/vi_HAF $/vi_0\n
+{\\}\n
+$need/nOd_NED\n
+$there/av{rh}_yARE\n
+$upon{p}/pr_A-PAN\n
+\'_MARI\n
+$to/im+C_TO\n
+$call/vi-m{rh}_CALL+E $/vi-m{rh}_+E\n
+{.}\n
+{(&Cetera.(}\n
+{\\\\}\n
+|\n
+\n
+\n'

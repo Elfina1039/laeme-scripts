@@ -1,0 +1,178 @@
+# 174\n
+{London, Westminster Abbey Library MS 34/3, fol. 36v: verse on impossibilities}\n
+C13b2-C14a1(ca1300)\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Anglicana=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The verse is on the bottom half of the folio which is much spotted and\n
+in places faded and hard to read=}\n
+{~f36va~}\n
+$/P11N_*I^C\n
+$see/vSpt11_SEI\n
+$/AOd_A\n
+$sight/nOd_SIC+TE $-th/xs-nOd_+TE\n
+$/RTI_y^T\n
+$be/vpt13_WAS\n
+$unsee/vSpp_VN-SEIy+E $un-/xp-v_VN- $/vSpp[V]{rh}_+E\n
+{\\}\n
+$/AOd_*A\n
+$fyndels/nOd_FIND+ELS $-els/xs-nOd_+ELS\n
+{"finding, discovery"}\n
+$/RTI_y^T\n
+$be/vpt13_WAS\n
+$unfind/vSpp{rh}_VN-FUND+E $un-/xp-v_VN- $/vSpp{rh}_+E\n
+{.}\n
+{\\}\n
+$/AOd_*A\n
+$wise/ajOd_WIS\n
+$woman/nOd_WOMAn\n
+$of/pr_OF\n
+$wit/n<pr_WIT\n
+$unsleigh/ajOd{rh}_VN-SLEI $un-/xp-aj_VN-\n
+{\\}\n
+$/AOd_*A\n
+$loose/ajOd_LOS\n
+$man/nOd_MAn\n
+$fast/av_FASTE\n
+$bind/vSpp{rh}_BUND+E $/vSpp{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$partridge/n_PerTRICH\n
+$draw/vSpt13_DROWEn\n
+{=sic=}\n
+$/AOd_A\n
+$wain/nOd_WEYN\n
+{\\}\n
+$/TN_yE\n
+$forthmost/ajn_FORyE+MEST $-most/xs-ajn_+MEST\n
+$be/vpt13_WAS\n
+$behind/av{rh}_BI-HYNDE $be-/xp-av_BI-\n
+{\\}\n
+$/AN_*A\n
+$dead/aj_DED\n
+$man/n_MAn\n
+$on{p}/pr_ON\n
+$/P13GM_IS\n
+$byrgels/n<pr_BURI+ELES $-els/xs-n<pr_+ELES\n
+$stand/vSpt13_STOD\n
+{\\}\n
+$/P13GMpl_*IS\n
+$hand/nplOd_HOND+EN $/plnOd_+EN\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$wring/vi-m{rh}_WRYNG+E $/vi-m{rh}_+E\n
+{\\}\n
+$well{v}/av_WEL\n
+$high/av_HEyE\n
+$on{p}/pr_ON\n
+$/A<pr+H_AN\n
+$hill/n<pr_HUL\n
+{\\}\n
+$/TN_yE\n
+$congre/n_CUnGER\n
+{"conger eel"}\n
+$tread/vSpt13_TRED\n
+$/TOd_yE\n
+$crow/nOd{rh}_CROUWE\n
+{\\}\n
+$/TN_yE\n
+$raven/n_RAFOUn\n
+$wendan/vpt13_WENDE\n
+$to/pr_TO\n
+$king/nG_KYNG+ES $/Gn_+ES\n
+$court/n<pr_COURT\n
+{\\}\n
+$/TOd_yE\n
+$mastin/nOd_MAISTOUn\n
+{="mastiff". See OED s.v. mastin, n. This seems the most likely reading\n
+in the context of \'impossible\' pairings: a raven wrestling with and throwing\n
+a large hunting dog. The form would require to come directly from OF\n
+mastin rather than from the blend of mastin and mestif that gives the\n
+more usual ME forms: mastif, maistif, masti. The OUn ending seems\n
+unproblematic given RAFOUn for "raven"=}   \n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$throw/vi-m{rh}_yROW+E $/vi-m{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$owl/n_HOWELE\n
+$be/vpt13_WAS\n
+$in{p}/pr_IN\n
+$chamber?/n<pr_CAMBRe\n
+$feed/vpp_FED\n
+{\\}\n
+$&/cj_&\n
+$be/vpt13_WAS\n
+$/TOi_yE\n
+$queen/nOi_QUEn\n
+$ma:ge/n{rh}_MOWE\n
+{\\}\n
+$/TN_yE\n
+$goose/n_GOS\n
+$draw/vSpt13_DROW\n
+$/TOd_yE\n
+$fox/nOd_FOX\n
+$to/pr+H_TO\n
+$hole/n<pr_HOLE\n
+{\\}\n
+$in{m}/pr_*IN\n
+$well{v}/av_WEL\n
+$great/aj<pr_Gr^ET\n
+$swou/n<pr{rh}_SUOWE\n
+{\\}\n
+$/TN_yE\n
+$hare/n_HARe\n
+$in{p}/pr_ON\n
+$/T<pr_yE\n
+$market/n<pr_MARKET\n
+$sit/vSpt13_SET\n
+{\\}\n
+$scarlet/nOd_*SKARLET\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$sell/vi-m{rh}_SULL+E $/vi-m{rh}_+E\n
+{\\}\n
+$/TN_yE\n
+$greyhound/n_[G]RIHUND\n
+$before{p}/pr_BI-FORE $be-/xp-pr_BI-\n
+$/P13<prM_HIm\n
+$stand/vSpt13_STOD\n
+{\\}\n
+$/TOd_yE\n
+{=Word illegible=}\n
+{[money[}\n
+$forto/im+C_Fur-TO $to/im+C-k_-TO\n
+$tell/vi-m{rh}_TELL+E $/vi-m{rh}_+E\n
+{.}\n
+{\\}\n
+{~f36vb~}\n
+$/TN_yE\n
+$mouse/n_MOUS\n
+$weep/vSpt13_WEP\n
+$for/pr_Fur\n
+$/TG_yE\n
+$cat/nG_KATT+ES $/Gn_+ES\n
+$death/n<pr_DEy\n
+{\\}\n
+$that/cj_y^T\n
+$manyman/n_MAN+I-MAn $-ig/xs-aj-k_+I- $man/n-k_-MAn\n
+$may/vps13_MAI\n
+$rue/vi{rh}_REW+E $/vi{rh}_+E\n
+{\\}\n
+$leman/n-voc_*LEmMAn\n
+$when/cj_WHAn\n
+$/TN_yE\n
+$song/n_SONG\n
+$be/vps13_IS\n
+$sooth/aj_SOy\n
+{\\}\n
+$of/pr_*OF\n
+$love/n<pr_LOUE\n
+$/P12N_y^U\n
+$shall/vps12_SSALT\n
+$be/vi_BE $/vi[V]_0\n
+$true/aj{rh}_TREWE\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

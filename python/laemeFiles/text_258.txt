@@ -1,0 +1,135 @@
+# 258\n
+{Salisbury Cathedral Library 82, f. 271v: Pater Noster}\n
+C13b\n
+413 130 N\n
+{=Salisbury, Wilts=}\n
+{=Sample represents all the English in this hand. Transcript supplied by MB=}\n
+{=Script - late C13 charter hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f271v~}\n
+$/P21G_*HURE\n
+$father/n_WADER\n
+$/RTA_yAT\n
+$be/vps13_IS\n
+$in{p}/pr_IN\n
+$heaven/n<pr_EUENE\n
+$/P12GN+V_yYN\n
+$holy/aj_OL+I $-ig/xs-aj_+I\n
+$name/n_NAME\n
+$be/vsjps13_BEYN\n
+$ha:lgian/vppK2_OL+ID $/vpp[L]K2_+ID\n
+{.}\n
+$bring/v-imp_BRING\n
+$/P21Od_US\n
+$/P12G>pr+C_yI\n
+$cynerich{k}/n>pr_KIN+RICHE $rich{k}/n>pr-k_+RICHE\n
+$to/pr<{rh}_TO\n
+{.}\n
+$all/aj_*AL\n
+$/P12GN+C_yI\n
+$will/n_WILLE\n
+$weorYan/vps13-ct_WURTH\n
+{*sj context*}\n
+$do/vSpp{rh}_*I-DO $ge-/xp-vpp_*I- $/vSpp[V]{rh}_0\n
+{.}\n
+$daily/ajOd_*DEI\\+LICH $-ly/xs-ajOd_+LICH\n
+$bread/nOd_BRID\n
+{<yU *IUESTU<}\n
+{=del, crossed through, dittography=}\n
+$/P12N_yU\n
+$give/vps12+P_*IU+ES+TU $/vps12+P_+ES+TU $/P12N-as_+TU\n
+{=Onions thinks this is for "thou give us to". Grammatically one can see the\n
+point, because an imperative is required and the +TU is redundant anyway\n
+with the preceding yU. But formally this explanation is completely\n
+implausible because it requires one to take +ES for "us" and +TU for\n
+post-poned "to" - neither spelling being phonetically explicable nor\n
+paralleled. *IUESTU is fine for \'thou givest\'. MB thinks (and so do I)\n
+that it\'s more likely that the scribe has switched in mid-stream from an\n
+imperative "thou give" to a present "givest thou". Cf. "forgive us thou"\n
+below with the +TU crossed through to make the imperative good=}\n
+{.}\n
+$&/cj_*AN\n
+$/P21G_URE\n
+$guilt/nplOd_KULT+ES $/plnOd_+ES\n
+$forgive/v-imp_WAR-yIF+ $for-/xp-v_WAR-\n
+$/P21Oi_+US\n
+{<TU<}\n
+{=del, crossed through=}\n
+$as/av_*AL-SO\n
+{>}\n
+{=ins, interlined above=}\n
+$/P21N_WE\n
+{>}\n
+$do/vps21-apn_DO\n
+$/P13OdM_IM\n
+$/RTA_yer-E\n
+$all/av_AL\n
+$guilt/vps13-ct_KILT\n
+$/P21Oi_US\n
+{=MB conjectures (pers com) that AL KILT may be a mistake for contracted\n
+AKILT "aguilts". The contracted form is formally acceptable, but AL\n
+may simply be a somewhat awkward use of the commonly appearing\n
+adverbial "all, entirely". The whole phrase may be a corruption of\n
+the more common plural version "as we forgive all those who (have) guilt(ed)\n
+(i.e. trespass(ed) against) us". Given the common use of the past tense\n
+in other versions of this phrase: "have guilted us", AL could perhaps\n
+alternatively be a corruption of some form of "have" and KILT would then\n
+have begun life as a past participle. AL could then have begun life as\n
+Ay or AT. AS (for HAS) would be an easier error to account for, but -S\n
+ending is not likely in Salisbury at this date. Or if it were\n
+subjunctive it could possibly be AF which might also be easier to\n
+account for palaeographically. I am dependent on MB\'s transcript; he has\n
+yer E. But my own feeling would be that yer - i.e. thorn with a hook -\n
+is used in the same way as a barred thorn - i.e. for "that" rather than\n
+for "there/where" (cf. scribe of Cotton Caligula A.ix (many examples)\n
+and hands A (6 exx) and D (2 exx) of Cambridge Trinity College 323. I\n
+conjecture that it is also possible if the gap in the MS is not too\n
+great (and MB confirms that it isn\'t) that the <E> could be part of\n
+the "that" relative pronoun. I haven\'t come across hooked thorn in\n
+combination with E for "that" but there is a number of examples of\n
+barred thorn in combination with E. e.g. Lambeth Homilies has y~E\n
+once for relative pronoun, FORdON-y~E once for the conjunction, and\n
+conversely, with bar instead of hook, y~E once for "there" adverb.\n
+Hand B of Lambeth 487 (Ureisun of ure lauerde) has y~E once for\n
+"thee" and y~ET once for demonstrative "that". The Nero text of\n
+Ancrene Riwle has y~E once for the demonstrative and twice for\n
+relative pronoun plural and there is one example of y~E demonstrative\n
+pronoun in the late 12th cent. text of the Vision of St Edwin in BL\n
+Add 15340 from Winchester. I have provisionally therefore tagged the\n
+combination yer and E as relative pronoun. I have not tried to emend\n
+the text further, although the AL remains awkward=}\n
+{.}\n
+$bring/v-imp_*BRUNK\n
+$/P21Od_US\n
+{<OFT<}\n
+{=del, crossed through=}\n
+$outof/pr_VT\\-OF $of{f}/pr-k_-OF\n
+$each/aj<pr_EH\n
+$evil/aj<pr_HIWEL\n
+{<W[.]K[..]ST<}\n
+{=del, crossed through=}\n
+$fandian?/vn<prK2{rh}_VONHN+IC $/vn<prK2{rh}_+IC\n
+{=This is the word most commonly used in Pater Nosters of this date for\n
+"temptation". The spelling is a problem with no medial D. But it seems\n
+nevertheless the best reading. It otherwise could perhaps be the verbal\n
+noun from OE wunian "dwelling"=}\n
+{.}\n
+$&/cj_*AN\n
+$feorsian/v-impK2_WERES\n
+{=I think this the most likely explanation cf. WADER and WARyIFUS. See\n
+MED firsen in the sense \'separate\' \'keep away from\'. The word is used\n
+in the Trinity Homilies in regard to wordly riches. OE feorsian can\n
+retain the sense "keep far from". Otherwise this has to be for the\n
+imperative of werian, but the ending +ES is then hard to account for=}\n
+{<OF<}\n
+{=del, crossed through=}\n
+$/P21Od_HUS\n
+$from/pr+V_VRAM\n
+$each/aj<pr_EH\n
+$evil/aj<pr_IVEL\n
+$thing/n<pr{rh}_yYNHC\n
+{(AMen(}\n
+{\\\\}\n
+|\n
+\n
+\n'

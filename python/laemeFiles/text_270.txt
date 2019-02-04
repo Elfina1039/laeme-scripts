@@ -1,0 +1,225 @@
+# 270\n
+{London, British Library, Royal 12 E i, fol. 194v, hand B: versions of My Leman on the Rood, and Thenk man}\n
+C13b2-C14a1\n
+562 321 E\n
+{=NW Norfolk=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Textura semiquadrata=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f194v~}\n
+$when/cj_*QUAnNE\n
+{=Enlarged coloured initial *Q=}\n
+$/P11N_HIC\n
+$see/vps11_SE\n
+$on{p}/pr_ON\n
+$rood/n<pr_RODE\n
+\'_IHesU\n
+$/P11GOd+C_MI\n
+$leman/nOd{rh}_LEm+MAN $man/nOd-k{rh}_+MAN\n
+{.}\n
+$&/cj_*AN\n
+$beside/pr_BE-SIDEN $be-/xp-pr_BE-\n
+$/P13<prM_HIM\n
+{>}\n
+{=ins, interlined above=}\n
+$stand/vi_STOND+EN $/vi_+EN\n
+{>}\n
+\'_MARIE\n
+$&/cj_AN\n
+{\\}\n
+\'_IOHAN\n
+{.}\n
+$&/cj_*AND\n
+$/P13GM_HIS\n
+$ridge/nOd_RIG\n
+$swinge/vSpp{rh}_I-SUONG+EN $ge-/xp-vpp_I- $/vSpp{rh}_+EN\n
+$&/cj_AND\n
+$/P13GM_HIS\n
+$side/nOd_SIDE\n
+$sting/vSpp{rh}_I-STUNG+EN $ge-/xp-vpp_I- $/vSpp{rh}_+EN\n
+$for/pr_FOR\n
+$/T<pr_yE\n
+$love/n<pr_LUUE\n
+{\\}\n
+$of/pr_OF\n
+$man/n<pr{rh}_MAN\n
+{.}\n
+$well{w}/av_WEL\n
+$a:gan/vps11_OU\n
+$/P11N_HIC\n
+$to/im+C_TO\n
+$weep/vi-m{rh}_WEP+EN $/vi-m{rh}_+EN\n
+{.}\n
+$&/cj_AND\n
+$sin/nplOd_SINN+ES $/plnOd_+ES\n
+$forto/im+C_FOR+TE $to/im+C-k_+TE\n
+{=CB13 says TE cancelled. Cancellation not apparent on photograph=}\n
+$lae:tan/vi-m{rh}_LET+EN $/vi-m{rh}_+EN\n
+$if/cj_>y>IF\n
+{=y interlined above=}\n
+{>}\n
+{=ins, interlined above=}\n
+$/P11N+V_HIC\n
+{>}\n
+$of/pr_OF\n
+$love/n<pr_LUUE\n
+{\\}\n
+$can/vps11{rh}_KAN\n
+{.}\n
+$if/cj_yIF\n
+$/P11N+V_HIC\n
+$of/pr_OF\n
+$love/n<pr_LUUE\n
+$can/vps11{rh}_KAN\n
+{.}\n
+$if/cj_yIF\n
+$/P11N+V_HIC\n
+$of/pr_OF\n
+$love/n<pr_LUUE\n
+$can/vps11{rh}_KAN\n
+{.}\n
+{=Rest of line blank=}\n
+{\\}\n
+$think/v-imp_*yENC\n
+{=Two-line coloured initial *y=}\n
+$man/n-voc_MAN\n
+$of/pr_OF\n
+$/P11G<prpl+H_M>I>N\n
+{=MS MAN with A expuncted and I interlined above=}\n
+$hard/ajpl<pr_HARD+E $/plaj<pr_+E\n
+$stund/npl<pr{rh}_STUND+ES $/pln<pr{rh}_+ES\n
+$think/v-imp_yENC\n
+$of/pr_OF\n
+$/P11G<prpl+H_MINE\n
+$hard/ajpl<pr_HARD+E $/plaj<pr_+E\n
+$wound/npl<pr{rh}_WND+ES $/pln<pr{rh}_+ES\n
+{.}\n
+{\\}\n
+$man/n-voc_*MAN\n
+$/P12N_yU\n
+$have/v-imp_HAUE\n
+$/P12GOd+C_yINE\n
+$thought/nOd_yOUT\n
+$on{p}/pr_ONE\n
+$/P11<pr{rh}_ME\n
+{.}\n
+$think/v-imp_yENC\n
+$how/av_HOU\n
+$dear/av_DERE\n
+$/P11N_I\n
+$buy/vpt11_BOUTH+E $/vpt11_+E\n
+$/P12Od{rh}_yE\n
+{.}\n
+{\\}\n
+$/P11N_*I+\n
+$lae:tan/vSpt11_+LET\n
+$/P11OdX_ME\n
+$nail/viK2_NAIL+EN $/viK2_+EN\n
+$to/pr_TO\n
+$/T<pr_yE\n
+$tree/n<pr{rh}_TRE\n
+{.}\n
+$hard/aj-cpv_HARD+ERE $-er/xs-cpv-aj_+ERE\n
+$death/n_DETH\n
+$/neg-v(>pnN)_NE\n
+$may/vps13_MAI\n
+$none/pn_NON\n
+$be/vi{rh}_BE+N $/vi[V]{rh}_+N\n
+{.}\n
+$think/v-imp_yENC\n
+$man/n-voc_MAn\n
+{\\}\n
+$all/aj_AL\n
+$/P13NI_HIT\n
+$be/vpt13_WAS\n
+$for/pr_FOR\n
+$/P12<pr{rh}_yE\n
+{.}\n
+$/P11N_*I\n
+$give/vSpt11_GAF\n
+$/P11GOd+C_MI\n
+$flesh/nOd_FLES\n
+$/P11N_I\n
+$give/vSpt11_GAF\n
+$/P11GOd+C_MI\n
+$blood/nOd{rh}_BLOD\n
+{.}\n
+$for/pr_FOR\n
+$/P12<pr_yE\n
+$/P11OdX_ME\n
+$lae:tan/vSpt11_LET\n
+$do/vSpp_*I-\\DO+N $ge-/xp-vpp_*I- $/vSpp[V]_+N\n
+$on{p}/pr_ON\n
+$rood/n<pr{rh}_ROD\n
+{.}\n
+$outof/pr_VT-OF $of{f}/pr-k_-OF\n
+$/P11G<pr+C_MI\n
+$side/n<pr_SIDE\n
+$run/vSpt13_ERN\n
+$/TN_yE\n
+$flood/n{rh}_FLOD\n
+{.}\n
+$/P11N_*I\n
+$Yolian/vpt11K2_yOL+ED $/vpt11[L]K2_+ED\n
+$/P13OdI_HIT\n
+$all/ajOd_AL\n
+$with{w}/pr_WID\n
+$mild/aj<pr_MILDE\n
+$mood/n<pr{rh}_MOD\n
+{.}\n
+{\\}\n
+$man/n-voc_*MAN\n
+$/P13NI_>H>IT\n
+{=H interlined above=}\n
+{[was[}\n
+$all/aj_AL\n
+$for/pr_FOR\n
+$/P12G<pr+C_yI\n
+$good/n<pr{rh}_GOD\n
+{.}\n
+$/P11GNpl+C_*MINE\n
+$pain/npl_PEIN+ES $/pln_+ES\n
+$be/vpt23_WEREN\n
+$hard/ajpl_HARD+E $/plaj_+E\n
+$&/cj_AND\n
+$strong/ajpl{rh}_STRONG+E $/plaj{rh}_+E\n
+$/P11GN+C_*MI\n
+{\\}\n
+$mother/n_MODER\n
+$think/vpt13_yOUT>H>+ $/vpt13_0+\n
+{=H interlined above=}\n
+$/P23Od_+ES\n
+$swi:De/av_SWIyE\n
+$long/ajplOd{rh}_LONG+E $/plajOd{rh}_+E\n
+{.}\n
+$think/v-imp_yENC\n
+$man/n-voc_MAN\n
+$ere/cj_ER\n
+$/P12N_yU\n
+$do/vsjps12_DO\n
+$/P12GOd+C_yI\n
+$sin/nOd{rh}_SINNE\n
+{.}\n
+!_W[]\n
+{=MS rubbed=}\n
+{[what[}\n
+$/P11N_I\n
+{\\}\n
+$Yolian/vpt11K2_yOL+EDE $/vpt11[L]K2_+EDE\n
+{=Corrected from yOLIDE=}\n
+$for/pr_FOR\n
+$mankind/n<pr{rh}_MAN-KINNE $kin/n<pr-k{rh}_-KINNE\n
+{.}\n
+$/P11GN+H_*MIN\n
+$hard/aj_HARDE\n
+$death/n_DET>H>\n
+{=H interlined above=}\n
+$/P12Oi_yE\n
+$shall/vps13_SHAL\n
+$do/vi_DO+N $/vi[V]_+N\n
+$blinnan/vi{rh}_BLINN+E $/vi{rh}_+E\n
+{\\\\}\n
+{=There follows in the same hand a lyric in French set to music=}\n
+|\n
+\n
+\n'

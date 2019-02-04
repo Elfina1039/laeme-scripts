@@ -1,0 +1,83 @@
+# 259\n
+{Hereford Cathedral Library O.III.11, fol. 122v: verse on the passion}\n
+C13b2-C14a1\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - C13 century book hand based on Textura but rather rough and uneven=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=y and Y not distinguished. The figura employed for both is an\n
+indeterminate shape with both strokes the same length meeting at a\n
+point below the line. I have realised it as Y according to our usual\n
+convention, although the letter only appears once in the text\n
+functioning as "y\' rather than thorn. The y/Y figura is dotted or\n
+undotted indiscriminately=}\n
+{~f122vb~}\n
+{=Rest of folio in Latin=}\n
+{para}\n
+$/P12GN+C_YI\n
+$saint/aj_SENTE\n
+$mother/n_MODER\n
+$be/vpt13_WAS\n
+$full{v}/av_FUL\n
+$woe/aj{rh}_WO\n
+$Ya:/cj_YO\n
+$/P13NF_HE\n
+$see/vSpt13_SAHT\n
+$/P12Od_YE\n
+$pi:nian/viK2_PIN+E $/viK2_+E\n
+$so/av{rh}_SO\n
+$&/cj_AND\n
+$/P12GN-ad+C_TI\n
+$blood/n_BLOD\n
+$fall/vSpt13_FEL\n
+$to/pr_TO\n
+$ground/n<pr{rh}_GRUNDE\n
+{.}\n
+$with{w}/pr_WITH\n
+$/T<pr_YE\n
+$sharp/aj<pr_SAR\\PE\n
+$spear/n<pr_SPERE\n
+$stecan{*}/vSpp{rh}_STIK+E $/vSpp{rh}_+E\n
+$&/cj_AN\n
+$/P12GN-ad+C_TI\n
+$mild/aj_MILDE\n
+$heart/n_HERTE\n
+$break/vSpt13{rh}_BREKE\n
+$so/av_SO\n
+$woe/aj_WO\n
+$be/vpt13_WAS\n
+$/P13OiF_HIRE\n
+$/TN_YE\n
+$stund/n{rh}_STUDE\n
+{=sic=}\n
+{.}\n
+{=Five lines of Latin=}\n
+{=English continues in what is probably the same hand as previous\n
+but in a smaller script with a different cut of pen=}\n
+{para}\n
+$/P12GN+C_YI\n
+$side/n_SIDE\n
+$be/vpt13_WAS\n
+$wound/vppK2_WD+ED $/vppK2_+ED\n
+{=sic=}\n
+$&/cj_AND\n
+$make/vpp_MA+D $/vpp[V]_+D\n
+$open/aj_OPEN\n
+$/P12GN+C_YI\n
+$blood/n_BLOD\n
+$/P12GN+C_YI\n
+$shende/n_SEND\n
+$/P12GN+H_YI\n
+$heart/n_HERTE\n
+$unlu:can/vSpp_VN-LOK+EN $un-/xp-v_VN- $/vSpp_+EN\n
+$/P12GOd+C_YI\n
+$saint/ajOd_SENT\n
+$love/nOd_LOUE\n
+$show/vpt13K2_Y+SEU+ED $ge-/xp-vpt13_Y+ $/vpt13[V]K2_+ED\n
+{.}\n
+{\\\\}\n
+{=Continues with Latin=}\n
+|\n
+\n
+\n'

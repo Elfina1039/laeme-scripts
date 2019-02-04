@@ -1,0 +1,359 @@
+# 279\n
+{London, British Library, Add 46487, Sherborne Cartulary, fols. 24v-25r: ME version of boundary clause}\n
+C13a2\n
+363 117 N\n
+{=Sherborne, Dorset=}\n
+{=Sample represents all the English in this hand=}\n
+{=Script - Textura=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f24v~}\n
+{(*ISTIS TerMINIS SUPr^ADICTA TerRA CIRCUmGIRATA EST .(}\n
+{\\}\n
+$1/qoav_*ER+EST $-est/xs-sup-av_+EST\n
+$cold/aj_CHEALDE\n
+$brook/n_BROK\n
+$sce:otan/vps13-ct_SCYT\n
+$in{i}/pr_ON\n
+;_WINBORNE\n
+{.}\n
+$of{f}/pr_*OF\n
+;_WInBORNE\n
+{\\}\n
+$on{u}/pr_ON\n
+{"unto, up to"}\n
+$mapuldorle:ah/n<pr_MAPELDURE+LEA $le:ah/n<pr-k_+LEA\n
+$midward/av_MIDE+WARDE $-ward/xs-av_+WARDE\n
+{.}\n
+$then/av_yANNE\n
+$on{u}/pr_ON\n
+$eastle:ah/n<pr_EAST+LEA $le:ah/n<pr-k_+LEA\n
+{.}\n
+{\\}\n
+$outof/pr_VT-OF $of{f}/pr-k_-OF\n
+$eastle:ah/n<pr_EAST+LEA $le:ah/n<pr-k_+LEA\n
+{[unto[}\n
+$li:nle:ah/n<pr_LIN+LEGE $le:ah/n<pr-k_+LEGE\n
+$moor/n<pr_MOR\n
+$on{u}/pr_ON\n
+$/T<pr_yAT\n
+$slaeget/n<pr_SLEAgET\n
+{="Sheep pasture". Insular g is somewhat rounded and S-shaped=}\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yAN\n
+{\\}\n
+$slaeget/n<pr_SLEAgIET\n
+$on{u}/pr_ON\n
+$southbearu/n<pr_SUTH+BEARE $bearu/n<pr-k_+BEARE\n
+$in{i}/pr_IN\n
+$oakhyrst/n<pr_OK+HURSTE $hyrst/n<pr-k_+HURSTE\n
+$southward/av_SUTH+WARD $-ward/xs-av_+WARD\n
+$on{u}/pr_ON\n
+{\\}\n
+$/Tpl<pr_yE\n
+$withy/npl<pr_WIyEg+ES $/pln<pr_+ES\n
+{.}\n
+$of{f}/pr_*OF\n
+$southbearu/n<pr_SUTH+BEARE $bearu/n<pr-k_+BEARE\n
+{.\'}\n
+$on{u}/pr_ON\n
+$li:nle:ah/n<pr_LIN+LEgE $le:ah/n<pr-k_+LEgE\n
+$moor/n<pr_MORE\n
+{.}\n
+$outof/pr_*VT\\-OF $of{f}/pr-k_-OF\n
+$li:nle:ah/n<pr_LIN+LEgE+ $le:ah/n<pr-k_+LEgE+\n
+$moor/n<pr_+MORE\n
+{.\'}\n
+$on{u}/pr_ON\n
+$/T<pr_yE\n
+$mark/vppK2-aj<pr_I+MEREK+EDE+ $ge-/xp-vpp_I+ $/vpp[K]K2-aj<pr_+EDE+\n
+$lind/n<pr_+LINDE\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yAN\n
+{\\}\n
+{~f25r~}\n
+$mark/vppK2-aj<pr_I+MEREK+EDE $ge-/xp-vpp_I+ $/vpp[K]K2-aj<pr_+EDE\n
+$lind/n<pr_LINDE\n
+$on{u}/pr_ON\n
+$birch/nG_*BURCH+ES+ $/Gn_+ES+\n
+$ga:ra/n<pr_+GORE\n
+$by{p}/pr_BI\n
+$/T<pr_yARE\n
+$northedge/n<pr_NORy-HEGGE $edge/n<pr-k_-HEGGE\n
+{=Or "hedge", but the C12 version has "edge"=}\n
+{.}\n
+{\\}\n
+$of{f}/pr_*OF\n
+$birch/nG_BURCH+ES $/Gn_+ES\n
+$ga:ra/n<pr_GORE\n
+{.\'}\n
+$on{u}/pr_ON\n
+$/T<pr_yANE\n
+$northhealh/n<pr_NORTH-HEALE $healh/n<pr-k_-HEALE\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yAN\n
+$northhealh/n<pr_NORy\\-HELE $healh/n<pr-k_-HELE\n
+$on{u}/pr_ON\n
+$black/aj<pr_BLAKE+\n
+$du:n/n<pr_+DUNE\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yARE\n
+$du:n/n<pr_DUNE\n
+{.\'}\n
+$on{u}/pr_ON\n
+\'_CHEDDES_\n
+$bearu/n<pr_+BERE\n
+{.}\n
+{\\}\n
+$of{f}/pr_*OF\n
+\'_CHEDDES_\n
+$bearu/n<pr_+BERE\n
+{.\'}\n
+$on{u}/pr_ON\n
+$/Tpl<pr_yE\n
+$hoar/ajpl<pr_HOR+E+ $/plaj<pr_+E+\n
+$stone/npl<pr_+STON+ES $/pln<pr_+ES\n
+$on{u}/pr_ON\n
+$/T<pr_yE\n
+$hoar/aj<pr_HORE\n
+$apulder/n<pr_APELDORE\n
+{.}\n
+{\\}\n
+$of{f}/pr_*OF\n
+$/Tpl<pr_yAN\n
+$hoar/ajpl<pr_HOR+E $/plaj<pr_+E\n
+$stone/npl<pr_STON+EN $/pln<pr_+EN\n
+{.\'}\n
+$along/pr_AND+LANG $and-/xp-pr_AND+\n
+$black/aj<pr_BLAKE+\n
+$du:n/n<pr_+DUN+\n
+$edge/n<pr_+EGGE\n
+$north/av_NORTH\n
+{\\}\n
+$on{u}/pr_ON\n
+$/T<pr_yE\n
+$hoar/aj<pr_HORE\n
+$apulder/n<pr_APELDORE\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yARE\n
+$apulder/n<pr_APELDORE\n
+{.\'}\n
+$since/av_SUTH\n
+{=Or "south"=}\n
+$on{u}/pr_ON\n
+$/T<pr_yANE\n
+{\\}\n
+$gemae:re/n<pr_MERE\n
+{=Or "mere", "pool"?=}\n
+$on{u}/pr_ON\n
+$/T<pr_yANE\n
+$hoar/aj<pr_HORE\n
+$withy/n<pr_WIyEH\n
+{.}\n
+$of{f}/pr_*OF\n
+$/T<pr_yAN\n
+$hoar/aj<pr_HORE\n
+$withy/n<pr_WIyEgE\n
+{.\'}\n
+{\\}\n
+$west/av_WEST\n
+$on{u}/pr_ON\n
+$withylake/n<pr_WIyEH+LAKE $lake/n<pr-k_+LAKE\n
+$head/n<pr_HEAFDE\n
+$to/pr_TO\n
+$withylake/n<pr_WIyEH+LAKE+ $lake/n<pr-k_+LAKE+\n
+$ford/n<pr_+UORDE\n
+{.}\n
+{\\}\n
+$since/av_*SUTyE\n
+$to/pr_TO\n
+$wedgehlae:w?/n<pr_WEGGE+LEAWE $hlae:w?/n<pr-k_+LEAWE\n
+$northend/n<pr_NORy-ENDE $end/n<pr-k_-ENDE\n
+{.}\n
+$&/cj_AND\n
+$since/av_SUTHE\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+{\\}\n
+$/T<pr_yARE+\n
+$ditch/n<pr_+DICH\n
+$to/pr_TO\n
+$king/nG_KING+ES+ $/Gn_+ES+\n
+$croft/n<pr_+CROFTE\n
+$in{i}/pr_IN\n
+$/T<pr_yAT\n
+$water/n<pr_WATER\n
+$Yvertover/av_yWRTH+OUER $over/av-k_+OUER\n
+{\\}\n
+$to/pr_TO\n
+\'_WALERONDES_\n
+$croft/n<pr_+CROFTE\n
+{.}\n
+$&/cj_*AND\n
+$since/av_SUTyE\n
+$under/pr_UNDER\n
+$ga:rabeorg/n<pr_GOR+BUERGE $beorg/n<pr-k_+BUERGE\n
+{\\}\n
+$/RTI_yAT\n
+$slide/vps13-ct_SLAD\n
+[=sic=}\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+;_SLUTH\n
+$&/cj_AN\n
+$since/av_SUTHE\n
+$along/pr_AN+LANG $and-/xp-pr_AN+\n
+;_SLUTH\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+{\\}\n
+$/T<pr_yANE\n
+$sandy/aj<pr_SOND+IE $-ig/xs-aj<pr_+IE\n
+$ford/n<pr_UORD\n
+{.}\n
+$&/cj_AND\n
+$since/av_SUTHE\n
+{[on[}\n
+$/T<pr_yANE\n
+$hollow/aj<pr_HOLE+\n
+$way/n<pr_+WEI\n
+$into/pr_IN-TO $to/pr-k_-TO\n
+{\\}\n
+!_TROCKES+\n
+{=Not certain whether this is a place or a person=}\n
+$ditch/n<pr_+DICH\n
+{.}\n
+$of{f}/pr_OF\n
+!_TROCKES+\n
+$ditch/n<pr_+DICH\n
+$in{u}/pr_IN\n
+$/T<pr_yAT\n
+$water/n<pr_WATER\n
+$along/pr_AN-LANG $and-/xp-pr_AN-\n
+{\\}\n
+$water/n<pr_WATERE\n
+$to/pr_TO\n
+;_BALLARDES_\n
+$ha:m/n<pr_+HAM\n
+{.}\n
+$since/av_*SUTyE\n
+$to/pr_TO\n
+$/T<pr_yAN\n
+$long/aj<pr_LANGE\n
+$thorn/n<pr_yOR\\NE\n
+{.}\n
+$&/cj_AN\n
+$since/av_SUTHE\n
+$in{u}/pr_IN\n
+$/T<pr_yANE\n
+$oakstybb/n<pr_OK+STUB $stybb/n<pr-k_+STUB\n
+{.}\n
+$&/cj_AN\n
+$since/av_SUTH\n
+$in{u}/pr_IN\n
+$/TG_yE\n
+$white/ajG_HWIT+E $/Gaj_+E\n
+{\\}\n
+$croft/nG_CROFT+ES $/Gn_+ES\n
+$ditch/n<pr_DICH\n
+{.}\n
+$&/cj_AND\n
+$since/av_SUTHE\n
+$to/pr_TO\n
+!_ONES\n
+{=A person?=}\n
+$thorn/n<pr_yORNE\n
+{.}\n
+$&/cj_AND\n
+$so/av_SWO+\n
+$forth/pr_+UORy\n
+{\\}\n
+$/T<pr_yAgE\n
+{=?Error for yARE or yANE - but attestations ofthe word stro:d in OE\n
+appear to suggest that the word was neuter so yaet or yam would be expected=}\n
+$stro:d/n<pr_STRODE\n
+{"marshy land"}\n
+$to/pr_TO\n
+$king/nG_KING+ES $/Gn_+ES\n
+$hege/nG_HEIg+ES $/Gn_+ES\n
+$hyrne/n<pr_HURNE\n
+{.}\n
+$so/av_SWO\n
+$on{u}/pr_ON\n
+\'_wENE\\CAN\n
+$wurY/n<pr_wwRyE\n
+{"enclosure"}\n
+$on{u}/pr_ON\n
+$/Tpl<pr_yE\n
+$beorg/npl<pr_BUERG+ES $/pln<pr_+ES\n
+{.}\n
+$of{f}/pr_OF\n
+\'_wENECE\n
+$wurY/n<pr_wwURyE\n
+{.\'}\n
+$on{u}/pr_ON\n
+{\\}\n
+$southhealh/n<pr_SUT+HEAL $healh/n<pr-k_+HEAL\n
+$southward/av_SUTH+WARD $-ward/xs-av_+WARD\n
+$of{f}/pr_OF\n
+$/T<pr_yAN\n
+$healh/n<pr_HEALE\n
+$on{u}/pr_ON\n
+$hollowbrook/n<pr_HOLE+BROC $brook/n<pr-k_+BROC\n
+{.}\n
+$of{f}/pr_OF\n
+{\\}\n
+$/T<pr_yAN\n
+$brook/n<pr_BROKE\n
+$to/pr_TO\n
+$roughle:ah/nG_RUAN+LEG+ES $le:ah/nG-k_+LEG+ES $/Gn_+ES\n
+$gate/n<pr_gETE\n
+{.}\n
+$of{f}/pr_OF\n
+$/T<pr_yAN\n
+$gate/n<pr_gETE\n
+$on{u}/pr_ON\n
+{\\}\n
+$hyrne/n<pr_HURN\n
+{.}\n
+$up/av_UP\n
+$along/pr_AND+LANG $and-/xp-pr_AND+\n
+$hyrne/n<pr_HURNE\n
+$on{u}/pr_ON\n
+$/T<pr_yAN\n
+$gemae:rehaga/n<pr_MER+HAgAN $haga/n<pr-k_+HAgAN\n
+{.}\n
+{\\}\n
+$of{f}/pr_OF\n
+$/T<pr_yAN\n
+$haga/n<pr_HAgAN\n
+{.\'}\n
+$on{u}/pr_ON\n
+$/T<pr_yANE\n
+$red/aj<pr_REDE\n
+$way/n<pr_WEI\n
+{.}\n
+$of{f}/pr_OF\n
+$/T<pr_yAN\n
+$way/n<pr_WEIE\n
+{\\}\n
+$on{u}/pr_ON\n
+$hoar/aj<pr_HORE\n
+\'_WLURICHES\n
+$gemae:re/n<pr_I+MERE $ge-/xp-n_I+\n
+{.}\n
+$of{f}/pr_OF\n
+$/T<pr_yAN\n
+$landgemae:re/n<pr_LOND-I+MERE $gemae:re/n<pr-k_-I+MERE $ge-/xp-n_-I+\n
+$along/pr_AN\\+LANG $and-/xp-pr_AN\\+\n
+$stream/nG_STREAM+ES $/Gn_+ES\n
+$eft/av_EFT\n
+$on{u}/pr_ON\n
+$cold/aj<pr_CHEALDEN\n
+$brook/n<pr_BROK\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

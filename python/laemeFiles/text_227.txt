@@ -1,0 +1,320 @@
+# 227\n
+{Oxford, New College 88, fols. 31r, 179r-v, 488v: lyrics and 10 Commandments}\n
+C13b2\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - early Anglicana, very uneven=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{~f31r~}\n
+{=Most of the folio is in Latin in the same hand as the English but\n
+somewhat neater. The three lines of English are at the foot of the page.\n
+In the right margin a caricatured, hooded, human profile points to the\n
+English text with its nose=}\n
+$when/cj_WAnNE\n
+$/P11N_ICH\n
+$think/vps11_yENCHE\n
+$thing/nplOd_yING+ES $/plnOd_+ES\n
+$3/qcOd{rh}_yRE\n
+$/neg-v(>av)_NE\n
+$may/vps11_MAI\n
+$never/av_NEURE\n
+$blithe/aj_BLIyE\n
+$be/vi{rh}_BE $/vi[V]{rh}_0\n
+{.}\n
+$/TN_yAT\n
+$1/qcpn_ON\n
+$be/vps13_IS\n
+$/P11N_ICH\n
+{\\}\n
+$shall{mv}/vps11_SAL\n
+$away/av{rh}_A+WE $a-/xp-av_A-\n
+{=sic=}\n
+{.}\n
+$/TN_yAT\n
+$2/qopn_OyER\n
+$be/vps13_IS\n
+$/P11N_ICH\n
+$/neg-v_NE\n
+$witan/vps11_WOT\n
+$which/aj-av_WILK\n
+$day/n-av{rh}_DAY\n
+{.}\n
+$/TN_yAT\n
+$3/qopn_yRIDDE\n
+$be/vps13_IS\n
+$/P11GN+C_MI\n
+$most/aj_MESTE\n
+{\\}\n
+$care/n{rh}_KARE\n
+$/P11N_I\n
+$/neg-v(>av)_NE\n
+$witan/vps11_WOTH\n
+$never/av_NEVRE\n
+$whither/av_WUDER\n
+$/P11N_I\n
+$shall/vps11_SAL\n
+$faran/vi{rh}_FAR+E $/vi{rh}_+E\n
+{.}\n
+{\\\\}\n
+{~f179r~}\n
+{=Most of the page is in Latin in the same hand as the English. The\n
+English text starts in the middle of line 21 and continues for five\n
+further lines before Latin resumes=}\n
+$man/n-voc_*MAN\n
+$&/cj_AND\n
+$woman/n-voc_WYMAN\n
+$look/v-imp22K2_LOK+ET $/v-imp22K2_+ET\n
+$to/pr_TO\n
+{\\}\n
+$/P11<pr{rh}_ME\n
+{.}\n
+$how/av_U\n
+$much/ajOd_MICHEL\n
+$pi:ne/nOd_PINE\n
+$/P11N_ICH\n
+$Yolian/vpt11K2_yOL+EDE $/vpt11[L]K2_+EDE\n
+$for/pr_FOR\n
+$/P12<pr{rh}_yE\n
+{.}\n
+$look/v-impK2_LOKE\n
+$upon{p}/pr_UP-ONE\n
+$/P11G<pr+C_MI\n
+$ridge/n<pr_RIG\n
+$how/av_U\n
+$sore/av_SORE\n
+$/P11N_ICH\n
+$be/vpt11_WAS\n
+$beat/vSpp{rh}_I-BIT+EN $ge-/xp-vpp_I- $/vSpp{rh}_+EN\n
+{\\}\n
+$look/v-impK2_LOKE\n
+$to/pr_TO\n
+$/P11G<pr+C_MI\n
+$side/n<pr_SIDE\n
+$what/ajOd_WAT\n
+$blood/nOd_BLOD\n
+$/P11N+H_ICH\n
+$have/vps11_HAUE\n
+$lae:tan/vSpp{rh}_I-LET+EN $ge-/xp-vpp_I- $/vSpp{rh}_+EN\n
+{.}\n
+$/P11GNpl+C_*MINE\n
+$foot/npl_UET\n
+$&/cj_AN\n
+$/P11GNpl+H_MINE\n
+$hand/npl_HOND+EN $/pln_+EN\n
+$nail/vpp-plK2_NAIL+ED $/vpp[L]-plK2_+ED\n
+$be/vps23_BETH\n
+{\\}\n
+$to/pr_TO\n
+$/T<pr_yE\n
+$rood/n<pr{rh}_RODE\n
+{.}\n
+$of/pr_OF\n
+{<}\n
+{=del, crossed through - dittography=}\n
+$/TplG_yE\n
+{<}\n
+$/TplG_yE\n
+$thorn/nplG_yORN+ES $/plnG_+ES\n
+$prick/vn<prK2_PRIK+IING $/vn<prK2_+IING\n
+$/P11GN+H_MIN\n
+$head/n_HIUED\n
+$run/vps13_URN+TH $/vps13[N]_+TH\n
+$in{m}/pr_A\n
+$blood/n<pr{rh}_BLODE\n
+{.}\n
+$from/pr_FRAM\n
+$side/n<pr_SIDE\n
+$to/pr_TO\n
+$side/n<pr_SIDE\n
+{\\}\n
+$from/pr+H_FRO\n
+$head/n<pr_HIUED\n
+$to/pr_TO\n
+$/T<pr_yE\n
+$foot/n<pr{rh}_FOT\n
+{.\'}\n
+$turn/v-imp_TURN\n
+$/P11GOd+C_MI\n
+$body/nOd_BODI\n
+$about{p}/av_A-BUTEN $a-/xp-av_A-\n
+$overall/av_OUER+AL $all/av-k_+AL\n
+$/P12N_yU\n
+$find/vps12_FIND+EST $/vps12[D]_+EST\n
+$blood/nOd{rh}_BLOD\n
+{.}\n
+$man/n-voc_*MAN\n
+$/P12GOd+H_yIN\n
+$heart/nOd_HUR\\TE\n
+$/P12GOd+H_yIN\n
+$heart/nOd_HURTE\n
+$/P12N_yU\n
+$turn/v-imp_TurNE\n
+$to/pr_TO\n
+$/P11<pr{rh}_ME\n
+$for/pr_FOR\n
+$/Tpl<pr_yE\n
+$5/qc_VIF\n
+$wound/npl<pr_WND+ES $/pln<pr_+ES\n
+$/RTIplOd_yE\n
+$/P11N_ICH\n
+$Yolian/vpt11K2_THOL+EDE $/vpt11[L]K2_+EDE\n
+$for/pr_FOR\n
+$/P12<pr{rh}_yE\n
+{.}\n
+{\\\\}\n
+{=Latin for the rest of the page=}\n
+{~f179v~}\n
+{=Latin in the same hand except for three lines of English beginning at\n
+line 16=}\n
+$lord/n-voc_LOUERD\n
+$/P12N_yU\n
+$cleopian/vpt12K2_CLEP+EDEST $/vpt12[P]K2_+EDEST\n
+$/P11Od_ME\n
+{.}\n
+$&/cj_AN\n
+$/P11N_ICH\n
+$naught/nOd_NAzT\n
+{=z is realised by CB13 as G. But it is not the scribe\'s usual two\n
+compartment G used in both English and Latin text. It isn\'t like a\n
+normal caroline G either but most like a yogh with closed top=}\n
+$/neg-v(<naughtN>but)_NE\n
+$answer/vpt11K2_AN+SUAR+EDE $and-/xp-v_AN+ $/vpt11[R]K2_+EDE\n
+$/P12Od{rh}_yE\n
+$bu:tan{e}/pr_BUTE\n
+$word/npl<pr_WORD+ES $/plnOd_+ES\n
+$slow/ajpl<pr_SCLO+E $/plajOd_+E\n
+$&/cj_AND\n
+{\\}\n
+$sleepy/ajpl<pr_SCLEP+I+E $-ig/xs-ajpl<pr_+I+E $/plaj<pr_+E\n
+{.}\n
+$Yolian/v-impK2_yOLE\n
+$yet/av_yET\n
+{=y FOR Y et passim=}\n
+$Yolian/v-impK2_yOLE\n
+$/A-av_A\n
+$little/n-av_LITEL\n
+{.}\n
+$but/cj_*BUTE\n
+$yet/av_yIET\n
+$&/cj_AND\n
+$yet/av_yIET\n
+$be/vpt13_WAS\n
+$endless/aj{rh}_ENDE+LIS $-less/xs-aj{rh}_+LIS\n
+$&/cj_AND\n
+$Yolian/v-impK2_yOLE\n
+{\\}\n
+$/A-av_A\n
+$little/n-av_LITEL\n
+$/A-av_A\n
+$long/ajn-av_LONG\n
+$wax/vps13{rh}_WEX+IS $/vps13[S]{rh}_+IS\n
+{=CB13 prints WEY IS=}\n
+{.}\n
+{\\\\}\n
+{~f488~}\n
+{=Most of the page is in Latin - from line 5 onwards, somewhat larger\n
+and more untidy than the previous text but I think the same hand and\n
+the same as the English text which begins six lines up from the foot of\n
+the page=}\n
+{para}\n
+$1/qcOd_ON\n
+$god/nOd_GOD\n
+$/P12N_yU\n
+$shall/vps12_SAL\n
+$have/vi_AU+E $/vi_+E\n
+$in{m}/pr_In\n
+$worship/n<pr{rh}_WR+CHEPE $-ship/xs-n<pr{rh}_+CHEPE\n
+{.}\n
+$/neg-v>=_NE\n
+$take/v-imp_TAK+\n
+$/P12N_+yU\n
+$not/neg-v<=_NASTD\n
+$/P13GM_IS\n
+$name/nOd_NAME\n
+$in{m}/pr_In\n
+$idleship/n<pr{rh}_IDEL+CHEPE $-ship/xs-n<pr{rh}_+CHEPE\n
+{.}\n
+{\\}\n
+$hold/v-imp_HOLD\n
+$well{w}/av_WEL\n
+$/TOd_yE\n
+$holy/ajOd_HAL+I+ $-ig/xs-ajOd_+I+\n
+$day/nOd{rh}_+DAY\n
+{.}\n
+$father/nOd_FADER\n
+$&/cj_*A\n
+$mother/nOd_MODER\n
+$/P12N_yU\n
+$worship/v-imp_WR+CHEP $-ship/xs-v-imp_+CHEP\n
+$ay/av{rh}_AI\n
+{.}\n
+$/neg-v(>av>n)_NE\n
+$slay/v-imp_SCLO\n
+$/P12N_yE\n
+$never/av_NEVRE\n
+{\\}\n
+$noman/nOd{rh}_NO+MAN $man/nOd-k{rh}_+MAN\n
+{.}\n
+{<}\n
+{=del, by subpunction - *BUTE marked with two strokes to indicate\n
+position of text to be substituted=}\n
+$bu:tan{e}/av_*BUTE\n
+$by{p}/pr_BI\n
+$/P12G<pr+C_yI\n
+$wife/n<pr_WIF\n
+$/neg-v(<but>aj)_NE\n
+$licgan/v-imp_LI\n
+$/P12N_yU\n
+$by{p}/pr_BI\n
+$no/aj<pr+C_NO\n
+$woman/n<pr{rh}_WIMAN\n
+{.}\n
+{<}\n
+{>}\n
+{=ins, in bottom margin and marked for insertion to replace subpuncted text=}\n
+$lechery/nOd_LECH+ERIE $-ery/xs-nOd_+ERIE\n
+$/neg-v(>aj)_NE\n
+$do/v-imp_DO\n
+$/P12N_yU\n
+$no/ajOd<{rh}_NON\n
+{.}\n
+{>}\n
+$look/v-impK2_LOKE\n
+$that/cj_yAT\n
+$naught/nOd_NAST\n
+{\\}\n
+$/P12N_yU\n
+$/neg-v(<naught>norC)_NE\n
+$steal/vsjps12_STELE\n
+{.}\n
+$nor/cj_NE\n
+$no/aj+C_NO\n
+$false/ajOd_FALS\n
+$witness/nOd_WITH+NESSE $-ness/xs-nOd_+NESSE\n
+$/P12N_yU\n
+$/neg-v(<norC<aj)_NE\n
+$bear/vsjps12_BERE\n
+{.}\n
+{=Spoilt rhyme=}\n
+$after/pr_*AFFETER\n
+$other/ajG_OyER $/Gaj_0\n
+$man/nG_MAn\\N+ES $/Gn_+ES\n
+$wife/n<pr_WIF\n
+$not/neg>v>=_NAST\n
+$/P12N-ad_TE\n
+$/neg>v<=([neither]>norC>naught)_NE\n
+$long/vsjps12K2{rh}_LOnGE\n
+{.}\n
+$nor/cj_NE\n
+$naught/nOd_NAST\n
+$of/pr_OF\n
+$/P13GMpn<pr_HIS\n
+$have/vsjps12_HAUE\n
+$with{w}/pr_WID\n
+$wrong/n<pr{rh}_WROnGE\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

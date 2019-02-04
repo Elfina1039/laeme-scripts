@@ -1,0 +1,378 @@
+# 141\n
+{Oxford, Bodleian Library, Laud Misc 471, fol. 65r: Death\'s Wither-Clench}\n
+C13b2\n
+0 0 N\n
+{=Not placed=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Textura semiquadrata=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=The text is written as prose in two columns. The stanzas are not\n
+differentiated by spacing, but each begins with an enlarged capital. The\n
+right hand side of the second column has been unevenly cut away with the loss\n
+of some text at the end of lines=}\n
+{~f65ra~}\n
+$man/n_*MAN\n
+{=Enlarged initial *M=}\n
+$may/vps13_MAY\n
+$long/ajG_LONG+E $/Gaj_+E\n
+$life/nG_LIW+ES $/Gn_+ES\n
+{\\}\n
+$we:nan/vi{rh}_WEN+EN $/vi{rh}_+EN\n
+{.}\n
+$ac/cj_AC\n
+$often/av_OFFTE\n
+$/P13OiM_HYM\n
+$le:ogan/vps13_LEG+EyT $/vps13[H]_+EyT\n
+{\\}\n
+$/TN_SE\n
+$wrench/n{rh}_WRENCH\n
+{.}\n
+$fair/aj_FAIR\n
+$weather/n_WEDER\n
+$wendan/vps13-ct_WENT\n
+{\\}\n
+$often/av_OFFTE\n
+$into/pr_IN+TO $to/pr-k_+TO\n
+$rain/n<pr{rh}_RENE\n
+$&/cj_AND\n
+$fae:rli:ce/av_FER+LIK $-ly/xs-av_+LIK\n
+{\\}\n
+$turn/vps13_TURN+Ey $/vps13[N]_+Ey\n
+$/P13NI_HE\n
+$/P13GI_HIS\n
+$blench/nOd{rh}_BLENCH\n
+{.}\n
+$therefore/av-k_yER\\+FORE $for/pr-k_+FORE\n
+$man/n-voc_MAN\n
+$/P12N_yU\n
+$/P12MX_yE\n
+$bethink/v-imp{rh}_BI-yENCH $be-/xp-v_BI-\n
+$all/av_AL\n
+{\\}\n
+$shall/vps13_SAL\n
+$fealwian/viK2_FALEW+I $/viK2_+I\n
+$/P12GN+C_yI\n
+$green/ajn{rh}_GRENE\n
+$weila:wei/int_WEILA\\WEI\n
+$benot/vps13_N+IS $n-/xp-neg(>nor)_N+\n
+$king/n_KING\n
+$nor/cj_NE\n
+$queen/n{rh}_QUENE\n
+$/RTA_yAT\n
+{\\}\n
+$/neg-v_NE\n
+$shall/vps13_SAL\n
+$drink/vi_DRINK+EN $/vi_+EN\n
+$of/pr_OF\n
+$death/nG_DEy+ES $/Gn_+ES\n
+$drink/n<pr{rh}_DREnCH\n
+{.}\n
+{\\}\n
+$man/n-voc_*MAN\n
+$ere/cj_ER\n
+$/P12N_yU\n
+$fall/vsjps12_FALLE\n
+$off/pr_OF\n
+$/P12G<pr+C_yI\n
+$bench/n<pr{rh}_BENCH\n
+{\\}\n
+$/P12GOd+C_yI\n
+$sin/nOd_SENNE\n
+$aquench/v-imp{rh}_A-QUENCH $a-/xp-v_A-\n
+{.}\n
+{\\}\n
+$benot/vps13_*N+IS $n-/xp-neg(>pnN>nor4)_*N+\n
+{=Enlarged initial *N=}\n
+$none/pn_NOn\n
+{\\}\n
+$so/av_SE\n
+$strong/aj_STRONG\n
+$nor/cj_NE\n
+$stark/aj_STARC\n
+$nor/cj_NE\n
+$keen/aj{rh}_KENE\n
+{.}\n
+{\\}\n
+$/RTA_yAT\n
+$may/vps13_MAY\n
+$against/pr_A+GEIN $a-/xp-pr_A+\n
+$death/nG_DEAy+ES $/Gn_+ES\n
+$wiYerclench/n<pr{rh}_WIyER\\-CLENCH $clench/n<pr-k{rh}_-CLENCH\n
+{.}\n
+$young/aj_IWNG\n
+$nor/cj_NE\n
+$old/aj_OLD\n
+{.}\n
+$bright/aj_BRIGST\n
+{\\}\n
+$nor/cj_NE\n
+$sce:ne/aj{rh}_SENE\n
+{.}\n
+$ac/cj_AC\n
+$all/ajnOd_AL\n
+$/P13NM_HE\n
+$rive/vps13_RIU+Ey $/vps13_+Ey\n
+$in{m}/pr_ON\n
+$1/qc<pr_O\n
+{\\}\n
+$strengu/n<pr_STRENG\n
+{.}\n
+$fox/naj_FOX\n
+{.}\n
+$&/cj_AND\n
+$fae:rli:c/aj_FER+LIC $-ly/xs-aj_+LIC\n
+$be/vps13_IS\n
+{=MS HIS with H partially erased=}\n
+$/P13GM_HIS\n
+{\\}\n
+$wrench/n{rh}_WRENCH\n
+{.}\n
+$/neg-v(>nN>nor3)_NE\n
+$may/vps13_MAI\n
+$/P13>prM_HIM\n
+$noman/n_NO+MAn $man/n-k_+MAn\n
+{\\}\n
+$against/pr<{rh}_TO-YENES $to-/xp-pr_TO-\n
+{.}\n
+$weila:wei/int_WEILAUEI\n
+$weep/vnOd_WEP+ING $/vnOd_+ING\n
+{\\}\n
+$nor/cj_NE\n
+$be:n/nOd{rh}_BENE\n
+{.}\n
+$nor/cj_NE\n
+$list/nplOd_LIST+ES $/plnOd_+ES\n
+$nor/cj_NE\n
+$leech/nG_LECH+ES $/Gn_+ES\n
+{\\}\n
+$drink/nOd{rh}_DRENCH\n
+{.}\n
+$man/n-voc_*MAN\n
+$lae:tan/v-imp_LET\n
+$lust/nOd_LUST\n
+$&/cj_AnD\n
+$sin/nG_SEN\\N+E $/Gn_+E\n
+$stench/nOd{rh}_STENCH\n
+{.}\n
+$well{w}/av_WEL\n
+$do/v-imp_DO\n
+$well{w}/av_WEL\n
+$think/v-imp{rh}_yENCH\n
+{.}\n
+{\\}\n
+$do/v-imp_*DO\n
+{=Enlarged initial *D=}\n
+$by/pr_BI\n
+\'_SALEMONES\n
+$rae:d/n<pr{rh}_REDE\n
+{.}\n
+$man/n-voc_MAN\n
+{\\}\n
+$then/av_yANNE\n
+$shall/vps12_SAL\n
+$/P12N_yU\n
+$well{w}/av_WEL\n
+$do/vi{rh}_DO $/vi[V]{rh}_0\n
+{.}\n
+$do/v-imp_DO\n
+$as/av_SO\n
+$/P13NM_HE\n
+{\\}\n
+$/P12Oi_yE\n
+$teach/vps13_TECH+Ey $/vps13_+Ey\n
+$&/cj_AND\n
+$say/vpt13{rh}_SE+DE $/vpt13[V]{rh}_+DE\n
+$/RTI>pr_yAT\n
+$/P12GN+V_yIN\n
+$end/vnK2_EN\\D+ING $/vnK2_+ING\n
+$/P12Od_yE\n
+$bring/vps13_BRING+ET $/vps13[K]_+ET\n
+$to/pr<{rh}_TO\n
+{.}\n
+{\\}\n
+$/neg-v(>av)_NE\n
+$shall/vps12_SAL\n
+$/P12N_yU\n
+{\\}\n
+$never/av_NEUERE\n
+$misdo/vi{rh}_MIS-DO $mis-/xp-v_MIS- $/vi[V]{rh}_0\n
+{.}\n
+{=A verse line is missing here but there is no gap in the manuscript=}\n
+$weila:wei/int_WEILAUEI\n
+$such/pn_SWICH\n
+{\\}\n
+$we:nan/vps13_WEN+ETH $/vps13[N]_+ETH\n
+$lead/vi{rh}_LED+E $/vi{rh}_+E\n
+$long/ajOd_LONG\n
+$life/nOd_LIF\n
+$&/cj_AND\n
+{\\}\n
+$bliss/nOd_BLISCE\n
+$underfo:n/vi{rh}_UNDER-FO $under-/xp-v_UNDER- $/vi[V]{rh}_0\n
+{.}\n
+$death/n_DEy\n
+$/P13OdM_HIM\n
+$lead/vps13_LED+ES $/vps13_+ES\n
+{\\}\n
+$in{p}/pr_ON\n
+$/P13GM_HIS\n
+$shoe/n<pr{rh}_SOxOx\n
+{.}\n
+$to/im+H_DO\n
+$/P13OdM_HIM\n
+$fordo/vi-m{rh}_FOR-DO $for-/xp-v_FOR- $/vi[V]-m{rh}_0\n
+{.}\n
+{\\}\n
+{~f65rb~}\n
+$man/n-voc_*MAN\n
+{=Enlarged initial *M=}\n
+$why/av_WI\n
+$willnot/vps12+P_N+IL+TU $n-/xp-neg_N+ $/P12N_+TU\n
+$/P12MX_yE\n
+$beknow/vi_BI-CNOW+EN $be-/xp-v_BI- $/vi_+EN\n
+{.}\n
+{\\}\n
+$man/n-voc_MAN\n
+$why/av_WI\n
+$willnot/vps12+P_N+IL+TU $n-/xp-neg_N+ $/P12N_+TU\n
+$/P12MX_yE\n
+$besee/vi{rh}_BI-SExEx $be-/xp-v_BI- $/vi[V]{rh}_0\n
+{.}\n
+$of/pr_OF\n
+{\\}\n
+$filth/n<pr_FEL+yE $-th/xs-n<pr_+yE\n
+$/P12N_yU\n
+$be/vps12_ART\n
+$come/vSpp_COM+EN $/vSpp_+EN\n
+{.}\n
+$worm/nG_WERM+ES $/Gn_+ES\n
+{\\}\n
+$food/n_FODE\n
+$/P12N_yU\n
+$shall/vps12_SALT\n
+$be/vi{rh}_BE $/vi[V]{rh}_0\n
+{.}\n
+$/P12N_yU\n
+$/neg-v_NE\n
+$have/vps12_HAU+EST $/vps12_+EST\n
+{\\}\n
+$here/av_HER\n
+$bliss/nOd_BLISCE\n
+$day/npl-av_DAI+ES $/pln-av_+ES\n
+$3/qc-av{rh}_yRE\n
+{.}\n
+$ac/cj_AC\n
+$all/aj_AL\n
+$/P12GN+V_yI\n
+{\\}\n
+$joy/n_IOIE\n
+$be/vps13_IS\n
+$turn/vpp_TURN+ED $/vpp[N]_+ED\n
+$in{i}/pr_ON\n
+$woe/n<pr_WOUGE\n
+{.}\n
+{\\}\n
+$weila:wei/int_WEILAWEI\n
+$death/n_DEy\n
+$/P12Od_yE\n
+$shall/vps13_SAL\n
+$down/av_DUN\n
+!_yR[]\n
+{[throw[}\n
+{=Edge of parchment cut away=}\n
+{\\}\n
+$when/cj_HWANNE\n
+$/P12N_yU\n
+$we:nan/vps12_WEN+EST $/vps12[N]_+EST\n
+$again/av_A+GEIN $a-/xp-av_A+\n
+{[high?[}\n
+{=Edge of parchment cut away=}\n
+{\\}\n
+$sti:gan/vi{rh}_STI+E $/vi{rh}_+E\n
+$in{c}/pr_ON\n
+$sorrow/n<pr_SORGHE\n
+$shall/vps13_SAL\n
+$/P12GN+V_yI\n
+$joy/n_IOIE\n
+{[end[}\n
+{\\}\n
+$in{c}/pr_ON\n
+$wo:p/n<pr_WOP\n
+$/P12GN+C_yI\n
+$glee/n{rh}_GLE\n
+{.}\n
+{\\}\n
+$whereso/cj_*HWER-SO $so/cj-k_-SO\n
+{=Enlarged initial *H=}\n
+$weal/n_WELE\n
+$/P12Od_yE\n
+$beswi:can/vps13{rh}_BI-SUIK[] $be-/xp-v_BI-\n
+{\\}\n
+$man/n-voc_MAN\n
+$gewis/av_I-WIS $ge-/xp-av_I-\n
+$/P13NI_HE\n
+$be/vps13_BEy\n
+$/P12GN+C_yI\n
+$foe/n{rh}_FO\n
+{.}\n
+$if/cj_IEF\n
+{[the[}\n
+{=Edge of parchment cut away=}\n
+{\\}\n
+$world/n_WERLD\n
+$/P12Od_yE\n
+$beslician/vps13K2{rh}_BI-SLIK+ET $be-/xp-v_BI- $/vps13[K]K2{rh}_+ET\n
+$/Datpn_yAT\n
+$be/vps13_HIS\n
+{=Something missing from the cropping of the parchment=}\n
+{\\}\n
+$forto/im+C_FOR-TO $to/im+C-k_-TO\n
+$do/vi-m_DO $/vi[V]-m_0\n
+$/P12Oi_yE\n
+$woe/nOd{rh}_WO\n
+{.}\n
+$therefore/av-k_yER+FORE $for/pr-k_+FORE\n
+$lae:tan/v-imp_LET\n
+{\\}\n
+$lust/nOd_LUST\n
+$overgo/vi{rh}_OUER-GO $over-/xp-v_OUER- $/vi[V]{rh}_0\n
+{.}\n
+$man/n-voc_MAN\n
+$&/cj_AND\n
+$eft/av_EFT\n
+{\\}\n
+$/P13NI_HIT\n
+$/P12Oi_yE\n
+$like/vps13K2{rh}_LIK+ET $/vps13[K]K2{rh}_+ET\n
+{.}\n
+$weila:wei/int_WEILAUEI\n
+$wroth/av_WROyE\n
+{\\}\n
+$/P13NM_HE\n
+$/P13OiXM_HIM\n
+$wi:can/vps13{rh}_WIK+ET $/vps13[K]{rh}_+ET\n
+{.}\n
+$then/av_yANNE\n
+$in{t}/pr_IN\n
+$1/qc<pr_O\n
+{\\}\n
+$stund/n<pr_STUNDE\n
+$or/cj_OyER\n
+$2/qc<pr{rh}_TUO\n
+$awinnan/vps13_A+WINN+ET $a-/xp-v_A+ $/vps13[N]_+ET\n
+{\\}\n
+$/P13OiXM_HIM\n
+$1000/qc_A-yUSEND $1/qc-k_A-\n
+$pi:ne/nplOd_PIN+E $/plnOd_+E\n
+$or/cj_OyER\n
+{\\}\n
+$more/ajnOd{rh}_MO\n
+$/neg-v_NE\n
+$do/v-imp_DO\n
+$/P12N_yU\n
+$so/av{rh}_SO\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

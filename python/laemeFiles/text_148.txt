@@ -1,0 +1,232 @@
+# 148\n
+{London, British LibraryL Cotton Roll ii.11, language B: document from Crediton}\n
+C13b2\n
+283 100 W\n
+{=Crediton, Devon=}\n
+{=Sample represents all the text in English in this hand=}\n
+{=Script - Textura semi-quadrata. Note that both insular g\n
+(realised as g) and yogh (realised as z) are used=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{(*I*N NOmInE DoMini NostRI I*HesU chrISTI.(}\n
+$/P11N+V_*ICH\n
+\'_EADNOD\n
+$bishop/n-t_BISCHOB\n
+$cy:Yan/vps11_KIyE\n
+$in{p}/pr_ON\n
+$/Dis<pr_yIS\n
+$writ/n<pr_wRITON\n
+{.}\n
+$that/cj_yAT\n
+$/P11N+V_IHC\n
+$onborgian/vpt11K2_ON+BORg+EDE $on-/xp-v_ON+ $/vpt11[H]K2_+EDE\n
+!_.XXX.\n
+$mark/nplOd_MAR\\C+A $/plnOd_+A\n
+$gold/nG_GOLD+ES $/Gn_+ES\n
+$by/pr_BE\n
+$leadweight/n<pr_LEAD-wIgTE $weight/n<pr-k_wIgTE\n
+$to/pr_TO\n
+$/P11G<pr+C_MINRE\n
+$landhredding/n<pr_LOND-REDD+INGE $hreddan/vn<pr-k_-REDD+INGE $/vn<pr_+INGE\n
+$at/pr_AT\n
+;_BEORHTUOdE\n
+{.}\n
+$&/cj_AND\n
+$/P11N_ICH\n
+$sell/vpt11_zE-SEAL+DE $ge-/xp-vpt11_zE- $/vpt11[L]_+DE\n
+$/P13OiM_HIM\n
+$1/qcOd_ANE\n
+$gerd/nOd_zUR\\DE\n
+$land/nG_LOND+ES $/Gn_+ES\n
+$to/pr+V_TO\n
+$underwedd/n<pr_VNDER+WEDDE $under-/xp-n_VNDER+\n
+$by{p}/pr_BI\n
+;_CRIDIA\n
+$to/pr_TO\n
+$/T<pr_yAN\n
+$foreweard/n<pr_FORE+wORD $fore-/xp-n_FORE+\n
+$that/cj_yAT\n
+$/P13NM_HE\n
+$have/vsjps13_HABBE\n
+$/P13GMpl_HIS\n
+$day/npl-av_DEI+S $/pln-av_+S\n
+{.}\n
+$over/pr_OUer\n
+$/P13GMpl_HIS\n
+$day/npl<pr_DEI+S $/pln<pr_+S\n
+$bequeath/vsjps13_BE-QUEyE $be-/xp-v_BE-\n
+{\\}\n
+$/TOd_yANE\n
+{.}\n
+$sceatt/nOd_SCHUTH\n
+$/DatpnOiRTA_yAn-yE\n
+$/P13OiM_HIM\n
+$le:of/aj-sup_LUU+EST $-est/xs-sup-aj_+EST\n
+$be/vsjps13_BU\n
+$/RTA_yE\n
+$in{p}/pr_IN\n
+$/T<pr_yAN\n
+$land/n<pr_LONDE\n
+$stand/vps13-ct_STENT\n
+{.}\n
+$/Despn_*yIS-HIS\n
+$be/vps23_SINT\n
+$/TplN_yA\n
+$land/nG_LOND+ES $/Gn_+ES\n
+$gemae:re/npl_I+MEAR+E $ge-/xp-n_I+ $/pln_+E\n
+{.}\n
+$/TG_yARE\n
+$gerd/nG_zURD $/Gn_0\n
+{\\}\n
+$by{p}/pr_BI\n
+;_CRIDIA\n
+{.}\n
+$1/qoav_*ER+EST $-est/xs-sup-av_+EST\n
+$on{u}/pr_ON\n
+\'_SCHOKELBORKES\n
+$ford/n<pr_FORD\n
+{.}\n
+$then/av_*yANNE\n
+$east/av_EAST\n
+$on{p}/pr_ON\n
+$/T<pr_yAN\n
+$path/n<pr_PAyE\n
+{.}\n
+$on{u}/pr_ON\n
+$/T<pr_yAn\n
+$little/aj<pr_LITEL\n
+$ga:ra/n<pr_GORE\n
+{.}\n
+$eastward/av_EST+WARD $-ward/xs-av_+WARD\n
+{\\}\n
+$south/av_SUd\n
+{.}\n
+$on{u}/pr_ON\n
+$/T<pr_yAn\n
+$dead/aj<pr_DEDE\n
+$la:c/n<pr_LAKE\n
+$in{p}/pr_ON\n
+;_Cr^IDIA\n
+{.}\n
+$up/av_*OP+\n
+$against{t}/pr_+ON-zEN $on-/xp-pr_+ON-\n
+$stream/n<pr_STREM\n
+{.}\n
+$on{u}/pr_ON\n
+$/T<pr_yAN\n
+$a:nle:pig/aj<pr_ELPEN+I[C]AN $-ig/xs-aj<pr_+I[C]AN\n
+{=C not clear=}\n
+$acre/n<pr_AKER\n
+{.}\n
+$then/av_*yANNE\n
+$east/av_EST\n
+$on{u}/pr_ON\n
+$/T<pr_yAn\n
+$herepath/n<pr_Her+PA\\yE $path/n<pr-k_+PA\\yE\n
+{<EST<}\n
+{=del, expuncted=}\n
+$eft/av_EFT\n
+$on{u}/pr_ON\n
+\'_SCHOKEBROKES\n
+$ford/n<pr_FORD\n
+{.}\n
+$/Dispn_*yIS\n
+$here/av_HER\n
+$be/vps13_IS\n
+$to/pr_TO\n
+$witness/n<pr_WITT+NESSE $-ness/xs-n<pr_+NESSE\n
+\'_CNUT\n
+$king/n-t_CHINg\n
+{.}\n
+\'_WOLSTAN\n
+$archbishop/n-t_ARCHE+BISCHOP $arch-/xp-n_ARCHE+\n
+{.}\n
+$&/cj_&\n
+{\\}\n
+\'_LUwING\n
+$archbishop/n-t_ARCHE+BISCHOP $arch-/xp-n_ARCHE+\n
+{.}\n
+$&/cj_&\n
+\'_BRITgLOy\n
+$bishop/n-t_BISCHOP\n
+{.}\n
+$&/cj_AND\n
+\'_zEDNOD\n
+$bishop/n-t_BISCHOP\n
+{.}\n
+$&/cj_AND\n
+\'_BURTHLOy\n
+$bishop/n-t_BISCHOP\n
+{.}\n
+$&/cj_AnD\n
+{\\}\n
+\'_ADyELwINE\n
+$bishop/n-t_BISCHOP\n
+{.}\n
+$&/cj_AND\n
+\'_BRISTYNE\n
+$bishop/n-t_BISCHOP\n
+{.}\n
+$&/cj_AND\n
+\'_ADyELwORD\n
+$ealdorman/n-t_ELyERNE-MAN $man/n-k_-MAN\n
+{.}\n
+$&/cj_AND\n
+\'_ADyELwOLD\n
+$abbot/n-t_ABBOT\n
+{.}\n
+{\\}\n
+$&/cj_AND\n
+$/TN_yAT\n
+$hi:red/n_HYRED\n
+$of/pr_OF\n
+;_EXANCESTRE\n
+{.}\n
+$&/cj_AND\n
+$/TN_yAT\n
+$hi:red/n_HIRED\n
+$of/pr_OF\n
+;_Cr^IDIHAMTONe\n
+{.}\n
+$&/cj_AND\n
+$/DispnOd_yIS\n
+$cy:Yan?/vpt13_I+yIDDE $ge-/xp-vpt13_I+\n
+$/TN_yE\n
+$bishop/n_BISCHOP\n
+{\\}\n
+$/TOi_yANE\n
+$burhtown/nOi_BORg-TON $town/n<pr-k_-TON\n
+$to/pr+V_TO\n
+;_EXANCESTRE\n
+{.}\n
+$&/cj_AND\n
+$to/pr_TO\n
+;_TOTTENESSE\n
+{.}\n
+$&/cj_AND\n
+$to/pr_TO\n
+;_LIDAUORDE\n
+{.}\n
+$&/cj_AND\n
+$to/pr_TO\n
+;_BEARDESTAPLE\n
+{.}\n
+{(*PAX SIT HOC SerUANTIBus. & INFerNus. SIT HOC FRANGENTIBus.(}\n
+$&/cj_*AND\n
+$/DisG_yISSES\n
+$writ/nG_I+wRIT+ES $ge-/xp-n_I+ $/Gn_+ES\n
+$do/vSpp_I+DO+NA $ge-/xp-vpp_I+ $/vSpp[V]_+NA\n
+{.}\n
+$be/vps13_IS\n
+$in{p}/pr_ON\n
+;_CRIDIANI\\TONE\n
+{"And [a copy] of this writ is lodged in Crediton"}\n
+{.}\n
+$mid{w}/pr_MID\n
+$/P23G_HURE\n
+$old/ajpl<pr-cpv_ELD+ER $-er/xs-cpv-ajpl<pr_+ER $/plaj<pr_0\n
+$book/npl<pr_BOK+EN $/pln<pr_+EN\n
+{.}\n
+{\\\\}\n
+|\n
+\n
+\n'

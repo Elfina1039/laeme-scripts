@@ -1,0 +1,244 @@
+# 303\n
+{London, British Library, Stowe 34: Vices and Virtues, the main correcting scribe}\n
+C13a1\n
+547 207 E\n
+{=SW Essex}\n
+{=Sample represents all the English in this hand=}\n
+{=Script - early C13 proto-Gothic book hand=}\n
+{=Status - MS punctuation done; tagging notes and textual notes up to date=}\n
+{=This hand supplies many of the corrections to the text that were not made\n
+by the main scribe, Scribe A (text no. 64 vvat.tag), or by Scribe B (text\n
+no 65 vvbt.tag) as they went along. It is a smaller neater and rounder\n
+hand than those of Scribes A and B.  This scribe interlines additions to\n
+the main scribes\' texts and longer additions may run into the right\n
+margin. The tagged text below contains only that which seems to have\n
+been written by this particular correcting scribe. Judgements are sometimes\n
+difficult - especially using only a black and white microfilm, so some\n
+cases may belong to another corrector. The additions here are given the\n
+grammatical tags suitable to their position in the surrounding text,\n
+which may be found in text nos. 64 and 65 or in Holthausen (1888). Although\n
+the text here is thus discontinuous, line breaks and folio references are\n
+indicated in the usual way. Braces with no back slash indicate textual\n
+discontinuity but no line break. The text here is also given in the tagged\n
+texts of Scribes A and B, so that context can be cross-referenced, but\n
+in those texts the additions are left untagged and are bracketed out\n
+with accompanying notes indicating that they are in a different hand from\n
+that tagged=}\n
+{\\}\n
+{~p2~}\n
+{\\}\n
+$be/vSpp_gE+BE+N $/vSpp[V]_+N\n
+{=In left margin=}\n
+{\\}\n
+{~p6~}\n
+{\\}\n
+$le:an/nOd_LEAN\n
+{\\}\n
+{~p7~}\n
+{\\}\n
+{(PREBE(}\n
+{\\}\n
+{~p9~}\n
+{\\}\n
+$forto/im+C_FOR+[TO] $to/im+C-k_+[TO]\n
+{=In right margin marked for insertion before TO written by Scribe A=}\n
+{\\}\n
+{~p11~}\n
+$word/nplOd_wORD+ES $/plnOd_+ES\n
+{=In top margin marked for insertion=}\n
+{\\}\n
+{~p15~}\n
+{\\}\n
+$/P12G<pr+H_yINE\n
+{\\}\n
+{~p17~}\n
+{\\}\n
+$man/n_MANN\n
+{=In right margin marked for insertion, probably by this main correcting scribe=}\n
+{~p19~}\n
+{\\}\n
+$all/ajOd_ALL\n
+$hardness/nOd_ARD+NESSE $-ness/xs-nOd_+NESSE\n
+{\\}\n
+{~p21~}\n
+{\\}\n
+$/P13OiM_HIM\n
+{\\}\n
+{~p22~}\n
+{\\}\n
+$then{w}/cj_dANE\n
+$/P12N_yU\n
+$/neg-v>=_NE\n
+$love/vps12K2_LUU+EST $/vps12K2_+EST\n
+$not/neg-v<=_NOHT\n
+$/P12OdX_yE-SELUEn $-self/xs-Od_-SELUEn\n
+{.}\n
+{\\}\n
+{~p26~}\n
+{\\}\n
+$/TOd_dA\n
+{=Interlined above main text probably by this main correcting scribe=}\n
+{\\}\n
+$steer/vi_STER+EN $/vi_+EN\n
+{=Interlined above main text probably by this main correcting scribe=}\n
+{\\}\n
+{~p32~}\n
+{\\}\n
+$of/pr_OF\n
+$/T<pr_dae\n
+$board/n<pr_BORDE\n
+{\\}\n
+$/RTA_yE\n
+$never/av_NAURE\n
+$/neg-v(<av)_NE\n
+$may/vps13_MA^I\n
+$be/vi_BE+N $/vi[V]_+N\n
+$unbind/vSpp_UN+BUnD+EN $un-/xp-v_UN+ $/vSpp_+EN\n
+{.}\n
+{\\}\n
+$as/RTI_[SwA]-SwA\n
+{=First SwA in Scribe A\'s hand, this correcting scribe interlines a\n
+second SwA=}\n
+{\\}\n
+{~p34~}\n
+{\\}\n
+$christ/n<pr_CRISTE\n
+{=Interlined, probably by this main correcting scribe=}\n
+{\\}\n
+{~p35~}\n
+{\\}\n
+$on{i}/pr_ON\n
+$/P23<prX_HEM\n
+{\\} \n
+{~p37~}\n
+{\\}\n
+$nor/cj_NE\n
+$withhold/vi_wId+EALD+EN $with-/xp-v_wId+ $/vi_+EN\n
+{=In right margin marked for insertion=}\n
+{\\}\n
+{~p38~}\n
+{\\}\n
+$son/n_SUNE\n
+$/RTA_dE\n
+{\\}\n
+{~p40~}\n
+$&/cj_&\n
+$yet/av_gIET\n
+$onufan/pr_ON-UUEN\n
+$/Dat<pr_dAN\n
+$give/vps11_gIUE\n
+$/P11GOd+C_MINE\n
+$li:chama/nOd_LIKAME\n
+$to/im+C_TO\n
+$burn/vi-m_BARN+IN $/vi-m_+IN\n
+$all/av_AL\n
+{\\}\n
+$to/pr_TO\n
+$dust/n<pr_DUSTE\n
+{\\}\n
+$for/pr_FOR\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$love/n<pr_LUUE\n
+{=Interlined above the main text, and running into right margin=}\n
+{\\}\n
+{~p43~}\n
+{\\}\n
+$/P23N_HIE\n
+$come/vps23-apn_CUM+EN $/vps23-apn_+EN\n
+{\\}\n
+{~p47~}\n
+{\\}\n
+$devil/nOi_DEUELE\n
+{=In right margin translating CRAUIERE in Hand A=}\n
+{\\}\n
+{~p53~}\n
+{\\}\n
+$man/indef_MANN\n
+$/P12Oi_dE\n
+{\\}\n
+{~p55~}\n
+{\\}\n
+$or/cj_OdER\n
+$of/pr_OF\n
+$sleep/n<pr_SLAPE\n
+{=In left margin, probably in this main correcting hand=}\n
+{\\}\n
+{~p57~}\n
+{\\}\n
+$/P12-voc_yU\n
+{=In left margin=}\n
+{\\}\n
+{~p60~}\n
+{\\}\n
+$/P11GN+V_MIn\n
+$hope/n_OPE\n
+$be/vps13_IS\n
+$ever/av_AURE\n
+$fastli:ce/av_FAST+LICHE $-ly/xs-av_+LICHE\n
+{\\}\n
+{~p61~}\n
+{\\}\n
+$be/vsjps13_BE\n
+{\\}\n
+{~p62~}\n
+{\\}\n
+$/Datpn_dAT\n
+$benot/vps13_N+IS $n-/xp-neg(>pnN>but)_N+\n
+$none/pn_NOn\n
+$bu:tan{e}/pr_BUTE\n
+$/Dospn<prRTApl_SE-dE\n
+$follow/vps23K2_FOLg+ID $/vps23K2_+ID\n
+$god/nG_GOD+ES $/Gn_+ES\n
+$will/nOd_wILLE\n
+{\\}\n
+{~p64~}\n
+{\\}\n
+$erethat/cj_AR-dANNE $Yan/cj-k_-dANNE\n
+$/P23N_HIE\n
+$come/vps23-apn_CUM+EN $/vps23-apn_+EN\n
+{*sj context*}\n
+{\\}\n
+{~p69~}\n
+{\\}\n
+$/P13OiM_HIM\n
+{\\}\n
+{~72~}\n
+{\\}\n
+$so/av_SwA\n
+{=In left margin=}\n
+{\\}\n
+$swi:De/av_SwIdE\n
+{\\}\n
+{~p79~}\n
+{\\}\n
+$thing/nplG_yING+E $/plnG_+E\n
+{=In right margin=}\n
+{\\}\n
+{~p83~}\n
+{\\}\n
+$of/pr_OF\n
+$/P13<prXM_HIm-SELUEN $-self/xs-<pr_-SELUEN\n
+{\\}\n
+{~p84~}\n
+{\\}\n
+$/DisN_yES\n
+{\\}\n
+{~p87~}\n
+{\\}\n
+$/P21N_wE\n
+{\\}\n
+{~p89~}\n
+{\\}\n
+$/AN_ON\n
+{\\}\n
+{~p91~}\n
+{\\}\n
+$then/av_*dANNE\n
+$may/vps11_MAI\n
+$/P11N+H_IC\n
+$hope/viK2_HOP+IEN $/viK2_+IEN\n
+{\\}\n
+{=No more corrections in this hand=}\n
+|\n
+\n
+\n'
